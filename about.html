@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>New Web Project</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <script type="text/javascript" src="data/visference-config.js"></script>
+        <script type="text/javascript" src="data/myData.js"></script>
+        <script>
+        $(document).ready(function() {
+			$('#showhidefilters').click(function() {
+					//  get the width in %
+					var width = $('#tablecontainer').width();
+					var parentWidth = $('#tablecontainer').offsetParent().width();
+					var percent = 100*width/parentWidth;
+					
+					if (Math.floor(percent) > 90) {
+						$("#tablecontainer").css("width", "");
+						$('#tablecontainer').promise().done(function(){
+							$('#sidebar').show("slow");
+						});
+					} else {
+						$('#sidebar').hide();
+						$('#sidebar').promise().done(function(){
+							$("#tablecontainer").animate({"width": "100%"}, "slow");
+						});
+					}
+			});
+		});
+		</script>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+	<script src="js/html-include-bootstrap.js"></script>	
+	<div class="mycontainer">
+		<!-- Main hero unit for a primary marketing message or call to action -->
+		<div style="position:relative;width:90%;">
+			<div id="right">
+				<p>Showing</p>
+				<div id="countercontainer">
+					<br />
+					<span id="counter">XX
+					</span>
+				</div>
+				<p>documents</p>
+			</div>	
+		</div>
+		<p><img src="http://jmlr.org/jmlr.jpg" width="120px" /></p>
+		<p><a id="showhidefilters" class="btn btn-primary">show/hide sidebar</a></p>
+		<div class="hero-unit" id="sidebar" data-spy="affix" style="position:relative;float:left;width:15%;">
+		<p>Text here</p>
+		<div id="filters">
+		</div>
+		</div>
+	</div>
+	<!--Post bootstrap-->
+	<div id="title"><h2>Title here</h2>
+	</div>
+	<div id="tablecontainer">
+		<h3>Text here</h3>
+		<div id="list">
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<hr>
+	<footer>
+		<p>my foofter</p>
+	</footer>
+    </body>
+</html>

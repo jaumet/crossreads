@@ -1,0 +1,141 @@
+
+/***************************************************************/
+/* table sorter styles */
+/***************************************************************/
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url('../images/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url('../images/asc.gif');
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url('../images/desc.gif');
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+/***************************************************************/
+/* Visference styles */
+/***************************************************************/
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  height:100%;
+}
+.circle {
+  background-color:orange;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  display:inline-block;
+  margin-top:2px;
+  margin-bottom:2px;
+  /*margin:2px 40% 2px auto;*/
+  color:black;
+  
+}
+#countercontainer {
+  background-color:grey;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:20%;
+  border-bottom-right-radius:20%;
+  border-top-left-radius:20%;
+  border-top-right-radius:20%;
+  display:inline-block;
+  padding:7px;
+  text-align:center;
+  }
+#counter {
+  color:#ffffff;
+  font-size:70px;
+}
+#tablecontainer {
+	position:relative;
+	float:left;
+	width:80%;
+	padding-left:10px;
+}
+.widetable {
+	width:100%;
+}
+td {
+  text-align:center;
+  min-width:60px;
+  border-bottom: 1px solid #d8e5e5;
+}
+td span {  
+  /*display:inline-block;
+  vertical-align:middle;*/
+}
+.tabletitle {
+   text-align:left;
+}
+.hero-unit {
+	padding:0;
+	padding-top:0;
+	background-color:#EFEFEF;
+}
+.mycontainer:after {
+	clear:none;
+}
+.mycontainer {
+	height:100%;
+}
+.my {
+	padding:0;
+}
+#right {
+	position:relative;
+	float:right;
+	width:100px;
+	font-size:14px;
+}
+#right p {
+	text-align:center;
+}
+.checkbox {
+	/*float:left;*/
+	border:0px solid grey;
+	margin-left:4px;
+	padding-left:25px;
+	/*width: 150px;*/
+}
+#title {
+	padding-left:20px;
+	position:relative;
+	float:left;
+}

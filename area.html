@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AREA</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/d3.v2.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./data/data.js"></script>
+	<script type="text/javascript" src="./data/visference-config.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/area.css" rel="stylesheet">
+  </head>
+  <body>
+	<script src="js/html-include-bootstrap.js"></script>
+  	<div id="panel">
+		<div id="title">
+			<p syle="padding:0;margin:0;">AREA: explore data at a glance</p>
+		</div>
+		<div id="config">
+			<ul class='tabs'>
+				<li><a href='#tab1'>Parameters & legend</a></li>
+				<li><a href='#tab2'>filter</a></li>
+				<li><a href='#tab3'>About the data</a></li>
+				<li><a href='#tab4'>Configuration</a></li>
+			</ul>
+		</div>
+		<div style="clear:both;"></div>
+		<div id='tab1' class="tab">
+			<div class="configuration_div">
+				<p>Parameters</p>
+				<div id="params">
+				</div>
+				<input type="button" class="submit_params" value="apply" />
+			</div>
+			<div class="configuration_div">
+				<p>Legend</p>
+				<p>
+					Blocks:&nbsp;&nbsp;<span id="legend1" class="legendlist"></span>
+					<br />
+					Colors:&nbsp;&nbsp;<span id="legend2" class="legendlist"></span>
+				</p>
+			</div>			
+		</div>
+		<div id='tab2' class="tab">
+			<p>
+				<div id="filtered_params"></div>
+				<input id="filter" type="text" />
+				<input type="button" class="submit_params" value="filter" />
+			</p>
+		</div>
+		<div id='tab3' class="tab">
+			<div id="analysis">
+				<span>Eligible parameters:</span>
+				<table id="good"></table>
+				<p>&nbsp;</p>
+				<span>Rest of parameters:</span>
+				<table id="bad"></table>
+			</div>
+		</div>
+		<div id='tab4' class="tab">
+			<div class="configuration_div">
+				<p>size: 
+					<input class="defaultText" id="areax" type="text" />
+					&nbsp;<b>X</b>&nbsp;
+					<input class="defaultText" id="areay" type="text" />
+				</p>
+				<p>colors schema: 
+					<select id="colors_approach">
+						<option value="fix">fix</option>
+						<option value="random">random</option>
+						<option value="gradient">gradient</option>
+					</select>				
+				</p>
+			</div>
+			<div class="configuration_div">
+				<p>
+					<input type="button" class="submit_params" value="apply" />
+				</p>
+			</div>
+		</div>
+	</div>
+
+   	<div style="clear:both;height:20px;"></div>
+	<div id="area"></div>
+	<div id="node_info">
+		<div id="node_info_close"><b>X</b></div>
+		<p>Node info:</p>
+		<div id="node_info_data"></div>
+	</div>
+	
+    <script type="text/javascript" src="./js/area_functions.js"></script>
+    <script type="text/javascript">
+		
+		///////////////////////////////
+		// MAIN AREA FUNCTION
+		function do_area(PARAM1, PARAM2, AREAX, AREAY, COLORS_APPROACH, FILTER) {
+			
+			////////////////////////////////
+			// FILTER TAB
+			if ($('#filtered_params input').length == 0) {
+				var filter_params_list = 'Check parameters to filter:<br />';
+				$.each(FIELDS[0], function(i, el) {
+					//console.log("list params: "+FIELDS[0].el);
+					if (el.areafilter == 1) {
+						filter_params_list += '<span><input type="checkbox" checked name="'+i+'" value="'+i+'">'+el.human+'</span>&nbsp;&nbsp;';	
+					}
+				});		
+				$('#filtered_params').append(filter_params_list);
+			}
+			
+			// Array of checked filter's checkboxes.
+			var selected = new Array();
+			$('#filtered_params input:checked').each(function() {
+			    selected.push($(this).attr('name'));
+			});
+
+			////////////////////////////////
+			// DATA PARSER:
+			var d_length = DATA.length;
+	
+			// Get list of parameters from DATA:
+			var params = [];
+			var dupes = {};
+			var rows = 0;
+			$.each(DATA, function(i0, el0) {
+				rows ++;
+				$.each(el0, function(i, el) {
+					if (!dupes[i]) {
+						dupes[i] = true;
+						params.push(i);
+					}
+				});
+			});
+
+			// Building the table about the data
+			$('#analysis').prepend('<div id="expand">&nbsp;</div><p>number of cases: <b>'+rows+'</b></p>');			
+			var thead = '<thead><tr><th>Name</th><th>Number of values</th><th>Values</th></tr></thead>';
+			$('#good').append(thead);	
+			$('#bad').append(thead);
+
+			// Walk through the list of parameters and draw a table, and the the dropdowns for the two parameters
+			var d = [];
+			var l = 0;
+			var myoptions_end = ''; var myopt='';
+			myoptions1 = '<select id="options1"><option value="select">select</option>';
+			myoptions2 = '<select id="options2"><option value="select">select</option>';
+			$.each(params, function(i, el) {
+				d = distinc(DATA, el);
+				l = d.length;
+				if (l<MAX_DISTINC) {
+					myid = "#good";
+					d = '<td>'+d+'</td>';
+					myopt += '<option value='+el+'>'+FIELDS[0][el]['human']+'</option>';
+				} else {
+					myid = "#bad";
+					d = '<td> - </td>';
+				}
+				$(myid).append(
+					'<tr><td>'+FIELDS[0][el]['human']+'</td><td>'+l+'</td>'+d+'</tr>'
+				);
+			});
+			myoptions_end += '</select>';
+			dbarrow = '<img id="dbarrow" src="images/dbarrow.png" width="30px" />';
+			$('#params').append(myoptions1+myopt+myoptions_end+dbarrow+myoptions2+myopt+myoptions_end);		
+			
+			// select the PARA1 and PARAM2 in the two dropdowns
+			$('#options1').val(PARAM1);
+			$('#options2').val(PARAM2);
+			
+			// Add AREA config values to the config TAB fields
+			$('#areax').val(AREAX);
+			$('#areay').val(AREAY);
+			$('#colors_approach').val(COLORS_APPROACH);
+	
+			// Count here the max number of elements for each value and get the max one
+			max1 = 0;max1name = '';
+			distinc1 = distinc(DATA, PARAM1);
+			$.each(distinc1, function(i, el) {
+				if (countValues(DATA, PARAM1, el) > max1) {
+					max1 = countValues(DATA, PARAM1, el);
+					max1name = el;
+				}
+			});
+			
+			//////////////////////////////////////////
+			// DISPLAY
+			
+			///////////////////////
+			// BLOCK REPRESENTATION
+
+			function block_builder(DATA, blockx, blocky, param_val1, param2colors, FILTER, selected, areaSVG) {
+				var dim_node = Math.sqrt(max1);
+				if (dim_node != Math.floor(dim_node)) {
+					dim_node = Math.floor(dim_node)+1;
+				}
+				var nodex = Math.floor(blockx/dim_node);
+				var nodey = Math.floor(blocky/dim_node);
+					
+				// creating a d3 canvas per block
+                //console.log("xxx"+param_val1);
+				areaSVG = d3.select('#b-'+param_val1)
+					.append("svg:svg")
+					.attr("width", blockx)
+					.attr("height", blocky)
+					.style('position','relative');
+				
+				var my_x = 0;
+				var my_y = 0;
+				var count = 0;
+				$.each(DATA, function(index, value) {
+					var content = "<ul>";
+					if(value[PARAM1] == param_val1) {
+						n = count/dim_node;
+						if (typeof n === 'number' && n % 1 == 0) {
+							my_x = 0;
+						} else {
+							my_x = my_x + nodex;
+						}
+						my_y = Math.floor(n) * nodey;
+
+						// build node content:
+						var mycolor; var darkme = 0;
+						$.each(value, function(i, el) {
+							content += "<li>"+FIELDS[0][i]['human']+" -> "+el+"</li>";
+							mycolor = param2colors[value[PARAM2]];
+							if (FILTER.length > 2 && jQuery.inArray(i, selected) > -1 && String(el).indexOf(FILTER)>=0) {darkme = 1;}
+						});
+						if (darkme == 1) {
+							if (COLORS_APPROACH == "gradient") {
+								mycolor = "rgb(210, 210, 210)";
+							} else {	
+								mycolor = get_dark_color(mycolor);
+							}
+						}
+						content += "</ul>";
+						draw_node(my_x, my_y, nodex, nodey, value.id, content, mycolor, areaSVG);
+						count ++;
+						content = "";
+					}
+				});
+			}
+			
+			function draw_node(x, y, nodex, nodey, id, content, color, areaSVG) {	
+				areaSVG.append("svg:rect")
+					.attr("x", x)
+					.attr("y", y)
+					.attr("width", nodex)
+					.attr("height", nodey)
+					.attr("stroke", "#ffffff")
+					.attr('class','node')
+					.attr("id", id)
+					.style('fill',color)
+					.on('mouseover', function(d,i) { 
+			    		d3.select(this)
+			      			.style('fill','lightblue'); 
+			   		})
+					.on('mouseout', function(d,i) { 
+	        			d3.select(this)
+	    					.style('fill',color); 
+	      			})
+	      			.on('click', function(d,i) {
+		      			d3.select(this);
+	  	    			$('#node_info_data').html(content);
+	  	    			$("#node_info").css("display", "block");
+	      		});
+			};
+			
+			///////////////////////
+			// MATRIX REPRESENTATION
+
+			// FIXME  Keep colors when change param1, config or filter
+			 
+			// Prepare colors for PARAM2 values:
+			var param2colors = [];
+			
+			// FIXME this parameter can be added to the configuration
+			// Order of blocks by PARAM1: use .sort() OR .reverse()
+			var distinc2 = distinc(DATA, PARAM2).sort(); // ASC
+			//var distinc2 = distinc(DATA, PARAM2).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
+			
+			switch(COLORS_APPROACH) {
+				case "random":
+					colors = get_random_colors(distinc2.length);
+				  break;
+				case "gradient":
+					colors = get_random_hsv(60, 100, distinc2.length);
+				  break;
+				default:
+					// Approach 1: fix and sorted list of colors
+					var colors = ['#CC5151', '#51CCCC', '#8ECC51', '#8E51CC', '#CCAD51', '#51CC70', '#5170CC', '#CC51AD', '#CC7F51', '#BCCC51', '#60CC51', '#51CC9E', '#519ECC', '#6051CC', '#BC51CC', '#CC517F', '#CC6851', '#CC9651', ];
+				  break;
+			}
+
+			// Getting legend of param2
+			var legend2 = "";
+			$.each(distinc2, function(i, el) {
+				param2colors[el] = colors[i];
+				legend2 += '<span class="legendtxt" style="background-color:'+colors[i]+';">'+getHumanName(FIELDS[0], el)+'</span>&nbsp;';
+			});
+			// Adding legend of param2
+			$('#legend2').append(legend2);
+
+			// sort DATA
+			sortJSON(DATA,PARAM2);
+
+			// FIXME this parameter can be added to the configuration
+			// Order of blocks by PARAM1: use .sort() OR .reverse()
+			distinc1 = distinc(DATA, PARAM1).sort(); // ASC
+			//distinc1 = distinc(DATA, PARAM1).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
+
+			// Calculate size of blocks:
+			// Number of blocks: distinc1.length
+			var dim_blocks = Math.sqrt(distinc1.length);
+			if (dim_blocks != Math.floor(dim_blocks)) {
+				dim_blocks = Math.floor(dim_blocks)+1;
+			}
+			var blockx = Math.floor(AREAX/dim_blocks);
+			var blocky = Math.floor(AREAY/dim_blocks);
+			
+			$('#area').css("width", AREAX+2+(2*dim_blocks)+"px"); // FIXME check this width correction
+			var legend1 = ""; 
+			$.each(distinc1, function(i, param1_val) {
+				// Getting legend of param1
+				if (getHumanName(FIELDS[0], param1_val) !== 'undefined') {
+					console.log("param1_val: "+param1_val+" | ");
+					legend1 += '<span class="legendtxt">'+getHumanName(FIELDS[0], param1_val)+'</span>&nbsp;';
+					$('#area').append('<div id="b-'+param1_val+'" class="block"><div class="blockname">'+getHumanName(FIELDS[0], param1_val)+'</div></div>');
+					block_builder(DATA, blockx, blocky, param1_val, param2colors, FILTER, selected);
+				}
+			});
+			// Adding legend of param1
+			$('#legend1').append(legend1);
+		}
+		
+		FILTER = "";
+		do_area(PARAM1, PARAM2, AREAX, AREAY, COLORS_APPROACH, FILTER);
+		
+		$(".submit_params").on("click", function(event){
+			p1 = $("#options1").val();
+			p2 = $("#options2").val();
+			ax = parseInt($('#areax').val());
+			ay = parseInt($('#areay').val());
+			c_a = $("#colors_approach option:selected").val();
+			fltr = $("#filter").val();
+			
+			//if (p1 != 'select' || p2 != 'select') {
+				prepare_divs();
+				do_area(p1, p2, ax, ay, c_a, fltr);
+			//}
+		});
+
+		$('#tab3').on('mouseenter', function(){
+		    $(this).css("z-index", 10).animate({ margin: 10, height: "+=240"});
+		})
+		.on('mouseleave', function(){
+		    $(this).css("z-index", 0).animate({ margin: 0, height: "-=240"});
+		})
+
+		$("#node_info_close b").on("mouseover", function(event){
+			$("#node_info").css("display", "none");
+		});
+
+    </script>
+  </body>
+</html>
+
