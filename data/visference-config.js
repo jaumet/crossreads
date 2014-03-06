@@ -16,7 +16,7 @@
 	var MAX_DISTINC = 500;
 	var AREAX = 800;
 	var AREAY = 600;
-	var COLORS_APPROACH = "gradient"; // fix, random, gradient
+	var COLORS_APPROACH = "fix"; // fix, random, gradient
 	var PARAM1 = "year";
 	var PARAM2 = "format";
 	var AREA_TITLE = "";
@@ -31,7 +31,7 @@
 
 var FIELDS = [
 	{
-		"id": 
+		"tid": 
 			{ human: "My ID", areafilter: "0", role:"table"},
 		"title": 
 			{ human: "My Title", areafilter: "1", role:"table-area"},

@@ -4,6 +4,9 @@
 	float:left;
 	border-top: 0px solid grey;
   }
+#panel {
+	margin-top:20px;
+}
 thead {
 	background-color:#ffffff;
   }

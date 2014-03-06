@@ -116,14 +116,14 @@
 			});
 
 			////////////////////////////////
-			// DATA PARSER:
-			var d_length = DATA.length;
+			// METADATA PARSER:
+			var d_length = METADATA.length;
 	
-			// Get list of parameters from DATA:
+			// Get list of parameters from METADATA:
 			var params = [];
 			var dupes = {};
 			var rows = 0;
-			$.each(DATA, function(i0, el0) {
+			$.each(METADATA, function(i0, el0) {
 				rows ++;
 				$.each(el0, function(i, el) {
 					if (!dupes[i]) {
@@ -146,18 +146,18 @@
 			myoptions1 = '<select id="options1"><option value="select">select</option>';
 			myoptions2 = '<select id="options2"><option value="select">select</option>';
 			$.each(params, function(i, el) {
-				d = distinc(DATA, el);
+				d = distinc(METADATA, el);
 				l = d.length;
 				if (l<MAX_DISTINC) {
 					myid = "#good";
 					d = '<td>'+d+'</td>';
-					myopt += '<option value='+el+'>'+FIELDS[0][el]['human']+'</option>';
+					myopt += '<option value='+el+'>'+getHumanName(FIELDS, FIELDS[0][el])+'</option>';
 				} else {
 					myid = "#bad";
 					d = '<td> - </td>';
 				}
 				$(myid).append(
-					'<tr><td>'+FIELDS[0][el]['human']+'</td><td>'+l+'</td>'+d+'</tr>'
+					'<tr><td>'+getHumanName(FIELDS, FIELDS[0][el])+'</td><td>'+l+'</td>'+d+'</tr>'
 				);
 			});
 			myoptions_end += '</select>';
@@ -175,10 +175,10 @@
 	
 			// Count here the max number of elements for each value and get the max one
 			max1 = 0;max1name = '';
-			distinc1 = distinc(DATA, PARAM1);
+			distinc1 = distinc(METADATA, PARAM1);
 			$.each(distinc1, function(i, el) {
-				if (countValues(DATA, PARAM1, el) > max1) {
-					max1 = countValues(DATA, PARAM1, el);
+				if (countValues(METADATA, PARAM1, el) > max1) {
+					max1 = countValues(METADATA, PARAM1, el);
 					max1name = el;
 				}
 			});
@@ -189,7 +189,7 @@
 			///////////////////////
 			// BLOCK REPRESENTATION
 
-			function block_builder(DATA, blockx, blocky, param_val1, param2colors, FILTER, selected, areaSVG) {
+			function block_builder(METADATA, blockx, blocky, param_val1, param2colors, FILTER, selected, areaSVG) {
 				var dim_node = Math.sqrt(max1);
 				if (dim_node != Math.floor(dim_node)) {
 					dim_node = Math.floor(dim_node)+1;
@@ -198,7 +198,6 @@
 				var nodey = Math.floor(blocky/dim_node);
 					
 				// creating a d3 canvas per block
-                //console.log("xxx"+param_val1);
 				areaSVG = d3.select('#b-'+param_val1)
 					.append("svg:svg")
 					.attr("width", blockx)
@@ -208,7 +207,7 @@
 				var my_x = 0;
 				var my_y = 0;
 				var count = 0;
-				$.each(DATA, function(index, value) {
+				$.each(METADATA, function(index, value) {
 					var content = "<ul>";
 					if(value[PARAM1] == param_val1) {
 						n = count/dim_node;
@@ -261,6 +260,9 @@
 	      			})
 	      			.on('click', function(d,i) {
 		      			d3.select(this);
+///////////////////////////////////////////////////////////////////////////
+////////////////////	Put here the call to the crossreads function!!!!
+						console.log("text id: "+id+" | ");
 	  	    			$('#node_info_data').html(content);
 	  	    			$("#node_info").css("display", "block");
 	      		});
@@ -276,8 +278,8 @@
 			
 			// FIXME this parameter can be added to the configuration
 			// Order of blocks by PARAM1: use .sort() OR .reverse()
-			var distinc2 = distinc(DATA, PARAM2).sort(); // ASC
-			//var distinc2 = distinc(DATA, PARAM2).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
+			var distinc2 = distinc(METADATA, PARAM2).sort(); // ASC
+			//var distinc2 = distinc(METADATA, PARAM2).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
 			
 			switch(COLORS_APPROACH) {
 				case "random":
@@ -301,13 +303,13 @@
 			// Adding legend of param2
 			$('#legend2').append(legend2);
 
-			// sort DATA
-			sortJSON(DATA,PARAM2);
+			// sort METADATA
+			sortJSON(METADATA,PARAM2);
 
 			// FIXME this parameter can be added to the configuration
 			// Order of blocks by PARAM1: use .sort() OR .reverse()
-			distinc1 = distinc(DATA, PARAM1).sort(); // ASC
-			//distinc1 = distinc(DATA, PARAM1).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
+			distinc1 = distinc(METADATA, PARAM1).sort(); // ASC
+			//distinc1 = distinc(METADATA, PARAM1).reverse(); // DESC (to use it just uncomment this line and let the sort() one active
 
 			// Calculate size of blocks:
 			// Number of blocks: distinc1.length
@@ -323,10 +325,10 @@
 			$.each(distinc1, function(i, param1_val) {
 				// Getting legend of param1
 				if (getHumanName(FIELDS[0], param1_val) !== 'undefined') {
-					console.log("param1_val: "+param1_val+" | ");
+					//console.log("param1_val: "+param1_val+" | ");
 					legend1 += '<span class="legendtxt">'+getHumanName(FIELDS[0], param1_val)+'</span>&nbsp;';
 					$('#area').append('<div id="b-'+param1_val+'" class="block"><div class="blockname">'+getHumanName(FIELDS[0], param1_val)+'</div></div>');
-					block_builder(DATA, blockx, blocky, param1_val, param2colors, FILTER, selected);
+					block_builder(METADATA, blockx, blocky, param1_val, param2colors, FILTER, selected);
 				}
 			});
 			// Adding legend of param1
