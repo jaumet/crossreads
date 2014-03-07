@@ -1,0 +1,58 @@
+[
+  {
+  "pid" : "0",
+  "p" : "Fue en los años sesenta que se comenzó a hablar de computer graphics, computer movies, computer art... Según algunas fuentes, el primer film de imágenes creadas con ordenador es el que realizó Edward E. Zajac, el año 1963, en los laboratorios de la Bell Telephone Co. de Murray Hill, Nueva Jersey, con una finalidad de estudio y simulación del movimiento orbital de un satélite artificial. Este film, de cuatro minutos de duración y en blanco y negro, fue realizado con un ordenador IBM 7094."
+  },
+  {
+  "pid" : "1",
+  "p" : "De una manera más amplia, sin embargo, la generación electrónica de formas visuales y su modulación y animación cinética tiene diversos antecedentes a lo largo de la década anterior. De hecho, algunos estudiosos del tema destacan entre los antecedentes o primeras manifestaciones de computer graphics a los Oscillons de Ben F. Laposky, \"abstracciones electrónicas\" creadas por dicho artista desde 1950, por el procedimiento de fotografiar unas formas obtenidas en la pantalla de un osciloscopio."  
+  },
+  {
+  "pid" : "2",
+  "p" : "Igualmente, en el caso de los computer movies, cabe recordar que algunos destacados experimentalistas cinematográficos, como Norman McLaren, Mary Ellen Bute, Hy Hirsh, Jordan Belson y John Whitney trabajaron también en los años cincuenta con osciloscopios y otros instrumentos electrónicos analógicos. Así, Mary Ellen Bute, para la realización de Abstronics (1954) y otros de sus films, contó con la colaboración del Dr. Ralph Potter, también de los Laboratorios Bell, el cual diseñó y construyó unos circuitos específicos que permitían una programación precisa del osciloscopio."
+  },
+  {
+  "pid" : "3",
+  "p" : "Es bien sabido también que, hacia finales de los años cincuenta, John Whitney se ingenió una máquina de animación propia, a veces descrita como un computador analógico, a partir de elementos procedentes de viejos sistemas de detección antiaérea. Dicha máquina la empleó para la realización de efectos y títulos de crédito en trabajos de encargo –su contribución más célebre fue en Vertigo, de Hitchcock–, mientras que otras búsquedas propias quedaron recogidas en su cortometraje Catalog (1961). Sucesivamente, este sistema analógico y mecánico de John Whitney, primitivo pero lleno de posibilidades, sería magistralmente utilizado y perfeccionado por su hermano James (Lapis, 1963-66), su esposa –la artista Jacqueline Helen Blum– y los tres hijos del matrimonio: Michael, Mark y, más especialmente, John Whitney, Jr."  
+  },
+  {
+  "pid" : "4",
+  "p" : "Además de la saga de los Whitney –que todavía se podría alargar con algunos colaboradores o discípulos–, otros de los pioneros reconocidos del cine cibernético en Estados Unidos fueron John Stehura, Stan Vanderbeek, Kenneth C. Knowlton, William A. Fetter, A. Michael Noll, Duane Palyka, Charles Csuri, Lillian Schwartz, Edwin Catmull, Larry Cuba... Entre estos nombres, se mezclan los de quienes procedían de una práctica artística –a menudo en la demarcación del cine experimental–, con los de prestigiosos científicos, ingenieros e informáticos; con frecuentes colaboraciones de unos con otros, así como con empresas punteras, laboratorios de investigación y departamentos universitarios."
+  },
+  {
+  "pid" : "5",
+  "p" : "Así, a mediados de los sesentas, John Whitney halló la colaboración del Dr. John P. Citron y, a través del mismo, de la empresa IBM, lo que le permitió proseguir sus búsquedas con el nuevo instrumental digital. Ken Knowlton, de los Laboratorios Bell, colaboró sucesivamente con Stan Vanderbeek y Lillian Schwartz en diversos cortos de animación experimental. Otros de los primeros computer movies surgieron, en fin, de las actividades inherentes a laboratorios de investigación tecnocientífica, como los de Boeing o la NASA además de los ya mencionados de la Bell y de IBM; o también en diversos centros universitarios. Entre estos últimos cabe destacar el Computer Graphics Research Group, fundado por Charles Csuri en la Universidad Estatal de Ohio, y el Architecture Machine Group del Massachusetts Institute of Technology, fundado por Nicholas Negroponte."
+  },
+  {
+  "pid" : "6",
+  "p" : "Una de les primeras exposiciones de computer art en EE.UU. fue la presentada el año 1965 por la Howard Wise Gallery de Nueva York. Los expositores no eran sin embargo conocidos como artistas, sino como científicos y técnicos afiliados a diferentes empresas y laboratorios de investigación. Al margen de este detalle –bien significativo de una época en que el antiarte de Fluxus, por ejemplo, convivía con la celebración de las colaboraciones entre arte y tecnología–, ese mismo año de 1965 constituye todo un hito en la historiografía del vídeo como medio artístico. Y la misma galería de Howard Wise habría de presentar, cuatro años después, una de las primeras exposiciones colectivas de videoarte: TV as a Creative Medium (1969)."
+  },
+  {
+  "pid" : "7",
+  "p" : "En la historia propia del videoarte, la síntesis y el tratamiento o procesado electrónico de las imágenes son aspectos precozmente anticipados. Nam June Paik, Eric Siegel, Stephen Beck, Bill y Louise Etra, Bill Hearn, Dan Sandin, Woody y Steina Vasulka son algunos de los artistas que, a finales de los sesentas y a lo largo de los setentas, se construyeron o adaptaron sus propios instrumentos para la generación y manipulación de formas visuales (y, a veces, también sonoras), ya fuera partiendo de sus intuiciones y por sus propios conocimientos técnicos, o bien con la colaboración de ingenieros o “manos hábiles” en terrenos de la electrónica: Paik con Shuya Abe; los Etra con Steve Rutt; los Vasulkas con George Brown, Donald MacArthur i Jeffrey Schier. En algunos casos, además, poniendo sus ingenios al libre alcance de cualquier otra persona o entidad que quisiera utilizarlos; concretamente, tanto Paik como Sandin rehusaron la reclamación de una patente. Colorizadores, sintetizadores de vídeo, procesadores de imágenes y de su trama de líneas y píxeles, se añadieron así al feedback de la señal de vídeo, el mezclador, el generador de efectos, la incrustación o chroma-key, etc.; aparatos, técnicas o recursos comunes pero de uso entonces infrecuente o restringido a determinados formatos televisivos."
+  },
+  {
+  "pid" : "8",
+  "p" : "En gran parte, dichos aparatos pertenecen a una generación analógica y son el resultado de un bricolaje vocacional que logra, sin embargo, algunas posibilidades sorprendentes. Y no es hasta principios de los setentas que hallamos máquinas más sofisticadas como el Scanimate, detrás de la cual hay ya una empresa: la Dolphin Computer Image Corporation. Ed Emshwiller, por ejemplo, se sirvió brillantemente de dicho aparato en cintas como Scape Mates (1972) y Crossings and Meetings (1974); en esta última, en combinación con un novedoso sistema de videodisco."
+  },
+  {
+  "pid" : "9",
+  "p" : "Aquellos primitivos videosintetizadores que tanto nos maravillaron en los programas de videoarte de no hace tantos años, quedaron luego arrinconados por la ultimísima pirotecnia digital y por los superordenadores de que gozaban las grandes o medianas empresas de infografia, CGI o efectos visuales. Medios raramente accesibles para los creadores independientes, aunque los pasos de gigante de la informática fueron acompañados de pasos más cortos en el territorio del vídeo experimental y la informática personal, con aportaciones bien sustanciales y redescubiertas actualmente."
+  },
+  {
+  "pid" : "10",
+  "p" : "Así, entre las primeras aproximaciones a los sistemas digitales cabe recordar el Video Weaver de Stephen Beck, aparato harto rudimentario y prácticamente limitado a la generación de tramas de tipo mosaico, con el cual realizó la serie de los Video Weavings (1975). La combinación del Image Processor de Dan Sandin con los lenguajes de programación gráfica GRASS i ZGRASS de Tom DeFanti constituye originalmente un sistema híbrido analógico-digital, a partir del cual se desarrolló el trabajo del llamado Grupo de Chicago, del cual formaron también parte Phil Morton, Jane Veeder, Bob Snyder, Barbara Sykes i Copper Giloth. El Digital Image Articulator de los Vasulkas y Jeffrey Schier constituye así mismo un sistema híbrido, las características del cual fueron didácticamente expuestas en cintas como Artifacts (1980) y Cantaloup (1981)."
+  },
+  {
+  "pid" : "11",
+  "p" : "Hay que recordar también Sunstone (1979), una breve cinta realizada por EdEmshwiller en el New York Institute of Technology –en estrecha colaboración conAlvy Ray Smith; luego una de las personas-clave en la división informática deLucasfilms–, todo un clásico en la parcela de la animación por ordenador, cuyaelaboración requirió en su momento ocho meses de intenso trabajo (para unaduración final de tres minutos)."  
+  },
+  {
+  "pid" : "12",
+  "p" : "En Europa, los rastros son más exiguos y discontinuos –además, permanecenescasamente documentados a veces– por comparación con el grosor que tienenlas precursoras experiencias que se sucedieron en Norteamérica, tal como lasrecapituladas hasta aquí. Sin embargo, para completar una arqueología (cercana)de la cibernética audiovisual, su estudio debería completarse con las aportacionesmás o menos aisladas de artistas como Karl Otto Götz, Marc Adrian, Georg Nees,Denys Irving o Malcolm Le Grice, así como de algunos individuos (artistas otécnicos) que se internaron en la creación de máquinas específicas para la síntesisy el procesamiento de imágenes electrónicas, y cuya fama –cuando la tienen– esde orden esencialmente local."  
+  },
+  {
+  "pid" : "13",
+  "p" : "La interfaz entre el ordenador y el vídeo –y de rebote el cine, con los procesos delllamado cine digital– se ha convertido en común o recíproca con el paso de losaños: cuando la pantalla de televisión se ha transmutado también en monitor devídeo y terminal informático, e incluso en sucedáneo del “cine en casa”. Loscomputer movies, por otro lado, se han integrado en nuestro entorno cotidiano,pletóricamente audiovisual y multimediatico: videoclips, spots, molinetes,videojuegos, simulacros, animaciones, films de efectos, animaciones flash, buclesexpositivos... Por último, otra gran faceta de la conjunción de la informática y elaudiovisual es hoy moneda corriente en los procesos de montaje y postproducciónaudiovisual. Y, si bien muchos de estos aspectos no tienen demasiado que ver conla estética cibernética de otro tiempo, son todo un reflejo de la evolución que nostrae del osciloscopio y el videosintetizador a la implantación a gran escala del chipprodigioso."  
+  }
+]

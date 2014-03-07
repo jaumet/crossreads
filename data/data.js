@@ -21,13 +21,13 @@ var METADATA = [
 	},
 	{
 		"tid":3,
-		"title": "T",
+		"title": "Del oscilógrafo al chip prodigioso",
 		"year": 1988,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-		"numImg": "N"
+		"lang": "Spanish",
+		"format": "Opinion",
+		"topic": "05 - ELECTRÓNICAS MISCELÁNEAS",
+		"publication": "Published in bla bla editions, 1988",
+		"numImg": "0"
 	},
 	{
 		"tid":4,
