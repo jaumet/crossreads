@@ -60,23 +60,23 @@
     <!-- row of three columns -->
     <div class="row">
       <div class="col-md-4">
-        <h2>Heading</h2>
+        <h2>Heading left</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
-        <h2>Heading</h2>
+        <h2>Heading centre</h2>
         <div id="node">load text
         </div>
+        <p><a class="btn btn-default" href="#prep2" role="button">Go to paragraph 2 &raquo;</a></p>
         <div id="title">
         </div>
         <div style="clear:both;"></div>
         <div id="text">
         </div>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
-        <h2>Heading</h2>
+        <h2>Heading right</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>  
@@ -129,12 +129,15 @@
 
     // Get Json var			
     function loadText(tid, pid) {
+	  // First clean the div:
+	  $( "#text" ).html("");
+	  
       $.getJSON( "data/texts/"+tid+".json", function( data ) {
         //var items = [];
         $.each( data, function( key, val ) {
           //items.push( "<li id='" + key.p + "'>" + val.p + "</li>" );
           // Put text in #text
-          $( "#text" ).append( "<p id='" + val.pid + "'>" + val.pid +" | "+ val.p + "</p>" );
+          $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "'>"+ val.pid +"<br />" + val.p + "</p>" );
         });
         console.log( "Number of paragraphs: "+data.length );
         console.log( data[0].p );
@@ -142,7 +145,25 @@
     }
 
     // Animate the jump to paragraph
-    //			}
+    // Smoth Scroll [from http://jsfiddle.net/Td8Zf/]
+    !function ($) {
+		$(function(){
+			//$('#running-box, #bg-car').carousel({});
+			var $root = $('html, body, .container');
+			$('a').click(function() {
+				var href = $.attr(this, 'href');
+				$root.animate({
+					// pixels correction to avoid the top nav fix bar ???????????????
+					top: top + "100px",
+					scrollTop: $(href).offset().top
+					//'+=636', 800, {axis:'x'}
+				}, 1000, function () {
+					window.location.hash = href; 
+				});
+				return false;
+			});
+		})
+	}(window.jQuery)
 
     // Load text on clic
     $("#node").click(function() {
