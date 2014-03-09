@@ -59,15 +59,14 @@
   <div class="container">
     <!-- row of three columns -->
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2>Heading left</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h2>Heading centre</h2>
-        <div id="node">load text
-        </div>
+        <p><a id="node" class="btn btn-default" href="#prep2" role="button">Load text 3 &raquo;</a></p>
         <p><a class="btn btn-default" href="#prep2" role="button">Go to paragraph 2 &raquo;</a></p>
         <div id="title">
         </div>
@@ -75,7 +74,7 @@
         <div id="text">
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2>Heading right</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -91,85 +90,88 @@
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <!-- starts crossreads business -->
   <script>
-/*
-    $('#showhidefilters').click(function() {
-      //  get the width in %
-      var width = $('#tablecontainer').width();
-      var parentWidth = $('#tablecontainer').offsetParent().width();
-      var percent = 100*width/parentWidth;
-      if (Math.floor(percent) > 90) {
-        $("#tablecontainer").css("width", "");
-        $('#tablecontainer').promise().done(function(){
-          $('#sidebar').show("slow");
-        });
-      } else {
-        $('#sidebar').hide();
-        $('#sidebar').promise().done(function(){
-          $("#tablecontainer").animate({"width": "100%"}, "slow");
-        });
-      }
-    });
-*/
     function loadMetadata(tid)  {
     // Put title and metadata in #title
       var meta = "";
       $.each( METADATA, function( key, val )  {
         if (val.tid == tid)  {
           meta += "<h2>"+val.title+"</h2>";
-          $.each( val, function( k, v )  {
-            console.log("OKmeta: "+k+" | "+v);
-          });
+          //$.each( val, function( k, v )  {
+          //  console.log("OKmeta: "+k+" | "+v);
+          //});
         }
       });
       $("#title").html(meta);
     }
 
     // Get Json var			
-    function loadText(tid, pid) {
+    function loadText(tid, mypid) {
 	  // First clean the div:
 	  $( "#text" ).html("");
-	  
       $.getJSON( "data/texts/"+tid+".json", function( data ) {
-        //var items = [];
         $.each( data, function( key, val ) {
-          //items.push( "<li id='" + key.p + "'>" + val.p + "</li>" );
           // Put text in #text
-          $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "'>"+ val.pid +"<br />" + val.p + "</p>" );
+          $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>" );
         });
-        console.log( "Number of paragraphs: "+data.length );
-        console.log( data[0].p );
-      });
-    }
+      }).promise().done( function(pid) {
+		console.log("XXXXXXXXXXXXXX");
+		$("\.paragraph").click(function() {
+			console.log("O O O O O O O: "+this.id);
+			$(".paragraph").removeClass("selparagraph");
+			$("#"+this.id).addClass("selparagraph");
+			//$("#"+this.id).css('background-color', 'grey');
+		});
+	  });
+	}
 
+      // Clicking a paragraph
+//     $("#text").promise().done(function(){			  
+//		  selectParagraph(pid);
+//	  });
+ //   }
+
+	function selectParagraph(pid) {
+		$("p.paragraph").click(function() {
+			$(pid).addClass('selected-paragraph');
+		});
+	}
+
+/*
     // Animate the jump to paragraph
     // Smoth Scroll [from http://jsfiddle.net/Td8Zf/]
-    !function ($) {
+	!function ($) {
 		$(function(){
-			//$('#running-box, #bg-car').carousel({});
-			var $root = $('html, body, .container');
+			var $root = $('html, body');
 			$('a').click(function() {
 				var href = $.attr(this, 'href');
 				$root.animate({
-					// pixels correction to avoid the top nav fix bar ???????????????
-					top: top + "100px",
-					scrollTop: $(href).offset().top
-					//'+=636', 800, {axis:'x'}
-				}, 1000, function () {
-					window.location.hash = href; 
+					scrollTop: $(href).offset().top + 100
+				}, 1000, 'swing', function () {
+					window.location.hash = href;
+				});
+				$(href).promise().done(function(){
+					console.log("this: "+this);
+					$(this).addClass('paragraph')
 				});
 				return false;
 			});
 		})
 	}(window.jQuery)
+*/
 
     // Load text on clic
     $("#node").click(function() {
       loadMetadata(3);
       loadText(3, 4);
     });
+
+
+    
   </script>
+  <!-- ends crossreads business -->
 </body>
 </html>
