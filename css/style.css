@@ -146,4 +146,32 @@ td span {
 .selparagraph {
 	background-color: #ddd;
 	font-weight: bold;
+
+}
+
+.myleft, .myright {
+	border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    width: 90%;
+    height: 200px;
+    background: white;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.myleft {
+	left: auto;
+}
+.myright {
+	right: auto;
+}
+
+#myrightcolumn, #mycentercolumn, #myleftcolumn  {
+	height: 500px;
+	border:2px solid blue;
+	overflow:auto;
+	
 }

@@ -59,22 +59,21 @@
   <div class="container">
     <!-- row of three columns -->
     <div class="row">
-      <div class="col-md-3">
+      <div id="myleftcolumn" class="col-md-3">
         <h2>Heading left</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
-      <div class="col-md-6">
+      <div id="mycentercolumn" class="col-md-6">
         <h2>Heading centre</h2>
         <p><a id="node" class="btn btn-default" href="#prep2" role="button">Load text 3 &raquo;</a></p>
-        <p><a class="btn btn-default" href="#prep2" role="button">Go to paragraph 2 &raquo;</a></p>
         <div id="title">
         </div>
         <div style="clear:both;"></div>
         <div id="text">
         </div>
       </div>
-      <div class="col-md-3">
+      <div id="myrightcolumn" class="col-md-3">
         <h2>Heading right</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -108,7 +107,7 @@
       $("#title").html(meta);
     }
 
-    // Get Json var			
+    // Get text from a json file 			
     function loadText(tid, mypid) {
 	  // First clean the div:
 	  $( "#text" ).html("");
@@ -117,51 +116,36 @@
           // Put text in #text
           $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>" );
         });
-      }).promise().done( function(pid) {
+      })
+      .promise().done( function(pid) {
 		console.log("XXXXXXXXXXXXXX");
 		$("\.paragraph").click(function() {
-			console.log("O O O O O O O: "+this.id);
+			
+			//console.log("O O O O O O O: "+this.id);
 			$(".paragraph").removeClass("selparagraph");
 			$("#"+this.id).addClass("selparagraph");
-			//$("#"+this.id).css('background-color', 'grey');
+			
+			//2 Load left and right paragraphs
+			//   and put at the same position (vertical) than selected pragraph
+			$("#myleftcolumn").html( "<span class=\"myleft\">left</span>" );  //( "#"+this.id );
+			$("#myrightcolumn").html( "<span class=\"myright\">right</span>" );  //( "#"+this.id );
+			
+			// Scroll slowly to put the paragraph at the top of center column
+			$("#"+this.id).click(function() {
+				mytop = Math.floor($("#"+this.id).position().top);
+				//$("#mycentercolumn").scrollTop(-100);
+				console.log("mytop: "+mytop);
+			});
+			
 		});
 	  });
 	}
-
-      // Clicking a paragraph
-//     $("#text").promise().done(function(){			  
-//		  selectParagraph(pid);
-//	  });
- //   }
 
 	function selectParagraph(pid) {
 		$("p.paragraph").click(function() {
 			$(pid).addClass('selected-paragraph');
 		});
 	}
-
-/*
-    // Animate the jump to paragraph
-    // Smoth Scroll [from http://jsfiddle.net/Td8Zf/]
-	!function ($) {
-		$(function(){
-			var $root = $('html, body');
-			$('a').click(function() {
-				var href = $.attr(this, 'href');
-				$root.animate({
-					scrollTop: $(href).offset().top + 100
-				}, 1000, 'swing', function () {
-					window.location.hash = href;
-				});
-				$(href).promise().done(function(){
-					console.log("this: "+this);
-					$(this).addClass('paragraph')
-				});
-				return false;
-			});
-		})
-	}(window.jQuery)
-*/
 
     // Load text on clic
     $("#node").click(function() {
