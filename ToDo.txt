@@ -1,0 +1,32 @@
+ToDo:
+
+- Web page:
+	* Text explorer:
+		OPTIONS
+		> AREA
+		> D3js-like
+		> Handmake timeline and more
+
+	* Crossreader
+		- Vertical reader
+		
+		- Horizontal reader
+		
+
+- Data
+	* Sonia Lopez
+		- Metadata/Text (Spreadsheed)
+		- Each Text
+			> Paragraph curated separation
+
+	* Data conversion
+		- Metadata to JSON
+		- Texts to TXT
+		- TXT to JSON
+	
+	* Gabriela: 
+		> paragraph similarity analysis
+		> output of a paragraph's cue of similarity
+
+	* Word storm s for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
+

@@ -131,11 +131,10 @@
 			$("#myrightcolumn").html( "<span class=\"myright\">right</span>" );  //( "#"+this.id );
 			
 			// Scroll slowly to put the paragraph at the top of center column
-			$("#"+this.id).click(function() {
-				mytop = Math.floor($("#"+this.id).position().top);
-				//$("#mycentercolumn").scrollTop(-100);
-				console.log("mytop: "+mytop);
-			});
+			//mytop = Math.floor($("#"+this.id).position().top);
+			mytop = $("#"+this.id).offset().top;
+			//$("#mycentercolumn").scrollTop(-100);
+			console.log("mytop: "+mytop);
 			
 		});
 	  });
