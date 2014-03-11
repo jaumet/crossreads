@@ -132,9 +132,10 @@
 			
 			// Scroll slowly to put the paragraph at the top of center column
 			//mytop = Math.floor($("#"+this.id).position().top);
-			mytop = $("#"+this.id).offset().top;
-			//$("#mycentercolumn").scrollTop(-100);
-			console.log("mytop: "+mytop);
+			mytop = Math.floor($("#"+this.id).offset().top);
+      //mytop = Math.floor($('\.myright').offset().top)-260;
+      //$("#mycentercolumn").scrollTop(mytop);
+			console.log("pasition leftbox: "+mytop);
 			
 		});
 	  });
