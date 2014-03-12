@@ -14,7 +14,7 @@ ToDo:
 		
 
 - Data
-	* Sonia Lopez
+	* Sonia:
 		- Metadata/Text (Spreadsheed)
 		- Each Text
 			> Paragraph curated separation
@@ -30,3 +30,10 @@ ToDo:
 
 	* Word storm s for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Uses found of crossreadis variants:
+
+* Deusche wikipedia: http://de.wikipedia.org/wiki/Cross-Reading
