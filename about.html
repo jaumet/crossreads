@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>New Web Project</title>
+  <title>Eugeni Bonet - crossreads</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,10 +15,13 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  
+  <!-- start crossreads files -->
   <script type="text/javascript" src="data/visference-config.js"></script>
   <script type="text/javascript" src="data/data.js"></script>
-
+  <script type='text/javascript' src='data/sim.js'></script>
   <link href="css/style.css" rel="stylesheet">
+  <!-- end crossreads files -->
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -85,30 +88,35 @@
     </div>
   <!-- /container -->
 
-
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- starts Bootstrap core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <!-- ends Bootstrap core JavaScript -->
+
   <!-- starts crossreads business -->
   <script>
-    function loadMetadata(tid)  {
-    // Put title and metadata in #title
+    function loadMetadataIn(tid, mydiv)  {
       var meta = "";
       $.each( METADATA, function( key, val )  {
         if (val.tid == tid)  {
           meta += "<h2>"+val.title+"</h2>";
-          //$.each( val, function( k, v )  {
-          //  console.log("OKmeta: "+k+" | "+v);
-          //});
         }
       });
-      $("#title").html(meta);
+      $(mydiv).html(meta);
     }
 
-    // Get text from a json file 			
-    function loadText(tid, mypid) {
+	function loadParagraphIn(tid, pid, mydiv) {
+		$.getJSON( "data/texts/"+tid+".json", function( data ) {
+		  var items = [];
+		  $.each( data, function( key, val ) {
+			items.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
+		  });
+		  $(mydiv).html(items[pid]);
+		});
+	}
+
+    // Get text from a json file 
+    function loadText(tid) {
 	  // First clean the div:
 	  $( "#text" ).html("");
       $.getJSON( "data/texts/"+tid+".json", function( data ) {
@@ -120,21 +128,21 @@
       .promise().done( function(pid) {
 		console.log("XXXXXXXXXXXXXX");
 		$("\.paragraph").click(function() {
-			
-			//console.log("O O O O O O O: "+this.id);
 			$(".paragraph").removeClass("selparagraph");
 			$("#"+this.id).addClass("selparagraph");
 			
 			//2 Load left and right paragraphs
+			loadParagraphIn(3, 2, "#myleftcolumn");
+			loadParagraphIn(3, 3, "#myrightcolumn");
+
 			//   and put at the same position (vertical) than selected pragraph
-			$("#myleftcolumn").html( "<span class=\"myleft\">left. Text: "+tid+" | Paragraph: "+this.id+"</span>" );  //( "#"+this.id );
-			$("#myrightcolumn").html( "<span class=\"myright\">right. Text: "+tid+" | Paragraph: "+this.id+"</span>" );  //( "#"+this.id );
-			
+
+			// FIXME FIXME FIXME FIXME 
 			// Scroll slowly to put the paragraph at the top of center column
 			//mytop = Math.floor($("#"+this.id).position().top);
 			mytop = Math.floor($("#"+this.id).offset().top);
-      //mytop = Math.floor($('\.myright').offset().top)-260;
-      //$("#mycentercolumn").scrollTop(mytop);
+			//mytop = Math.floor($('\.myright').offset().top)-260;
+			//$("#mycentercolumn").scrollTop(mytop);
 			console.log("pasition leftbox: "+mytop);
 		});
 	  });
@@ -148,13 +156,29 @@
 
     // Load text on clic
     $("#node").click(function() {
-      loadMetadata(3);
-      loadText(3, 4);
+      loadMetadataIn(3, "#title");
+      loadText(3);
     });
-
-
-    
+  
   </script>
+   
+  <!-- <script type='text/javascript' src='js/jquery.scrollspy.js'></script> -->
+<!-- 
+  <script>
+/*
+  $('#sticky-navigation').scrollspy({
+	min: $('#nav').offset().top,
+	onEnter: function(element, position) {
+			$("#nav").addClass('fixed');
+		},
+	onLeave: function(element, position) {
+			$("#nav").removeClass('fixed');
+		}
+  });
+  </script>
+*/
+-->
   <!-- ends crossreads business -->
+
 </body>
 </html>
