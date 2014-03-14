@@ -88,9 +88,10 @@
     </div>
   <!-- /container -->
 
-  <!-- starts Bootstrap core JavaScript -->
+  <!-- starts core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/underscore-min.js"></script>
   <!-- ends Bootstrap core JavaScript -->
 
   <!-- starts crossreads business -->
@@ -105,14 +106,46 @@
       $(mydiv).html(meta);
     }
 
-	function loadParagraphIn(tid, pid, mydiv) {
-		$.getJSON( "data/texts/"+tid+".json", function( data ) {
-		  var items = [];
+	function loadParagraphIn(myIndex, sim) {
+		
+		if (_.has(sim, myIndex-1)) {
+			leftIndex = sim[myIndex-1];
+		} else {
+			leftIndex = sim[sim.length-1];
+		}
+		if (_.has(sim, myIndex+1)) {
+			rightIndex = sim[myIndex+1];
+		} else {
+			rightIndex = sim[0];
+		}
+		//alert ("leftIndex: "+leftIndex+" | CENTER: "+tid+"-"+pid+" | rightIndex: "+rightIndex);
+
+		// LEFT
+		left = leftIndex.split('-');
+		tidL = left[0];
+		pidL = left[1];
+
+		$.getJSON( "data/texts/"+tidL+".json", function( data ) {
+		  var itemsL = [];
 		  $.each( data, function( key, val ) {
-			items.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
+			itemsL.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
 		  });
-		  $(mydiv).html(items[pid]);
+		  $("#myleftcolumn").html(itemsL[pidL]);
 		});
+		  		
+		// RIGHT
+		right = rightIndex.split('-');
+		tidR = right[0];
+		pidR = right[1];
+		$.getJSON( "data/texts/"+tidR+".json", function( data ) {
+		  var itemsR = [];
+		  $.each( data, function( key, val ) {
+			itemsR.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
+		  });
+  		  $("#myrightcolumn").html(itemsR[pidR]);
+		});
+		//"#myleftcolumn"
+		//"#myrightcolumn"
 	}
 
     // Get text from a json file 
@@ -125,15 +158,22 @@
           $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>" );
         });
       })
-      .promise().done( function(pid) {
+      .promise().done( function() {
 		console.log("XXXXXXXXXXXXXX");
 		$("\.paragraph").click(function() {
+			var pid = this.id;
 			$(".paragraph").removeClass("selparagraph");
-			$("#"+this.id).addClass("selparagraph");
+			$("#"+pid).addClass("selparagraph");
+			
+			// Get the ids of left and right paragraphs
+			myIndex = _.indexOf(sim, tid+"-"+pid);
 			
 			//2 Load left and right paragraphs
-			loadParagraphIn(3, 2, "#myleftcolumn");
-			loadParagraphIn(3, 3, "#myrightcolumn");
+			loadParagraphIn(myIndex, sim);
+			//$("#myleftcolumn").promise().done(function(){
+			//	alert ("left done!");
+			//	loadParagraphIn(rightIndex, "#myrightcolumn");
+			//});
 
 			//   and put at the same position (vertical) than selected pragraph
 
