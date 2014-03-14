@@ -118,13 +118,11 @@
 		} else {
 			rightIndex = sim[0];
 		}
-		//alert ("leftIndex: "+leftIndex+" | CENTER: "+tid+"-"+pid+" | rightIndex: "+rightIndex);
 
 		// LEFT
 		left = leftIndex.split('-');
 		tidL = left[0];
 		pidL = left[1];
-
 		$.getJSON( "data/texts/"+tidL+".json", function( data ) {
 		  var itemsL = [];
 		  $.each( data, function( key, val ) {
@@ -148,34 +146,28 @@
 		//"#myrightcolumn"
 	}
 
-    // Get text from a json file 
     function loadText(tid) {
 	  // First clean the div:
 	  $( "#text" ).html("");
+	  
+	  // Get text from a json file. And then, when .promise().done(), get the side paragraphs
       $.getJSON( "data/texts/"+tid+".json", function( data ) {
         $.each( data, function( key, val ) {
-          // Put text in #text
+          // Put the text in #text
           $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>" );
         });
       })
       .promise().done( function() {
-		console.log("XXXXXXXXXXXXXX");
 		$("\.paragraph").click(function() {
 			var pid = this.id;
 			$(".paragraph").removeClass("selparagraph");
 			$("#"+pid).addClass("selparagraph");
 			
-			// Get the ids of left and right paragraphs
+			// Get the id of the text on the centre ;-)
 			myIndex = _.indexOf(sim, tid+"-"+pid);
 			
-			//2 Load left and right paragraphs
+			// Load left and right paragraphs
 			loadParagraphIn(myIndex, sim);
-			//$("#myleftcolumn").promise().done(function(){
-			//	alert ("left done!");
-			//	loadParagraphIn(rightIndex, "#myrightcolumn");
-			//});
-
-			//   and put at the same position (vertical) than selected pragraph
 
 			// FIXME FIXME FIXME FIXME 
 			// Scroll slowly to put the paragraph at the top of center column
@@ -188,6 +180,10 @@
 	  });
 	}
 
+	//////////////////////
+	// When click a side paragraphs: move it to the center, loading all its text in it.
+	// 
+	
 	function selectParagraph(pid) {
 		$("p.paragraph").click(function() {
 			$(pid).addClass('selected-paragraph');
