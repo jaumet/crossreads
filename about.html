@@ -22,7 +22,23 @@
   <script type='text/javascript' src='data/sim.js'></script>
   <link href="css/style.css" rel="stylesheet">
   <!-- end crossreads files -->
+  
+  <script>
+    var LANGUAGE = "ca";
+    
+    function _t(myString) {
+      if (LANGUAGE != "ca") {
+        document.write("<script type='text/javascript' src='languages/"+LANGUAGE+".js'><//script>");
+        out = LANGUAGE["myString"];
+      } else {
+        out = "myString";
+      }
+      return out;
+    }
+    
+  </script>
 </head>
+
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -35,58 +51,69 @@
         </button>
         <a class="navbar-brand" href="#">Project name</a>
       </div>
-      <div class="navbar-collapse collapse">
-        <form class="navbar-form navbar-right" role="form">
-          <div class="form-group">
-            <input type="text" placeholder="Email" class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-success">Sign in</button>
-        </form>
-      </div><!--/.navbar-collapse -->
     </div>
   </div>
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
       <h1>Hello, world!</h1>
       <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+      <p><a id="3_10" href="#" class="node btn btn-primary btn-lg" role="button">Load text 3 &raquo;</a></p>
     </div>
   </div>
 
-  <!-- row of three columns -->
-  <div class="container">
-    <!-- row of three columns -->
+  <!-- top reader container -->  
+  <div id="mytopmetadata" class="container">
+    <p class="translate">Estas llegint<span id="title"></span></p>
+  </div>
+  
+  <!-- main reader container: row of three columns -->
+  <div id="reader" class="container">
     <div class="row">
       <div id="myleftcolumn" class="col-md-3">
-        <h2>Heading left</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p>Images??</p>
       </div>
+
       <div id="mycentercolumn" class="col-md-6">
-        <h2>Heading centre</h2>
-        <p><a id="node" class="btn btn-default" href="#prep2" role="button">Load text 3 &raquo;</a></p>
-        <div id="title">
-        </div>
+        <div id="toparrow" class="arrowt"></div>
         <div style="clear:both;"></div>
         <div id="text">
         </div>
       </div>
+
       <div id="myrightcolumn" class="col-md-3">
-        <h2>Heading right</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>  
-      <hr>
-      <footer>
-        <p>my foofter</p>
-      </footer>
+        <p>footnotes?</p>
+      </div>
     </div>
-  <!-- /container -->
+  </div>
+
+  <!-- bottom reader container -->
+  <div id="mybottommetadata" class="container">
+    <div id="bottomleft" class="mybottom col-md-4">
+        <div class="arrowl">
+          <img src="images/w_left_arrow.png" />
+        </div>
+    </div>
+    
+    <div id="bottomcenter" class="mybottom col-md-4">
+        <div class="arrowb">
+          <img src="images/w_bottom_arrow.png" />
+        </div>    
+    </div>
+    
+    <div id="bottomright" class="mybottom col-md-4">
+      <div class="arrowr">
+        <img src="images/w_right_arrow.png" />
+      </div>
+    </div>
+  </div>  
+
+  <!-- footer -->  
+  <hr>
+  <footer>
+    <p>my foofter</p>
+  </footer>
 
   <!-- starts core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
@@ -117,109 +144,91 @@
 		} else {
 			rightIndex = sim[0];
 		}
-		// LEFT
-		left = leftIndex.split('-');
-		tidL = left[0];
-		pidL = left[1];
-		$.getJSON( "data/texts/"+tidL+".json", function( data ) {
-		  var itemsL = [];
+    putParagraphIn(leftIndex, "#myleftcolumn");
+    putParagraphIn(rightIndex, "#myrightcolumn");
+  }
+
+  function putParagraphIn(myIndex, mydiv)  {
+    // From an index like "tid-pid" get the text tid and put the paragraph pid in div mydiv
+    my = myIndex.split('_');
+		tid = my[0];
+		pid = my[1];
+		$.getJSON( "data/texts/"+tid+".json", function( data ) {
+		  var items = [];
 		  $.each( data, function( key, val ) {
-			itemsL.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
+			items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
 		  });
-		  $("#myleftcolumn").html(itemsL[pidL]);
+  		  $(mydiv).html(items[pid]);
 		});
-		// RIGHT
-		right = rightIndex.split('-');
-		tidR = right[0];
-		pidR = right[1];
-		$.getJSON( "data/texts/"+tidR+".json", function( data ) {
-		  var itemsR = [];
-		  $.each( data, function( key, val ) {
-			itemsR.push("<p id='side_" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>");
-		  });
-  		  $("#myrightcolumn").html(itemsR[pidR]);
-		});
-	}
+  }
 
-  function loadText(tid) {
-	  // First clean the div:
-	  $( "#text" ).html("");
-	  
-	  // Get text from a json file. And then, when .promise().done(), get the side paragraphs
-      $.getJSON( "data/texts/"+tid+".json", function( data ) {
-        $.each( data, function( key, val ) {
-          // Put the text in #text
-          $( "#text" ).append( "<p id='prep" + val.pid + "' class='prep'></p><p id='" + val.pid + "' class='paragraph'>"+ val.pid +"<br />" + val.p + "</p>" );
-        });
-      })
-      .promise().done( function() {
-		$("\.paragraph").click(function() {
-			var pid = this.id;
-			$(".paragraph").removeClass("selparagraph");
-			$("#"+pid).addClass("selparagraph");
-			
-			// Get the id of the text on the centre ;-)
-			myIndex = _.indexOf(sim, tid+"-"+pid);
-			
-			// Load left and right paragraphs
-			loadParagraphIn(myIndex, sim);
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 
-			// FIXME FIXME FIXME FIXME 
-			// Scroll slowly to put the paragraph at the top of center column
-			//mytop = Math.floor($("#"+this.id).position().top);
-			//mytop = Math.floor($("#"+this.id).offset().top);
-			//mytop = Math.floor($('\.myright').offset().top)-260;
-			//$("#mycentercolumn").scrollTop(mytop);
-			//console.log("position leftbox: "+mytop);
-//      var offset_t = $("#mycentercolumn").offset().top - $(window).scrollTop(); 
-//      var offset_l = $("#mycentercolumn").offset().left - $(window).scrollLeft();
-
-      var offset_t = $("#"+this.id).offset().top - $(window).scrollTop(); 
-      var offset_l = $("#"+this.id).offset().left - $(window).scrollLeft();
-      alert ("offset_t: "+offset_t+" | Position: "+$("#"+this.id).position().top);
-      $("#"+this.id).animate({
-        //scrollTop: $("#"+this.id).position().top
-        top: 450
-      }, 2000);
-      alert ("this.id: "+this.id+" | "+$("#"+this.id).position().top);
-		});
-	  });
-	}
-
-	//////////////////////
-	// When click a side paragraphs: move it to the center, loading all its text in it.
-	// 
-	
-	function selectParagraph(pid) {
-		$("p.paragraph").click(function() {
-			$(pid).addClass('selected-paragraph');
-		});
-	}
-
-    // Load text on clic
-    $("#node").click(function() {
-      loadMetadataIn(3, "#title");
-      loadText(3);
+ $("a.node, a.arrow").on('click', function() {
+  //alert("id: "+this.id);
+  my = (this.id).split('_');
+  tid = my[0];
+  pid = my[1];    
+  mydo(tid, pid);
+ });
+   
+function mydo(tid, pid) {
+    loadMetadataIn(tid, "#title");
+    putParagraphIn(tid+"_"+pid, "#text");
+    
+    // top arrow checking
+    var myid = tid+"_"+(pid-1);
+    $("#toparrow").html('').promise().done(function(){
+      if (pid-1>0)  {
+        //alert("myid: "+myid);
+        
+        $("#toparrow").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_top_arrow.png" /></a>');
+        $("a.node, a.arrow").on('click', function() {
+          //alert("id: "+this.id);
+          my = (this.id).split('_');
+          tid = my[0];
+          pid = my[1];    
+          mydo(tid, pid);
+       });
+      }
     });
+}
+//function myarrow(tid, pid)  {
+   $("a.arrow").on("click", function() {
+    alert("id: "+this.id);
+    my = (this.id).split('_');
+		tid = my[0];
+    pid = my[1];
+    
+    loadMetadataIn(tid, "#title");
+    putParagraphIn(this.id, "#text");
+    
+    // top arrow checking
+      var myid = tid+"_"+(pid-1);
+      $("#toparrow").html('').promise().done(function(){
+        if (pid-1>0)  {
+          alert("myid: "+myid);
+          $("#toparrow").delay( 2000 ).append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_top_arrow.png" /></a>');
+        }
+        
+      });
+  });
+
+//}
+
+
+  $("\.translate").click(function() {
+    
+  });
   
   </script>
-   
-  <!-- <script type='text/javascript' src='js/jquery.scrollspy.js'></script> -->
-<!-- 
-  <script>
-/*
-  $('#sticky-navigation').scrollspy({
-	min: $('#nav').offset().top,
-	onEnter: function(element, position) {
-			$("#nav").addClass('fixed');
-		},
-	onLeave: function(element, position) {
-			$("#nav").removeClass('fixed');
-		}
-  });
-  </script>
-*/
--->
   <!-- ends crossreads business -->
 
 </body>

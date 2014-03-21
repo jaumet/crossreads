@@ -95,9 +95,7 @@ td span {
 	/*width: 150px;*/
 }
 #title {
-	padding-left:20px;
-	position:relative;
-	float:left;
+
 }
 .prep {
 	margin-bottom:70px;
@@ -106,7 +104,6 @@ td span {
 .selparagraph {
 	background-color: #ddd;
 	font-weight: bold;
-
 }
 
 .myleft, .myright {
@@ -129,9 +126,59 @@ td span {
 	right: auto;
 }
 
+
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
+  border:2px solid green;
+/* 
 	height: 500px;
 	border:2px solid blue;
 	overflow:auto;
-	
+*/
+}
+
+#mybottommetadata {
+  margin-top:20px;
+}
+
+.mybottom {
+	height: 120px;
+	border:2px solid green;
+}
+.jumbotron {
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom:10px;
+}
+
+.container {
+  border:2px solid red;
+}
+
+
+/*  Black and white crossreads theme */
+body {
+  color:#FFF9D2;
+  background-color:#2A2A2A;
+}
+.jumbotron {
+  background-color:#2A2A2A;
+}
+
+#title h2{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.arrowb img, .arrowt img {
+  float:left;
+  margin:10px 50% 0 50%;
+  
+}
+.arrowl img{
+  float:right;
+  margin:0;
+}
+.arrowr img{
+  float:left;
+  margin:0;
 }
