@@ -98,7 +98,6 @@
     
     <div id="bottomcenter" class="mybottom col-md-4">
         <div class="arrowb">
-          <img src="images/w_bottom_arrow.png" />
         </div>    
     </div>
     
@@ -113,6 +112,7 @@
   <hr>
   <footer>
     <p>my foofter</p>
+    <div id="mystore"></div>
   </footer>
 
   <!-- starts core JavaScript -->
@@ -159,7 +159,9 @@
 			items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
 		  });
   		  $(mydiv).html(items[pid]);
+		  $("#mystore").html(data.length);
 		});
+	return $("#mystore").val();
   }
 
 function sleep(milliseconds) {
@@ -181,16 +183,45 @@ function sleep(milliseconds) {
    
 function mydo(tid, pid) {
     loadMetadataIn(tid, "#title");
-    putParagraphIn(tid+"_"+pid, "#text");
-    
+    var numParagraphs = putParagraphIn(tid+"_"+pid, "#text");
+	console.log(">>>>>> pid+1: "+(parseInt(pid)+1)+" | numParagraphs: "+numParagraphs);
+
     // top arrow checking
     var myid = tid+"_"+(pid-1);
     $("#toparrow").html('').promise().done(function(){
-      if (pid-1>0)  {
+      if ((parseInt(pid))>0)  {
+        $("#toparrow").append('<a href="#" id="'+myid+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
+        $("a.node, a.arrowt").on('click', function() {
+          my = (this.id).split('_');
+          tid1 = my[0];
+          pid1 = my[1];    
+          mydo(tid1, pid1);
+       });
+      }
+    });
+    $("div.arrowb").html('').promise().done(function(){
+	  console.log("pid: "+(parseInt(pid)+1)); //+" | numParagraphs: "+numParagraphs);
+	  if ((parseInt(pid)+1)> 13)  { //numParagraphs)  {  
+		//var myid = tid+"_0";
+	    pid = "-1";
+	  }
+		var myid2 = tid+"_"+(parseInt(pid)+1);
+		console.log("myid2: "+myid2);
+		$("div.arrowb").append('<a href="#" id="'+myid2+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
+		$("a.arrowb").on('click', function() {
+		  my2 = (this.id).split('_');
+		  tid2 = my2[0];
+		  pid2 = my2[1];    
+		  mydo(tid2, pid2);
+	   });
+    });
+    
+	//bottom arrow checking
+    $("#arrowb").html('').promise().done(function(){
+      if (pid+1<14)  {
         //alert("myid: "+myid);
-        
-        $("#toparrow").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_top_arrow.png" /></a>');
-        $("a.node, a.arrow").on('click', function() {
+        $("#arrowb").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_bottom_arrow.png" /></a>');
+        $("div.arrow").on('click', function() {
           //alert("id: "+this.id);
           my = (this.id).split('_');
           tid = my[0];
@@ -199,7 +230,10 @@ function mydo(tid, pid) {
        });
       }
     });
+
 }
+
+
 //function myarrow(tid, pid)  {
    $("a.arrow").on("click", function() {
     alert("id: "+this.id);
