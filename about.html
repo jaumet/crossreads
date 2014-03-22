@@ -161,7 +161,7 @@
   		  $(mydiv).html(items[pid]);
 		  $("#mystore").html(data.length);
 		});
-	return $("#mystore").val();
+	return $("#mystore").text();
   }
 
 function sleep(milliseconds) {
@@ -201,7 +201,7 @@ function mydo(tid, pid) {
     });
     $("div.arrowb").html('').promise().done(function(){
 	  console.log("pid: "+(parseInt(pid)+1)); //+" | numParagraphs: "+numParagraphs);
-	  if ((parseInt(pid)+1)> 13)  { //numParagraphs)  {  
+	  if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  { //numParagraphs)  {  
 		//var myid = tid+"_0";
 	    pid = "-1";
 	  }
@@ -234,11 +234,10 @@ function mydo(tid, pid) {
 }
 
 
-//function myarrow(tid, pid)  {
    $("a.arrow").on("click", function() {
     alert("id: "+this.id);
     my = (this.id).split('_');
-		tid = my[0];
+	tid = my[0];
     pid = my[1];
     
     loadMetadataIn(tid, "#title");
@@ -255,7 +254,6 @@ function mydo(tid, pid) {
       });
   });
 
-//}
 
 
   $("\.translate").click(function() {
