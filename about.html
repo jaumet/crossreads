@@ -57,7 +57,6 @@
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
-      <h1>...............</h1>
       <p>................</p>
       <p><a id="3_10" href="#" class="node btn btn-primary btn-lg" role="button">Load text 3 &raquo;</a></p>
     </div>
@@ -66,6 +65,7 @@
   <!-- top reader container -->  
   <div id="mytopmetadata" class="container">
     <p class="translate">Estas llegint<span id="title"></span></p>
+    <div id="toparrow" class="arrowt"></div>
   </div>
   
   <!-- main reader container: row of three columns -->
@@ -76,10 +76,8 @@
       </div>
 
       <div id="mycentercolumn" class="col-md-6">
-        <div id="toparrow" class="arrowt"></div>
         <div style="clear:both;"></div>
-        <div id="text">
-        </div>
+        <div id="text"></div>
       </div>
 
       <div id="myrightcolumn" class="col-md-3">
@@ -91,20 +89,15 @@
   <!-- bottom reader container -->
   <div id="mybottommetadata" class="container">
     <div id="bottomleft" class="mybottom col-md-4">
-        <div class="arrowl">
-          <img src="images/w_left_arrow.png" />
-        </div>
+        <div class="arrowl"></div>
     </div>
     
     <div id="bottomcenter" class="mybottom col-md-4">
-        <div class="arrowb">
-        </div>    
+        <div class="arrowb"></div>    
     </div>
     
     <div id="bottomright" class="mybottom col-md-4">
-      <div class="arrowr">
-        <img src="images/w_right_arrow.png" />
-      </div>
+      <div class="arrowr"></div>
     </div>
   </div>  
 
@@ -113,6 +106,7 @@
   <footer>
     <p>my foofter</p>
     <div id="mystore"></div>
+    <div id="wname"></div>
   </footer>
 
   <!-- starts core JavaScript -->
@@ -134,6 +128,7 @@
     }
 
 	function loadParagraphIn(myIndex, sim) {
+		console.log("loadParagraphIn(myIndex, sim) - myIndex: "+myIndex+" | sim: "+sim);
 		if (_.has(sim, myIndex-1)) {
 			leftIndex = sim[myIndex-1];
 		} else {
@@ -144,8 +139,9 @@
 		} else {
 			rightIndex = sim[0];
 		}
-    putParagraphIn(leftIndex, "#myleftcolumn");
-    putParagraphIn(rightIndex, "#myrightcolumn");
+		console.log("leftIndex: "+leftIndex+" | rightIndex: "+rightIndex);
+		$("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
+		$("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a>');
   }
 
   function putParagraphIn(myIndex, mydiv)  {
@@ -164,27 +160,23 @@
 	return $("#mystore").text();
   }
 
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
+  }
 
- $("a.node, a.arrow").on('click', function() {
-  //alert("id: "+this.id);
-  my = (this.id).split('_');
-  tid = my[0];
-  pid = my[1];    
-  mydo(tid, pid);
- });
-   
-function mydo(tid, pid) {
+  function mydo(tid, pid, myPath) {
+	
+	window.name += " | "+tid+"_"+pid;	
+	$("#wname").append(" | "+tid+"_"+pid);
+	
     loadMetadataIn(tid, "#title");
     var numParagraphs = putParagraphIn(tid+"_"+pid, "#text");
-	console.log(">>>>>> pid+1: "+(parseInt(pid)+1)+" | numParagraphs: "+numParagraphs);
+	//console.log(">>>>>> pid+1: "+(parseInt(pid)+1)+" | numParagraphs: "+numParagraphs);
 
     // top arrow checking
     var myid = tid+"_"+(pid-1);
@@ -195,13 +187,13 @@ function mydo(tid, pid) {
           my = (this.id).split('_');
           tid1 = my[0];
           pid1 = my[1];    
-          mydo(tid1, pid1);
+          mydo(tid1, pid1, myPath);
        });
       }
     });
     $("div.arrowb").html('').promise().done(function(){
 	  console.log("pid: "+(parseInt(pid)+1)); //+" | numParagraphs: "+numParagraphs);
-	  if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  { //numParagraphs)  {  
+	  if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  {
 		//var myid = tid+"_0";
 	    pid = "-1";
 	  }
@@ -212,13 +204,13 @@ function mydo(tid, pid) {
 		  my2 = (this.id).split('_');
 		  tid2 = my2[0];
 		  pid2 = my2[1];    
-		  mydo(tid2, pid2);
+		  mydo(tid2, pid2, myPath);
 	   });
     });
     
 	//bottom arrow checking
     $("#arrowb").html('').promise().done(function(){
-      if (pid+1<14)  {
+      if (parseInt(pid)+1<14)  {
         //alert("myid: "+myid);
         $("#arrowb").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_bottom_arrow.png" /></a>');
         $("div.arrow").on('click', function() {
@@ -226,35 +218,36 @@ function mydo(tid, pid) {
           my = (this.id).split('_');
           tid = my[0];
           pid = my[1];    
-          mydo(tid, pid);
+          mydo(tid, pid, myPath);
        });
       }
     });
 
-}
-
-
-   $("a.arrow").on("click", function() {
-    alert("id: "+this.id);
-    my = (this.id).split('_');
-	tid = my[0];
-    pid = my[1];
-    
-    loadMetadataIn(tid, "#title");
-    putParagraphIn(this.id, "#text");
-    
-    // top arrow checking
-      var myid = tid+"_"+(pid-1);
-      $("#toparrow").html('').promise().done(function(){
-        if (pid-1>0)  {
-          alert("myid: "+myid);
-          $("#toparrow").delay( 2000 ).append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_top_arrow.png" /></a>');
-        }
+	// left arrow checking
+    $("#arrowl").html('').promise().done(function(){
+		
+        // Get the id of the text on the centre ;-)
+		myIndex = _.indexOf(sim, tid+"_"+pid);
+        loadParagraphIn(myIndex, sim);
+        console.log("heyyy!");
         
-      });
+        $("a.arrow").on('click', function() {
+          //alert("id: "+this.id);
+          my = (this.id).split('_');
+          tid = my[0];
+          pid = my[1];    
+          mydo(tid, pid, myPath);
+       });
+    });
+  }
+
+  $("a.node, a.arrow").on('click', function() {
+	//alert("id: "+this.id);
+	my = (this.id).split('_');
+	tid = my[0];
+	pid = my[1];    
+	mydo(tid, pid);
   });
-
-
 
   $("\.translate").click(function() {
     

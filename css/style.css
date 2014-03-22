@@ -145,9 +145,9 @@ td span {
 	border:0px solid green;
 }
 .jumbotron {
-  padding-top:20px;
-  padding-bottom:20px;
-  margin-bottom:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-bottom:5px;
 }
 
 .container {
@@ -169,10 +169,14 @@ body {
   margin: 0 auto;
 }
 
-.arrowb img, .arrowt img {
+.arrowt img {
   float:left;
-  margin:10px 50% 0 40%;
+  margin:10px 50% 0 45%;
   
+}
+.arrowb img {
+  float:left;
+  margin:10px 50% 0 40%; 
 }
 .arrowl img{
   float:right;
