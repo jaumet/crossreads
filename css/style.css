@@ -55,7 +55,7 @@ body {
 td {
   text-align:center;
   min-width:60px;
-  border-bottom: 1px solid #d8e5e5;
+  border-bottom: 0px solid #d8e5e5;
 }
 td span {  
   /*display:inline-block;
@@ -106,18 +106,18 @@ td span {
 	font-weight: bold;
 }
 
-.myleft, .myright {
+.myleft, .myright, #mycentercolumn {
 	border-radius: 15px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-    padding: 25px;
-    width: 90%;
+    box-shadow: 0 0 8px #FFF9D2;
+    padding: 15px;
+    /*width: 90%;
     height: 200px;
     background: white;
     text-align: center;
     margin: auto;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 0;*/
 }
 .myleft {
 	left: auto;
@@ -128,7 +128,7 @@ td span {
 
 
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
-  border:2px solid green;
+  border:0px solid green;
 /* 
 	height: 500px;
 	border:2px solid blue;
@@ -142,7 +142,7 @@ td span {
 
 .mybottom {
 	height: 120px;
-	border:2px solid green;
+	border:0px solid green;
 }
 .jumbotron {
   padding-top:20px;
@@ -151,7 +151,7 @@ td span {
 }
 
 .container {
-  border:2px solid red;
+  border:0px solid red;
 }
 
 
@@ -171,7 +171,7 @@ body {
 
 .arrowb img, .arrowt img {
   float:left;
-  margin:10px 50% 0 50%;
+  margin:10px 50% 0 40%;
   
 }
 .arrowl img{
