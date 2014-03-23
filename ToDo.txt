@@ -2,26 +2,23 @@ ToDo:
 
 - Web page:
 	* Text explorer:
-		OPTIONS
-		> AREA
-		> D3js-like
-		> Handmade timeline
-
+		OPTIONS: AREA, D3js-like, Handmade timeline, Raphaeljs
+		
 	* Crossreader:
                 Events:
-                        1-Vertical: Load one text as an array. 
-                        2-Vertical: Then put the paragraph in "mycentercolumn"
-                        3-Vertical: load metadata in "mytopmetadata"
+                        DONE 1-Vertical: Load one text as an array. 
+                        DONE 2-Vertical: Then put the paragraph in "mycentercolumn"
+                        DONE 3-Vertical: load metadata in "mytopmetadata"
                         
-                        4-Horizontal: Set variables for left and right paragraphs
-                        5-Horizontal: load metadata for left & right paragraphs
+                        DONE 4-Horizontal: Set variables for left and right paragraphs
+                        [SURE?] 5-Horizontal: load metadata for left & right paragraphs
 		
                 Features:
                         - Multilanguage of fix text (cataln and spanish?) 
                                 -> Define language files
                                 -> Write the translation function: _t("string")
                                 
-                        - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
+                        DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
                         - Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
                                 -> and set a fix path to store the image files.
@@ -49,16 +46,23 @@ ToDo:
 		- Texts to TXT
 		- TXT to JSON
 
-	* Gabriela: 
-		> paragraph similarity analysis
+	* Gabriela/Jaume: 
+		> paragraph similarity:
+			* write definition
+			* code scripts
+			* run data analysis
 		> output of a paragraph's cue of similarity
 
-	* Word storm s for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
+	* WordStorm images for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
 
 	OTHER PAGES:
 		- Credits
 		- Explanation data and process
 		- Feedback form
+		
+		-> include links in navigation
+		-> on click load + html architecture
+		-> write contents
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

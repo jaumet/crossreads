@@ -12,6 +12,13 @@ body {
   padding-left:20px;
   height:100%;
 }
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
 .circle {
   background-color:orange;
   background-position:initial initial;

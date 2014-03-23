@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jumbotron.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,6 +37,16 @@
       return out;
     }
     
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+	  var msViewportStyle = document.createElement('style')
+	  msViewportStyle.appendChild(
+		document.createTextNode(
+		  '@-ms-viewport{width:auto!important}'
+		)
+	  )
+	  document.querySelector('head').appendChild(msViewportStyle)
+	}
+
   </script>
 </head>
 
@@ -58,7 +69,25 @@
   <div class="jumbotron">
     <div class="container">
       <p>................</p>
-      <p><a id="3_10" href="#" class="node btn btn-primary btn-lg" role="button">Load text 3 &raquo;</a></p>
+      <p>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
+	  </p>
+
     </div>
   </div>
 
@@ -147,16 +176,20 @@
   function putParagraphIn(myIndex, mydiv)  {
     // From an index like "tid-pid" get the text tid and put the paragraph pid in div mydiv
     my = myIndex.split('_');
-		tid = my[0];
-		pid = my[1];
-		$.getJSON( "data/texts/"+tid+".json", function( data ) {
-		  var items = [];
-		  $.each( data, function( key, val ) {
-			items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
-		  });
-  		  $(mydiv).html(items[pid]);
-		  $("#mystore").html(data.length);
-		});
+	tid = my[0];
+	pid = my[1];
+	$.getJSON( "data/texts/"+tid+".json", function( data ) {
+	  var items = [];
+	  $.each( data, function( key, val ) {
+		items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
+	  });
+	  
+	  $(mydiv).css({ "opacity": "0" });
+	  $(mydiv).html(items[pid]);
+	  $(mydiv).animate({ "opacity": "1" }, 1300 );
+	  
+	  $("#mystore").html(data.length);
+	});
 	return $("#mystore").text();
   }
 
