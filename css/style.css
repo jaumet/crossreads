@@ -109,7 +109,8 @@ td span {
 .myleft, .myright, #mycentercolumn {
 	border-radius: 15px;
     box-shadow: 0 0 8px #FFF9D2;
-    padding: 15px;
+    padding: 35px;
+    margin:20px;
     /*width: 90%;
     height: 200px;
     background: white;

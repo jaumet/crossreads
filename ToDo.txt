@@ -55,7 +55,10 @@ ToDo:
 
 	* Word storm s for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
 
-
+	OTHER PAGES:
+		- Credits
+		- Explanation data and process
+		- Feedback form
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
