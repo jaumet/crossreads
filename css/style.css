@@ -118,8 +118,9 @@ td span {
     box-shadow: 0 0 8px #FFF9D2;
     padding: 35px;
     margin:20px;
+    height: 400px;
+    overflow:auto;
     /*width: 90%;
-    height: 200px;
     background: white;
     text-align: center;
     margin: auto;
