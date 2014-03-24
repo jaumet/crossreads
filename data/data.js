@@ -7,7 +7,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		'tid':2,
@@ -17,7 +17,7 @@ var METADATA = [
 		"format": "Article",
 		"topic": "10. Exemple de Topic",
 		"publication": "Texto publicado en Star, núm. 13, Barcelona (1975)",
-                "images": ""
+                "images": [""]
 	},
 	{
 		"tid":3,
@@ -27,7 +27,7 @@ var METADATA = [
 		"format": "Opinion",
 		"topic": "05 - ELECTRÓNICAS MISCELÁNEAS",
 		"publication": "Published in bla bla editions, 1988",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":4,
@@ -37,7 +37,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":5,
@@ -47,7 +47,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":6,
@@ -57,7 +57,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":7,
@@ -67,7 +67,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":8,
@@ -77,7 +77,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":9,
@@ -87,7 +87,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":10,
@@ -97,7 +97,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":11,
@@ -107,7 +107,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":12,
@@ -117,7 +117,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":13,
@@ -127,7 +127,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":14,
@@ -137,7 +137,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":15,
@@ -147,7 +147,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":16,
@@ -157,7 +157,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":17,
@@ -167,7 +167,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":18,
@@ -177,7 +177,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":20,
@@ -187,7 +187,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":20,
@@ -197,7 +197,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":21,
@@ -207,7 +207,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":22,
@@ -217,7 +217,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":23,
@@ -227,7 +227,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":24,
@@ -237,7 +237,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":25,
@@ -247,7 +247,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":26,
@@ -257,7 +257,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":27,
@@ -267,7 +267,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":28,
@@ -277,7 +277,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":29,
@@ -287,7 +287,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":30,
@@ -297,7 +297,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":31,
@@ -307,7 +307,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":32,
@@ -317,7 +317,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	},
 	{
 		"tid":33,
@@ -327,6 +327,6 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": ""
+                "images": []
 	}
 ];

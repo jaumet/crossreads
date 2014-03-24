@@ -70,21 +70,6 @@
     <div class="container">
       <p>................</p>
       <p>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs" role="button">3</a>
 		  <a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
 		  <span class="badge"><a id="3_10" href="#" class="node">3</a></span>
 	  </p>
@@ -155,9 +140,12 @@
         }
       });
       $(mydiv).html(meta);
+      // Preparing smoth animate() for #text and #title
+      $("#title h2").css({ "opacity": "0" });
+      $("#text p").css({ "opacity": "0" });
     }
 
-	function loadParagraphIn(myIndex, sim) {
+	function loadLeftAndRightLinks(myIndex, sim) {
 		console.log("loadParagraphIn(myIndex, sim) - myIndex: "+myIndex+" | sim: "+sim);
 		if (_.has(sim, myIndex-1)) {
 			leftIndex = sim[myIndex-1];
@@ -180,16 +168,20 @@
 	  tid = my[0];
 	  pid = my[1];
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
-      var items = [];
-      $.each( data, function( key, val ) {
-        items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
-      });
-      $(mydiv).css({ "opacity": "0" });
-      $(mydiv).html(items[pid]);
-      $(mydiv).animate({ "opacity": "1" }, 1300 );
+	    var items = [];
+	    $.each( data, function( key, val ) {
+		    items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ (parseInt(val.pid)) +"/"+data.length+"]<br />" + val.p + "</p>");
+	    });
+	  
+  	  $(mydiv).css({ "opacity": "0" });
+      //$("#title h2").css({ "opacity": "0" });
+      //sleep(500);
+	    $(mydiv).html(items[pid]);
+	    $(mydiv).animate({ "opacity": "1" }, 1300 );
+ 	    $("#title h2").animate({ "opacity": "1" }, 1300 );
       $("#mystore").html(data.length);
     });
-	return $("#mystore").text();
+	  return $("#mystore").text();
   }
 
   function sleep(milliseconds) {
@@ -201,81 +193,79 @@
     }
   }
 
-  function mydo(tid, pid, myPath) {
+  function myTrick(myid) {
+    my = (myid).split('_');
+    tid1 = my[0];
+    pid1 = my[1];    
+    mydo(tid1, pid1);
+  }
+
+  function mydo(tid, pid) {
 	
-	window.name += " | "+tid+"_"+pid;	
-	$("#wname").append(" | "+tid+"_"+pid);
+	  window.name += " | "+tid+"_"+pid;	
+	  $("#wname").append(" | "+tid+"_"+pid);
 	
     loadMetadataIn(tid, "#title");
-    var numParagraphs = putParagraphIn(tid+"_"+pid, "#text");
-	//console.log(">>>>>> pid+1: "+(parseInt(pid)+1)+" | numParagraphs: "+numParagraphs);
+    putParagraphIn(tid+"_"+pid, "#text");
 
     // top arrow checking
     $("#toparrow").html('').promise().done(function(){
-      if ((parseInt(pid))==0)  {
-        pid = parseInt($("#mystore").text()) ;//"13"; ////////////////
+      if ((parseInt(pid)) == 0)  {
+        mypidTop = parseInt($("#mystore").text())-1;
+      } else {
+        mypidTop = parseInt(pid)-1;
       }
-      var myid = tid+"_"+(pid-1);
-      $("#toparrow").append('<a href="#" id="'+myid+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
+      myidTop = tid+"_"+mypidTop;
+      $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
+
       $("a.node, a.arrowt").on('click', function() {
-        my = (this.id).split('_');
-        tid1 = my[0];
-        pid1 = my[1];
-        mydo(tid1, pid1, myPath);
-     });
+        myTrick(this.id);
+      });
     });
+
+    //bottom arrow checking
     $("div.arrowb").html('').promise().done(function(){
       console.log("pid: "+(parseInt(pid)+1));
-      if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  {
-        pid = "-1";
+      if ((parseInt(pid) + 1) == parseInt($("#mystore").text()))  {
+        mypidBottom = "0";
+      } else {
+        mypidBottom = parseInt(pid) + 1;
       }
-      var myid2 = tid+"_"+(parseInt(pid)+1);
-      console.log("myid2: "+myid2);
-      $("div.arrowb").append('<a href="#" id="'+myid2+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
+      
+      var myidBottom = tid+"_"+mypidBottom;
+      console.log("myidBottom: "+myidBottom);
+      $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
       $("a.arrowb").on('click', function() {
-        my2 = (this.id).split('_');
-        tid2 = my2[0];
-        pid2 = my2[1];
-        mydo(tid2, pid2, myPath);
-	    });
+        myTrick(this.id);
+      });
     });
-    
-	//bottom arrow checking
+
+/*   
     $("#arrowb").html('').promise().done(function(){
       if (parseInt(pid)+1<parseInt($("#mystore").text()))  {
+        //alert("myid: "+myid);
         $("#arrowb").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_bottom_arrow.png" /></a>');
         $("div.arrow").on('click', function() {
-          my = (this.id).split('_');
-          tid = my[0];
-          pid = my[1];    
-          mydo(tid, pid, myPath);
+          myTrick(this.id);
        });
       }
     });
+*/
 
-	// left arrow checking
-    $("#arrowl").html('').promise().done(function(){		
+    // left & right arrows checking
+    $("div.arrow").html('').promise().done(function(){
       // Get the id of the text on the centre ;-)
       myIndex = _.indexOf(sim, tid+"_"+pid);
-      loadParagraphIn(myIndex, sim);
-      console.log("heyyy!");
-      
+      loadLeftAndRightLinks(myIndex, sim);
+
       $("a.arrow").on('click', function() {
-        //alert("id: "+this.id);
-        my = (this.id).split('_');
-        tid = my[0];
-        pid = my[1];    
-        mydo(tid, pid, myPath);
-     });
+        myTrick(this.id);
+      });
     });
   }
 
   $("a.node, a.arrow").on('click', function() {
-    //alert("id: "+this.id);
-    my = (this.id).split('_');
-    tid = my[0];
-    pid = my[1];    
-    mydo(tid, pid);
+    myTrick(this.id);
   });
 
   $("\.translate").click(function() {
