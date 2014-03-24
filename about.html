@@ -77,7 +77,7 @@
 
   <!-- top reader container -->  
   <div id="mytopmetadata" class="container">
-    <p id="T_you-are-reading" class="mytag">Estas llegint</p>
+    <p id="T_you-are-reading" class="mytag"></p>
     <p id="title"></p>
     <div id="toparrow" class="arrowt"></div>
   </div>
@@ -119,8 +119,7 @@
 
   </div>  
 
-  <!-- footer -->  
-  <hr>
+  <!-- footer -->
   <footer>
     <p>my foofter</p>
     <div id="mystore"></div>
@@ -132,7 +131,7 @@
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
-  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
 
   <!-- ends Bootstrap core JavaScript -->
 
@@ -152,13 +151,13 @@
 		} else {
 			meta_img = "No images!";
 		}
-        meta_html = '<div class="list-group">\
-			<a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
-			<h4 class="list-group-item-heading">'+meta_title+'</h4>\
-			<p class="list-group-item-text">...</p>\
-			</a>\
-			</div>';
-		$("#myleftcolumn").html(meta_img);
+      meta_html = '<div class="list-group">\
+        <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
+        <h4 class="list-group-item-heading">'+meta_title+'</h4>\
+        <p class="list-group-item-text">...</p></a></div>';
+        
+      $("p.mytag").html("Estas llegint");
+      $("#myleftcolumn").html(meta_img);
       }
     });
     
@@ -281,7 +280,7 @@
   });
   
   $(document).ready(function() {
-	$(".fancybox").fancybox();
+    $(".fancybox").fancybox();
   });
 
   </script>

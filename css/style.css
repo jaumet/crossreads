@@ -133,7 +133,7 @@ td span {
 .myleft, 
 .myright, 
 #mycentercolumn, 
-a.list-group-item.active, 
+ 
 a.list-group-item.active:hover, 
 a.list-group-item.active:focus, 
 #myleftcolumn img {
@@ -153,7 +153,7 @@ a.list-group-item.active:focus,
 .myleft, 
 .myright, 
 #mycentercolumn  {
-	height: 400px;
+	  height: 200px;
     padding: 35px;
     margin:20px;
 }
@@ -224,8 +224,11 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   border-color:#FFF9D2;
 }
 
+.list-group {
+  margin-bottom: 0; 
+}
 #title h2{
-  width: 50%;
+  /*width: 50%;*/
   margin: 0 auto;
 }
 
