@@ -19,10 +19,11 @@ ToDo:
                                 -> Write the translation function: _t("string")
                         [SURE?] - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
                         DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
-                        - Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
+                        DONE- Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
                                 DONE-> and set a fix path to store the image files -> [path= "data/images"]
-                                -> add the code to check and load images in case there are some for the text been read. 
+                                DONE-> add the code to check and load images in case there are some for the text been read. 
+                                DONE-> Add lightbox like on click images
                         - Footnotes in the right column. Add footnotes in the tid.json file.
                         - Themes (only-css-based or a complete theme):
                                 -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
@@ -75,3 +76,8 @@ Other uses found of "crossreads", "cross reads" or similiar variants:
 Materials:
 
 - Imaga arrows based on the public domain images by Dr Brains published in wikicommons: http://commons.wikimedia.org/wiki/File:Red_left_arrow.png
+- Fabcybox from http://fancyapps.com/fancybox/
+- Underscorejs
+- Bootstrap
+- Jquery
+- ..
