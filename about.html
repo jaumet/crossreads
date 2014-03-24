@@ -16,6 +16,7 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
   
   <!-- start crossreads files -->
   <script type="text/javascript" src="data/visference-config.js"></script>
@@ -25,6 +26,7 @@
   <!-- end crossreads files -->
   
   <script>
+	var IMG_PATH = "data/images/";
     var LANGUAGE = "ca";
     
     function _t(myString) {
@@ -75,7 +77,8 @@
 
   <!-- top reader container -->  
   <div id="mytopmetadata" class="container">
-    <p class="translate">Estas llegint<span id="title"></span></p>
+    <p id="T_you-are-reading" class="mytag">Estas llegint</p>
+    <p id="title"></p>
     <div id="toparrow" class="arrowt"></div>
   </div>
   
@@ -129,18 +132,37 @@
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
   <!-- ends Bootstrap core JavaScript -->
 
   <!-- starts crossreads business -->
   <script>
   function loadMetadataIn(tid, mydiv)  {
-    var meta = "";
+    var meta_title = "";
+    var meta_img = "Images??";
+    var meta_html = "";
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
-        meta += "<h2>"+val.title+"</h2>";
+        meta_title = "<h2>"+val.title+"</h2>";
+        // Check for images attached to tid
+        console.log("!!!!!!!!!!val.images.lenght: "+val.images.length+" | src: "+IMG_PATH+val.images[0]);
+        if (val.images.length > 0) {
+			meta_img = '<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
+		} else {
+			meta_img = "No images!";
+		}
+        meta_html = '<div class="list-group">\
+			<a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
+			<h4 class="list-group-item-heading">'+meta_title+'</h4>\
+			<p class="list-group-item-text">...</p>\
+			</a>\
+			</div>';
+		$("#myleftcolumn").html(meta_img);
       }
     });
-    $(mydiv).html(meta);
+    
+    $(mydiv).html(meta_html);
     // Preparing smoth animate() for #text and #title
     $("#title h2").css({ "opacity": "0" });
     $("#text p").css({ "opacity": "0" });
@@ -258,6 +280,10 @@
     myTrick(this.id);
   });
   
+  $(document).ready(function() {
+	$(".fancybox").fancybox();
+  });
+
   </script>
   <!-- ends crossreads business -->
 

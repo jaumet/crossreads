@@ -7,7 +7,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-                "images": []
+        "images": []
 	},
 	{
 		'tid':2,
@@ -17,7 +17,7 @@ var METADATA = [
 		"format": "Article",
 		"topic": "10. Exemple de Topic",
 		"publication": "Texto publicado en Star, núm. 13, Barcelona (1975)",
-                "images": [""]
+        "images": ["2.jpg"]
 	},
 	{
 		"tid":3,

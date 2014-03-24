@@ -21,7 +21,7 @@ ToDo:
                         DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
                         - Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
-                                -> and set a fix path to store the image files.
+                                DONE-> and set a fix path to store the image files -> [path= "data/images"]
                                 -> add the code to check and load images in case there are some for the text been read. 
                         - Footnotes in the right column. Add footnotes in the tid.json file.
                         - Themes (only-css-based or a complete theme):

@@ -11,6 +11,7 @@ body {
   padding-bottom: 40px;
   padding-left:20px;
   height:100%;
+  font-damily: Verdana;
 }
 
 @-webkit-viewport   { width: device-width; }
@@ -34,6 +35,7 @@ body {
   color:black;
   
 }
+
 #countercontainer {
   background-color:grey;
   background-position:initial initial;
@@ -46,54 +48,67 @@ body {
   padding:7px;
   text-align:center;
   }
+
 #counter {
   color:#ffffff;
   font-size:70px;
 }
+
 #tablecontainer {
 	position:relative;
 	float:left;
 	width:80%;
 	padding-left:10px;
 }
+
 .widetable {
 	width:100%;
 }
+
 td {
   text-align:center;
   min-width:60px;
   border-bottom: 0px solid #d8e5e5;
 }
+
 td span {  
   /*display:inline-block;
   vertical-align:middle;*/
 }
+
 .tabletitle {
    text-align:left;
 }
+
 .hero-unit {
 	padding:0;
 	padding-top:0;
 	background-color:#EFEFEF;
 }
+
 .mycontainer:after {
 	clear:none;
 }
+
 .mycontainer {
 	height:100%;
 }
+
 .my {
 	padding:0;
 }
+
 #right {
 	position:relative;
 	float:right;
 	width:100px;
 	font-size:14px;
 }
+
 #right p {
 	text-align:center;
 }
+
 .checkbox {
 	/*float:left;*/
 	border:0px solid grey;
@@ -101,9 +116,11 @@ td span {
 	padding-left:25px;
 	/*width: 150px;*/
 }
+
 #title {
 
 }
+
 .prep {
 	margin-bottom:70px;
 }
@@ -113,12 +130,16 @@ td span {
 	font-weight: bold;
 }
 
-.myleft, .myright, #mycentercolumn {
+.myleft, 
+.myright, 
+#mycentercolumn, 
+a.list-group-item.active, 
+a.list-group-item.active:hover, 
+a.list-group-item.active:focus, 
+#myleftcolumn img {
+
 	border-radius: 15px;
     box-shadow: 0 0 8px #FFF9D2;
-    padding: 35px;
-    margin:20px;
-    height: 400px;
     overflow:auto;
     /*width: 90%;
     background: white;
@@ -128,6 +149,23 @@ td span {
     top: 0;
     bottom: 0;*/
 }
+
+.myleft, 
+.myright, 
+#mycentercolumn  {
+	height: 400px;
+    padding: 35px;
+    margin:20px;
+}
+
+#myleftcolumn img   {
+    margin:20px;
+}
+
+#myleftcolumn img {
+	width: 200px;
+}
+
 .myleft {
 	left: auto;
 }
@@ -174,6 +212,18 @@ body {
   background-color:#2A2A2A;
 }
 
+a.list-group-item.active {
+  color:#FFF9D2;
+  background-color:#2A2A2A;
+  border-color:#2A2A2A;
+}
+
+a.list-group-item.active:hover, a.list-group-item.active:focus {
+  color:#FFF9D2;
+  background-color:#2A2A2A;
+  border-color:#FFF9D2;
+}
+
 #title h2{
   width: 50%;
   margin: 0 auto;
@@ -195,4 +245,9 @@ body {
 .arrowr img{
   float:left;
   margin:0;
+}
+.mytag {
+	color: #B4A6A6;
+	height:20px;
+	
 }
