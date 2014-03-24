@@ -17,7 +17,7 @@ ToDo:
                         - Multilanguage of fix text (cataln and spanish?) 
                                 -> Define language files
                                 -> Write the translation function: _t("string")
-                                
+                        [SURE?] - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
                         DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
                         - Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
@@ -42,9 +42,9 @@ ToDo:
 			> Paragraph curated separation
 
 	* Data conversion
-		- Metadata to JSON
-		- Texts to TXT
-		- TXT to JSON
+		- Metadata to CSV to JSON (python script)
+		- Texts to TXT 
+		- TXT to JSON (python script: "@@@" parsing to JSON)
 
 	* Gabriela/Jaume: 
 		> paragraph similarity:

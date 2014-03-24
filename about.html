@@ -177,20 +177,18 @@
   function putParagraphIn(myIndex, mydiv)  {
     // From an index like "tid-pid" get the text tid and put the paragraph pid in div mydiv
     my = myIndex.split('_');
-	tid = my[0];
-	pid = my[1];
-	$.getJSON( "data/texts/"+tid+".json", function( data ) {
-	  var items = [];
-	  $.each( data, function( key, val ) {
-		items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
-	  });
-	  
-	  $(mydiv).css({ "opacity": "0" });
-	  $(mydiv).html(items[pid]);
-	  $(mydiv).animate({ "opacity": "1" }, 1300 );
-	  
-	  $("#mystore").html(data.length);
-	});
+	  tid = my[0];
+	  pid = my[1];
+	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
+      var items = [];
+      $.each( data, function( key, val ) {
+        items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ val.pid +"/"+data.length+"]<br />" + val.p + "</p>");
+      });
+      $(mydiv).css({ "opacity": "0" });
+      $(mydiv).html(items[pid]);
+      $(mydiv).animate({ "opacity": "1" }, 1300 );
+      $("#mystore").html(data.length);
+    });
 	return $("#mystore").text();
   }
 
@@ -213,42 +211,40 @@
 	//console.log(">>>>>> pid+1: "+(parseInt(pid)+1)+" | numParagraphs: "+numParagraphs);
 
     // top arrow checking
-    var myid = tid+"_"+(pid-1);
     $("#toparrow").html('').promise().done(function(){
-      if ((parseInt(pid))>0)  {
-        $("#toparrow").append('<a href="#" id="'+myid+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
-        $("a.node, a.arrowt").on('click', function() {
-          my = (this.id).split('_');
-          tid1 = my[0];
-          pid1 = my[1];    
-          mydo(tid1, pid1, myPath);
-       });
+      if ((parseInt(pid))==0)  {
+        pid = parseInt($("#mystore").text()) ;//"13"; ////////////////
       }
+      var myid = tid+"_"+(pid-1);
+      $("#toparrow").append('<a href="#" id="'+myid+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
+      $("a.node, a.arrowt").on('click', function() {
+        my = (this.id).split('_');
+        tid1 = my[0];
+        pid1 = my[1];
+        mydo(tid1, pid1, myPath);
+     });
     });
     $("div.arrowb").html('').promise().done(function(){
-	  console.log("pid: "+(parseInt(pid)+1)); //+" | numParagraphs: "+numParagraphs);
-	  if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  {
-		//var myid = tid+"_0";
-	    pid = "-1";
-	  }
-		var myid2 = tid+"_"+(parseInt(pid)+1);
-		console.log("myid2: "+myid2);
-		$("div.arrowb").append('<a href="#" id="'+myid2+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
-		$("a.arrowb").on('click', function() {
-		  my2 = (this.id).split('_');
-		  tid2 = my2[0];
-		  pid2 = my2[1];    
-		  mydo(tid2, pid2, myPath);
-	   });
+      console.log("pid: "+(parseInt(pid)+1));
+      if ((parseInt(pid)+1)> parseInt($("#mystore").text()))  {
+        pid = "-1";
+      }
+      var myid2 = tid+"_"+(parseInt(pid)+1);
+      console.log("myid2: "+myid2);
+      $("div.arrowb").append('<a href="#" id="'+myid2+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
+      $("a.arrowb").on('click', function() {
+        my2 = (this.id).split('_');
+        tid2 = my2[0];
+        pid2 = my2[1];
+        mydo(tid2, pid2, myPath);
+	    });
     });
     
 	//bottom arrow checking
     $("#arrowb").html('').promise().done(function(){
-      if (parseInt(pid)+1<14)  {
-        //alert("myid: "+myid);
+      if (parseInt(pid)+1<parseInt($("#mystore").text()))  {
         $("#arrowb").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_bottom_arrow.png" /></a>');
         $("div.arrow").on('click', function() {
-          //alert("id: "+this.id);
           my = (this.id).split('_');
           tid = my[0];
           pid = my[1];    
@@ -258,29 +254,28 @@
     });
 
 	// left arrow checking
-    $("#arrowl").html('').promise().done(function(){
-		
-        // Get the id of the text on the centre ;-)
-		myIndex = _.indexOf(sim, tid+"_"+pid);
-        loadParagraphIn(myIndex, sim);
-        console.log("heyyy!");
-        
-        $("a.arrow").on('click', function() {
-          //alert("id: "+this.id);
-          my = (this.id).split('_');
-          tid = my[0];
-          pid = my[1];    
-          mydo(tid, pid, myPath);
-       });
+    $("#arrowl").html('').promise().done(function(){		
+      // Get the id of the text on the centre ;-)
+      myIndex = _.indexOf(sim, tid+"_"+pid);
+      loadParagraphIn(myIndex, sim);
+      console.log("heyyy!");
+      
+      $("a.arrow").on('click', function() {
+        //alert("id: "+this.id);
+        my = (this.id).split('_');
+        tid = my[0];
+        pid = my[1];    
+        mydo(tid, pid, myPath);
+     });
     });
   }
 
   $("a.node, a.arrow").on('click', function() {
-	//alert("id: "+this.id);
-	my = (this.id).split('_');
-	tid = my[0];
-	pid = my[1];    
-	mydo(tid, pid);
+    //alert("id: "+this.id);
+    my = (this.id).split('_');
+    tid = my[0];
+    pid = my[1];    
+    mydo(tid, pid);
   });
 
   $("\.translate").click(function() {
