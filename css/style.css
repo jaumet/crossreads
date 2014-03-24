@@ -137,6 +137,7 @@ td span {
 
 
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
+  display:none;
   border:0px solid green;
 /* 
 	height: 500px;

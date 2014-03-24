@@ -40,9 +40,7 @@
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 	  var msViewportStyle = document.createElement('style')
 	  msViewportStyle.appendChild(
-		document.createTextNode(
-		  '@-ms-viewport{width:auto!important}'
-		)
+      document.createTextNode('@-ms-viewport{width:auto!important}')
 	  )
 	  document.querySelector('head').appendChild(msViewportStyle)
 	}
@@ -60,7 +58,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><b>L'ull escolta</b> - EUGENI BONET: PANTALLES, PROJECCIONS, ESCRITS.</a>
+        <a class="navbar-brand" href="#"><b>L'Ull escolta</b> - EUGENI BONET: PANTALLES, PROJECCIONS, ESCRITS.</a>
       </div>
     </div>
   </div>
@@ -68,12 +66,10 @@
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
-      <p>................</p>
       <p>
-		  <a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
-		  <span class="badge"><a id="3_10" href="#" class="node">3</a></span>
-	  </p>
-
+        <a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
+        <span class="badge"><a id="3_10" href="#" class="node">3</a></span>
+      </p>
     </div>
   </div>
 
@@ -86,6 +82,7 @@
   <!-- main reader container: row of three columns -->
   <div id="reader" class="container">
     <div class="row">
+
       <div id="myleftcolumn" class="col-md-3">
         <p>Images??</p>
       </div>
@@ -98,11 +95,13 @@
       <div id="myrightcolumn" class="col-md-3">
         <p>footnotes?</p>
       </div>
+
     </div>
   </div>
 
   <!-- bottom reader container -->
   <div id="mybottommetadata" class="container">
+
     <div id="bottomleft" class="mybottom col-md-4">
         <div class="arrowl"></div>
     </div>
@@ -114,6 +113,7 @@
     <div id="bottomright" class="mybottom col-md-4">
       <div class="arrowr"></div>
     </div>
+
   </div>  
 
   <!-- footer -->  
@@ -124,6 +124,7 @@
     <div id="wname"></div>
   </footer>
 
+  <!---------------------------->
   <!-- starts core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -132,18 +133,18 @@
 
   <!-- starts crossreads business -->
   <script>
-    function loadMetadataIn(tid, mydiv)  {
-      var meta = "";
-      $.each( METADATA, function( key, val )  {
-        if (val.tid == tid)  {
-          meta += "<h2>"+val.title+"</h2>";
-        }
-      });
-      $(mydiv).html(meta);
-      // Preparing smoth animate() for #text and #title
-      $("#title h2").css({ "opacity": "0" });
-      $("#text p").css({ "opacity": "0" });
-    }
+  function loadMetadataIn(tid, mydiv)  {
+    var meta = "";
+    $.each( METADATA, function( key, val )  {
+      if (val.tid == tid)  {
+        meta += "<h2>"+val.title+"</h2>";
+      }
+    });
+    $(mydiv).html(meta);
+    // Preparing smoth animate() for #text and #title
+    $("#title h2").css({ "opacity": "0" });
+    $("#text p").css({ "opacity": "0" });
+  }
 
 	function loadLeftAndRightLinks(myIndex, sim) {
 		console.log("loadParagraphIn(myIndex, sim) - myIndex: "+myIndex+" | sim: "+sim);
@@ -240,18 +241,6 @@
       });
     });
 
-/*   
-    $("#arrowb").html('').promise().done(function(){
-      if (parseInt(pid)+1<parseInt($("#mystore").text()))  {
-        //alert("myid: "+myid);
-        $("#arrowb").append('<a href="#" id="'+myid+'" class="arrow"><img src="images/w_bottom_arrow.png" /></a>');
-        $("div.arrow").on('click', function() {
-          myTrick(this.id);
-       });
-      }
-    });
-*/
-
     // left & right arrows checking
     $("div.arrow").html('').promise().done(function(){
       // Get the id of the text on the centre ;-)
@@ -265,11 +254,8 @@
   }
 
   $("a.node, a.arrow").on('click', function() {
+    $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
-  });
-
-  $("\.translate").click(function() {
-    
   });
   
   </script>
