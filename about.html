@@ -67,6 +67,7 @@
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
+      <div id="svgContent" class="chart"></div>
       <p>
         <a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
         <span class="badge"><a id="3_10" href="#" class="node">3</a></span>
@@ -131,6 +132,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/d3.v3.min.js" charset="utf-8"></script>
+	<script src="js/d3dateline.js"></script>
 
   <!-- ends Bootstrap core JavaScript -->
 
@@ -228,9 +231,14 @@
   }
 
   function myTrick(myid) {
-    my = (myid).split('_');
-    tid1 = my[0];
-    pid1 = my[1];    
+    if (myid.length>2) {
+      my = (myid).split('_');
+      tid1 = my[0];
+      pid1 = my[1];
+    } else {
+      pid1 = "0";
+      tid1 = myid;
+    }
     mydo(tid1, pid1);
   }
 
@@ -295,6 +303,16 @@
     $(".fancybox").fancybox();
   });
 
+  // A D3 text explorer 
+  function itemclick(d) {
+		// this function will be called when a node is clicked
+    //alert(d.id);
+    $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
+    myTrick(this.id);
+	}
+	
+  loadchart("svgContent", "data/timeline.json");
+	  
   </script>
   <!-- ends crossreads business -->
 
