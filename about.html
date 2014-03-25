@@ -86,7 +86,7 @@
     <div class="row">
 
       <div id="myleftcolumn" class="col-md-3">
-        <p>Images??</p>
+        <p></p>
       </div>
 
       <div id="mycentercolumn" class="col-md-5">
@@ -95,7 +95,7 @@
       </div>
 
       <div id="myrightcolumn" class="col-md-3">
-        <p>footnotes?</p>
+        <p></p>
       </div>
 
     </div>
@@ -138,7 +138,8 @@
   <script>
   function loadMetadataIn(tid, mydiv)  {
     var meta_title = "";
-    var meta_img = "Images??";
+    var meta_rest = '';
+    var meta_img = "";
     var meta_html = "";
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
@@ -148,23 +149,15 @@
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = '<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
         } else {
-          meta_img = "No images!";
-        }
+          meta_img = "";
+        }     
         
-        // Check for footnotes
-/*        var meta_footnote = "";
-        if (!(_.isUndefined(val.fn))) {
-          meta_footnote = '<p>'+val.fn+'</p>';
-        } else {
-          meta_footnote = 'no footnotes!';
-        }
-        $("#myrightcolumn").html(meta_footnote);
-  */      
+        meta_rest = '['+val.year+'] '+val.topic+' ('+val.format+')';
         
         meta_html = '<div class="list-group">\
           <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
           <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-          <p class="list-group-item-text">...</p></a></div>';
+          <p id="mymeta" class="list-group-item-text"><i>'+meta_rest+'</i></p></a></div>';
           
         $("p.mytag").html("Estas llegint");
         $("#myleftcolumn").html(meta_img);
@@ -209,7 +202,7 @@
         if (!(_.isUndefined(val.fn))) {
           footnote.push('<p>'+val.fn+'</p>');
         }  else {
-          footnote.push('no footnotes!');
+          footnote.push('');
         }
 	    });
   	  $(mydiv).css({ "opacity": "0" });

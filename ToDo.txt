@@ -3,34 +3,48 @@ ToDo:
 - Web page:
 	* Text explorer:
 		OPTIONS: AREA, D3js-like, Handmade timeline, Raphaeljs
-		
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~		
 	* Crossreader:
                 Events:
                         DONE 1-Vertical: Load one text as an array. 
                         DONE 2-Vertical: Then put the paragraph in "mycentercolumn"
                         DONE 3-Vertical: load metadata in "mytopmetadata"
+                                * title
+                                * date
+                                * format
+                                * topic
                         
                         DONE 4-Horizontal: Set variables for left and right paragraphs
                         [SURE?] 5-Horizontal: load metadata for left & right paragraphs
 		
                 Features:
+
+                        - Styled scrollbars!
+                        
                         - Multilanguage of fix text (cataln and spanish?) 
                                 -> Define language files
                                 -> Write the translation function: _t("string")
+
+                        - Themes (only-css-based or a complete theme):
+                                -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
+                                -> Code the theme selection and loading.
+                                -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
+                                -> [optional] code a theme editor with 2 color picker.
+                             
+                        - Storm words for each chunk. To show it as a preview of left and right jumps.
+                        
                         [SURE?] - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+
                         DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
                         DONE- Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
                                 DONE-> and set a fix path to store the image files -> [path= "data/images"]
                                 DONE-> add the code to check and load images in case there are some for the text been read. 
                                 DONE-> Add lightbox like on click images
-                        - Footnotes in the right column. Add footnotes in the tid.json file.
-                        - Themes (only-css-based or a complete theme):
-                                -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
-                                -> Code the theme selection and loading.
-                                -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
-                                -> [optional] code a theme editor with 2 color picker.
+                        DONE- Footnotes in the right column. Add footnotes in the tid.json file.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Data
 	* FORMATS:
 		DONE- Define 1 text file json format
@@ -43,7 +57,7 @@ ToDo:
 			> Paragraph curated separation
 
 	* Data conversion
-		- Metadata to CSV to JSON (python script)
+		- Metadata to CSV to JSON (python script). Use HTML annotation for stress and other special characters!
 		- Texts to TXT 
 		- TXT to JSON (python script: "@@@" parsing to JSON)
 
@@ -65,14 +79,14 @@ ToDo:
 		-> on click load + html architecture
 		-> write contents
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Other uses found of "crossreads", "cross reads" or similiar variants:
 
 * Deusche wikipedia: http://de.wikipedia.org/wiki/Cross-Reading
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Materials:
 
 - Imaga arrows based on the public domain images by Dr Brains published in wikicommons: http://commons.wikimedia.org/wiki/File:Red_left_arrow.png

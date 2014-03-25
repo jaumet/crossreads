@@ -11,7 +11,11 @@ body {
   padding-bottom: 40px;
   padding-left:20px;
   height:100%;
-  font-damily: Verdana;
+  font-family: Verdana;
+  /*
+  * background-image:url(../images/Photomatons-Eugeni_Bonet_1976.jpg);
+  * background-repeat: repeat-x;
+  */
 }
 
 @-webkit-viewport   { width: device-width; }
@@ -34,50 +38,6 @@ body {
   /*margin:2px 40% 2px auto;*/
   color:black;
   
-}
-
-#countercontainer {
-  background-color:grey;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-bottom-left-radius:20%;
-  border-bottom-right-radius:20%;
-  border-top-left-radius:20%;
-  border-top-right-radius:20%;
-  display:inline-block;
-  padding:7px;
-  text-align:center;
-  }
-
-#counter {
-  color:#ffffff;
-  font-size:70px;
-}
-
-#tablecontainer {
-	position:relative;
-	float:left;
-	width:80%;
-	padding-left:10px;
-}
-
-.widetable {
-	width:100%;
-}
-
-td {
-  text-align:center;
-  min-width:60px;
-  border-bottom: 0px solid #d8e5e5;
-}
-
-td span {  
-  /*display:inline-block;
-  vertical-align:middle;*/
-}
-
-.tabletitle {
-   text-align:left;
 }
 
 .hero-unit {
@@ -117,10 +77,6 @@ td span {
 	/*width: 150px;*/
 }
 
-#title {
-
-}
-
 .prep {
 	margin-bottom:70px;
 }
@@ -133,9 +89,9 @@ td span {
 .myleft, 
 .myright, 
 #mycentercolumn, 
- 
 a.list-group-item.active:hover, 
 a.list-group-item.active:focus, 
+a.list-group-item.active,
 #myleftcolumn img {
 
 	border-radius: 15px;
@@ -150,12 +106,19 @@ a.list-group-item.active:focus,
     bottom: 0;*/
 }
 
+a.list-group-item.active {
+    box-shadow: 0 0 8px #2a2a2a;
+}
+
 .myleft, 
 .myright, 
 #mycentercolumn  {
 	  height: 400px;
     padding: 35px;
     margin:20px;
+}
+#mycentercolumn, #myleftcolumn, #myrightcolumn {
+  background-color:#2A2A2A;
 }
 
 #myleftcolumn img   {
@@ -177,6 +140,7 @@ a.list-group-item.active:focus,
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
   display:none;
   border:0px solid green;
+  background-color:#2A2A2A;
 /* 
 	height: 500px;
 	border:2px solid blue;
@@ -229,7 +193,7 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 }
 #title h2{
   /*width: 50%;*/
-  margin: 0 auto;
+  margin: 5 auto;
 }
 
 .arrowt img {
@@ -256,4 +220,16 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 }
 .arrowt a img, .arrowb a {
   /*background-color:#FFF9D2;*/
+}
+
+p#mymeta {
+  float:right;
+  color:#B4A6A6;
+  padding-bottom :10px;
+}
+#myrightcolumn {
+  padding-top: 25px;
+  color:#B4A6A6;
+  float:left;
+  font-style:italic;
 }
