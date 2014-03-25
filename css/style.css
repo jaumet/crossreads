@@ -153,7 +153,7 @@ a.list-group-item.active:focus,
 .myleft, 
 .myright, 
 #mycentercolumn  {
-	  height: 200px;
+	  height: 400px;
     padding: 35px;
     margin:20px;
 }
@@ -253,4 +253,7 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 	color: #B4A6A6;
 	height:20px;
 	
+}
+.arrowt a img, .arrowb a {
+  /*background-color:#FFF9D2;*/
 }
