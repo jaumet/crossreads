@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
   
   <!-- start crossreads files -->
-  <script type="text/javascript" src="data/visference-config.js"></script>
   <script type="text/javascript" src="data/data.js"></script>
   <script type='text/javascript' src='data/sim.js'></script>
   <link href="css/style.css" rel="stylesheet">
@@ -144,20 +143,32 @@
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
         meta_title = "<h2>"+val.title+"</h2>";
-        // Check for images attached to tid
-        console.log("!!!!!!!!!!val.images.lenght: "+val.images.length+" | src: "+IMG_PATH+val.images[0]);
-        if (val.images.length > 0) {
-			meta_img = '<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
-		} else {
-			meta_img = "No images!";
-		}
-      meta_html = '<div class="list-group">\
-        <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
-        <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-        <p class="list-group-item-text">...</p></a></div>';
         
-      $("p.mytag").html("Estas llegint");
-      $("#myleftcolumn").html(meta_img);
+        // Check for images attached to tid
+        if (val.images.length > 0) { // FIXME for more than one image
+          meta_img = '<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
+        } else {
+          meta_img = "No images!";
+        }
+        
+        // Check for footnotes
+/*        var meta_footnote = "";
+        if (!(_.isUndefined(val.fn))) {
+          meta_footnote = '<p>'+val.fn+'</p>';
+        } else {
+          meta_footnote = 'no footnotes!';
+        }
+        $("#myrightcolumn").html(meta_footnote);
+  */      
+        
+        meta_html = '<div class="list-group">\
+          <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
+          <h4 class="list-group-item-heading">'+meta_title+'</h4>\
+          <p class="list-group-item-text">...</p></a></div>';
+          
+        $("p.mytag").html("Estas llegint");
+        $("#myleftcolumn").html(meta_img);
+        
       }
     });
     
@@ -185,25 +196,33 @@
   }
 
   function putParagraphIn(myIndex, mydiv)  {
-    // From an index like "tid-pid" get the text tid and put the paragraph pid in div mydiv
+    // From an index like "tid_pid" get the text tid and put the paragraph pid in div mydiv
     my = myIndex.split('_');
 	  tid = my[0];
 	  pid = my[1];
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
 	    var items = [];
+      var footnote = [];
 	    $.each( data, function( key, val ) {
-		    items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ (parseInt(val.pid)) +"/"+data.length+"]<br />" + val.p + "</p>");
+        items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ (parseInt(val.pid)+1) +"/"+data.length+"]<br />" + val.p + "</p>");
+        // Check for footnotes
+        if (!(_.isUndefined(val.fn))) {
+          footnote.push('<p>'+val.fn+'</p>');
+        }  else {
+          footnote.push('no footnotes!');
+        }
 	    });
-	  
   	  $(mydiv).css({ "opacity": "0" });
       //$("#title h2").css({ "opacity": "0" });
       //sleep(500);
 	    $(mydiv).html(items[pid]);
+      $("#myrightcolumn").html(footnote[pid]);
+
 	    $(mydiv).animate({ "opacity": "1" }, 1300 );
  	    $("#title h2").animate({ "opacity": "1" }, 1300 );
       $("#mystore").html(data.length);
     });
-	  return $("#mystore").text();
+    //return $("#mystore").text();
   }
 
   function sleep(milliseconds) {
