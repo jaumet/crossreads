@@ -67,11 +67,11 @@
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
-      <div id="svgContent" class="chart"></div>
-      <p>
-        <a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
-        <span class="badge"><a id="3_10" href="#" class="node">3</a></span>
-      </p>
+	  <div id="timeline1" style="width:500px;height: 200px;"></div>
+	  <p>
+		<a id="3_10" href="#" class="node btn btn-primary btn-xs">3</a>
+		<span class="badge"><a id="3_10" href="#" class="node">3</a></span>
+	  </p>
     </div>
   </div>
 
@@ -124,7 +124,9 @@
     <p>my foofter</p>
     <div id="mystore"></div>
     <div id="wname"></div>
+    <div id='event-description'></div>
   </footer>
+
 
   <!---------------------------->
   <!-- starts core JavaScript -->
@@ -132,13 +134,48 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
-  <script src="js/d3.v3.min.js" charset="utf-8"></script>
-	<script src="js/d3dateline.js"></script>
-
+  <script src="js/raphael-min.js" type="text/javascript"></script>
+  <script src="js/timeline.js" type="text/javascript"></script>
   <!-- ends Bootstrap core JavaScript -->
-
   <!-- starts crossreads business -->
   <script>
+    // A DRaphaeljs texts explorer         
+	var p1 = Raphael('timeline1', 700, 140);
+	var text_list = [  // FIXME
+			{name:'title 1',date:'1974-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1975-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1975-10-24',description:'mp3 player'},
+			{name:'title 1',date:'1980-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1981-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1982-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1984-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1986-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1987-10-23',description:'mp3 player'},
+			{name:'title 1',date:'1992-10-23',description:'mp3 player'},
+			{name:'title 27-1', date: '1993-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '1994-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '1995-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '1996-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '1997-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '1999-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2001-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2002-7-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2004-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2005-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2006-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2007-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-2', date: '2008-6-29',description:'touchscreen smartphone'},
+			{name:'title 27-1', date: '2009-6-29',description:'touchscreen smartphone'},
+			{name:'title 4', date:'2010-1-29', description:'touchscreen tablet'},
+			{name:'title 4', date:'2010-3-29', description:'touchscreen tablet'},
+			{name:'title 4', date:'2010-6-29', description:'touchscreen tablet'},
+			{name:'title 4', date:'2012-6-29', description:'touchscreen tablet'},
+			{name:'title 4', date:'2014-6-29', description:'touchscreen tablet'},
+			{name:'title 5', date:'2014-6-30', description:'touchscreen tablet'}];
+							
+	p1.timeline.draw({events: text_list, color:'#FFF9D2'}, function(product) {
+			console.log(product.name + ': ' + product.description);
+	});
   function loadMetadataIn(tid, mydiv)  {
     var meta_title = "";
     var meta_rest = '';
@@ -239,6 +276,7 @@
       pid1 = "0";
       tid1 = myid;
     }
+    console.log('==> pid1: '+pid1+' | tid1: '+tid1);
     mydo(tid1, pid1);
   }
 
@@ -294,7 +332,7 @@
     });
   }
 
-  $("a.node, a.arrow").on('click', function() {
+  $("a.node, a.arrow, circle").on('click', function() {
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
   });
@@ -303,16 +341,6 @@
     $(".fancybox").fancybox();
   });
 
-  // A D3 text explorer 
-  function itemclick(d) {
-		// this function will be called when a node is clicked
-    //alert(d.id);
-    $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
-    myTrick(this.id);
-	}
-	
-  loadchart("svgContent", "data/timeline.json");
-	  
   </script>
   <!-- ends crossreads business -->
 
