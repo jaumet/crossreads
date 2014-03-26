@@ -19,9 +19,9 @@
   <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
   
   <!-- start crossreads files -->
+  <link href="css/style.css" rel="stylesheet">
   <script type="text/javascript" src="data/data.js"></script>
   <script type='text/javascript' src='data/sim.js'></script>
-  <link href="css/style.css" rel="stylesheet">
   <!-- end crossreads files -->
   
   <script>
@@ -132,8 +132,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
-  <script src="js/raphael-min.js" type="text/javascript"></script>
   <!-- ends Bootstrap core JavaScript -->
+
   <!-- starts crossreads business -->
   <script>
   function loadMetadataIn(tid, mydiv)  {
@@ -227,13 +227,14 @@
   }
 
   function myTrick(myid) {
-    if (myid.length>2) {
-      my = (myid).split('_');
-      tid1 = my[0];
-      pid1 = my[1];
-    } else {
-      pid1 = "0";
+    my = (myid).split('_');
+    tid1 = my[0];
+    pid1 = my[1];
+    if (_.isUndefined(pid1)) {
+      pid1 = "1";
       tid1 = myid;
+      alert("1) myid.slice(-1): "+myid.slice(-1)+" | tid1: "+tid1+" | pid1: "+pid1);
+//      alert("2) myid.slice(-1): "+myid.slice(-1)+" | tid1: "+tid1+" | pid1: "+pid1);
     }
     console.log('==> pid1: '+pid1+' | tid1: '+tid1);
     mydo(tid1, pid1);
