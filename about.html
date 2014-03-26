@@ -233,8 +233,6 @@
     if (_.isUndefined(pid1)) {
       pid1 = "1";
       tid1 = myid;
-      alert("1) myid.slice(-1): "+myid.slice(-1)+" | tid1: "+tid1+" | pid1: "+pid1);
-//      alert("2) myid.slice(-1): "+myid.slice(-1)+" | tid1: "+tid1+" | pid1: "+pid1);
     }
     console.log('==> pid1: '+pid1+' | tid1: '+tid1);
     mydo(tid1, pid1);
@@ -242,8 +240,8 @@
 
   function mydo(tid, pid) {
 	
-	  window.name += " | "+tid+"_"+pid;	
-	  $("#wname").append(" | "+tid+"_"+pid);
+	window.name += " | "+tid+"_"+pid;	
+	$("#wname").append(" | "+tid+"_"+pid);
 	
     loadMetadataIn(tid, "#title");
     putParagraphIn(tid+"_"+pid, "#text");
