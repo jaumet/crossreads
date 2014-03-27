@@ -201,7 +201,7 @@
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
 	    var items = [];
       var footnote = [];
-	    $.each( data, function( key, val ) {
+      $.each( data, function( key, val ) {
         items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ (parseInt(val.pid)+1) +"/"+data.length+"]<br />" + val.p + "</p>");
         // Check for footnotes
         if (!(_.isUndefined(val.fn))) {
@@ -209,15 +209,15 @@
         }  else {
           footnote.push('');
         }
-	    });
-  	  $(mydiv).css({ "opacity": "0" });
+      });
+      $(mydiv).css({ "opacity": "0" });
       //$("#title h2").css({ "opacity": "0" });
-      //sleep(500);
-	    $(mydiv).html(items[pid]);
+      sleep(200);
+      $(mydiv).html(items[pid]);
       $("#myrightcolumn").html(footnote[pid]);
 
-	    $(mydiv).animate({ "opacity": "1" }, 1300 );
- 	    $("#title h2").animate({ "opacity": "1" }, 1300 );
+      $(mydiv).animate({ "opacity": "1" }, 1300 );
+      $("#title h2").animate({ "opacity": "1" }, 1300 );
       $("#mystore").html(data.length);
     });
     //return $("#mystore").text();
@@ -246,8 +246,8 @@
 
   function mydo(tid, pid) {
 	
-	window.name += " | "+tid+"_"+pid;	
-	$("#wname").append(" | "+tid+"_"+pid);
+    window.name += " | "+tid+"_"+pid;	
+    $("#wname").append(" | "+tid+"_"+pid);
 	
     loadMetadataIn(tid, "#title");
     putParagraphIn(tid+"_"+pid, "#text");
@@ -290,7 +290,7 @@
       myIndex = _.indexOf(sim, tid+"_"+pid);
       loadLeftAndRightLinks(myIndex, sim);
 
-      $("a.arrow, c").on('click', function() {
+      $("a.arrow").on('click', function() {
         myTrick(this.id);
       });
     });
