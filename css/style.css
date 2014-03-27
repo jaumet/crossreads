@@ -45,6 +45,18 @@ c {
   color:black;
   cursor:pointer;
   
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+/*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF9D2), to(#FFF9D2));
+background: -webkit-linear-gradient(#FFF9D2, #FFF9D2);
+background: -moz-linear-gradient(#FFF9D2, #FFF9D2);
+background: -ms-linear-gradient(#FFF9D2, #FFF9D2);
+background: -o-linear-gradient(#FFF9D2, #FFF9D2);
+background: linear-gradient(#FFF9D2, #FFF9D2);
+*/
+-pie-background: linear-gradient(#FFF9D2, #FFF9D2);
+behavior: url(/pie/PIE.htc);
+  
 }
 /*
 c.t1 { background-color:#663333;}
