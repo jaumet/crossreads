@@ -12,6 +12,7 @@ body {
   padding-left:20px;
   height:100%;
   font-family: Verdana;
+  color: #FFF9D2;
   /*
   * background-image:url(../images/Photomatons-Eugeni_Bonet_1976.jpg);
   * background-repeat: repeat-x;
@@ -24,20 +25,45 @@ body {
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
-.circle {
-  background-color:orange;
+/*************************/
+/* table timeline */
+c {
+  background-color: #FFF9D2;
   background-position:initial initial;
   background-repeat:initial initial;
   border-bottom-left-radius:50%;
   border-bottom-right-radius:50%;
   border-top-left-radius:50%;
   border-top-right-radius:50%;
+  width: 10px;
+  height: 10px;
+  line-height:1px;
   display:inline-block;
-  margin-top:2px;
-  margin-bottom:2px;
+  margin:4px;
+  margin-bottom:0px;
   /*margin:2px 40% 2px auto;*/
   color:black;
+  cursor:pointer;
   
+}
+/*
+c.t1 { background-color:#663333;}
+c.t2 { background-color:#4c6633;}
+c.t3 { background-color:#336666;}
+c.t4 { background-color:#4c3366;}
+*/
+c.t1 { background-color:#9966cc;}
+c.t2 { background-color:#cc6666;}
+c.t3 { background-color:#99cc66;}
+c.t4 { background-color:#66cccc;}
+
+td {
+	border:1px dashed #B4A6A6;
+	border-top:0;
+	border-bottom:0;
+	max-width:49px;
+	padding: 4px;
+	color:#B4A6A6;
 }
 
 .hero-unit {
@@ -107,13 +133,13 @@ a.list-group-item.active,
 }
 
 a.list-group-item.active {
-    box-shadow: 0 0 8px #2a2a2a;
+    box-shadow: 0 0 8px #FFF9D2;
 }
 
 .myleft, 
 .myright, 
 #mycentercolumn  {
-	  height: 400px;
+	height: 400px;
     padding: 35px;
     margin:20px;
 }
@@ -234,4 +260,11 @@ p#mymeta {
   font-style:italic;
 }
 
+.navbar-inverse .navbar-brand {
+	color: #FFF9D2;
+}
+
+.node h2 {
+	margin-top: 2px;
+}
 /*****************************************/
