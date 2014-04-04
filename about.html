@@ -64,59 +64,59 @@
       <table>
         <tr>
 			<td>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t4">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t2">.</c>
+                                <c id="3_0" class="t2">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t4">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t3">.</c>
+                                <c id="3_0" class="t3">.</c>
                         </td>
 			<td>
-                                <c id="2" class="t1">.</c>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t3">.</c>.</c>
+                                <c id="2_0" class="t1">.</c>
+                                <c id="2_0" class="t2">.</c>
+                                <c id="2_0" class="t2">.</c>
+                                <c id="2_0" class="t3">.</c>.</c>
                         </td>
 			<td>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t4">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t4">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t2">.</c>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t2">.</c>
+                                <c id="3_0" class="t2">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t2">.</c>
+                                <c id="3_0" class="t2">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t1">.</c>
-                                <c id="3" class="t1">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t1">.</c>
+                                <c id="3_0" class="t1">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
 			<td>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t3">.</c>
-                                <c id="3" class="t4">.</c>
-                                <c id="3" class="t4">.</c>
-                                <c id="3" class="t4">.</c>
-                                <c id="3" class="t4">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t3">.</c>
+                                <c id="3_0" class="t4">.</c>
+                                <c id="3_0" class="t4">.</c>
+                                <c id="3_0" class="t4">.</c>
+                                <c id="3_0" class="t4">.</c>
                         </td>
         </tr>
         <tr>
@@ -189,7 +189,7 @@
   <script>
   function loadMetadataIn(tid, mydiv)  {
     var meta_title = "";
-    var meta_rest = '';
+    var meta_rest = "";
     var meta_img = "";
     var meta_html = "";
     $.each( METADATA, function( key, val )  {
@@ -221,25 +221,23 @@
     $("#text p").css({ "opacity": "0" });
   }
 
-	function loadLeftAndRightLinks(myIndex, sim) {
-		console.log("loadParagraphIn(myIndex, sim) - myIndex: "+myIndex+" | sim: "+sim);
-		if (_.has(sim, myIndex-1)) {
-			leftIndex = sim[myIndex-1];
-		} else {
-			leftIndex = sim[sim.length-1];
-		}
-		if (_.has(sim, myIndex+1)) {
-			rightIndex = sim[myIndex+1];
-		} else {
-			rightIndex = sim[0];
-		}
-		console.log("leftIndex: "+leftIndex+" | rightIndex: "+rightIndex);
-		$("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
-		$("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a>');
+  function loadLeftAndRightLinks(myIndex, sim) {
+    if (_.has(sim, myIndex-1)) {
+            leftIndex = sim[myIndex-1];
+    } else {
+            leftIndex = sim[sim.length-1];
+    }
+    if (_.has(sim, myIndex+1)) {
+            rightIndex = sim[myIndex+1];
+    } else {
+            rightIndex = sim[0];
+    }
+    $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
+    $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a>');
   }
 
   function putParagraphIn(myIndex, mydiv)  {
-    // From an index like "tid_pid" get the text tid and put the paragraph pid in div mydiv
+    // From an index putParagraphInlike "tid_pid" get the text tid and put the paragraph pid in div mydiv
     my = myIndex.split('_');
 	  tid = my[0];
 	  pid = my[1];
@@ -256,16 +254,13 @@
         }
       });
       $(mydiv).css({ "opacity": "0" });
-      //$("#title h2").css({ "opacity": "0" });
-      sleep(200);
       $(mydiv).html(items[pid]);
       $("#myrightcolumn").html(footnote[pid]);
-
       $(mydiv).animate({ "opacity": "1" }, 1300 );
       $("#title h2").animate({ "opacity": "1" }, 1300 );
       $("#mystore").html(data.length);
     });
-    //return $("#mystore").text();
+    return $("#mystore").html();
   }
 
   function sleep(milliseconds) {
@@ -279,39 +274,39 @@
 
   function myTrick(myid) {
     my = (myid).split('_');
-    tid1 = my[0];
-    pid1 = my[1];
-    if (_.isUndefined(pid1)) {
-      pid1 = "0";
-      tid1 = myid;
+    console.log('>>>>> my: '+my);
+    tid = my[0];
+    pid = my[1];
+    if (_.isUndefined(pid) || pid == "NaN") {
+      pid = "0";
+      tid = myid;
     }
-    console.log('==> pid1: '+pid1+' | tid1: '+tid1);
-    mydo(tid1, pid1);
-  }
-
-  function mydo(tid, pid) {
+    console.log('==> tid: '+tid+' | pid: '+pid);
 	
     window.name += " | "+tid+"_"+pid;	
     $("#wname").append(" | "+tid+"_"+pid);
 	
     loadMetadataIn(tid, "#title");
     putParagraphIn(tid+"_"+pid, "#text");
-
+    
     // top arrow checking
-    $("#toparrow").html('').promise().done(function(){
-      if ((parseInt(pid)) == 0)  {
-        mypidTop = parseInt($("#mystore").text())-1;
-      } else {
-        mypidTop = parseInt(pid)-1;
-      }
-      myidTop = tid+"_"+mypidTop;
-      $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
-
-      $("a.node, a.arrowt").on('click', function() {
-        myTrick(this.id);
+    $("#mystore").promise().done(function(){
+      $("#toparrow").html('').promise().done(function(){
+        if (parseInt(pid) == 0)  {
+          mypidTop = METADATA[tid-1]["nump"]-1;
+        } else {
+          mypidTop = parseInt(pid)-1;
+        }
+        myidTop = tid+"_"+mypidTop;
+        console.log("myidTop: "+myidTop);
+        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" />'+myidTop+'</a>');
+        $("a.node, a.arrowt").on('click', function() {
+          myTrick(this.id);
+        });
+        return false;
       });
     });
-
+      
     //bottom arrow checking
     $("div.arrowb").html('').promise().done(function(){
       console.log("pid: "+(parseInt(pid)+1));
@@ -326,6 +321,7 @@
       $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
       $("a.arrowb").on('click', function() {
         myTrick(this.id);
+        return false;
       });
     });
 
@@ -337,6 +333,7 @@
 
       $("a.arrow").on('click', function() {
         myTrick(this.id);
+        return false;
       });
     });
   }
@@ -344,10 +341,12 @@
   $("a.node, a.arrow, c").on('click', function() {
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
+    return false;
   });
   
   $(document).ready(function() {
     $(".fancybox").fancybox();
+    return false;
   });
 
   </script>

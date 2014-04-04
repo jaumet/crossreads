@@ -1,6 +1,7 @@
 var METADATA = [
 	{
 		"tid":1,
+    "nump": 14,
 		"title": "T",
 		"year": 1970,
 		"lang": "L",
@@ -11,6 +12,7 @@ var METADATA = [
 	},
 	{
 		'tid':2,
+    "nump": 10,
 		"title": "Cine decadente: un nuevo expresionismo",
 		"year": 1975,
 		"lang": "Es",
@@ -21,6 +23,7 @@ var METADATA = [
 	},
 	{
 		"tid":3,
+    "nump": 14,
 		"title": "Del oscilógrafo al chip prodigioso",
 		"year": 1988,
 		"lang": "Spanish",
