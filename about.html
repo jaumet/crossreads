@@ -20,24 +20,23 @@
   
   <!-- start crossreads files -->
   <link href="css/style.css" rel="stylesheet">
+  <script type='text/javascript' src='data/mylang.js'></script>
   <script type="text/javascript" src="data/data.js"></script>
   <script type='text/javascript' src='data/sim.js'></script>
   <!-- end crossreads files -->
   
   <script>
-	var IMG_PATH = "data/images/";
-    var LANGUAGE = "ca";
+    var IMG_PATH = "data/images/";
     
+
+
+/*   
+    // Get translated string
     function _t(myString) {
-      if (LANGUAGE != "ca") {
-        document.write("<script type='text/javascript' src='languages/"+LANGUAGE+".js'><//script>");
-        out = LANGUAGE["myString"];
-      } else {
-        out = "myString";
-      }
-      return out;
+      //return "catala";
+      return LANGUAGE["myString"];
     }
-    
+*/ 
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 	  var msViewportStyle = document.createElement('style')
 	  msViewportStyle.appendChild(
@@ -53,7 +52,7 @@
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><b>L'Ull escolta</b> - EUGENI BONET: PANTALLES, PROJECCIONS, ESCRITS.</a>
+        <a class="navbar-brand" href="#"><span id="mytitle"></span><b>L'Ull escolta</b> - EUGENI BONET: PANTALLES, PROJECCIONS, ESCRITS.</a>
       </div>
     </div>
   </div>
@@ -128,7 +127,7 @@
 
   <!-- top reader container -->  
   <div id="mytopmetadata" class="container">
-    <p id="T_you-are-reading" class="mytag"></p>
+    <p id="my_youarereading" class="mytag"></p>
     <p id="title"></p>
     <div id="toparrow" class="arrowt"></div>
   </div>
@@ -187,6 +186,7 @@
 
   <!-- starts crossreads business -->
   <script>
+  
   function loadMetadataIn(tid, mydiv)  {
     var meta_title = "";
     var meta_rest = "";
@@ -210,7 +210,7 @@
           <h4 class="list-group-item-heading">'+meta_title+'</h4>\
           <p id="mymeta" class="list-group-item-text"><i>'+meta_rest+'</i></p></a></div>';
           
-        $("p.mytag").html("Estas llegint");
+        $("#my_youarereading").css({"display":"block"});
         $("#myleftcolumn").html(meta_img);
       }
     });
@@ -281,7 +281,7 @@
       pid = "0";
       tid = myid;
     }
-    console.log('==> tid: '+tid+' | pid: '+pid);
+    //console.log('==> tid: '+tid+' | pid: '+pid);
 	
     window.name += " | "+tid+"_"+pid;	
     $("#wname").append(" | "+tid+"_"+pid);
@@ -298,7 +298,7 @@
           mypidTop = parseInt(pid)-1;
         }
         myidTop = tid+"_"+mypidTop;
-        console.log("myidTop: "+myidTop);
+        //console.log("myidTop: "+myidTop);
         $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" />'+myidTop+'</a>');
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
@@ -309,7 +309,7 @@
       
     //bottom arrow checking
     $("div.arrowb").html('').promise().done(function(){
-      console.log("pid: "+(parseInt(pid)+1));
+      //console.log("pid: "+(parseInt(pid)+1));
       if ((parseInt(pid) + 1) == parseInt($("#mystore").text()))  {
         mypidBottom = "0";
       } else {
@@ -317,7 +317,7 @@
       }
       
       var myidBottom = tid+"_"+mypidBottom;
-      console.log("myidBottom: "+myidBottom);
+      //console.log("myidBottom: "+myidBottom);
       $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
       $("a.arrowb").on('click', function() {
         myTrick(this.id);
@@ -349,6 +349,27 @@
     return false;
   });
 
+    //////// Languages: 
+    // lang object are defined in data/mylang.js
+    // each string is defined as: "element id": "text string"
+    function getParameterByName(name) {
+      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+    }
+
+    var LANGUAGE = getParameterByName("l");
+    if (LANGUAGE == "ca" || LANGUAGE == undefined) { LANGUAGE = "ca";}
+    if (LANGUAGE == "es" ){ LANGUAGE = "es";}
+    if (LANGUAGE != "ca" && LANGUAGE != "es") { LANGUAGE = "ca";}
+
+    function langStrings(lang)  { 
+      console.log("lang: "+lang);
+      $.each(lang, function(key, value){
+        $("#"+key).html(value);
+        console.log(key + ": " + value);
+      });
+    } 
+    langStrings(eval("lang_"+LANGUAGE));
+    $("#my_youarereading").css({"display":"none"});
   </script>
   <!-- ends crossreads business -->
 

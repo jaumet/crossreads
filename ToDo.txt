@@ -2,7 +2,9 @@ ToDo:
 
 - Web page:
 	* Text explorer:
-		OPTIONS: AREA, D3js-like, Handmade timeline, Raphaeljs
+		DONE Handmade timeline
+		- Make it IEx compatible!
+		- OPTION: by type of text
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~		
 	* Crossreader:
@@ -16,26 +18,21 @@ ToDo:
                                 * topic
                         
                         DONE 4-Horizontal: Set variables for left and right paragraphs
-                        [SURE?] 5-Horizontal: load metadata for left & right paragraphs
 		
                 Features:
-
-                        - Styled scrollbars!
-                        
-                        - Multilanguage of fix text (cataln and spanish?) 
+                        - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+                        DONE- Multilanguage of fix text (catalan and spanish?) 
                                 -> Define language files
                                 -> Write the translation function: _t("string")
 
-                        - Themes (only-css-based or a complete theme):
+                        [OPTIONAL] - Themes (only-css-based or a complete theme):
                                 -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
                                 -> Code the theme selection and loading.
                                 -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
                                 -> [optional] code a theme editor with 2 color picker.
                              
-                        - Storm words for each chunk. To show it as a preview of left and right jumps.
+                        [OPTIONAL] - Storm words for each chunk. To show it as a preview of left and right jumps.
                         
-                        [SURE?] - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
-
                         DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
                         DONE- Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
                                 DONE-> include images name in metadata.js, 
