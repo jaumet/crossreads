@@ -1,11 +1,11 @@
 var lang_ca = 
 {
-  "mytitle":"L'ULL!!!!!",
+  "mytitle":"",
   "my_youarereading":"Est&agrave;s llegint:"
 };
 
 var lang_es = 
 {
-  "mytitle":"EL OJO!!!!!",
+  "mytitle":"",
   "my_youarereading":"Est&aacute;s leyendo:"
 };

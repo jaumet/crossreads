@@ -3,10 +3,10 @@ ToDo:
 - Web page:
 	* Text explorer:
 		DONE Handmade timeline
-		- Make it IEx compatible!
+XXXX		- Make it IEx compatible!
 		- OPTION: by type of text
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~		
+~~~~	
 	* Crossreader:
                 Events:
                         DONE 1-Vertical: Load one text as an array. 
@@ -20,11 +20,13 @@ ToDo:
                         DONE 4-Horizontal: Set variables for left and right paragraphs
 		
                 Features:
-                        - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
-                        DONE- Multilanguage of fix text (catalan and spanish?) 
-                                -> Define language files
-                                -> Write the translation function: _t("string")
+XXXX                    - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+ 
+                        - Multilanguage of fix text (catalan and spanish?) 
+                                DONE-> Implement & define language files
+XXXX                            -> Add all the string ti be translated
 
+ 
                         [OPTIONAL] - Themes (only-css-based or a complete theme):
                                 -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
                                 -> Code the theme selection and loading.
@@ -55,7 +57,7 @@ ToDo:
 
 	* Data conversion
 		- Metadata to CSV to JSON (python script). Use HTML annotation for stress and other special characters!
-		- Texts to TXT 
+DONE- DOC to TXT 
 		- TXT to JSON (python script: "@@@" parsing to JSON)
 
 	* Gabriela/Jaume: 

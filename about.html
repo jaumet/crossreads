@@ -13,11 +13,23 @@
   <link href="css/jumbotron.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
   
+  <script>
+    var IMG_PATH = "data/images/";
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+      var msViewportStyle = document.createElement('style')
+      msViewportStyle.appendChild(
+        document.createTextNode('@-ms-viewport{width:auto!important}')
+      )
+      document.querySelector('head').appendChild(msViewportStyle)
+    }
+  </script>
+    
   <!-- start crossreads files -->
   <link href="css/style.css" rel="stylesheet">
   <script type='text/javascript' src='data/mylang.js'></script>
@@ -25,27 +37,6 @@
   <script type='text/javascript' src='data/sim.js'></script>
   <!-- end crossreads files -->
   
-  <script>
-    var IMG_PATH = "data/images/";
-    
-
-
-/*   
-    // Get translated string
-    function _t(myString) {
-      //return "catala";
-      return LANGUAGE["myString"];
-    }
-*/ 
-    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-	  var msViewportStyle = document.createElement('style')
-	  msViewportStyle.appendChild(
-      document.createTextNode('@-ms-viewport{width:auto!important}')
-	  )
-	  document.querySelector('head').appendChild(msViewportStyle)
-	}
-
-  </script>
 </head>
 
 <body>
@@ -299,7 +290,7 @@
         }
         myidTop = tid+"_"+mypidTop;
         //console.log("myidTop: "+myidTop);
-        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" />'+myidTop+'</a>');
+        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
         });
