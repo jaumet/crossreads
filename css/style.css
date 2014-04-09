@@ -65,10 +65,16 @@ c.t2 { background-color:#4c6633;}
 c.t3 { background-color:#336666;}
 c.t4 { background-color:#4c3366;}
 */
-c.t1 { background-color:#9966cc;color:#9966cc;}
-c.t2 { background-color:#cc6666;color:#cc6666;}
-c.t3 { background-color:#99cc66;color:#99cc66;}
-c.t4 { background-color:#66cccc;color:#66cccc;}
+
+.t1 { background-color:#9966cc;color:#9966cc;}
+.t2 { background-color:#cc6666;color:#cc6666;}
+.t3 { background-color:#99cc66;color:#99cc66;}
+.t4 { background-color:#66cccc;color:#66cccc;}
+
+.t1c { color:#9966cc;}
+.t2c { color:#cc6666;}
+.t3c { color:#99cc66;}
+.t4c { color:#66cccc;}
 
 td {
 	border:1px dashed #B4A6A6;
@@ -329,5 +335,6 @@ p#mymeta {
 }
 .legend {
   padding-left:20px;
+  color:#B4A6A6;
 }
 /*****************************************/
