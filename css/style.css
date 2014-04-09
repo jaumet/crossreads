@@ -221,7 +221,7 @@ a.list-group-item.active {
 .container {
   border:0px solid red;
   /*width:auto;*/
-  margin:0 auto 0 20%;
+  margin:0 auto;
   
 }
 .row {
@@ -322,4 +322,10 @@ p#mymeta {
   font-weight:bold;
 }
 
+.legend, .mytimeline {
+  float:left;
+}
+.legend {
+  padding-left:20px;
+}
 /*****************************************/

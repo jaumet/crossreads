@@ -13,9 +13,16 @@ ToDo:
       * 3) About the data
       * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
 
-	* Text explorer:
-		- OPTION: by type of text
+DONE  - Text explorer
+DONE  - Balls legend
+  
+  - OPTIONAL: Text to Speetch: http://vozme.com/ (festival in JS)
 
+  - OPTIONAL: 
+    * Save logs of crossreads
+    * Compare them
+    * Visualize them (in a grid?)
+  
 ~~~~	
 	* Crossreader:
     - ARROWS:
@@ -24,7 +31,7 @@ DONE        * Invert colors for right & left arrows
 DONE        * Add title and more to left &  right arrows
         * Add Keywords (from the spreadsheet) to the title-box
 
-    - Read all text access:
+    - Get a whole text:
         * Generate all text in one view and and LINK in the title-box
         * Add access to the whole text in a new window (or in a pop-up-div)
     
