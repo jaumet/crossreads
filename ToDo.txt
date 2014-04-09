@@ -1,55 +1,56 @@
 ToDo:
 
 - Web page:
+  - Check for problems on resize the window
+  - BROWSER COMPATIBILITY:
+      * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
+      * Check Saafari amd, specialy, Safari version on Macba's IPADs
+      
+  - OTHER PAGES: show contents below the timeline
+      * 0) Default oresentation on load page.
+      * 1) Show list of all texts as a item-list with title and metadata.
+      * 2) Credits
+      * 3) About the data
+      * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+
 	* Text explorer:
-		DONE Handmade timeline
-XXXX		- Make it IEx compatible!
 		- OPTION: by type of text
 
 ~~~~	
 	* Crossreader:
-                Events:
-                        DONE 1-Vertical: Load one text as an array. 
-                        DONE 2-Vertical: Then put the paragraph in "mycentercolumn"
-                        DONE 3-Vertical: load metadata in "mytopmetadata"
-                                * title
-                                * date
-                                * format
-                                * topic
-                        
-                        DONE 4-Horizontal: Set variables for left and right paragraphs
-		
-                Features:
-XXXX                    - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
- 
-                        - Multilanguage of fix text (catalan and spanish?) 
-                                DONE-> Implement & define language files
-XXXX                            -> Add all the string ti be translated
+    - ARROWS:
+DONE        * Change arrows's image
+DONE        * Invert colors for right & left arrows
+DONE        * Add title and more to left &  right arrows
+        * Add Keywords (from the spreadsheet) to the title-box
 
- 
-                        [OPTIONAL] - Themes (only-css-based or a complete theme):
-                                -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
-                                -> Code the theme selection and loading.
-                                -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
-                                -> [optional] code a theme editor with 2 color picker.
-                             
-                        [OPTIONAL] - Storm words for each chunk. To show it as a preview of left and right jumps.
-                        
-                        DONE - Fake-Session-tack to avoid same paragraph reading -> using  simple window.name to store the list of browsed paragraphs
-                        DONE- Images on left column. NOTE: images belongs to a text. Thi is, all the paragraphs in this text includes same images
-                                DONE-> include images name in metadata.js, 
-                                DONE-> and set a fix path to store the image files -> [path= "data/images"]
-                                DONE-> add the code to check and load images in case there are some for the text been read. 
-                                DONE-> Add lightbox like on click images
-                        DONE- Footnotes in the right column. Add footnotes in the tid.json file.
+    - Read all text access:
+        * Generate all text in one view and and LINK in the title-box
+        * Add access to the whole text in a new window (or in a pop-up-div)
+    
+    - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
 
+    - Multilanguage of fix text (catalan and spanish?) 
+      -> Add all the string ti be translated
+
+
+    [OPTIONAL] - Themes (only-css-based or a complete theme):
+      -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
+      -> Code the theme selection and loading.
+      -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
+      -> [optional] code a theme editor with 2 color picker.
+         
+    [OPTIONAL] - Storm words for each chunk. To show it as a preview of left and right jumps.
+                        
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Data
+  * METADATA: check and extract the data from the google s[preadsheet.
+
 	* FORMATS:
 		DONE- Define 1 text file json format
 		DONE- Define all-texts metadata format
 		- Define similarities chain json format
-		
+
 	* Sonia:
 		- Metadata/Text (Spreadsheed)
 		- Each Text
@@ -58,8 +59,14 @@ XXXX                            -> Add all the string ti be translated
 	* Data conversion
 		- Metadata to CSV to JSON (python script). Use HTML annotation for stress and other special characters!
 DONE- DOC to TXT 
-		- TXT to JSON (python script: "@@@" parsing to JSON)
 
+DONE    -> CHECK HOT TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE DOC
+    - DOC to HTML
+      * Clean HTML
+      * HTML to JSON (python script: "@@@" parsing to JSON)
+        > Add footnotes to each paragraph where it is call from.
+        > Keep number of footnote from the original document.
+        
 	* Gabriela/Jaume: 
 		> paragraph similarity:
 			* write definition
@@ -72,11 +79,8 @@ DONE- DOC to TXT
 	OTHER PAGES:
 		- Credits
 		- Explanation data and process
-		- Feedback form
+		- 
 		
-		-> include links in navigation
-		-> on click load + html architecture
-		-> write contents
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

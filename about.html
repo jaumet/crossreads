@@ -178,7 +178,7 @@
   <!-- starts crossreads business -->
   <script>
   
-  function loadMetadataIn(tid, mydiv)  {
+  function loadMetadataIn(tid, mydiv, main)  {
     var meta_title = "";
     var meta_rest = "";
     var meta_img = "";
@@ -196,11 +196,15 @@
         
         meta_rest = '['+val.year+'] '+val.topic+' ('+val.format+')';
         
-        meta_html = '<div class="list-group">\
-          <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
-          <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-          <p id="mymeta" class="list-group-item-text"><i>'+meta_rest+'</i></p></a></div>';
-          
+        // Check if this is the main title-box
+        if (main == "main")  {
+          meta_html = '<div class="list-group">\
+            <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
+            <h4 class="list-group-item-heading">'+meta_title+'</h4>\
+            <p id="mymeta" class="list-group-item-text"><i>'+meta_rest+'</i></p></a></div>';
+        } else {
+          meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
+        }
         $("#my_youarereading").css({"display":"block"});
         $("#myleftcolumn").html(meta_img);
       }
@@ -223,8 +227,13 @@
     } else {
             rightIndex = sim[0];
     }
-    $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
-    $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a>');
+    $("#bottomleft div").html('<span></span><a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
+    $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a><span></span>');
+    // Right and left title boxes
+    myl = leftIndex.split('_');
+    loadMetadataIn(myl[0], "#bottomleft div span", "left");
+    myr = rightIndex.split('_');
+    loadMetadataIn(myr[0], "#bottomright div span", "right");
   }
 
   function putParagraphIn(myIndex, mydiv)  {
@@ -236,7 +245,7 @@
 	    var items = [];
       var footnote = [];
       $.each( data, function( key, val ) {
-        items.push("<p id='p_" + val.pid + "' class='paragraph'>["+ (parseInt(val.pid)+1) +"/"+data.length+"]<br />" + val.p + "</p>");
+        items.push("<div class='xofy'>"+ (parseInt(val.pid)+1) +"/"+data.length+"</div><p id='p_" + val.pid + "' class='paragraph'>" + val.p + "</p>");
         // Check for footnotes
         if (!(_.isUndefined(val.fn))) {
           footnote.push('<p>'+val.fn+'</p>');
@@ -277,7 +286,7 @@
     window.name += " | "+tid+"_"+pid;	
     $("#wname").append(" | "+tid+"_"+pid);
 	
-    loadMetadataIn(tid, "#title");
+    loadMetadataIn(tid, "#title", "main");
     putParagraphIn(tid+"_"+pid, "#text");
     
     // top arrow checking
@@ -290,7 +299,7 @@
         }
         myidTop = tid+"_"+mypidTop;
         //console.log("myidTop: "+myidTop);
-        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.png" /></a>');
+        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/top_arrow.png" /></a>');
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
         });
@@ -309,7 +318,7 @@
       
       var myidBottom = tid+"_"+mypidBottom;
       //console.log("myidBottom: "+myidBottom);
-      $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.png" /></a>');
+      $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/bottom_arrow.png" /></a>');
       $("a.arrowb").on('click', function() {
         myTrick(this.id);
         return false;

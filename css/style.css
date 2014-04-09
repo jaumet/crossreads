@@ -125,6 +125,7 @@ td {
 	font-weight: bold;
 }
 
+.jump,
 .myleft, 
 .myright, 
 #mycentercolumn, 
@@ -190,6 +191,23 @@ a.list-group-item.active {
   margin-top:20px;
 }
 
+#bottomleft div a {
+  float:right;
+}
+#bottomright div a {
+  float:left;
+}
+
+.jump {
+  float:left;
+  width:220px;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  padding: 20px;
+  color:#B4A6A6;
+  box-shadow: 0 0 1px #FFF9D2;
+}
+
 .mybottom {
 	height: 120px;
 	border:0px solid green;
@@ -242,20 +260,27 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 
 .arrowt img {
   float:left;
-  margin:10px 50% 0 45%;
+  margin:10px 50% 0 43%;
+  width:100px;
   
 }
 .arrowb img {
   float:left;
-  margin:10px 50% 0 40%; 
+  margin:10px 50% 0 35%; 
+  width:100px;
+
 }
 .arrowl img{
   float:right;
   margin:0;
+  width:100px;
+
 }
 .arrowr img{
   float:left;
   margin:0;
+  width:100px;
+
 }
 .mytag {
 	color: #B4A6A6;
@@ -285,4 +310,16 @@ p#mymeta {
 .node h2 {
 	margin-top: 2px;
 }
+.xofy {
+  float:right;
+  margin:6px;
+  padding:3px;
+  padding-left:5px;
+  padding-right:7px;
+  color:#2a2a2a;
+  background:#B4A6A6;
+  border:1px solid grey;
+  font-weight:bold;
+}
+
 /*****************************************/
