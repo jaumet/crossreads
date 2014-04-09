@@ -261,31 +261,33 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 .arrowt img {
   float:left;
   margin:10px 50% 0 43%;
-  width:100px;
+  width:60px;
   
 }
 .arrowb img {
   float:left;
   margin:10px 50% 0 35%; 
-  width:100px;
+  width:60px;
 
 }
 .arrowl img{
-  float:right;
+  float:left;
   margin:0;
-  width:100px;
-
+  width:60px;
 }
+
 .arrowr img{
   float:left;
   margin:0;
-  width:100px;
-
+  width:60px;
 }
+.arrow img:hover, .arrowt img:hover, .arrowb img:hover{
+  opacity: 0.3;
+}
+
 .mytag {
 	color: #B4A6A6;
 	height:20px;
-	
 }
 .arrowt a img, .arrowb a {
   /*background-color:#FFF9D2;*/
