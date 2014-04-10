@@ -1,5 +1,7 @@
 ToDo:
 
+
+BOOK: Ethan Marcotte response web design
 - Web page:
   - Check for problems on resize the window
   - BROWSER COMPATIBILITY:
