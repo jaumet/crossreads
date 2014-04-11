@@ -337,4 +337,16 @@ p#mymeta {
   padding-left:20px;
   color:#B4A6A6;
 }
-/*****************************************/
+
+.other {
+  color:#B4A6A6;
+  padding: 20px;
+  border-left:0px dashed #B4A6A6;
+  font-size:12px;;
+}
+.other:hover {
+  color:#2a2a2a;
+  background:#B4A6A6;
+  padding: 20px;
+  border-left:0px solid #B4A6A6;
+}

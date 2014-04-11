@@ -43,7 +43,10 @@
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><span id="mytitle"></span><b>L'Ull escolta</b> - EUGENI BONET: PANTALLES, PROJECCIONS, ESCRITS.</a>
+        <a class="navbar-brand" href="#"><span id="mytitle"></span><b>L'Ull escolta - Eugeni Bonet</b>: pantalles, projeccions, escrits</a>
+        <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
+        <a class="navbar-brand" href="#"><span id="feedback" class="other">Comenta</span></a>
+        <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
       </div>
     </div>
   </div>
@@ -124,6 +127,7 @@
   </div>
 
   <!-- top reader container -->  
+   <div id="otherpages" class="container"></div>
   <div id="mytopmetadata" class="container">
     <p id="my_youarereading" class="mytag"></p>
     <p id="title"></p>
@@ -280,6 +284,8 @@
   }
 
   function myTrick(myid) {
+    $("#otherpages").animate({ "opacity": "0" }, 1300 );
+    $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
     console.log('>>>>> my: '+my);
     tid = my[0];
@@ -356,29 +362,44 @@
     return false;
   });
 
-    //////// Languages: 
-    // lang object are defined in data/mylang.js
-    // each string is defined as: "element id": "text string"
-    function getParameterByName(name) {
-      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
-    }
+  //////// Languages: 
+  // lang object is defined in data/mylang.js
+  // each string is defined as: "element id": "text string"
+  function getParameterByName(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+  }
 
-    var LANGUAGE = getParameterByName("l");
-    if (LANGUAGE == "ca" || LANGUAGE == undefined) { LANGUAGE = "ca";}
-    if (LANGUAGE == "es" ){ LANGUAGE = "es";}
-    if (LANGUAGE != "ca" && LANGUAGE != "es") { LANGUAGE = "ca";}
+  var LANGUAGE = getParameterByName("l");
+  if (LANGUAGE == "ca" || LANGUAGE == undefined) { LANGUAGE = "ca";}
+  if (LANGUAGE == "es" ){ LANGUAGE = "es";}
+  if (LANGUAGE != "ca" && LANGUAGE != "es") { LANGUAGE = "ca";}
 
-    function langStrings(lang)  { 
-      console.log("lang: "+lang);
-      $.each(lang, function(key, value){
-        $("#"+key).html(value);
-        console.log(key + ": " + value);
-      });
-    } 
-    langStrings(eval("lang_"+LANGUAGE));
-    $("#my_youarereading").css({"display":"none"});
+  function langStrings(lang)  { 
+    console.log("lang: "+lang);
+    $.each(lang, function(key, value){
+      $("#"+key).html(value);
+      console.log(key + ": " + value);
+    });
+  } 
+  currentLang = eval("lang_"+LANGUAGE);
+  langStrings(currentLang);
+  $("#my_youarereading").css({"display":"none"});
+  // End Languages
+  ///////////////////////
+
+  ////////////////////////////
+  // Other pages click/load:
+  // Load page-default initially:
+  $("#otherpages").html(currentLang["page-default"]);  
+  $("span.other").on('click', function() {
+    //$("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
+    console.log("you clicked: "+this.id);
+    $("#otherpages").html(currentLang["page-"+this.id]);
+    $("#otherpages").animate({ "opacity": "1" }, 1300 );
+    return false;
+  });
+
   </script>
   <!-- ends crossreads business -->
-
 </body>
 </html>

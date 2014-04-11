@@ -1,14 +1,12 @@
 ToDo:
 
-
-BOOK: Ethan Marcotte response web design
 - Web page:
   - Check for problems on resize the window
   - BROWSER COMPATIBILITY:
       * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
       * Check Saafari amd, specialy, Safari version on Macba's IPADs
       
-  - OTHER PAGES: show contents below the timeline
+DONE  - OTHER PAGES: show contents below the timeline
       * 0) Default oresentation on load page.
       * 1) Show list of all texts as a item-list with title and metadata.
       * 2) Credits
