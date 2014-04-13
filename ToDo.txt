@@ -11,7 +11,7 @@ DONE  - OTHER PAGES: show contents below the timeline
       * 1) Show list of all texts as a item-list with title and metadata.
       * 2) Credits
       * 3) About the data
-      * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+XXX     * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
 
 DONE  - Text explorer
 DONE  - Balls legend
@@ -31,14 +31,14 @@ DONE        * Invert colors for right & left arrows
 DONE        * Add title and more to left &  right arrows
         * Add Keywords (from the spreadsheet) to the title-box
 
-    - Get a whole text:
+XXX    - Get a whole text:
         * Generate all text in one view and and LINK in the title-box
         * Add access to the whole text in a new window (or in a pop-up-div)
     
     - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
 
-    - Multilanguage of fix text (catalan and spanish?) 
-      -> Add all the string ti be translated
+DONE    - Multilanguage of fix text (catalan and spanish?) 
+      -> Add all the string to be translated
 
 
     [OPTIONAL] - Themes (only-css-based or a complete theme):
@@ -83,11 +83,6 @@ DONE    -> CHECK HOT TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE 
 
 	* WordStorm images for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
 
-	OTHER PAGES:
-		- Credits
-		- Explanation data and process
-		- 
-		
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
