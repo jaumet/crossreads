@@ -47,6 +47,7 @@
         <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
         <a class="navbar-brand" href="#"><span id="feedback" class="other">Comenta</span></a>
         <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
+        <a class="navbar-brand lang" href="?l=ca">Català</a><a class="navbar-brand lang" href="?l=es">Español</a>
       </div>
     </div>
   </div>
@@ -210,9 +211,11 @@
         // Check if this is the main title-box
         if (main == "main")  {
           meta_html = '<div class="list-group">\
+            <a id="'+val.tid+'" href="#" class="all-text" >ALL TEXT</a>\
             <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
             <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-            <p id="mymeta" class="list-group-item-text"><i>'+meta_rest+'</i></p></a></div>';
+            <p class="mymeta list-group-item-text"><i>'+meta_rest+'</i></p></a>\
+            </div>';
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }

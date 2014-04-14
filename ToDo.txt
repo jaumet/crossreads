@@ -27,7 +27,7 @@ DONE  - Balls legend
 	* Crossreader:
     - ARROWS:
 DONE        * Change arrows's image
-DONE        * Invert colors for right & left arrows
+DONE        * Invert colors for right & left arrows`` `
 DONE        * Add title and more to left &  right arrows
         * Add Keywords (from the spreadsheet) to the title-box
 
