@@ -1,0 +1,7 @@
+## Bash scripts used:
+
+#1 Rename files changing " " to "_"
+for file in * ; do mv -v "$file" "$(echo $file | sed 's/ /_/g')" ; done
+
+#2 Convert doc to txt using catdoc
+for i in * ; do catdoc $i > ${i%%.*}.txt;done

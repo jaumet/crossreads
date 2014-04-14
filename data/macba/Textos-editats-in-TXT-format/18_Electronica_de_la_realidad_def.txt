@@ -1,0 +1,817 @@
+Electrónica de la realidad. Entre visualidad y simulacro
+
+Publicado originalmente en catalán en Martí Peran (ed.): Present
+continu. Producció artística i construcció de realitat. QUAM. Vic: H.
+Associació per a les Arts Contemporànies i Eumo Editorial, 2006.
+Traducido por Carlos Mayor.
+
+Como punto de partida he querido conjuntar la electrónica con la
+realidad para jugar con el posible contrasentido de la expresión, ya
+que los datos de los que pretendo ocuparme no son registros
+estrictamente objetivos (como los que persigue por ejemplo la
+estadística) sino fruto de operaciones creativas con tecnologías de la
+imagen, audiovisuales y multimedia. Por tanto, esta intervención
+creativa –incluso si quisiésemos descartar esta expresión y
+anteponer una aspiración informativa (pretendidamente objetiva o, al
+contrario, con un claro posicionamiento)– supone una interpretación,
+digamos que libre, de los datos procesados. Y es aquí, me parece, donde
+se produciría el acuerdo entre la realidad y la electrónica.
+
+He sugerido, sin embargo, un contrasentido, alguna cosa que quizá no
+acaba de encajar... En primer lugar, lo formulo así porque la
+electrónica, en una acepción genérica, supone un grado elevado de
+abstracción que parece estar en las antípodas de las cosas concretas
+que suponen nuestra aprehensión más inmediata de la realidad: el mundo
+físico y social, la cotidianidad, el presente continuo que da nombre a
+esta convocatoria. La electrónica pertenece a la órbita de la ciencia,
+la tecnología y las cosas exactas; se ocupa de los elementos
+infinitesimales del átomo y utiliza componentes y chips cada vez más
+pequeños y potentes, diagramas y cajas negras ininteligibles para los
+profanos, con unas aplicaciones cada vez más variadas y versátiles.
+
+En segundo lugar, cuando se habla de arte electrónico, a menudo parece
+que lo que se prioriza es justamente el hecho de que sea
+«electrónico», por encima de cualquier otra cosa. Ufano de la propia
+tecnología empleada, como si dijésemos, y como si tuviera que tomar
+siempre la delantera. No solamente respecto a otras prácticas y
+técnicas artísticas con una larga tradición y reverberación
+cultural, sino también respecto de aquella electrónica que,
+súbitamente, deviene un tanto arcaica. Y en el súmmum de la creación
+electrónica, la realidad no parece que pueda ser otra cosa que
+simulación o realidad virtual, casi demiúrgica.
+
+Así, en una circunscripción creativa donde también caben los sectores
+profesionales e industriales de la comunicación, la publicidad y el
+espectáculo; los mundos de la ciencia y de la técnica (en la medida en
+que se ocupan de cuestiones de visualización, por ejemplo); los
+aficionados y los apasionados de las máquinas, etc. –porque un
+desdibujamiento tal del campo artístico es muy propio de una
+preocupación tecnológica que supera las divisorias tradicionales–,
+nos damos cuenta de que un elemento como la cámara, tan emblemático
+antes de nuestras transacciones tecnoestéticas con la realidad, ha
+pasado a ser visto, de manera creciente, como un periférico más, entre
+muchos otros, de la unidad central de proceso (CPU) del computador
+digital, tótem por excelencia de este año 2001, tan connotado
+culturalmente.
+
+Este desplazamiento de la óptica a la electrónica, el código
+numérico y la visualización posfotográfica nos apremia a repensar el
+papel de la técnica en la percepción, representación y descripción
+de la realidad. Si la fotografía fue primeramente entendida como el
+lápiz de la naturaleza, el espejo con memoria, la huella luminosa de lo
+visible, el concepto mismo de posfotografía pone en cuestión tanto la
+analogía ocular como la vectorialidad y el rastro del tiempo. Las
+imágenes del pasado son ahora depositadas en bancos de datos,
+digitalizadas, tratadas con el Photoshop, redibujadas o suplantadas con
+las herramientas más potentes de la informática gráfica. Así, cada
+vez que estos datos son recuperados, reproducidos, visualizados,
+reprocesados o manipulados, toman una segunda realidad en el plano
+literal del presente.
+
+Con los conceptos de visualidad y simulacro pretendo cifrar y compendiar
+–con (y entre) un par de palabras clave– el paso drástico que se
+acentúa en estos tiempos tan digitales, de un hábito perceptivo
+sensorial y mimético a la necesidad de una inteligibilidad subliminal.
+Expresamente, no quiero reducirlo sin embargo a una cuestión de
+traspaso A/D –analógico/digital, en un sentido paradigmático más
+que meramente técnico–, que en parte solo nos llevaría a un
+conflicto de apariencias (y de cómo llegar a distinguir, por ejemplo,
+una imagen real de una de síntesis), cuando me parece que el aspecto
+más trascendente radica en todo aquello que afecta a la interpretación
+abierta de la información. Y ya conocemos sobradamente los tejemanejes
+mediáticos de falsificación o tendenciosidad de la información, si es
+que no hemos optado por interpretar que mediático es justamente lo
+contrario que inmediato.
+
+El abuso de autoridad de los medios de información ha provocado una
+nueva responsabilidad estética a lo largo del siglo XX. Entre el
+tumulto de las primeras vanguardias, se podía advertir a través de un
+número de artistas que orientaron sus pasos hacia la fotografía y el
+cine documental, la radio, el espacio público y el activismo. Y, en la
+medida en que la potestad mediática ha devenido más vasta y
+abrumadora, la responsabilidad de intervenir en las arenas de la
+información y la comunicación se ha acentuado después del ecuador del
+siglo; especialmente en los años sesenta y setenta, coincidiendo con la
+pujanza de la tecnología y de las ciencias sociales y humanísticas, el
+estallido de nuevos frentes reivindicativos y contestatarios, y la
+llegada del vídeo y otras técnicas, de tal manera que este periodo nos
+proporciona un buen punto de fuga para obtener una visión de fondo de
+la electrónica de la realidad.
+
+Por otra parte, desde hace unos años, notamos de cerca –me refiero a
+un discurso que se expresa sobre todo a través de la prensa de más
+tiraje– una especie de «contrarreformismo» entre ciertos estamentos
+de la crítica de arte y de la tutela intelectual; contrarreformismo
+(por no decir una palabra más gruesa) que arremete contra el rumbo que
+ha tomado el el arte contemporáneo, según su percepción –y cabe
+preguntarse en qué contemporaneidad viven–, ante una supuesta
+soberanía de la abstracción, del conceptualismo y de otras
+aberraciones, y a favor de un retorno al orden del realismo, la
+figuración y las tradiciones más rancias de las bellas (¿viejas?)
+artes. Con una contribución, de paso, a la intoxicación de la opinión
+pública, al respaldar un diagnóstico enfermizo y desnortado de la
+creación actual.
+
+Aquello que estos sibaritas del realismo no saben ver es que hay un arte
+de lo real en pleno vigor, desde hace bastante más que unas temporadas,
+pero que se expresa mediante otros soportes que aquellos que admiten,
+por decirlo así, un marco áureo o un pedestal de marfil (o de
+diseño). Entre tales soportes están los electrónicos, así como
+muchos otros media y multimedia, materiales e inmateriales, de los más
+perennes a los más nuevos. Pero la acotación de una práctica en
+función de la novedad de los medios utilizados es intrascendente si no
+consideramos todo su alcance social y cultural, más allá de los
+contornos habituales del arte. Entonces quizá es preferible no mezclar
+la estética con la electrónica (como en el viejo dicho que nos
+advierte de no confundir la gimnasia con la magnesia); menos aún si
+introducimos de por medio una cosa tan poliédrica como la realidad.
+
+Y, todo sea dicho, en el propio contexto de las tecnoartes a menudo se
+puede advertir un cierto repudio hacia todo aquello que se percibe como
+llanamente documental. En más de una ocasión me ha sorprendido la casi
+nula atención que llegan a suscitar algunos trabajos harto incisivos en
+su inmediatez, sin virguerías, frente a la sobrevaloración de otros
+productos donde la realidad parece transformarse en excipiente de un
+videoclip u otro tipo de fantasía animada (realidad acicalada).
+Ciertamente, el documento raso puede ser bien fastidioso (las
+televisiones bien lo saben porque solo recogen imágenes de los
+aficionados cuando contribuyen al espectáculo de la violencia y del
+sensacionalismo); peor todavía el documento sobreexplicado, con una voz
+en off guiadora o redundante, una evolución que se adivina desde el
+principio y, a menudo, con una «moralina» gastada.
+
+En todo caso, lo que me interesa abordar aquí son unas prácticas cuyos
+planteamientos son radicalmente diferentes a, por ejemplo, los productos
+estandarizados de extracción u obediencia televisiva; incluso si son
+rectos y correctos en un plano periodístico (periodismo electrónico) y
+dentro de una preceptiva «de manual» según los moldes más
+estrictamente genéricos del reportaje. A partir de estas
+consideraciones, y a fin de pormenorizar diferentes aspectos sobre la
+producción de realidad desde la particularidad de los medios
+electrónicos, primeramente quisiera recapitular algunos referentes
+desde el punto de fuga sugerido antes y en relación con las
+expectativas que ha levantado el vídeo. Y, posteriormente, pasaré
+página hacia una agenda más actual, a propósito del trabajo de
+algunos artistas con los que mantengo cierta proximidad.
+
+El ojo optoelectrónico del vídeo
+
+La palabra vídeo, ya lo sabemos, es un latinismo adoptado por el
+léxico tecnológico y corresponde a la primera persona del verbo ver.
+Muy apropiadamente, si reparamos en la utilización y la exploración de
+la tecnología que ha tomado este nombre, más allá de su concepción
+tributaria de una logística audiovisual motivada por el empuje de la
+televisión y con los referentes de otros sistemas de grabación y
+reproducción como los fonográficos y fotocinematográficos. Me refiero
+a la adopción inmediata de los utensilios del vídeo (en cuanto
+empezaron a estar al alcance del público) como tecnología del sujeto,
+y de los sujetos colectivos, desde divisas y determinaciones diversas en
+los ámbitos de las artes y de las community arts, como pragmáticamente
+se dice en inglés de las prácticas volcadas a un interés social.
+
+Me refiero al vídeo ligero –como se le denominaba en los años
+sesenta y setenta–, que hoy ha pasado a formar parte de la llamada
+electrónica de consumo. Y por tanto es bien cierto que, en el mundo en
+el que vivimos, la electrónica se ha infiltrado más y más en la
+realidad, sin que esto nos garantice otras credenciales que las de
+consumidores o usuarios (no siempre conscientes y voluntarios, por otra
+parte) de unas herramientas que nos rodean por doquier, a veces de
+manera imperceptible o casi (sin ir más lejos, este es el caso de todo
+el complejo de los sistemas de seguridad y vigilancia). La carrera
+tecnológica nos beneficia asimismo en cuanto a que mitiga los
+privilegios de acceso a los medios, al ofrecernos unos «modelos a
+escala» de las tecnologías de información y comunicación que,
+mediante un uso astuto, nos permiten acortar distancias con el control
+regulador y jerárquico al cual aquellas han sido sometidas
+tradicionalmente.
+
+En todo caso, la doctrina del vídeo alternativo afirma que no es la
+oferta tecnológica la que ha generado este ámbito de actividad, sino
+la dinámica de apoderarse de manera diligente de unos medios –desde
+los primitivos equipos portátiles de bobinas hasta los camcorders
+(camescopios) analógicos, y ahora digitales y de un tamaño cada vez
+más reducido– en principio destinados a un uso más reservado:
+primero, en ámbitos institucionales e industriales, sucesivamente, en
+la esfera del consumo privado (vídeo casero, amateur, de aprendizaje).
+Esto mismo ha pasado con las máquinas de oficina, de los sistemas
+reprográficos (ciclostil, xerografía, etc.) a los ordenadores,
+convenientemente utilizadas con finalidades artísticas y activistas.
+
+Deirdre Boyle, que ha estudiado el desarrollo del vídeo documental en
+los Estados Unidos y sus orígenes en una erupción de colectivos que se
+identifican con consignas tales como televisión de guerrilla o del
+pueblo, nos ha recordado en sus escritos que, en los primeros tiempos de
+estruendo del vídeo, a todo quisque se le llamaba videoartista. Es bien
+sabido, por ejemplo que algunos artistas de gran renombre por su
+dedicación al vídeo y a medios afines, como Nam June Paik o Bill
+Viola, llegaron ahí desde la música y la investigación sonora –que
+pronto los ha llevado a una búsqueda poliexpresiva y multimedial–,
+pero en cambio hay otros aspectos de incidencia remarcable que han
+pasado bastante más desapercibidos o que simplemente han sido
+individualizados entre una profusión de referentes culturales o
+fenoménicos, como sucede con el relieve que tanto tienen el
+documentalismo cinematográfico como la concepción de un nuevo
+periodismo, contemporáneamente al estallido del vídeo como medio
+creativo, independiente y alternativo.
+
+Me parece bastante significativo que nombres como los de John Cage o el
+grupo Fluxus (y Duchamp, de paso) estén bien arraigados en la historia
+y la estética del vídeo, y en cambio no los de Dziga Vertov, Robert
+Flaherty, John Grierson o Jean Rouch, que por el contrario son unos
+referentes que nunca han perdido de vista artistas como el chileno Juan
+Downey o el puertorriqueño Edín Vélez (y eso me consta por
+conversaciones que mantuve con ambos), los cuales han abordado el campo
+antropológico y los atropellos políticos del Tercer Mundo. Quizá eso
+sea el resultado de la rivalidad que pronto se estableció entre el cine
+y el vídeo –y la televisión de por medio– por cuestiones de,
+digamos, consanguinidad audiovisual; pero seguramente también lo es por
+una primacía de la contemplación del vídeo como una de las Bellas
+Artes (aun con muchos recelos), más que desde una cultura de los media
+a la cual se ha adscrito prioritariamente la producción audiovisual y
+de las industrias de comunicación.
+
+Lo cierto es que, cuando el vídeo presenta sus incipientes
+credenciales, hay aún un revuelo considerable alrededor del cinéma
+vérité, el cine directo o el ojo cándido (candid eye), según las
+latitudes donde se hace notar la aparición de nuevas corrientes
+documentalistas azuzadas por la concurrencia de la televisión, que
+entre otras cosas ha implantado una producción institucional de
+realidad a escala masiva, y que por otra parte ha encendido las
+expectativas de intervenir en dicho marco con una determinación bien
+diferente; así como por el legado ejemplar en este sentido del cine
+factual y del neorrealismo. Recordemos, a propósito, la resuelta
+apuesta de Roberto Rossellini por la televisión entendida como un bien
+cultural, o el hecho que uno de los primeros usuarios de los equipos de
+vídeo ligero en Europa fuera Jean-Luc Godard, revoloteando entre las
+barricadas y asambleas del Mayo del 68 en París.
+
+Quisiera poner un énfasis especial en el influjo transhistórico del
+cineasta-kinok Dziga Vertov, que, además de anticipar el concepto de
+cine-verdad (en ruso Kino-Pravda: el título de una serie de
+documentales de actualidad al servicio de la revolución soviética,
+realizados entre 1922 y 1925), de enunciar su concepción del cine-ojo
+como equivalencia del «yo veo» (que, vertido al latín, nos devuelve
+al vídeo) o de dar nombre al colectivo en el que Godard afila su etapa
+radical pos-1968, ha ejercido un ascendente mucho más amplio y diverso
+por la agudeza de sus ideas y la fuerza imperecedera de sus films más
+brillantes; aquellos que justamente le costaron calumniosas acusaciones
+de pirotecnia formalista, incluyendo los recelos de Eisenstein y la
+condena taxativa del régimen estalinista.
+
+Más allá del panegírico, podemos señalar también la coincidencia
+entre algunas de las ideas del maldito (pero rehabilitado) cineasta
+soviético y las que formula Marshall McLuhan en los años sesenta,
+cuando habla de «comprender los media como extensiones de las
+facultades humanas (físicas y psíquicas)». Pues no es otro el sentido
+que Vertov da al ojo y a la oreja mecánicos de las técnicas
+audiovisuales en pleno desarrollo, con todo su potencial de trascender
+los límites de la percepción humana (ver más rápido o más lento,
+más pequeño o más grande, sin la linealidad del tiempo, etc.). Y ello
+lo lleva a utilizar todos los recursos inherentes a la cámara, la mesa
+de montaje y la grabación sonora con un designio materialista,
+consciente de una mediación técnica y de abordar una realidad compleja
+(frente a la falsificación del cinedrama, que para Vertov representaba
+una nueva forma de opio del pueblo).
+
+Comparativamente, el ojo electrónico del vídeo es bastante más
+limitado en un primer estadio y, además, los recursos de montaje son
+sumamente rudimentarios en ese momento; al menos entre el grueso de los
+independientes, artistas y activistas que el nuevo medio atrae. Pero,
+por otra parte, el vídeo se acopla perfectamente a las maneras de hacer
+introducidas por las corrientes cinematográficas más renovadoras:
+equipos ligeros en el plano material y reducidos en el humano, la
+cámara llevada al hombro o en mano, el sonido directo, la realidad como
+primer escenario (incluso de la ficción). También constituyen
+incentivos añadidos que el vídeo sea un aparato audiovisual integral
+que graba simultáneamente imagen y sonido, que permita una
+reproducción inmediata y que sea, en potencia, un contraemisor
+televisivo.
+
+Se advierte igualmente el énfasis del real time, que es asimismo el
+reel time o la duración de la bobina de cinta magnética utilizada (de
+treinta o sesenta minutos según la máquina), así como de una especie
+de «filosofía de lo inmediato»: la grabación se realiza sin muchos
+preparativos (quizá solo el de decidir sobre qué hecho o acto se
+orientará el ojo de la cámara, ya sea de la realidad o de una puesta
+en escena a menudo muy despojada); la propia escala de la pequeña
+pantalla como una premisa de relación franca, intimista y psicológica
+con el espectador. De maneras muy diferentes, ambos aspectos se pueden
+encontrar tanto en los vídeos de cámara de, pongamos por caso, Bruce
+Nauman o Vito Acconci –en un registro soliloquial o de
+interpretación, a menudo con la cámara fija y estática como espejo de
+sus acciones–, como en los vídeos de calle (street tapes) que salen a
+la caza de la realidad tal cual es; en este caso como una inmersión en
+el espacio social y con una cámara convenientemente escurridiza.
+
+Las exigüidades iniciales del vídeo ligero se convierten además en un
+reto para desarrollar unas maneras de hacer que, lejos de limitarse a
+emular las habituales del cine o de la televisión, exploran diferentes
+formatos de presentación y de concepción total de la práctica
+videográfica: la actividad entendida como proceso más que dirigida a
+un resultado final, configurándose como una sucesión de materiales
+más o menos en bruto (el montaje en la propia cámara es una de las
+habilidades propiciadas por la pobreza misma de los medios); materiales
+que son exhibidos y reelaborados cada vez en diferentes situaciones. Y
+ello incluye configuraciones multipantalla y multimedia, difusiones
+ambulantes (el videobús u otras unidades móviles de exhibición que
+han tomado el relieve del cinetren de Vertov y otros cineastas
+soviéticos) y la presentación concebida como un evento comunitario
+(que admite tanto el debate como la diversión).
+
+En todo caso me interesa acentuar la elementalidad del primer vídeo
+(basada en parte, pero no exclusivamente, en la cámara) porque ilustra
+a la perfección la idea de visualidad, la creencia en el poder de
+comunicación de las imágenes de la realidad, sin añadir la autoridad
+y los filtros habitualmente impuestos por los medios de información (o
+formación, como se prefiere decir algunas veces) de masas. Se trata de
+grabar una manifestación o una festividad, la actividad cotidiana o los
+conflictos sociales a la manera casi de los atisbos instintivos del cine
+primitivo, pero con una máquina bastante más moderna y ágil. Y, por
+otra parte, no se adopta un punto de vista ni neutro ni pretendidamente
+objetivo, sino el que permite introducirse en la realidad y participar
+en ella; vivir una situación al lado de la gente más que como un
+observador externo, un informador con credenciales, un paseante
+ocasional de aquello que acontece en el espacio público.
+
+La incidencia de los métodos documentales del cine y del vídeo
+alternativo sobre los formatos informativos de la televisión ha sido,
+asimismo, notable. Solo que, a parte de tomar buena nota y de
+beneficiarse de un cierto número de fichajes entre las filas
+independientes, en general la televisión ha descafeinado a su gusto
+tales propuestas desde un supuesto criterio de gestión al (o del) gusto
+de las masas. Métodos y formatos tales como el Electronic News
+Gathering (ENG), el docudrama y la cápsula documental (o minidoc) no se
+puede decir que sean de invención exclusiva del bando alternativo –ya
+que entre el propio gremio de los profesionales televisivos hay
+motivaciones bien creativas, éticas e innovadoras–, pero sí que se
+puede advertir una incidencia profunda a nivel genérico o particular. 
+
+Por ejemplo, la popular serie Hill Street Blues (Canción triste de Hill
+Street) parece que tomó como modelo un proyecto documental
+independiente, The Police Tapes (1976), de Alan y Susan Raymond. Más
+evidente es aún el préstamo de las metodologías del cine directo y
+del vídeo ligero (guerrillero, documental, comunitario, sociológico,
+etc.), en la vivaz manera de encarar las informaciones en la
+localización misma de los hechos, con sus primeros protagonistas y
+testimonios. Sin embargo, estos modelos son frecuentemente adulterados
+por una biblia o libro de estilo que impone una normativa bastante más
+convencional y redundante sobre todo aquello que es susceptible de
+convertirse en hecho-noticia, titular de cabecera de la actualidad
+mediatizada y con un comentario añadido, que a menudo denota quien es
+«la voz de su amo».
+
+Asimismo, hay que recordar que una de la primeras quimeras que el vídeo
+espolea es la de erigir una televisión alternativa. Tanto si se trata
+de ocupar espacios de programación en las televisiones públicas y
+privadas, como frente a las expectativas que se crean con el crecimiento
+de las televisiones por cable, los canales de acceso público (en los
+Estados Unidos y Canadá), las televisiones locales y los satélites;
+eso que los tecnoprofetas de la época han llamado la «televisión de
+la abundancia». Este, sin embargo, parece uno de los tropiezos más
+obvios de la «utopía vídeo» (sigo una cierta tradición de emparejar
+ambas palabras) y así, fuera de algunos agujeros negros y de unas
+experiencias que se mantienen porque tienen los pies sobre la tierra
+–el caso más notorio es el colectivo Paper Tiger Television, en
+activo desde 1981–, hoy las expectativas y las utopías se han
+trasladado en gran parte a una telered menos jerarquizada y más
+pujante: la telemática.
+
+La expresión «medios alternativos», más allá de su uso retórico en
+una circunscripción artística, rehúye la idea recibida, el sintagma
+trabado y bien trabado de los mass media y excluye la prepotencia de su
+prefijo, en tanto que presupone una masa homogénea, desprovista de
+identidad y, finalmente, cautiva. En este sentido, quizá sería más
+acertado hablar de una práctica disidente de los media, que
+consecuentemente no cesa de cuestionar y reformular los formatos más
+codificados y las ideas recibidas que se aglomeran a su alrededor. En el
+caso del documental y del reportaje, que he tomado como hilo conductor,
+las ideas de veracidad, objetividad, memoria histórica, etc., en tanto
+que definirían unas pautas de hacer y pensar el documento, la crónica
+de la realidad, ampliamente interpeladas desde la disidencia propia del
+vídeo y en el bosquejo de una televisión alternativa.
+
+Una de las evoluciones más notorias del documentalismo contemporáneo
+ha sido precisamente la de dar un énfasis subjetivo, contra los
+preceptos desgastados de neutralidad y exterioridad en el reportaje: lo
+que podríamos llamar una «transparencia de la realidad», en la que la
+mediación técnica y enunciativa se pretende invisible. Frente a este
+ojo que quiere limitarse a observar, Juan Downey oponía el «ojo que
+piensa»: una expresión que adoptó de Paul Klee y que en inglés toma
+una doble connotación: Thinking Eye/Thinking «I», que así también
+se refiere al sujeto, a la conciencia, al intelecto. Una óptica que
+primero ha aplicado a un redescubrimiento de sus raíces en tanto que
+americano desplazado del sur al norte (la serie Vídeo Trans Américas
+en los años setenta) y después a una reconsideración de los
+paradigmas culturales occidentales (la serie The Thinking Eye
+propiamente dicha, en los ochenta y hasta su prematura muerte). 
+
+Pero, en definitiva, además de Downey, podría nombrar a muchos otros
+artistas –también Muntadas, por mencionar a uno al que me referiré
+más adelante– que han aprovechado los vasos comunicantes que
+inicialmente se establecieron entre el vídeo de finalidad documental o
+testimonial, comunitaria, sociológica, etc., y las prácticas más
+orientadas hacia la experimentación y el rendimiento artístico (en sus
+aspectos más intrínsecos) de unos medios recién llegados. En un grado
+superficial eso podría ilustrarse, por ejemplo, con el uso discrecional
+de ciertas técnicas de procesamiento electrónico de las imágenes como
+los colorizadores y sintetizadores analógicos (en The Laughting
+Alligator de Downey, en Pamplona-Grazalema de Muntadas, ambas obras de
+finales de los setenta), y posteriormente, los recursos digitales.
+
+Me parece que, en un grado más profundo, aquello en cambio más
+relevante del punto de mira de Downey, Muntadas y tantos otros –así
+como de los colectivos y las posiciones compartidas que han contribuido
+a la conceptualización de un «arte de los media»–, radica en su
+adopción desacomplejada, si se quiere intuitiva, de las metodologías
+de la información, la antropología, la sociología, la historia, el
+periodismo, los estudios culturales, etc., al interponer una percepción
+aguda, implicada y comprometida desde su primera identidad como
+artistas. Esto, llevado al extremo, lógicamente revienta los contornos
+puros, nítidos, impolutos de las demarcaciones disciplinares
+–incluyendo las artísticas y las estéticas– y nos reclama una
+percepción impura o híbrida.
+
+Volviendo al germen del vídeo guerrillero, los grupos Ant Farm y T.R.
+Uthco (me parece por sí mismo significativo que se trate de colectivos)
+están en el inicio de un modo más licencioso de abordar la realidad,
+en el que los datos visuales se trastornan en simulación, remake,
+fingimiento del acontecimiento mediático; particularmente turbador en
+un proyecto conjunto, The Eternal Frame (1975), en el cual recrearon el
+atentado que acabó con la vida del presidente Kennedy. Recreación en
+el mismo lugar de los hechos y ante la asistencia circunstancial de un
+número de transeúntes, las reacciones de los cuales oscilan entre la
+emoción y la ratificación del verismo de la escenificación –basada
+en los documentos audiovisuales, la memoria mediática del suceso–,
+incluso con alguna apreciación sobre la «belleza» de la
+reconstrucción de los hechos. (Una belleza convulsa y que bordea la
+incorrección o, tal como comentan los propios artistas en un momento de
+la cinta, el mal gusto).
+
+Esta modalidad harto desvergonzada del simulacro llevado a un extremo
+que desdibuja los umbrales entre realidad, ficción y parodia la he
+reencontrado después en un buen número de trabajos. Entre los cuales,
+las incursiones del falso periodista Varela en las zonas más deprimidas
+de Brasil (en una serie videográfica firmada por el dueto Fernando
+Meireles y Marcelo Tas); los vídeos del Bureau of Inverse Technology
+(BIT), que adoptan y perturban sutilmente los tropos de los reportajes
+corporativos de las empresas tecnológicas; los pseudocumentales de
+Johan Grimonprez en su tergiversación de los moldes de la antropología
+visual y la compilación historiográfica; o los productos interactivos
+de Daniel García Andújar, a los cuales me referiré posteriormente. Lo
+que tienen en común las propuestas de estos artistas y artivistas son
+los signos de interrogación que colocan sobre la veracidad de las cosas
+que exponen y ensartan. También es significativo que en los últimos
+años se haya hablado bastante de mockumentaries, documentales ficticios
+o falsos.
+
+Por y contra el documental
+
+Quiero hacer referencia ahora a un ensayo (o panfleto) demoledor del
+colectivo Critical Art Ensemble, con el título significativo de «Video
+and Resistance: Against Documentaries», el cual desprende un efluvio
+inconfundiblemente neosituacionista. Como los situacionistas mismos, que
+han cargado contra el cine en bloque como un acto de purificación
+frente a su propio fervor cinematográfico –por el potencial nunca
+consumado de un medio que veneraban y que querían redimir mediante el
+détournement o desmantelamiento–, el Ensemble impugna prácticamente
+la tradición entera del audiovisual documental o nonfiction, en tanto
+que legitima «una consideración retrógrada de la tecnología como
+replicador (testimonio)».
+
+El Ensemble admite que una de las funciones todavía útiles de la
+electrónica de la realidad, una función básicamente testimonial,
+puede residir en «una forma democrática de contravigilancia.» Un caso
+que hemos visto recientemente es la reedición de la forma más arcaica
+del street video, el seguimiento de manifestaciones y acciones
+reivindicativas (combinado con las últimas novedades en tecnologías
+digitales y de streaming), alrededor de los movimientos llamados
+«antiglobalización» que han necesitado resaltar su fachada pacífica
+y cívica frente a unas campañas mediáticas insidiosas. Al mismo
+tiempo también sabemos (pero eso nos llevaría a un debate más bien
+trasnochado) que los propios cuerpos policiales han incorporado a su
+parafernalia las diminutas cámaras digitales con el fin de identificar
+individuos y tácticas entre los sediciosos. 
+
+La apuesta definitiva del Critical Art Ensemble para robustecer una
+práctica resistencial del vídeo pasa en cualquier caso por cuestionar
+la fidelidad de la imagen respecto a todo referente de la realidad,
+basándose en aquello que describen como «estructuras asociativas
+líquidas que susciten una diversidad de interpretaciones». Que, o bien
+nos remitan de manera inmediata a su cualidad de construcción de signos
+en tanto que simulación, antes que representación transparente; o bien
+que erosionen la credibilidad de las simulaciones del otro bando al
+fomentar la confusión y la desconfianza en el teatro de la información
+y comunicación de masas. Y uno de los rasgos de esta licuefacción
+asociativa se hallaría en una astucia recombinatoria a partir del
+desmenuzamiento de iconos y significaciones culturales.
+
+Estas ideas pueden venir a cuento al comentar algunas obras recientes;
+concretamente de Antoni Muntadas, Javier Codesal, Marcelo Expósito y
+Daniel García Andújar. Aunque sean cuatro nombres significativos del
+arte mediático en España, no pretendo hacer un repaso ni un
+diagnóstico del realismo electrónico en un contexto tal. (Muntadas es,
+por otra parte, un nómada reconocido; Daniel García Andújar
+podríamos decir que trabaja, y muy conscientemente, en el
+ciberespacio… ¡Y esto no quiere ser un chascarrillo!) Como he
+sugerido anteriormente, he pensado en estos cuatro artistas sobre todo
+por una cuestión de proximidad.
+
+Antoni Muntadas ha utilizado abundantemente los recursos documentales
+para llevar a cabo un análisis crítico de aquello que él llama el
+«paisaje mediático». Algunos exponentes diversos son el vídeo
+Between the Lines (1979), donde se refiere al proceso de achique de una
+información periodística local hasta casi anular la trascendencia del
+hecho de referencia; The File Room (1994), una base de datos sobre la
+censura que constituyó uno de los primeros proyectos artísticos
+concebidos expresamente para la red; sin olvidar modelos alternativos de
+microtelevisión (o «televisión de proximidad», como después se le
+ha llamado con un giro más institucional) que introdujo con
+experiencias como Cadaqués Canal Local (1974) y Barcelona Distrito Uno
+(1976), en las postrimerías de la dictadura franquista y de su control
+férreo sobre la información.
+
+Entre los recursos documentales más característicos de la obra de
+Muntadas están la apropiación y la cita de fuentes mediáticas y
+referentes culturales (imágenes y músicas, eslóganes y frases, etc.),
+así como el contrapunto de unas formas más inmediatas de aproximarse a
+la realidad (vistas de la cotidianidad o entrevistas). Son estos los
+ingredientes que encontramos una vez más en Marseille: mythes et
+stéréotypes. Regard des regards (1995), un trabajo videográfico que
+forma parte de un proyecto más amplio surgido de un encargo del
+municipio de Marsella para una obra de arte público; aquello que, en
+otro tiempo, habría llevado a la creación de un monumento urbano y
+que, en un gesto no menos característico de Muntadas, se traduce en un
+cuestionamiento de las ideas de materialidad y permanencia, tomando como
+referente la modalidad mediterránea de la proyección cinematográfica
+al aire libre como convocatoria de ocio social.
+
+Aquello que se propone es una especie de espejo discordante sobre la
+realidad de Marsella y su representación mediática (mediante films y
+melodías), resonancia cultural (mediante morceaux choisis de obras
+literarias) y reclamos coloristas: los mitos y estereotipos a los que
+alude el título, yuxtapuestos con el bullicio de la calle y las
+reflexiones de quienes trabajan sobre la imagen pública de la ciudad
+(cineastas, periodistas, publicistas, historiadores, etc.). Muntadas
+resalta así el contrapunto entre la cotidianeidad y la identidad
+cultural de la segunda ciudad de Francia, y todos los clichés que la
+rodean: del patois de Fernandel, el costumbrismo de Pagnol y otras
+pinceladas luminosas de color local, a los tonos turbios del cine más
+negro y violento (del polar autóctono a French Connection).
+
+Javier Codesal ha utilizado con frecuencia los códigos del documental,
+casi siempre a contrapelo de sus funciones canónicas y a través de
+deconstrucciones y torsiones narrativas harto peculiares. Pero uno de
+sus trabajos más poderosos es un documental bien diáfano, Sábado
+legionario (1988), significativamente producido en el marco de los
+primeros tanteos de las televisiones autonómicas en España (en
+concreto, la actual TeleMadrid), que ocasionalmente intentaron sacar
+algún provecho de los flancos del vídeo independiente; en este caso
+con un desenlace descorazonador para Codesal, ya que aquel trabajo tan
+personal nunca fue emitido, quedando atado de manos por la propiedad de
+la producción (que veta tácitamente cualquier otra salida, fuera de
+unos circuitos artísticos con los que se hace la vista gorda).
+
+Codesal tomó como motivo central la ceremonia entre castrense y festiva
+que da título a la obra –muy cerca de un sacramento religioso y sus
+acicalamientos rituales– y consiguió un retrato cómplicemente
+impúdico de la Legión a partir de unos principios afines a los del
+cine directo: dejar que los hechos y los individuos que los protagonizan
+se expresen por sí mismos, sin la interferencia de comentarios en off.
+Sin embargo, sí que hay una clara intencionalidad y malicia expresadas
+mediante las decisiones relativas a la composición de las imágenes, el
+montaje, etc. Así, mi hipótesis sobre el repudio de este espléndido
+documental radica precisamente en la falta ostensible de un discurso que
+guíe a los telebobos que se supone que somos.
+
+Quiero añadir que Codesal es un artista muy escrupuloso en cuanto a la
+responsabilidad ética de su quehacer, y a propósito de la ventana
+indiscreta de un vídeo como este que nos empuja a ver las
+interioridades del cuerpo y el credo de la Legión. Digo esto porque, en
+varias ocasiones en las que he mostrado este trabajo, incluso cuando lo
+hago fragmentariamente y pretendo evitar los pasajes más caricaturescos
+(en su autenticidad finalmente), suele producirse una acogida jocosa y
+burlona. Me parece, sin embargo, que el mérito de Codesal está en
+utilizar la gramática del reportaje huyendo de las medias tintas, con
+una agudeza contundente que sobrepasa la comedia fácil. Por ello,
+nuestra risa o sonrisa se convierten en un rictus frente a la mirada
+interpuesta de Codesal, nada inocente ni cándida.
+
+Marcelo Expósito ha trabajado desde 1990 sobre las representaciones y
+los detritos de la historia, principalmente en relación con las
+oscuridades del franquismo y de la transición hacia la democracia
+monárquica. Al acudir a los documentos (incluyendo las ficciones de una
+épica decrépita de la cinematografía franquista) y a los relatos en
+primera persona de sujetos desafectos y exiliados, la obra de Expósito
+–vídeos, instalaciones, trabajos en soporte fotográfico…– trata
+de la necesidad de activar la memoria, a título individual y colectivo,
+frente a la amnesia y la pompa del milagro español, o de cómo pasar
+del sufrimiento al bienestar en un santiamén que nos escamoteó una
+parte de la historia.
+
+La obra a la cual me quiero referir es Octubre en el norte: temporal del
+noroeste (1995), un vídeo de noventa minutos que es una especie de
+deriva psicogeográfica por el Gran Bilbao: en el tiempo, en las
+mutaciones del espacio urbano y las relaciones de clase (este concepto
+que se ha querido desacreditar al decretarse «el fin de la historia»).
+Tomando como hilo conductor unas imágenes de archivo (algunas de las
+primeras filmaciones de Bilbao que se conservan) y de una nueva
+navegación por la ría como contrapunto actual, se hace referencia a la
+historia local: la minería que permite crear una industria metalúrgica
+tan potente como devastadora del medio, la riqueza que después se
+desvía hacia operaciones especulativas con el capital y la propiedad
+urbana, hasta el umbral de la pequeña capital que se lustra y acicala
+con nuevos reclamos de atracción global (entre los cuales el
+Guggenheim-Bilbao, el incipiente esqueleto del cual se hace
+ostensiblemente presente en algunas secuencias).
+
+Expósito se identifica con los modus operandi de Kluge, Godard, y
+también de Muntadas (el trabajo que comento podría emparejarse en
+algunos aspectos con el de Muntadas en Marsella), cuando dice que su
+trabajo «quiere oponer resistencia a los modos narrativos hegemónicos,
+ofreciendo una organización alternativa de las imágenes y los
+sonidos», «contribuir en realidad a la posibilidad de una
+organización colectiva y alternativa de la experiencia». En Octubre…
+se encadenan las imágenes propias y saqueadas, las citas de todo tipo
+(del pensamiento político a la poesía y la canción), los testimonios
+orales de las personas con las que se ha encontrado. El recorrido
+empieza y acaba en un no-lugar, precisamente porque ya no existe y es
+irrepresentable: la antigua población suburbial de Gallarta que, a
+consecuencia de una nueva fiebre del oro –o, más bien, de metales
+más viles–, se convierte en un agujero geológico, un vacío que ya
+no puede ser representado más que en la memoria y en la museología
+popular (a base de maquetas y reliquias) de aquellos que recuerdan las
+vivencias y los sudores.
+
+Phoney™ (1999-2000), el último trabajo a comentar, es un producto de
+Daniel García Andújar esponsorizado por la pujante corporación
+Technologies To The People® (TTTP), del gremio de las punto.com. Esta
+firma se ha caracterizado por una sagaz política de apoyo filantrópico
+a las propuestas y las travesuras de artistas, hacktivistas y
+manifestaciones tecnoculturales; no tan a fondo perdido como parece,
+sino para extraer posibles réditos de sus ocurrencias visionarias. Su
+producto más promocionado y célebre ha sido el sistema destinado a
+sustituir las limosnas por el dinero de plástico –sin duda un paso
+previo a las transacciones por telefonía móvil– frente a la
+expansión de una mendicidad plenamente familiarizada con los cajeros
+automáticos, la intangibilidad de la propiedad y la humillante
+incomodidad que generan las actividades pedigüeñas tradicionales en el
+cibermundo de nuestros días.
+
+
+
+Uno de los lemas de TTTP dice que «el acceso a la tecnología es un
+derecho humano» y García Andújar ha hecho un paso más en esta
+dirección al poner a nuestro alcance un kit interactivo, una phreak
+machine que reúne poderosas herramientas informáticas, incluso las
+más peligrosas y potencialmente delictivas (el usuario es advertido de
+esto debida y repetidamente) que permiten desviar dinero de manera
+fraudulenta, esparcir virus, escuchar conversaciones ajenas, acceder
+furtivamente a servidores y a buzones de correo electrónico de otras
+personas, manipular sistemas de comunicación telefónica con tonos
+reservados, bombardear a tu peor enemigo con mensajes indeseados,
+sabotear páginas web, acceder a información confidencial… En pocas
+palabras, «desestabilizar, manipular, espiar, defraudar y destruir»,
+tal como se formula en los textos que envuelven el menú de opciones.
+
+Todo esto se destina naturalmente a unos usos aleccionadores y de
+divulgación cultural, y con tal fin, García Andújar ha presentado su
+máquina virtual de iniciación al submundo ciberfurtivo en las
+instituciones y manifestaciones más prestigiosas en el campo de las
+tecnoartes, con las medidas se seguridad convenientes –tecnologías
+propietarias de TTTP que rastrean, escanean, identifican al usuario al
+acceder–, pero que permiten acariciar los secretos de las tecnologías
+telemáticas en un paseo por su lado más salvaje. Y dan igual las
+ficciones que se quieran sospechar, lo que es preciso recalcar es que
+Phoney™ también es, a su manera, un documento de realidad, el cual
+sobrepasa la autorreferencialidad tan característica del calentón
+digital y el parque temático de la cibercutura de nuestros días.
+
+Para terminar, las obras comentadas me permiten ahora una
+recapitulación y una paráfrasis más clara de algunas ideas y
+referencias que he ido apuntando. Estructuras asociativas líquidas y
+procedimientos recombinatorios podemos encontrarlos de manera muy
+diversa en las obras de Muntadas, Expósito y García Andújar (en su
+caso por una concepción inherente a la interfaz). En el trabajo de los
+dos primeros se produce una sedimentación en un mismo plano de
+elementos tan heterogéneos como recortes de fuentes mediáticas, citas
+literarias y musicales, y segmentos de elaboración propia; todos con el
+mismo relieve dentro de una secuencialidad iterativa y rota (por
+oposición a vectorial y lineal). La descripción de la realidad se
+yuxtapone con el cuestionamiento de los modos de representación
+institucionales, y esto se resuelve al fin en una construcción de
+signos que requiere la implicación receptiva del público.
+
+El dualismo de la visualidad y el simulacro me ha sido útil para
+incluir maneras muy diferentes de tratar de la realidad, pero es en el
+cruce de ambos conceptos donde se situaría la intencionalidad de las
+obras referidas: desde el testimonio cáustico de Codesal, que nos
+muestra los simulacros de acción-en-combate de un cuerpo militar en
+reposo y en la proximidad de una ceremonia festiva, hasta la propuesta
+claramente phoney (es decir: farsante) de García Andújar & TTTP, o de
+cómo poner al alcance popular los arcanos y las paranoias de la
+sociedad de la información. Y , por consiguiente, desde registros tan
+diversos que van de un modo documental diáfano –tal como he
+calificado el trabajo de Codesal– a un acoplamiento inaudito de datos
+y estratagemas digitales con funcionalidades tirando a oscuras,
+encontramos maneras muy actuales de bregar con la realidad y con la
+electrónica.
+
+ Este texto recoge la intervención realizada en el Fòrum de la QUAM
+2001 (antigua Quinzena d’Art de Montesquiu) que tuvo lugar del 7 al 14
+de julio de 2001 bajo la dirección de Martí Peran. [Nota del autor,
+2014]
+
+ En el original, escrito en catalán, hay un juego de palabras entre
+«belles» y «velles».[Nota del autor, 2014]
+
+ Deirdre Boyle: Subject to Change. Guerrilla Television Revisited. Nueva
+York: Oxford University Press, 1997.
+
+ Tanto Paik como Viola han realizado algunas obras documentales a su
+manera, principalmente en los años setenta y principios de los ochenta.
+
+ Recuerdo que hacia principios de los ochenta, hablando con Edín Vélez
+de su trabajo, me chocó que se remitiese a la estirpe del cine
+documental y no a unos referentes más «artísticos/experimentales»,
+como yo esperaba de un «videoartista».
+
+ Hago referencia a unos conceptos respectivamente manejados por Nuria
+Enguita y Juan Guardiola –en ocasión de su curaduría de la
+exposición Juan Downey: With Energy Beyond These Walls en el IVAM de
+Valencia (1998)– y por Muntadas (que dio el nombre de Híbridos a su
+exposición de 1988 en el 
+
+Centro de Arte Reina Sofía de Madrid).
+
+ Este ensayo forma parte del primer libro del Critical Art Ensemble: The
+Electronic Disturbance. Brooklyn, Nueva York: Automedia, 1994; una
+publicación anticopyright a la cual también se puede acceder a través
+de la red (www.critical-art.net).
+
+ Asimismo, remarcaré de paso que, en el contexto español. se ha podido
+observar un prolongado déficit del documentalismo y del realismo
+beligerantemente crítico o activista en proporción a un abuso
+comparativo de la interioridad y del manierismo, particularmente en los
+limbos de la videocreación. A pesar de eso, si fuese cuestión de
+ampliar las referencias, actualmente podría añadir los nombres de
+Ramon Parramon, Pedro Ortuño o Group Public Projects, entre otros
+artistas que utilizan habitualmente o circunstancialmente los medios
+electrónicos.
+
+-		 	ó
+
+ô
+
+Q
+
+R
+
+^
+
+n
+
+ò
+
+ó
+
+ô
+
+ÿ
+
+=?LMÖÜåæj
+
+{
+
+ä
+
+ì
+
+ò
+
+ô
+
+
+
+,-,8,Y,d,i,‹,‘,Ú,Ý,ß,â,¡-§-%/3/;/=/M/Q/[/^/Š/‹/ /¦/§/¨/
+Ò/Ó/Û/Ü/
+
+^JB¢E÷EøEùEÈGÊGËGÖGóGõG
+
+ h…
+
+\(\)\.\¹\Æ\Ð\Û\
+
+a a!a4a5a¤a©a¸aÂabˆb‘bžb
+
+°&°'°(°)°k°r°Š±–±Ä±Î±Ï±Ö±á±é±
+
+² ¤³h´s´x´y´z´è´é´ê´ú´
+
+ h…
+
+aJ  h…
+
+ hì
+
+aJ > (1998-2001).
+
