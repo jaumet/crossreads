@@ -51,71 +51,75 @@
       </div>
     </div>
   </div>
-
+  
+  <div id="showAllTextWrapper">
+    <div id="showAllText"></div>
+  </div>
+  
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
       <table class="mytimeline">
-        <tr>
-			<td>
-                                <c id="3_0" class="t2">.</c>
-                                <c id="3_0" class="t2">.</c>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t4">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t3">.</c>
-                        </td>
-			<td>
-                                <c id="2_0" class="t1">.</c>
-                                <c id="2_0" class="t2">.</c>
-                                <c id="2_0" class="t2">.</c>
-                                <c id="2_0" class="t3">.</c>.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t4">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t2">.</c>
-                                <c id="3_0" class="t2">.</c>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t2">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t1">.</c>
-                                <c id="3_0" class="t1">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-			<td>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t3">.</c>
-                                <c id="3_0" class="t4">.</c>
-                                <c id="3_0" class="t4">.</c>
-                                <c id="3_0" class="t4">.</c>
-                                <c id="3_0" class="t4">.</c>
-                        </td>
-        </tr>
-        <tr>
-			<td>1988</td><td>1990</td><td>1992</td><td>1994</td><td>1996</td><td>1998</td><td>2000</td><td>2002</td><td>2004</td><td>2006</td>
-        </tr>        
+      <tr>
+        <td>
+          <c id="3_0" class="t2">.</c>
+          <c id="3_0" class="t2">.</c>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t4">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t3">.</c>
+        </td>
+        <td>
+          <c id="2_0" class="t1">.</c>
+          <c id="2_0" class="t2">.</c>
+          <c id="2_0" class="t2">.</c>
+          <c id="2_0" class="t3">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t4">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t2">.</c>
+          <c id="3_0" class="t2">.</c>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t2">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t1">.</c>
+          <c id="3_0" class="t1">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+        <td>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t3">.</c>
+          <c id="3_0" class="t4">.</c>
+          <c id="3_0" class="t4">.</c>
+          <c id="3_0" class="t4">.</c>
+          <c id="3_0" class="t4">.</c>
+        </td>
+      </tr>
+      <tr>
+        <td>1988</td><td>1990</td><td>1992</td><td>1994</td><td>1996</td><td>1998</td><td>2000</td><td>2002</td><td>2004</td><td>2006</td>
+      </tr>        
       </table>
       <div class="legend">
         <span><b>78 texts</b>
@@ -127,14 +131,16 @@
     </div>
   </div>
 
+  <!-- other pages container -->  
+  <div id="otherpages" class="container"></div>
+
   <!-- top reader container -->  
-   <div id="otherpages" class="container"></div>
   <div id="mytopmetadata" class="container">
     <p id="my_youarereading" class="mytag"></p>
     <p id="title"></p>
     <div id="toparrow" class="arrowt"></div>
   </div>
-  
+
   <!-- main reader container: row of three columns -->
   <div id="reader" class="container">
     <div class="row">
@@ -195,15 +201,16 @@
     var meta_rest = "";
     var meta_img = "";
     var meta_html = "";
+    var alltext ='<p><a id="'+tid+'" href="#" class="all-text" ><span id="allText">Tot el text</span></a></p>';
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
         meta_title = "<h2>"+val.title+"</h2>";
         
         // Check for images attached to tid
         if (val.images.length > 0) { // FIXME for more than one image
-          meta_img = '<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
+          meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
         } else {
-          meta_img = "";
+          meta_img = alltext;
         }     
         
         meta_rest = '['+val.year+'] '+val.topic+' ('+val.format+')';
@@ -211,21 +218,28 @@
         // Check if this is the main title-box
         if (main == "main")  {
           meta_html = '<div class="list-group">\
-            <a id="'+val.tid+'" href="#" class="all-text" >ALL TEXT</a>\
             <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
             <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-            <p class="mymeta list-group-item-text"><i>'+meta_rest+'</i></p></a>\
+            <p class="mymeta"><i>'+meta_rest+'</i></p></a>\
             </div>';
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }
         $("#my_youarereading").css({"display":"block"});
         $("#myleftcolumn").html(meta_img);
+
+        $("#myleftcolumn").promise().done(function(){
+          $("a.all-text").on('click', function() {
+            console.log("all text: "+tid+" | METADATA[tid-1]: "+METADATA[tid-1]);
+            allText(tid, METADATA[tid-1]);
+          });
+        });
+
       }
     });
     
     $(mydiv).html(meta_html);
-    // Preparing smoth animate() for #text and #title
+    // Preparing smooth animate() for #text and #title
     $("#title h2").css({ "opacity": "0" });
     $("#text p").css({ "opacity": "0" });
   }
@@ -277,6 +291,19 @@
     return $("#mystore").html();
   }
 
+  function allText(tid, meta)  {
+    mytext = '<h1>'+meta["title"]+'</h1>';
+    $.getJSON( "data/texts/"+tid+".json", function( data ) {
+      $.each( data, function( key, val ) {
+        mytext += '<p>'+val.p+'</p>';
+      });        
+      $("#showAllText").html(mytext);
+      $("#showAllTextWrapper").addClass("allTextWrapper");
+      $("#showAllText").addClass("allTextBox");
+    });
+    return false;
+  }
+
   function sleep(milliseconds) {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
@@ -290,21 +317,25 @@
     $("#otherpages").animate({ "opacity": "0" }, 1300 );
     $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
-    console.log('>>>>> my: '+my);
     tid = my[0];
     pid = my[1];
     if (_.isUndefined(pid) || pid == "NaN") {
       pid = "0";
       tid = myid;
-    }
-    //console.log('==> tid: '+tid+' | pid: '+pid);
-	
+    }	
     window.name += " | "+tid+"_"+pid;	
     $("#wname").append(" | "+tid+"_"+pid);
 	
     loadMetadataIn(tid, "#title", "main");
     putParagraphIn(tid+"_"+pid, "#text");
-    
+
+    $("#myrightcolumn").promise().done(function(){
+      $("a.all-text").on('click', function() {
+        console.log("all text: "+tid+" | METADATA[tid-1]: "+METADATA[tid-1]);
+        allText(tid, METADATA[tid-1]);
+      });
+    });
+
     // top arrow checking
     $("#mystore").promise().done(function(){
       $("#toparrow").html('').promise().done(function(){
@@ -314,7 +345,6 @@
           mypidTop = parseInt(pid)-1;
         }
         myidTop = tid+"_"+mypidTop;
-        //console.log("myidTop: "+myidTop);
         $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/top_arrow.png" /></a>');
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
@@ -325,7 +355,6 @@
       
     //bottom arrow checking
     $("div.arrowb").html('').promise().done(function(){
-      //console.log("pid: "+(parseInt(pid)+1));
       if ((parseInt(pid) + 1) == parseInt($("#mystore").text()))  {
         mypidBottom = "0";
       } else {
@@ -333,7 +362,6 @@
       }
       
       var myidBottom = tid+"_"+mypidBottom;
-      //console.log("myidBottom: "+myidBottom);
       $("div.arrowb").append('<a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/bottom_arrow.png" /></a>');
       $("a.arrowb").on('click', function() {
         myTrick(this.id);
@@ -346,7 +374,6 @@
       // Get the id of the text on the centre ;-)
       myIndex = _.indexOf(sim, tid+"_"+pid);
       loadLeftAndRightLinks(myIndex, sim);
-
       $("a.arrow").on('click', function() {
         myTrick(this.id);
         return false;
@@ -378,10 +405,8 @@
   if (LANGUAGE != "ca" && LANGUAGE != "es") { LANGUAGE = "ca";}
 
   function langStrings(lang)  { 
-    console.log("lang: "+lang);
     $.each(lang, function(key, value){
       $("#"+key).html(value);
-      console.log(key + ": " + value);
     });
   } 
   currentLang = eval("lang_"+LANGUAGE);
@@ -396,7 +421,6 @@
   $("#otherpages").html(currentLang["page-default"]);  
   $("span.other").on('click', function() {
     //$("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
-    console.log("you clicked: "+this.id);
     $("#otherpages").html(currentLang["page-"+this.id]);
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
     return false;

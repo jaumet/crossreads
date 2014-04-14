@@ -2,6 +2,7 @@ var lang_ca =
 {
   "mytitle":"",
   "my_youarereading":"Est&agrave;s llegint:",
+  "allText":"Tot el text",
   "about":"Sobre",
   "feedback":"Comenta",
   "credits":"Cr&egrave;dits",
@@ -15,6 +16,7 @@ var lang_es =
 {
   "mytitle":"",
   "my_youarereading":"Est&aacute;s leyendo:",
+  "allText":"Todo el texto",
   "about":"Sobre",
   "feedback":"Comenta",
   "credits":"Cr&eacute;ditos",
