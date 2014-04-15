@@ -34,7 +34,7 @@ var METADATA = [
 	},
 	{
 		"tid":4,
-		"title": "T",
+		"title": "El cine de Werner Nekes",
 		"year": 1988,
 		"lang": "L",
 		"format": "F",
@@ -44,7 +44,7 @@ var METADATA = [
 	},
 	{
 		"tid":5,
-		"title": "T",
+		"title": "Marguerite Duras: el texto en la imagen",
 		"year": 1989,
 		"lang": "L",
 		"format": "F",
