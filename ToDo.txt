@@ -4,7 +4,7 @@ ToDo:
   - Check for problems on resize the window
   - BROWSER COMPATIBILITY:
       * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
-      * Check Saafari amd, specialy, Safari version on Macba's IPADs
+      * Check Safari amd, specialy, Safari version on Macba's IPADs
       
 DONE  - OTHER PAGES: show contents below the timeline
       * 0) Default oresentation on load page.
@@ -29,16 +29,17 @@ DONE  - Balls legend
 DONE        * Change arrows's image
 DONE        * Invert colors for right & left arrows`` `
 DONE        * Add title and more to left &  right arrows
-        * Add Keywords (from the spreadsheet) to the title-box
+***        * Add Keywords (from the spreadsheet) to the title-box
 
-XXX    - Get a whole text:
-        * Generate all text in one view and and LINK in the title-box
-        * Add access to the whole text in a new window (or in a pop-up-div)
+DONE    - Get a whole text:
+DONE      * Generate all text in one view and and LINK in the title-box
+DONE      * Add access to the whole text in a new window (or in a pop-up-div)
+***        * Add closiing image in the style of the arrow images
     
-    - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+    OPTIONAL- Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
 
 DONE    - Multilanguage of fix text (catalan and spanish?) 
-      -> Add all the string to be translated
+DONE      -> Add all the string to be translated
 
 
     [OPTIONAL] - Themes (only-css-based or a complete theme):

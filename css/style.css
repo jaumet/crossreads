@@ -131,6 +131,7 @@ td {
 	font-weight: bold;
 }
 
+.allTextBox,
 .jump,
 .myleft, 
 .myright, 
@@ -142,13 +143,6 @@ a.list-group-item.active,
   border-radius: 15px;
   box-shadow: 0 0 8px #FFF9D2;
   overflow:auto;
-  /*width: 90%;
-  background: white;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;*/
 }
 
 a.list-group-item.active {
@@ -377,28 +371,34 @@ p.mymeta {
   font-size:9px;;
 }
 
-
-/*
-fancybox-overlay fancybox-overlay-fixed
-*/
-.allTextBox  {
+.allTextWrapper {
   display: block; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1100px; 
+  width: 100%;
+  opacity: .9;
+  background-color:#2a2a2a;
+  z-index: 100;
+}
+.allTextBox  {
+  display: block;
   opacity: 1; 
-  overflow: visible; 
+  overflow: auto; 
   height: auto;
   width: 70%;
-  position: relatibe; 
+  position: relative; 
   margin: 100px auto;
   z-index:100;
   background-color:#2a2a2a;
+  padding:40px;
 }
-.allTextWrapper {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  height: 1000px; 
-  width: 100%;
-  opacity: 1;
-  background-color:#000000;
-  z-index: 100;
+#closeAllText {
+  float:right;
+  font-size:30px;
+  color:#2a2a2a;
+  background-color:#ffffff;
+  z-index:100;
+  padding:5px;
 }

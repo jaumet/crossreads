@@ -43,7 +43,7 @@
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><span id="mytitle"></span><b>L'Ull escolta - Eugeni Bonet</b>: pantalles, projeccions, escrits</a>
+        <a class="navbar-brand" href="#"><span id="mytitle"><b>L'Ull escolta - Eugeni Bonet</b>: pantalles, projeccions, escrits</span></a>
         <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
         <a class="navbar-brand" href="#"><span id="feedback" class="other">Comenta</span></a>
         <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
@@ -51,11 +51,6 @@
       </div>
     </div>
   </div>
-  
-  <div id="showAllTextWrapper">
-    <div id="showAllText"></div>
-  </div>
-  
   <!-- Main jumbotron for the texts timelime/overview -->
   <div class="jumbotron">
     <div class="container">
@@ -122,15 +117,14 @@
       </tr>        
       </table>
       <div class="legend">
-        <span><b>78 texts</b>
-        <br /><span class="t1c" style="font-size:19px;">Cataleg</span>, 
-        <span class="t2c" style="font-size:16px;">Critica</span>, 
-        <span class="t3c" style="font-size:13px;">Opinio</span>, 
-        <span class="t4c" style="font-size:10px;">Altres</span>
+        <span><b>78 <span id="mytexts">texts</span></b>
+        <br /><span id="mycatalog" class="t1c" style="font-size:19px;">Cataleg</span>, 
+        <span id="mycritic" class="t2c" style="font-size:16px;">Critica</span>, 
+        <span id="myopinion" class="t3c" style="font-size:13px;">Opinio</span>, 
+        <span id="myothers" class="t4c" style="font-size:10px;">Altres</span>
       </span></div>      
     </div>
   </div>
-
   <!-- other pages container -->  
   <div id="otherpages" class="container"></div>
 
@@ -180,6 +174,8 @@
 
   <!-- footer -->
   <footer>
+    <div id="allTextWrapper" style="display:block"></div>
+      <!--<div id="showAllText"><div id="closeAllText">X</div></div></div>  -->
     <div id="mystore"></div>
     <div id="wname"></div>
     <div id='event-description'></div>
@@ -225,12 +221,12 @@
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }
+        
         $("#my_youarereading").css({"display":"block"});
         $("#myleftcolumn").html(meta_img);
 
         $("#myleftcolumn").promise().done(function(){
           $("a.all-text").on('click', function() {
-            console.log("all text: "+tid+" | METADATA[tid-1]: "+METADATA[tid-1]);
             allText(tid, METADATA[tid-1]);
           });
         });
@@ -255,8 +251,10 @@
     } else {
             rightIndex = sim[0];
     }
+    
     $("#bottomleft div").html('<span></span><a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
     $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a><span></span>');
+    
     // Right and left title boxes
     myl = leftIndex.split('_');
     loadMetadataIn(myl[0], "#bottomleft div span", "left");
@@ -292,13 +290,14 @@
   }
 
   function allText(tid, meta)  {
-    mytext = '<h1>'+meta["title"]+'</h1>';
+    mytext = '<div id="showAllText"><div id="closeAllText">X</div><h1>'+meta["title"]+'</h1>';
     $.getJSON( "data/texts/"+tid+".json", function( data ) {
       $.each( data, function( key, val ) {
         mytext += '<p>'+val.p+'</p>';
-      });        
-      $("#showAllText").html(mytext);
-      $("#showAllTextWrapper").addClass("allTextWrapper");
+      });
+      mytext += '</div>';
+      $("#allTextWrapper").html(mytext);
+      $("#allTextWrapper").addClass("allTextWrapper");
       $("#showAllText").addClass("allTextBox");
     });
     return false;
@@ -329,10 +328,25 @@
     loadMetadataIn(tid, "#title", "main");
     putParagraphIn(tid+"_"+pid, "#text");
 
-    $("#myrightcolumn").promise().done(function(){
+    $("#myleftcolumn").promise().done(function(){
       $("a.all-text").on('click', function() {
-        console.log("all text: "+tid+" | METADATA[tid-1]: "+METADATA[tid-1]);
         allText(tid, METADATA[tid-1]);
+      });
+      
+      $("html").on('click', function(e) {
+        if (e.target.id != 'showAllText' && e.target.id != '') {
+          //alert("e.target.id>"+e.target.id+"<");
+          $("#allTextWrapper").removeClass("allTextWrapper");
+          $("#showAllText").removeClass("allTextBox");
+          $("#allTextWrapper").html('');
+        }
+      });
+      $(document).on( 'keydown', function ( e ) {
+        if ( e.keyCode === 27 ) { // ESC
+          $("#allTextWrapper").removeClass("allTextWrapper");
+          $("#showAllText").removeClass("allTextBox");
+          $("#allTextWrapper").html('');
+        }
       });
     });
 
