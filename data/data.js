@@ -8,7 +8,7 @@ var METADATA = [
 		"format": "F",
 		"topic": "T",
 		"publication": "P",
-    "images": ["nn"]
+    "images": []
 	},
 	{
 		'tid':2,
