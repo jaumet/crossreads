@@ -1,8 +1,8 @@
 var METADATA = [
 	{
 		"tid":1,
-    "nump": 14,
-		"title": "T",
+    "nump": 15,
+		"title": "Text number 1",
 		"year": 1970,
 		"lang": "L",
 		"format": "F",
@@ -12,8 +12,8 @@ var METADATA = [
 	},
 	{
 		'tid':2,
-    "nump": 10,
-		"title": "Cine decadente: un nuevo expresionismo",
+    "nump": 21,
+		"title": "Cine decadente un nuevo expresionismo",
 		"year": 1975,
 		"lang": "Es",
 		"format": "Article",
@@ -23,7 +23,7 @@ var METADATA = [
 	},
 	{
 		"tid":3,
-    "nump": 14,
+    "nump": 73,
 		"title": "Del oscilógrafo al chip prodigioso",
 		"year": 1988,
 		"lang": "Spanish",
@@ -34,6 +34,7 @@ var METADATA = [
 	},
 	{
 		"tid":4,
+    "nump": 70,
 		"title": "El cine de Werner Nekes",
 		"year": 1988,
 		"lang": "L",
@@ -44,6 +45,7 @@ var METADATA = [
 	},
 	{
 		"tid":5,
+    "nump": 28,
 		"title": "Marguerite Duras: el texto en la imagen",
 		"year": 1989,
 		"lang": "L",
@@ -54,7 +56,8 @@ var METADATA = [
 	},
 	{
 		"tid":6,
-		"title": "T",
+    "nump": 27,
+		"title": "Text number 6",
 		"year": 1990,
 		"lang": "L",
 		"format": "F",
@@ -64,7 +67,8 @@ var METADATA = [
 	},
 	{
 		"tid":7,
-		"title": "T",
+    "nump": 7,
+		"title": "Text number 7",
 		"year": 1990,
 		"lang": "L",
 		"format": "F",
@@ -74,7 +78,8 @@ var METADATA = [
 	},
 	{
 		"tid":8,
-		"title": "T",
+    "nump": 9,
+		"title": "Text number 8",
 		"year": 1990,
 		"lang": "L",
 		"format": "F",
@@ -84,7 +89,8 @@ var METADATA = [
 	},
 	{
 		"tid":9,
-		"title": "T",
+    "nump": 7,
+		"title": "Text number 9",
 		"year": 1990,
 		"lang": "L",
 		"format": "F",
@@ -94,7 +100,8 @@ var METADATA = [
 	},
 	{
 		"tid":10,
-		"title": "T",
+    "nump": 76,
+		"title": "Text number 10",
 		"year": 1991,
 		"lang": "L",
 		"format": "F",
@@ -104,7 +111,8 @@ var METADATA = [
 	},
 	{
 		"tid":11,
-		"title": "T",
+    "nump": 90,
+		"title": "Text number 11",
 		"year": 1994,
 		"lang": "L",
 		"format": "F",
@@ -114,7 +122,8 @@ var METADATA = [
 	},
 	{
 		"tid":12,
-		"title": "T",
+    "nump": 46,
+		"title": "Text number 12",
 		"year": 1994,
 		"lang": "L",
 		"format": "F",
@@ -124,7 +133,8 @@ var METADATA = [
 	},
 	{
 		"tid":13,
-		"title": "T",
+    "nump": 161,
+		"title": "Text number 13",
 		"year": 1998,
 		"lang": "L",
 		"format": "F",
@@ -134,7 +144,8 @@ var METADATA = [
 	},
 	{
 		"tid":14,
-		"title": "T",
+    "nump": 25,
+		"title": "Text number 14",
 		"year": 1999,
 		"lang": "L",
 		"format": "F",
@@ -144,7 +155,8 @@ var METADATA = [
 	},
 	{
 		"tid":15,
-		"title": "T",
+    "nump": 34,
+		"title": "Text number 15",
 		"year": 1999,
 		"lang": "L",
 		"format": "F",
@@ -154,7 +166,8 @@ var METADATA = [
 	},
 	{
 		"tid":16,
-		"title": "T",
+    "nump":61,
+		"title": "Text number 16",
 		"year": 1999,
 		"lang": "L",
 		"format": "F",
@@ -164,7 +177,8 @@ var METADATA = [
 	},
 	{
 		"tid":17,
-		"title": "T",
+    "nump":77,
+		"title": "Text number 17",
 		"year": 2012,
 		"lang": "L",
 		"format": "F",
@@ -174,7 +188,19 @@ var METADATA = [
 	},
 	{
 		"tid":18,
-		"title": "T",
+    "nump":64,
+		"title": "Text number 18",
+		"year":2013,
+		"lang": "L",
+		"format": "F",
+		"topic": "T",
+		"publication": "P",
+    "images": []
+	},
+	{
+		"tid":19,
+    "nump":16,
+		"title": "Text number 19",
 		"year": 2013,
 		"lang": "L",
 		"format": "F",
@@ -184,17 +210,8 @@ var METADATA = [
 	},
 	{
 		"tid":20,
-		"title": "T",
-		"year": 2013,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":20,
-		"title": "T",
+    "nump":41,
+		"title": "Text number 20",
 		"year": 2013,
 		"lang": "L",
 		"format": "F",
@@ -204,7 +221,8 @@ var METADATA = [
 	},
 	{
 		"tid":21,
-		"title": "T",
+    "nump": 58,
+		"title": "Text number 21",
 		"year": 2013,
 		"lang": "L",
 		"format": "F",
@@ -214,7 +232,8 @@ var METADATA = [
 	},
 	{
 		"tid":22,
-		"title": "T",
+    "nump": 128,
+		"title": "Text number 22",
 		"year": 2013,
 		"lang": "L",
 		"format": "F",
@@ -224,108 +243,9 @@ var METADATA = [
 	},
 	{
 		"tid":23,
-		"title": "T",
+    "nump": 99,
+		"title": "Text number 23",
 		"year": 2013,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":24,
-		"title": "T",
-		"year": 2013,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":25,
-		"title": "T",
-		"year": 2013,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":26,
-		"title": "T",
-		"year": 2009,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":27,
-		"title": "T",
-		"year": 2008,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":28,
-		"title": "T",
-		"year": 2010,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":29,
-		"title": "T",
-		"year": 2011,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":30,
-		"title": "T",
-		"year": 2012,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":31,
-		"title": "T",
-		"year": 2014,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":32,
-		"title": "T",
-		"year": 2000,
-		"lang": "L",
-		"format": "F",
-		"topic": "T",
-		"publication": "P",
-    "images": []
-	},
-	{
-		"tid":33,
-		"title": "T",
-		"year": 2001,
 		"lang": "L",
 		"format": "F",
 		"topic": "T",

@@ -57,59 +57,59 @@
       <table class="mytimeline">
       <tr>
         <td>
-          <c id="3_0" class="t2">.</c>
-          <c id="3_0" class="t2">.</c>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t4">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="2_2" class="t2">.</c>
+          <c id="2_2" class="t2">.</c>
+          <c id="2_2" class="t3">.</c>
+          <c id="2_2" class="t4">.</c>
+          <c id="2_2" class="t4">.</c>
         </td>
         <td>
-          <c id="3_0" class="t3">.</c>
+          <c id="18_37" class="t3">.</c>
         </td>
         <td>
-          <c id="2_0" class="t1">.</c>
-          <c id="2_0" class="t2">.</c>
-          <c id="2_0" class="t2">.</c>
-          <c id="2_0" class="t3">.</c>
+          <c id="13_75" class="t1">.</c>
+          <c id="13_75" class="t2">.</c>
+          <c id="13_75" class="t2">.</c>
+          <c id="13_75" class="t3">.</c>
         </td>
         <td>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t4">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="11_58" class="t1">.</c>
+          <c id="11_58" class="t4">.</c>
+          <c id="11_58" class="t4">.</c>
         </td>
         <td>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="18_14" class="t3">.</c>
+          <c id="18_14" class="t4">.</c>
         </td>
         <td>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t2">.</c>
-          <c id="3_0" class="t2">.</c>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="17_66" class="t1">.</c>
+          <c id="17_66" class="t2">.</c>
+          <c id="17_66" class="t2">.</c>
+          <c id="17_66" class="t3">.</c>
+          <c id="17_66" class="t3">.</c>
+          <c id="17_66" class="t4">.</c>
         </td>
         <td>
-          <c id="3_0" class="t2">.</c>
+          <c id="12_7" class="t2">.</c>
         </td>
         <td>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t1">.</c>
-          <c id="3_0" class="t1">.</c>
+          <c id="12_7" class="t1">.</c>
+          <c id="12_7" class="t1">.</c>
+          <c id="12_7" class="t1">.</c>
+          <c id="12_7" class="t1">.</c>
+          <c id="12_7" class="t1">.</c>
         </td>
         <td>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="12_7" class="t3">.</c>
+          <c id="12_7" class="t4">.</c>
         </td>
         <td>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t3">.</c>
-          <c id="3_0" class="t4">.</c>
-          <c id="3_0" class="t4">.</c>
-          <c id="3_0" class="t4">.</c>
-          <c id="3_0" class="t4">.</c>
+          <c id="12_7" class="t3">.</c>
+          <c id="12_7" class="t3">.</c>
+          <c id="12_7" class="t4">.</c>
+          <c id="12_7" class="t4">.</c>
+          <c id="12_7" class="t4">.</c>
+          <c id="12_7" class="t4">.</c>
         </td>
       </tr>
       <tr>
@@ -175,7 +175,6 @@
   <!-- footer -->
   <footer>
     <div id="allTextWrapper" style="display:block"></div>
-      <!--<div id="showAllText"><div id="closeAllText">X</div></div></div>  -->
     <div id="mystore"></div>
     <div id="wname"></div>
     <div id='event-description'></div>
@@ -203,6 +202,7 @@
         meta_title = "<h2>"+val.title+"</h2>";
         
         // Check for images attached to tid
+        console.log("tid for images: "+tid);
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
         } else {
@@ -218,19 +218,18 @@
             <h4 class="list-group-item-heading">'+meta_title+'</h4>\
             <p class="mymeta"><i>'+meta_rest+'</i></p></a>\
             </div>';
+          $("#my_youarereading").css({"display":"block"});
+          $("#myleftcolumn").html(meta_img);
+
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }
         
-        $("#my_youarereading").css({"display":"block"});
-        $("#myleftcolumn").html(meta_img);
-
         $("#myleftcolumn").promise().done(function(){
           $("a.all-text").on('click', function() {
             allText(tid, METADATA[tid-1]);
           });
         });
-
       }
     });
     
@@ -263,11 +262,11 @@
   }
 
   function putParagraphIn(myIndex, mydiv)  {
-    // From an index putParagraphInlike "tid_pid" get the text tid and put the paragraph pid in div mydiv
     my = myIndex.split('_');
 	  tid = my[0];
 	  pid = my[1];
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
+      console.log("data/texts/+tid+.json: "+"data/texts/"+tid+".json");
 	    var items = [];
       var footnote = [];
       $.each( data, function( key, val ) {
@@ -290,7 +289,7 @@
   }
 
   function allText(tid, meta)  {
-    mytext = '<div id="showAllText"><div id="closeAllText">X</div><h1>'+meta["title"]+'</h1>';
+    mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+meta["title"]+'</h1>';
     $.getJSON( "data/texts/"+tid+".json", function( data ) {
       $.each( data, function( key, val ) {
         mytext += '<p>'+val.p+'</p>';
@@ -313,13 +312,14 @@
   }
 
   function myTrick(myid) {
+    console.log("myid: "+myid);
     $("#otherpages").animate({ "opacity": "0" }, 1300 );
     $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
     tid = my[0];
     pid = my[1];
     if (_.isUndefined(pid) || pid == "NaN") {
-      pid = "0";
+      pid = "1";
       tid = myid;
     }	
     window.name += " | "+tid+"_"+pid;	
@@ -334,7 +334,7 @@
       });
       
       $("html").on('click', function(e) {
-        if (e.target.id != 'showAllText' && e.target.id != '') {
+        if (e.target.id == 'close' || (e.target.id != 'showAllText' && e.target.id != '')) {
           //alert("e.target.id>"+e.target.id+"<");
           $("#allTextWrapper").removeClass("allTextWrapper");
           $("#showAllText").removeClass("allTextBox");
@@ -359,7 +359,10 @@
           mypidTop = parseInt(pid)-1;
         }
         myidTop = tid+"_"+mypidTop;
-        $("#toparrow").append('<a href="#" id="'+myidTop+'" class="arrowt"><img src="images/top_arrow.png" /></a>');
+        $("#toparrow").append('<div class="col-md-5"></div>\
+        <div class="col-md-1"><a href="#" id="'+myidTop+'" class="arrowt"><img src="images/top_arrow.png" /></a></div>\
+        <div class="col-md-5"></div>');
+        
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
         });
@@ -434,7 +437,6 @@
   // Load page-default initially:
   $("#otherpages").html(currentLang["page-default"]);  
   $("span.other").on('click', function() {
-    //$("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     $("#otherpages").html(currentLang["page-"+this.id]);
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
     return false;

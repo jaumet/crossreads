@@ -1,56 +1,71 @@
 ToDo:
 
-- Web page:
   - Check for problems on resize the window
+XXX  - Adjust the grid of the page: center arrows,...
   - BROWSER COMPATIBILITY:
       * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
       * Check Safari amd, specialy, Safari version on Macba's IPADs
-      
-DONE  - OTHER PAGES: show contents below the timeline
+
+      * Add Keywords (from the spreadsheet) to the title-box
+      * When click in other pages, the content appears in between the timeline and the reader. Find a solution
+
       * 0) Default oresentation on load page.
       * 1) Show list of all texts as a item-list with title and metadata.
       * 2) Credits
       * 3) About the data
-XXX     * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
-
-DONE  - Text explorer
-DONE  - Balls legend
+      * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
   
-  - OPTIONAL: Text to Speetch: http://vozme.com/ (festival in JS)
+ 
 
-  - OPTIONAL: 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~ OPTIONAL
+
+    OPTIONAL - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+
+    OPTIONAL - Themes (only-css-based or a complete theme):
+      -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
+      -> Code the theme selection and loading.
+      -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
+      -> [optional] code a theme editor with 2 color picker.
+
+    OPTIONAL - Storm words for each chunk. To show it as a preview of left and right jumps.
+
+    OPTIONAL: Text to Speetch: http://vozme.com/ (festival in JS)
+
+    OPTIONAL: 
     * Save logs of crossreads
     * Compare them
     * Visualize them (in a grid?)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~ DONE
   
+DONE  - OTHER PAGES: show contents below the timeline
 ~~~~	
-	* Crossreader:
-    - ARROWS:
+
 DONE        * Change arrows's image
 DONE        * Invert colors for right & left arrows`` `
 DONE        * Add title and more to left &  right arrows
-***        * Add Keywords (from the spreadsheet) to the title-box
+DONE        * Add closing image in the style of the arrow images
+
+DONE  - Text explorer
+DONE  - Balls legend
 
 DONE    - Get a whole text:
 DONE      * Generate all text in one view and and LINK in the title-box
 DONE      * Add access to the whole text in a new window (or in a pop-up-div)
-***        * Add closiing image in the style of the arrow images
-    
-    OPTIONAL- Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
 
 DONE    - Multilanguage of fix text (catalan and spanish?) 
 DONE      -> Add all the string to be translated
 
 
-    [OPTIONAL] - Themes (only-css-based or a complete theme):
-      -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
-      -> Code the theme selection and loading.
-      -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
-      -> [optional] code a theme editor with 2 color picker.
-         
-    [OPTIONAL] - Storm words for each chunk. To show it as a preview of left and right jumps.
                         
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 - Data
   * METADATA: check and extract the data from the google s[preadsheet.
 
