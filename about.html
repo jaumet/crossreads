@@ -295,7 +295,9 @@
         mytext += '<p>'+val.p+'</p>';
       });
       mytext += '</div>';
-      $("#allTextWrapper").html(mytext);
+      if ($("#allTextWrapper").html() == '' ) {
+        $("#allTextWrapper").html(mytext);
+      }
       $("#allTextWrapper").addClass("allTextWrapper");
       $("#showAllText").addClass("allTextBox");
     });
