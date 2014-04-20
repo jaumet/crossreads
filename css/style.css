@@ -191,18 +191,32 @@ a.list-group-item.active {
   margin-top:20px;
 }
 
-#bottomleft div a {
+#bottomleft div a, #bottomleft div span {
   float:right;
 }
-#bottomright div a {
+#bottomright div a, #bottomright div span {
   float:left;
 }
-
+#bottomleft {
+  padding-right:0;
+}
+/*
+#bottomleft, #bottomright {
+  float:left;
+  width: 290px;
+}
+*/
+#bottomcenter {
+  padding-left: 0;
+  margin-right:20px;
+  text-align:center;
+}
+#bottomcenter a {
+  display:block;
+}
 .jump {
   float:left;
   width:220px;
-  border-left:2px solid black;
-  border-right:2px solid black;
   padding: 20px;
   color:#B4A6A6;
   box-shadow: 0 0 1px #FFF9D2;
@@ -265,18 +279,11 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   
 }
 .arrowb img {
-  float:left;
-  margin:10px 50% 0 35%; 
-  width:60px;
-
-}
-.arrowl img{
-  float:left;
-  margin:0;
+  display: block;
+  margin:0 auto;
   width:60px;
 }
-
-.arrowr img{
+.arrowl img, .arrowr img {
   float:left;
   margin:0;
   width:60px;
@@ -289,11 +296,6 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
 	color: #B4A6A6;
 	height:20px;
 }
-
-/*.arrowt a img, .arrowb a {
-  background-color:#FFF9D2;
-}
-*/
 
 p.mymeta {
   float:right;
