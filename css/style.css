@@ -268,24 +268,24 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   margin-bottom: 0; 
 }
 #title h2{
-  /*width: 50%;*/
-  margin: 5 auto;
+  margin: 5px auto;
 }
 
 .arrowt img {
   float:left;
-  margin:10px 50% 0 43%;
+  margin:10px 50%;
   width:60px;
   
 }
 .arrowb img {
   display: block;
-  margin:0 auto;
+  margin:0 50%;
   width:60px;
 }
 .arrowl img, .arrowr img {
   float:left;
   margin:0;
+  margin-bottom:10px;
   width:60px;
 }
 .arrow img:hover, .arrowt img:hover, .arrowb img:hover{

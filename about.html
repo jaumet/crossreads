@@ -183,14 +183,12 @@
   <!---------------------------->
   <!-- starts core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
   <!-- ends Bootstrap core JavaScript -->
 
   <!-- starts crossreads business -->
   <script>
-  
   function loadMetadataIn(tid, mydiv, main)  {
     var meta_title = "";
     var meta_rest = "";
@@ -266,7 +264,6 @@
 	  tid = my[0];
 	  pid = my[1];
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
-      console.log("data/texts/+tid+.json: "+"data/texts/"+tid+".json");
 	    var items = [];
       var footnote = [];
       $.each( data, function( key, val ) {
@@ -313,8 +310,8 @@
     }
   }
 
+  // MAIN function
   function myTrick(myid) {
-    console.log("myid: "+myid);
     $("#otherpages").animate({ "opacity": "0" }, 1300 );
     $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
@@ -330,6 +327,7 @@
     loadMetadataIn(tid, "#title", "main");
     putParagraphIn(tid+"_"+pid, "#text");
 
+    // Show whole-text
     $("#myleftcolumn").promise().done(function(){
       $("a.all-text").on('click', function() {
         allText(tid, METADATA[tid-1]);
@@ -337,7 +335,6 @@
       
       $("html").on('click', function(e) {
         if (e.target.id == 'close' || (e.target.id != 'showAllText' && e.target.id != '')) {
-          //alert("e.target.id>"+e.target.id+"<");
           $("#allTextWrapper").removeClass("allTextWrapper");
           $("#showAllText").removeClass("allTextBox");
           $("#allTextWrapper").html('');
@@ -367,8 +364,8 @@
         
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
+          return false;
         });
-        return false;
       });
     });
       
@@ -400,18 +397,21 @@
     });
   }
 
+  // Timeline, arrow and title click capture
   $("a.node, a.arrow, c").on('click', function() {
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
     return false;
   });
   
+  // Load fancybox 
   $(document).ready(function() {
     $(".fancybox").fancybox();
     return false;
   });
 
-  //////// Languages: 
+  //////////////////////////////////////////////
+  // Languages: 
   // lang object is defined in data/mylang.js
   // each string is defined as: "element id": "text string"
   function getParameterByName(name) {
@@ -443,7 +443,9 @@
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
     return false;
   });
-
+  // End Other pages
+  ///////////////////////
+  
   </script>
   <!-- ends crossreads business -->
 </body>
