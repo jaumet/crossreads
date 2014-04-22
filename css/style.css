@@ -13,17 +13,28 @@ body {
   height:100%;
   font-family: Verdana;
   color: #FFF9D2;
-  /*
-  * background-image:url(../images/Photomatons-Eugeni_Bonet_1976.jpg);
-  * background-repeat: repeat-x;
-  */
+/*
+  min-width: 1250px;
+  overflow-x: auto;
+  zoom: 0.7; 
+  -moz-transform: scale(0.7); 
+  -moz-transform-origin: 0 0;
+*/
 }
-
+/*
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+*/
+.wrapper {
+/*  display:block;
+  min-width: 1050px;
+  overflow-x: auto;
+  width:expression(document.body.clientWidth < 1050? "1050px": "auto" );
+*/
+}
 
 /*************************/
 /* table timeline */
@@ -161,7 +172,7 @@ a.list-group-item.active {
 }
 
 #myleftcolumn img   {
-    margin:20px;
+  margin:20px;
 }
 
 #myleftcolumn img {
@@ -175,16 +186,10 @@ a.list-group-item.active {
 	right: auto;
 }
 
-
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
   display:none;
   border:0px solid green;
   background-color:#2A2A2A;
-/* 
-	height: 500px;
-	border:2px solid blue;
-	overflow:auto;
-*/
 }
 
 #mybottommetadata {
@@ -200,12 +205,7 @@ a.list-group-item.active {
 #bottomleft {
   padding-right:0;
 }
-/*
-#bottomleft, #bottomright {
-  float:left;
-  width: 290px;
-}
-*/
+
 #bottomcenter {
   padding-left: 0;
   margin-right:20px;
@@ -219,7 +219,6 @@ a.list-group-item.active {
   width:220px;
   padding: 20px;
   color:#B4A6A6;
-  box-shadow: 0 0 1px #FFF9D2;
 }
 
 .mybottom {
