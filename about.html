@@ -9,6 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="images/icon.png">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jumbotron.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,6 +29,13 @@
       )
       document.querySelector('head').appendChild(msViewportStyle)
     }
+
+    <!--[if lte IE 6]>
+    <div id="warning">
+    <h4 class="red">Your Browser Is Not Supported!</h4><br />
+    <p>Please upgrade to <a href='http://getfirefox.com'>FireFox</a>, <a href='http://www.opera.com/download/'>Opera</a>, <a href='http://www.apple.com/safari/'>Safari</a> or <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 7 or 8</a>. Thank You!&nbsp;&nbsp;&nbsp;<a href="#" onClick="document.getElementById('warning').style.display = 'none';"><b>Close Window</b></a></p>
+    </div>
+    <![endif]-->
   </script>
 
   <!-- start crossreads files -->
