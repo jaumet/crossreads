@@ -1,22 +1,48 @@
 ToDo:
 
   - Check for problems on resize the window
-XXX  - Adjust the grid of the page: center arrows,...
   - BROWSER COMPATIBILITY:
-      * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
-      * Check Safari amd, specialy, Safari version on Macba's IPADs
+    * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
+    * Check Safari amd, specialy, Safari version on Macba's IPADs
 
-      * Add Keywords (from the spreadsheet) to the title-box
-      * When click in other pages, the content appears in between the timeline and the reader. Find a solution
+  [OPTIONAL?]- Add Keywords (from the spreadsheet) to the title-box
+XX  - When click in other pages, the content appears in between the timeline and the reader. Find a solution
 
-      * 0) Default oresentation on load page.
-      * 1) Show list of all texts as a item-list with title and metadata.
-      * 2) Credits
-      * 3) About the data
-      * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+  - CONTEN TS other pages
+    * 0) Default oresentation on load page.
+    * 1) Show list of all texts as a item-list with title and metadata.
+    * 2) Credits
+    * 3) About the data
+    
+    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
   
- 
+XX  - Create crossreads ICON
+  
+DONE- Adjust the grid of the page: center arrows,...  
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+DATA
+  - METADATA:
+    * [CSV to data.js]: check and extract the data from the google spreadsheet.
+
+  - TEXTS
+    * DOC to HTML: soffice OR wvWare: 
+      > Using command: soffice --headless --convert-to html finename.doc
+      It will produce filename.html
+      Create a BASH-SCRIPT
+       
+    * HTML to CleanHTML: BASH-SCRIPT.
+        
+    * SEGMENTATION: HTML to SegmentedHTML ("@@@" separator). Python script. 
+    * Text.json files: HTML to JSON (python script: "@@@" parsing to JSON)
+        > Add footnotes to each paragraph where it is call from.
+        > Keep number of footnote from the original document.
+
+	- SONIA:
+		- Metadata (gogle Spreadsheed)
+		- Texts in DOC format
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~ OPTIONAL
@@ -67,29 +93,16 @@ DONE      -> Add all the string to be translated
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Data
-  * METADATA: check and extract the data from the google s[preadsheet.
-
 	* FORMATS:
 		DONE- Define 1 text file json format
 		DONE- Define all-texts metadata format
 		- Define similarities chain json format
 
-	* Sonia:
-		- Metadata/Text (Spreadsheed)
-		- Each Text
-			> Paragraph curated separation
-
 	* Data conversion
-		- Metadata to CSV to JSON (python script). Use HTML annotation for stress and other special characters!
 DONE- DOC to TXT 
 
-DONE    -> CHECK HOT TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE DOC
-    - DOC to HTML
-      * Clean HTML
-      * HTML to JSON (python script: "@@@" parsing to JSON)
-        > Add footnotes to each paragraph where it is call from.
-        > Keep number of footnote from the original document.
-        
+DONE    -> CHECK HOW TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE DOC
+
 	* Gabriela/Jaume: 
 		> paragraph similarity:
 			* write definition
@@ -99,13 +112,11 @@ DONE    -> CHECK HOT TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE 
 
 	* WordStorm images for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Other uses found of "crossreads", "cross reads" or similiar variants:
 
 * Deusche wikipedia: http://de.wikipedia.org/wiki/Cross-Reading
-
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Materials:

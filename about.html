@@ -158,15 +158,15 @@
   <!-- bottom reader container -->
   <div id="mybottommetadata" class="container">
 
-    <div id="bottomleft" class="mybottom col-md-4">
+    <div id="bottomleft" class="mybottom col-md-3">
         <div class="arrowl"></div>
     </div>
     
-    <div id="bottomcenter" class="mybottom col-md-4">
+    <div id="bottomcenter" class="mybottom col-md-5">
         <div class="arrowb"></div>    
     </div>
     
-    <div id="bottomright" class="mybottom col-md-4">
+    <div id="bottomright" class="mybottom col-md-3">
       <div class="arrowr"></div>
     </div>
 
@@ -183,14 +183,12 @@
   <!---------------------------->
   <!-- starts core JavaScript -->
   <script src="js/jquery-1.11.0.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
   <!-- ends Bootstrap core JavaScript -->
 
   <!-- starts crossreads business -->
   <script>
-  
   function loadMetadataIn(tid, mydiv, main)  {
     var meta_title = "";
     var meta_rest = "";
@@ -202,6 +200,7 @@
         meta_title = "<h2>"+val.title+"</h2>";
         
         // Check for images attached to tid
+        console.log("tid for images: "+tid);
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
         } else {
@@ -217,13 +216,13 @@
             <h4 class="list-group-item-heading">'+meta_title+'</h4>\
             <p class="mymeta"><i>'+meta_rest+'</i></p></a>\
             </div>';
+          $("#my_youarereading").css({"display":"block"});
+          $("#myleftcolumn").html(meta_img);
+
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }
         
-        $("#my_youarereading").css({"display":"block"});
-        $("#myleftcolumn").html(meta_img);
-
         $("#myleftcolumn").promise().done(function(){
           $("a.all-text").on('click', function() {
             allText(tid, METADATA[tid-1]);
@@ -250,7 +249,7 @@
             rightIndex = sim[0];
     }
     
-    $("#bottomleft div").html('<span></span><a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a>');
+    $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a><span></span>');
     $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a><span></span>');
     
     // Right and left title boxes
@@ -265,7 +264,6 @@
 	  tid = my[0];
 	  pid = my[1];
 	  $.getJSON( "data/texts/"+tid+".json", function( data ) {
-      console.log("data/texts/+tid+.json: "+"data/texts/"+tid+".json");
 	    var items = [];
       var footnote = [];
       $.each( data, function( key, val ) {
@@ -294,7 +292,9 @@
         mytext += '<p>'+val.p+'</p>';
       });
       mytext += '</div>';
-      $("#allTextWrapper").html(mytext);
+      if ($("#allTextWrapper").html() == '' ) {
+        $("#allTextWrapper").html(mytext);
+      }
       $("#allTextWrapper").addClass("allTextWrapper");
       $("#showAllText").addClass("allTextBox");
     });
@@ -310,8 +310,8 @@
     }
   }
 
+  // MAIN function
   function myTrick(myid) {
-    console.log("myid: "+myid);
     $("#otherpages").animate({ "opacity": "0" }, 1300 );
     $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
@@ -327,6 +327,7 @@
     loadMetadataIn(tid, "#title", "main");
     putParagraphIn(tid+"_"+pid, "#text");
 
+    // Show whole-text
     $("#myleftcolumn").promise().done(function(){
       $("a.all-text").on('click', function() {
         allText(tid, METADATA[tid-1]);
@@ -334,7 +335,6 @@
       
       $("html").on('click', function(e) {
         if (e.target.id == 'close' || (e.target.id != 'showAllText' && e.target.id != '')) {
-          //alert("e.target.id>"+e.target.id+"<");
           $("#allTextWrapper").removeClass("allTextWrapper");
           $("#showAllText").removeClass("allTextBox");
           $("#allTextWrapper").html('');
@@ -364,8 +364,8 @@
         
         $("a.node, a.arrowt").on('click', function() {
           myTrick(this.id);
+          return false;
         });
-        return false;
       });
     });
       
@@ -397,18 +397,21 @@
     });
   }
 
+  // Timeline, arrow and title click capture
   $("a.node, a.arrow, c").on('click', function() {
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
     return false;
   });
   
+  // Load fancybox 
   $(document).ready(function() {
     $(".fancybox").fancybox();
     return false;
   });
 
-  //////// Languages: 
+  //////////////////////////////////////////////
+  // Languages: 
   // lang object is defined in data/mylang.js
   // each string is defined as: "element id": "text string"
   function getParameterByName(name) {
@@ -440,7 +443,9 @@
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
     return false;
   });
-
+  // End Other pages
+  ///////////////////////
+  
   </script>
   <!-- ends crossreads business -->
 </body>
