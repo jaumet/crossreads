@@ -13,19 +13,21 @@ body {
   height:100%;
   font-family: Verdana;
   color: #FFF9D2;
+/*
   min-width: 1250px;
   overflow-x: auto;
   zoom: 0.7; 
   -moz-transform: scale(0.7); 
   -moz-transform-origin: 0 0;
+*/
 }
-
+/*
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
-
+*/
 .wrapper {
 /*  display:block;
   min-width: 1050px;
