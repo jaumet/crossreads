@@ -96,6 +96,7 @@ td {
 	color:#B4A6A6;  /****/
 }
 
+#otherpages,
 .allTextBox,
 .jump,
 .myleft, 
@@ -328,6 +329,14 @@ p.mymeta {
 .legend {
   padding-left:20px;
 }
+
+
+#otherpages {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 /*********************************************/
 /*********************************************/

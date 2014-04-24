@@ -209,7 +209,6 @@
         meta_title = "<h2>"+val.title+"</h2>";
         
         // Check for images attached to tid
-        console.log("tid for images: "+tid);
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
         } else {
@@ -322,6 +321,7 @@
   // MAIN function
   function myTrick(myid) {
     $("#otherpages").animate({ "opacity": "0" }, 1300 );
+    $("#otherpages").css({"display":"none"});
     $("#otherpages").html(""); // Clean other pages
     my = (myid).split('_');
     tid = my[0];
@@ -350,7 +350,7 @@
         }
       });
       $(document).on( 'keydown', function ( e ) {
-        if ( e.keyCode === 27 ) { // ESC
+        if ( e.keyCode === 27 ) { // key ESC
           $("#allTextWrapper").removeClass("allTextWrapper");
           $("#showAllText").removeClass("allTextBox");
           $("#allTextWrapper").html('');
@@ -448,8 +448,21 @@
   // Load page-default initially:
   $("#otherpages").html(currentLang["page-default"]);  
   $("span.other").on('click', function() {
+    $("#otherpages").css({"display":"block"});
     $("#otherpages").html(currentLang["page-"+this.id]);
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
+    
+    $("#close").on('click', function() {
+      if ($("#title").html() != '') {
+        $("#otherpages").animate({ "opacity": "0" }, 1300 );
+        $("#otherpages").html('');
+        $("#otherpages").css({"display":"none"});
+      } else {
+        $("#otherpages").html(currentLang["page-default"]);
+        $("#otherpages").animate({ "opacity": "1" }, 1300 );
+      }
+    });
+
     return false;
   });
   // End Other pages

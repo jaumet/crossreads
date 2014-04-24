@@ -1,22 +1,22 @@
 ToDo:
 
-  - Check for problems on resize the window
-  - BROWSER COMPATIBILITY:
-    * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
-    * Check Safari amd, specialy, Safari version on Macba's IPADs
+DONE- Check for problems on resize the window
+    - BROWSER COMPATIBILITY:
+      * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
+      * Check Safari amd, specialy, Safari version on Macba's IPADs
 
     - [OPTIONAL?] Add Keywords (from the spreadsheet) to the title-box
-XX  - When click in other pages, the content appears in between the timeline and the reader. Find a solution
 
-  - CONTEN TS other pages
-    * 0) Default oresentation on load page.
-    * 1) Show list of all texts as a item-list with title and metadata.
-    * 2) Credits
-    * 3) About the data
-    
-XX  * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+    - CONTEN TS other pages
+      * 0) Default oresentation on load page.
+      * 1) Show list of all texts as a item-list with title and metadata.
+      * 2) Credits
+      * 3) About the data
+      
+XX    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
 
 
+DONE- When click in other pages, the content appears in between the timeline and the reader. Find a solution
 DONE- Create crossreads ICON
 DONE- Adjust the grid of the page: center arrows,...  
 

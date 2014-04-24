@@ -12,9 +12,9 @@ var lang_ca =
   "feedback":"Comenta",
   "credits":"Cr&egrave;dits",
   "page-default":"page per defecte",
-  "page-about":"page Sobre",  
-  "page-feedback":"page Comenta",
-  "page-credits":"page Cr&egrave;dits",
+  "page-about":'page Sobre aquesta web<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',  
+  "page-feedback":'page Comenta<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',
+  "page-credits":'page Cr&egrave;dits<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',
 };
 
 var lang_es = 
@@ -31,7 +31,7 @@ var lang_es =
   "feedback":"Comenta",
   "credits":"Cr&eacute;ditos",
   "page-default":"page por defecto",
-  "page-about":"page Sobre",  
-  "page-feedback":"page Comenta",
-  "page-credits":"page Cr&eacute;ditos",
+  "page-about":'page Sobre esta web<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',
+  "page-feedback":'page Comenta<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',
+  "page-credits":'page Cr&eacute;ditos<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>',
 };
