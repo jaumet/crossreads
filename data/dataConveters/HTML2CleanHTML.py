@@ -17,16 +17,25 @@ def findReplace(directory, find, replace, filePattern):
             s = re.sub(find, replace, s)
             ## not working:
             #s = cgi.escape(s)
-            s = unicode(eval(s))
-            s.encode("ascii", "xmlcharrefreplace")
+            #s = unicode(s)
+            s.decode("utf-8").encode("ascii", "xmlcharrefreplace")
             with open(filepath, "w") as f:
+                print s
                 f.write(s)
 
-for orig in replaceList:
-  print orig+" -> "+replaceList[orig]
-  findReplace(path, orig, replaceList[orig], "my.html")
+def replace(filename):
+    s = open(filename).read()
+    for a,b in replaceList.items():
+        s = re.sub(a, b, s)
+    return s.decode("utf-8").encode("ascii", "xmlcharrefreplace")
 
-print
+print replace(path+"/my.html")
+
+#for orig in replaceList:
+#  print orig+" -> "+replaceList[orig]
+#  findReplace(path, orig, replaceList[orig], "my.html")
+#
+#print
 
 
 
