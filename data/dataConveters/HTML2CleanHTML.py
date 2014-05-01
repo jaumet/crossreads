@@ -5,7 +5,7 @@ import cgi
 
 path = '/var/www/crossreads/data/dataConveters/DOCs-cp/HTMLs/test'
 
-replaceList = { '^(?:.|\n|\r)+?</head>': '', '<body.*>': '', '<\/font>' : '', '<font face\=\"Calibri\, sans-serif\"\>': '', '<p\ .*\">': '<p>', '</body>[.*|\n*]</html>': '', '<span.*>': '', '<br>': '', '</div>' : '', '<p>\n+</p>': '', '<sup>': '', '<\/sup>': '', r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2', r'(\,)\n([0-9a-zA-Z])': r'\1 \2', '\n\n': '\n', '</p>\n<p>': '</p>\n\n<p>', '<font\ .*>': '', '[\d|\.|>]</p>': '\n</p>'}
+replaceList = { r'^(?:.|\n|\r)+?</head>': '', r'<body.*>': '', '</font>' : '', r'<font face\=\"Calibri\, sans-serif\"\>': '', r'<p\ .*\">': '<p>', r'</body>[.*|\n*]</html>': '', r'<span.*>': '', '<br>': '', '</div>' : '', r'<p>\n+</p>': '', '<sup>': '', '</sup>': '', r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2', r'(\,)\n([0-9a-zA-Z])': r'\1 \2', '\n\n': '\n', '</p>\n<p>': '</p>\n\n<p>', r'<font\ .*\"\>': '', r'\.</p>': r'\n</p>'}
 
 def findReplace(directory, find, replace, filePattern):
     for path, dirs, files in os.walk(os.path.abspath(directory)):
