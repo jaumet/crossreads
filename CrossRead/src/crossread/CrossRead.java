@@ -6,11 +6,14 @@
 
 package crossread;
 
+import static crossread.CrossRead.ps;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FilenameFilter;
 import java.io.IOException;
+import java.io.PrintStream;
 import static java.lang.System.exit;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -44,6 +47,8 @@ public class CrossRead {
     public HashMap<String, JSONArray> docs = new HashMap();    
     
     public static NamedEntityAnalyser nea = null;
+    
+    public static PrintStream ps;
     
     /**
      * Set the similarity of xid
@@ -106,6 +111,41 @@ public class CrossRead {
     }
 
     
+    
+     private void printText(String id) throws Exception    
+    {
+        String paraX;
+        
+        // Parse x id (e.g. "2_3")
+        if (id == null || id.isEmpty()) { System.out.println("I cant parse instance id because it is null or empty: " + id);}               
+        String[] split = id.split("_");                
+        if (split == null )    { System.out.println("I cant parse instance id, because splitid is null: " + id); }
+        if (1 == split.length) { System.out.println("I cant parse instance id, split lenght is 1:" + id); }        
+        String docIDX = split[0];
+        String pidX = split[1];        
+        if (docIDX == null || pidX == null || docIDX.isEmpty() || pidX.isEmpty() ) {System.out.println("I cant parse instance id, docID or pid are null or empty: " + id); }
+ 
+       // Update similarity list
+       // simList.add(id);
+        
+        // Get doc x (e.g. "2")
+        JSONArray doc = utils.CollectionUtils.getEntry(docs, docIDX);        
+        Iterator paras = doc.iterator();
+        while (paras.hasNext())
+        {   
+            // Get a paragraph from x
+            JSONObject para = (JSONObject)paras.next();            
+            Long pid = (Long)para.get("pid");
+            // Check desire id, e.g. "3"
+            if (Long.toString(pid).equalsIgnoreCase(pidX))
+            {
+                // Get the paragraph (e.g. "3")
+                paraX = (String)para.get("p");
+                ps.println(paraX);
+                System.out.println(paraX);
+            }
+        }
+    }
 
     /**
      * Calculate the similarity between xid and doc collection, 
@@ -119,6 +159,19 @@ public class CrossRead {
      */
     private String getMaxSim(String paragraphX, String paraXDocID) throws Exception 
     {
+        
+        ps.print("\n");
+        ps.print(paragraphX);
+        ps.print("\n");
+        ps.print("vs.");
+        ps.print("\n");
+        
+        
+        System.out.println();
+        System.out.println(paragraphX);
+        System.out.println("vs.");
+                
+        
         // Records the similarity between x and each paragraph in the collection
         // String: id, Float: similarity score 
         HashMap<String, Float> similarities = new HashMap();
@@ -147,6 +200,7 @@ public class CrossRead {
                 if (visitedParagraphs.contains(docIDY + "_" + pidY)) { continue; }
                 
                 // Calculate similarity(X, paragraphY)
+                 
                 float sim = applySimMetric(paragraphX, paragraphY);       
                 
                 if (Float.isNaN(sim))                 {
@@ -176,6 +230,11 @@ public class CrossRead {
             // return example "2 3" (docIDX = 2 pidX = 3)
             visitedParagraphs.add(maxs.get(0));
             //System.out.println("Returning id of the most similar paragraph : " + maxs.get(0));
+            printText(maxs.get(0));
+            
+            // log
+            ps.println("Max value: " + maxs.get(0) );
+
             return maxs.get(0);
             
         } else {
@@ -229,7 +288,10 @@ public class CrossRead {
         // Remove stop words
         a = removeStopwords(a);
         b = removeStopwords(b);
-        // System.out.println(paragraphX + "vs. " + paragraphY);
+        //System.out.println(a);
+        //System.out.println("vs. ");
+        //System.out.println(b);
+               
         
         // Token Cosine Sim
         float Toksim = cosine.getSimilarity(a, b);
@@ -248,14 +310,41 @@ public class CrossRead {
         String bdates = getInstances(bNer, "DATE");
         String blocs = getInstances(bNer, "LOC");
         
-        // nan
+        float Namesim = 0;
+        float Locsim = 0;
+        float Datesim = 0;       
         
-        float Namesim = cosine.getSimilarity(apersons, bpersons);
         
-        float Datesim = cosine.getSimilarity(adates, bdates);
-     
-        float Locsim = cosine.getSimilarity(alocs, blocs);
-     
+        if (!apersons.isEmpty() & !bpersons.isEmpty() ) 
+        {
+            Namesim = cosine.getSimilarity(apersons, bpersons);
+            // Assign a score when both instances contain entities  
+            if (Namesim == 0)
+            {
+                Namesim = (float) 0.5;
+            }
+        }
+        
+        if (!apersons.isEmpty() & !bpersons.isEmpty() ) 
+        {
+            Datesim = cosine.getSimilarity(adates, bdates);
+            // Assign a score when both instances contain entities  
+            if (Datesim == 0)
+            {
+                Datesim = (float) 0.5;
+            }
+        }
+        
+        if (!apersons.isEmpty() & !bpersons.isEmpty() ) 
+        {
+            Locsim = cosine.getSimilarity(alocs, blocs);
+            // Assign a score when both instances contain entities  
+            if (Locsim == 0)
+            {
+                Locsim = (float) 0.5;
+            }
+        }
+        
         // TokenSim + NameSim + DateSim + LocationSim / 4
         Float similarityScore = (Toksim + Namesim + Datesim + Locsim)/ 4 ;
         
@@ -329,7 +418,7 @@ public class CrossRead {
             if (instance.getValue().equalsIgnoreCase(category))
             {
                 String key = instance.getKey();
-                System.out.println("key: " + key);
+    //            System.out.println("key: " + key);
                 instances = instances.concat(key + " ");
             }
         }
@@ -339,7 +428,7 @@ public class CrossRead {
     
     
     // Filter directories
-    private class Filter implements FilenameFilter
+private class Filter implements FilenameFilter
     {
         public boolean accept(File dir, String name) {
             if (!name.contains(".")) { return false;}
@@ -363,11 +452,24 @@ public class CrossRead {
         
         // Set the output path
         outpath = args[1];
-       
-         nea = new NamedEntityAnalyser();
         
-        // Require an id as input (id = docid_paragraphid) 
+        // initialize NER
+        nea = new NamedEntityAnalyser();
+        
+        File file = new File(args[2]);
+        
+        FileOutputStream fos = new FileOutputStream(file) ;
+        
+        ps = new PrintStream(fos);
+
+        // Require an id as input (id = docid_paragraphid)
         crossRead.setSim("20_1");        // v.1
+
+        // close
+        ps.close();
+        
+
+        
     }
     
 }
