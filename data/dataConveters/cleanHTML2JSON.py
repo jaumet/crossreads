@@ -12,6 +12,7 @@ for i, p in enumerate(paragraphs):
   if i==0:
     paragraphs1.append(p)
   else:
+    ### FIXME: don't append in case a paragraph is too short. It could be a section title.
     if len(paragraphs[i-1]) + len(paragraphs[i])<1100:
       paragraphs1[-1] += p
     else:
