@@ -5,8 +5,8 @@ filePattern= '*.html'
 print "INITIAL"
 
 def replace(directory, filePattern):
-  path1 = directory+'/test'
-  path2 = directory+'/texts'
+  path1 = directory+'/cleanHTML'
+  path2 = directory+'/JSON'
   for path, dirs, files in os.walk(os.path.abspath(path1)):
       for filename in fnmatch.filter(files, filePattern):
         print "#########"+filename
@@ -38,6 +38,7 @@ def replace(directory, filePattern):
         with open(path2+"/"+filename, "w+") as f:
           print ">>>>>>>> "+path2+"/"+filename
           f.write(myjson)
+
   #print "####  DEBUG  ########"
   #print "from: "+str(len(paragraphs))
   #print "to: "+str(len(paragraphs1))
