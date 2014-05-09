@@ -7,6 +7,7 @@ PROBLEMS loading new corpora text
   DONE-> PARSER: several characters removed or replaced that were prodicing json errors.
   DONE-> Error in allText title
 
+MAY BE IS OK LIKE IT IS -> Not going to the last one:  om click top arrow, when the paragraph is the first one oof a text!!!!
 
 DONE- Check for problems on resize the window
     - BROWSER COMPATIBILITY:
