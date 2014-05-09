@@ -13,7 +13,7 @@ var METADATA = [
 	{
 		'tid':2,
     "nump": 21,
-		"title": "Cine decadente un nuevo expresionismo",
+		"title": "Text number 2",
 		"year": 1975,
 		"lang": "Es",
 		"format": "Article",
@@ -24,7 +24,7 @@ var METADATA = [
 	{
 		"tid":3,
     "nump": 73,
-		"title": "Del oscilógrafo al chip prodigioso",
+		"title": "Text number 3",
 		"year": 1988,
 		"lang": "Spanish",
 		"format": "Opinion",
@@ -35,7 +35,7 @@ var METADATA = [
 	{
 		"tid":4,
     "nump": 70,
-		"title": "El cine de Werner Nekes",
+		"title": "Text number 4",
 		"year": 1988,
 		"lang": "L",
 		"format": "F",
@@ -46,7 +46,7 @@ var METADATA = [
 	{
 		"tid":5,
     "nump": 28,
-		"title": "Marguerite Duras: el texto en la imagen",
+		"title": "Text number 5",
 		"year": 1989,
 		"lang": "L",
 		"format": "F",
@@ -177,7 +177,7 @@ var METADATA = [
 	},
 	{
 		"tid":17,
-    "nump":77,
+    "nump":59,
 		"title": "Text number 17",
 		"year": 2012,
 		"lang": "L",
@@ -232,7 +232,7 @@ var METADATA = [
 	},
 	{
 		"tid":22,
-    "nump": 128,
+    "nump": 93,
 		"title": "Text number 22",
 		"year": 2013,
 		"lang": "L",

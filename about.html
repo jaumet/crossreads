@@ -66,29 +66,29 @@
       <table class="mytimeline">
       <tr>
         <td>
-          <c id="2_2" class="t2">.</c>
-          <c id="2_2" class="t2">.</c>
-          <c id="2_2" class="t3">.</c>
-          <c id="2_2" class="t4">.</c>
-          <c id="2_2" class="t4">.</c>
+          <c id="9_2" class="t2">.</c>
+          <c id="9_2" class="t2">.</c>
+          <c id="9_2" class="t3">.</c>
+          <c id="9_2" class="t4">.</c>
+          <c id="9_2" class="t4">.</c>
         </td>
         <td>
-          <c id="18_37" class="t3">.</c>
+          <c id="6_6" class="t3">.</c>
         </td>
         <td>
-          <c id="13_75" class="t1">.</c>
-          <c id="13_75" class="t2">.</c>
-          <c id="13_75" class="t2">.</c>
-          <c id="13_75" class="t3">.</c>
+          <c id="17_32" class="t1">.</c>
+          <c id="17_32" class="t2">.</c>
+          <c id="17_32" class="t2">.</c>
+          <c id="17_32" class="t3">.</c>
         </td>
         <td>
-          <c id="11_58" class="t1">.</c>
-          <c id="11_58" class="t4">.</c>
-          <c id="11_58" class="t4">.</c>
+          <c id="1_6" class="t1">.</c>
+          <c id="1_6" class="t4">.</c>
+          <c id="1_6" class="t4">.</c>
         </td>
         <td>
-          <c id="18_14" class="t3">.</c>
-          <c id="18_14" class="t4">.</c>
+          <c id="1_1" class="t3">.</c>
+          <c id="1_1" class="t4">.</c>
         </td>
         <td>
           <c id="17_66" class="t1">.</c>
@@ -230,12 +230,6 @@
         } else {
           meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
         }
-        
-        $("#myleftcolumn").promise().done(function(){
-          $("a.all-text").on('click', function() {
-            allText(tid, METADATA[tid-1]);
-          });
-        });
       }
     });
     
@@ -243,6 +237,14 @@
     // Preparing smooth animate() for #text and #title
     $("#title h2").css({ "opacity": "0" });
     $("#text p").css({ "opacity": "0" });
+
+    $("#myleftcolumn").promise().done(function(){
+      $("a.all-text").on('click', function() {
+        //if () {
+          allText(tid, METADATA);
+        //}
+      });
+    });
   }
 
   function loadLeftAndRightLinks(myIndex, sim) {
@@ -257,9 +259,9 @@
             rightIndex = sim[0];
     }
     
-    $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a><span></span>');
     $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /></a><span></span>');
-    
+    $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><img src="images/w_left_arrow.png" /></a><span></span>');
+
     // Right and left title boxes
     myl = leftIndex.split('_');
     loadMetadataIn(myl[0], "#bottomleft div span", "left");
@@ -294,8 +296,10 @@
   }
 
   function allText(tid, meta)  {
-    mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+meta["title"]+'</h1>';
+    //mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+(tid)+' | '+meta[tid]['title']+'</h1>';
+    mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+$("#title h2").html()+'</h1>';
     $.getJSON( "data/texts/"+tid+".json", function( data ) {
+      //alert ('tid= '+tid);
       $.each( data, function( key, val ) {
         mytext += '<p>'+val.p+'</p>';
       });
@@ -338,9 +342,6 @@
 
     // Show whole-text
     $("#myleftcolumn").promise().done(function(){
-      $("a.all-text").on('click', function() {
-        allText(tid, METADATA[tid-1]);
-      });
       
       $("html").on('click', function(e) {
         if (e.target.id == 'close' || (e.target.id != 'showAllText' && e.target.id != '')) {
@@ -356,6 +357,7 @@
           $("#allTextWrapper").html('');
         }
       });
+      
     });
 
     // top arrow checking
@@ -406,6 +408,10 @@
     });
   }
 
+  $("a.all-text").on('click', function() {
+    allText(tid, METADATA);
+  });
+      
   // Timeline, arrow and title click capture
   $("a.node, a.arrow, c").on('click', function() {
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});

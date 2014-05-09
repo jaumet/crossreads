@@ -1,5 +1,13 @@
 ToDo:
 
+PROBLEMS loading new corpora text
+  DONE-> There is a json syntax error in 1_66 (last one). FIND WTF
+  DONE-> PARSER: text.json files ->remove the lat "," after the last "}"
+  DONE-> PARSER: tabs produce json syntax errors. -> Remove tabs or replace  with "\t" 
+  DONE-> PARSER: several characters removed or replaced that were prodicing json errors.
+  DONE-> Error in allText title
+
+
 DONE- Check for problems on resize the window
     - BROWSER COMPATIBILITY:
       * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
