@@ -1,7 +1,6 @@
 var METADATA = [
 	{
 		"tid":1,
-    "nump": 15,
 		"title": "Text number 1",
 		"year": 1970,
 		"lang": "L",
@@ -12,7 +11,6 @@ var METADATA = [
 	},
 	{
 		'tid':2,
-    "nump": 21,
 		"title": "Text number 2",
 		"year": 1975,
 		"lang": "Es",
@@ -23,7 +21,6 @@ var METADATA = [
 	},
 	{
 		"tid":3,
-    "nump": 73,
 		"title": "Text number 3",
 		"year": 1988,
 		"lang": "Spanish",
@@ -34,7 +31,6 @@ var METADATA = [
 	},
 	{
 		"tid":4,
-    "nump": 70,
 		"title": "Text number 4",
 		"year": 1988,
 		"lang": "L",
@@ -45,7 +41,6 @@ var METADATA = [
 	},
 	{
 		"tid":5,
-    "nump": 28,
 		"title": "Text number 5",
 		"year": 1989,
 		"lang": "L",
@@ -56,7 +51,6 @@ var METADATA = [
 	},
 	{
 		"tid":6,
-    "nump": 27,
 		"title": "Text number 6",
 		"year": 1990,
 		"lang": "L",
@@ -67,7 +61,6 @@ var METADATA = [
 	},
 	{
 		"tid":7,
-    "nump": 7,
 		"title": "Text number 7",
 		"year": 1990,
 		"lang": "L",
@@ -78,7 +71,6 @@ var METADATA = [
 	},
 	{
 		"tid":8,
-    "nump": 9,
 		"title": "Text number 8",
 		"year": 1990,
 		"lang": "L",
@@ -89,7 +81,6 @@ var METADATA = [
 	},
 	{
 		"tid":9,
-    "nump": 7,
 		"title": "Text number 9",
 		"year": 1990,
 		"lang": "L",
@@ -100,7 +91,6 @@ var METADATA = [
 	},
 	{
 		"tid":10,
-    "nump": 76,
 		"title": "Text number 10",
 		"year": 1991,
 		"lang": "L",
@@ -111,7 +101,6 @@ var METADATA = [
 	},
 	{
 		"tid":11,
-    "nump": 90,
 		"title": "Text number 11",
 		"year": 1994,
 		"lang": "L",
@@ -122,7 +111,6 @@ var METADATA = [
 	},
 	{
 		"tid":12,
-    "nump": 46,
 		"title": "Text number 12",
 		"year": 1994,
 		"lang": "L",
@@ -133,7 +121,6 @@ var METADATA = [
 	},
 	{
 		"tid":13,
-    "nump": 161,
 		"title": "Text number 13",
 		"year": 1998,
 		"lang": "L",
@@ -144,7 +131,6 @@ var METADATA = [
 	},
 	{
 		"tid":14,
-    "nump": 25,
 		"title": "Text number 14",
 		"year": 1999,
 		"lang": "L",
@@ -155,7 +141,6 @@ var METADATA = [
 	},
 	{
 		"tid":15,
-    "nump": 34,
 		"title": "Text number 15",
 		"year": 1999,
 		"lang": "L",
@@ -166,7 +151,6 @@ var METADATA = [
 	},
 	{
 		"tid":16,
-    "nump":61,
 		"title": "Text number 16",
 		"year": 1999,
 		"lang": "L",
@@ -177,7 +161,6 @@ var METADATA = [
 	},
 	{
 		"tid":17,
-    "nump":59,
 		"title": "Text number 17",
 		"year": 2012,
 		"lang": "L",
@@ -188,7 +171,6 @@ var METADATA = [
 	},
 	{
 		"tid":18,
-    "nump":64,
 		"title": "Text number 18",
 		"year":2013,
 		"lang": "L",
@@ -199,7 +181,6 @@ var METADATA = [
 	},
 	{
 		"tid":19,
-    "nump":16,
 		"title": "Text number 19",
 		"year": 2013,
 		"lang": "L",
@@ -210,7 +191,6 @@ var METADATA = [
 	},
 	{
 		"tid":20,
-    "nump":41,
 		"title": "Text number 20",
 		"year": 2013,
 		"lang": "L",
@@ -221,7 +201,6 @@ var METADATA = [
 	},
 	{
 		"tid":21,
-    "nump": 58,
 		"title": "Text number 21",
 		"year": 2013,
 		"lang": "L",
@@ -232,7 +211,6 @@ var METADATA = [
 	},
 	{
 		"tid":22,
-    "nump": 93,
 		"title": "Text number 22",
 		"year": 2013,
 		"lang": "L",
@@ -243,7 +221,6 @@ var METADATA = [
 	},
 	{
 		"tid":23,
-    "nump": 99,
 		"title": "Text number 23",
 		"year": 2013,
 		"lang": "L",

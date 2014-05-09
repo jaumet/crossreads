@@ -364,7 +364,16 @@
     $("#mystore").promise().done(function(){
       $("#toparrow").html('').promise().done(function(){
         if (parseInt(pid) == 0)  {
-          mypidTop = METADATA[tid-1]["nump"]-1;
+          //mypidTop = METADATA[tid-1]["nump"]-1;
+          // Get array length of "texts/"+tid+".json"
+          c = 0;
+          $.getJSON( "data/texts/"+tid+".json", function( data ) {
+            //alert ('tid= '+tid);
+            $.each( data, function( key, val ) {
+              c = c + 1;
+            });
+          });
+          mypidTop = c;
         } else {
           mypidTop = parseInt(pid)-1;
         }
