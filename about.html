@@ -158,11 +158,11 @@
     <div id="bottomleft" class="mybottom col-md-5">
         <div class="arrowl"></div>
     </div>
-    
+<!--    
     <div id="bottomcenter" class="mybottom col-md-1">
         <div class="arrowb"></div>    
     </div>
-    
+-->    
     <div id="bottomright" class="mybottom col-md-5">
       <div class="arrowr"></div>
     </div>
@@ -403,7 +403,7 @@
         $("c").css({"border":"0 solid yellow"});
         myid = this.id;
         myid = myid.split('_');
-        $("#"+myid[0]+"_0").css({"border":"2px solid yellow"});
+        $("#"+myid[0]+"_0").css({"border":"3px solid yellow"});
         myTrick(this.id);
         return false;
       });
@@ -417,7 +417,7 @@
   // Timeline, arrow and title click capture
   $("a.node, a.arrow").on('click', function() {
     $("c").css({"border":"0 solid yellow"});
-    $("#"+this.id).css({"border":"2px solid yellow"});
+    $("#"+this.id).css({"border":"3px solid yellow"});
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
     return false;
@@ -426,7 +426,7 @@
     $("c").on('click', function() {
     $("html, body").animate({ scrollTop: 165 }, "slow");
     $("c").css({"border":"0 solid yellow"});
-    $("#"+this.id).css({"border":"2px solid yellow"});
+    $("#"+this.id).css({"border":"3px solid yellow"});
     $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
     myTrick(this.id);
     return false;

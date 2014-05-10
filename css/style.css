@@ -32,6 +32,10 @@ body {
   width:expression(document.body.clientWidth < 1050? "1050px": "auto" );
 }
 
+footer {
+  display:none;
+}
+
 #warning {
   display:block;
   position:absolute;
@@ -140,6 +144,7 @@ a.list-group-item.active {
 
 #mybottommetadata {
   margin-top:20px;
+  min-height:260px;
 }
 
 #bottomleft div a, #bottomleft div span {
@@ -373,7 +378,9 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   background-color:#2a2a2a;
 }
 
-
+c {
+  border: 0 solid red;
+}
 
 /*********************************************/
 /*********************************************/
