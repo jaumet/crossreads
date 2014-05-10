@@ -1,12 +1,8 @@
 ToDo:
+  
 
-PROBLEMS loading new corpora text
-  DONE-> There is a json syntax error in 1_66 (last one). FIND WTF
-  DONE-> PARSER: text.json files ->remove the lat "," after the last "}"
-  DONE-> PARSER: tabs produce json syntax errors. -> Remove tabs or replace  with "\t" 
-  DONE-> PARSER: several characters removed or replaced that were prodicing json errors.
-  DONE-> Error in allText title
-
+  - Write footer
+  
 MAY BE IS OK LIKE IT IS -> Not going to the last one:  om click top arrow, when the paragraph is the first one oof a text!!!!
 
 DONE- Check for problems on resize the window
@@ -24,10 +20,22 @@ DONE- Check for problems on resize the window
       
 XX    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
 
+DONE  - Add a border to the ball of the active document
+DONE  - CHANGE left&right icons. Ppl hardly understand the triangles AND they are too much down. ppl cannot see then unless 
+        they scroll down -> A solution is anchor to the title box when clicking a ball
+DONE  - Reubicatiopn of arrows + rewritten myrightcolumn 
 
+PROBLEMS loading new corpora text
+  DONE-> There is a json syntax error in 1_66 (last one). FIND WTF
+  DONE-> PARSER: text.json files ->remove the lat "," after the last "}"
+  DONE-> PARSER: tabs produce json syntax errors. -> Remove tabs or replace  with "\t" 
+  DONE-> PARSER: several characters removed or replaced that were prodicing json errors.
+  DONE-> Error in allText title
+  
 DONE- When click in other pages, the content appears in between the timeline and the reader. Find a solution
 DONE- Create crossreads ICON
 DONE- Adjust the grid of the page: center arrows,...  
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 DATA

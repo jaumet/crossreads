@@ -121,14 +121,17 @@ a.list-group-item.active {
   margin:20px;
 }
 
-#myleftcolumn img   {
-  margin:20px;
+#myrightcolumn img   {
+  margin:5px;
+	width: 50px;
 }
-
-#myleftcolumn img {
-	width: 200px;
+#myrightcolumn p  {
+  float:left;
+  margin-right:20px;
 }
-
+#myrightcolumn a {
+  float:right;
+}
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
   display:none;
   border:0px solid green;
@@ -195,22 +198,11 @@ a.list-group-item.active {
   margin: 5px auto;
 }
 
-.arrowt img {
-  float:left;
-  margin:10px 50%;
-  width:60px;
-}
-
-.arrowb img {
-  display: block;
-  margin:0 50%;
-  width:60px;
-}
 
 .arrowl img, .arrowr img {
-  float:left;
+  display:block;
+  float:right;
   margin:0;
-  margin-bottom:10px;
   width:60px;
 }
 
@@ -233,6 +225,9 @@ p.mymeta {
   color:#B4A6A6; /****/
   float:left;
   font-style:italic;
+}
+.grey, #myarrows {
+  color:#B4A6A6;
 }
 
 .navbar-inverse .navbar-brand {
@@ -377,6 +372,7 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   color:#B4A6A6;
   background-color:#2a2a2a;
 }
+
 
 
 /*********************************************/
