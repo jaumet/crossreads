@@ -21,6 +21,12 @@ def replace(directory, filePattern):
         paragraphs1 = []
         for i, p in enumerate(paragraphs):
           p = re.sub("\n", "", p)
+          p = re.sub('\"', '\\\"', p)
+          p = re.sub('\t', ' ', p)
+          p = re.sub('', ' ', p)
+          p = re.sub('', ' ', p)
+          p = re.sub('', ' ', p)          
+          
           if i==0:
             paragraphs1.append(p)
           else:
@@ -32,12 +38,16 @@ def replace(directory, filePattern):
         '''JSON output'''    
         myjson = "[\n"
         for i, p1 in enumerate(paragraphs1):
-          myjson +=  "\t{\n\t\t\"pid\" : "+str(i)+",\n\t\t\"p\" : \""+p1+"\"\n\t},\n"
+          myjson +=  "\n\t{\n\t\t\"pid\" : "+str(i)+",\n\t\t\"p\" : \""+p1+"\"\n\t},"
+        ## FIXME remove last ","
+        myjson = myjson[:-1]
         myjson += "\n]"
-
-        with open(path2+"/"+filename, "w+") as f:
-          print ">>>>>>>> "+path2+"/"+filename
+        ## CUSTOMIZE split AS THE NAMES OF THE FILES REQUIRE
+        filename = filename.split(" ")[0]
+        with open(path2+"/"+filename+".json", "w+") as f:
+          print ">>>>>>>> "+path2+"/"+filename+".json"
           f.write(myjson)
+
 
   #print "####  DEBUG  ########"
   #print "from: "+str(len(paragraphs))

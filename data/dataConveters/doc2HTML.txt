@@ -1,0 +1,8 @@
+
+
+Command-line conversion DOC to HTML using libreoffice
+$: libreoffice --headless --convert-to html --outdir HTMLs *.doc
+
+NOTE: seems like this is only workng when no opther graphic instances of libreoffice are working. 
+Closing all libreoffice documents before conversion, it works.
+(btm, no further info about this issue)
