@@ -157,6 +157,7 @@ a.list-group-item.active {
 
 #bottomleft {
   padding-right:0;
+  margin-left: 10px;
 }
 
 #bottomcenter {
@@ -173,9 +174,10 @@ a.list-group-item.active {
   float:left;
   width:220px;
   padding: 20px;
-  color:#B4A6A6;  /****/
+  color:#B4A6A6;
+  font-size:13px;
+  font-weight:bold;
 }
-
 .mybottom {
   float:left;
 	height: 120px;
@@ -201,6 +203,7 @@ a.list-group-item.active {
 
 #title h2{
   margin: 5px auto;
+  font-size:22px;
 }
 
 
@@ -302,7 +305,6 @@ p.mymeta {
 
 .allTextBox  {
   display: block;
-  opacity: 0.3;
   opacity: 1; 
   overflow: auto; 
   height: auto;
@@ -364,9 +366,13 @@ a.list-group-item.active:focus,
 a.list-group-item.active:hover, a.list-group-item.active:focus {
   border-color:#FFF9D2;
 }
-.xofy, .all-text {
+.all-text {
   color:#2a2a2a;
   background-color:#B4A6A6;
+}
+.xofy  {
+  color:#B4A6A6;
+  background-color:#2a2a2a;
 }
 
 .all-text:hover,

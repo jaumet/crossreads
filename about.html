@@ -167,10 +167,11 @@
       <div class="arrowr"></div>
     </div>
   </div>  
+  
+  <div id="allTextWrapper" style="display:block"></div>
 
   <!-- footer -->
   <footer>
-    <div id="allTextWrapper" style="display:block"></div>
     <div id="mystore"></div>
     <div id="wname"></div>
     <!--
@@ -242,9 +243,7 @@
     $("#text p").css({ "opacity": "0" });
     $("#myleftcolumn").promise().done(function(){
       $("a.all-text").on('click', function() {
-        //if () {
           allText(tid, METADATA);
-        //}
       });
     });
   }
@@ -279,7 +278,7 @@
 	    var items = [];
       var footnote = [];
       $.each( data, function( key, val ) {
-        items.push("<div class='xofy'>"+ (parseInt(val.pid)+1) +"/"+data.length+"</div><p id='p_" + val.pid + "' class='paragraph'>" + val.p + "</p>");
+        items.push('<div class="xofy">'+ (parseInt(val.pid)+1) +' <span id="xofy">de</span> '+data.length+'</div><p id="p_' + val.pid + '" class="paragraph">' + val.p + '</p>');
         // Check for footnotes
         if (!(_.isUndefined(val.fn))) {
           footnote.push(val.fn);
