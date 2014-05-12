@@ -1,46 +1,30 @@
 # -*- coding: utf-8 -*-    
 import os, fnmatch
 import re
-import cgi
 
-path = '/var/www/crossreads/data/dataConveters/DOCs-cp/HTMLs/test'
+########################
+## Usage:
+## initialy do: cd path
 
+path = '/var/www/crossreads/data/dataConveters/DOCs-cp/HTMLs'
+filePattern= '*.html'
 replaceList = { r'^(?:.|\n|\r)+?</head>': '', r'<body.*>': '', '</font>' : '', r'<font face\=\"Calibri\, sans-serif\"\>': '', r'<p\ .*\">': '<p>', r'</body>[.*|\n*]</html>': '', r'<span.*>': '', '<br>': '', '</div>' : '', r'<p>\n+</p>': '', '<sup>': '', '</sup>': '', r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2', r'(\,)\n([0-9a-zA-Z])': r'\1 \2', '\n\n': '\n', '</p>\n<p>': '</p>\n\n<p>', r'<font\ .*\"\>': '', r'\.</p>': r'\n</p>'}
 
-def findReplace(directory, find, replace, filePattern):
-    for path, dirs, files in os.walk(os.path.abspath(directory)):
-        for filename in fnmatch.filter(files, filePattern):
-            filepath = os.path.join(path, filename)
-            with open(filepath) as f:
-                s = f.read()
-                print "-----------> "+filepath
-            s = re.sub(find, replace, s)
-            ## not working:
-            #s = cgi.escape(s)
-            #s = unicode(s)
-            s.decode("utf-8").encode("ascii", "xmlcharrefreplace")
-            with open(filepath, "w") as f:
-                print s
-                f.write(s)
-
-def replace(filename):
-    s = open(filename).read()
-    for a,b in replaceList.items():
+def replace(directory, filePattern):
+  for path, dirs, files in os.walk(os.path.abspath(directory)):
+    for filename in fnmatch.filter(files, filePattern):
+      filepath = os.path.join(path, filename)
+      print "--> "+filepath
+      s = open(filepath).read()
+      for a,b in replaceList.items():
         s = re.sub(a, b, s)
-    return s.decode("utf-8").encode("ascii", "xmlcharrefreplace")
+      s = s.decode("utf-8").encode("ascii", "xmlcharrefreplace")
+      lastpath = path+"/cleanHTML/"+filename
+      print "*** "+lastpath
+      with open(lastpath, "w+") as f:
+        f.write(s)
 
-print replace(path+"/my.html")
-
-#for orig in replaceList:
-#  print orig+" -> "+replaceList[orig]
-#  findReplace(path, orig, replaceList[orig], "my.html")
-#
-#print
-
-
-
-
-
+print replace(path, filePattern)
 
 ####################################################
 # 

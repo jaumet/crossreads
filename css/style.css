@@ -32,6 +32,10 @@ body {
   width:expression(document.body.clientWidth < 1050? "1050px": "auto" );
 }
 
+footer {
+  display:none;
+}
+
 #warning {
   display:block;
   position:absolute;
@@ -121,14 +125,17 @@ a.list-group-item.active {
   margin:20px;
 }
 
-#myleftcolumn img   {
-  margin:20px;
+#myrightcolumn img   {
+  margin:5px;
+	width: 50px;
 }
-
-#myleftcolumn img {
-	width: 200px;
+#myrightcolumn p  {
+  float:left;
+  margin-right:20px;
 }
-
+#myrightcolumn a {
+  float:right;
+}
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
   display:none;
   border:0px solid green;
@@ -137,6 +144,7 @@ a.list-group-item.active {
 
 #mybottommetadata {
   margin-top:20px;
+  min-height:260px;
 }
 
 #bottomleft div a, #bottomleft div span {
@@ -149,6 +157,7 @@ a.list-group-item.active {
 
 #bottomleft {
   padding-right:0;
+  margin-left: 10px;
 }
 
 #bottomcenter {
@@ -165,9 +174,10 @@ a.list-group-item.active {
   float:left;
   width:220px;
   padding: 20px;
-  color:#B4A6A6;  /****/
+  color:#B4A6A6;
+  font-size:13px;
+  font-weight:bold;
 }
-
 .mybottom {
   float:left;
 	height: 120px;
@@ -193,24 +203,14 @@ a.list-group-item.active {
 
 #title h2{
   margin: 5px auto;
+  font-size:22px;
 }
 
-.arrowt img {
-  float:left;
-  margin:10px 50%;
-  width:60px;
-}
-
-.arrowb img {
-  display: block;
-  margin:0 50%;
-  width:60px;
-}
 
 .arrowl img, .arrowr img {
-  float:left;
+  display:block;
+  float:right;
   margin:0;
-  margin-bottom:10px;
   width:60px;
 }
 
@@ -233,6 +233,9 @@ p.mymeta {
   color:#B4A6A6; /****/
   float:left;
   font-style:italic;
+}
+.grey, #myarrows {
+  color:#B4A6A6;
 }
 
 .navbar-inverse .navbar-brand {
@@ -302,7 +305,6 @@ p.mymeta {
 
 .allTextBox  {
   display: block;
-  opacity: 0.3;
   opacity: 1; 
   overflow: auto; 
   height: auto;
@@ -364,9 +366,13 @@ a.list-group-item.active:focus,
 a.list-group-item.active:hover, a.list-group-item.active:focus {
   border-color:#FFF9D2;
 }
-.xofy, .all-text {
+.all-text {
   color:#2a2a2a;
   background-color:#B4A6A6;
+}
+.xofy  {
+  color:#B4A6A6;
+  background-color:#2a2a2a;
 }
 
 .all-text:hover,
@@ -378,6 +384,9 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   background-color:#2a2a2a;
 }
 
+c {
+  border: 0 solid red;
+}
 
 /*********************************************/
 /*********************************************/
