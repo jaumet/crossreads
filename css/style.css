@@ -7,8 +7,8 @@ body {
   padding-bottom: 40px;
   padding-left:20px;
   height:100%;
-  font-family: Verdana;
-  color: #FFF9D2;  /****/
+  color: #FFF9D2;
+  font-family: 'Vollkorn', serif, Verdana;
 /*
   min-width: 1050px;
   overflow-x: auto;

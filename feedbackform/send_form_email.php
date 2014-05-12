@@ -21,7 +21,7 @@ if(isset($_POST['email'])) {
 	echo "Vegeu a sota aquests errors<br />";
 	echo " ----</p>";
 
-	echo "<p>Espa&ndash;<br />";	
+	echo "<p>Espa&ntilde;ol<br />";	
 	echo "Lo sentimos, pero ha habido algun error al enviar el formulario.<br />";
 	echo "Veanse abajo estos errores<br />";
 	echo "----</p>";	

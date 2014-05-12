@@ -40,6 +40,7 @@
     <![endif]-->
 
   <!-- start crossreads files -->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet">
   <script type='text/javascript' src='data/mylang.js'></script>
   <script type="text/javascript" src="data/data.js"></script>
@@ -56,7 +57,7 @@
         <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
         <a class="navbar-brand" href="#" onClick="window.open('feedbackform/form.php','feedbackform','width=600,height=500,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes')"><span id="feedback" class="othercomment">Comenta</span></a>
         <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
-        <a class="navbar-brand lang" href="?l=ca">Catal&agrave;</a><a class="navbar-brand lang" href="?l=es">Espa&ndash;ol</a>
+        <a class="navbar-brand lang" href="?l=ca">Catal&agrave;</a><a class="navbar-brand lang" href="?l=es">Espa&ntilde;ol</a>
       </div>
     </div>
   </div>
@@ -386,7 +387,7 @@
       }
       var myidBottom = tid+"_"+mypidBottom;
       var myArrowsHelp = eval('lang_'+LANGUAGE);
-      $("#myrightcolumn p").first().html('<span id="myarrows">'+myArrowsHelp["myarrows"]+'</span></p><p><a href="#" id="'+myidTop+'" class="arrowt"><img src="images/top_arrow.png" /></a><a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/bottom_arrow.png" /></a>');
+      $("#myrightcolumn p").first().html('<span id="myarrows">'+myArrowsHelp["myarrows"]+'</span></p><p><a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.svg" /></a><a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.svg" /></a>');
       $("a.node, a.arrowt, a.arrowb").on('click', function() {
         myTrick(this.id);
         return false;

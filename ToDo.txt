@@ -1,8 +1,5 @@
 ToDo:
-  
 
-  - Write footer
-  
 MAY BE IS OK LIKE IT IS -> Not going to the last one:  om click top arrow, when the paragraph is the first one oof a text!!!!
 
 DONE- Check for problems on resize the window
@@ -12,13 +9,13 @@ DONE- Check for problems on resize the window
 
     - [OPTIONAL?] Add Keywords (from the spreadsheet) to the title-box
 
-    - CONTEN TS other pages
+    - CONTENT other pages
       * 0) Default oresentation on load page.
       * 1) Show list of all texts as a item-list with title and metadata.
       * 2) Credits
       * 3) About the data
       
-XX    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+DONE    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
 
 DONE  - Add a border to the ball of the active document
 DONE  - CHANGE left&right icons. Ppl hardly understand the triangles AND they are too much down. ppl cannot see then unless 
@@ -35,6 +32,9 @@ PROBLEMS loading new corpora text
 DONE- When click in other pages, the content appears in between the timeline and the reader. Find a solution
 DONE- Create crossreads ICON
 DONE- Adjust the grid of the page: center arrows,...  
+
+DONE- Added svg arrows instead of png ones
+DONE- added google open font
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
