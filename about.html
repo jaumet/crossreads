@@ -40,7 +40,7 @@
     <![endif]-->
 
   <!-- start crossreads files -->
-  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet">
   <script type='text/javascript' src='data/mylang.js'></script>
   <script type="text/javascript" src="data/data.js"></script>
@@ -135,11 +135,15 @@
   <div id="reader" class="container">
     <div class="row">
 
-      <div id="myleftcolumn" class="col-md-2">
+      <div id="myleftcolumn" class="col-md-3">
         <p></p>
+        <div id="bottomleft" class="mybottom">
+          <span id="myarrows_lr"><i>Salta a un altre text</i></span>
+          <div class="arrowl"></div>
+        </div>
       </div>
 
-      <div id="mycentercolumn" class="col-md-6">
+      <div id="mycentercolumn" class="col-md-5">
         <!--<div style="clear:both;"></div>-->
         <div id="text"></div>
       </div>
@@ -148,26 +152,25 @@
         <p><span id="myarrows" class="grey"></span></p>
         <p></p>
         <p id="myfootnotes"></p>
+        <div id="bottomright" class="mybottom">
+          <span id="myarrows_lr"><i>Salta a un altre text</i></span>
+          <div class="arrowr"></div>
+        </div>
       </div>
-
+      
     </div>
   </div>
 
   <!-- bottom reader container -->
   <div id="mybottommetadata" class="container">
 
-    <div id="bottomleft" class="mybottom col-md-5">
-        <div class="arrowl"></div>
-    </div>
+    
 <!--    
     <div id="bottomcenter" class="mybottom col-md-1">
         <div class="arrowb"></div>    
     </div>
 -->    
-    <div id="bottomright" class="mybottom col-md-5">
-      <div class="arrowr"></div>
-    </div>
-  </div>  
+     
   
   <div id="allTextWrapper" style="display:block"></div>
 
@@ -222,7 +225,8 @@
         } else {
           meta_img = alltext;
         }
-        meta_rest = '['+val.year+'] '+val.topic+' ('+val.format+')';
+        meta_rest = '['+val.year+'] '+val.topic+' '+val.format;
+        meta_year = '['+val.year+'] ';
         // Check if this is the main title-box
         if (main == "main")  {
           meta_html = '<div class="list-group">\
@@ -231,9 +235,9 @@
             <p class="mymeta"><i>'+meta_rest+'</i></p></a>\
             </div>';
           $("#x").css({"display":"block"});
-          $("#myleftcolumn").html(meta_img);
+          $("#myleftcolumn p").html(meta_img);
         } else {
-          meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_rest+'</span></div>';
+          meta_html = '<div class="jump"><b>'+val.title+'</b><br /><span>'+meta_year+'</span></div>';
         }
       }
     });

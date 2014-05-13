@@ -8,7 +8,7 @@ body {
   padding-left:20px;
   height:100%;
   color: #FFF9D2;
-  font-family: 'Vollkorn', serif, Verdana;
+  font-family: 'Oldenburg', cursive, serif, Verdana;
 /*
   min-width: 1050px;
   overflow-x: auto;
@@ -100,19 +100,29 @@ td {
 	color:#B4A6A6;  /****/
 }
 
+a.fancybox img {
+  width:120px;
+  float:right;
+  }
+
+a.fancybox img,
 #otherpages,
 .allTextBox,
-.jump,
 .myleft, 
 .myright, 
 #mycentercolumn, 
 a.list-group-item.active:hover, 
 a.list-group-item.active:focus, 
-a.list-group-item.active,
-#myleftcolumn img {
+a.list-group-item.active {
   border-radius: 15px;
   box-shadow: 0 0 8px #FFF9D2;  /****/
   overflow:auto;
+}
+
+.jump{}
+
+#arrowr a, #arrowl a {
+  padding-bottom:20px;
 }
 
 a.list-group-item.active {
@@ -125,7 +135,7 @@ a.list-group-item.active {
   margin:20px;
 }
 
-#myrightcolumn img   {
+#myrightcolumn img {
   margin:5px;
 	width: 50px;
 }
@@ -179,8 +189,15 @@ a.list-group-item.active {
   font-weight:bold;
 }
 .mybottom {
-  float:left;
-	height: 120px;
+  /*float:left;*/
+	top:200px;
+  min-height: 200px;
+  position:absolute;
+  bottom:0px;
+}
+#myleftcolumn, #myrightcolumn {
+  position:relative;
+  height: 400px;
 }
 
 .jumbotron {
@@ -211,7 +228,7 @@ a.list-group-item.active {
   display:block;
   float:right;
   margin:0;
-  width:60px;
+  width:50px;
 }
 
 .arrow img:hover, .arrowt img:hover, .arrowb img:hover{
@@ -234,8 +251,16 @@ p.mymeta {
   float:left;
   font-style:italic;
 }
-.grey, #myarrows {
+.grey, #myarrows, #myarrows_lr {
   color:#B4A6A6;
+  font-weight:normal;
+}
+div#bottomleft.mybottom span#myarrows_lr,
+.arrowl {
+  float:right;
+}
+#myarrows, .myarrows_lr {
+  font-size:11px;
 }
 
 .navbar-inverse .navbar-brand {
