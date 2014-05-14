@@ -1,6 +1,10 @@
 ToDo:
 
-MAY BE IS OK LIKE IT IS -> Not going to the last one:  om click top arrow, when the paragraph is the first one oof a text!!!!
+-> Metadata for title box from data.js
+-> Remove numbers in data.js titles
+
+
+MAY BE IS OK LIKE IT IS -> Not going to the last one:  on click top arrow, when the paragraph is the first one of a text!!!!
 
 DONE- Check for problems on resize the window
     - BROWSER COMPATIBILITY:

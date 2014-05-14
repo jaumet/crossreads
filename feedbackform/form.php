@@ -4,10 +4,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Eugeni Bonet - crossreads :: feedback form</title>
   <meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
   <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <h2>Eugeni Bonet :: L'Ull escolta [MACBA, 2014]</h2>
+<p>[Cat] Pots deixar-nos el teu comentari sobre el projecte o adre&ccedil;ar-nos consultes amb aquest formulari. 
+<br />[Cas] Puedes dejar tu comentario sobre el proyecto o enviarnos consultas rellenando este formulario.</p>
 <form name="contactform" method="post" action="send_form_email.php">
 <table width="450px">
 <tr>
