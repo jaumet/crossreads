@@ -8,7 +8,32 @@ import re
 
 path = '/var/www/crossreads/data/dataConveters/DOCs-cp/HTMLs'
 filePattern= '*.html'
-replaceList = { r'^(?:.|\n|\r)+?</head>': '', r'<body.*>': '', '</font>' : '', r'<font face\=\"Calibri\, sans-serif\"\>': '', r'<p\ .*\">': '<p>', r'</body>[.*|\n*]</html>': '', r'<span.*>': '', '<br>': '', '</div>' : '', r'<p>\n+</p>': '', '<sup>': '', '</sup>': '', r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2', r'(\,)\n([0-9a-zA-Z])': r'\1 \2', '\n\n': '\n', '</p>\n<p>': '</p>\n\n<p>', r'<font\ .*\"\>': '', r'\.</p>': r'\n</p>'}
+
+replaceList = {
+ r'^(?:.|\n|\r)+?</head>': '',
+ r'<body.*?\>': '', 
+ '</font>' : '', 
+ r'<p\ .*?\>': '<p>', 
+ r'</body>[.*|\n*]</html>': '', 
+ r'<span\ .*?\>': '',
+ r'<\/span>': '',
+ '</div>' : '', 
+ '<sup>': '[', 
+ '</sup>': ']', 
+ r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2', 
+ r'<font\ .*?\"\>': '',
+ r'<a\ .*?\">': '[',
+ '</a>': ']',
+ '\n\n': '\n',
+ '<p>\n</p>': '',
+ '<p>\n\n</p>': '',
+ '<p>\n\n\n</p>': '',
+ '<br>': '',
+ r'([0-9a-zA-Z])\n([0-9a-zA-Z])': r'\1 \2',
+ r'(\,|\:|\>|\])\n([0-9a-zA-Z])': r'\1 \2',
+ r'(\,|\:|\>|\|\)]|\;)\n(\,|\:|\<|\]|\;|[0-9a-zA-Z])': r'\1 \2',
+ r'</p>\s+<p>': '</p>\n<p>'
+}
 
 def replace(directory, filePattern):
   for path, dirs, files in os.walk(os.path.abspath(directory)):

@@ -15,31 +15,49 @@ def replace(directory, filePattern):
         with open(filepath) as f:
           data = f.read()
           '''Build a list splitting data into "<p>*.</p>" pieces'''
-          paragraphs = re.compile("(?<!^)\s+(?=\<p\>)(?!.\s)").split(data)
+          paragraphsIn = re.compile("(?<!^)\s+(?=\<p\>)(?!.\s)").split(data)
 
         '''Join paragraphs with len < 1100 characters (including spaces)'''
-        paragraphs1 = []
-        for i, p in enumerate(paragraphs):
+        paragraphsOut = []        
+        for i, p in enumerate(paragraphsIn):
+          # Cleaning paragraphs from bad chatarters
           p = re.sub("\n", "", p)
           p = re.sub('\"', '\\\"', p)
           p = re.sub('\t', ' ', p)
           p = re.sub('', ' ', p)
           p = re.sub('', ' ', p)
-          p = re.sub('', ' ', p)          
+          p = re.sub('', ' ', p)
+          # Remove empty <p> </p> !!!!!!!!!!!!!!!!!
+          p = re.sub(r'<p>\s+</p>', '', p)
           
+          print "####"
+          print "i -> "+str(i)
+          print "len(p) -> "+str(len(p))
+          print "----"
+          # output builder
           if i==0:
-            paragraphs1.append(p)
+            # Create here the spliter in case len(p) > 700
+            paragraphsOut.append(p)
           else:
-            if len(paragraphs[i-1]) + len(paragraphs[i])<1100:
-              paragraphs1[-1] += p
+            if len(p) < 700:
+              if len(p) + len(paragraphsOut[-1]) < 700:
+                paragraphsOut[-1] += p
+                print "[Concatenated] len(paragraphsOut[-1]) -> "+str(len(paragraphsOut[-1])) 
+              else:
+                paragraphsOut.append(p)
+                print "[appendded]"
             else:
-              paragraphs1.append(p)
+              if len(paragraphsOut[-1]) < 100:
+                paragraphsOut[-1] += p
+              else:
+                # split p by "."
+                paragraphsOut.append(p)
 
+          print "---> len(paragraphsOut) ->"+str(len(paragraphsOut))
         '''JSON output'''    
         myjson = "[\n"
-        for i, p1 in enumerate(paragraphs1):
+        for i, p1 in enumerate(paragraphsOut):
           myjson +=  "\n\t{\n\t\t\"pid\" : "+str(i)+",\n\t\t\"p\" : \""+p1+"\"\n\t},"
-        ## FIXME remove last ","
         myjson = myjson[:-1]
         myjson += "\n]"
         ## CUSTOMIZE split AS THE NAMES OF THE FILES REQUIRE

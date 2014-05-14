@@ -270,13 +270,16 @@ p.mymeta {
 .grey, #myarrows, #myarrows_lr {
   color:#B4A6A6;
   font-weight:normal;
+  font-size:11px;
 }
+#myarrows {
+  float:left;
+}
+
 div#bottomleft.mybottom span#myarrows_lr,
 .arrowl {
   float:right;
 }
-#myarrows, .myarrows_lr {
-  font-size:11px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -382,6 +385,9 @@ div#bottomleft.mybottom span#myarrows_lr,
   margin-top: 20px;
 }
 
+#mynotes {
+  display:none;
+}
 
 /*********************************************/
 /*********************************************/
