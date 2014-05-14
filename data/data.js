@@ -313,7 +313,7 @@ var METADATA = [
 	},
 	{
 		"tid":27,
-		"title": "",
+		"title": "Entre el cine EX-perimental y el cine EX-cepcional",
 		"year": 1989,
 		"lang": "Cas",
 		"type": "",
@@ -325,7 +325,7 @@ var METADATA = [
 	},
 	{
 		"tid":28,
-		"title": "",
+		"title": "Amar : Arder. Candentes cenizas de Jos&eacute; Val del Omar",
 		"year": 1982,
 		"lang": "Cas",
 		"type": "",
@@ -337,7 +337,7 @@ var METADATA = [
 	},
 	{
 		"tid":29,
-		"title": "",
+		"title": "Cinema i video experimental i d'artistes a Catalunya (un megamix)",
 		"year": 1992,
 		"lang": "Cas",
 		"type": "",
@@ -349,7 +349,7 @@ var METADATA = [
 	},
 	{
 		"tid":30,
-		"title": "",
+		"title": "El cine ha muerto, pasemos al debate",
 		"year": 2005,
 		"lang": "Cas",
 		"type": "",
@@ -361,7 +361,7 @@ var METADATA = [
 	},
 	{
 		"tid":31,
-		"title": "",
+		"title": "Del oscil&oacute;grafo al chip prodigioso",
 		"year": 2005,
 		"lang": "Cas",
 		"type": "",
@@ -373,7 +373,7 @@ var METADATA = [
 	},
 	{
 		"tid":32,
-		"title": "",
+		"title": "Tecnolog&iacute;a y filantrop&iacute;a",
 		"year": 2001,
 		"lang": "Cas",
 		"type": "",
@@ -385,7 +385,7 @@ var METADATA = [
 	},
 	{
 		"tid":33,
-		"title": "",
+		"title": "Ol&eacute; tus v&iacute;deos, George",
 		"year": 1992,
 		"lang": "Cas",
 		"type": "",
@@ -397,7 +397,7 @@ var METADATA = [
 	},
 	{
 		"tid":34,
-		"title": "",
+		"title": "Vidas privadas, v&iacute;deos p&uacute;blicos",
 		"year": 1995,
 		"lang": "Cas",
 		"type": "",
