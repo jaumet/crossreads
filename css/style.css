@@ -220,11 +220,12 @@ a.list-group-item.active {
 .container {
   margin:0 auto;  
 }
-
-.myother {
-  width: 850px;
+/*
+#otherpages  {
+  display:block;
+  width: 950px;
 }
-
+*/
 .row {
   margin:0;
 }
@@ -358,6 +359,7 @@ div#bottomleft.mybottom span#myarrows_lr,
 
 #closeAllText {
   float:right;
+  padding:20px;
   z-index:100;
 }
 
