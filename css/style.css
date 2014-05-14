@@ -113,7 +113,7 @@ td {
 }
 
 a.fancybox img {
-  width:120px;
+  width:80px;
   float:right;
 }
 
@@ -256,7 +256,7 @@ a.list-group-item.active {
 }
 
 p.mymeta {
-  float:right;
+  float:left;
   color:#B4A6A6; /****/
   padding-bottom:10px;
 }
@@ -267,13 +267,14 @@ p.mymeta {
   float:left;
   font-style:italic;
 }
-.grey, #myarrows, #myarrows_lr {
+.grey, #myarrows, #myarrows_lr, #help_timeline {
   color:#B4A6A6;
   font-weight:normal;
   font-size:11px;
 }
+
 #myarrows {
-  float:left;
+  width:left;
 }
 
 div#bottomleft.mybottom span#myarrows_lr,
@@ -294,7 +295,7 @@ div#bottomleft.mybottom span#myarrows_lr,
   float:right;
 }
 
-.xofy, .all-text {
+.xofy, .all-text, .all-pdf {
   margin:6px;
   padding:3px;
   padding-left:5px;
@@ -302,11 +303,11 @@ div#bottomleft.mybottom span#myarrows_lr,
   border:1px solid grey; /****/
   font-weight:bold;
 }
-.all-text {
+.all-text, .all-pdf {
   float:left;
 }
 
-.all-text:hover {
+.all-text:hover, .all-pdf:hover {
   margin:6px;
   padding:2px;
   padding-left:5px;
@@ -389,6 +390,10 @@ div#bottomleft.mybottom span#myarrows_lr,
   display:none;
 }
 
+#myarrows img , #myarrows_lr img , #help_timeline img, #imgright {
+  width:25px;
+}
+
 /*********************************************/
 /*********************************************/
 /*  Black and white crossreads theme */
@@ -415,7 +420,7 @@ a.list-group-item.active:focus,
 a.list-group-item.active:hover, a.list-group-item.active:focus {
   border-color:#FFF9D2;
 }
-.all-text {
+.all-text, .all-pdf {
   color:#2a2a2a;
   background-color:#B4A6A6;
 }
@@ -424,6 +429,7 @@ a.list-group-item.active:hover, a.list-group-item.active:focus {
   background-color:#2a2a2a;
 }
 
+.all-pdf:hover,
 .all-text:hover,
 .allTextWrapper,
 .other,
