@@ -123,6 +123,7 @@ a.fancybox img {
   background-color:#2A2A2A;   /****/
 }
 
+.fancybox2 img,
 a.fancybox img,
 #otherpages,
 .allTextBox,
@@ -137,8 +138,9 @@ a.list-group-item.active {
   box-shadow: 0 0 0px #FFF9D2; 
   overflow:auto;
 }
-a.list-group-item.active {
-  box-shadow: 0 0 0px #FFF9D2;
+
+.fancybox2 img:hover {
+  box-shadow: 0 0 6px #FFF9D2;
 }
 
 #otherpages ul {
@@ -234,12 +236,7 @@ a.list-group-item.active {
 .container {
   margin:0 auto;  
 }
-/*
-#otherpages  {
-  display:block;
-  width: 950px;
-}
-*/
+
 .row {
   margin:0;
 }
@@ -405,6 +402,13 @@ div#bottomleft.mybottom span#myarrows_lr, .arrowl {
 
 #myarrows img , #myarrows_lr img , #help_timeline img, #imgright {
   width:25px;
+}
+
+.textwrap {
+  float:left;
+  margin:7px;
+  margin-right:25px;
+  width:170px;
 }
 
 /*********************************************/

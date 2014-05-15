@@ -53,7 +53,7 @@
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/"><span id="mytitle"><b>Eugeni Bonet</b>: escrits de vista i o&iuml;da</span></a>
+        <a class="navbar-brand" href="/eugenibonet"><span id="mytitle"><b>Eugeni Bonet</b>: escrits de vista i o&iuml;da</span></a>
         <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
         <a class="navbar-brand" href="#" onClick="window.open('feedbackform/form.php','feedbackform','width=600,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes')"><span id="feedback" class="othercomment">Comenta</span></a>
         <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
@@ -122,7 +122,7 @@
       </tr>        
       </table>
       <div class="legend">
-        <span><b>24 <span id="mytexts">texts</span></b>
+        <span><b>34 <span id="mytexts">texts</span></b>
         <br /><br />
         <span id="myt1" class="t1c" style="font-size:16px;">Genealog&iacute;as</span><br />
         <span id="myt2" class="t2c" style="font-size:14px;">Galer&iacute;a de notables</span><br />
@@ -186,7 +186,7 @@
     -->
   </div>
   <footer>
-     <p><a href="http://www.macba.cat/" target="_macba"><img src="images/logo_macba250.jpg" width="40px" /></a>&nbsp;&nbsp;&nbsp;Textos d’Eugeni Bonet publicats sota llicència <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca" target="creative_commons">CC-BY-NC-ND</a> I Barcelona, 2014 I <span id="credits" class="other" style="text-decoration:underline;">Cr&egrave;dits</span></p>
+     <p><a href="http://www.macba.cat/" target="_macba"><img src="images/logo_macba250.jpg" width="40px" /></a>&nbsp;&nbsp;&nbsp;Textos d’Eugeni Bonet publicats sota llicència <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca" target="creative_commons">CC-BY-NC-ND</a> I Barcelona, 2014 I <span id="credits" class="other" style="text-decoration:underline;padding:12px;">Cr&egrave;dits</span></p>
   </footer>
   </div> <!--wrapper div close-->
   
@@ -445,6 +445,7 @@
     });
 
     $(".fancybox").fancybox();
+    $(".fancybox2").fancybox();
     return false;
   });
 
@@ -529,7 +530,7 @@
         $("#otherpages").html('');
         $("#otherpages").css({"display":"none"});
       } else {
-        $("#otherpages").html(currentLang["page-default"]);
+        $("#otherpages").html(currentLang["page-default"]+textList);
         $("#otherpages").animate({ "opacity": "1" }, 1300 );
       }
     });

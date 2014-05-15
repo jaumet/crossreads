@@ -31,7 +31,7 @@ if(isset($_POST['email'])) {
         echo "<p>We are very sorry, but there were error(s) found with the form you submitted.<br />";
         echo "These errors appear below.<br />";
         echo $error."<br /><br />";
-	echo "<p><input Type=\"button\" VALUE=\"Enrrere / Atr&aacute;s / Back\" onClick="history.go(-1);return true;\"></p>";
+	echo "<p><input Type=\"button\" VALUE=\"Enrrere / Atr&aacute;s / Back\" onClick=\"history.go(-1);return true;\"></p>";
         die();
     }
     // validation expected data exists 

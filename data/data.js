@@ -13,7 +13,7 @@ var METADATA = [
 	},
 	{
 		'tid':2,
-		"title": "2. Cine decadente: un nuevo expresionismo",
+		"title": "Cine decadente: un nuevo expresionismo",
 		"year": 1975,
 		"lang": "Cas",
 		"type": "Revista",
@@ -25,7 +25,7 @@ var METADATA = [
 	},
 	{
 		"tid":3,
-		"title": "3. Schroeter, Von Praunheim, Syberberg",
+		"title": "Schroeter, Von Praunheim, Syberberg",
 		"year": 1976,
 		"lang": "Cas",
 		"type": "Revista",
@@ -37,7 +37,7 @@ var METADATA = [
 	},
 	{
 		"tid":4,
-		"title": "4. Marguerite Duras: el texto en la imagen",
+		"title": "Marguerite Duras: el texto en la imagen",
 		"year": 1977,
 		"lang": "Cas",
 		"type": "Revista",
@@ -49,7 +49,7 @@ var METADATA = [
 	},
 	{
 		"tid":5,
-		"title": "5. El cine de Werner Nekes",
+		"title": "El cine de Werner Nekes",
 		"year": 1975,
 		"lang": "Cas",
 		"type": "Revista",
@@ -61,7 +61,7 @@ var METADATA = [
 	},
 	{
 		"tid":6,
-		"title": "6. La cosa mental, de Michael Snow a Wilma Schoen",
+		"title": "La cosa mental, de Michael Snow a Wilma Schoen",
 		"year": 2006,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -73,7 +73,7 @@ var METADATA = [
 	},
 	{
 		"tid":7,
-		"title": "7. N:O.T.H:I:N:G / Paul Sharits ",
+		"title": "N:O.T.H:I:N:G / Paul Sharits ",
 		"year": 2006,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -85,7 +85,7 @@ var METADATA = [
 	},
 	{
 		"tid":8,
-		"title": "8. Zorns lemma / Frampton",
+		"title": "Zorns lemma / Frampton",
 		"year": 2006,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -97,7 +97,7 @@ var METADATA = [
 	},
 	{
 		"tid":9,
-		"title": "9. Berlin Horse / Le Grice",
+		"title": "Berlin Horse / Le Grice",
 		"year": 2006,
 		"lang": "Cas",
 		"type": "Revista",
@@ -109,7 +109,7 @@ var METADATA = [
 	},
 	{
 		"tid":10,
-		"title": "10. Un sue&#xF1;o de cinematograf&#xED;a intuida ins&#xF3;lita",
+		"title": "Un sue&#xF1;o de cinematograf&#xED;a intuida ins&#xF3;lita",
 		"year": 2010,
 		"lang": "Cas",
 		"type": "Revista",
@@ -121,7 +121,7 @@ var METADATA = [
 	},
 	{
 		"tid":11,
-		"title": "11. La estructura monom&#xF3;rfica o la imagen contrariada",
+		"title": "La estructura monom&#xF3;rfica o la imagen contrariada",
 		"year": 1992,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -133,7 +133,7 @@ var METADATA = [
 	},
 	{
 		"tid":12,
-		"title": "12. La sublevaci&#xF3;n de la juventud y el mayo del 68",
+		"title": "La sublevaci&#xF3;n de la juventud y el mayo del 68",
 		"year": 2008,
 		"lang": "Cas",
 		"type": "Revista",
@@ -145,7 +145,7 @@ var METADATA = [
 	},
 	{
 		"tid":13,
-		"title": "13. La apropiaci&#xF3;n es robo",
+		"title": "La apropiaci&#xF3;n es robo",
 		"year": 1993,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -157,7 +157,7 @@ var METADATA = [
 	},
 	{
 		"tid":14,
-		"title": "14. Desmontaje documental",
+		"title": "Desmontaje documental",
 		"year": 2005,
 		"lang": "Cas",
 		"type": "Revista",
@@ -169,7 +169,7 @@ var METADATA = [
 	},
 	{
 		"tid":15,
-		"title": "15. ViDeo Gratias, o &#x201C;comunicaci&#xF3;n diferida&#x201D;. (Espacio autobiogr&#xE1;fico en la videograf&#xED;a de Juan Downey)",
+		"title": "ViDeo Gratias, o &#x201C;comunicaci&#xF3;n diferida&#x201D;. (Espacio autobiogr&#xE1;fico en la videograf&#xED;a de Juan Downey)",
 		"year": 1998,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -181,7 +181,7 @@ var METADATA = [
 	},
 	{
 		"tid":16,
-		"title": "16. La v&#xED;a europea al v&#xED;deo: una recapitulaci&#xF3;n",
+		"title": "La v&#xED;a europea al v&#xED;deo: una recapitulaci&#xF3;n",
 		"year": 2007,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -193,7 +193,7 @@ var METADATA = [
 	},
 	{
 		"tid":17,
-		"title": "17. Medida vectorial de las formas de onda de sucesivas se&#xF1;ales de v&#xED;deo y otras observaciones anexas para un libro-registro de herramientas, reparaciones y mantenimiento",
+		"title": "Medida vectorial de las formas de onda de sucesivas se&#xF1;ales de v&#xED;deo y otras observaciones anexas para un libro-registro de herramientas, reparaciones y mantenimiento",
 		"year": 1995,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -205,7 +205,7 @@ var METADATA = [
 	},
 	{
 		"tid":18,
-		"title": "18. Electr&#xF2;nica de la realitat. Entre visualitat i simulacre",
+		"title": "Electr&#xF2;nica de la realitat. Entre visualitat i simulacre",
 		"year":2006,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -217,7 +217,7 @@ var METADATA = [
 	},
 	{
 		"tid":19,
-		"title": "19. Del otro lado de la pantalla: Douglas Davis",
+		"title": "Del otro lado de la pantalla: Douglas Davis",
 		"year": 1986,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -229,7 +229,7 @@ var METADATA = [
 	},
 	{
 		"tid":20,
-		"title": "20. Televisi&#xF3;n y v&#xED;deo, artes en sociedad limitada",
+		"title": "Televisi&#xF3;n y v&#xED;deo, artes en sociedad limitada",
 		"year": 1998,
 		"lang": "Cas",
 		"type": "Revista",
@@ -241,7 +241,7 @@ var METADATA = [
 	},
 	{
 		"tid":21,
-		"title": "21. Inventos del &#x22;te veo&#x22;. Notas sobre videoscopia, televisi&#xF3;n y otras tangencias",
+		"title": "Inventos del &#x22;te veo&#x22;. Notas sobre videoscopia, televisi&#xF3;n y otras tangencias",
 		"year": 2001,
 		"lang": "Cas",
 		"type": "Revista",
@@ -253,7 +253,7 @@ var METADATA = [
 	},
 	{
 		"tid":22,
-		"title": "22. La pantalla bien servida: la nutrici&#xF3;n audiovisual",
+		"title": "La pantalla bien servida: la nutrici&#xF3;n audiovisual",
 		"year": 2002,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -265,7 +265,7 @@ var METADATA = [
 	},
 	{
 		"tid":23,
-		"title": "23. La instalaci&#xF3;n como hipermedio (una aproximaci&#xF3;n)",
+		"title": "La instalaci&#xF3;n como hipermedio (una aproximaci&#xF3;n)",
 		"year": 1994,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
@@ -277,7 +277,7 @@ var METADATA = [
 	},
 	{
 		"tid":24,
-		"title": "24. Visi&#xF3;n expandida. Extralimitaciones cinematogr&#xE1;ficas en la encrucijada de la electr&#xF3;nica",
+		"title": "Visi&#xF3;n expandida. Extralimitaciones cinematogr&#xE1;ficas en la encrucijada de la electr&#xF3;nica",
 		"year": 2013,
 		"lang": "Cas",
 		"type": "Cat&agrave;leg",
