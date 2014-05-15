@@ -21,7 +21,7 @@ var METADATA = [
 		"keywords": "",
 		"topic": "10. Exemple de Topic",
 		"publication": "Star, n&uacutem. 13. Barcelona, 1975",
-    "images": [""]
+    "images": []
 	},
 	{
 		"tid":3,
