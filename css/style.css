@@ -75,22 +75,12 @@ c {
   line-height:1px;
   display:inline-block;
   margin:4px;
-  margin-bottom:0px;
+  margin-bottom:1px;
   color:black;
   cursor:pointer;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-
-/*
-background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF9D2), to(#FFF9D2));
-background: -webkit-linear-gradient(#FFF9D2, #FFF9D2);
-background: -moz-linear-gradient(#FFF9D2, #FFF9D2);
-background: -ms-linear-gradient(#FFF9D2, #FFF9D2);
-background: -o-linear-gradient(#FFF9D2, #FFF9D2);
-background: linear-gradient(#FFF9D2, #FFF9D2);
--pie-background: linear-gradient(#FFF9D2, #FFF9D2);
-behavior: url(/pie/PIE.htc);
-*/
+  border:1px solid;
 }
 
 .t1 { background-color:#9966cc;color:#9966cc;}
@@ -274,11 +264,10 @@ p.mymeta {
 
 #myrightcolumn {
   padding-top: 25px;
-  color:#B4A6A6; /****/
+  color:#B4A6A6;
   float:left;
-  font-style:italic;
 }
-.grey, #myarrows, #myarrows_lr, #help_timeline {
+.grey, #myarrows, #myarrows_l, #myarrows_r, #help_timeline {
   color:#B4A6A6;
   font-weight:normal;
   font-size:11px;
@@ -288,10 +277,13 @@ p.mymeta {
   width:left;
 }
 
-div#bottomleft.mybottom span#myarrows_lr, .arrowl {
+div#bottomleft.mybottom span#myarrows_l,
+div#bottomleft.mybottom span#myarrows_r,
+.arrowl {
   float:right;
   margin-top: 4px;
 }
+
 
 .navbar-inverse .navbar-brand {
 	color: #FFF9D2; /****/
@@ -400,7 +392,7 @@ div#bottomleft.mybottom span#myarrows_lr, .arrowl {
   display:none;
 }
 
-#myarrows img , #myarrows_lr img , #help_timeline img, #imgright {
+#myarrows img, #myarrows_l img, #myarrows_r img, #help_timeline img, #imgright {
   width:25px;
 }
 

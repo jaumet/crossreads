@@ -122,7 +122,7 @@
       </tr>        
       </table>
       <div class="legend">
-        <span><b>34 <span id="mytexts">texts</span></b>
+        <span><b>34 <span id="mytexts">textos</span></b>
         <br /><br />
         <span id="myt1" class="t1c" style="font-size:16px;">Genealog&iacute;as</span><br />
         <span id="myt2" class="t2c" style="font-size:15px;">Galer&iacute;a de notables</span><br />
@@ -130,7 +130,7 @@
         <span id="myt4" class="t4c" style="font-size:10px;">Textos preliminares</span>
       </span></div>
       <div class="legend">
-          <span id="help_timeline"><img src="images/help.png" width="25px" /> AJUDA: podeu exploreu els textos<br /> fent clic a les boles de colors.</span>
+          <span id="help_timeline">Exploreu els textos<br /> fent clic als punts de color</span>
       </div>
     </div>
   </div>
@@ -151,7 +151,7 @@
       <div id="myleftcolumn" class="col-md-3">
         <p></p>
         <div id="bottomleft" class="mybottom">
-          <span id="myarrows_lr"><img src="images/help.png" width="25px" /><i>Salta a un altre text X</i></span>
+          <span id="myarrows_l"><i>Salta a un text similar</i></span>
           <div class="arrowl"></div>
         </div>
       </div>
@@ -165,7 +165,7 @@
         <p><img src="images/help.png" width="25px" /><span id="myarrows" class="grey"></span></p>
         <p id="myfootnotes"></p>
         <div id="bottomright" class="mybottom">
-          <span id="myarrows_lr"><img id="imgright" src="images/help.png" width="25px" /><i>Salta a un altre text</i></span>
+          <span id="myarrows_r"><i>Salta a un altre text</i></span>
           <div class="arrowr"></div>
         </div>
       </div>
@@ -200,7 +200,7 @@
   <script>
     // Comment or uncomment
     // it calculates font-size  for the topics of the timeline
-    
+    /*
     tt= [12, 11, 6, 5];        
     var total = 0;
     $.each(tt, function(i, v) {
@@ -211,7 +211,7 @@
     tt3 = 10*tt[2]/total;
     tt4 = 12*tt[3]/total;
     console.log ("TOTAL= "+total+" || tt1= "+tt1+" | tt2= "+tt2+" | tt3= "+tt3+" | tt4= "+tt4);      
-    /**/
+    */
   </script>
 
   <!-- starts crossreads business -->
@@ -231,14 +231,14 @@
         } else {
           meta_img = alltext;
         }
-        meta_rest = '['+val.year+'] '+val.type+' - '+val.category+'<br />'+val.publication;
+        meta_rest = '('+val.year+') '+val.type+' - '+val.publication+'<br />'+val.category;
         meta_year = '['+val.year+'] ';
         // Check if this is the main title-box
         if (main == "main")  {
           meta_html = '<div class="list-group">\
             <a id="'+val.tid+'_0" href="#" class="node list-group-item active">\
             <h4 class="list-group-item-heading">'+meta_title+'</h4>\
-            <p class="mymeta"><i>'+meta_rest+'</i></p></a>\
+            <p class="mymeta">'+meta_rest+'</p></a>\
             </div>';
           $("#my_youarereading").css({"display":"block"});
           $("#myleftcolumn p").html(meta_img);
@@ -437,8 +437,8 @@
     
     $("c, a.text-list").on('click', function() {
       $("html, body").animate({ scrollTop: 165 }, "slow");
-      $("c").css({"border":"0 solid yellow"});
-      $("#"+this.id).css({"border":"3px solid yellow"});
+      $("c").css({"border":"1px solid"});
+      $("#"+this.id).css({"border":"1px solid yellow"});
       $("#myrightcolumn, #mycentercolumn, #myleftcolumn").css({"display":"block"});
       myTrick(this.id);
       return false;
