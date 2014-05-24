@@ -8,7 +8,7 @@ body {
   padding-left:20px;
   height:100%;
   color: #FFFFFF;
-  font-family: 'Oldenburg', cursive, serif, Verdana;
+  font-family: 'Bitter', serif;
 /*
   min-width: 1050px;
   overflow-x: auto;
@@ -152,7 +152,7 @@ a.list-group-item.active {
 
 #mycentercolumn  {
 	height: 400px;
-  padding: 35px;
+  padding: 25px;
   margin:20px;
 }
 

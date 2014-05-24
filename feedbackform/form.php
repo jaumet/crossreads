@@ -4,7 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Eugeni Bonet - crossreads :: feedback form</title>
   <meta charset="utf-8">
-  <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
+  <!--<link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>-->
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
   <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
