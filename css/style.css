@@ -88,10 +88,10 @@ c {
 .t3 { background-color:#99cc66;color:#99cc66;}
 .t4 { background-color:#66cccc;color:#66cccc;}
 
-.t1c { color:#9966cc;}
-.t2c { color:#cc6666;}
-.t3c { color:#99cc66;}
-.t4c { color:#66cccc;}
+.t1c { color:#9966cc;border-color:#9966cc;}
+.t2c { color:#cc6666;border-color:#cc6666;}
+.t3c { color:#99cc66;border-color:#99cc66;}
+.t4c { color:#66cccc;border-color:#66cccc;}
 
 td {
 	border:1px dashed #B4A6A6;  /****/
@@ -105,6 +105,16 @@ td {
 a.fancybox img {
   width:80px;
   float:right;
+}
+
+.myfilters {
+  color:#B4A6A6;
+}
+
+.myfilters span:not(:first-child) {
+  padding:4px;
+  border:1px solid;
+  cursor:pointer;
 }
 
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
