@@ -113,7 +113,7 @@ a.fancybox img {
 
 .myfilters span:not(:first-child) {
   padding:4px;
-  border:1px solid;
+  border:0 solid;
   cursor:pointer;
 }
 

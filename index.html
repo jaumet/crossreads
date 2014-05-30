@@ -513,14 +513,14 @@
     if (filter == "all") {
       // Show all
       $("li[data-cat]").css("display","block")
-      $("p.myfilters span:not(:first)").css("border","1px solid");
+      $("p.myfilters span:not(:first)").css("border","0 solid");
     } else {
       // hide all items:
       $("li[data-cat]").css("display","none")
-      $("p.myfilters span:not(:first)").css("border","1px solid");
+      $("p.myfilters span:not(:first)").css("border","0 solid");
       // show only the filter
       $("li[data-cat="+filter+"]").css("display","block");
-      $(this).css("border", "4px double");
+      $(this).css("border", "1px solid");
     }
   });
 
