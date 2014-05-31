@@ -117,6 +117,10 @@ a.fancybox img {
   cursor:pointer;
 }
 
+my {
+  cursor:pointer;
+}
+
 #myrightcolumn, #mycentercolumn, #myleftcolumn  {
   display:none;
   border:0px;
