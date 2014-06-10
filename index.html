@@ -67,7 +67,7 @@
         <a class="navbar-brand" href="/eugenibonet"><span id="mytitle"><b>Eugeni Bonet</b>: escrits de vista i o&iuml;da</span></a>
         <a class="navbar-brand" href="#"><span id="about" class="other">Sobre</span></a>
         <a class="navbar-brand" href="#" onClick="window.open('feedbackform/form.php','feedbackform','width=600,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes')"><span id="feedback" class="othercomment">Comenta</span></a>
-        <a class="navbar-brand" href="#"><span id="credits" class="other">Cr&egrave;dits</span></a>
+        <a class="navbar-brand" href="#"><span id="bio" class="other">Biografia</span></a>
         <a class="navbar-brand lang" href="?l=ca">Catal&agrave;</a><a class="navbar-brand lang" href="?l=es">Castellano</a>
       </div>
     </div>
@@ -492,7 +492,6 @@
     $("#otherpages").css({"display":"block"});
     $("#otherpages").html(currentLang["page-"+this.id]);
     $("#otherpages").animate({ "opacity": "1" }, 1300 );
-    
     $("#close").on('click', function() {
       if ($("#title").html() != '') {
         $("#otherpages").animate({ "opacity": "0" }, 1300 );
