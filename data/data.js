@@ -422,7 +422,7 @@ var METADATA = [
 	{
 		"tid":36,
 		"title": "De la disolucion del relato al video-clip perpetuo",
-		"year": 1990,
+		"year": "19??",
 		"lang": "Cas",
 		"type": "Altres",
 		"category": "Creaci&oacute;n de una gram&agrave;tica",
@@ -518,7 +518,7 @@ var METADATA = [
 	{
 		"tid":44,
 		"title": "Joan Leandre: v&iacute;deos per la fi de la televisi&oacute;",
-		"year": 1990,
+		"year": "19??",
 		"lang": "Cat",
 		"type": "Altres",
 		"category": "Galer&iacute;a de notables",

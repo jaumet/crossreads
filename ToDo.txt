@@ -1,10 +1,47 @@
 ToDo:
 
+[2014/06/11 Canberra AU] 
+After the prototype for Eugeni Bonet exhibition at MACBA. Now is time for:
+
+>>>>>>>>>>>> (1) Development:
+
+- Better segmentation
+- Better similarity or  variety of similarities
+
+We need a debugging environtment were a user can run the program(s)
+	1- Set configuration parameters and options
+	
+	Segmentation
+	2- Choose input folder for initial set of DOC (and others) to convert
+	
+	Similarity
+	3- Choose input forlder for texts in JSON files
+	4- Run the program(s) to get a new sim vector
+
+And them, some features for debugging:
+	- Exploration of simVector showing pieces of texts and their similarity's paramenters 
+	
+
+>>>>>>>>>>>> (2) SimVector Visualizations:
+- Pure Network vis:
+	* among pieces of texts
+	* among text + width of edges proportional to number of connections among texts
+- Network as sortable table (Visference-like):
+	* Columns: 
+		> key is each piece of text ID
+		> rest of metadata
+		> number of other texts with connection
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Previuos premiere ToDo
+
 -> Metadata for title box from data.js
 -> Remove numbers in data.js titles
 
 
-MAY BE IS OK LIKE IT IS -> Not going to the last one:  on click top arrow, when the paragraph is the first one of a text!!!!
+DONE- MAY BE IS OK LIKE IT IS -> Not going to the last one:  on click top arrow, when the paragraph is the first one of a text!!!!
 
 DONE- Check for problems on resize the window
     - BROWSER COMPATIBILITY:
