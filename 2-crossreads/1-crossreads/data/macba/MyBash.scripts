@@ -1,0 +1,14 @@
+## Bash scripts used:
+
+#1 Rename files changing " " to "_"
+for file in * ; do mv -v "$file" "$(echo $file | sed 's/ /_/g')" ; done
+
+#2 Convert doc to txt using catdoc
+for i in * ; do catdoc $i > ${i%%.*}.txt;done
+
+#3 Convert doc to html using soffice
+for i in * ; do soffice --headless --convert-to html --outdir HTMLs $i;done
+
+#4 or directly:
+soffice --headless --convert-to html --outdir HTMLs *.doc
+
