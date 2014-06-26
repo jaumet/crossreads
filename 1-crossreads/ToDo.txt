@@ -1,0 +1,188 @@
+ToDo:
+
+[2014/06/11 Canberra AU] 
+After the prototype for Eugeni Bonet exhibition at MACBA. Now is time for:
+
+>>>>>>>>>>>> (1) Development:
+
+- Better segmentation
+- Better similarity or  variety of similarities
+
+We need a debugging environtment were a user can run the program(s)
+	1- Set configuration parameters and options
+	
+	Segmentation
+	2- Choose input folder for initial set of DOC (and others) to convert
+	
+	Similarity
+	3- Choose input forlder for texts in JSON files
+	4- Run the program(s) to get a new sim vector
+
+And them, some features for debugging:
+	- Exploration of simVector showing pieces of texts and their similarity's paramenters 
+	
+
+>>>>>>>>>>>> (2) SimVector Visualizations:
+- Pure Network vis:
+	* among pieces of texts
+	* among text + width of edges proportional to number of connections among texts
+- Network as sortable table (Visference-like):
+	* Columns: 
+		> key is each piece of text ID
+		> rest of metadata
+		> number of other texts with connection
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Previuos premiere ToDo
+
+-> Metadata for title box from data.js
+-> Remove numbers in data.js titles
+
+
+DONE- MAY BE IS OK LIKE IT IS -> Not going to the last one:  on click top arrow, when the paragraph is the first one of a text!!!!
+
+DONE- Check for problems on resize the window
+    - BROWSER COMPATIBILITY:
+      * Make it some-versions-of-IEx compatible if is possible AND add a browser-checker and a note in case the browser is not compatible.
+      * Check Safari amd, specialy, Safari version on Macba's IPADs
+
+    - [OPTIONAL?] Add Keywords (from the spreadsheet) to the title-box
+
+    - CONTENT other pages
+      * 0) Default oresentation on load page.
+      * 1) Show list of all texts as a item-list with title and metadata.
+      * 2) Credits
+      * 3) About the data
+      
+DONE    * 4) Feedback form -> CHECK HOW TO DO THIS IN JS
+
+DONE  - Add a border to the ball of the active document
+DONE  - CHANGE left&right icons. Ppl hardly understand the triangles AND they are too much down. ppl cannot see then unless 
+        they scroll down -> A solution is anchor to the title box when clicking a ball
+DONE  - Reubicatiopn of arrows + rewritten myrightcolumn 
+
+PROBLEMS loading new corpora text
+  DONE-> There is a json syntax error in 1_66 (last one). FIND WTF
+  DONE-> PARSER: text.json files ->remove the lat "," after the last "}"
+  DONE-> PARSER: tabs produce json syntax errors. -> Remove tabs or replace  with "\t" 
+  DONE-> PARSER: several characters removed or replaced that were prodicing json errors.
+  DONE-> Error in allText title
+  
+DONE- When click in other pages, the content appears in between the timeline and the reader. Find a solution
+DONE- Create crossreads ICON
+DONE- Adjust the grid of the page: center arrows,...  
+
+DONE- Added svg arrows instead of png ones
+DONE- added google open font
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+DATA
+  - METADATA:
+    * [CSV to data.js]: check and extract the data from the google spreadsheet.
+
+  - TEXTS
+    * DOC to HTML: soffice OR wvWare: 
+      > Using command: soffice --headless --convert-to html finename.doc
+      It will produce filename.html
+      Create a BASH-SCRIPT
+       
+    * HTML to CleanHTML: BASH-SCRIPT.
+        
+    * SEGMENTATION: HTML to SegmentedHTML ("@@@" separator). Python script. 
+    * Text.json files: HTML to JSON (python script: "@@@" parsing to JSON)
+        > Add footnotes to each paragraph where it is call from.
+        > Keep number of footnote from the original document.
+
+	- SONIA:
+		- Metadata (gogle Spreadsheed)
+		- Texts in DOC format
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~ OPTIONAL
+
+    OPTIONAL - Styled scrollbars: - Styled scrollbars: http://manos.malihu.gr/jquery-custom-content-scroller/
+
+    OPTIONAL - Themes (only-css-based or a complete theme):
+      -> Define theme structure. Initially [v1] themes are just 2 colors definition in css/theme.css file
+      -> Code the theme selection and loading.
+      -> Include several themmes: b&w, w&b, macbatheme or EG theme (ask EB for his prefered colors for a text + background.
+      -> [optional] code a theme editor with 2 color picker.
+
+    OPTIONAL - Storm words for each chunk. To show it as a preview of left and right jumps.
+
+    OPTIONAL: Text to Speetch: http://vozme.com/ (festival in JS)
+
+    OPTIONAL: 
+    * Save logs of crossreads
+    * Compare them
+    * Visualize them (in a grid?)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~ DONE
+  
+DONE  - OTHER PAGES: show contents below the timeline
+~~~~	
+
+DONE        * Change arrows's image
+DONE        * Invert colors for right & left arrows`` `
+DONE        * Add title and more to left &  right arrows
+DONE        * Add closing image in the style of the arrow images
+
+DONE  - Text explorer
+DONE  - Balls legend
+
+DONE    - Get a whole text:
+DONE      * Generate all text in one view and and LINK in the title-box
+DONE      * Add access to the whole text in a new window (or in a pop-up-div)
+
+DONE    - Multilanguage of fix text (catalan and spanish?) 
+DONE      -> Add all the string to be translated
+
+
+                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Data
+	* FORMATS:
+		DONE- Define 1 text file json format
+		DONE- Define all-texts metadata format
+		- Define similarities chain json format
+
+	* Data conversion
+DONE- DOC to TXT 
+
+DONE    -> CHECK HOW TO CONVERT DOC TO TXT EXTRACTING THE ITALIC WORDS FROM THE DOC
+
+	* Gabriela/Jaume: 
+		> paragraph similarity:
+			* write definition
+			* code scripts
+			* run data analysis
+		> output of a paragraph's cue of similarity
+
+	* WordStorm images for each text, or for each paragraph: https://github.com/quimcastella/WordStorm
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Other uses found of "crossreads", "cross reads" or similiar variants:
+
+* Deusche wikipedia: http://de.wikipedia.org/wiki/Cross-Reading
+* Linear and Non-linear Reading: Effective Reading Methods. By henne175 on February 22, 2010 http://blog.lib.umn.edu/henne175/myblog/2010/02/linear-and-non-linear-reading-effective-reading-methods.html
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Materials:
+
+- Imaga arrows based on the public domain images by Dr Brains published in wikicommons: http://commons.wikimedia.org/wiki/File:Red_left_arrow.png
+- Fabcybox from http://fancyapps.com/fancybox/
+- Underscorejs
+- Bootstrap
+- Jquery
+- ..
