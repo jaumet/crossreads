@@ -14,7 +14,7 @@ This repo contents:
 - All used data conversion scripts [under data/dataConverters] 
 - And a web interface [100% client-side javascript] that encourage mixed types of exploration, ranging from timeline, to flat list with filters, and crossreading. 
 
-Crossreading enables non-linear navigation by jumping from one piece to another according the pieces similarity, and, firstly, according to reader decitions..
+Crossreading enables non-linear navigation by jumping from one piece to another according the pieces similarity, and, firstly, according to reader decisions..
 
 Flavors
 -------
@@ -26,7 +26,7 @@ NOTE: the collection of writings from Eugeni Bonet are presented in Catalan and 
 
 
 
-[last update: June 26th, 2014]: Active development of 2-crossreads..
+[last update: June 26th, 2014]: Active development of 2-crossreads.
 
 
 
