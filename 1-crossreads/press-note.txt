@@ -1,0 +1,18 @@
+Very happy to anounce a new project: Crossreads
+
+Crossreads is about breaking lineality of narratives. 
+Firstly we segment a text or collection of texts into small pieces. Then we calculate several kinds of similarity among pieces. Finally, a web app allow crossreading of the original texts.
+Those new created narratives (path through pieces of text) produce a different effect on brains reader that the ussualy expected by the autos in a tradicional, linias reading.
+ 
+Crossreads is presented today in the exhibition "THE LISTENING EYE
+EUGENI BONET: SCREENS, PROJECTIONS, WRITINGS" at MACBA (Barcelona, Catalonia, EU)
+
+Exhibition: http://www.macba.cat/en/exhibition-eugeni-bonet
+Crossreads tool: http://www.macba.cat/eugenibonet/
+GitHub: https://github.com/jaumet/crossreads
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+New project: Crossreads. Will be presented today inside "THE LISTENING EYE
+EUGENI BONET" at MACBA (Barcelona, Catalonia, EU) http://www.macba.cat/eugenibonet/
+
