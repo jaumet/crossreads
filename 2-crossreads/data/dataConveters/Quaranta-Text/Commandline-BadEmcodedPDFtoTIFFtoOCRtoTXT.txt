@@ -1,0 +1,7 @@
+
+
+$~ cd /var/www/crossreads/2-crossreads/data/dataConveters/Quaranta-Text/dataConveters/Quaranta-Text/
+$~ ## Convert PDF to TIFF image with Ghostscript (gs)
+$~ gs -dNOPAUSE -sDEVICE=tiffg4 -r600x600 -dBATCH -sPAPERSIZE=a4 -sOutputFile=quaranta-inyourcomputer.tif quaranta-inyourcomputer.pdf
+$~ ## OCR the .tif image
+$~ tesseract quaranta-inyourcomputer.tif  quaranta-inyourcomputer.txt -l engage

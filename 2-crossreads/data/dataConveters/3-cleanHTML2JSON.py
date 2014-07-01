@@ -32,7 +32,7 @@ def replace(directory, filePattern, getDir, saveDir):
           '''Build a list splitting data into "<p>.*</p>" pieces'''
           paragraphsIn = re.compile("(?<!^)\s+(?=\<p\>)(?!.\s)").split(data)
 
-        '''Join paragraphs with len < 1100 characters (including spaces)'''
+        '''Join paragraphs with len < 700 characters (including spaces)'''
         paragraphsOut = []        
         for i, p in enumerate(paragraphsIn):
           # Cleaning paragraphs from bad chatarters
