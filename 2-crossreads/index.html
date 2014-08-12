@@ -87,23 +87,18 @@
       <table class="mytimeline">
       <tr>
         <td id="1975">
-          <c id="2_0" class="t4">.</c>
-          <c id="5_0" class="t4">.</c>
+          <c id="17_1" class="t4">.</c>
+          <c id="1_10" class="t4">.</c>
         </td>
         <td id="1980">
-          <c id="3_0" class="t4">.</c>
-          <c id="4_0" class="t4">.</c>
-          <c id="28_0" class="t4">.</c>
+          <c id="1_2" class="t4">.</c>
+          <c id="1_3" class="t4">.</c>
+          <c id="1_4" class="t4">.</c>
         </td>
         <td id="1985">
           <c id="19_0" class="t2">.</c>
           <c id="26_0" class="t2">.</c>
           <c id="27_0" class="t2">.</c>
-          <c id="39_0" class="t3">.</c>
-          <c id="41_0" class="t3">.</c>
-          <c id="53_0" class="t2">.</c>
-          <c id="36_0" class="t3">.</c>
-          <c id="44_0" class="t2">.</c>
         </td>
         <td id="1990">
           <c id="1_0" class="t1">.</c>
@@ -111,41 +106,18 @@
           <c id="13_0" class="t1">.</c>
           <c id="23_0" class="t3">.</c>
           <c id="29_0" class="t1">.</c>
-          <c id="33_0" class="t2">.</c>
-          <c id="35_0" class="t3">.</c>
-          <c id="38_0" class="t3">.</c>
-          <c id="40_0" class="t3">.</c>
-          <c id="43_0" class="t2">.</c>
-          <c id="45_0" class="t2">.</c>
-          <c id="48_0" class="t2">.</c>
-          <c id="51_0" class="t1">.</c>
-          <c id="54_0" class="t2">.</c>
-          <c id="55_0" class="t2">.</c>
-          <c id="56_0" class="t2">.</c>
         </td>
         <td id="1995">
           <c id="17_0" class="t1">.</c>
           <c id="15_0" class="t2">.</c>
           <c id="20_0" class="t3">.</c>
-          <c id="34_0" class="t1">.</c>
-          <c id="37_0" class="t1">.</c>
-          <c id="42_0" class="t2">.</c>
-          <c id="47_0" class="t2">.</c>
-          <c id="50_0" class="t2">.</c>
-          <c id="52_0" class="t1">.</c>
         </td>
         <td id="2000">
           <c id="21_0" class="t1">.</c>
           <c id="22_0" class="t1">.</c>
           <c id="25_0" class="t1">.</c>
-          <c id="32_0" class="t2">.</c>
-          <c id="46_0" class="t1">.</c>
-          <c id="49_0" class="t2">.</c>
-          <c id="57_0" class="t2">.</c>
         </td>
         <td id="2005">
-          <c id="30_0" class="t1">.</c>
-          <c id="31_0" class="t3">.</c>
           <c id="14_0" class="t3">.</c>
           <c id="6_0" class="t2">.</c>
           <c id="18_0" class="t3">.</c>
@@ -183,7 +155,7 @@
   <!-- top reader container -->  
   <div id="mytopmetadata" class="container">
     <p id="my_youarereading" class="mytag"></p>
-    <p id="title"></p>
+    <p id="title">XXXX</p>
     <div id="toparrow" class="arrowt"></div>
   </div>
 
@@ -272,6 +244,7 @@
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
         meta_title = "<h2>"+val.title+"</h2>";
+//alert(meta_title);
         // Check for images attached to tid
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
@@ -297,8 +270,8 @@
 
     $(mydiv).html(meta_html);
     // Preparing smooth animate() for #text and #title
-    $("#title h2").css({ "opacity": "0" });
-    $("#text p").css({ "opacity": "0" });
+//////    $("#title h2").css({ "opacity": "0" });
+//////    $("#text p").css({ "opacity": "0" });
     $("#myleftcolumn").promise().done(function(){
       $("a.all-text").on('click', function() {
           allText(tid, METADATA);
@@ -361,18 +334,21 @@
 
   function allText(tid, meta)  {
     mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+$("#title h2").html()+'</h1>';
+alert(tid);
     $.getJSON( "data/texts/"+tid+".json", function( data ) {
       $.each( data, function( key, val ) {
         mytext += '<p>'+val.p+'</p>';
       });
       mytext += '</div>';
+alert("XXXX");
+alert($("#allTextWrapper").html());
       if ($("#allTextWrapper").html() == '' ) {
         $("#allTextWrapper").html(mytext);
       }
       $("#allTextWrapper").addClass("allTextWrapper");
       $("#showAllText").addClass("allTextBox");
     });
-    return false;
+    return treu;
   }
   
   function sleep(milliseconds) {

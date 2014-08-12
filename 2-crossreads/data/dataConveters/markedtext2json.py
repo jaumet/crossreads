@@ -22,9 +22,12 @@ for line in output:
       myjson = '[\n'
       for segment in textArray:
         seg = segment.replace('"', '\\"').replace('\n', '<br />').replace('<br /><br />', '<br />')
-        myjson += '\t{\n\t\t"pid" : '+str(textArray.index(segment))+',\n\t	"p" : "'+seg.strip()+'"\n\t},\n' 
+        seg = seg.replace('<br /><<<<<br />', '').replace('<br />>>>><br />', '')
+        seg = re.sub(r"^\<br \/\>|<br \/\>$", "", seg)
+        if (seg.strip() != ""):
+          myjson += '\t{\n\t\t"pid" : '+str(textArray.index(segment))+',\n\t	"p" : "'+seg.strip()+'"\n\t},\n' 
       myjson = myjson[:-2]
-      myjson += '\n];'
+      myjson += '\n]'
       with open(path+str(c)+".json", "w+") as f:
         print ">>>>>>>> "+path+str(c)+".json"
         f.write(myjson)

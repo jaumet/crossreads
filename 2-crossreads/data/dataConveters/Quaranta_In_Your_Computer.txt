@@ -143,7 +143,7 @@ We are in the midst of a major change. At the end of the process, not only the w
 
 The Legend of net.art
 %%%%
-@@@@
+
 
 This text was written in 2005 for the catalogue of the show CONNESSIONI LEGGENDARIE. NET.ART 1995 – 2005, conceived by Luca Lampo ([epidemiC]) and organized in Milan by Luca Lampo, Marco Deseriis, 0100101110101101.org and myself. It was the first large-scale exhibition I was involved in, and I'm still profoundly indebted to it and the brand new perspective it proposed. CONNESSIONI LEGGENDARIE was probably the first serious attempt to talk about net.art as an avant-garde, and to tell and document its stories instead of devitalizing it by bringing bits and pieces of it into gallery space. Unfortunately the catalogue was in Italian, and the exhibition did not reach the international audience it was meant for.
 
@@ -230,7 +230,7 @@ First published in: Luca Lampo, Marco Deseriis, Domenico Quaranta, CONNESSIONI L
 
 0100101110101101.ORG
 %%%%
-@@@@
+
 
 This previously unpublished text was written in 2009 and talks about some of the first works of the net.art duo Eva and Franco Mattes, also known as 0100101110101101.ORG. The text focuses on the concept of identity theft and identity construction, two of the major issues raised by the work of the Italian couple. 
 
@@ -330,7 +330,7 @@ A tenuous identity (Europe) can be unmasked when seen through the narrative ster
 
 Generative Ars
 %%%%
-@@@@
+
 
 This text was written in 2006 for the first edition of the festival C.STEM, a first (and, unfortunately, short-lived) attempt to create an event showcasing recent experiments with software and generative processes on Italian soil. Playing on the ambiguity of the label "Generative Art", the text defines it as a technique (ars, not art), that attempts to bring international debate onto more solid ground.
 
@@ -470,7 +470,7 @@ First published in Domenico Quaranta (ed), C.STEM. Art Electronic Systems and So
 
 LeWitt’s Ideal Children
 %%%%
-@@@@
+
 
 This article was written for an Italian contemporary art magazine in 2005, in an attempt to introduce a topic prevalent in the international debate to the local audience: Software Art and its connections with early conceptual art. Despite its popular approach and some juvenile naivety, the article is original in its attempt to collate various scattered notes into a "theory". Today, "Software Art" as a category is no longer fashionable, but much computer-based art can still benefit from this approach.
 
@@ -643,7 +643,7 @@ http://artport.whitney.org/commissions/softwarestructures/.
 
 F for Fake: Or how I Learned to Manipulate the Media to Tell the Truth 
 %%%%
-@@@@
+
 
 Media manipulation is probably one of the greatest issues of the new millennium. Now more than ever, the truth is unstable, nebulous and difficult to grasp, hidden under layers and layers of information. But if the media manipulate truth, they in turn can be manipulated to interfere with the flow of information, so as to make it clearer or even denser. This article aims to explain the rules at play in today's European net art, and reflect on the relationship between reality and fiction, information and manipulation, the artificial and the authentic, drawing on the latest striking fake by 0100101110101101.org (United We Stand), UBERMORGEN.COM's [F]originals (forged originals) and the cruel hyper-realism of the Where-next website (Molleindustria + Guerrigliamarketing).
 
@@ -745,7 +745,7 @@ First published in Emma McRae and Maria Rizzo (eds.), MESH 19. Global/Regional P
 
 Interview with UBERMORGEN.COM
 %%%%
-@@@@
+
 
 This interview was done by e-mail in November 2008 for the Italian webzine Digimag, and focuses on the last project released by UBERMORGEN.COM at the time, The Sound of eBay. The project, which converts user data from eBay into electronic music, with an interface based on Teletext porn, is the third part of the so-called EKMRZ Trilogy (2005 – 2008), an exploration of  e-commerce after the dotcom crash. In the interview, we talk about consensual hallucinations and corporations, media hacking and affirmative subversion, pop culture and bombs.
 
@@ -824,7 +824,7 @@ First published in Italian in Digimag, Issue 39, November 2008 with the title "I
 
 Remediations. Art in Second Life
 %%%%
-@@@@
+
 
 Around 2006, virtual worlds entered the peak of their hype cycle. One of the pupils of the mass media was Second Life, a synthetic environment that gave its users a high level of freedom, in terms of both design and in-world activity. Unsurprisingly, many of these users were artists and creatives, who used virtual worlds as a new field of experimentation and as a new distribution platform. 
 
@@ -975,7 +975,7 @@ First published in HZ Journal, issue 11, December 2007, online at www.hz-journal
 ########
 Gazira Babeli
 %%%%
-@@@@
+
 
 This text was written as a catalogue text for Gazira Babeli's retrospective exhibition in Second Life. The exhibition, called "Gazira Babeli – [Collateral Damage]", was set up in the land of Odyssey, in a brand new exhibition space called ExhibitA, and was curated by Sugar Seville and Beavis Palowakski, the visionary founders of Odyssey. The catalogue was a red book that awaited the visitor on the exhibition's entrance desk; clicking on it, the text was displayed in a pop up window. 
 
@@ -1170,7 +1170,7 @@ First published with the title "Gaz’, Queen of the Desert" in the catalogue of
 
 Interview with Second Front
 %%%%
-@@@@
+
 
 The following interview was done by email in February 2007, and published on the online platform Rhizome. Since then, Second Front's performances have been shown live in New York, Los Angeles, Moscow, Brussels, Berlin, Vancouver and many other cities, and featured in magazines such as ArtForum and Art in America. Its current seven-member troupe includes Gazira Babeli (Italy), Fau Ferdinand aka Yael Gilks (London), Bibbe Oh aka Bibbe Hansen (New York), Tran Spire aka Doug Jarvis (Victoria), Great Escape aka Scott Kildall (San Francisco), Man Michinaga aka Patrick Lichty (Chicago) and Lizsolo Mathilde aka Liz Solo (St. Johns).
 
@@ -1273,7 +1273,7 @@ This interview was commissioned by and first published in Rhizome.org on March 1
 
 Holy Fire, or My Last New Media Art Exhibition 
 %%%%
-@@@@
+
 
 The following text was written in 2008 for the catalogue of the exhibition Holy Fire. Art of the Digital Age, that I curated with Yves Bernard at the iMAL Center for Digital Cultures and Technology in Bruxelles. The exhibition sparked heated debate, that can still be followed by the reader on websites such as Rhizome and Fluctuat. In the framework of this book, this text introduces the issues of the positioning of New Media Art in the contemporary art field and the current uselessness of the label "New Media Art", and contributes to the international debate about new media curating, better addressed in the following text. 
 
@@ -1425,7 +1425,7 @@ First published in D. Quaranta, Y. Bernard (eds.), Holy Fire. Art of the Digital
 ########
 Lost in Translation. Or, Bringing Net Art to Another Place? Pardon, Context
 %%%%
-@@@@
+
 
 The dramatic explosion of the internet around the mid 90s, and its diffusion as an artistic medium, has ignited the theoretical debate on curatorial practice, rarely livelier than in these last fifteen years. There are many reasons behind this, though it is beyond the scope of this essay to examine them all individually. On the one hand the Net makes the curator's job much simpler: it ensures faster, easier access to information, and email facilitates relations with artists and other members of the art system. 
 
@@ -1595,7 +1595,7 @@ www.epidemic.ws/biannual.html respectively.
 ########
 Interview with Jon Ippolito
 %%%%
-@@@@
+
 
 In 2003, I was reviewing my thesis in order to make a book out of it. The book was later published by my university press with the title "Net Art 1994 – 1998. La vicenda di äda'web" (2004). As the title shows, it was all about äda'web, a "digital foundry" launched in 1994 in New York by the curator Benjamin Weil and the entrepreneur John Borthwick that commissioned many online projects between 1994 and 1998, when it was shut down for lack of funding.
 
@@ -1713,7 +1713,7 @@ The website variablemedia.net provides access to various materials produced by t
 ########
 Don't Say New Media!
 %%%%
-@@@@
+
 
 «Don’t say new media – Say art!» Gazira Babeli
 «Forget the new, drop the media, enjoy art». Régine Debatty [1]
@@ -1835,7 +1835,7 @@ First published in FMR Bianca, n° 5, Franco Maria Ricci, Bologna, December 2008
 
 Interview with Oron Catts
 %%%%
-@@@@
+
 
 Australian artist Oron Catts is the founder of The Tissue Culture & Art Project (TC&A), an ongoing research and development project that explores issues of partial life and semi-living beings. Catts founded the TC&A in 1996, and was joined by Ionat Zurr shortly after. Guy Ben Ary was also a member from 1999 to 2003, and the collective sometimes work in collaboration with other artists. 
 
@@ -1939,7 +1939,7 @@ This interview was originally done for the Italian magazine Cluster. On Innovati
 ########
 It Isn’t Immaterial, Stupid! The Unbearable Materiality of the Digital
 %%%%
-@@@@
+
 
 I have always had problems with the presumed "immateriality" of the digital. First of all because, in the years of the "new media" hype, it has always been sold as a novelty, and as a problem. Second, because it is not true. Hey guys, immateriality in art is all but new: I’m glad to inform you that Yves Klein’s Zones of immaterial pictorial sensibility belong to the Sixties, and that Lucy Lippard wrote about it in the same years (1973). And it’s not a problem. If we are talking about market and saleability, well… Tino Sehgal’s works are immaterial, and they sell quite well; and if we are talking about preservation, when a museum curator has to preserve a video, a neon sculpture or an installation by, let’s say, Mario Merz, all he needs is a couple of tips and tricks to preserve digital art. As Christiane Paul pointed out for new media art [1], digital code may be computable, process-oriented, time-based, dynamic, real-time, participatory, collaborative, performative, modular, variable, generative, customizable. But not immaterial.
 
@@ -2021,7 +2021,7 @@ Commissioned by and first published in the Spanish art magazine Artecontexto, Is
 ########
 Re:akt! Things that Happen Twice 
 %%%%
-@@@@
+
 
 During recent years the term re-enactment and the practices it refers to have enjoyed increasing success in the artistic context. On one hand this success is due to the advent, and success, of a new generation of performance artists interested in staging seminal performances of the past, while on the other hand a series of events, shows and conferences have had a hand in drawing attention to the practice. 
 
@@ -2405,7 +2405,7 @@ In its present form, this text was first published in autumn 2009 in the Croatia
 ########
 Art and Videogames. Enclosures and Border Crossings
 %%%%
-@@@@
+
 
 This text was written in spring 2009 for the catalogue of a show of "concept art", a term used in the world of videogames to describe the sketches and illustrations developed by talented artisans in the making of games. The editors wanted to broaden the viewpoint of the show, and asked me to write a text about other uses of the word "art" in relation to games. I took the opportunity to try to bring some order into the mess that usually develops around the rise of a new cultural genre, and its acceptance into the broader world of culture. Warhol's work felt like a good starting point...
 
@@ -2538,7 +2538,7 @@ First published in Debora Ferrari, Luca Traini (eds), The Art of Games. Nuove fr
 ########
 Cory Arcangel
 %%%%
-@@@@
+
 
 The most striking thing about Cory Arcangel’s work is its eclecticism and the way it totally eschews order. He himself confessed in an interview: «I am a classic multi-tasker. When I was younger, I used to do my homework while watching TV. Now when I watch TV, I surf the web.» [1] He has a website, or rather a blog, or rather two blogs; but these are not necessarily the best place to start for an understanding of his work. He describes himself as a programmer; but that is only one of his identities. He is also a teacher, musician, artist, performer, exhibition curator, and occasionally an art critic. Some of these activities he carries out as Cory Arcangel, others as a part of one of the many collectives of which he is either a member or occasional collaborator: Beige, Contagious Media Group, The 8-bit Construction Set, Gay Beatles, RSG, Paperrad. Often works are even presented as both individual and collective.
 
@@ -2689,7 +2689,7 @@ www.turbulence.org/curators/salvaggio/arcangel.html.
 ########
 Eddo Stern
 %%%%
-@@@@
+
 
 In the beginning, there is life. Or, better, another level of life. It’s the kind of life you can live on a screen, where your face and body change from time to time, according to the adventure you are playing at the time. It’s a kind of life that implies gestures such as pressing furiously the buttons of a keyboard, speaking into a microphone, teaching all your muscles how to behave in order to make the movement of a joystick more fluent and responsive; and in which these gestures are translated into shots, curses, jumps, fights, runs. It’s a kind of life that usually has a soundtrack. 
 
@@ -2810,7 +2810,7 @@ First published in the catalogue of the show "Eddo Stern: Flamewar", curated by 
 ########
 Interview with Tale of Tales
 %%%%
-@@@@
+
 
 Tale of Tales is a game development studio founded in Belgium in 2002 by Michael Samyn and Auriea Harvey. The name was stolen from a famous collection of Italian fairy tales, Lo cunto de li cunti by Giambattista Basile (1634). During the nineties, Samyn and Harvey – at first independently (as zuper! and entropy8) and then together (as entropy8zuper) – developed an extraordinary body of work, using internet technologies – from simple html to Flash – in order to tell stories and engage the audience. Variously labeled as Net art or Web Cinema, this work finds a natural continuation in Tale of Tales projects, especially the first one: "8". 
 
@@ -2893,7 +2893,7 @@ First published in A Minima, issue 10, 2005, pp. 138 – 151 with the title: "A 
 ########
 Reality is Overrated. When Media Go Beyond Simulation
 %%%%
-@@@@
+
 
 «Where is reality? Can you show it to me?» Heinz Von Foerster [1]
 
@@ -3005,7 +3005,7 @@ First published in Artpulse, Vol. 1, N° 3, March – May 2010.
 ########
 Interview with Joan Leandre
 %%%%
-@@@@
+
 
 Joan Leandre defines himself as a "media interpreter." Active as a video artist in the field of independent media from the early 1990s, he won international recognition from 1999 thanks to retroYou (RC) (1999 - 2001), a progressive modification of the parameters used to construct the 3D graphics of a car racing video game. With retroyou nostal(G) (2002 - 2003) he goes on to deconstruct a flight simulator. In both cases, Leandre utilizes software to subvert and re-write a powerful ideological machine, translating a rather conventional generator of reality into a medium for illusions. 
 
@@ -3094,7 +3094,7 @@ First published in Rhizome, May 21, 2008 with the title "A Map to Reach the Impo
 ########
 Is the Future What it Used to Be?
 %%%%
-@@@@
+
 
 I recently read Wired's interview with Andrej Ternovskij, the man behind Chatroulette [1]. I knew that he was really young, and yet I was struck when I read his birth date: April 22, 1992. In 1992 the Web was just coming to life, the Internet was already 23 years old, and the Cold War (one of the main reasons that originated it) was a thing of the past. Ternovskij doesn't know a world without computers - and I'm almost sure he has never seen something older than Windows 98 or Mac OS 9.
 
@@ -3207,7 +3207,7 @@ First published in the catalogue of the show "The Future is Not What It Used to 
 ########
 The Unbearable Aura of a Website. Originality in the Digital Age
 %%%%
-@@@@
+
 
 With the digital medium, Benjamin's theory about the work of art in the age of mechanical reproduction seems to have reached a dead end. When there is no difference between copy and original, the aura fades and rarity can only be artificially simulated. Yet, is this always true? Playing with Benjamin and Groys, this article shows how, like the mythological Phoenix, the aura can resurface in the most replicable digital artifact: the website. 
 
@@ -3335,7 +3335,7 @@ First published in Artpulse, Vol. 2, N° 3, Spring 2011.
 ########
 Petra Cortright
 %%%%
-@@@@
+
 
 «It takes strength to be gentle and kind», the Smiths said in one of Petra Cortright’s favorite songs. It takes strength to take the usual, dumb, stereotyped, commodified imagery of prettiness and kindness and use it in a way that doesn’t look dumb or critical. It takes strength to adopt custom software effects, user friendly tools and vernacular genres and use them to make things that make you talk about art without apparently being anything more than what they are expected to be – a Youtube video or a Photoshop exercise. It takes strength to make art «about beauty and craft», as Ed Halter wrote.
 Petra Cortright’s work has this peculiar strength. 
@@ -3373,7 +3373,7 @@ First published in the exhibition brochure of the solo show of Petra Cortright a
 ########
 Interview with Oliver Laric
 %%%%
-@@@@
+
 
 In the past few months, when people have asked me to suggest something inspiring to read, I’ve always replied: "Go to oliverlaric.com and select Versions." True, Oliver Laric is not a writer but an artist, and Versions is not an essay but a video – or, better, an ongoing art project involving two videos, "a series of sculptures, airbrushed images of missiles, a talk, a PDF, a song, a novel, a recipe, a play, a dance routine, a feature film and merchandise". But if you are looking for a brilliant statement on the visual culture of the Internet age, or an in-depth analysis of its historical roots in Western culture, I couldn’t suggest anything better.
 
@@ -3485,7 +3485,7 @@ First published in Artpulse, Vol. 2, N° 1, Fall 2010, with the title "The Real 
 
 The Art of the Netizens
 %%%%
-@@@@
+
 
 In the beginning was jodi.org, and jodi.org was within the Internet, and jodi.org was the Internet. No joking. It was 1995 when jodi.org appeared in a still relatively small, slow and amateurish World Wide Web. If you were unlucky enough to get into it by chance, you would never forget it. Jodi.org was a trap, a black hole into an under-construction universe, a trash bin, a dumpster. It was a place that you had to navigate without a map, without directions, and without knowing how to get out. It was a place where all the history of the Internet collapsed into a dada collage, an overgrowing Merzbau showing us what the Internet has been, was and would be in the future.
 
