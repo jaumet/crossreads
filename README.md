@@ -1,5 +1,5 @@
 Crossreads 
-==========
+=======
 
 This is a prototype used to explore non-linear reading, or  derive-reading, or cross-reading. This is about to read a text in  alternatives orders. 
 
