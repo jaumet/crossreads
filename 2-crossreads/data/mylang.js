@@ -1,8 +1,8 @@
 var lang_ca = 
 {
-  "mytitle":"<b>Crossreads</b>: In your computer, by D. Quaranta",
-  "my_youarereading":"Est&agrave;s llegint:",
-  "allText":"Tot el text",
+  "mytitle":"<b>Crossreads text:</b>  \"In your computer\", by D. Quaranta",
+  "my_youarereading":"This text info:",
+  "allText":"Full text view",
   "about":"About",
   "mytexts":"texts",
   "myt1":"Genealogies",
@@ -12,8 +12,8 @@ var lang_ca =
   "xofy":"of",
   "footnotes":"Notes al peu:&nbsp;",
   "myarrows":"Forward / backward in reading this text",
-  "myarrows_l":"<i>Jump to a similar text</i>",
-  "myarrows_r":"<i>Jump to a similar text</i>",
+  //"myarrows_l":"<i>Random text</i>",
+  //"myarrows_r":"<i>Similar text</i>",
   "help_timeline":"Explorar els textos<br />fent clic als punts de color",
   "feedback":"Comment",
   "bio":"Biography",
@@ -26,63 +26,35 @@ var lang_ca =
   <span data-cat="3" class="t3c" style="font-size:13px;">Creaci&oacute; d&#39;una gram&agrave;tica</span>&nbsp;&nbsp;\
   <span data-cat="4" class="t4c" style="font-size:10px;">Textos preliminars</span>&nbsp;&nbsp;<my data-cat="all">[Mostra&#39;ls tots]</my></p>\
   <ul class="listTexts">\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="2_0" class="text-list">2. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="5_0" class="text-list">5. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="3_0" class="text-list">3. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="4_0" class="text-list">4. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="28_0" class="text-list">28. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="19_0" class="text-list">19. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="26_0" class="text-list">26. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="27_0" class="text-list">27. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="1_0" class="text-list">1. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="29_0" class="text-list">29. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="11_0" class="text-list">11. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="33_0" class="text-list">33. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="13_0" class="text-list">13. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="23_0" class="text-list">23. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="34_0" class="text-list">34. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="17_0" class="text-list">17. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="15_0" class="text-list">15. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="20_0" class="text-list">20. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="25_0" class="text-list">25. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="32_0" class="text-list">32. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="21_0" class="text-list">21. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="22_0" class="text-list">22. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="30_0" class="text-list">30. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="31_0" class="text-list">31. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="14_0" class="text-list">14. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="6_0" class="text-list">6. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="18_0" class="text-list">18. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="7_0" class="text-list">7. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="8_0" class="text-list">8. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="9_0" class="text-list">9. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="16_0" class="text-list">16. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="12_0" class="text-list">12. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="10_0" class="text-list">10. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">24. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="35_0" class="text-list">35. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="36_0" class="text-list">36. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="37_0" class="text-list">37. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="38_0" class="text-list">38. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="39_0" class="text-list">39. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="40_0" class="text-list">40. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="41_0" class="text-list">41. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="42_0" class="text-list">42. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="43_0" class="text-list">43. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="44_0" class="text-list">44. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="45_0" class="text-list">45. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="46_0" class="text-list">46. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="47_0" class="text-list">47. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="48_0" class="text-list">48. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="49_0" class="text-list">49. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="50_0" class="text-list">50. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="51_0" class="text-list">51. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="52_0" class="text-list">52. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="53_0" class="text-list">53. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="54_0" class="text-list">54. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="55_0" class="text-list">55. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="56_0" class="text-list">56. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="57_0" class="text-list">57. . . . . . . . . </span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="2_0" class="text-list">1. Aknowledgments</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="5_0" class="text-list">2. Introduction</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="3_0" class="text-list">3. The Legend of net.art (2005)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="28_0" class="text-list">4. 0100101110101101.ORG (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="19_0" class="text-list">5. Generative Ars (2006)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="26_0" class="text-list">6. LeWitt\'s Ideal Children (2005)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="27_0" class="text-list">7. F For Fake. Or how I Learned to Manipulate the Media to Tell the Truth (2006)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="1_0" class="text-list">8. Interview with UBERMORGEN.COM (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="29_0" class="text-list">9. Remediations. Art in Second Life (2007)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="11_0" class="text-list">10. Gazira Babeli (2007)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="13_0" class="text-list">11. Interview with Second Front (2007)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="23_0" class="text-list">12. Holy Fire, Or My Last New Media Art Exhibition (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="17_0" class="text-list">13. Lost in Translation, Or Bringing Net Art to Another Place? Pardon, Context (2008)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="15_0" class="text-list">14. Interview with Jon Ippolito (2005)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="20_0" class="text-list">15. Don\'t Say New Media (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="25_0" class="text-list">16.Interview with Oron Catts (2005) </span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="21_0" class="text-list">17. It isn\'t Immaterial Stupid! The Unbereable Materiality of the Digital (2009)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="22_0" class="text-list">18. RE:akt! Reconstruction, Re-enactment, Re-reporting (2009)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="14_0" class="text-list">19. Art and Videogames. Enclosures and border crossings (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="6_0" class="text-list">20. Cory Arcangel (2006)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="18_0" class="text-list">21. Eddo Stern (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="7_0" class="text-list">22. Interview with Tale of Tales (2005)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="8_0" class="text-list">23. Reality is Overrated. When Media Go Beyond Simulation (2010)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="9_0" class="text-list">24. Interview with Joan Leandre (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="16_0" class="text-list">25. Is the Future What it Used to Be? (2010)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="12_0" class="text-list">26. The Unbereable Aura of a Website (2010)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="10_0" class="text-list">27. Petra Cortright (2010)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">28. Interview with Oliver Laric (2010)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">29. The Art of the Netizens (2010)</span></li>\
   </ul>'
 
 
@@ -117,35 +89,35 @@ var lang_es =
   <span data-cat="3" class="t3c" style="font-size:13px;">Creaci&oacute;n de una gram&aacute;tica</span>&nbsp;&nbsp;\
   <span data-cat="4" class="t4c" style="font-size:10px;">Textos preliminares</span>&nbsp;&nbsp;<my data-cat="all">[Muestra todo]</my></p>\
   <ul class="listTexts">\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="2_0" class="text-list">2. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="5_0" class="text-list">5. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="3_0" class="text-list">3. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="4_0" class="text-list">4. . . . . . . . . </span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="28_0" class="text-list">28. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="19_0" class="text-list">19. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="26_0" class="text-list">26. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="27_0" class="text-list">27. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="1_0" class="text-list">1. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="29_0" class="text-list">29. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="11_0" class="text-list">11. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="13_0" class="text-list">13. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="23_0" class="text-list">23. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="17_0" class="text-list">17. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="15_0" class="text-list">15. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="20_0" class="text-list">20. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="25_0" class="text-list">25. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="21_0" class="text-list">21. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="22_0" class="text-list">22. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="14_0" class="text-list">14. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="6_0" class="text-list">6. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="18_0" class="text-list">18. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="7_0" class="text-list">7. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="8_0" class="text-list">8. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="9_0" class="text-list">9. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="16_0" class="text-list">16. . . . . . . . . </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="12_0" class="text-list">12. . . . . . . . . </span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="10_0" class="text-list">10. . . . . . . . . </span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">24. . . . . . . . . </span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="2_0" class="text-list">1. Aknowledgments</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="5_0" class="text-list">2. Introduction</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="3_0" class="text-list">3. The Legend of net.art (2005)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="28_0" class="text-list">4. 0100101110101101.ORG (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="19_0" class="text-list">5. Generative Ars (2006)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="26_0" class="text-list">6. LeWitt\'s Ideal Children (2005)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="27_0" class="text-list">7. F For Fake. Or how I Learned to Manipulate the Media to Tell the Truth (2006)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="1_0" class="text-list">8. Interview with UBERMORGEN.COM (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="29_0" class="text-list">9. Remediations. Art in Second Life (2007)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="11_0" class="text-list">10. Gazira Babeli (2007)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="13_0" class="text-list">11. Interview with Second Front (2007)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="23_0" class="text-list">12. Holy Fire, Or My Last New Media Art Exhibition (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="17_0" class="text-list">13. Lost in Translation, Or Bringing Net Art to Another Place? Pardon, Context (2008)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="15_0" class="text-list">14. Interview with Jon Ippolito (2005)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="20_0" class="text-list">15. Don\'t Say New Media (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="25_0" class="text-list">16.Interview with Oron Catts (2005) </span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="21_0" class="text-list">17. It isn\'t Immaterial Stupid! The Unbereable Materiality of the Digital (2009)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="22_0" class="text-list">18. RE:akt! Reconstruction, Re-enactment, Re-reporting (2009)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="14_0" class="text-list">19. Art and Videogames. Enclosures and border crossings (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="6_0" class="text-list">20. Cory Arcangel (2006)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="18_0" class="text-list">21. Eddo Stern (2009)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="7_0" class="text-list">22. Interview with Tale of Tales (2005)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="8_0" class="text-list">23. Reality is Overrated. When Media Go Beyond Simulation (2010)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="9_0" class="text-list">24. Interview with Joan Leandre (2008)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="16_0" class="text-list">25. Is the Future What it Used to Be? (2010)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="12_0" class="text-list">26. The Unbereable Aura of a Website (2010)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="10_0" class="text-list">27. Petra Cortright (2010)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">28. Interview with Oliver Laric (2010)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="24_0" class="text-list">29. The Art of the Netizens (2010)</span></li>\
   </ul>'
 
 };

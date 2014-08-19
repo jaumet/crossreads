@@ -145,6 +145,8 @@ my {
   background-color:#2A2A2A;   /****/
 }
 
+#bottomright div,
+#bottomleft div,
 .fancybox2 img,
 a.fancybox img,
 #otherpages,
@@ -191,7 +193,7 @@ a.list-group-item.active {
 #mycentercolumn  {
 	height: 400px;
   padding: 25px;
-  margin:20px;
+  margin: 20px;
 }
 
 #myrightcolumn img {
@@ -199,24 +201,39 @@ a.list-group-item.active {
 	width: 50px;
 }
 #myrightcolumn p  {
-  float:left;
-  margin-right:20px;
+  float: left;
+  margin-right: 20px;
 }
 #myrightcolumn a {
-  float:right;
+  float: right;
 }
 
 #mybottommetadata {
-  margin-top:20px;
-  min-height:260px;
+  margin-top: 20px;
+  min-height: 260px;
 }
 
 #bottomleft div a, #bottomleft div span {
-  float:right;
+  float: right;
 }
 
+#bottomleft div a img, #bottomright div a img {
+  width: 20%;
+}
+ 
 #bottomright div a, #bottomright div span {
-  float:left;
+  float: left;
+}
+
+#bottomleft div, #bottomright div {
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+#bottomleft div i, #bottomright div i {
+  padding: 15px;
+  color:white;
 }
 
 #bottomleft {
@@ -286,7 +303,7 @@ a.list-group-item.active {
   width:50px;
 }
 
-.arrow img:hover, .arrowt img:hover, .arrowb img:hover{
+.arrow img:hover, .arrowt img:hover, .arrowb img:hover, #bottomleft div:hover, #bottomright div:hover {
   opacity: 0.3;
 }
 

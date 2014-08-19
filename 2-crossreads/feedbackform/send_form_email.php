@@ -12,7 +12,7 @@
 if(isset($_POST['email'])) {
   // EDIT THE 2 LINES BELOW AS REQUIRED 
   $email_to = "jaumeriereta@gmail.com";
-  $email_subject = "Crossreads :: In Your COmputer, by D. Quaranta :: FeedBack Form";
+  $email_subject = "Crossreads :: In Your Computer, by D. Quaranta :: FeedBack Form";
 
   function died($error) {
     // your error code can go here 
