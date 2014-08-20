@@ -170,13 +170,10 @@
   <div id="mynotes">
     <div id="mystore"></div>
     <div id="wname"></div>
-    <!--
-    <div id='event-description'></div>
-    -->
   </div>
   <footer>
      <p><a href="." target="_macba"><img src="images/icon.png" width="40px" /></a>&nbsp;&nbsp;&nbsp;Crossreads is published under free licenses:  Software [<a href="http://www.gnu.org/copyleft/gpl.html" target="gpl">GPL</a>] & Texts [<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca" target="creative_commons">CC-BY-NC-ND</a>]. Canberra (AU), 2014.
-     <span id="mytweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="." data-text="Crossreads: a tool to non-linear reading" data-via="Jaume Nualart" data-count="none" data-hashtags="crossreads">Tweet</a></span>
+     <span id="mytweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="." data-text="Crossreads: a tool for non-linear reading" data-via="jaumetet" data-count="none" data-hashtags="tsio2014">Tweet</a></span>
      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
   </footer>
  </div> <!--wrapper div close-->
@@ -479,7 +476,7 @@
         $("#otherpages").html('');
         $("#otherpages").css({"display":"none"});
       } else {
-        $("#otherpages").html(currentLang["page-default"]+textList);
+        $("#otherpages").html(currentLang["page-default"]+currentLang["textList"]);
         $("#otherpages").animate({ "opacity": "1" }, 1300 );
       }
     });
@@ -489,7 +486,6 @@
   // Filters for list of texts
    $("p.myfilters span:not(:first), my").on('click', function() {
     filter = $(this).data("cat");
-    //alert ("filter: "+filter);
     if (filter == "all") {
       // Show all
       $("li[data-cat]").css("display","block")

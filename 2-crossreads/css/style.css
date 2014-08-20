@@ -72,7 +72,7 @@ c {
   border-top-right-radius:50%;
   width: 10px;
   height: 10px;
-  line-height:1px;
+  line-height:1px;dppx
   display:inline-block;
   margin:4px;
   margin-bottom:1px;
@@ -511,44 +511,3 @@ c {
 #mytweet {
   float:right;
 }
-
-/*********************************************/
-/*********************************************/
-/*  White & Black crossreads theme */
-/*
-body {
-  color:#605F53;
-  background-color:#FFFFFF;
-}
-
-a.list-group-item.active, 
-.jumbotron, 
-a.list-group-item.active:hover, 
-a.list-group-item.active:focus, 
-.mytag,
-.allTextBox,
-#mycentercolumn, 
-#myleftcolumn, 
-#myrightcolumn {
-  color:#605F53;
-  background-color:#FFFFFF;
-  border-color:#000000;
-}
-
-a.list-group-item.active:hover, a.list-group-item.active:focus {
-  border-color:#000000;
-}
-.xofy, .all-text {
-  color:#FFFFFF;
-  background-color:#000000;
-}
-
-.all-text:hover,
-.allTextWrapper,
-.other,
-.lang,
-.legend   {
-  color:#000000;
-  background-color:#FFFFFF;
-}
-*/
