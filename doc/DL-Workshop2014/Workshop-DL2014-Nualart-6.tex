@@ -1,0 +1,246 @@
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{sigplanconf}
+\usepackage{mathptmx}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{color}
+\usepackage[numbers]{natbib}
+
+\makeatletter
+\@ifundefined{date}{}{\date{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\bibliographystyle{plainnat}
+
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+%\conferenceinfo{DL2014}{11, 12 Setember 2014, London.}  
+%\copyrightyear{2014}  
+%\copyrightdata{[Creative Commons by-sa]}  
+% \titlebanner{banner}                          % These are ignored unless % 
+% \preprintfooter{Creative Commons by-sa}   % 'preprint' option specified. 
+
+\title{Crossreads} 
+\subtitle{Towards a rhizomatic narrative}
+\authorinfo{Jaume Nualart} {University of Canberra (AU), University of Barcelona (CAT), and National ICT Australia (NICTA)} {jaume.nualart@canberra.edu.au}
+\authorinfo{Gabriela Ferraro} {National ICT Australia (NICTA) and Australian National University, Australia} {gabriela.ferraro@nicta.com.au}
+
+\maketitle
+\begin{abstract}
+We present Crossreads, a manner to deconstruct linear narratives and
+to read texts in multiple orders. This is an ongoing work that studies
+data multiplicity, as well as textual visualization interfaces. The
+process starts with a text selection, then the text is segmented into
+small blocks, and a similarity among them is calculated, forming a
+network data set. Finally, a web interface allows the user to explore
+and read through the created network of texts. 
+\end{abstract}
+
+\category{H,5,4}{information Interfaces and Presentation}{Hypertext/Hypermedia: navigation}
+\terms Experimentation
+\keywords narrative, deconstruction, data multiplicity, visualization.
+
+
+\section{Introduction}
+
+Inspired by works like Rhizome \cite{deleuze1987introduction} we
+present an ongoing project in the domain of information seeking and
+discovery called Crossreads. This work proposes an experimental way
+of reading texts, alternative to traditional linear reading. We propose
+to break the initial narrative line of a text by segmenting that text
+into small parts. Then we reorder the segments according to similarity
+scores, and, finally, we offer to the reader multiple paths to read
+the text. The aims of this project are to explore and study the effects
+when a reader processes fragmented information, as well as to analyze
+user activity and support reader\textquoteright{}s exploration with
+visualization techniques: the interaction text-reader, the text as
+a collection of segments, the most popular reading paths, and so on.
+At this stage of the project we cannot tell accurately what the benefits
+of crossreading texts are. According to some authors, learners naturally
+make connections between pieces of knowledge, and they are better
+able to retrieve and apply their knowledge when those connection are
+accurate and meaningful \cite{ambrose2010learning}.
+
+Crossreads outputs are a network data set where nodes are segments
+of text, and an interface that supports nonlinear reading in different
+ways. 
+
+This project is part of a practice-led PhD project that has three
+main focus: the study of text visualization approaches, the multidisciplinary
+of the field, and the process of design and development tools. The
+presented approach, Crossreads, is one of the artefacts created as
+part of the PhD. The whole project includes a proposed new classification
+of text visualization tools \cite{nualart2014we}, a visualization
+tool for single texts \cite{nualart_texty_2013}, and two visualization
+tools to explore and overview collections of texts \cite{Area_2013_},
+\cite{visference_2013_}.
+
+In the following sections, we discuss related work and influences.
+Then, we present the experiments done so far. Finally, we present
+some conclusions and directions for future work.
+
+
+\section{Related work}
+
+Several works in the past have explored the possibilities of breaking
+the linearity of a text. As mentioned in the introduction, the philosophers
+Deleuze and Guattari have described the rhizomatic structure of knowledge,
+which inspires this project too: \textquotedblleft{}In a book, as
+in all things, there are lines of articulation, segmentarity, strata
+and territories; but also lines of flight, movement, deterritorialization
+and destratification\textquotedblright{}. In the novel Hopscotch by
+J. Cortázar \cite{cortazar1966hopscotch}, the author proposes two
+reading order for the chapters; the text starts with: \textquotedblleft{}In
+its own way this book is many books, but mostly it's two books\textquotedblright{}.
+The Project Xanadu from 1960 \cite{project_xanadu_1960_} is considered
+the first hypertext project in the digital era, and it was a visionary
+definition of standards for the WWW that were mostly not included
+in the standard protocols. One of Xanadu\textquoteright{}s rules states:
+\textquotedblright{}Every document can consist of any number of parts
+each of which may be of any data type.\textquotedblright{}. The open
+Xanadu project is accessible and like Crossreads, it encourages nonlinear
+navigation of text. The aim of Xanadu\textquoteright{}s demo is to
+demonstrate the possibilities of hypertext.
+
+Those are the main examples that make us to investigate the effects
+of reading in alternative ways in combination with normal reading.
+
+
+\section{Experiments}
+
+Currently, two versions of Crossreads have been developed (I and II).
+Version I is part of an exhibition at Museum of Contemporary Art of
+Barcelona (MACBA), with texts in Catalan and Spanish by the artist
+Eugeni Bonet \cite{crossreads_macba_2014_}. Version II uses texts
+in English by Domenico Quaranta about media art, compiled in the book
+``In Your Computer'' \cite{quaranta2011your}, and it is accessible
+on line \cite{crossreads_quaranta_2014_}. In both cases, the texts
+used are licensed under Creative Commons.
+
+The creation of crossreads implies two different tasks: (i) data preparation
+and analysis. and (ii) interface design. 
+
+
+\subsection{Data preparation and analysis}
+
+During the data preparation and analysis task, three main steps have
+been identified: data set selection, data segmentation, and similarity
+calculus. 
+
+
+\subsubsection{Data set selection}
+
+So far, we have experimented using data sets from a single author and, more research should be done in order to propose text collections from multiple authors, topics, languages and other criteria. 
+
+The original data used for this experiment, in the two versions, have a particular feature: the data, i.e. the texts, are collections of documents opinion and critic documents compiled in books. We designed Crossreads respecting the original documents.
+The interface also enables linear reading of each document of the collection. In the future, we do not see any design problems if the original data is considered one single document. 
+
+
+\subsubsection{Data segmentation}
+
+We have experimented with two segmentation approaches, with 
+different benefices.
+In both versions (I and II) each document is divided into segments, where each segment consists of one or more existing paragraphs. The segments length is about seven hundred characters in total; which is an average of one minute of reading for an adult \cite{williams1998guidelines}. 
+In Version I, segmentation is machine produced. In Version II, segmentation is human curated. Version I method is fast and able to process big collections. Version II method could be richer in terms of quality of the segments.
+
+The reason for this two approaches is: this segmentation task is very subjective. A human expert could add a personal view to the segmentation (Version II). A machine produced  segmentation (Version I) can accomplish well this task in terms of size of each segment, but it cannot be expected the richness of an expert. We wanted to compare both ways as part of the initial experimentation that will be validated by the user evaluation test.
+
+\subsubsection{Data similarity}
+
+For the similarity calculus between segments, thus to create the Crossreads network, we use the following of-the-shelf Natural Language Processing tools and techniques:
+
+\begin{itemize}
+\item Tokenization: words in the segments are separated by white space and punctuation characters. 
+\item Stop word removal: standard stop word removal. 
+\item Named Entity Recognition: identification and classification of Named Entities (NE) in each segment. We applied the OpenNLP Named Entity recogniser \cite{baldridge2005opennlp}, which distilled four types of entities, Person, Location, Organization and Others.
+\item Similarity Calculus between segments.
+\end{itemize}
+
+The similarity between pairs of segments is calculated as the sum of the following factors, 
+
+\medskip{}
+
+
+\begin{center}
+$Sim(i,j)=TokSim+EntitySim+NESim/3$
+\par\end{center}
+
+\medskip{}
+
+
+where TokSim is the token cosine similarity between segments, which is a common vector based similarity measure. To calculate the similarity, the tokens of each segment are transformed into vectors and then the Euclidean cosine is used to determine the similarity between pairs of vectors; EntitySim is the sum of the NEs in each segment, normalized  by the number of tokens in both segments; and NESim is the cosine similarity between NE. During this process, the similarity between different NE types (Person, Location, Organization and others) is calculated separately. 
+
+The similarity between the segments is calculated as follows.
+First, an arbitrary segment \textit{i} is chosen and used to calculate the similarity between the segment \textit{i} and the entire segment collection.
+Second, the segment with the highest similarity value score is set as the maximum similar segment of \textit{i}. Since linear reading of a documents is enabled, in each iteration we decided to skip links to segments of the same document as segment \textit{i}.
+Finally, we applied different constraints to Version I and II, which are:
+
+\begin{description}
+\item Version I: in the crossreads network, each segment is linked to its most similar segment. The drawback of this approach is that links will have a wide range of similarity score, since in every iteration, the number of segments to compare with is smaller, and the possibility of finding a segment with a high similarity score decreases.
+The benefit it will not be orphan segments, i.e. all segments link to other segments, so the reader will always have the possibility to do crossreading.
+
+\item Version II: each segment is linked to most similar one.. To avoid repetition of pairs, segments that has been already set as a maximum similarity segment during ten iterations are skipped. After ten iterations, the skipped segments are use again in the similarity calculus.
+\end{description}
+
+%At this point Version I and II differ in applied constraints:
+%\begin{itemize}
+%\item Version I includes all the segments in the Crossreads chain; the price for this is that some relations have little similarity. The benefit is that the reader can always jump to another segment.
+%\item Version II not all the segments are included only once in the crossreading paths. In Version II, each segment has the most similar segment as related with one constraint: not repeated pairs are allowed. To avoid repetition, when is needed we take the second most similar segment. 
+%\end{itemize}
+Again, both methods need to be evaluated by users.
+
+\subsection{Interface design and visualization }
+
+The interface has been designed to allow maximum comfort for the reader experience. It allows linear reading of the texts in combination with crossreading. A reader can choose any text of the collection to read.
+The collection of texts is presented in a time-line, and in a flat list with text-category filters. Both versions share a similar interface, with minimal differences according to the different data analysis and authors decisions.
+
+
+In both cases there is a design principle: vertical navigation for linear reading of documents \textemdash{}using standard up and down arrows images\textemdash{} , and horizontal navigation for crossreading \textemdash{}using specially designed left and right arrows images.
+
+
+
+Version I of the interface is adapted to the context of a museum exhibition. The interface has been assessed by a team of experts from MACBA including producers, curators and art historians. In this version, when the user reads a segment of text, there are two links to jump to \textemdash{}right
+and left\textemdash{}
+With the right link, the reader
+goes to its most similar segment.
+With the left link, the reader goes to its second most similar segment. Thus, both links offered the
+crossreads experience. In the links, it is announce the title of the
+document the links goes to, proving the user with some context before
+following the links.
+Version II of the interface has evolved offering link nuances.
+With the right link, the reader goes to its most similar segment. The
+link context is also showed as in Version I. Furthermore, the quality
+of the link is represented with an icon, which shows the similarity
+score between the current segment and the segment in the right link,
+as well as the token and entities similarity scores. With the left link,
+the reader jumps to a random segment of the collection.
+
+
+%This two links are the similar to the one that is being read. Both links announce  title and meta-data, providing the user with some context before following the actual link. 
+
+%Version II of the interface has evolved offering link nuances. With the right link, the reader goes to the most similar segment. Link context is also showed as in Version I,  and also the quality of the link ir represented with an icon, showing: global similarity score among segments, token similarity score, and a weight for each entity type. With the left link the user can jump to a random segment of the collection.
+
+
+
+
+
+\section{Conclusions and future work}
+
+Crossreads proposes a novel way to explore a text collection, based on text segmentation, the textual similarity between
+the segmented pieces of texts, and a reader interface. 
+For future work, a user evaluation is planned in order to assess:
+(i) the impact of the human and the automatic segmentation approaches in the crossreads experience, (ii) how the similarity among segments is interpreted by readers, and (iii) the effect of crossreading in the learning process.
+
+Furthermore, future work will focus in discussing the conditions that a text must accomplish in order to suits crossreading, for example, one or multiple authors, one or multiple genres, monolingual and/or multilingual collections, just to mention a few variables.
+
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+
+
+\end{document}
