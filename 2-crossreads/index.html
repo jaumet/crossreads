@@ -44,7 +44,8 @@
   <link href="css/style.css" rel="stylesheet">
   <script type='text/javascript' src='data/mylang.js'></script>
   <script type="text/javascript" src="data/data.js"></script>
-  <script type='text/javascript' src='data/sim.js'></script>
+  <!--<script type='text/javascript' src='data/sim.js'></script>-->
+  <script type='text/javascript' src='data/sim1.js'></script>
   <!-- end crossreads files -->
 </head>
 <body>
@@ -70,42 +71,42 @@
            <c id="16_0" class="t4">.</c>
            <c id="14_0" class="t4">.</c>
            <c id="6_0" class="t3">.</c>
-           <c id="3_0" class="t3">.</c>
+           <c id="3_0" class="t1">.</c>
         </td>
         <td id="2006">
-           <c id="20_0" class="t4">.</c>
+           <c id="20_0" class="t2">.</c>
            <c id="8_0" class="t4">.</c>
-           <c id="7_0" class="t4">.</c>
-           <c id="5_0" class="t3">.</c>
+           <c id="7_0" class="t3">.</c>
+           <c id="5_0" class="t1">.</c>
         </td>
         <td id="2007">
-           <c id="11_0" class="t2">.</c>
-           <c id="10_0" class="t2">.</c>
-           <c id="9_0" class="t2">.</c>
+           <c id="11_0" class="t4">.</c>
+           <c id="10_0" class="t1">.</c>
+           <c id="9_0" class="t3">.</c>
         </td>
         <td id="2008">
-           <c id="15_0" class="t1">.</c>
-           <c id="13_0" class="t1">.</c>
+           <c id="15_0" class="t3">.</c>
+           <c id="13_0" class="t3">.</c>
            <c id="12_0" class="t1">.</c>
-           <c id="24_0" class="t3">.</c>
+           <c id="24_0" class="t4">.</c>
         </td>
         <td id="2009">
            <c id="21_0" class="t2">.</c>          
-           <c id="19_0" class="t1">.</c>
-           <c id="18_0" class="t2">.</c>
+           <c id="19_0" class="t2">.</c>
+           <c id="18_0" class="t3">.</c>
            <c id="17_0" class="t3">.</c>
-           <c id="4_0" class="t3">.</c>
+           <c id="4_0" class="t2">.</c>
         </td>
         <td id="2010">
-           <c id="29_0" class="t1">.</c>
-           <c id="28_0" class="t1">.</c>
-           <c id="27_0" class="t1">.</c>
-           <c id="26_0" class="t1">.</c>
-           <c id="25_0" class="t1">.</c>
-           <c id="23_0" class="t1">.</c>
+           <c id="29_0" class="t3">.</c>
+           <c id="28_0" class="t4">.</c>
+           <c id="27_0" class="t2">.</c>
+           <c id="26_0" class="t3">.</c>
+           <c id="25_0" class="t3">.</c>
+           <c id="23_0" class="t3">.</c>
         </td>
         <td id="2011">
-           <c id="2_0" class="t3">.</c>
+           <c id="2_0" class="t2">.</c>
            <c id="1_0" class="t2">.</c>
         </td>
       </tr>
@@ -116,13 +117,13 @@
       <div class="legend">
         <span><b>57 <span id="mytexts">textos</span></b>
         <br /><br />
-        <span id="myt2" class="t2c" style="font-size:17px;">Galer&iacute;a de notables</span><br />
-        <span id="myt1" class="t1c" style="font-size:15px;">Genealog&iacute;as</span><br />
-        <span id="myt3" class="t3c" style="font-size:13px;">Creaci&oacute;n de una gram&aacute;tica</span><br /> 
-        <span id="myt4" class="t4c" style="font-size:10px;">Textos preliminares</span>
+        <span id="myt3" class="t3c" style="font-size:16px;">Opinion</span><br /> 
+        <span id="myt4" class="t4c" style="font-size:14px;">Interview</span><br />
+        <span id="myt2" class="t2c" style="font-size:14px;">Presentation</span><br />
+        <span id="myt1" class="t1c" style="font-size:11px;">Catalogue</span>
       </span></div>
       <div class="legend">
-          <span id="help_timeline">Exploreu els textos<br /> fent clic als punts de color</span>
+          <span id="help_timeline">To explore texts<br />click colored points</span>
       </div>
     </div>
   </div>
@@ -188,7 +189,7 @@
     // Comment or uncomment
     // it calculates font-size  for the topics of the timeline
     /*
-    tt= [17, 23, 12, 5];        
+    tt= [4, 7, 11, 7];        
     var total = 0;
     $.each(tt, function(i, v) {
       total += v;
@@ -196,10 +197,9 @@
     tt1 = 10*tt[0]/total;
     tt2 = 10*tt[1]/total;
     tt3 = 10*tt[2]/total;
-    tt4 = 12*tt[3]/total;
+    tt4 = 10*tt[3]/total;
     console.log ("TOTAL= "+total+" || tt1= "+tt1+" | tt2= "+tt2+" | tt3= "+tt3+" | tt4= "+tt4);     
-    
-    TOTAL= 56 || tt1= 2.857142857142857 | tt2= 4.107142857142857 | tt3= 2.142857142857143 | tt4= 1.0714285714285714  
+    //TOTAL= 29 || tt1= 1.3793103448275863 | tt2= 2.413793103448276 | tt3= 3.793103448275862 | tt4= 2.896551724137931 
     */
   </script>
 
@@ -248,22 +248,32 @@
     });
   }
 
-  function loadLeftAndRightLinks(myIndex, sim) {
+  function loadLeftAndRightLinks(myIndex, sim1) {
     // Right similar segment
-    if (_.has(sim, myIndex+1)) {
-            rightIndex = sim[myIndex+1];
-    } else {
-            rightIndex = " _ ";//sim[0];
-    }
-    $("#bottomright div").html('<a href="#" id="'+rightIndex+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i></a><span></span>');    
+    var sim = _.keys(sim1)
+    // Link quality:
+    var linkQuality =  sim1[myIndex];
+    var target = linkQuality["target"];
+    // Kind of Entity:
+    var Epersons = linkQuality["perScore"];
+    var Edate = linkQuality["dateScore"];
+    var Elocation = linkQuality["locScore"];
+    var Eunknown = linkQuality["unkScore"];
+    var myEntities = "";
+    if( Epersons > 0) {myEntities += '<img src="images/glyphicons_043_group.png" alt="persons" />';}
+    if( Edate > 0) {myEntities += '<img src="images/glyphicons_054_clock.png" alt="persons" />';}
+    if( Elocation > 0) {myEntities += '<img src="images/glyphicons_242_google_maps.png" alt="persons" />';}
+    //if( Eunknown > 0) {myEntities += '<img src="images/glyphicons_194_circle_question_mark.png" alt="persons" />';}
+console.log("MYINDEX: "+myIndex+" | TARGET = "+target);    
+    $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i><br />'+myEntities+'<span></span></a>');
+
     // Left random segment:
     var leftIndex = sim[_.random(sim.length-1)];
+    console.log("LEFT INDEX: "+leftIndex);
     $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><i>Random text</i><img src="images/dice.png" /></a><span></span>');
 
     // Right and left title boxes
-    ////myl = leftIndex.split('_');
-    ////loadMetadataIn(myl[0], "#bottomleft div span", "left");
-    myr = rightIndex.split('_');
+    myr = myIndex.split('_');
     loadMetadataIn(myr[0], "#bottomright div span", "right");
   }
 
@@ -300,14 +310,11 @@
 
   function allText(tid, meta)  {
     mytext = '<div id="showAllText"><div id="closeAllText"><img id="close" src="images/w_close.png" /></div><h1>'+$("#title h2").html()+'</h1>';
-//alert(tid);
     $.getJSON( "data/texts/"+tid+".json", function( data ) {
       $.each( data, function( key, val ) {
         mytext += '<p>'+val.p+'</p>';
       });
       mytext += '</div>';
-//alert("XXXX");
-//alert($("#allTextWrapper").html());
       if ($("#allTextWrapper").html() == '' ) {
         $("#allTextWrapper").html(mytext);
       }
@@ -396,8 +403,10 @@
     // left & right arrows checking
     $("div.arrow").html('').promise().done(function(){
       // Get the id of the text on the centre ;-)
-      myIndex = _.indexOf(sim, tid+"_"+pid);
-      loadLeftAndRightLinks(myIndex, sim);
+      var sim = _.keys(sim1)
+      //myIndex = _.indexOf(sim, tid+"_"+pid);
+      //loadLeftAndRightLinks(myIndex, sim1);
+      loadLeftAndRightLinks(tid+"_"+pid, sim1);
       $("a.arrow").on('click', function() {
         $("c").css({"border":"0 solid yellow"});
         myid = this.id;

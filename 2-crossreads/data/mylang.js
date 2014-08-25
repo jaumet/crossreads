@@ -5,10 +5,10 @@ var lang_ca =
   "allText":"Full text view",
   "about":"About",
   "mytexts":"texts",
-  "myt1":"Genealogies",
-  "myt2":"Galeria de notables",
-  "myt3":"Creaci&oacute; d\'una gram&agrave;tica",
-  "myt4":"Textos preliminars",
+  "myt1":"Catalogue",
+  "myt2":"Presentation",
+  "myt3":"Opinion",
+  "myt4":"Interview",
   "xofy":"of",
   "footnotes":"Footnotes:&nbsp;",
   "myarrows":"Forward / backward in reading this text",
@@ -22,38 +22,39 @@ var lang_ca =
   "page-default":'<a class="fancybox2" rel="group" target="_lulu" href="http://www.lulu.com/shop/domenico-quaranta/in-your-computer/ebook/product-20005847.html"><img src="images/in-your-computer--cover.jpg" class="textwrap" /></a><p>&nbsp;</p><p>Welcome to Crossreads interface (version 2)<br />We are presenting the text "In Your Computer", by Domenico Quaranta (2011)<br />This book is a collection of texts written by Domenico Quaranta between 2005 and 2010 for exhibition catalogues, printed magazines and online reviews: a pocket version of what the author would save from the universal flood, in a world without computers. Most of the fields of research he has developed are represented: from Net Art to Software Art and videogames, from biotechnologies to the debate around curating and the positioning of New Media Art in the contemporary landscape, and back to Net Art again. <i>(this is an excerpt from the Introduction)</i></p><p>The book is divided in 29 texts, including acknowledgments and introduction.</p><p>&nbsp;</p><p>LIST OF TEXTS</p>',
   "page-about":'<div id="closeAllText"><img id="close" src="images/w_close.png" /></div>XXXX <i> XXXX</i> XXXX</li></ul>',  
   "page-credits":'<div id="closeAllText"><img id="close" src="images/w_close.png" /></div><p><b>Cr&egrave;dits del projecte</b></p><p><b>P&Agrave;GINA WEB</b></p><p>Concepte: S&ograve;nia L&oacute;pez i <a href="http://nualart.cat" target="_jaume">Jaume Nualart</a><br />Coordinaci&oacute;: S&ograve;nia L&oacute;pez<br />Codi: <a href="http://nualart.cat" target="_jaume">Jaume Nualart</a>, amb la col&middot;laboraci&oacute; de <a href="http://users.cecs.anu.edu.au/~gferraro/" target="_gaby">Gabriela Ferraro</a> </p><p><b>PUBLICACI&Oacute;</b></p><p>Concepte: Eugeni Bonet i Valent&iacute;n Roma<br />Coordinaci&oacute; i edici&oacute;: Ester Capdevila i Clara Plasencia<br />Disseny gr&agrave;fic: Hermanos Berenguer<br />Documentaci&oacute; gr&agrave;fica: Gemma Planell<br />Traducci&oacute;: Carlos Mayor (pp. 216-232 i 235-245)<br />M&eacute;s informaci&oacute; a: <a href="http://www.macba.cat/exhibition-eugeni-bonet" target="_blank">http://www.macba.cat/es/publi-eugeni-bonet</a></p><p><b>PROJECTE EXPOSITIU</b></p><p>Comissari: Valent&iacute;n Roma<br />Curadora adjunta: Hiuwai Chu<br />Equip del projecte: Ester Capdevila, Tonina Cerd&agrave;, Eva Font, Miquel Giner, Yolanda Jolis, S&ograve;nia L&oacute;pez, Yolanda Nicol&aacute;s, Clara Plasencia, Llu&iacute;s Roqu&eacute; i Albert Toda.</p>',
-  "textList":'<p class="myfilters"><span>Filter by category:&nbsp;&nbsp;</span><span data-cat="2" class="t2c" style="font-size:17px;">Galeria de notables</span>&nbsp;&nbsp;<span data-cat="1" class="t1c" style="font-size:15px;">Genealogies</span>&nbsp;&nbsp;\
-  <span data-cat="3" class="t3c" style="font-size:13px;">Creaci&oacute; d&#39;una gram&agrave;tica</span>&nbsp;&nbsp;\
-  <span data-cat="4" class="t4c" style="font-size:10px;">Textos preliminars</span>&nbsp;&nbsp;<my data-cat="all">[Mostra&#39;ls tots]</my></p>\
+  "textList":'<p class="myfilters"><span>Filter by category:&nbsp;&nbsp;</span><span data-cat="3" class="t3c" style="font-size:16px;">Opinion</span>&nbsp;&nbsp;\
+  <span data-cat="4" class="t4c" style="font-size:14px;">Interview</span>&nbsp;&nbsp;\
+  <span data-cat="2" class="t2c" style="font-size:14px;">Presentation</span>&nbsp;&nbsp;\
+  <span data-cat="1" class="t1c" style="font-size:11px;">Catalogue</span>&nbsp;&nbsp;<my data-cat="all">[Mostra&#39;ls tots]</my></p>\
   <ul class="listTexts">\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="1_0" class="text-list">1. Aknowledgments</span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="2_0" class="text-list">2. Introduction</span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="3_0" class="text-list">3. The Legend of net.art (2005)</span></li>\
-  <li class="t4l" data-cat="4" data-type=""><a href="#" id="4_0" class="text-list">4. 0100101110101101.ORG (2009)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="5_0" class="text-list">5. Generative Ars (2006)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="6_0" class="text-list">6. LeWitt\'s Ideal Children (2005)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="7_0" class="text-list">7. F For Fake. Or how I Learned to Manipulate the Media to Tell the Truth (2006)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="8_0" class="text-list">8. Interview with UBERMORGEN.COM (2008)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="9_0" class="text-list">9. Remediations. Art in Second Life (2007)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="1_0" class="text-list">1. Aknowledgments</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="2_0" class="text-list">2. Introduction</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="3_0" class="text-list">3. The Legend of net.art (2005)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="4_0" class="text-list">4. 0100101110101101.ORG (2009)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="5_0" class="text-list">5. Generative Ars (2006)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="6_0" class="text-list">6. LeWitt\'s Ideal Children (2005)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="7_0" class="text-list">7. F For Fake. Or how I Learned to Manipulate the Media to Tell the Truth (2006)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="8_0" class="text-list">8. Interview with UBERMORGEN.COM (2008)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="9_0" class="text-list">9. Remediations. Art in Second Life (2007)</span></li>\
   <li class="t1l" data-cat="1" data-type=""><a href="#" id="10_0" class="text-list">10. Gazira Babeli (2007)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="11_0" class="text-list">11. Interview with Second Front (2007)</span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="12_0" class="text-list">12. Holy Fire, Or My Last New Media Art Exhibition (2008)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="13_0" class="text-list">13. Lost in Translation, Or Bringing Net Art to Another Place? Pardon, Context (2008)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="14_0" class="text-list">14. Interview with Jon Ippolito (2005)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="11_0" class="text-list">11. Interview with Second Front (2007)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="12_0" class="text-list">12. Holy Fire, Or My Last New Media Art Exhibition (2008)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="13_0" class="text-list">13. Lost in Translation, Or Bringing Net Art to Another Place? Pardon, Context (2008)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="14_0" class="text-list">14. Interview with Jon Ippolito (2005)</span></li>\
   <li class="t3l" data-cat="3" data-type=""><a href="#" id="15_0" class="text-list">15. Don\'t Say New Media (2008)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="16_0" class="text-list">16.Interview with Oron Catts (2005) </span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="17_0" class="text-list">17. It isn\'t Immaterial Stupid! The Unbereable Materiality of the Digital (2009)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="18_0" class="text-list">18. RE:akt! Reconstruction, Re-enactment, Re-reporting (2009)</span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="19_0" class="text-list">19. Art and Videogames. Enclosures and border crossings (2009)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="16_0" class="text-list">16.Interview with Oron Catts (2005) </span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="17_0" class="text-list">17. It isn\'t Immaterial Stupid! The Unbereable Materiality of the Digital (2009)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="18_0" class="text-list">18. RE:akt! Reconstruction, Re-enactment, Re-reporting (2009)</span></li>\
+  <li class="t1l" data-cat="1" data-type=""><a href="#" id="19_0" class="text-list">19. Art and Videogames. Enclosures and border crossings (2009)</span></li>\
   <li class="t2l" data-cat="2" data-type=""><a href="#" id="20_0" class="text-list">20. Cory Arcangel (2006)</span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="21_0" class="text-list">21. Eddo Stern (2009)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="22_0" class="text-list">22. Interview with Tale of Tales (2005)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="23_0" class="text-list">23. Reality is Overrated. When Media Go Beyond Simulation (2010)</span></li>\
-  <li class="t2l" data-cat="2" data-type=""><a href="#" id="24_0" class="text-list">24. Interview with Joan Leandre (2008)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="25_0" class="text-list">25. Is the Future What it Used to Be? (2010)</span></li>\
-  <li class="t1l" data-cat="1" data-type=""><a href="#" id="26_0" class="text-list">26. The Unbereable Aura of a Website (2010)</span></li>\
+  <li class="t2l" data-cat="2" data-type=""><a href="#" id="21_0" class="text-list">21. Eddo Stern (2009)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="22_0" class="text-list">22. Interview with Tale of Tales (2005)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="23_0" class="text-list">23. Reality is Overrated. When Media Go Beyond Simulation (2010)</span></li>\
+  <li class="t4l" data-cat="4" data-type=""><a href="#" id="24_0" class="text-list">24. Interview with Joan Leandre (2008)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="25_0" class="text-list">25. Is the Future What it Used to Be? (2010)</span></li>\
+  <li class="t3l" data-cat="3" data-type=""><a href="#" id="26_0" class="text-list">26. The Unbereable Aura of a Website (2010)</span></li>\
   <li class="t2l" data-cat="2" data-type=""><a href="#" id="27_0" class="text-list">27. Petra Cortright (2010)</span></li>\
-  <li class="t3l" data-cat="3" data-type=""><a href="#" id="28_0" class="text-list">28. Interview with Oliver Laric (2010)</span></li>\
+  <li class="t3l" data-cat="4" data-type=""><a href="#" id="28_0" class="text-list">28. Interview with Oliver Laric (2010)</span></li>\
   <li class="t3l" data-cat="3" data-type=""><a href="#" id="29_0" class="text-list">29. The Art of the Netizens (2010)</span></li>\
   </ul>'
 };
