@@ -1,0 +1,320 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{acm_proc_article-sp}
+
+\begin{document}
+
+\title{Crossreads}
+\subtitle{Towards a rhizomatic narrative}
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the availa\caption{A sample black and white graphic that has
+%been resized with the \texttt{psfig} command.}ble 'opening page real-
+%estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{2} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Jaume Nualart\\
+       \affaddr{University of Canberra (AU)}\\
+       \affaddr{University of Barcelona (CAT)}\\
+       \affaddr{National ICT Australia, NICTA (AU)}\\
+       \email{jaume.nualart@canberra.edu.au}
+% 2nd. author
+\alignauthor
+Gabriela Ferraro\\
+       \affaddr{National ICT Australia, NICTA (AU)}\\
+       \affaddr{Australian National University (AU) }\\
+       \email{gabriela.ferraro@nicta.com.au}
+}
+
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+%%\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+%%email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+%%(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{1st September 2014}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+We present Crossreads, a manner to deconstruct linear narrative text in order to read text in multiple orders. This is an ongoing project aims to study data multiplicity, as well as textual visualization interfaces. The
+process starts with the selection of a text, which is later segmented into
+small blocks, and the textual similarity among them is calculated, forming a network data set. Finally, a web interface allows the user to explore
+and read through the created network of text. 
+\end{abstract}
+
+\category{H,5,4}{information Interfaces and Presentation}{Hypertext/Hypermedia: navigation}
+\terms Experimentation
+\keywords narrative, deconstruction, data multiplicity, visualization.
+
+
+\section{Introduction}
+
+Inspired by works such as Rhizome \cite{deleuze1987introduction} we
+present an ongoing project in the domain of information seeking and
+discovery called Crossreads. This project proposes an experimental way
+of reading texts, as an alternative to traditional linear reading. I  proposes
+to break the initial narrative line of a text by segmenting it
+into smaller parts. Then, the text is reordered according to similarity
+scores, which finally offers the reader multiple paths to read
+the text. The aim of this project is to explore and study the effects
+when a reader processes fragmented information, as well as to analyze
+user activity and support reader\textquoteright{}s exploration with
+visualization techniques: the interaction text-reader, the text as
+a collection of segments, the most popular reading paths, and so on.
+At this stage of the project we cannot tell accurately what the benefits
+of the crossreading are unclear. However, according to some authors, learners naturally
+make connections between pieces of knowledge, and they are better
+able to retrieve and apply their knowledge when those connections are
+accurate and meaningful \cite{ambrose2010learning}.
+
+Crossreads' outputs are a network data set where nodes are segments
+of text, and an interface that supports nonlinear reading.
+
+This project is part of a practice-led PhD project that has three
+main focuses: the study of text visualization approaches, the multidisciplinary
+of the field, and the process of design and development tools. The
+presented approach, Crossreads, is one of the artefacts created as
+part of the PhD. The whole project includes a proposed new classification
+of text visualization tools \cite{nualart2014we}, a visualization
+tool for single texts \cite{nualart_texty_2013}, and two visualization
+tools to explore and overview collections of texts \cite{Area_2013_},
+\cite{visference_2013_}.
+
+In the following sections, we discuss related work and influences.
+Then, we present the experiments done so far. Finally, we present
+some conclusions and directions for future work.
+
+
+\section{Related work}
+
+Several works in the past have explored the possibilities of breaking
+the linearity of a text. As mentioned in the introduction, the philosophers
+Deleuze and Guattari have described the rhizomatic structure of knowledge,
+which inspires this project too: \textquotedblleft{}In a book, as
+in all things, there are lines of articulation, segmentarity, strata
+and territories; but also lines of flight, movement, deterritorialization
+and destratification\textquotedblright{}. In the novel Hopscotch by
+J. Cortázar \cite{cortazar1966hopscotch}, the author proposes two
+reading order for the chapters; the text starts with: \textquotedblleft{}In
+its own way this book is many books, but mostly it's two books\textquotedblright{}.
+The Project Xanadu from 1960 \cite{project_xanadu_1960_} is considered
+the first hypertext project in the digital era, and it was a visionary
+definition of standards for the WWW that were mostly not included
+in the standard protocols. One of Xanadu\textquoteright{}s rules states:
+\textquotedblright{}Every document can consist of any number of parts
+each of which may be of any data type.\textquotedblright{}. The open
+Xanadu project is accessible and like Crossreads, it encourages nonlinear
+navigation of text. The aim of Xanadu\textquoteright{}s demo is to
+demonstrate the possibilities of hypertext.
+
+These are the main examples that make us to investigate the effects
+of reading in alternative ways in combination with normal reading.
+
+
+\section{Experiments}
+
+Currently, two versions of Crossreads have been developed (i.e., Version I and II).
+Version I is part of an exhibition at Museum of Contemporary Art of
+Barcelona (MACBA), with texts in Catalan and Spanish by the artist
+Eugeni Bonet \cite{crossreads_macba_2014_}. Version II uses texts
+in English by Domenico Quaranta about media art, compiled in the book
+``In Your Computer'' \cite{quaranta2011your}, and it is accessible
+on line \cite{crossreads_quaranta_2014_}. In both cases, the texts
+used are licensed under Creative Commons.
+
+The creation of crossreads implies two different tasks: (i) data preparation
+and analysis. and (ii) interface design. 
+
+
+\subsection{Data preparation and analysis}
+
+During the data preparation and analysis stage, three main steps have
+been identified: data set selection, data segmentation, and similarity
+calculus. 
+
+
+\subsubsection{Data set selection}
+
+So far, we have experimented using data sets from a single author and, more research should be done in order to propose text collections from multiple authors, topics, languages and other criteria. 
+
+The original data used for this experiment, in the two versions, have a particular feature: the data, i.e. the texts, are document collections that contained opinion and critic articles, compiled in books. We designed Crossreads respecting the original documents.
+The interface also enables linear reading of each document of the collection. 
+We do not anticipate however that there will be any
+significant design problems if the original data come
+from a single document.
+
+
+
+\subsubsection{Data segmentation}
+
+We have experimented with two segmentation approaches, each with 
+different benefits.
+In both versions of Crossreads each document was divided into segments, such that each segment consisted of one or more paragraphs. A segment length was about seven hundred characters in total; which equates to an average of one minute of reading for an adult \cite{williams1998guidelines}. 
+In Version I, segmentation was machine produced. In Version II, segmentation was performed manually.
+While the method used in Version I was fast and capable of processing  large collections, the method applied in Version II method allowed for a greater quality segmentation.
+
+The reason for these two approaches is that: the segmentation task is very subjective. A human expert could add a personal view to the segmentation (Version II). A machine produced  segmentation (Version I) can accomplish well this task in terms of size of each segment, but it cannot be expected the richness of an expert. We wanted to compare both methods as part of the initial experimentation with the intention that it will be further validated by a user evaluation test.
+
+\subsubsection{Data similarity}
+
+To develop the similarity calculus between segment necessary to create the Crossreads network, we used the following off-the-shelf Natural Language Processing tools and techniques:
+
+\begin{itemize}
+\item Tokenization: words in the segments are separated by white space and punctuation characters. 
+\item Stop word removal: standard stop word removal. 
+\item Named Entity Recognition: identification and classification of Named Entities (NE) in each segment. We applied the OpenNLP Named Entity recogniser \cite{baldridge2005opennlp}, which distilled four types of entities, Person, Location, Organization and Others.
+\item Similarity Calculus between segments.
+\end{itemize}
+
+The similarity between pairs of segments was calculated as the sum of the following factors, 
+
+\medskip{}
+
+
+\begin{center}
+$Sim(i,j)=TokSim+EntitySim+NESim/3$
+\par\end{center}
+
+\medskip{}
+
+
+where TokSim is the token cosine similarity between segments, which is a common vector based similarity measure. To calculate the similarity, the tokens of each segment are transformed into vectors and then the Euclidean cosine is used to determine the similarity between pairs of vectors; EntitySim is the sum of the NEs in each segment, normalized  by the number of tokens in both segments; and NESim is the cosine similarity between NE. During this process, the similarity between different NE types (Person, Location, Organization and others) is calculated separately. 
+
+The similarity between the segments was calculated as follows.
+First, an arbitrary segment \textit{i} was chosen and used to calculate the similarity between the segment \textit{i} and the entire segment collection.
+Second, the segment with the highest similarity value score is set as the maximum similar segment of \textit{i}. Since linear reading of a documents is enabled, in each iteration we decided to skip links to segments of the same document as segment \textit{i}.
+Finally, we applied different constraints to Version I and II, were as follows:
+
+\begin{description}
+\item Version I: In the Crossreads network, each segment is linked to its most similar segment. The drawback of this approach is that links will have a wide range of similarity scores, since in each iteration, the number of segments to compare with is smaller, and the possibility of finding a segment with a high similarity score decreases.
+However, the benefit is that there will not be any orphan segments, i.e. all segments link to other segments, so the reader will always have the possibility of some crossreading.
+
+\item Version II: Each segment is linked to its most similar pairing.   To avoid repetition of pairs, segments that have already been set as a maximum similarity segment during ten iterations are skipped. After ten iterations, the skipped segments are used again in the similarity calculus.
+\end{description}
+
+%At this point Version I and II differ in applied constraints:
+%\begin{itemize}
+%\item Version I includes all the segments in the Crossreads chain; the price for this is that some relations have little similarity. The benefit is that the reader can always jump to another segment.
+%\item Version II not all the segments are included only once in the crossreading paths. In Version II, each segment has the most similar segment as related with one constraint: not repeated pairs are allowed. To avoid repetition, when is needed we take the second most similar segment. 
+%\end{itemize}
+Again, both methods will need to be evaluated by users.
+
+\subsection{Interface design and visualization }
+
+The interface has been designed to optimal user experience. It allows linear reading of the texts in combination with crossreading. A reader can choose any text within the collection to read.
+The collection of texts is presented in a time-line, and in a flat list with text-category filters. Both versions share a similar interface, with slight differences according to the different methods of data analysis and authors decisions.
+
+
+In both cases there is a design principle: vertical navigation for linear reading of documents \textemdash{}using standard up and down arrows images\textemdash{} , and horizontal navigation for crossreading \textemdash{}using specially designed left and right arrows images.
+
+
+Version I of the interface was developed for the purposes of a museum exhibition. 
+Accordingly, the interface was influenced by a team of experts from MACBA including producers, curators and art historians. In this version of Crossreads, when the user reads a segment of text,
+they can choice between two links, one left and the other
+right.
+With the right link, the reader 
+goes to its most similar segment.
+With the left link, the reader goes to the second most similar segment. Thus, both links offered the
+Crossreads experience. In the links, it is announce the title of the
+document the links goes to, proving the user with some context before
+following the links.
+Version II of the interface has evolved such that it offers link nuances.
+For instace, with the right link, the reader goes to its most similar segment. The
+link context is also shown as in Version I. Furthermore, the quality
+of the link is represented with an icon, which shows the similarity
+score between the current segment and the segment in the right link,
+as well as the token and entities similarity scores. With the left link,
+the reader jumps to a random segment of the collection.
+
+
+%This two links are the similar to the one that is being read. Both links announce  title and meta-data, providing the user with some context before following the actual link. 
+
+%Version II of the interface has evolved offering link nuances. With the right link, the reader goes to the most similar segment. Link context is also showed as in Version I,  and also the quality of the link ir represented with an icon, showing: global similarity score among segments, token similarity score, and a weight for each entity type. With the left link the user can jump to a random segment of the collection.
+
+
+
+
+
+\section{Conclusions and future work}
+
+Crossreads proposes a novel way to explore a text collection, based on text segmentation, the textual similarity between
+the segmented pieces of texts, and a reader interface. 
+For future work, a user evaluation is planned in order to assess:
+(i) the impact of the human and the automatic segmentation approaches in the crossreads experience, (ii) how the similarity among segments is interpreted by readers, and (iii) the effect of crossreading in the learning process.
+
+Furthermore, future work will focus in discussing the conditions that a text must accomplish in order to suits the crossreading technique, in particular whether crossreadings is suitable for one or multiple authors, one or multiple genres, monolingual and/or multilingual collections, just to mention a few variables.
+
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+
+
+\end{document}
