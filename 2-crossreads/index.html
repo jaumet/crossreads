@@ -264,7 +264,8 @@
     if( Edate > 0) {myEntities += '<img src="images/glyphicons_054_clock.png" alt="persons" />';}
     if( Elocation > 0) {myEntities += '<img src="images/glyphicons_242_google_maps.png" alt="persons" />';}
     if( Eunknown > 0) {myEntities += '<img styleX="background-color:#ffffff;" src="images/glyphicons_194_circle_question_mark.png" alt="persons" />';}
-console.log("MYINDEX: "+myIndex+" | TARGET = "+target);    
+console.log("MYINDEX: "+myIndex+" | TARGET = "+target);  
+    // JAUME
     $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> - '+target+'<br />'+myEntities+'<span></span></a>');
 
     // Left random segment:
@@ -294,6 +295,7 @@ console.log("MYINDEX: "+myIndex+" | TARGET = "+target);
         }
       });
       $(mydiv).css({ "opacity": "0" });
+      // JAUME
       $(mydiv).html(myIndex+items[pid]);
       var footNotesHelp = eval('lang_'+LANGUAGE);
       if (footnote[parseInt(pid)] != '')  {
