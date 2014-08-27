@@ -213,7 +213,7 @@
     var alltext ='<p><a id="'+tid+'" href="#" class="all-text" ><span id="allText">Full text view</span></a></p>';
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
-        meta_title = "<h2>"+val.title+"</h2>";
+        meta_title = "<h2>"+val.tid+" - "+val.title+"</h2>";
         // Check for images attached to tid
         if (val.images.length > 0) { // FIXME for more than one image
           meta_img = alltext+'<a class="fancybox" rel="group" href="'+IMG_PATH+val.images[0]+'"><img src="'+IMG_PATH+val.images[0]+'" /></a>';
@@ -263,9 +263,9 @@
     if( Epersons > 0) {myEntities += '<img src="images/glyphicons_043_group.png" alt="persons" />';}
     if( Edate > 0) {myEntities += '<img src="images/glyphicons_054_clock.png" alt="persons" />';}
     if( Elocation > 0) {myEntities += '<img src="images/glyphicons_242_google_maps.png" alt="persons" />';}
-    //if( Eunknown > 0) {myEntities += '<img src="images/glyphicons_194_circle_question_mark.png" alt="persons" />';}
+    if( Eunknown > 0) {myEntities += '<img styleX="background-color:#ffffff;" src="images/glyphicons_194_circle_question_mark.png" alt="persons" />';}
 console.log("MYINDEX: "+myIndex+" | TARGET = "+target);    
-    $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i><br />'+myEntities+'<span></span></a>');
+    $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> - '+target+'<br />'+myEntities+'<span></span></a>');
 
     // Left random segment:
     var leftIndex = sim[_.random(sim.length-1)];
@@ -294,7 +294,7 @@ console.log("MYINDEX: "+myIndex+" | TARGET = "+target);
         }
       });
       $(mydiv).css({ "opacity": "0" });
-      $(mydiv).html(items[pid]);
+      $(mydiv).html(myIndex+items[pid]);
       var footNotesHelp = eval('lang_'+LANGUAGE);
       if (footnote[parseInt(pid)] != '')  {
         $("#myfootnotes").html('<span id="footnotes" class="grey">'+footNotesHelp["footnotes"]+'</span><br />'+footnote[parseInt(pid)]);
