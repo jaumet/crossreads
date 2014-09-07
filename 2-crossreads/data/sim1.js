@@ -1,2810 +1,8414 @@
-sim1 = {
-"1_0": {
-		"target": "2_13",
-		"match": ""
-	},
-"1_1": {
-		"target": "13_31",
-		"match": "Media, Media, Digital"
-	},
-"1_2": {
-		"target": "13_21",
-		"match": "online, online, online"
-	},
-"1_3": {
-		"target": "23_16",
-		"match": "Media"
-	},
-"1_4": {
-		"target": "9_28",
-		"match": ""
-	},
-"1_5": {
-		"target": "13_31, 9_28",
-		"match": "published, published, March"
-	},
-"2_0": {
-		"target": "22_5, 11_13",
-		"match": ""
-	},
-"2_1": {
-		"target": "11_10",
-		"match": "Internet, many, online"
-	},
-"2_2": {
-		"target": "12_21, 28_1",
-		"match": "media"
-	},
-"2_3": {
-		"target": "20_10",
-		"match": ""
-	},
-"2_4": {
-		"target": "8_4",
-		"match": ""
-	},
-"2_5": {
-		"target": "17_6",
-		"match": "real"
-	},
-"2_6": {
-		"target": "13_31",
-		"match": "online, online"
-	},
-"2_7": {
-		"target": "12_21, 13_31, 14_12",
-		"match": ""
-	},
-"2_8": {
-		"target": "12_27, 29_12, 29_13",
-		"match": "online, online"
-	},
-"2_9": {
-		"target": "26_22",
-		"match": "online"
-	},
-"2_10": {
-		"target": "11_8",
-		"match": ""
-	},
-"2_11": {
-		"target": "13_16, 11_10",
-		"match": ""
-	},
-"2_12": {
-		"target": "11_10",
-		"match": "many"
-	},
-"2_13": {
-		"target": "1_0",
-		"match": ""
-	},
-"2_14": {
-		"target": "12_21",
-		"match": "Olia, Lialina, real"
-	},
-"2_15": {
-		"target": "13_31",
-		"match": "Lialina, many"
-	},
-"2_16": {
-		"target": "22_7, 13_16",
-		"match": ""
-	},
-"2_17": {
-		"target": "23_16",
-		"match": "Lialina, many, many"
-	},
-"2_18": {
-		"target": "17_5",
-		"match": ""
-	},
-"2_19": {
-		"target": "17_4",
-		"match": ""
-	},
-"2_20": {
-		"target": "12_21, 9_28",
-		"match": "German, reality"
-	},
-"2_21": {
-		"target": "22_2",
-		"match": ""
-	},
-"2_22": {
-		"target": "11_10",
-		"match": "come"
-	},
-"2_23": {
-		"target": "25_22",
-		"match": "online, Olia, Lialina, online"
-	},
-"3_0": {
-		"target": "13_31",
-		"match": "text"
-	},
-"3_1": {
-		"target": "",
-		"match": "reality"
-	},
-"3_2": {
-		"target": "18_44, 18_49, 18_50, 18_52",
-		"match": ""
-	},
-"3_3": {
-		"target": "9_28",
-		"match": "construction"
-	},
-"3_4": {
-		"target": "7_5",
-		"match": ""
-	},
-"3_5": {
-		"target": "12_3",
-		"match": ""
-	},
-"3_6": {
-		"target": "11_10",
-		"match": "media"
-	},
-"3_7": {
-		"target": "11_12",
-		"match": "real"
-	},
-"3_8": {
-		"target": "12_21",
-		"match": ""
-	},
-"3_9": {
-		"target": "9_28",
-		"match": "ones"
-	},
-"3_10": {
-		"target": "9_28",
-		"match": ""
-	},
-"3_11": {
-		"target": "16_11",
-		"match": ""
-	},
-"3_12": {
-		"target": "13_31, 11_10",
-		"match": "media"
-	},
-"3_13": {
-		"target": "2_14",
-		"match": "Olia, Lialina, online, real"
-	},
-"3_14": {
-		"target": "",
-		"match": ""
-	},
-"3_15": {
-		"target": "29_8",
-		"match": "Digital"
-	},
-"3_16": {
-		"target": "11_11",
-		"match": "reality, media, line"
-	},
-"3_17": {
-		"target": "13_31",
-		"match": "First, published"
-	},
-"3_18": {
-		"target": "6_34",
-		"match": "March, March"
-	},
-"4_0": {
-		"target": "13_31",
-		"match": "text, text, construction"
-	},
-"4_1": {
-		"target": "",
-		"match": ""
-	},
-"4_2": {
-		"target": "13_31, 18_54",
-		"match": ""
-	},
-"4_3": {
-		"target": "22_5",
-		"match": "media, many"
-	},
-"4_4": {
-		"target": "29_8, 22_11",
-		"match": "published, online, Olia, Lialina"
-	},
-"4_5": {
-		"target": "13_17, 13_31, 16_5",
-		"match": "online"
-	},
-"4_6": {
-		"target": "",
-		"match": ""
-	},
-"4_7": {
-		"target": "12_21",
-		"match": ""
-	},
-"4_8": {
-		"target": "",
-		"match": "media"
-	},
-"4_9": {
-		"target": "17_4",
-		"match": ""
-	},
-"4_10": {
-		"target": "12_21",
-		"match": ""
-	},
-"4_11": {
-		"target": "",
-		"match": ""
-	},
-"4_12": {
-		"target": "",
-		"match": ""
-	},
-"4_13": {
-		"target": "18_48",
-		"match": "published"
-	},
-"4_14": {
-		"target": "",
-		"match": ""
-	},
-"4_15": {
-		"target": "",
-		"match": ""
-	},
-"4_16": {
-		"target": "11_10, 8_6",
-		"match": "media"
-	},
-"4_17": {
-		"target": "9_10, 9_28",
-		"match": "Internet, online, Media"
-	},
-"4_18": {
-		"target": "13_31",
-		"match": "media, York, line"
-	},
-"4_19": {
-		"target": "13_27, 9_20",
-		"match": "real, media, construction, construct"
-	},
-"4_20": {
-		"target": "",
-		"match": ""
-	},
-"4_21": {
-		"target": "13_31, 10_36",
-		"match": "January, First, Internet, online"
-	},
-"5_0": {
-		"target": "3_0",
-		"match": "text, text"
-	},
-"5_1": {
-		"target": "13_21, 11_10",
-		"match": "real"
-	},
-"5_2": {
-		"target": "11_10",
-		"match": "Digital"
-	},
-"5_3": {
-		"target": "",
-		"match": ""
-	},
-"5_4": {
-		"target": "",
-		"match": ""
-	},
-"5_5": {
-		"target": "24_15",
-		"match": "many"
-	},
-"5_6": {
-		"target": "2_19, 16_13",
-		"match": ""
-	},
-"5_7": {
-		"target": "12_29, 11_13, 14_5, 16_5",
-		"match": ""
-	},
-"5_8": {
-		"target": "12_21",
-		"match": ""
-	},
-"5_9": {
-		"target": "11_10",
-		"match": ""
-	},
-"5_10": {
-		"target": "",
-		"match": ""
-	},
-"5_11": {
-		"target": "13_29",
-		"match": "First"
-	},
-"5_12": {
-		"target": "2_1, 9_28",
-		"match": "come"
-	},
-"5_13": {
-		"target": "11_10",
-		"match": "many"
-	},
-"5_14": {
-		"target": "12_21, 17_4",
-		"match": ""
-	},
-"5_15": {
-		"target": "17_4, 6_14",
-		"match": "many"
-	},
-"5_16": {
-		"target": "24_15",
-		"match": ""
-	},
-"5_17": {
-		"target": "20_3",
-		"match": "manual, manual"
-	},
-"5_18": {
-		"target": "12_29",
-		"match": "reality"
-	},
-"5_19": {
-		"target": "13_31",
-		"match": "media, media"
-	},
-"5_20": {
-		"target": "13_31",
-		"match": ""
-	},
-"5_21": {
-		"target": "2_19",
-		"match": ""
-	},
-"5_22": {
-		"target": "20_3, 22_8, 23_17",
-		"match": ""
-	},
-"5_23": {
-		"target": "29_5, 20_10, 17_4, 6_21",
-		"match": ""
-	},
-"5_24": {
-		"target": "13_21",
-		"match": ""
-	},
-"5_25": {
-		"target": "",
-		"match": "Edward"
-	},
-"5_26": {
-		"target": "",
-		"match": "ones"
-	},
-"5_27": {
-		"target": "",
-		"match": ""
-	},
-"5_28": {
-		"target": "9_28",
-		"match": "media, media, real"
-	},
-"5_29": {
-		"target": "13_31",
-		"match": "First, published, Springer"
-	},
-"6_0": {
-		"target": "12_21, 13_31",
-		"match": ""
-	},
-"6_1": {
-		"target": "",
-		"match": ""
-	},
-"6_2": {
-		"target": "9_11",
-		"match": "media"
-	},
-"6_3": {
-		"target": "",
-		"match": ""
-	},
-"6_4": {
-		"target": "5_29",
-		"match": "January, line"
-	},
-"6_5": {
-		"target": "",
-		"match": ""
-	},
-"6_6": {
-		"target": "11_8, 11_10",
-		"match": ""
-	},
-"6_7": {
-		"target": "",
-		"match": "York"
-	},
-"6_8": {
-		"target": "",
-		"match": "Edward"
-	},
-"6_9": {
-		"target": "",
-		"match": ""
-	},
-"6_10": {
-		"target": "9_28",
-		"match": "York, January, published, text"
-	},
-"6_11": {
-		"target": "17_4, 13_17, 13_31",
-		"match": ""
-	},
-"6_12": {
-		"target": "5_15",
-		"match": ""
-	},
-"6_13": {
-		"target": "",
-		"match": ""
-	},
-"6_14": {
-		"target": "12_21, 12_29",
-		"match": "online"
-	},
-"6_15": {
-		"target": "7_11",
-		"match": ""
-	},
-"6_16": {
-		"target": "13_21",
-		"match": ""
-	},
-"6_17": {
-		"target": "12_21",
-		"match": "York"
-	},
-"6_18": {
-		"target": "",
-		"match": ""
-	},
-"6_19": {
-		"target": "10_36",
-		"match": "January, online"
-	},
-"6_20": {
-		"target": "13_3",
-		"match": ""
-	},
-"6_21": {
-		"target": "11_11, 5_8",
-		"match": "text"
-	},
-"6_22": {
-		"target": "17_12",
-		"match": "line"
-	},
-"6_23": {
-		"target": "12_21",
-		"match": "York"
-	},
-"6_24": {
-		"target": "27_4",
-		"match": "line"
-	},
-"6_25": {
-		"target": "17_12",
-		"match": ""
-	},
-"6_26": {
-		"target": "12_29, 18_67",
-		"match": ""
-	},
-"6_27": {
-		"target": "",
-		"match": ""
-	},
-"6_28": {
-		"target": "29_8, 7_10",
-		"match": "media, Media, real"
-	},
-"6_29": {
-		"target": "7_10",
-		"match": "online"
-	},
-"6_30": {
-		"target": "13_31, 7_11, 26_24",
-		"match": "Internet, Internet"
-	},
-"6_31": {
-		"target": "7_15",
-		"match": "real"
-	},
-"6_32": {
-		"target": "",
-		"match": ""
-	},
-"6_33": {
-		"target": "12_15",
-		"match": "come"
-	},
-"6_34": {
-		"target": "13_31",
-		"match": "First, published, Issue, Issue, March, published, online, January, March, online, York, Edward, York, January, online, online, online, January, online, York"
-	},
-"7_0": {
-		"target": "14_4, 9_28, 23_2",
-		"match": "Media, media, reality"
-	},
-"7_1": {
-		"target": "18_42, 18_48",
-		"match": ""
-	},
-"7_2": {
-		"target": "20_6, 11_11, 9_16, 9_28",
-		"match": ""
-	},
-"7_3": {
-		"target": "",
-		"match": ""
-	},
-"7_4": {
-		"target": "9_28",
-		"match": ""
-	},
-"7_5": {
-		"target": "13_21, 4_18, 9_28",
-		"match": ""
-	},
-"7_6": {
-		"target": "4_18",
-		"match": "media, York, media, media"
-	},
-"7_7": {
-		"target": "4_3",
-		"match": "media, media, media, real, media"
-	},
-"7_8": {
-		"target": "13_31, 3_6",
-		"match": "Media"
-	},
-"7_9": {
-		"target": "6_30",
-		"match": "real"
-	},
-"7_10": {
-		"target": "6_28",
-		"match": "standing"
-	},
-"7_11": {
-		"target": "13_31",
-		"match": "media, Media"
-	},
-"7_12": {
-		"target": "12_21",
-		"match": "many, published, media, media"
-	},
-"7_13": {
-		"target": "8_2",
-		"match": "media, Media, Media, media"
-	},
-"7_14": {
-		"target": "9_28",
-		"match": "reality, media, media"
-	},
-"7_15": {
-		"target": "13_31, 9_28",
-		"match": "real, standing, come, media"
-	},
-"7_16": {
-		"target": "13_9, 11_10",
-		"match": "real, media"
-	},
-"7_17": {
-		"target": "13_31, 9_28",
-		"match": "come, media, media"
-	},
-"7_18": {
-		"target": "13_31",
-		"match": "First, published, online, online"
-	},
-"8_0": {
-		"target": "9_28",
-		"match": "media"
-	},
-"8_1": {
-		"target": "20_10",
-		"match": "bomb, bomb, reality"
-	},
-"8_2": {
-		"target": "11_11, 16_6",
-		"match": "real, real, media, Media, media, media, media"
-	},
-"8_3": {
-		"target": "22_8",
-		"match": ""
-	},
-"8_4": {
-		"target": "11_10",
-		"match": "Internet"
-	},
-"8_5": {
-		"target": "24_15",
-		"match": ""
-	},
-"8_6": {
-		"target": "11_10",
-		"match": "real, media, media"
-	},
-"8_7": {
-		"target": "20_10",
-		"match": "Dragan, Espenschied, Media"
-	},
-"8_8": {
-		"target": "24_15",
-		"match": "Stefan"
-	},
-"8_9": {
-		"target": "11_10",
-		"match": ""
-	},
-"8_10": {
-		"target": "20_28, 13_31",
-		"match": "First, published, Issue, many"
-	},
-"9_0": {
-		"target": "15_18, 19_14",
-		"match": "media, many"
-	},
-"9_1": {
-		"target": "11_12",
-		"match": ""
-	},
-"9_2": {
-		"target": "",
-		"match": "text"
-	},
-"9_3": {
-		"target": "10_4, 10_30",
-		"match": "media, media"
-	},
-"9_4": {
-		"target": "13_9",
-		"match": "media, media"
-	},
-"9_5": {
-		"target": "11_10, 10_6, 24_14",
-		"match": "real"
-	},
-"9_6": {
-		"target": "",
-		"match": ""
-	},
-"9_7": {
-		"target": "11_10",
-		"match": ""
-	},
-"9_8": {
-		"target": "19_15",
-		"match": "online, many"
-	},
-"9_9": {
-		"target": "11_10",
-		"match": "real"
-	},
-"9_10": {
-		"target": "11_8",
-		"match": "online"
-	},
-"9_11": {
-		"target": "10_7",
-		"match": "real, come, real, real"
-	},
-"9_12": {
-		"target": "11_12",
-		"match": ""
-	},
-"9_13": {
-		"target": "12_21",
-		"match": "media, media"
-	},
-"9_14": {
-		"target": "11_10",
-		"match": "real, real"
-	},
-"9_15": {
-		"target": "14_4",
-		"match": ""
-	},
-"9_16": {
-		"target": "13_21",
-		"match": "many"
-	},
-"9_17": {
-		"target": "11_12",
-		"match": ""
-	},
-"9_18": {
-		"target": "11_8",
-		"match": "media, January"
-	},
-"9_19": {
-		"target": "18_67",
-		"match": ""
-	},
-"9_20": {
-		"target": "11_10",
-		"match": "construction, real, Desert"
-	},
-"9_21": {
-		"target": "11_1",
-		"match": "come, media"
-	},
-"9_22": {
-		"target": "11_10",
-		"match": "media, real, Media"
-	},
-"9_23": {
-		"target": "13_29, 11_12, 14_4, 16_5",
-		"match": ""
-	},
-"9_24": {
-		"target": "13_31",
-		"match": ""
-	},
-"9_25": {
-		"target": "11_10",
-		"match": "First, come, come"
-	},
-"9_26": {
-		"target": "11_10",
-		"match": "media, real, real"
-	},
-"9_27": {
-		"target": "11_10",
-		"match": "real, German, reality, real"
-	},
-"9_28": {
-		"target": "13_31",
-		"match": "First, published, online, published, Issue, online, media, online, published"
-	},
-"10_0": {
-		"target": "17_7, 13_31",
-		"match": "text, text, text"
-	},
-"10_1": {
-		"target": "9_28, 16_11",
-		"match": "March"
-	},
-"10_2": {
-		"target": "11_10",
-		"match": "March"
-	},
-"10_3": {
-		"target": "11_10",
-		"match": "construction"
-	},
-"10_4": {
-		"target": "11_10",
-		"match": "come"
-	},
-"10_5": {
-		"target": "9_28",
-		"match": ""
-	},
-"10_6": {
-		"target": "9_28",
-		"match": "real, real"
-	},
-"10_7": {
-		"target": "11_8, 11_10",
-		"match": "reality, real, real"
-	},
-"10_8": {
-		"target": "11_8",
-		"match": ""
-	},
-"10_9": {
-		"target": "11_8",
-		"match": "construct, reality"
-	},
-"10_10": {
-		"target": "9_28",
-		"match": ""
-	},
-"10_11": {
-		"target": "17_7, 11_10",
-		"match": "come"
-	},
-"10_12": {
-		"target": "11_8",
-		"match": "real"
-	},
-"10_13": {
-		"target": "",
-		"match": ""
-	},
-"10_14": {
-		"target": "12_21",
-		"match": "desert, desert, real"
-	},
-"10_15": {
-		"target": "11_13",
-		"match": "real, real"
-	},
-"10_16": {
-		"target": "11_10, 11_12, 9_28",
-		"match": "real, many, reality"
-	},
-"10_17": {
-		"target": "11_8, 11_13",
-		"match": "come, real"
-	},
-"10_18": {
-		"target": "11_8",
-		"match": ""
-	},
-"10_19": {
-		"target": "13_31",
-		"match": ""
-	},
-"10_20": {
-		"target": "11_8",
-		"match": "many, real"
-	},
-"10_21": {
-		"target": "11_8",
-		"match": "March, come"
-	},
-"10_22": {
-		"target": "11_8",
-		"match": ""
-	},
-"10_23": {
-		"target": "9_28",
-		"match": "Media, shed"
-	},
-"10_24": {
-		"target": "9_20",
-		"match": "reality"
-	},
-"10_25": {
-		"target": "9_17",
-		"match": "German"
-	},
-"10_26": {
-		"target": "11_8",
-		"match": "media, media"
-	},
-"10_27": {
-		"target": "11_13",
-		"match": ""
-	},
-"10_28": {
-		"target": "11_12, 9_28",
-		"match": "Media"
-	},
-"10_29": {
-		"target": "9_28",
-		"match": ""
-	},
-"10_30": {
-		"target": "9_28",
-		"match": "many, media, media"
-	},
-"10_31": {
-		"target": "11_10, 11_12",
-		"match": "Real, desert"
-	},
-"10_32": {
-		"target": "",
-		"match": "desert"
-	},
-"10_33": {
-		"target": "11_10",
-		"match": ""
-	},
-"10_34": {
-		"target": "11_10",
-		"match": "real, desert"
-	},
-"10_35": {
-		"target": "11_8, 11_10",
-		"match": "desert, Desert, reality"
-	},
-"10_36": {
-		"target": "9_28",
-		"match": "First, published, Desert, January, March"
-	},
-"11_0": {
-		"target": "12_31, 13_31",
-		"match": "published, online, York, many, York"
-	},
-"11_1": {
-		"target": "9_28",
-		"match": "real, media"
-	},
-"11_2": {
-		"target": "10_36, 9_18",
-		"match": ""
-	},
-"11_3": {
-		"target": "9_18",
-		"match": "media, January, Craig, many"
-	},
-"11_4": {
-		"target": "16_5",
-		"match": ""
-	},
-"11_5": {
-		"target": "10_36, 9_28",
-		"match": "online, January, Germany"
-	},
-"11_6": {
-		"target": "10_12, 10_22, 9_18, 18_48",
-		"match": ""
-	},
-"11_7": {
-		"target": "9_28",
-		"match": "online, come"
-	},
-"11_8": {
-		"target": "9_28",
-		"match": "many, come, real, online, real"
-	},
-"11_9": {
-		"target": "9_19",
-		"match": ""
-	},
-"11_10": {
-		"target": "9_28",
-		"match": "media, media, online, real, many, real, real, real, real, real, real, Reality, real, real, real, real"
-	},
-"11_11": {
-		"target": "9_28",
-		"match": "many, real"
-	},
-"11_12": {
-		"target": "9_28",
-		"match": "many"
-	},
-"11_13": {
-		"target": "22_5, 9_28",
-		"match": "real, line, online, many, Real, come"
-	},
-"11_14": {
-		"target": "",
-		"match": "published, March"
-	},
-"12_0": {
-		"target": "13_31",
-		"match": "text, Digital, Digital, text, Media, Media, media, text"
-	},
-"12_1": {
-		"target": "13_31",
-		"match": "Digital, Digital, Media, many"
-	},
-"12_2": {
-		"target": "13_31",
-		"match": "Media"
-	},
-"12_3": {
-		"target": "13_11",
-		"match": "media, come"
-	},
-"12_4": {
-		"target": "13_11",
-		"match": ""
-	},
-"12_5": {
-		"target": "14_8",
-		"match": "Digital, media, York, come"
-	},
-"12_6": {
-		"target": "13_9",
-		"match": "media"
-	},
-"12_7": {
-		"target": "",
-		"match": "Media"
-	},
-"12_8": {
-		"target": "9_28",
-		"match": "Media, Media"
-	},
-"12_9": {
-		"target": "13_31",
-		"match": "media, ring, Media, Media"
-	},
-"12_10": {
-		"target": "13_31",
-		"match": ""
-	},
-"12_11": {
-		"target": "13_31",
-		"match": "Media, Digital, media, edge, media"
-	},
-"12_12": {
-		"target": "13_31",
-		"match": "many, Media, Media"
-	},
-"12_13": {
-		"target": "11_12, 14_4",
-		"match": "Media, Media, media"
-	},
-"12_14": {
-		"target": "15_4",
-		"match": "media, media"
-	},
-"12_15": {
-		"target": "13_31",
-		"match": "media"
-	},
-"12_16": {
-		"target": "13_31",
-		"match": "Media, Media"
-	},
-"12_17": {
-		"target": "13_31, 14_4, 14_9",
-		"match": "many"
-	},
-"12_18": {
-		"target": "19_25",
-		"match": "Media, media"
-	},
-"12_19": {
-		"target": "13_31",
-		"match": "Media, many, Media"
-	},
-"12_20": {
-		"target": "15_18, 11_10",
-		"match": "Media, published, Media"
-	},
-"12_21": {
-		"target": "13_31, 23_16",
-		"match": "media, many, Olia, Lialina, Dragan, Espenschied"
-	},
-"12_22": {
-		"target": "13_31",
-		"match": "Media, media, shed, many"
-	},
-"12_23": {
-		"target": "15_4",
-		"match": "media, media, media"
-	},
-"12_24": {
-		"target": "13_28",
-		"match": ""
-	},
-"12_25": {
-		"target": "13_9",
-		"match": "Media"
-	},
-"12_26": {
-		"target": "11_8",
-		"match": ""
-	},
-"12_27": {
-		"target": "13_31",
-		"match": "many, stand"
-	},
-"12_28": {
-		"target": "",
-		"match": "come, real"
-	},
-"12_29": {
-		"target": "13_31",
-		"match": "many, real, media, Olia, Lialina, Dragan, Espenschied"
-	},
-"12_30": {
-		"target": "16_5",
-		"match": ""
-	},
-"12_31": {
-		"target": "13_31",
-		"match": "First, published, Digital, York, Internet, First, March, Olia, Lialina, Dragan, Espenschied"
-	},
-"13_0": {
-		"target": "11_12, 14_4",
-		"match": "many"
-	},
-"13_1": {
-		"target": "12_15, 28_1",
-		"match": ""
-	},
-"13_2": {
-		"target": "12_21",
-		"match": "online, real"
-	},
-"13_3": {
-		"target": "11_10",
-		"match": "online, many, online"
-	},
-"13_4": {
-		"target": "11_10",
-		"match": "Media, Media"
-	},
-"13_5": {
-		"target": "14_4",
-		"match": "Media, Media"
-	},
-"13_6": {
-		"target": "18_24, 6_20",
-		"match": "text, text, text, text, text"
-	},
-"13_7": {
-		"target": "12_21",
-		"match": ""
-	},
-"13_8": {
-		"target": "17_7, 2_1, 11_8, 11_10, 24_8, 26_14, 16_5",
-		"match": "online, real"
-	},
-"13_9": {
-		"target": "14_4",
-		"match": "real, Digital, real, Media, Media, media, real"
-	},
-"13_10": {
-		"target": "19_23",
-		"match": ""
-	},
-"13_11": {
-		"target": "12_21",
-		"match": "Media"
-	},
-"13_12": {
-		"target": "12_21",
-		"match": "Media"
-	},
-"13_13": {
-		"target": "2_1, 18_63",
-		"match": ""
-	},
-"13_14": {
-		"target": "",
-		"match": "text"
-	},
-"13_15": {
-		"target": "11_10",
-		"match": "media, real"
-	},
-"13_16": {
-		"target": "15_16",
-		"match": "Media, Media"
-	},
-"13_17": {
-		"target": "11_10",
-		"match": "text, media"
-	},
-"13_18": {
-		"target": "11_10",
-		"match": "real"
-	},
-"13_19": {
-		"target": "18_81",
-		"match": ""
-	},
-"13_20": {
-		"target": "11_10",
-		"match": "York"
-	},
-"13_21": {
-		"target": "12_21",
-		"match": "real, media, online"
-	},
-"13_22": {
-		"target": "12_21",
-		"match": "Media, media"
-	},
-"13_23": {
-		"target": "12_21",
-		"match": "many, edge"
-	},
-"13_24": {
-		"target": "17_3",
-		"match": "real"
-	},
-"13_25": {
-		"target": "12_21",
-		"match": ""
-	},
-"13_26": {
-		"target": "16_5",
-		"match": ""
-	},
-"13_27": {
-		"target": "18_48",
-		"match": "media, Digital"
-	},
-"13_28": {
-		"target": "12_12",
-		"match": "Digital, Media, stand, media, Media, media, many"
-	},
-"13_29": {
-		"target": "12_21",
-		"match": ""
-	},
-"13_30": {
-		"target": "12_15",
-		"match": "many"
-	},
-"13_31": {
-		"target": "9_28",
-		"match": "First, published, Issue, online, online, Olia, Lialina, Internet, York, Routledge, Media, Media, Digital, January, March, Media, Germany, online, text, York, online, online, Digital, Digital, Media, online, media"
-	},
-"14_0": {
-		"target": "20_28",
-		"match": "published, York, many, online"
-	},
-"14_1": {
-		"target": "15_4",
-		"match": "media, Media"
-	},
-"14_2": {
-		"target": "22_2, 13_31, 19_26, 9_28, 8_2",
-		"match": "York, Media, media"
-	},
-"14_3": {
-		"target": "9_28",
-		"match": "online, online"
-	},
-"14_4": {
-		"target": "13_31",
-		"match": "Internet, Internet, Internet, media, Digital, media, Media, media, line"
-	},
-"14_5": {
-		"target": "5_7",
-		"match": ""
-	},
-"14_6": {
-		"target": "",
-		"match": ""
-	},
-"14_7": {
-		"target": "11_8",
-		"match": "media"
-	},
-"14_8": {
-		"target": "12_5, 11_10",
-		"match": "media, Jones, media"
-	},
-"14_9": {
-		"target": "22_8, 13_9",
-		"match": "media"
-	},
-"14_10": {
-		"target": "",
-		"match": ""
-	},
-"14_11": {
-		"target": "16_5",
-		"match": "Media, Internet, many"
-	},
-"14_12": {
-		"target": "16_5",
-		"match": "media, media, Media, ones"
-	},
-"14_13": {
-		"target": "22_5, 11_12, 11_13",
-		"match": ""
-	},
-"14_14": {
-		"target": "11_10, 8_4",
-		"match": "publish, Internet, online"
-	},
-"14_15": {
-		"target": "15_23",
-		"match": "First, published, online, January, online, online, Jones, media, York, York, online"
-	},
-"15_0": {
-		"target": "12_22",
-		"match": "media, media"
-	},
-"15_1": {
-		"target": "17_7, 10_4",
-		"match": "Media"
-	},
-"15_2": {
-		"target": "13_16",
-		"match": "Media, Media"
-	},
-"15_3": {
-		"target": "13_31, 14_4",
-		"match": "German, many, Media"
-	},
-"15_4": {
-		"target": "12_14",
-		"match": "Media, Media, media, German, media, media"
-	},
-"15_5": {
-		"target": "",
-		"match": "Media"
-	},
-"15_6": {
-		"target": "13_31",
-		"match": "Media, Media, Media, Media, German, media, Media, Media"
-	},
-"15_7": {
-		"target": "13_31",
-		"match": "many, Media, media, Media, Media, published, Media, Media, Media"
-	},
-"15_8": {
-		"target": "",
-		"match": "Media, come, Digital, Media"
-	},
-"15_9": {
-		"target": "19_1",
-		"match": "Media"
-	},
-"15_10": {
-		"target": "13_31",
-		"match": ""
-	},
-"15_11": {
-		"target": "12_21",
-		"match": "Media"
-	},
-"15_12": {
-		"target": "17_4, 14_4, 1_3",
-		"match": "Media, construction, Media, media"
-	},
-"15_13": {
-		"target": "13_31",
-		"match": "Media"
-	},
-"15_14": {
-		"target": "13_16",
-		"match": "Media, real, text"
-	},
-"15_15": {
-		"target": "13_16",
-		"match": ""
-	},
-"15_16": {
-		"target": "13_16",
-		"match": "text, Media, Media, come"
-	},
-"15_17": {
-		"target": "12_3, 13_31",
-		"match": "media, media, media"
-	},
-"15_18": {
-		"target": "11_10, 18_67",
-		"match": "Media, Media, real"
-	},
-"15_19": {
-		"target": "13_17, 13_28",
-		"match": "Media, Media"
-	},
-"15_20": {
-		"target": "13_31",
-		"match": ""
-	},
-"15_21": {
-		"target": "",
-		"match": "Media, come, reality, reality, Media"
-	},
-"15_22": {
-		"target": "",
-		"match": "media, edge, Media, Media"
-	},
-"15_23": {
-		"target": "12_31",
-		"match": "First, published, Digital, Digital, Digital, Media, online, Media, online, Media, Media"
-	},
-"16_0": {
-		"target": "13_31",
-		"match": ""
-	},
-"16_1": {
-		"target": "",
-		"match": ""
-	},
-"16_2": {
-		"target": "11_10",
-		"match": "construct, real"
-	},
-"16_3": {
-		"target": "11_8",
-		"match": ""
-	},
-"16_4": {
-		"target": "11_10",
-		"match": "construction, Semi"
-	},
-"16_5": {
-		"target": "11_10, 9_28",
-		"match": "construct, many, many"
-	},
-"16_6": {
-		"target": "11_8",
-		"match": "line, many"
-	},
-"16_7": {
-		"target": "11_8",
-		"match": "Semi"
-	},
-"16_8": {
-		"target": "12_29",
-		"match": ""
-	},
-"16_9": {
-		"target": "13_31",
-		"match": ""
-	},
-"16_10": {
-		"target": "29_8, 22_5",
-		"match": ""
-	},
-"16_11": {
-		"target": "9_28",
-		"match": "trans"
-	},
-"16_12": {
-		"target": "11_8",
-		"match": ""
-	},
-"16_13": {
-		"target": "14_4",
-		"match": ""
-	},
-"16_14": {
-		"target": "",
-		"match": ""
-	},
-"16_15": {
-		"target": "",
-		"match": ""
-	},
-"16_16": {
-		"target": "11_12",
-		"match": "many, many"
-	},
-"16_17": {
-		"target": "9_28",
-		"match": "published, published"
-	},
-"17_0": {
-		"target": "12_21, 9_28, 23_16",
-		"match": "First, media, Merz, media, real"
-	},
-"17_1": {
-		"target": "23_16",
-		"match": ""
-	},
-"17_2": {
-		"target": "12_21, 13_31, 5_24, 9_18",
-		"match": "real"
-	},
-"17_3": {
-		"target": "13_25",
-		"match": ""
-	},
-"17_4": {
-		"target": "13_31",
-		"match": "media, media, drill"
-	},
-"17_5": {
-		"target": "12_21",
-		"match": "media"
-	},
-"17_6": {
-		"target": "29_10",
-		"match": "reality, construction"
-	},
-"17_7": {
-		"target": "11_10",
-		"match": ""
-	},
-"17_8": {
-		"target": "9_28",
-		"match": "real, real, construction"
-	},
-"17_9": {
-		"target": "10_35, 9_20",
-		"match": "Desert, Desert, desert, desert, desert, Time"
-	},
-"17_10": {
-		"target": "12_29, 24_15",
-		"match": "real, real"
-	},
-"17_11": {
-		"target": "",
-		"match": "Time"
-	},
-"17_12": {
-		"target": "6_22",
-		"match": "real"
-	},
-"17_13": {
-		"target": "13_31, 25_22, 26_24",
-		"match": "published, Issue, Media, Media, online, online, York, Times, online"
-	},
-"18_0": {
-		"target": "2_20",
-		"match": ""
-	},
-"18_1": {
-		"target": "13_31",
-		"match": "York"
-	},
-"18_2": {
-		"target": "",
-		"match": "media"
-	},
-"18_3": {
-		"target": "",
-		"match": ""
-	},
-"18_4": {
-		"target": "9_28",
-		"match": "real"
-	},
-"18_5": {
-		"target": "",
-		"match": ""
-	},
-"18_6": {
-		"target": "11_10, 9_28",
-		"match": "media, media"
-	},
-"18_7": {
-		"target": "25_11, 9_28",
-		"match": "Digital, media"
-	},
-"18_8": {
-		"target": "9_19",
-		"match": ""
-	},
-"18_9": {
-		"target": "11_10, 4_18, 9_28",
-		"match": "media, publish"
-	},
-"18_10": {
-		"target": "9_20",
-		"match": ""
-	},
-"18_11": {
-		"target": "",
-		"match": ""
-	},
-"18_12": {
-		"target": "11_10",
-		"match": "media, media, media"
-	},
-"18_13": {
-		"target": "19_10, 9_18, 9_19",
-		"match": "media"
-	},
-"18_14": {
-		"target": "",
-		"match": ""
-	},
-"18_15": {
-		"target": "11_10",
-		"match": ""
-	},
-"18_16": {
-		"target": "11_10",
-		"match": ""
-	},
-"18_17": {
-		"target": "13_31",
-		"match": ""
-	},
-"18_18": {
-		"target": "11_8",
-		"match": ""
-	},
-"18_19": {
-		"target": "9_20",
-		"match": "media, real"
-	},
-"18_20": {
-		"target": "11_8",
-		"match": ""
-	},
-"18_21": {
-		"target": "13_31",
-		"match": ""
-	},
-"18_22": {
-		"target": "",
-		"match": ""
-	},
-"18_23": {
-		"target": "11_12",
-		"match": ""
-	},
-"18_24": {
-		"target": "13_31",
-		"match": ""
-	},
-"18_25": {
-		"target": "11_12",
-		"match": "many"
-	},
-"18_26": {
-		"target": "11_10",
-		"match": ""
-	},
-"18_27": {
-		"target": "",
-		"match": ""
-	},
-"18_28": {
-		"target": "",
-		"match": "stand"
-	},
-"18_29": {
-		"target": "19_14",
-		"match": ""
-	},
-"18_30": {
-		"target": "15_6",
-		"match": "media, reality"
-	},
-"18_31": {
-		"target": "11_10",
-		"match": "media, many"
-	},
-"18_32": {
-		"target": "11_8",
-		"match": "text"
-	},
-"18_33": {
-		"target": "11_10",
-		"match": "real"
-	},
-"18_34": {
-		"target": "11_10",
-		"match": "real, media"
-	},
-"18_35": {
-		"target": "11_10",
-		"match": "real, media, media"
-	},
-"18_36": {
-		"target": "9_28",
-		"match": "media, many"
-	},
-"18_37": {
-		"target": "",
-		"match": ""
-	},
-"18_38": {
-		"target": "19_0, 9_28",
-		"match": ""
-	},
-"18_39": {
-		"target": "13_21",
-		"match": ""
-	},
-"18_40": {
-		"target": "16_5",
-		"match": ""
-	},
-"18_41": {
-		"target": "11_8",
-		"match": "standing, January"
-	},
-"18_42": {
-		"target": "13_31",
-		"match": "First, Germany"
-	},
-"18_43": {
-		"target": "11_10",
-		"match": ""
-	},
-"18_44": {
-		"target": "",
-		"match": ""
-	},
-"18_45": {
-		"target": "11_8",
-		"match": ""
-	},
-"18_46": {
-		"target": "13_12, 11_10",
-		"match": "construction, many"
-	},
-"18_47": {
-		"target": "11_8",
-		"match": ""
-	},
-"18_48": {
-		"target": "11_8",
-		"match": "media, German"
-	},
-"18_49": {
-		"target": "4_3",
-		"match": ""
-	},
-"18_50": {
-		"target": "12_8, 13_28",
-		"match": ""
-	},
-"18_51": {
-		"target": "9_28, 16_5",
-		"match": ""
-	},
-"18_52": {
-		"target": "13_17",
-		"match": ""
-	},
-"18_53": {
-		"target": "9_28",
-		"match": ""
-	},
-"18_54": {
-		"target": "16_11",
-		"match": "come"
-	},
-"18_55": {
-		"target": "",
-		"match": ""
-	},
-"18_56": {
-		"target": "24_1",
-		"match": ""
-	},
-"18_57": {
-		"target": "",
-		"match": ""
-	},
-"18_58": {
-		"target": "11_11",
-		"match": "Spring"
-	},
-"18_59": {
-		"target": "11_8",
-		"match": ""
-	},
-"18_60": {
-		"target": "12_21",
-		"match": "real"
-	},
-"18_61": {
-		"target": "4_19",
-		"match": "construct"
-	},
-"18_62": {
-		"target": "9_28, 16_7",
-		"match": ""
-	},
-"18_63": {
-		"target": "13_31",
-		"match": "Spring, German, many"
-	},
-"18_64": {
-		"target": "",
-		"match": ""
-	},
-"18_65": {
-		"target": "2_1, 11_10, 8_6",
-		"match": "media, real"
-	},
-"18_66": {
-		"target": "11_10",
-		"match": ""
-	},
-"18_67": {
-		"target": "15_18, 9_19",
-		"match": ""
-	},
-"18_68": {
-		"target": "11_10, 9_19",
-		"match": ""
-	},
-"18_69": {
-		"target": "",
-		"match": ""
-	},
-"18_70": {
-		"target": "",
-		"match": ""
-	},
-"18_71": {
-		"target": "13_31",
-		"match": "media, media, media, media"
-	},
-"18_72": {
-		"target": "9_28",
-		"match": "media"
-	},
-"18_73": {
-		"target": "13_21",
-		"match": "media, media, media"
-	},
-"18_74": {
-		"target": "",
-		"match": ""
-	},
-"18_75": {
-		"target": "",
-		"match": ""
-	},
-"18_76": {
-		"target": "9_28",
-		"match": "construction"
-	},
-"18_77": {
-		"target": "15_20, 21_3, 29_0, 17_4",
-		"match": ""
-	},
-"18_78": {
-		"target": "",
-		"match": "German"
-	},
-"18_79": {
-		"target": "9_28",
-		"match": "German, many, German"
-	},
-"18_80": {
-		"target": "9_28",
-		"match": "Germany, German, many"
-	},
-"18_81": {
-		"target": "11_12",
-		"match": ""
-	},
-"18_82": {
-		"target": "13_31",
-		"match": "text, published, Issue, text"
-	},
-"18_83": {
-		"target": "13_31",
-		"match": "York, media"
-	},
-"18_84": {
-		"target": "21_17",
-		"match": "real"
-	},
-"18_85": {
-		"target": "12_31",
-		"match": "Media, York, York"
-	},
-"18_86": {
-		"target": "13_31",
-		"match": "published, media"
-	},
-"18_87": {
-		"target": "9_28",
-		"match": "line"
-	},
-"18_88": {
-		"target": "23_15",
-		"match": "real"
-	},
-"18_89": {
-		"target": "",
-		"match": "media, Real"
-	},
-"18_90": {
-		"target": "",
-		"match": "Issue, March"
-	},
-"18_91": {
-		"target": "",
-		"match": "real"
-	},
-"18_92": {
-		"target": "13_31, 9_28",
-		"match": "Time, online, Spring"
-	},
-"18_93": {
-		"target": "",
-		"match": ""
-	},
-"19_0": {
-		"target": "13_16, 13_31, 11_8, 9_28",
-		"match": "text, text"
-	},
-"19_1": {
-		"target": "9_28",
-		"match": "York, line, line, York, line"
-	},
-"19_2": {
-		"target": "",
-		"match": ""
-	},
-"19_3": {
-		"target": "22_5",
-		"match": ""
-	},
-"19_4": {
-		"target": "14_4",
-		"match": ""
-	},
-"19_5": {
-		"target": "13_31",
-		"match": ""
-	},
-"19_6": {
-		"target": "13_16",
-		"match": ""
-	},
-"19_7": {
-		"target": "13_31",
-		"match": "many, First"
-	},
-"19_8": {
-		"target": "13_16, 13_31",
-		"match": ""
-	},
-"19_9": {
-		"target": "23_16",
-		"match": ""
-	},
-"19_10": {
-		"target": "20_10",
-		"match": "construction, media"
-	},
-"19_11": {
-		"target": "18_15",
-		"match": ""
-	},
-"19_12": {
-		"target": "13_16",
-		"match": "many, construction"
-	},
-"19_13": {
-		"target": "12_21",
-		"match": "media, construct"
-	},
-"19_14": {
-		"target": "22_8",
-		"match": ""
-	},
-"19_15": {
-		"target": "11_10",
-		"match": "Media, many"
-	},
-"19_16": {
-		"target": "29_10",
-		"match": ""
-	},
-"19_17": {
-		"target": "8_1",
-		"match": ""
-	},
-"19_18": {
-		"target": "13_31",
-		"match": "March"
-	},
-"19_19": {
-		"target": "13_16, 11_10",
-		"match": ""
-	},
-"19_20": {
-		"target": "22_8, 13_16",
-		"match": ""
-	},
-"19_21": {
-		"target": "13_2",
-		"match": ""
-	},
-"19_22": {
-		"target": "9_28, 23_16",
-		"match": "many"
-	},
-"19_23": {
-		"target": "13_31",
-		"match": ""
-	},
-"19_24": {
-		"target": "2_17",
-		"match": ""
-	},
-"19_25": {
-		"target": "13_31, 11_10, 14_4",
-		"match": ""
-	},
-"19_26": {
-		"target": "13_31",
-		"match": "First, published, York, Understanding, Media, online, Media, York"
-	},
-"20_0": {
-		"target": "12_21, 14_4",
-		"match": "many, Media"
-	},
-"20_1": {
-		"target": "",
-		"match": ""
-	},
-"20_2": {
-		"target": "11_10",
-		"match": "York"
-	},
-"20_3": {
-		"target": "11_10",
-		"match": ""
-	},
-"20_4": {
-		"target": "12_21, 26_10",
-		"match": ""
-	},
-"20_5": {
-		"target": "22_8",
-		"match": ""
-	},
-"20_6": {
-		"target": "29_10, 13_31, 11_10, 9_28",
-		"match": "First, York"
-	},
-"20_7": {
-		"target": "29_11, 11_5, 11_8, 11_10",
-		"match": "York"
-	},
-"20_8": {
-		"target": "12_21, 13_31",
-		"match": ""
-	},
-"20_9": {
-		"target": "11_10, 11_12",
-		"match": ""
-	},
-"20_10": {
-		"target": "22_5",
-		"match": ""
-	},
-"20_11": {
-		"target": "17_7",
-		"match": ""
-	},
-"20_12": {
-		"target": "24_5",
-		"match": "line, line"
-	},
-"20_13": {
-		"target": "19_4, 23_16",
-		"match": "real"
-	},
-"20_14": {
-		"target": "17_0",
-		"match": "January"
-	},
-"20_15": {
-		"target": "23_11",
-		"match": ""
-	},
-"20_16": {
-		"target": "10_11",
-		"match": ""
-	},
-"20_17": {
-		"target": "12_22, 22_8, 11_12, 16_5",
-		"match": "line"
-	},
-"20_18": {
-		"target": "",
-		"match": ""
-	},
-"20_19": {
-		"target": "29_10",
-		"match": "many"
-	},
-"20_20": {
-		"target": "29_10",
-		"match": ""
-	},
-"20_21": {
-		"target": "",
-		"match": ""
-	},
-"20_22": {
-		"target": "",
-		"match": "text"
-	},
-"20_23": {
-		"target": "11_12, 9_28",
-		"match": ""
-	},
-"20_24": {
-		"target": "",
-		"match": ""
-	},
-"20_25": {
-		"target": "",
-		"match": ""
-	},
-"20_26": {
-		"target": "11_10",
-		"match": ""
-	},
-"20_27": {
-		"target": "11_8",
-		"match": "line"
-	},
-"20_28": {
-		"target": "9_28",
-		"match": "First, published, published, online, online, online, online, online, text, online, online"
-	},
-"21_0": {
-		"target": "11_8",
-		"match": ""
-	},
-"21_1": {
-		"target": "17_4, 13_31, 11_11, 11_13, 9_25",
-		"match": ""
-	},
-"21_2": {
-		"target": "11_8",
-		"match": "real, real, real"
-	},
-"21_3": {
-		"target": "18_84",
-		"match": ""
-	},
-"21_4": {
-		"target": "12_21, 20_9, 13_3, 18_84",
-		"match": "ones"
-	},
-"21_5": {
-		"target": "",
-		"match": ""
-	},
-"21_6": {
-		"target": "13_3",
-		"match": "many"
-	},
-"21_7": {
-		"target": "",
-		"match": ""
-	},
-"21_8": {
-		"target": "",
-		"match": "come"
-	},
-"21_9": {
-		"target": "",
-		"match": ""
-	},
-"21_10": {
-		"target": "18_67",
-		"match": ""
-	},
-"21_11": {
-		"target": "19_9",
-		"match": "real"
-	},
-"21_12": {
-		"target": "11_8",
-		"match": "construction, real"
-	},
-"21_13": {
-		"target": "12_29",
-		"match": "construction, real"
-	},
-"21_14": {
-		"target": "11_8",
-		"match": "online, online, real, online"
-	},
-"21_15": {
-		"target": "17_4, 13_16, 11_12",
-		"match": ""
-	},
-"21_16": {
-		"target": "20_10, 19_16",
-		"match": "reality, reality, reality"
-	},
-"21_17": {
-		"target": "18_84",
-		"match": ""
-	},
-"21_18": {
-		"target": "18_84",
-		"match": "real, reality, real"
-	},
-"21_19": {
-		"target": "",
-		"match": "reality"
-	},
-"21_20": {
-		"target": "12_20, 29_10, 1_3, 24_14",
-		"match": "standing"
-	},
-"21_21": {
-		"target": "3_7",
-		"match": ""
-	},
-"21_22": {
-		"target": "",
-		"match": "text"
-	},
-"21_23": {
-		"target": "",
-		"match": ""
-	},
-"21_24": {
-		"target": "18_84",
-		"match": "real, reality"
-	},
-"21_25": {
-		"target": "13_21, 11_8, 11_10",
-		"match": "reality, media, online"
-	},
-"21_26": {
-		"target": "20_10, 13_31",
-		"match": ""
-	},
-"21_27": {
-		"target": "10_36",
-		"match": "First, published, January"
-	},
-"22_0": {
-		"target": "16_11",
-		"match": ""
-	},
-"22_1": {
-		"target": "23_16",
-		"match": "January, many"
-	},
-"22_2": {
-		"target": "9_28",
-		"match": "real, line"
-	},
-"22_3": {
-		"target": "20_10, 19_1",
-		"match": ""
-	},
-"22_4": {
-		"target": "11_8",
-		"match": "real"
-	},
-"22_5": {
-		"target": "20_10",
-		"match": ""
-	},
-"22_6": {
-		"target": "11_12",
-		"match": ""
-	},
-"22_7": {
-		"target": "11_10",
-		"match": "media, ones, ones, media"
-	},
-"22_8": {
-		"target": "11_10",
-		"match": "come, media, many"
-	},
-"22_9": {
-		"target": "11_10",
-		"match": ""
-	},
-"22_10": {
-		"target": "11_10, 24_13",
-		"match": "many"
-	},
-"22_11": {
-		"target": "9_28",
-		"match": "First, published, online, real, online"
-	},
-"23_0": {
-		"target": "25_22",
-		"match": ""
-	},
-"23_1": {
-		"target": "5_18",
-		"match": ""
-	},
-"23_2": {
-		"target": "11_10",
-		"match": ""
-	},
-"23_3": {
-		"target": "5_18, 25_6, 25_15",
-		"match": ""
-	},
-"23_4": {
-		"target": "9_28",
-		"match": ""
-	},
-"23_5": {
-		"target": "",
-		"match": ""
-	},
-"23_6": {
-		"target": "11_10",
-		"match": ""
-	},
-"23_7": {
-		"target": "11_10",
-		"match": ""
-	},
-"23_8": {
-		"target": "11_10",
-		"match": ""
-	},
-"23_9": {
-		"target": "21_25",
-		"match": ""
-	},
-"23_10": {
-		"target": "10_7",
-		"match": ""
-	},
-"23_11": {
-		"target": "11_10",
-		"match": ""
-	},
-"23_12": {
-		"target": "9_28",
-		"match": ""
-	},
-"23_13": {
-		"target": "13_31",
-		"match": ""
-	},
-"23_14": {
-		"target": "11_10, 9_28",
-		"match": ""
-	},
-"23_15": {
-		"target": "9_28",
-		"match": ""
-	},
-"23_16": {
-		"target": "12_21",
-		"match": ""
-	},
-"23_17": {
-		"target": "28_0",
-		"match": ""
-	},
-"23_18": {
-		"target": "2_1",
-		"match": ""
-	},
-"23_19": {
-		"target": "13_31",
-		"match": ""
-	},
-"24_0": {
-		"target": "12_21",
-		"match": "media, media, construct, reality"
-	},
-"24_1": {
-		"target": "13_31",
-		"match": "bomb"
-	},
-"24_2": {
-		"target": "11_11, 8_6",
-		"match": "come"
-	},
-"24_3": {
-		"target": "13_3",
-		"match": "text, come, Time"
-	},
-"24_4": {
-		"target": "11_10",
-		"match": ""
-	},
-"24_5": {
-		"target": "17_1",
-		"match": ""
-	},
-"24_6": {
-		"target": "13_31",
-		"match": "construction"
-	},
-"24_7": {
-		"target": "11_8",
-		"match": ""
-	},
-"24_8": {
-		"target": "20_10, 10_6",
-		"match": ""
-	},
-"24_9": {
-		"target": "",
-		"match": ""
-	},
-"24_10": {
-		"target": "13_21",
-		"match": "come, real"
-	},
-"24_11": {
-		"target": "16_5",
-		"match": "Time"
-	},
-"24_12": {
-		"target": "11_8",
-		"match": ""
-	},
-"24_13": {
-		"target": "11_8",
-		"match": "many, line, many"
-	},
-"24_14": {
-		"target": "16_5",
-		"match": ""
-	},
-"24_15": {
-		"target": "11_8",
-		"match": "many"
-	},
-"24_16": {
-		"target": "",
-		"match": "First, published"
-	},
-"25_0": {
-		"target": "13_31",
-		"match": "Internet"
-	},
-"25_1": {
-		"target": "23_8",
-		"match": "Internet, come, Time"
-	},
-"25_2": {
-		"target": "11_10",
-		"match": "many, many, online"
-	},
-"25_3": {
-		"target": "11_13, 19_15, 9_8",
-		"match": "online, many, many, Internet"
-	},
-"25_4": {
-		"target": "9_28",
-		"match": "real, Internet"
-	},
-"25_5": {
-		"target": "14_12",
-		"match": "Internet, Internet, reality"
-	},
-"25_6": {
-		"target": "11_13",
-		"match": "reality, online"
-	},
-"25_7": {
-		"target": "23_16",
-		"match": "Internet, media"
-	},
-"25_8": {
-		"target": "29_4",
-		"match": "Internet"
-	},
-"25_9": {
-		"target": "12_21, 29_12, 11_12",
-		"match": ""
-	},
-"25_10": {
-		"target": "11_8",
-		"match": "York, Times"
-	},
-"25_11": {
-		"target": "11_10",
-		"match": "Unabomber, media, real, media, construction, real, Internet, media"
-	},
-"25_12": {
-		"target": "9_28",
-		"match": "construction, real"
-	},
-"25_13": {
-		"target": "11_8",
-		"match": "Internet, many, online, online, Internet"
-	},
-"25_14": {
-		"target": "8_2",
-		"match": "online, text"
-	},
-"25_15": {
-		"target": "9_28",
-		"match": "media, reality, real"
-	},
-"25_16": {
-		"target": "11_10, 9_11",
-		"match": "construction"
-	},
-"25_17": {
-		"target": "11_10",
-		"match": "real, media, online, real, real"
-	},
-"25_18": {
-		"target": "18_67",
-		"match": ""
-	},
-"25_19": {
-		"target": "11_10",
-		"match": "real"
-	},
-"25_20": {
-		"target": "13_31, 7_11, 7_14",
-		"match": "York, Times, York, media"
-	},
-"25_21": {
-		"target": "29_10",
-		"match": "Internet"
-	},
-"25_22": {
-		"target": "13_31",
-		"match": "First, published, Issue, Time, Understanding, York, York, York, Times, March, Reality, Media, Simulation, Artpulse, Issue, March, online, reality, media"
-	},
-"26_0": {
-		"target": "14_4",
-		"match": ""
-	},
-"26_1": {
-		"target": "29_10, 9_28",
-		"match": "York, Times, published"
-	},
-"26_2": {
-		"target": "25_9",
-		"match": "online"
-	},
-"26_3": {
-		"target": "13_31",
-		"match": ""
-	},
-"26_4": {
-		"target": "29_7, 17_4",
-		"match": ""
-	},
-"26_5": {
-		"target": "13_31",
-		"match": ""
-	},
-"26_6": {
-		"target": "17_4",
-		"match": ""
-	},
-"26_7": {
-		"target": "13_21",
-		"match": ""
-	},
-"26_8": {
-		"target": "13_31",
-		"match": ""
-	},
-"26_9": {
-		"target": "3_3",
-		"match": "many"
-	},
-"26_10": {
-		"target": "17_4",
-		"match": ""
-	},
-"26_11": {
-		"target": "17_4",
-		"match": ""
-	},
-"26_12": {
-		"target": "12_21",
-		"match": ""
-	},
-"26_13": {
-		"target": "11_13",
-		"match": "German"
-	},
-"26_14": {
-		"target": "29_10",
-		"match": "Internet, Internet, York"
-	},
-"26_15": {
-		"target": "29_8, 28_1, 11_11, 25_11",
-		"match": "real"
-	},
-"26_16": {
-		"target": "13_31, 4_4",
-		"match": "Olia, Lialina, online, Lialina, text, online"
-	},
-"26_17": {
-		"target": "12_21",
-		"match": "Internet, Internet, online"
-	},
-"26_18": {
-		"target": "29_10",
-		"match": "online, Internet, media, Media"
-	},
-"26_19": {
-		"target": "29_10",
-		"match": "real, text, text, Internet"
-	},
-"26_20": {
-		"target": "29_11, 19_23",
-		"match": "many"
-	},
-"26_21": {
-		"target": "25_11",
-		"match": "Internet, online"
-	},
-"26_22": {
-		"target": "11_13",
-		"match": "online"
-	},
-"26_23": {
-		"target": "13_17, 13_21",
-		"match": "online"
-	},
-"26_24": {
-		"target": "13_31",
-		"match": "First, published, Artpulse, Spring, York, Times, online, Internet, Internet, Olia, Lialina, Times, online"
-	},
-"27_0": {
-		"target": "11_8",
-		"match": ""
-	},
-"27_1": {
-		"target": "12_21",
-		"match": "come"
-	},
-"27_2": {
-		"target": "9_11",
-		"match": ""
-	},
-"27_3": {
-		"target": "11_12",
-		"match": "online"
-	},
-"27_4": {
-		"target": "25_15",
-		"match": ""
-	},
-"27_5": {
-		"target": "",
-		"match": ""
-	},
-"27_6": {
-		"target": "11_12",
-		"match": "online, York, online"
-	},
-"27_7": {
-		"target": "",
-		"match": "First, published"
-	},
-"28_0": {
-		"target": "23_17",
-		"match": "Internet"
-	},
-"28_1": {
-		"target": "13_31",
-		"match": "text, real"
-	},
-"28_2": {
-		"target": "",
-		"match": ""
-	},
-"28_3": {
-		"target": "14_4",
-		"match": ""
-	},
-"28_4": {
-		"target": "11_12, 14_4, 14_8",
-		"match": ""
-	},
-"28_5": {
-		"target": "13_31, 11_10, 25_16, 9_11, 8_3, 8_9, 18_46",
-		"match": ""
-	},
-"28_6": {
-		"target": "11_10, 14_4",
-		"match": ""
-	},
-"28_7": {
-		"target": "",
-		"match": ""
-	},
-"28_8": {
-		"target": "",
-		"match": ""
-	},
-"28_9": {
-		"target": "29_10, 25_11",
-		"match": "real, real"
-	},
-"28_10": {
-		"target": "11_11",
-		"match": ""
-	},
-"28_11": {
-		"target": "9_28",
-		"match": "online"
-	},
-"28_12": {
-		"target": "13_31, 11_10",
-		"match": "Real, reality, York, Times, text"
-	},
-"28_13": {
-		"target": "23_17",
-		"match": ""
-	},
-"28_14": {
-		"target": "",
-		"match": ""
-	},
-"28_15": {
-		"target": "",
-		"match": "York"
-	},
-"28_16": {
-		"target": "",
-		"match": ""
-	},
-"28_17": {
-		"target": "",
-		"match": "First, published, Artpulse, Real"
-	},
-"29_0": {
-		"target": "25_11",
-		"match": "Internet, Internet, construction, Internet, Internet"
-	},
-"29_1": {
-		"target": "9_28",
-		"match": ""
-	},
-"29_2": {
-		"target": "9_28",
-		"match": "Internet, Internet"
-	},
-"29_3": {
-		"target": "9_28",
-		"match": ""
-	},
-"29_4": {
-		"target": "9_28",
-		"match": "Internet"
-	},
-"29_5": {
-		"target": "26_19, 26_24",
-		"match": "Internet"
-	},
-"29_6": {
-		"target": "",
-		"match": "Internet"
-	},
-"29_7": {
-		"target": "12_27",
-		"match": ""
-	},
-"29_8": {
-		"target": "11_10",
-		"match": "online, German, online, online, media, online"
-	},
-"29_9": {
-		"target": "11_8",
-		"match": "many, Internet, real"
-	},
-"29_10": {
-		"target": "26_19, 26_24",
-		"match": "Internet, Internet"
-	},
-"29_11": {
-		"target": "12_29, 23_16",
-		"match": "online"
-	},
-"29_12": {
-		"target": "21_25, 12_21, 13_31, 23_2",
-		"match": "Digital, media, reality, online"
-	},
-"29_13": {
-		"target": "27_4, 23_16",
-		"match": "Internet, many, online, Olia, Lialina, Dragan"
-	},
-"29_14": {
-		"target": "17_4",
-		"match": ""
-	},
-"29_15": {
-		"target": "",
-		"match": "many, Internet, online"
-	},
-"29_16": {
-		"target": "13_31, 2_17",
-		"match": ""
-	},
-"29_17": {
-		"target": "",
-		"match": "First, published, Issue"
-	}
-};
+sim1= {
+    "14_15": {
+        "ners_x": "Edge of Art, Daniel Langlois Foundation, London, Alain Depocas, Joline Blais, Leaping, Walker Art Center, November 1998, Artbyte, WAC, Unreliable Archivist, Cf, Permanence Through Change, Thames, Jon Ippolito, Future, Approach, Variable, June-July, October 2 , 2001, Hudson, Eatthesewords.com, Noemalab, UA, October 2005, Montreal, New York, 9C73F1E2F09A04F96179, Contradiction, January 2010, Keith Frank, Museum, Liisa Ogburn, Caitlin Jones, Janet Cohen, VMI, Solomon R. Guggenheim Museum, What 's Your Story, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027027028,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.016216217
+    },
+    "12_18": {
+        "ners_x": "Media Art, American, New Economy, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015151515,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.009090909
+    },
+    "12_17": {
+        "ners_x": "Occasionally, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001048218,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.006289308
+    },
+    "12_19": {
+        "ners_x": "New Media Art, New Media, Spanish, 2005, MEIAC, MoMA, Walker Art Center, Guggenheim, António Cerveira Pinto, Badajoz, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017730496,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.010638298
+    },
+    "12_14": {
+        "ners_x": "Inke Arns, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.022222223
+    },
+    "12_13": {
+        "ners_x": "Unfortunately, New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004032258,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.024193548
+    },
+    "12_16": {
+        "ners_x": "New Media Art, Duchamp, Christo, Paris, Leonardo, Fluxus, Last Supper, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037593984,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.02255639
+    },
+    "12_15": {
+        "ners_x": "Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.01923077
+    },
+    "12_20": {
+        "ners_x": "Art, New Media Art, Art Appliances, Eddo Stern, John F. Simon, Carlo Zanni, Altarboy, Foster-Krauss-Bois-Buchloh, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005899705,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.03539823
+    },
+    "12_21": {
+        "ners_x": "Casey Reas, UBERMORGEN.COM, John F. Simon, Fabio Paris, 2002, Dragan Espenschied, Austrian, Biennales, Midnight, Franco Mattes, Eva, With Elements of Web, Olia Lialina, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036075038,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.021645023
+    },
+    "12_22": {
+        "ners_x": "Condon, Brody Condon, My Last New Media Art Exhibition, Regine DebattyWhen, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035211267,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.02112676
+    },
+    "12_23": {
+        "ners_x": "PR, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.030303031
+    },
+    "5_26": {
+        "ners_x": "Alessandro Capozzo, Watz, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0.022222223
+    },
+    "28_16": {
+        "ners_x": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "4_21",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "First Internet Coup, Alain Bieber, Tilman Baumgärtel, Telepolis, 0100101110101101, Rebel:Art Magazine, No Artists, Jaka Zeleznikar, Uri Pasovsky, Mladina, January 2001, Dec, Sept, Vaticano.org, Haaretz, 1 April 2004, Nike Ground, ORG, ",
+        "tokScore": 0
+    },
+    "5_27": {
+        "ners_x": "Exuvia, 2006, Katja Noppes, Capozzo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004251701,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.025510205
+    },
+    "28_17": {
+        "ners_x": "Annette Tison, Oliver Laric, Barbapapa, Talus Taylor, Artpulse, Europe, Real Thing, 2010, N, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005081301,
+        "locScore": 0,
+        "target": "11_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Spire, BitFactory, VR, Chicago, DO YOU THINK THAT A PERFORMANCE IN SECOND LIFE COULD ALSO BE DISPLAYED IN THE REAL WORLD, Western Front, Han Loso, Gazira Babeli, Virtual Reality, Iborg, Second Life, Vancouver, Escape, Man Michinaga, Currently, Meaning-making, WHAT KIND OF AUDIENCE ARE YOU LOOKING FOR, Gallery, ",
+        "tokScore": 0.030487806
+    },
+    "5_24": {
+        "ners_x": "Kinetoh, Franchino, Generative Art, Fabio Franchino, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004237288,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.025423728
+    },
+    "28_14": {
+        "ners_x": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026737966,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.01604278
+    },
+    "13_29": {
+        "ners_x": "Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004237288,
+        "locScore": 0,
+        "target": "1_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, 1997, ",
+        "tokScore": 0.025423728
+    },
+    "5_25": {
+        "ners_x": "Kinetoh, Chance, Bono, Franchino, Edward, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "3_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Josephine Bosma, 0100101110101101, Influencers, 2003, ORG, ",
+        "tokScore": 0.02631579
+    },
+    "28_15": {
+        "ners_x": "VISITORS EVERY DAY, New York, Berlin, Paris, WHO ARE THESE PEOPLE, London, READ SOMEWHERE THAT YOU HAVE ABOUT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031746032,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.01904762
+    },
+    "5_22": {
+        "ners_x": "Philip Galanter, Set, Watz, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0
+    },
+    "28_12": {
+        "ners_x": "2009, MU, Daniel Baumann, PDF, Jeff Koons, Real Thing, Hollywood, Gelitin, Claude Closky, Balloon Dog, New York Times, Henry James, Cory Arcangel, World Trade Center, Netherlands, Seth Price, Eindhoven, Versailles, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013774104,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.008264462
+    },
+    "13_27": {
+        "ners_x": "Toywar, Nikeground, Documenta Done, 0100101110101101, Vote Auction, Female Extension, Hell.com, Digital Hijack, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023474179,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.014084507
+    },
+    "5_23": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015290519,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0091743115
+    },
+    "28_13": {
+        "ners_x": "2008, Green Screen Version, Cliparts, Mariah, Touch My Body, Mariah Carey, ARE YOU INTERESTED IN THE WAY THE ONLINE COMMUNITY REACTS TO YOUR WORK AND HOW THEY USE AND ABUSE IT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001618123,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.009708738
+    },
+    "13_28": {
+        "ners_x": "New Media Art, Digital Age, Art, Connessioni, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.020408163
+    },
+    "5_20": {
+        "ners_x": "Hans Haacke, Generative Art, John Cage, Sol LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033670033,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.02020202
+    },
+    "28_10": {
+        "ners_x": "Terminator, T1000, Basel, CAN YOU HELP ME, Reformation, HAVE SOME PROBLEMS WITH APPLYING THIS MODEL TO A SCULPTURE OR AN INSTALLATION, Barbapapa, NOT A SPACE OF REPRESENTATION BUT OF PRIMARY EXPERIENCES, Justice, Virgin, Terminator-esque, Jesus, STILL, YOU HAVE SAID THE SAME ABOUT VVORK, Judgment Day, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019379845,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.011627907
+    },
+    "13_25": {
+        "ners_x": "0100101110101101, Perpetual Self Dis, Biennale.py, 2003, Infecting Machine, 2001, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.02631579
+    },
+    "5_21": {
+        "ners_x": "Minimalism, Marius Watz, Generative Art, Norwegian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.02631579
+    },
+    "28_11": {
+        "ners_x": "Japanese, Dolby, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035714286,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.021428572
+    },
+    "13_26": {
+        "ners_x": "Net.art, 0100101110101101, 2005, Management Leisure Suit, Yes Men, Alexei Shulgin, Net Art, Software Art, Luca Lampo, History, Marco Deseriis, Connessioni, Holy Fire, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.015625
+    },
+    "12_29": {
+        "ners_x": "Sebti, Slocum, Chatonsky, Bruce Sterling, Mia, Leandre, Dragan Espenschied, Bruno, Mealey, Alexei Shulgin, Reas, Arcangel, Jodi, Maya, Hope, Boredomresearch, Stern, Sandison, Cosic, Babeli, Zanni, Aristarkh Chernyshev, Staehle, UBERMORGEN.COM, Helene, Sterling, Levin, Napier, Simon, Chevalier, Lab, Olia Lialina, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.016129032
+    },
+    "12_28": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023474179,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.014084507
+    },
+    "12_27": {
+        "ners_x": "Brody Condon, Naturally, Arns, Holy Fire, Lillemose, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0053078556,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.031847134
+    },
+    "12_26": {
+        "ners_x": "Matthew Barney, Gazira Babeli, Casey Reas, Cindy Sherman, Wall Drawings, Peter Halley, Sol LeWitt, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0047348486,
+        "locScore": 0,
+        "target": "5_29",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Juan J. Romero, Complexity Theory, Artificial.dk, 20 September 2005, D. Quaranta, INTER, Art Theory, Context, Marius Watz, Philip Galanter, Penousal Machado, Art of Artificial Evolution, P. Galanter, Complexism, Generative Art Proceedings, Milan, Ivi, Interview, GENERATIVE, Generative Art, Turin, Teknemedia, Generative, Domenico Quaranta, September 6 2004, Generative Art Now, Springer, Thomas Petersen, C.STEM. Art Electronic Systems and Software Art, Kristine Ploug, T. Petersen, ",
+        "tokScore": 0.028409092
+    },
+    "12_25": {
+        "ners_x": "ArtBrussels, Condon, Gazira Babeli, New Media Art, Casey Reas, Inke Arns, Jakob Lillemose, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0053333337,
+        "locScore": 0,
+        "target": "4_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "0100101110101101, Initially, ORG, ",
+        "tokScore": 0.032
+    },
+    "12_24": {
+        "ners_x": "Condon, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003236246,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.019417476
+    },
+    "12_31": {
+        "ners_x": "2008, Paul Slocum, August 2005, Edge of Art, Hard Disk, AltarBoy, Bantam Mass Market Edition, 0100101110101101, Fabio Paris, LABoral Centro, Bruce Sterling, Lev Manovich, Vuk Cosic, Arte, Charles Sandison, Karen A. Verschooren, Brussels, FPEditions, Régine Debatty, Eva, Argos Festival, Cf, Thames, Roman Minaev, Aristarkh Chernyshev, UBERMORGEN.COM, Hudson, Frie Depraetere, New York, Art Responsive, Jemima Rellie, Internet, Joan Leandre, Environment, Creación Industrial, June 30 , 2007, Spain, Inke Arns, Wolf Lieser, Dragan Espenschied, Y. Bernard, Gijon, Tamas Banovich, D. Quaranta, Charlie Gere, Spectra, Alexei Shulgin, London, Patrick Lichty, P., 1996, 1997, Magdalena Sawon, Steve Dietz, Franco Mattes, Joline Blais, TEXT, March 30, Anna Rosemary Carruthers, Italian, Feedback, Curating, Jon Ippolito, Holy Fire, Input, Digital Age, Michele Thursz, Vicente Matallana, Brescia, Anke Buxmann, Christiane Paul, Death of Computer Art, Art, Mark Tribe, Jacob Lillemose, Olia Lialina, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002406739,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.014440433
+    },
+    "12_30": {
+        "ners_x": "Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003770739,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.022624435
+    },
+    "13_31": {
+        "ners_x": "MIT List Visual Arts Center, Lev Manovich, Infome Imager Description, Benjamin Weil, Wikipedia, See Marina Abramovic, M. Abramovic, iMAL Center, Vague Terrain, Brussels, Zero Comments, Page Context, October 7, Critical Internet Culture, 11 , September 2008, Net, January 25, Cambridge, MA, Karlsruhe, WWW Art Award, Milan, UBERMORGEN.COM, 30 , 2008, Golo Föllmer, Johannes Goebel, IT, Name of Kernel, March 29 , 1997, ZKM, HolyFire, Peter Weibel, Domenico Quaranta, New York, Luciano Caramel, Lovink, Jeffrey Shaw, May 3, .0100101110101101., Joan Leandre, Media Technology, November 12 , 2006, NY, Lisa Jevbratt, D. Quaranta, Charta, Alexei Shulgin, Patrick Lichty, April 18, 1996, PORT, Moving Image Gallery, TEXT, Anna Rosemary Carruthers, Digital Culture, Italian, Hans-Peter Schwarz, 1999, Desktop IS, Holy Fire, May 31 , 2002, Digital Age, New Media Art, Walter, Yves Bernard, Miniartextil, Refresh, Easy Pieces, Navigating Digital Culture, Geert Lovink, Death of Computer Art, Art, Mark Tribe, Routledge, Olia Lialina, OpeningANDpeople, Germany, Cruijsen, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002052545,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.0123152705
+    },
+    "13_30": {
+        "ners_x": "Net Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033670033,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.02020202
+    },
+    "5_29": {
+        "ners_x": "Juan J. Romero, Complexity Theory, Artificial.dk, 20 September 2005, D. Quaranta, INTER, Art Theory, Context, Marius Watz, Philip Galanter, Penousal Machado, Art of Artificial Evolution, P. Galanter, Complexism, Generative Art Proceedings, Milan, Ivi, Interview, GENERATIVE, Generative Art, Turin, Teknemedia, Generative, Domenico Quaranta, September 6 2004, Generative Art Now, Springer, Thomas Petersen, C.STEM. Art Electronic Systems and Software Art, Kristine Ploug, T. Petersen, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0010822511,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0064935065
+    },
+    "5_28": {
+        "ners_x": "Limiteazero, Silvio Mondino, Paolo Rigamonti, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014619883,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.00877193
+    },
+    "15_14": {
+        "ners_x": "Turing Land, New Media Art, Tokyo, Leonardo, ICC, Duchamp Land, ZKM, ISEA, MIT Press, Manovich, 1996, Ars Electronica, Alan Turing, Karlsruhe, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036231885,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.02173913
+    },
+    "15_15": {
+        "ners_x": "Turing Land, Manovich, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034722222,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.020833334
+    },
+    "15_12": {
+        "ners_x": "New Media Art, Apple Macintosh, The New Media Reader, World Wide Web, Manovich, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.021978023
+    },
+    "15_13": {
+        "ners_x": "New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004587156,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.027522936
+    },
+    "15_10": {
+        "ners_x": "Computer Art, Kinetic Art, Video Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048076925,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.028846154
+    },
+    "15_11": {
+        "ners_x": "New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048076925,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.028846154
+    },
+    "15_23": {
+        "ners_x": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 9.746589E-4,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.0058479533
+    },
+    "15_20": {
+        "ners_x": "Duchamp, Joline Blais, Jon Ippolito, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045045046,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.027027028
+    },
+    "15_21": {
+        "ners_x": "New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045045046,
+        "locScore": 0,
+        "target": "8_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "MEANINGFUL OR NOT, MUCH MORE THAN GWEI AND AMAZON NOIR, Bush, Paolo Cirio, BOTH IN THE PROCESS AND THE AESTHETICS, The Sound, YOU SEEM TO BE SAYING, POP, The Backstreet Boys, Britney Spears, James Bond, Alessandro Ludovico, WHICH ARE VERY CONCEPTUAL WORKS, Intuitively, Robbie Williams, E-monsters, THE SOUND OF EBAY IS PRETTY, GWEI, UBERMORGEN.COM-only, Madonna, ENJOY OUR MUSIC AND OUR OLD-FASHIONED PORNOGRAPHY, IS ENTERTAINMENT THE ULTIMATE SUBVERSION, Amazon Noir, STOP THINKING, ",
+        "tokScore": 0.027027028
+    },
+    "15_22": {
+        "ners_x": "Turing Land, Long, New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005868545,
+        "locScore": 0,
+        "target": "24_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Herman, RENDER, Robert, COLLECTED DATA, Barcelona, Nanga Parbat, Julie, NO, ALCHEMICAL EVENT, Lamba Pahar, BUT, THE KERNEL PEAK, WELL, IN THE NAME OF KERNEL, CAN YOU HELP US GET INTO THIS METAPHOR, USE TERMS FROM PROGRAMMING CULTURE, CONSPIRACY THEORIES AND HERMETIC TRADITION ALL MIX TOGETHER, FIREWALL, Reinhold, SHRED, COMING TO THE NARRATIVE DIMENSION, TO NAME PLACES AND CHARACTERS, YOU'LL PROBABLY ANSWER, INSTEAD OF USING A CHOCOLATE GRINDER TO TELL OF A MYSTICAL, SYSTRAY, THE GREAT ICE-FIRE WALL, THE GREAT SYSTRAY GLACIER, KERNEL, Kernel Peak, SUCH AS, Juanito, READ IT AS REVERSE ENGINEERING ON DUCHAMP'S GREAT GLASS, YOU USE A MYTHOLOGICAL NARRATIVE AS A METAPHOR FOR A COMPUTATIONAL PROCESS, MR, Sagarmatha, PERSONAL DATA, KUBASIK, AUTOBIOGRAPHY, IS A COMPLEX HYPERTEXT IN WHICH MOUNTAINEERING, WIPE, Kurt, YOU, Beni, IN THE TEXT WRITTEN FOR THE PROJECT, ",
+        "tokScore": 0.03521127
+    },
+    "14_11": {
+        "ners_x": "Right, DO YOU SEE OTHER POSSIBLE SOLUTIONS, DOES NET ART NEED MUSEUMS TO SURVIVE, IN, ARE ULTIMATELY THE ONES WHOSE FUTURE DEPENDS ON THE VERY INSTITUTION THEY WERE DESIGNED TO RENDER OBSOLETE, Variable Media Network, DIGITAL OR OTHERWISE, Internet, THE MOST EXTREME DEPARTURES FROM THE MATERIAL OBJECT, YOU WROTE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00456621,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.02739726
+    },
+    "14_12": {
+        "ners_x": "Jonathan Feinberg, Hans Moravec, 2002, Martin Wattenberg, HOW WOULD YOU LIKE TO LIVE WHEN YOU'LL BE DEAD, THE VMI RUNS THE RISK OF TURNING INTO AN AGGRESSIVE THERAPY, WHAT DO YOU THINK, LOOKING AT THE QUESTIONNAIRE, Researchers, AND THINKING ABOUT STRATEGIES LIKE EMULATION, Marek Walczak, Variable Media Network, Ray Kurzweil, CAN'T REJECT THE IDEA THAT THEY ARE BASED ON A QUESTION LIKE, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028860029,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.017316017
+    },
+    "14_13": {
+        "ners_x": "TODAY, LOVE AFFAIR, WHAT DO YOU THINK ABOUT THE FUTURE OF THIS RELATIONSHIP, THE, BETWEEN CONTEMPORARY ART MUSEUMS AND NET ART SEEMS TO BE IN TROUBLE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003930818,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.023584906
+    },
+    "14_14": {
+        "ners_x": "Duchamp, Joline Blais, At the Edge of Art, WHAT ARE YOU DOING NOW, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005868545,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.03521127
+    },
+    "15_17": {
+        "ners_x": "Carsten Nicolai, Pierre Huyghe, 1996, Carsten Holler, Germano Celant, Olafur Eliasson, New Phase Is, Manovich, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032938076,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.019762846
+    },
+    "15_16": {
+        "ners_x": "Turing Land, 1996, New Media Art, Nam June Paik, Duchamp, Manovich, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003921569,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.023529412
+    },
+    "15_19": {
+        "ners_x": "New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0059101656,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.035460994
+    },
+    "15_18": {
+        "ners_x": "Sociable Media Group, Stiff People League, Linz, Ars Electronica, Franco Mattes, Caribbean, Second Life, Eva, Hollywood, MIT Media Lab, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037453184,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.02247191
+    },
+    "14_10": {
+        "ners_x": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015015015,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.009009009
+    },
+    "3_18": {
+        "ners_x": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "7_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "UBERMORGEN.COM, No, ",
+        "tokScore": 0
+    },
+    "3_17": {
+        "ners_x": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0
+    },
+    "3_16": {
+        "ners_x": "Obviously, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014367816,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.00862069
+    },
+    "3_15": {
+        "ners_x": "Toywar, Bonnie, Cornelia Sollfrank, 0100101110101101, Clyde, Vuk Cosic, The Yes Men and Vote-auction, Digital Hijack, Documenta X, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015432099,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.009259259
+    },
+    "3_10": {
+        "ners_x": "DVD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.016129032
+    },
+    "3_13": {
+        "ners_x": "Jodi, Olia Lialina, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017921147,
+        "locScore": 0,
+        "target": "11_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Second Life, ",
+        "tokScore": 0.010752688
+    },
+    "3_14": {
+        "ners_x": "Josephine Bosma, 0100101110101101, Influencers, 2003, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015015015,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.009009009
+    },
+    "3_11": {
+        "ners_x": "Duchampian, Vuk Cosic, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029498525,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.017699115
+    },
+    "3_12": {
+        "ners_x": "Horace, Duchamp, Law, Alexei Shulgin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.022727273
+    },
+    "5_10": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028818445,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.017291067
+    },
+    "13_15": {
+        "ners_x": "Venice Biennale, Net Art, Ars Electronica, Translating, Net, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027777778,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.016666668
+    },
+    "13_14": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035971224,
+        "locScore": 0,
+        "target": "12_31",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Paul Slocum, August 2005, Edge of Art, Hard Disk, AltarBoy, Bantam Mass Market Edition, 0100101110101101, Fabio Paris, LABoral Centro, Bruce Sterling, Lev Manovich, Vuk Cosic, Arte, Charles Sandison, Karen A. Verschooren, Brussels, FPEditions, Régine Debatty, Eva, Argos Festival, Cf, Thames, Roman Minaev, Aristarkh Chernyshev, UBERMORGEN.COM, Hudson, Frie Depraetere, New York, Art Responsive, Jemima Rellie, Internet, Joan Leandre, Environment, Creación Industrial, June 30 , 2007, Spain, Inke Arns, Wolf Lieser, Dragan Espenschied, Y. Bernard, Gijon, Tamas Banovich, D. Quaranta, Charlie Gere, Spectra, Alexei Shulgin, London, Patrick Lichty, P., 1996, 1997, Magdalena Sawon, Steve Dietz, Franco Mattes, Joline Blais, TEXT, March 30, Anna Rosemary Carruthers, Italian, Feedback, Curating, Jon Ippolito, Holy Fire, Input, Digital Age, Michele Thursz, Vicente Matallana, Brescia, Anke Buxmann, Christiane Paul, Death of Computer Art, Art, Mark Tribe, Jacob Lillemose, Olia Lialina, 2001, ",
+        "tokScore": 0.021582734
+    },
+    "5_12": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005319149,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.031914894
+    },
+    "13_17": {
+        "ners_x": "Neglecting, Tino Sehgal, Duchamp Land, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015873016,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.00952381
+    },
+    "5_11": {
+        "ners_x": "Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0057471264,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.03448276
+    },
+    "13_16": {
+        "ners_x": "Turing Land, UBERMORGEN.COM., New Media Art, Lev Manovich, Duchamp Land, Toshio Iwai, Manovich, Net Art, Ars Electronica, Baran Land, Régine Debatty, Duchampian, Tom Moody, Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.02631579
+    },
+    "5_14": {
+        "ners_x": "Casey Reas, Ars Electronica, 2003, MicroImage, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025641026,
+        "locScore": 0,
+        "target": "25_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Urs Gasser, 2008, John Palfrey, Monoskop, 2005, Web, Born, Dormouse Said, John Markoff, Sixties Counterculture Shaped the Personal Computer Industry, Internet, ",
+        "tokScore": 0.015384615
+    },
+    "13_19": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027322404,
+        "locScore": 0,
+        "target": "12_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Duchamp, ",
+        "tokScore": 0.016393442
+    },
+    "5_13": {
+        "ners_x": "Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.021052632
+    },
+    "13_18": {
+        "ners_x": "Net Art, Translation ApproachesWhat, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005952381,
+        "locScore": 0,
+        "target": "10_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Doctor Marten, Gazira Babeli, Second Life, X-men, March 31 2006, ",
+        "tokScore": 0.035714287
+    },
+    "5_16": {
+        "ners_x": "Duchamp, Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018315018,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.010989011
+    },
+    "5_15": {
+        "ners_x": "Casey Reas, Wall Drawings, Sol LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0012722646,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.007633588
+    },
+    "5_17": {
+        "ners_x": "Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031152647,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.018691588
+    },
+    "5_18": {
+        "ners_x": "Generative Art, Finally, Galanter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034722222,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.020833334
+    },
+    "5_19": {
+        "ners_x": "C.STEM, Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031152647,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.018691588
+    },
+    "13_20": {
+        "ners_x": "Net Art, New York, Moving Image Gallery, Mark Tribe, 2002, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.017857144
+    },
+    "13_21": {
+        "ners_x": "Net Art, DIY, 2006, 2005, 2002, Lisa Jevbratt, Net, Infome Imager, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031446542,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.018867925
+    },
+    "13_22": {
+        "ners_x": "New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004132231,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.024793388
+    },
+    "13_23": {
+        "ners_x": "Venice Biennale, Formally-speaking, Slovenian, 0100101110101101, Biennale, Biennale.py, Net, Python, 2001, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00390625,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.0234375
+    },
+    "13_24": {
+        "ners_x": "0100101110101101, Biennale, Net, Connessioni, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044843047,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.02690583
+    },
+    "26_22": {
+        "ners_x": "DVD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002624672,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.015748031
+    },
+    "26_21": {
+        "ners_x": "Trecartin, Cory Arcangel, I-be Area, Ryan Trecartin, Youtube, Internet, Paul Chan, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027777778,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.016666668
+    },
+    "26_20": {
+        "ners_x": "Sometimesredsometimesblue.com, Neen, Damon Zucconi, Harm Den Dorpel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004516712,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.02710027
+    },
+    "26_24": {
+        "ners_x": "1936, Ibid, 2004, 0100101110101101, 2002, W. Benjamin, Age of Biopolitics, Location_Yes, Artpulse, England, Cfr, Vuk Cosic, N, The New York Times, London, M. Mirapaul, Massachusetts, Attack, Neen, Commercialization of Web Art, Cambridge, Work of Art, Documenta X, Age of Mechanical Reproduction, Slovenian, Artwork, Websites Are The Art Of Our Times, MIT Press, Benjamin, Art Documentation, Art, B. Groys, Miltos Manetas, Olia Lialina, July 8 , 1999, Jason Kottke, Internet, Art Power, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034293553,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.020576132
+    },
+    "26_23": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005899705,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.03539823
+    },
+    "7_13": {
+        "ners_x": "F, UBERMORGEN.COM, Pure Media Hacking, No, Media Hack No., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048076925,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.028846154
+    },
+    "7_14": {
+        "ners_x": "Europe, CIA, Guantanamo Bay, Iraq, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035971224,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.021582734
+    },
+    "7_11": {
+        "ners_x": "Media Hack, Hans Bernhard, May 2nd 2006, F, UBERMORGEN.COM, Web, Vote Auction, Berlin, May, Barbara Alex, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028901733,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.01734104
+    },
+    "7_12": {
+        "ners_x": "Hans Bernhard, UBERMORGEN.COM., Alister Mazzotti of Mazzotti Action, UBERMORGEN.COM, Google Videos, Barbara Alex, Mazzotti Action, Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0061162077,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.036697246
+    },
+    "7_17": {
+        "ners_x": "UBERMORGEN.COM, No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0020202019,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.012121212
+    },
+    "13_12": {
+        "ners_x": "Net Art, New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044444446,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.026666667
+    },
+    "7_18": {
+        "ners_x": "April 27 , 2004, F, 0100101110101101, April 2006, Valentina Tanni, Eva Mattes, Bruce Sterling, MESH, Emma McRae, Maria Rizzo, Modern Painters, September 2006, Anna Rosemary Carruthers, Flash Art, Italian, Australia, Nike Ground, ORG, Regional Perspectives, Power of Fake, UBERMORGEN.COM, American, 1969, Easy Rider, Exibart, Ironically, Domenico Quaranta, PROTOCOL.htm., Peter Fonda, Exploring Net.art, Definition, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013333334,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.008
+    },
+    "13_13": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "7_15": {
+        "ners_x": "PREDICTED IT, 2005, World Trade Center, Twin Towers, HERE, Where-next, Google, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0020449897,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.012269938
+    },
+    "13_10": {
+        "ners_x": "Jeffrey Shaw, 1999, Net.art Browser, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.015625
+    },
+    "7_16": {
+        "ners_x": "Molleindustria, Guerrigliamarketing, Where-next, Google, Luther Blissett Project, Yes Men, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.016129032
+    },
+    "13_11": {
+        "ners_x": "Net Art, New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033783782,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.02027027
+    },
+    "26_18": {
+        "ners_x": "Manetas, Web, Old Media, Miltos Manetas, Neen, American Continent, Internet, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045045046,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.027027028
+    },
+    "26_19": {
+        "ners_x": "Manetas, Jackson Pollock, Flash, Neen, Rafael Rozendaal, URL, Internet, Neenstars, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031152647,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.018691588
+    },
+    "26_16": {
+        "ners_x": "Lialina, Art.Teleportacia, 0100101110101101, Web, Russian, Olia Lialina, URL, 1999, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.027777778
+    },
+    "26_17": {
+        "ners_x": "Agatha Appears, 1997, Sysadmin, Agatha, Internet, Sys, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049751243,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.029850746
+    },
+    "7_10": {
+        "ners_x": "Hans Bernhard, United States, USA, UBERMORGEN.COM, Vote Auction, 2003, Injunction Generator, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.023809524
+    },
+    "10_9": {
+        "ners_x": "Gazira, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.02631579
+    },
+    "10_8": {
+        "ners_x": "Gazira, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034293553,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.020576132
+    },
+    "10_1": {
+        "ners_x": "2007, March 2006, Gazira, April 16, May 30 , 2007, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.027777778
+    },
+    "10_0": {
+        "ners_x": "Gazira Babeli, Sugar Seville, Odyssey, Second Life, Collateral Damage, Beavis Palowakski, ExhibitA, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004347826,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.026086956
+    },
+    "10_3": {
+        "ners_x": "Gazira, No, Orlan, Beuys, Joseph Beuys, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003816794,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.022900764
+    },
+    "10_2": {
+        "ners_x": "Doctor Marten, Gazira Babeli, Second Life, X-men, March 31 2006, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002283105,
+        "locScore": 0,
+        "target": "6_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Software, Art, Information Technology, Burnham, Its New Meaning, Edward A. Shanken, ",
+        "tokScore": 0.01369863
+    },
+    "10_5": {
+        "ners_x": "SL, Second Life, RL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017006802,
+        "locScore": 0,
+        "target": "4_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "0100101110101101, ORG, ",
+        "tokScore": 0.010204081
+    },
+    "10_4": {
+        "ners_x": "Gazira Babeli, Linden Lab, 2003, Second Life, Californian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.024
+    },
+    "10_7": {
+        "ners_x": "Gazira Babeli, Gazira, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042087543,
+        "locScore": 0,
+        "target": "18_86",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Spain, 2003, Centro, Centro Párraga, See Paco Barragan, Seville, Steven Meisel, Audiovisuals Department, 1976, See AAVV, November 1998, Centro Andaluz, No Llames Performance, Space, Call It Performance, Relation, Vogue Italia, Arte Contemporáneo, Easy Pieces, Madrid, Arte Reina Sofía Nacional, Barrio, Murcia, Marina Abramović, New York, USA, Museo, ",
+        "tokScore": 0.025252525
+    },
+    "10_6": {
+        "ners_x": "Having, Matteo Bittanti, Gazira, Second Life, Bittanti, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004192872,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.025157232
+    },
+    "17_9": {
+        "ners_x": "2009, Desert, Gaz, 2007, Gazira, Little Prince, Second Life, President, Locusolus Lands, Recently Gazira, Boss, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011574074,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.0069444445
+    },
+    "18_8": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013227514,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.007936508
+    },
+    "18_9": {
+        "ners_x": "Tino Sehgal, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019607844,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.011764706
+    },
+    "4_20": {
+        "ners_x": "0100101110101101, Franco Mattes, Eva, Europe, Hollywood, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001650165,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.00990099
+    },
+    "4_21": {
+        "ners_x": "First Internet Coup, Alain Bieber, Tilman Baumgärtel, Telepolis, 0100101110101101, Rebel:Art Magazine, No Artists, Jaka Zeleznikar, Uri Pasovsky, Mladina, January 2001, Dec, Sept, Vaticano.org, Haaretz, 1 April 2004, Nike Ground, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0
+    },
+    "29_10": {
+        "ners_x": "Net Art, Manetas, Pirate Bay, Miltos Manetas, Neen, Other Neenstars, GPS, Internet, Neen Manifesto, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031645568,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.01898734
+    },
+    "4_18": {
+        "ners_x": "Nikeground, New York, 2006, 2004, 2005, Bologna, 2003, Nike, United We Stand, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035460992,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.021276595
+    },
+    "4_19": {
+        "ners_x": "0100101110101101, Vatican, Nike, Darko Maver, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018115942,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.010869565
+    },
+    "4_16": {
+        "ners_x": "0100101110101101, Can, Italian, Vaticano.org, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025641026,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.015384615
+    },
+    "4_17": {
+        "ners_x": "Free Spirit Jubilee, Media Rock, Netizens, Internet Coup, Vaticano.org, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "24_15",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "CAN YOU TALK ABOUT THAT, WHICH IS CENTERED AROUND THE SIGHTING OF LIGHT GLOBE UFOS DURING A FLIGHT MISSION, In Song, AND WHAT WE COULD CALL THE POLITICS OF VISION, TWO PATHS SEEM TO CROSS THE MAIN NARRATIVE, Prefect Fatal Error, FROM DISNEYLAND TO CHERNOBYL, THIS INTRODUCES ANOTHER ISSUE THAT SEEMS QUITE RELEVANT FOR YOUR WORK, In the Song, SURVEILLANCE, COMING TO THE VIDEO, Iron Bird, AND A CLOSE LOOK AT THE STRANGE HUMANITY ON THE SURFACE, THE VIEWPOINT FROM ABOVE OF HIGHLY RECOGNIZABLE LOCATIONS, COLUMNS MEGA NFO FILE, FROM SATELLITE SURVEILLANCE TO DATAVEILLANCE ADDRESSED IN THE, ",
+        "tokScore": 0.029411765
+    },
+    "29_17": {
+        "ners_x": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "5_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Philip Galanter, Set, Watz, ",
+        "tokScore": 0
+    },
+    "29_15": {
+        "ners_x": "Oliver Laric, Google Street View, Jon Rafman, Alterazioni Video, Italian, Rafael Rozendaal, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038314175,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.022988506
+    },
+    "29_16": {
+        "ners_x": "Recently, Net Art, Jodi, Youtube, Jodi AgainOf, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004854369,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.029126214
+    },
+    "29_13": {
+        "ners_x": "Net Art, Manetas, Olia Lialina, No, Dragan Espenshied, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004464286,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.026785715
+    },
+    "29_14": {
+        "ners_x": "Petra Cortright, Damon Zucconi, Harm Den Dorpel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.023809524
+    },
+    "29_11": {
+        "ners_x": "Jodi, ASCII, Manetas, Cory Arcangel, Neen, Vuk Cosic, Claude Closky, Alexei Shulgin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "18_86",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Spain, 2003, Centro, Centro Párraga, See Paco Barragan, Seville, Steven Meisel, Audiovisuals Department, 1976, See AAVV, November 1998, Centro Andaluz, No Llames Performance, Space, Call It Performance, Relation, Vogue Italia, Arte Contemporáneo, Easy Pieces, Madrid, Arte Reina Sofía Nacional, Barrio, Murcia, Marina Abramović, New York, USA, Museo, ",
+        "tokScore": 0.022727273
+    },
+    "29_12": {
+        "ners_x": "Net Art, Digital NativesAll, Tumblr, No, Indexehibit, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027894003,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.016736401
+    },
+    "18_7": {
+        "ners_x": "E-mail, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.021978023
+    },
+    "18_6": {
+        "ners_x": "Gulf War, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050890585,
+        "locScore": 0,
+        "target": "28_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "October, AM ASKED TO GIVE A CV, AND NOW, more.ACCORDING TO MY GOOGLE SEARCHES, YOU WERE BORN IN LEIPZIG AND INNSBRUCK, RECENTLY, VVORK, Frieze Art Fair, USUALLY GIVE FAKE CVS WHEN, AND YOU HAVE SAID, YOU ARE BLACK AND CAUCASIAN, Laric, STARTED GIVING REAL ONES, ",
+        "tokScore": 0.030534351
+    },
+    "18_5": {
+        "ners_x": "Return of Performance Art The, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018939395,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.011363637
+    },
+    "18_4": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035842294,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.021505376
+    },
+    "17_0": {
+        "ners_x": "Christiane Paul, 1973, Yves Klein, Mario Merz, Tino Sehgal, Lucy Lippard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0010416667,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.00625
+    },
+    "18_3": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024509805,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.014705882
+    },
+    "18_2": {
+        "ners_x": "HMKV, Dortmund, Phoenix Halle, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0
+    },
+    "18_1": {
+        "ners_x": "Witte, Rod Dickinson, Piet Zwart Institute, London, Steve Rushton, Short History of Performance, Forms of Reenactment, S, Guggenheim Museum, With, A Little Bit of History Repeated, Omer Fast, Berlin, Spielberg, Easy Pieces, KunstWerke, Marina Abramović, History Will Repeat Itself, Pierre Huyghe, Rotterdam, New York, More, Whitechapel Art Gallery, The Milgram Reenactment, Reenactment, Contemporary Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019493178,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0116959065
+    },
+    "18_0": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.023809524
+    },
+    "4_15": {
+        "ners_x": "0100101110101101, Vatican, December 1999, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036036037,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.021621622
+    },
+    "17_4": {
+        "ners_x": "Maurizio Bolognini, 0100101110101101.0RG, Bolognini, Perpetual Self Dis, 1992, 2003, Alerting Infrastructure, Italian, Jonah Brucker-Cohen, Programmed Machines, 2001, Infecting Machines, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024752475,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.014851485
+    },
+    "4_14": {
+        "ners_x": "Mcluhan, Vatican, Technomoral Law, Communications Tools, Telesalvation, Total Domination Plan, Great Cathodic Church, Intermediatic Decree, Holy Public Opinion, December 1999, Father, December 1998, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004347826,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.026086956
+    },
+    "17_3": {
+        "ners_x": "Venice Biennale, Love You, 0100101110101101, 2002, Biennale.py, Frankfurt, 2001, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028248588,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.016949153
+    },
+    "4_13": {
+        "ners_x": "0100101110101101, Pope, Papacy, Yes Men, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025062656,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.015037594
+    },
+    "17_2": {
+        "ners_x": "Apparently, Web, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003436426,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.020618556
+    },
+    "4_12": {
+        "ners_x": "1998, Vaticano.org, Darko Maver, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017730496,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.010638298
+    },
+    "17_1": {
+        "ners_x": "2002, Jaromil, UNIX, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036764706,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.022058824
+    },
+    "4_11": {
+        "ners_x": "0100101110101101, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015723271,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.009433962
+    },
+    "17_8": {
+        "ners_x": "Netochka Nezvanova, Gazira Babeli, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038314175,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.022988506
+    },
+    "4_10": {
+        "ners_x": "Seoul, Having, FTPermutations, FTP, 0100101110101101, Korea Web Art Festival, December 2001, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004464286,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.026785715
+    },
+    "17_7": {
+        "ners_x": "Pong, Gazira Babeli, Campbell, Greek, Soup, Gazira, Second Life, Super Marios, East of Odyssey, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004115226,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.024691358
+    },
+    "17_6": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045454544,
+        "locScore": 0,
+        "target": "25_4",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2003, Christopher Poole, Internet, Grossman, ",
+        "tokScore": 0.027272727
+    },
+    "17_5": {
+        "ners_x": "Concrete DigitsBut, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031055901,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.01863354
+    },
+    "8_0": {
+        "ners_x": "2008, November 2008, UBERMORGEN.COM, 2005, Sound, Italian, Digimag, EKMRZ Trilogy, Teletext, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042735045,
+        "locScore": 0,
+        "target": "12_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.025641026
+    },
+    "8_1": {
+        "ners_x": "2008, LOVE THIS AFFIRMATIVE APPROACH, ANYWAY, HOW MUCH YOUR AFFIRMATION IS SUBVERSIVE, Especially, Wall-E, Pixar, OBVIOUS CRITICISM IS SO BORING, Disney, CAN'T BUT WONDER, WE LOVE IT, YOU SAY ABOUT EBAY, LOVING THE BOMB, www.Sound-of-eBay.com, IN KUBRICK'S WORDS, AND HOW MUCH LOVING EBAY IS LIKE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036549708,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.021929825
+    },
+    "8_2": {
+        "ners_x": "David, IN GWEI, 2008, YOU ADOPT A DAVID VS GOLIATH APPROACH, 2006, 2007, GOOGLE WILL EAT ITSELF, 2005, THE PROCESS IS FANTASTIC, IN AMAZON NOIR, The Sound, THE NOIR NARRATIVE DESCRIBES YOU AS THE, BESIDES THAT, Media Hack, Goliath, CAN YOU EXPLAIN THE MEDIA HACKING ELEMENT OF THE EKMRZ TRILOGY, AND NOW, GWEI, BAD GUYS, IN THE SOUND OF EBAY IMPOSSIBLE FIGHT AND ROBBERY BECOMES AFFIRMATIVE CELEBRATION, THE BIG BOOK CRIME, BUT THE DAMAGE IS MINIMAL, Amazon Noir, THE WHOLE EKMRZ TRILOGY DISPLAYS QUITE UNUSUAL STRATEGIES, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018450185,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.011070111
+    },
+    "8_3": {
+        "ners_x": "Bob Zmuda, Hans Bernhard, Andy Kaufman, IS IT JUST GOOD PROPAGANDA, GOOD GUYS, THREE GIANT CORPORATIONS WITH A GOOD-LOOKING, FRIENDLY INTERFACE, IN THE EKMRZ TRILOGY, COMMON JOKE ABOUT IBM, WHAT HAS HAPPENED IN THE LAST FEW YEARS, OR ARE THEY REALLY, Google Maps, WE ARE FAR REMOVED FROM THE TIMES WHEN YOU COULD HEAR PEOPLE SAY THAT THE DEVIL WEARS BLUE, Google, YOUR TARGETS ARE THE HEROES OF THE POST-DOT-COM-CRASH RENAISSANCE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 8.417508E-4,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.005050505
+    },
+    "8_4": {
+        "ners_x": "CORPORATIVE EPIC, DO YOU AGREE, 2005, WITH THE EKMRZ TRILOGY, Facebook, YouTube, WELL YES OF COURSE, Web, Seriously, BANKSTATEMENTGENERATOR, MORE OR LESS, YOU SEEM TO SAY THAT THE EPIC OF THE NET IS, Internet, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014005603,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.008403362
+    },
+    "8_5": {
+        "ners_x": "YOUR ROBOTS SUCK UP SENSITIVE AND NON-SENSITIVE DATA, SEXY LINGERIE, UBERMORGEN.COM, AND YOU TRANSLATE IT INTO SOMETHING ELSE, THE SOUND OF EBAY MAY RAISE THE QUESTION, BUT LIKE CARNIVORE, European, God Christ, WHAT IS THE POINT, Amazon, Google, LIKE CARNIVORE, THE SOUND OF EBAY CAN BE DESCRIBED AS A FORM OF DATA PORNOGRAPHY, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024630541,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.014778325
+    },
+    "8_6": {
+        "ners_x": "MEANINGFUL OR NOT, MUCH MORE THAN GWEI AND AMAZON NOIR, Bush, Paolo Cirio, BOTH IN THE PROCESS AND THE AESTHETICS, The Sound, YOU SEEM TO BE SAYING, POP, The Backstreet Boys, Britney Spears, James Bond, Alessandro Ludovico, WHICH ARE VERY CONCEPTUAL WORKS, Intuitively, Robbie Williams, E-monsters, THE SOUND OF EBAY IS PRETTY, GWEI, UBERMORGEN.COM-only, Madonna, ENJOY OUR MUSIC AND OUR OLD-FASHIONED PORNOGRAPHY, IS ENTERTAINMENT THE ULTIMATE SUBVERSION, Amazon Noir, STOP THINKING, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021097048,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.012658228
+    },
+    "8_8": {
+        "ners_x": "Hans Bernhard, NETWORKING IS WORKING, READING YOUR PRESS RELEASE, WONDERED WHY YOU PUT SO MUCH EMPHASIS ON THE DISTRIBUTED, NETWORKED NATURE OF THE CREATIVE PROCESS, SINCE THIS IS QUITE USUAL TO OUR CURRENT WAY OF WORKING, The Sound, VIA EMAIL AND THROUGH PHONE CONVERSATIONS, Visualcoder LIA, YOU SAY, Prof. Peter Weibel, Web, S, THERE WAS ONE REAL-LIFE MEETING IN VIENNA, Erich Kachel, Soundcoder Stefan Nussbaumer, Vienna, THE DIFFERENT PARTS OF THE SOUND OF EBAY WERE COMPILED IN VARIOUS GEOTECHNICAL-LOCATIONS, ALL OTHER COMMUNICATION TOOK PLACE IN VARIOUS SKYPE CONFERENCES, I'M WONDERING IF THIS IS IMPORTANT IN ORDER TO UNDERSTAND THE WORK.Honestly, Theorycoder Grischinka Teufl, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027662518,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.016597511
+    },
+    "8_7": {
+        "ners_x": "IS THERE ANY ANALOGY BETWEEN EBAY, Media Hacking, Dragan Espenschied, TECHNOLOGY THAT HAS BRILLIANTLY SURVIVED THE INTERNET AGE, M, The Sound, Europe, UK, AND TELETEXT, WHICH SURVIVED THE DOT-COM CRASH, Teletext Babez, TELETEXT-BASED AESTHETIC FOR THE PROJECT, S, Drx, Sound, www.Sound-of-eBay.com, WHY DID YOU CHOOSE A LOW-RES, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031298904,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.018779343
+    },
+    "8_9": {
+        "ners_x": "YOU WORK WITH OTHER PEOPLE, YOU USE OPEN SOURCE SOFTWARE, AND IN THE MEANTIME YOU SELL WORKS IN THE ART MARKET, UNIQUE OR LIMITED EDITION FETISH OBJECTS IS STILL POSSIBLE IN THE AGE OF OPEN SOURCE AND COLLABORATIVE AUTHORSHIP, TWO THINGS THAT SOME YEARS AGO WERE SEEN AS CONFLICTUAL ARE NOW WORKING PERFECTLY TOGETHER, DO YOU THINK THAT A MARKET OF PRECIOUS, YOU WANT TO RELEASE THE GENERATOR UNDER A GNU PUBLIC LICENSE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037537536,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.022522522
+    },
+    "9_10": {
+        "ners_x": "Metaverse, SL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.022222223
+    },
+    "9_12": {
+        "ners_x": "Starax Statosky, Second Louvre, Achilles, SL, That of Statosky, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005167959,
+        "locScore": 0,
+        "target": "25_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Andrej Ternovskij, Web, 1992, Cold War, Ternovskij, April 22 , 1992, Mac OS, Internet, Chatroulette, ",
+        "tokScore": 0.031007752
+    },
+    "9_11": {
+        "ners_x": "Thirdly, SL, Photoshop, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048814504,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.029288704
+    },
+    "11_13": {
+        "ners_x": "Flimflam, Great Escape, Man, Second Front, Spire, Wirxli, WHAT IS YOUR RELATIONSHIP WITH YOUR REAL LIFE COUNTERPART, Jeremy, Real Life, Life, RL, Patrick Lichty, DO, Patrick, Second Life, Escape, Man Michinaga, Larger, Artist, Babeli, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037313432,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.02238806
+    },
+    "11_12": {
+        "ners_x": "Second Front, Right, VR, Absolutely, Wirxli Flimflam, IS PERFORMANCE THE ONLY POSSIBLE WAY TO MAKE ART OUT THERE, Gazira Babeli, Context, Greenberghian, WHAT DO YOU THINK ABOUT ART IN SECOND LIFE, Second Life, Iborg, Man Michinaga, Escape, Last Supper, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "23_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2009, Desert, May 2010, The Symptom, 2002, Weber_etrans.pdf., 2003, Dragan Espenschied, Artpulse, N, The New York Times, Slavoj, Das Netz, Understanding Understanding, Concise Routledge Encyclopedia of Philosophy, Unabomber, Constructing, Merz, See Stefan Weber, Dir, Media, Ivi, Lutz Dammbeck, Heinz Von Foerster, January 15 , 2006, See Maggie Jones, Jean Baudrillard, 1983, Real, New York, Springer-Verlag, See Edward Craig, Digital Folklore, 3 , March, Stuttgart, LSD, Routledge, Mediamanual.at, Olia Lialina, Germany, Reality, Internet, Semiotext, 2000, ",
+        "tokScore": 0.022222223
+    },
+    "11_14": {
+        "ners_x": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023474179,
+        "locScore": 0,
+        "target": "12_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.014084507
+    },
+    "9_18": {
+        "ners_x": "Second Front, American, SL, Surreal, The Last Supper, Fluxus, Patrick Lichty, Leonardo 's Last Supper, February 2007, Man Michinaga, Spawn, January 2007, Last Supper, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038461538,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.023076924
+    },
+    "9_17": {
+        "ners_x": "REAL, Strangely, SL, Man Michinaga, Net, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0052910056,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.031746034
+    },
+    "9_19": {
+        "ners_x": "Franco Mattes, Performance Art, Eva, SL, Beuys, Lichty, Re-enactment, Joseph Beuys, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005376344,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.032258064
+    },
+    "9_14": {
+        "ners_x": "Lynn Hershman Leeson, 0100101110101101, Fau Ferdinand, SL, Roberta Breitmore, Stanford University, Darko Maver, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003921569,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.023529412
+    },
+    "9_13": {
+        "ners_x": "SL, Statosky, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004016064,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.024096385
+    },
+    "9_16": {
+        "ners_x": "AngryBeth Shortbread, Having, DanCoyote Antonelli, AldoManutio Abruzzo, Juria Yoshikawa, SL, DC Spensley, Adam Ramona, Hovagimyan, Australian Adam Nash, Annabeth Robinson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.021052632
+    },
+    "9_15": {
+        "ners_x": "Gazira Babeli, Texan, Mario Gerosa, SL, Travis Curry, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.026548672
+    },
+    "22_10": {
+        "ners_x": "WHAT DISTRIBUTION SYSTEM WILL YOU ADOPT FOR, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014367816,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.00862069
+    },
+    "22_11": {
+        "ners_x": "10 , 2005, RAM.html., 2006, May 28 , 1999, Game, Hell.com, Michaël Samyn, Auriea, 13 May, Michael, Pleasure, Web, A Minima, Art Nor Porn, Cf, Realtime Art Manifesto, Auriea Harvey, 1999, Michael Samyn, Reena Jana, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022371365,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.013422819
+    },
+    "11_10": {
+        "ners_x": "Second Front, Spire, BitFactory, VR, Chicago, DO YOU THINK THAT A PERFORMANCE IN SECOND LIFE COULD ALSO BE DISPLAYED IN THE REAL WORLD, Western Front, Han Loso, Gazira Babeli, Virtual Reality, Iborg, Second Life, Vancouver, Escape, Man Michinaga, Currently, Meaning-making, WHAT KIND OF AUDIENCE ARE YOU LOOKING FOR, Gallery, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0010193681,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.006116208
+    },
+    "11_11": {
+        "ners_x": "Second Front, Spire, North America, BitFactory, Danger Room, Town Crier, HOW HAS YOUR APPROACH CHANGED FROM THE FIRST ONE, Reuters, Adam Reuters, JC Fremont, Terror, CAN YOU TELL ME SOMETHING ABOUT THE PERFORMANCES YOU HAVE STAGED TO DATE, Red Rover, Dada-esque, Rain Coalcliff, Century, Border Control, Border Patrol, Second Life, Man Michinaga, Mexican Border, Lastly, Breaking News, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011820331,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0070921984
+    },
+    "12_10": {
+        "ners_x": "Turing Land, 1996, Lev Manovich, Duchamp Land, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035460992,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.021276595
+    },
+    "12_12": {
+        "ners_x": "New Media Art, Ars Electronica, Transmediale, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027548207,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.016528925
+    },
+    "12_11": {
+        "ners_x": "New Media Art, Joline Blais, Jon Ippolito, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030864198,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.018518519
+    },
+    "3_4": {
+        "ners_x": "Neoism, Situationism, Dadaism, Luther Blissett, Fluxus, Young British Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.026548672
+    },
+    "15_4": {
+        "ners_x": "New Media, Brody Condon, Steve Dietz, 2005, American, Inke Arns, Walker Art Center, The Art Formerly Known, New Media Initiatives, Minneapolis, German, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.030303031
+    },
+    "3_5": {
+        "ners_x": "Net.art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025062656,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.015037594
+    },
+    "15_3": {
+        "ners_x": "New Media, Stedelijk Museum, Transmediale, Amsterdam, German, Andreas Broeckmann, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.021978023
+    },
+    "3_6": {
+        "ners_x": "Condor, Kevin Mitnick, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.022727273
+    },
+    "16_1": {
+        "ners_x": "2008, Catts, University of Perth, Centre of Excellence, SymbioticA, TC, Biological Arts, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044208667,
+        "locScore": 0,
+        "target": "9_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Sette, 2006, 2007, 17 August 2007, Talking, 5 December 2006, 24 July 2007, Helen Stoilas, The Art Newspaper, Meltemi, 4 July 2007, Gazira Babeli, 11 , December 2007, Odyssey, Second Life, September 2005, Lance Shields, Frank Rose, Rough Type, October, 14 June 2007, Milan, Molleindustria.it, June, Mario Gerosa, Madison Avenue Is Wasting Millions, Fibreculture, August, ExhibitA, Tokyo-based, Paolo Pedercini, November 2007, Hovagimyan, Deserted Second Life, 1992, Tom Boellstroff, Flash Art, Anna Rosemary Carruthers, Italian, 16 April 2007, Truth, Japanese, See Nicholas Carr, Collaboratory, HZ Journal, Gazira, Juria Yoshikawa, SL, Collateral Damage, Snow Crash, DC Spensley, Brazilians, Seconda Vita, Art, 18 August 2007, October 2007, Neal Stephenson, ",
+        "tokScore": 0.0265252
+    },
+    "15_6": {
+        "ners_x": "Matthew Barney, New Media, New Media Art, Media Art, Cindy Sherman, Inke Arns, German, Firstly, Ambiguous TermThe, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035211267,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.02112676
+    },
+    "3_7": {
+        "ners_x": "Syndicate, Nettime, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004132231,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0.024793388
+    },
+    "16_0": {
+        "ners_x": "1996, Art Project, Oron Catts, Australian, Guy Ben Ary, Catts, 2003, 1999, TC, The Tissue Culture, Ionat Zurr, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0063001146,
+        "locScore": 0,
+        "target": "24_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Herman, RENDER, Robert, COLLECTED DATA, Barcelona, Nanga Parbat, Julie, NO, ALCHEMICAL EVENT, Lamba Pahar, BUT, THE KERNEL PEAK, WELL, IN THE NAME OF KERNEL, CAN YOU HELP US GET INTO THIS METAPHOR, USE TERMS FROM PROGRAMMING CULTURE, CONSPIRACY THEORIES AND HERMETIC TRADITION ALL MIX TOGETHER, FIREWALL, Reinhold, SHRED, COMING TO THE NARRATIVE DIMENSION, TO NAME PLACES AND CHARACTERS, YOU'LL PROBABLY ANSWER, INSTEAD OF USING A CHOCOLATE GRINDER TO TELL OF A MYSTICAL, SYSTRAY, THE GREAT ICE-FIRE WALL, THE GREAT SYSTRAY GLACIER, KERNEL, Kernel Peak, SUCH AS, Juanito, READ IT AS REVERSE ENGINEERING ON DUCHAMP'S GREAT GLASS, YOU USE A MYTHOLOGICAL NARRATIVE AS A METAPHOR FOR A COMPUTATIONAL PROCESS, MR, Sagarmatha, PERSONAL DATA, KUBASIK, AUTOBIOGRAPHY, IS A COMPLEX HYPERTEXT IN WHICH MOUNTAINEERING, WIPE, Kurt, YOU, Beni, IN THE TEXT WRITTEN FOR THE PROJECT, ",
+        "tokScore": 0.03780069
+    },
+    "15_5": {
+        "ners_x": "New Media Art, No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003921569,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.023529412
+    },
+    "3_8": {
+        "ners_x": "1996, 1997, Net.art, London, Trieste, May 1996, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004310345,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.02586207
+    },
+    "15_8": {
+        "ners_x": "New Media Art, Cyber Art, Electronic Art, Computer Art, Digital Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035460992,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.021276595
+    },
+    "3_9": {
+        "ners_x": "0100101110101101, Vuk Cosic, Life Sharing, Inconsistencies, Alexei Shulgin, 2000, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00382263,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.02293578
+    },
+    "15_7": {
+        "ners_x": "New Media Studies, The Language of New Media, United States, New Media, The New Media Reader, American, Central Europe, 2003, Lev Manovich, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050890585,
+        "locScore": 0,
+        "target": "4_20",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "0100101110101101, Franco Mattes, Eva, Europe, Hollywood, ORG, ",
+        "tokScore": 0.030534351
+    },
+    "15_9": {
+        "ners_x": "New Media Art, Turing Land If, Abstract Expressionism, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028735632,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.01724138
+    },
+    "16_7": {
+        "ners_x": "THAT ENDS ALL YOUR PROJECTS, Semi-Living, WHAT ABOUT THE, WHAT ROLE DOES IT PLAY IN SHAPING THE MEANING OF THE WORK, Feeding Ritual, TC, KILLING RITUAL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 9.578544E-4,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0057471264
+    },
+    "16_6": {
+        "ners_x": "ALL YOUR PROJECTS CAN BE READ IN VARIOUS WAYS, AS A PROCESS OR AS A PRACTICE THAT PRODUCES SCULPTURAL OBJECTS, WHICH OF THESE LAYERS DO YOU FEEL AS YOURS, AS SCIENTIFIC EXPERIMENTS AND COMPLEX NARRATIVES, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001004016,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.006024096
+    },
+    "16_9": {
+        "ners_x": "Human Biology, School of Anatomy, Oron Catts, Art Project, UWA, SymbioticA Research Group, SymbioticA, Tissue Culture, The Tissue Culture, Ionat Zurr, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.020408163
+    },
+    "16_8": {
+        "ners_x": "Human Biology, SYMBIOTICA IS A WONDERFUL EXAMPLE OF WHAT HAPPENS WHEN ARTISTS AND SCIENTISTS START PLAYING TOGETHER, The University of Western Australia, WHY IN AUSTRALIA, HOW DID IT COME ABOUT, The School of Anatomy, SymbioticA, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003267974,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.019607844
+    },
+    "3_0": {
+        "ners_x": "NET.ART, Unfortunately, CONNESSIONI LEGGENDARIE, Milan, 0100101110101101, Luca Lampo, 2005, Italian, Marco Deseriis, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029239766,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.01754386
+    },
+    "16_3": {
+        "ners_x": "BRINGING WORKS OF ART TO LIFE, BIOTECHNOLOGIES SEEM TO MAKE THE DREAM OF PYGMALION FINALLY COME TRUE, Art Project, Pygmalion, IS EVERY TISSUE ENGINEER THEREFORE AN ARTIST, Tissue Culture, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034246575,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.020547945
+    },
+    "15_0": {
+        "ners_x": "Gazira Babeli, Régine Debatty, Don, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "5_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Philip Galanter, Set, Watz, ",
+        "tokScore": 0
+    },
+    "3_1": {
+        "ners_x": "Jarry, De Chirico, Duchamp, Caravaggio, Leonardo, Shakespeare, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003770739,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.022624435
+    },
+    "16_2": {
+        "ners_x": "S START FROM THE USUAL QUESTION, RE DOING, WHAT DO YOU THINK YOU, PLAYING GOD, LET, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004115226,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.024691358
+    },
+    "3_2": {
+        "ners_x": "Jacques Vaché, Arthur Cravan, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018315018,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.010989011
+    },
+    "16_5": {
+        "ners_x": "TO WHAT EXTENT ARE THEY CONDITIONED BY THE CONTEXT WHERE YOU SHOW THEM, WHAT EXHIBITION CRITERIA DO YOU ADOPT WHEN SHOWING YOUR PROJECTS TO THE PUBLIC, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003052503,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.01831502
+    },
+    "15_2": {
+        "ners_x": "Belgian, New Media Art, New Media, Gazira, Régine Debatty, We Make Money Not Art, Régine, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0057471264,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.03448276
+    },
+    "3_3": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042194095,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.025316456
+    },
+    "16_4": {
+        "ners_x": "Semi-Living, HOW DO THEY INFLUENCE THE CONTENT OF YOUR WORK, DO YOU ENGAGE WITH BIOTECHNOLOGIES AS A TOOL OR AS A MEDIUM, TC, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030978934,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.01858736
+    },
+    "15_1": {
+        "ners_x": "New Media, Gazira Babeli, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004888889,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.029333333
+    },
+    "6_34": {
+        "ners_x": "Every Icon Statement, March 23 , 2003, Casey Reas, March 2006, Jewish Museum, 2005, Whitney Museum, Vuk Cosic, Read_me, Nettime, Edward A. Shanken, 5 , January 1969, Arte, Sol LeWitt, Issue, Read_Me, Information Processing, Conceptual Art, Florian Cramer, Mobility Agents, Parachute, December 2005, Italian, June 30 , 1997, Metaphor, House That Jack Built, May 2002, Jack Burnham, Hz Journal, Ivi, Printed Matter, Computational Sketchbook, Tilman Baumgaertel, Leonardo, Inc, 10 , November 1998, Critica, June 2004, English, John F. Simon Jr., AAVV, Art, Information Technology, New York, Jacob Lillemose, Jury Statement, January 9 , 2007, January 1997, Its New Meaning, Re-declaration of Dependence, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015797789,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.009478673
+    },
+    "6_32": {
+        "ners_x": "GWEI, Google, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0055096415,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.03305785
+    },
+    "1_1": {
+        "ners_x": "Information Age, 2008, Age of Videogames, 2009, 2006, New Media, Digital Age, Media, Yves Bernard, Matteo Bittanti, MINI Museum of XXI Century Arts, Domenico Quaranta, Art, Link Center, Playlist, Gamescenes, Playing Games, 2010, Director, Postmedia, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0041279667,
+        "locScore": 0,
+        "target": "24_15",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "CAN YOU TALK ABOUT THAT, WHICH IS CENTERED AROUND THE SIGHTING OF LIGHT GLOBE UFOS DURING A FLIGHT MISSION, In Song, AND WHAT WE COULD CALL THE POLITICS OF VISION, TWO PATHS SEEM TO CROSS THE MAIN NARRATIVE, Prefect Fatal Error, FROM DISNEYLAND TO CHERNOBYL, THIS INTRODUCES ANOTHER ISSUE THAT SEEMS QUITE RELEVANT FOR YOUR WORK, In the Song, SURVEILLANCE, COMING TO THE VIDEO, Iron Bird, AND A CLOSE LOOK AT THE STRANGE HUMANITY ON THE SURFACE, THE VIEWPOINT FROM ABOVE OF HIGHLY RECOGNIZABLE LOCATIONS, COLUMNS MEGA NFO FILE, FROM SATELLITE SURVEILLANCE TO DATAVEILLANCE ADDRESSED IN THE, ",
+        "tokScore": 0.024767801
+    },
+    "6_33": {
+        "ners_x": "LeWitt, Software Art, Conceptual Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051020407,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.030612245
+    },
+    "1_0": {
+        "ners_x": "Jodi, 1997, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001984127,
+        "locScore": 0,
+        "target": "18_37",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.011904762
+    },
+    "10_33": {
+        "ners_x": "Second Front, Gazira Babeli, Second Life, 1924, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.021978023
+    },
+    "1_3": {
+        "ners_x": "Net Art, Unfortunately, New Media Art, Software Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015290519,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0091743115
+    },
+    "18_10": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003937008,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.023622047
+    },
+    "10_34": {
+        "ners_x": "Devil 's Right Hand, 2006, 2007, SingingPizza, Second Life, Collateral Damage, Pizzaiolo, O Sole, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025839794,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.015503876
+    },
+    "1_2": {
+        "ners_x": "AcknowledgmentsThis, Library of Babel, 2005, 2010, World Wide Web, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025445293,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.015267176
+    },
+    "10_35": {
+        "ners_x": "Desert, Gaz, Simeon the Stylite, U AreHere, Gazira, Chi5 Shenzhou, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004166667,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.025
+    },
+    "1_5": {
+        "ners_x": "Elena, Fabio Paris, Dante, Anna Rosemary Carruthers, March 2011, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045045046,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.027027028
+    },
+    "10_36": {
+        "ners_x": "Queen, Desert, W. Flimflam, Tilman Baumgärtel, Grey Goo, Bantham Books, G. Babeli, Burning Chrome, Nettime, Meltemi, Buñuel, Wikipedia, Gaz, Gazira Babeli, Software Art, T. Baumgärtel, Second Life, Odyssey, Cf, Cultures Conference, Babeli, Slate Magazine, Mario Gerosa, Introduzione, Wirxli Flimflam, Marisa Olson, Beavis Palowakski, ExhibitA, University of Aarhus, Second Front, Prada, See Philip K. Dick, Aarhus, Inke Arns, William Gibson, Perky Pat, Read_me, March 23 , 2007, July 1982, See Matteo Bittanti, Alexei Shulgin, Gaza Stripped, Most Beautiful Avatars, Three Stigmata of Palmer Eldritch, Rome, Sugar Seville, Simón, January 2007, Omni, Grey_goo, Snow Crash, Collateral Damage, Saint Simeon, 1965, 1964, April 16, May 30 , 2007, November 23 , 2006, Can-D, Barbie-like, Olga Goriunova, Neal Stephenson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002849003,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.017094018
+    },
+    "1_4": {
+        "ners_x": "2008, 2010, English, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.029411765
+    },
+    "18_13": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.022222223
+    },
+    "18_14": {
+        "ners_x": "Remediation, Citation It, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0055555557,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.033333335
+    },
+    "18_11": {
+        "ners_x": "Jennifer Allen, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "11_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Second Life, ",
+        "tokScore": 0
+    },
+    "18_12": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.027777778
+    },
+    "6_30": {
+        "ners_x": "F, Highly, Internet Partnership, IP-NIC, UBERMORGEN.COM, 2005, Bank Statement Generator, No Internet Content, Piero Manzoni, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004474273,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.026845638
+    },
+    "18_17": {
+        "ners_x": "2005, 2002, Easy Pieces, Abramović, Ulay, Biography, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024875621,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.014925373
+    },
+    "6_31": {
+        "ners_x": "Google Will Eat Itself, Alessandro Ludovico, 2005, Paolo Cirio, GWEI, Google Adsense, Google, Lastly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004830918,
+        "locScore": 0,
+        "target": "15_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media Art, Cyber Art, Electronic Art, Computer Art, Digital Art, ",
+        "tokScore": 0.028985508
+    },
+    "18_18": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049382714,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.02962963
+    },
+    "18_15": {
+        "ners_x": "Vito Acconci, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051020407,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.030612245
+    },
+    "18_16": {
+        "ners_x": "Marina Abramović, DNA, Fluxus, No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003937008,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.023622047
+    },
+    "5_0": {
+        "ners_x": "2006, C.STEM, Generative Art, Italian, Playing, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0057471264,
+        "locScore": 0,
+        "target": "24_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Herman, RENDER, Robert, COLLECTED DATA, Barcelona, Nanga Parbat, Julie, NO, ALCHEMICAL EVENT, Lamba Pahar, BUT, THE KERNEL PEAK, WELL, IN THE NAME OF KERNEL, CAN YOU HELP US GET INTO THIS METAPHOR, USE TERMS FROM PROGRAMMING CULTURE, CONSPIRACY THEORIES AND HERMETIC TRADITION ALL MIX TOGETHER, FIREWALL, Reinhold, SHRED, COMING TO THE NARRATIVE DIMENSION, TO NAME PLACES AND CHARACTERS, YOU'LL PROBABLY ANSWER, INSTEAD OF USING A CHOCOLATE GRINDER TO TELL OF A MYSTICAL, SYSTRAY, THE GREAT ICE-FIRE WALL, THE GREAT SYSTRAY GLACIER, KERNEL, Kernel Peak, SUCH AS, Juanito, READ IT AS REVERSE ENGINEERING ON DUCHAMP'S GREAT GLASS, YOU USE A MYTHOLOGICAL NARRATIVE AS A METAPHOR FOR A COMPUTATIONAL PROCESS, MR, Sagarmatha, PERSONAL DATA, KUBASIK, AUTOBIOGRAPHY, IS A COMPLEX HYPERTEXT IN WHICH MOUNTAINEERING, WIPE, Kurt, YOU, Beni, IN THE TEXT WRITTEN FOR THE PROJECT, ",
+        "tokScore": 0.03448276
+    },
+    "5_1": {
+        "ners_x": "Joshua Davis, Golan Levin, John Maeda, Casey Reas, Marius Watz, Ben Fry, Philip Galanter, Generative Art, Yugo Nakamura, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035211267,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.02112676
+    },
+    "5_4": {
+        "ners_x": "Generative, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001754386,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.010526316
+    },
+    "5_5": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "7_8": {
+        "ners_x": "Hans Bernhard, Lizvlx, F, Media, UBERMORGEN.COM, Mediaset, Austrian, Italy, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013020834,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0078125
+    },
+    "5_2": {
+        "ners_x": "Latin, Conceptual Art, Digital Art, Generative Art, Minimal Art, Pop Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.018348623
+    },
+    "7_9": {
+        "ners_x": "F, Foriginals, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0
+    },
+    "5_3": {
+        "ners_x": "Latin, Greek, 2003, Philip Galanter, Generative Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.029411765
+    },
+    "5_8": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.029411765
+    },
+    "5_9": {
+        "ners_x": "Marius Watz, Philip Galanter, Generative Art, Galanter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00330033,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.01980198
+    },
+    "5_6": {
+        "ners_x": "Marius Watz, Galanter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005154639,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.030927835
+    },
+    "5_7": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004761905,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.028571429
+    },
+    "7_3": {
+        "ners_x": "2004, 0100101110101101, Karlsplatz, Nikeplatz, Franco Mattes, Eva, September 2003, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027932962,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.016759777
+    },
+    "11_9": {
+        "ners_x": "Great Escape, Second Front, Flimflam, Personally, Reuters, Abject Apocalypse, Border Control, Gazira Babeli, American Apparel, Ars Virtua, IBM, Star, Second Life, Man Michinaga, Christmas Tree, NBC Rockefeller Plaza, DO YOU PREFER PUBLIC SPACES OR ART VENUES FOR YOUR PERFORMANCES, Breaking News, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004192872,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.025157232
+    },
+    "12_4": {
+        "ners_x": "Shigeko Kubota, Video Art Curator, Video Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.024
+    },
+    "7_2": {
+        "ners_x": "Karlsplatz, Coca Cola, Nike, Europe, Vienna, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005249344,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.031496063
+    },
+    "12_5": {
+        "ners_x": "New York, ICA, Computer Art, 1968, Cybernetic Serendipity, 1965, London, Howard Wise Gallery, Computer-Generated Pictures, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036764706,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.022058824
+    },
+    "7_1": {
+        "ners_x": "Union, Europe, European, Branding, Euro, My European, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005144033,
+        "locScore": 0,
+        "target": "12_31",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Paul Slocum, August 2005, Edge of Art, Hard Disk, AltarBoy, Bantam Mass Market Edition, 0100101110101101, Fabio Paris, LABoral Centro, Bruce Sterling, Lev Manovich, Vuk Cosic, Arte, Charles Sandison, Karen A. Verschooren, Brussels, FPEditions, Régine Debatty, Eva, Argos Festival, Cf, Thames, Roman Minaev, Aristarkh Chernyshev, UBERMORGEN.COM, Hudson, Frie Depraetere, New York, Art Responsive, Jemima Rellie, Internet, Joan Leandre, Environment, Creación Industrial, June 30 , 2007, Spain, Inke Arns, Wolf Lieser, Dragan Espenschied, Y. Bernard, Gijon, Tamas Banovich, D. Quaranta, Charlie Gere, Spectra, Alexei Shulgin, London, Patrick Lichty, P., 1996, 1997, Magdalena Sawon, Steve Dietz, Franco Mattes, Joline Blais, TEXT, March 30, Anna Rosemary Carruthers, Italian, Feedback, Curating, Jon Ippolito, Holy Fire, Input, Digital Age, Michele Thursz, Vicente Matallana, Brescia, Anke Buxmann, Christiane Paul, Death of Computer Art, Art, Mark Tribe, Jacob Lillemose, Olia Lialina, 2001, ",
+        "tokScore": 0.030864198
+    },
+    "11_7": {
+        "ners_x": "Second Front, Second Life, Tran Spire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "24_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Herman, RENDER, Robert, COLLECTED DATA, Barcelona, Nanga Parbat, Julie, NO, ALCHEMICAL EVENT, Lamba Pahar, BUT, THE KERNEL PEAK, WELL, IN THE NAME OF KERNEL, CAN YOU HELP US GET INTO THIS METAPHOR, USE TERMS FROM PROGRAMMING CULTURE, CONSPIRACY THEORIES AND HERMETIC TRADITION ALL MIX TOGETHER, FIREWALL, Reinhold, SHRED, COMING TO THE NARRATIVE DIMENSION, TO NAME PLACES AND CHARACTERS, YOU'LL PROBABLY ANSWER, INSTEAD OF USING A CHOCOLATE GRINDER TO TELL OF A MYSTICAL, SYSTRAY, THE GREAT ICE-FIRE WALL, THE GREAT SYSTRAY GLACIER, KERNEL, Kernel Peak, SUCH AS, Juanito, READ IT AS REVERSE ENGINEERING ON DUCHAMP'S GREAT GLASS, YOU USE A MYTHOLOGICAL NARRATIVE AS A METAPHOR FOR A COMPUTATIONAL PROCESS, MR, Sagarmatha, PERSONAL DATA, KUBASIK, AUTOBIOGRAPHY, IS A COMPLEX HYPERTEXT IN WHICH MOUNTAINEERING, WIPE, Kurt, YOU, Beni, IN THE TEXT WRITTEN FOR THE PROJECT, ",
+        "tokScore": 0.030303031
+    },
+    "12_2": {
+        "ners_x": "New Media Art, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004016064,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.024096385
+    },
+    "7_0": {
+        "ners_x": "F, Media, Molleindustria, UBERMORGEN.COM, 0100101110101101, Guerrigliamarketing, Where-next, European, United We Stand, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004098361,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.024590164
+    },
+    "11_8": {
+        "ners_x": "Great Escape, Alise Iborg, Second Front, Spire, TO STAGE PERFORMANCES IN SECOND LIFE, FOR YOU, DO YOU WORK WITH CODE OR DO YOU SIMPLY DO WHAT ALL THE OTHER AVATARS DO, WHAT DOES IT MEAN, Wirxli Flimflam, Gazira Babeli, Performing, Second Life, Man Michinaga, Mama Gaz Babeli, DO YOU REHEARSE OR DO YOU PREFER IMPROVISATION, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021030495,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.012618297
+    },
+    "12_3": {
+        "ners_x": "Computer Art, Greenberg, Concept, Exhibition, Video Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036231885,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.02173913
+    },
+    "7_7": {
+        "ners_x": "Manipulating, American, Franco Mattes, Bruce Sterling, Eva, Luther Blissett, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "12_0": {
+        "ners_x": "2008, iMAL Center, New Media Art, Fluctuat, Digital Age, Art, Digital Cultures, Yves Bernard, Rhizome, Bruxelles, Technology, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.018348623
+    },
+    "7_6": {
+        "ners_x": "New York, Bangalore, Brussels, Berlin, Bologna, Barcelona, Europe, European, United We Stand, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037593984,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.02255639
+    },
+    "12_1": {
+        "ners_x": "New Media Art, Digital Age, Digital Cultures, Touché, iMAL, Technology, Holy Fire, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011904762,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.007142857
+    },
+    "7_5": {
+        "ners_x": "Mount Olympus, 0100101110101101, 2005, American, Europe, Hollywood, United We Stand, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003267974,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.019607844
+    },
+    "7_4": {
+        "ners_x": "Nike, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002283105,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.01369863
+    },
+    "11_1": {
+        "ners_x": "Second Life, X-men, Four Horsemen, Apocalypse, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004716981,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.028301887
+    },
+    "11_2": {
+        "ners_x": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HMKV, Dortmund, Phoenix Halle, ",
+        "tokScore": 0
+    },
+    "11_0": {
+        "ners_x": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0012919897,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.007751938
+    },
+    "11_5": {
+        "ners_x": "Second Front, Flimflam, Milan, Die Zeit, January 14th, WHAT IS SECOND FRONT, Chicago, Fluxus, November 23 , 2006, Second Life, Vancouver, SLuxus, Man Michinaga, Germany, St, Ava-Star, New Orleans, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051282053,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.03076923
+    },
+    "12_8": {
+        "ners_x": "New Media, Duchamp, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027322404,
+        "locScore": 0,
+        "target": "13_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.016393442
+    },
+    "11_6": {
+        "ners_x": "Second Front, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0
+    },
+    "12_9": {
+        "ners_x": "New Media Art, Net.art, SFMoma, Jeffrey Shaw, 1999, Guggenheim, Net.art Browser, Net_condition, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051020407,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.030612245
+    },
+    "11_3": {
+        "ners_x": "Ars Virtua Gallery, Second Front, January 5 , 2007, American, JC Fremont, Second Life, John Craig Freeman, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027322404,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.016393442
+    },
+    "12_6": {
+        "ners_x": "Siggraph, 1986, Ars Electronica, Documenta, Biennale, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001754386,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.010526316
+    },
+    "11_4": {
+        "ners_x": "Second Front, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034722222,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.020833334
+    },
+    "12_7": {
+        "ners_x": "New Media Art, IT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004016064,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.024096385
+    },
+    "9_20": {
+        "ners_x": "Second Front, Desert, 2007, Gazira, SL, Duchamp 's Nude Descending A Staircase, Bacon, Luciano Fabro, Gaz, Gazira Babeli, Campbell, Italian, Omaggio, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033112585,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.01986755
+    },
+    "20_1": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050890585,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.030534351
+    },
+    "9_21": {
+        "ners_x": "2007, SL, Cicciolina, Patrick Lichty, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028011205,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.016806724
+    },
+    "20_2": {
+        "ners_x": "New York, Cory Arcangel, John Bruneau, Jeffrey Deitch, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0058479533,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.03508772
+    },
+    "9_22": {
+        "ners_x": "NMC Campus, Brian Eno, Ars Virtua, Million Paintings, New Media Consortium, November 2005, Franco Mattes, Eva, Odyssey, James Morgan, Leaving Second LifeThe, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028248588,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.016949153
+    },
+    "20_3": {
+        "ners_x": "Arcangel, Nintendo, Cory, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0
+    },
+    "9_23": {
+        "ners_x": "NMC Campus, Sugar Seville, Odyssey, SL, Dynamis Corporation, Linden Labs, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027322404,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.016393442
+    },
+    "20_4": {
+        "ners_x": "Data Diaries, Quicktime, Cory Arcangel, 2002, Alexander Galloway, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028011205,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.016806724
+    },
+    "20_5": {
+        "ners_x": "TIME, Arcangel, Pop, John Bruneau, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.020408163
+    },
+    "21_8": {
+        "ners_x": "Vietnam War, American, World War II, Stern, Videogames, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033670033,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.02020202
+    },
+    "20_6": {
+        "ners_x": "Hanne Mugaas, New York, Woody Vasulka, Tony Conrad, ANYTHING, Stan, No, Pop Art, TV, University, Buffalo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019493178,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.0116959065
+    },
+    "21_9": {
+        "ners_x": "Made, These Boots, Nancy Sinatra, Vietnamese, MIDI, American, Walking, Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003949447,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.023696683
+    },
+    "20_7": {
+        "ners_x": "1997, New York, Cory Arcangel, BEIGE, Beige, Joe Beuckman, Cory, Oberlin, Paul B. Davis, Joe Bonn, Buffalo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004098361,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.024590164
+    },
+    "20_8": {
+        "ners_x": "Atari, Beige Records, 1998, Construction Set, Commodore, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015723271,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.009433962
+    },
+    "9_28": {
+        "ners_x": "Sette, 2006, 2007, 17 August 2007, Talking, 5 December 2006, 24 July 2007, Helen Stoilas, The Art Newspaper, Meltemi, 4 July 2007, Gazira Babeli, 11 , December 2007, Odyssey, Second Life, September 2005, Lance Shields, Frank Rose, Rough Type, October, 14 June 2007, Milan, Molleindustria.it, June, Mario Gerosa, Madison Avenue Is Wasting Millions, Fibreculture, August, ExhibitA, Tokyo-based, Paolo Pedercini, November 2007, Hovagimyan, Deserted Second Life, 1992, Tom Boellstroff, Flash Art, Anna Rosemary Carruthers, Italian, 16 April 2007, Truth, Japanese, See Nicholas Carr, Collaboratory, HZ Journal, Gazira, Juria Yoshikawa, SL, Collateral Damage, Snow Crash, DC Spensley, Brazilians, Seconda Vita, Art, 18 August 2007, October 2007, Neal Stephenson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022461815,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.013477089
+    },
+    "20_9": {
+        "ners_x": "Arcangel, Nintendo Entertainment System, Construction Set, Fat Bits, European Net Art, Chicago Deadtech, Europe, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044444446,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.026666667
+    },
+    "21_4": {
+        "ners_x": "Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00486618,
+        "locScore": 0,
+        "target": "15_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media Art, Cyber Art, Electronic Art, Computer Art, Digital Art, ",
+        "tokScore": 0.02919708
+    },
+    "21_5": {
+        "ners_x": "Machine AnimationMachinima, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004132231,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.024793388
+    },
+    "21_6": {
+        "ners_x": "October, Sheik Attack, Eddo Stern, 2002, Negativland, Gimme the Mermaid, Nicholas Bourriaud, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004789272,
+        "locScore": 0,
+        "target": "7_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "April 27 , 2004, F, 0100101110101101, April 2006, Valentina Tanni, Eva Mattes, Bruce Sterling, MESH, Emma McRae, Maria Rizzo, Modern Painters, September 2006, Anna Rosemary Carruthers, Flash Art, Italian, Australia, Nike Ground, ORG, Regional Perspectives, Power of Fake, UBERMORGEN.COM, American, 1969, Easy Rider, Exibart, Ironically, Domenico Quaranta, PROTOCOL.htm., Peter Fonda, Exploring Net.art, Definition, ",
+        "tokScore": 0.028735632
+    },
+    "21_7": {
+        "ners_x": "Full Metal Jacket, Forrest Gump, Apocalypse Now, The Deer Hunter, Platoon, Deathstar, 2004, 2003, The Thin Red Line, Vietnam Romance, Hollywood, Vietnam Romance Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004761905,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.028571429
+    },
+    "9_24": {
+        "ners_x": "SL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003267974,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.019607844
+    },
+    "21_0": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.030303031
+    },
+    "9_25": {
+        "ners_x": "Venice Biennale, Cao Fei, SL, Chinese, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046948357,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.028169014
+    },
+    "21_1": {
+        "ners_x": "America, Army, Afghanistan, Iraq, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035714286,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.021428572
+    },
+    "9_26": {
+        "ners_x": "Second Front, Gazira Babeli, SL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050890585,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.030534351
+    },
+    "21_2": {
+        "ners_x": "GTA, Second Life, Avenue, World of Warcraft, Mixing, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013661202,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.008196721
+    },
+    "9_27": {
+        "ners_x": "Culture, Port, Tree, Bartholl, Berlin Department, SL, Objects of Virtual Desire, German, Aram Bartholl, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013550135,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.008130081
+    },
+    "21_3": {
+        "ners_x": "Command, Zionist, Sheik Attack, Sim City, Eddo Stern, Delta Force, Israel, 1999, Israeli, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025445293,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.015267176
+    },
+    "18_31": {
+        "ners_x": "French, McCarthy, Dickinson, Greenwich Observatory, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.018348623
+    },
+    "18_32": {
+        "ners_x": "Performance-based, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028735632,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.01724138
+    },
+    "18_30": {
+        "ners_x": "Pierre Huyghe The Third Memory, 2006, Greenwich Degree Zero, Rod Dickinson, Tom McCarthy, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034722222,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.020833334
+    },
+    "18_39": {
+        "ners_x": "Re:akt, Duchamp, Re-garding, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004016064,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.024096385
+    },
+    "18_37": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015151515,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.009090909
+    },
+    "18_38": {
+        "ners_x": "Mount Triglav SeriesConnecting, Re:akt, Isolating, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003875969,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.023255814
+    },
+    "18_35": {
+        "ners_x": "Peggy Phelan, Taxi Driver, Reagan, American, Kennedy, Elephant Gus Sant, Columbine, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.027777778
+    },
+    "18_36": {
+        "ners_x": "Bourriaud, Nicolas Bourriaud, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049435026,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.029661017
+    },
+    "18_33": {
+        "ners_x": "Performance-based, Lastly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044444446,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.026666667
+    },
+    "20_0": {
+        "ners_x": "Construction Set, Contagious Media Group, Cory Arcangel, RSG, Paperrad, Gay Beatles, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004597701,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.027586207
+    },
+    "18_34": {
+        "ners_x": "Palestinian, Topical Nature of Re-enactment We, Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037243946,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.022346368
+    },
+    "9_8": {
+        "ners_x": "Venice Biennale, G. H. Hovagimyan, 0100101110101101, Franco Mattes, American, Cao Fei, Eva, SL, Net, No, China Tracy, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004415011,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.026490066
+    },
+    "9_9": {
+        "ners_x": "Art, Linden, SL, Second LifeTalking, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046620048,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.027972028
+    },
+    "18_19": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005279035,
+        "locScore": 0,
+        "target": "6_34",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Every Icon Statement, March 23 , 2003, Casey Reas, March 2006, Jewish Museum, 2005, Whitney Museum, Vuk Cosic, Read_me, Nettime, Edward A. Shanken, 5 , January 1969, Arte, Sol LeWitt, Issue, Read_Me, Information Processing, Conceptual Art, Florian Cramer, Mobility Agents, Parachute, December 2005, Italian, June 30 , 1997, Metaphor, House That Jack Built, May 2002, Jack Burnham, Hz Journal, Ivi, Printed Matter, Computational Sketchbook, Tilman Baumgaertel, Leonardo, Inc, 10 , November 1998, Critica, June 2004, English, John F. Simon Jr., AAVV, Art, Information Technology, New York, Jacob Lillemose, Jury Statement, January 9 , 2007, January 1997, Its New Meaning, Re-declaration of Dependence, ",
+        "tokScore": 0.03167421
+    },
+    "9_6": {
+        "ners_x": "Paolo Pedercini, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034965035,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.02097902
+    },
+    "9_7": {
+        "ners_x": "Brazilian, SL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023474179,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.014084507
+    },
+    "18_20": {
+        "ners_x": "Paco Barragan, Call, 2003, Don, Abramović, Performance, No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.026548672
+    },
+    "18_21": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004850088,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.02910053
+    },
+    "8_10": {
+        "ners_x": "November 2008, Radical Software Group, FBI, UBERMORGEN.COM, Using, DCS1000, RSG, Italian, Digimag, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0016025641,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.009615385
+    },
+    "9_5": {
+        "ners_x": "SL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014124294,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.008474576
+    },
+    "18_26": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018115942,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.010869565
+    },
+    "9_4": {
+        "ners_x": "Geert Lovink, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.023809524
+    },
+    "18_27": {
+        "ners_x": "Re-enactments, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002008032,
+        "locScore": 0,
+        "target": "25_4",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2003, Christopher Poole, Internet, Grossman, ",
+        "tokScore": 0.012048192
+    },
+    "9_3": {
+        "ners_x": "2003, SL, Second Life, Linden Labs, Californian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042194095,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.025316456
+    },
+    "18_28": {
+        "ners_x": "Reevocations, Re-enactors, English-speaking, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.01923077
+    },
+    "9_2": {
+        "ners_x": "2008, 2007, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.021978023
+    },
+    "18_29": {
+        "ners_x": "Actor, Role-playing, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036630037,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.021978023
+    },
+    "9_1": {
+        "ners_x": "July 4 , 2007, Second Life, Surreal, September 9 , 2009, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042735045,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.025641026
+    },
+    "18_22": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "6_34",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Every Icon Statement, March 23 , 2003, Casey Reas, March 2006, Jewish Museum, 2005, Whitney Museum, Vuk Cosic, Read_me, Nettime, Edward A. Shanken, 5 , January 1969, Arte, Sol LeWitt, Issue, Read_Me, Information Processing, Conceptual Art, Florian Cramer, Mobility Agents, Parachute, December 2005, Italian, June 30 , 1997, Metaphor, House That Jack Built, May 2002, Jack Burnham, Hz Journal, Ivi, Printed Matter, Computational Sketchbook, Tilman Baumgaertel, Leonardo, Inc, 10 , November 1998, Critica, June 2004, English, John F. Simon Jr., AAVV, Art, Information Technology, New York, Jacob Lillemose, Jury Statement, January 9 , 2007, January 1997, Its New Meaning, Re-declaration of Dependence, ",
+        "tokScore": 0.01923077
+    },
+    "9_0": {
+        "ners_x": "2006, Unsurprisingly, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033333332,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.02
+    },
+    "18_23": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0040650405,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.024390243
+    },
+    "18_24": {
+        "ners_x": "Vogue Italia, Abramović, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051124743,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.030674847
+    },
+    "18_25": {
+        "ners_x": "Act When, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004310345,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.02586207
+    },
+    "20_14": {
+        "ners_x": "Arcangel, Naptime, Deitch Projects, Super Mario Clouds, Mario, Super Mario Movie, January 2005, Paperrad, Paul B. Davis, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004854369,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.029126214
+    },
+    "18_90": {
+        "ners_x": "Ljubljana, Afterall Books, NAME Readymade, Miško, East Art Map, Eastern Europe, Janez Janša, Irwin, Triglav, Museum of Modern Art, Moderna, Mount Triglav, Contemporary Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004032258,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.024193548
+    },
+    "20_15": {
+        "ners_x": "Arcangel, Mario, 1984, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033783782,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.02027027
+    },
+    "20_16": {
+        "ners_x": "Paperrad, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043290043,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.025974026
+    },
+    "20_17": {
+        "ners_x": "Arcangel, Kingdom of Piracy, 2003, Alexander Galloway, Low Level All Stars, BEIGE, Commodore, DVD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004474273,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.026845638
+    },
+    "20_10": {
+        "ners_x": "Nintendo, VHS, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.01923077
+    },
+    "20_11": {
+        "ners_x": "Arcangel, Super Mario Clouds, Super Mario Bros, 2002, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "20_12": {
+        "ners_x": "Arcangel, Nintendo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017006802,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.010204081
+    },
+    "20_13": {
+        "ners_x": "Mario Bros, Arcangel, Tetris, 2004, Mario, Cory Arcangel, Super Abstract Brothers, Fantasy Cutscenes, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025839794,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.015503876
+    },
+    "19_3": {
+        "ners_x": "Border CrossingsIn July, Campbell 's Soup Cans, Warhol, Spacewar, Massachusetts Institute of Technology, Angeles, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.01923077
+    },
+    "19_4": {
+        "ners_x": "Rye, The Catcher, Lara Croft, Super Mario, Obi-Wan Kenobi, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003236246,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.019417476
+    },
+    "19_5": {
+        "ners_x": "The Art of Games, Pandora, Warhol, Pondering, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.01923077
+    },
+    "19_6": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.021052632
+    },
+    "23_11": {
+        "ners_x": "Linux, Perky Pat, Google Maps, GIF, Photoshop, Youtube, Wikipedia, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024875621,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.014925373
+    },
+    "20_18": {
+        "ners_x": "RSG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002415459,
+        "locScore": 0,
+        "target": "1_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, 1997, ",
+        "tokScore": 0.014492754
+    },
+    "23_12": {
+        "ners_x": "Media ConstructivismHow, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0016025641,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.009615385
+    },
+    "19_0": {
+        "ners_x": "2009, Warhol, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004672897,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0.028037382
+    },
+    "20_19": {
+        "ners_x": "Garfunkel, 2004, Beach Boys, Rammellzee, Little Surfer Girl, Geto Boys, Simon, Sans Simon, Paperrad, All Arcangel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004716981,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.028301887
+    },
+    "19_1": {
+        "ners_x": "Calvin Tomkins, Paradoxically, 1949, 1963, Abstract Expressionism, Truman Capote, Jasper Johns, Roy Lichtenstein, Glamour, Andrew Warhola, New York, Campbell, Rusyn, Leo Castelli, Andrew, Pittsburgh, Andy, Pop Art, Andy Warhol, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030441398,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.01826484
+    },
+    "23_10": {
+        "ners_x": "Baudrillard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034722222,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.020833334
+    },
+    "19_2": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031446542,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.018867925
+    },
+    "2_1": {
+        "ners_x": "Trojan, Twentieth Century, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036549708,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.021929825
+    },
+    "18_58": {
+        "ners_x": "Slovenian Spring, Jakob Aljaž, Janez Janša, Vrhnika, Slovenia, Wörthersee Lake, Mount Triglav, Janšas, Nova Revija, Footpath, Bohinj Lake, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0053333337,
+        "locScore": 0,
+        "target": "12_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.032
+    },
+    "2_2": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.018348623
+    },
+    "18_57": {
+        "ners_x": "Mount Triglav, Slovenian Janez, Croat Hrvatin, Croatia, Davide Grassi, Italy, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "11_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Second Life, ",
+        "tokScore": 0.022727273
+    },
+    "2_3": {
+        "ners_x": "Turbo Pascal, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031847134,
+        "locScore": 0,
+        "target": "5_29",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Juan J. Romero, Complexity Theory, Artificial.dk, 20 September 2005, D. Quaranta, INTER, Art Theory, Context, Marius Watz, Philip Galanter, Penousal Machado, Art of Artificial Evolution, P. Galanter, Complexism, Generative Art Proceedings, Milan, Ivi, Interview, GENERATIVE, Generative Art, Turin, Teknemedia, Generative, Domenico Quaranta, September 6 2004, Generative Art Now, Springer, Thomas Petersen, C.STEM. Art Electronic Systems and Software Art, Kristine Ploug, T. Petersen, ",
+        "tokScore": 0.01910828
+    },
+    "18_56": {
+        "ners_x": "Janez Janša, Emil Hrvatin, Janezs, Triglav, Kariž, Davide Grassi, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004784689,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.028708134
+    },
+    "2_4": {
+        "ners_x": "1997, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013020834,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0078125
+    },
+    "18_55": {
+        "ners_x": "Janez Janša, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028248588,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.016949153
+    },
+    "2_0": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017921147,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.010752688
+    },
+    "18_59": {
+        "ners_x": "Janez Janša, Mount Triglav, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035842294,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.021505376
+    },
+    "2_9": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004716981,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.028301887
+    },
+    "18_50": {
+        "ners_x": "NSK, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033050047,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.019830028
+    },
+    "20_20": {
+        "ners_x": "Shot Andy Warhol, 2002, Halley, Pope, Holigan, Finally, Andy Warhol, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033670033,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0.02020202
+    },
+    "2_5": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037453184,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.02247191
+    },
+    "18_54": {
+        "ners_x": "Janez Janša, Mount Triglav, Slovenians, Janšas, Prime Minister of Slovenia, Mecca, Muslims, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026666669,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.016
+    },
+    "2_6": {
+        "ners_x": "1998, Luciano Caramel, 1994, Italian, MA, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.01923077
+    },
+    "18_53": {
+        "ners_x": "Janez Janša, 6 August 2007, Slovenia, Mount Triglav, 1968, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031446542,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.018867925
+    },
+    "2_7": {
+        "ners_x": "2005, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048169554,
+        "locScore": 0,
+        "target": "23_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2009, Desert, May 2010, The Symptom, 2002, Weber_etrans.pdf., 2003, Dragan Espenschied, Artpulse, N, The New York Times, Slavoj, Das Netz, Understanding Understanding, Concise Routledge Encyclopedia of Philosophy, Unabomber, Constructing, Merz, See Stefan Weber, Dir, Media, Ivi, Lutz Dammbeck, Heinz Von Foerster, January 15 , 2006, See Maggie Jones, Jean Baudrillard, 1983, Real, New York, Springer-Verlag, See Edward Craig, Digital Folklore, 3 , March, Stuttgart, LSD, Routledge, Mediamanual.at, Olia Lialina, Germany, Reality, Internet, Semiotext, 2000, ",
+        "tokScore": 0.028901733
+    },
+    "18_52": {
+        "ners_x": "Irwin, Slovenian, Avant-garde, NSK, Vladimir P., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042918455,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.025751073
+    },
+    "18_92": {
+        "ners_x": "Ljubljana, Janez Janša, Museum of Modern Art, Moderna, NAME Readymade, Zdenka Badovinac, Janez, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037453184,
+        "locScore": 0,
+        "target": "8_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hans Bernhard, NETWORKING IS WORKING, READING YOUR PRESS RELEASE, WONDERED WHY YOU PUT SO MUCH EMPHASIS ON THE DISTRIBUTED, NETWORKED NATURE OF THE CREATIVE PROCESS, SINCE THIS IS QUITE USUAL TO OUR CURRENT WAY OF WORKING, The Sound, VIA EMAIL AND THROUGH PHONE CONVERSATIONS, Visualcoder LIA, YOU SAY, Prof. Peter Weibel, Web, S, THERE WAS ONE REAL-LIFE MEETING IN VIENNA, Erich Kachel, Soundcoder Stefan Nussbaumer, Vienna, THE DIFFERENT PARTS OF THE SOUND OF EBAY WERE COMPILED IN VARIOUS GEOTECHNICAL-LOCATIONS, ALL OTHER COMMUNICATION TOOK PLACE IN VARIOUS SKYPE CONFERENCES, I'M WONDERING IF THIS IS IMPORTANT IN ORDER TO UNDERSTAND THE WORK.Honestly, Theorycoder Grischinka Teufl, ",
+        "tokScore": 0.02247191
+    },
+    "2_8": {
+        "ners_x": "Net Art, Vimeo, Ubuweb, Google, Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002008032,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.012048192
+    },
+    "18_51": {
+        "ners_x": "Irwin, Slovenian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.006082725,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.03649635
+    },
+    "18_91": {
+        "ners_x": "2006, XXI, Sylvia Sasse, Evolucija, Inke Arns, April 1984, Irwin, DELO, Program of Irwin Group, Time, Janša, 1993, Eda Cufer, NSK State, October 20 , 2007, Maska, Vladimir P., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036764706,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.022058824
+    },
+    "6_0": {
+        "ners_x": "Software Art, 2005, Italian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048076925,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.028846154
+    },
+    "20_27": {
+        "ners_x": "Arcangel, GPL, Dominos Pizza, 2004, Pizza Party, UNIX, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046948357,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.028169014
+    },
+    "10_10": {
+        "ners_x": "21,987,0987, October 2006, Gazira, Second Life, Falling, Super Marios, RL, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036832413,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.022099448
+    },
+    "20_28": {
+        "ners_x": "Erik Salvaggio, Radical Software Group, 20071231143259, Jeremy Scott, Switch, April 2003, Anna Carruthers, Web Archive, 2005, 2002, Talk, Summer, Alexander Galloway, Cory, 16 , 2005, 12 June 2004, Gamescenes, EAI, Cf, BEIGE, Turbulence, Electronic Arts Intermix, Age of Videogames, Hanne Mugaas, Data Diaries, Spanish, Milan, Ivi, John Bruneau, RSG, Cory Arcangel Does, English, NES Landscapes, Art, Cory Arcangel, Eryk Salvaggio, Even Like Super Mario Brothers, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.015
+    },
+    "20_25": {
+        "ners_x": "GameBoy Killed the Video Stars, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "20_26": {
+        "ners_x": "Arcangel, Car Racer, Tetris, Mondrian, American, Nintendo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002849003,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.017094018
+    },
+    "20_23": {
+        "ners_x": "Arcangel, Halen, Eminem, Nintendo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013333334,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.008
+    },
+    "20_24": {
+        "ners_x": "F1 Racer Mod, Super Mario Clouds, 2004, Space Invader, Slow Tetris, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049751243,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.029850746
+    },
+    "20_21": {
+        "ners_x": "Campbell, June 1968, Andy, Valerie Solanas, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0020325202,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0121951215
+    },
+    "20_22": {
+        "ners_x": "2004, Nipod, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003436426,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.020618556
+    },
+    "6_8": {
+        "ners_x": "Software, Art, Information Technology, Burnham, Its New Meaning, Edward A. Shanken, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018726592,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.011235955
+    },
+    "6_7": {
+        "ners_x": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015015015,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.009009009
+    },
+    "6_6": {
+        "ners_x": "Software Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "18_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jennifer Allen, ",
+        "tokScore": 0.018348623
+    },
+    "6_5": {
+        "ners_x": "Art, Dada, Tristan Tzara, Clearly, John Cage, Sol LeWitt, Cramer, Monte Young, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003921569,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.023529412
+    },
+    "6_4": {
+        "ners_x": "January 1, Software Art, Florian Cramer, Nr, Fluxus, Composition, Monte Young, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.023809524
+    },
+    "6_3": {
+        "ners_x": "Futurism, Mario Schifano, World Wide Web, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00390625,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.0234375
+    },
+    "6_2": {
+        "ners_x": "Net Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005813954,
+        "locScore": 0,
+        "target": "1_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, 1997, ",
+        "tokScore": 0.034883723
+    },
+    "6_1": {
+        "ners_x": "Neo Avant-garde, Net Art, 1997, Slovenian, Duchamp, Conceptual Art, Situationism, Dadaism, Vuk Cosic, Fluxus, No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038314175,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.022988506
+    },
+    "23_14": {
+        "ners_x": "Caspar David Friedrich, Franco Mattes, Eva, Edward Hopper, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "8_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hans Bernhard, NETWORKING IS WORKING, READING YOUR PRESS RELEASE, WONDERED WHY YOU PUT SO MUCH EMPHASIS ON THE DISTRIBUTED, NETWORKED NATURE OF THE CREATIVE PROCESS, SINCE THIS IS QUITE USUAL TO OUR CURRENT WAY OF WORKING, The Sound, VIA EMAIL AND THROUGH PHONE CONVERSATIONS, Visualcoder LIA, YOU SAY, Prof. Peter Weibel, Web, S, THERE WAS ONE REAL-LIFE MEETING IN VIENNA, Erich Kachel, Soundcoder Stefan Nussbaumer, Vienna, THE DIFFERENT PARTS OF THE SOUND OF EBAY WERE COMPILED IN VARIOUS GEOTECHNICAL-LOCATIONS, ALL OTHER COMMUNICATION TOOK PLACE IN VARIOUS SKYPE CONFERENCES, I'M WONDERING IF THIS IS IMPORTANT IN ORDER TO UNDERSTAND THE WORK.Honestly, Theorycoder Grischinka Teufl, ",
+        "tokScore": 0.021052632
+    },
+    "18_45": {
+        "ners_x": "Mount Triglav, OHO, Katie Kitamura, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045454544,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.027272727
+    },
+    "23_13": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.023809524
+    },
+    "18_44": {
+        "ners_x": "Slovenia, Slovenian, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051020407,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.030612245
+    },
+    "23_16": {
+        "ners_x": "Ataris, Arcangel, Web, Adobe Photoshop, Quicktime, Cory Arcangel, Miltos Manetas, Dragan Espenschied, Olia Lialina, Photoshop, VHS, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036231885,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.02173913
+    },
+    "18_47": {
+        "ners_x": "Irwin, 2004, Mount Triglav, 2003, Like, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004237288,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.025423728
+    },
+    "23_15": {
+        "ners_x": "2008, Joan Leandre, 2009, Gazira Babeli, Spanish, Brody Condon, Sonsbeek International Sculpture Exhibition, Keatonian, Babeli, In the Name of Kernel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036231885,
+        "locScore": 0,
+        "target": "12_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.02173913
+    },
+    "18_46": {
+        "ners_x": "Precisely, Kitamura, Miško, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001996008,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.011976048
+    },
+    "23_18": {
+        "ners_x": "Richard Prince, Courbet, Car Crashes, Andy Warhol, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033840947,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.020304568
+    },
+    "18_49": {
+        "ners_x": "Eda Kufer, Irwin, 1984, Neue Slowenische Kunst, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019379845,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.011627907
+    },
+    "18_89": {
+        "ners_x": "Postproduction, Triglav, See Nicolas Bourriaud, March 2008, 2002, Marko Pogačnik, Frieze Magazine, OHO, Katie Kitamura, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028735632,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.01724138
+    },
+    "23_17": {
+        "ners_x": "Oliver Laric, 2009, Morris Louis, Vertical, Louis, Dalet Kaf, Damon Zucconi, Paul B. Davis, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026666669,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.016
+    },
+    "18_48": {
+        "ners_x": "Irwin, Slovene, Slovenian, Like Irwin, Greek, French, East European, Like, German, East Art Map, Eastern Europe, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0020325202,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.0121951215
+    },
+    "18_88": {
+        "ners_x": "2008, Re:Akt, Sonsbeek, American, Grandeur International, Twentyfivefold Manifestation, Janez Janša, Real, Forms of Reenactment, Brody Condon, More, Ronald Reagan, Sven Lütticken, Hinkley, See Peggy Phelan, Borghild Project Reconstruction, SS-XXX, C'était, Contemporary Art, Reenactment, Die Frau Helga, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.015625
+    },
+    "19_9": {
+        "ners_x": "Nam June Paik, Salvador Dalì, Man Ray, Secondly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049261083,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.02955665
+    },
+    "6_9": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0040816325,
+        "locScore": 0,
+        "target": "10_36",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Queen, Desert, W. Flimflam, Tilman Baumgärtel, Grey Goo, Bantham Books, G. Babeli, Burning Chrome, Nettime, Meltemi, Buñuel, Wikipedia, Gaz, Gazira Babeli, Software Art, T. Baumgärtel, Second Life, Odyssey, Cf, Cultures Conference, Babeli, Slate Magazine, Mario Gerosa, Introduzione, Wirxli Flimflam, Marisa Olson, Beavis Palowakski, ExhibitA, University of Aarhus, Second Front, Prada, See Philip K. Dick, Aarhus, Inke Arns, William Gibson, Perky Pat, Read_me, March 23 , 2007, July 1982, See Matteo Bittanti, Alexei Shulgin, Gaza Stripped, Most Beautiful Avatars, Three Stigmata of Palmer Eldritch, Rome, Sugar Seville, Simón, January 2007, Omni, Grey_goo, Snow Crash, Collateral Damage, Saint Simeon, 1965, 1964, April 16, May 30 , 2007, November 23 , 2006, Can-D, Barbie-like, Olga Goriunova, Neal Stephenson, ",
+        "tokScore": 0.024489796
+    },
+    "19_8": {
+        "ners_x": "Alfred Hitchcock, Electronic Arts, Spore, Dreamcast, Rez, Diane Arbus, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.022727273
+    },
+    "23_19": {
+        "ners_x": "2009, Desert, May 2010, The Symptom, 2002, Weber_etrans.pdf., 2003, Dragan Espenschied, Artpulse, N, The New York Times, Slavoj, Das Netz, Understanding Understanding, Concise Routledge Encyclopedia of Philosophy, Unabomber, Constructing, Merz, See Stefan Weber, Dir, Media, Ivi, Lutz Dammbeck, Heinz Von Foerster, January 15 , 2006, See Maggie Jones, Jean Baudrillard, 1983, Real, New York, Springer-Verlag, See Edward Craig, Digital Folklore, 3 , March, Stuttgart, LSD, Routledge, Mediamanual.at, Olia Lialina, Germany, Reality, Internet, Semiotext, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026990555,
+        "locScore": 0,
+        "target": "24_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PUT TOGETHER THE PIECES AND BUILD HIS OR HER OWN NARRATIVE, MEAN, IS USUALLY JUST A WAY TO CONTROL THE USER, WOULD SAY THAT YOUR, USER UNFRIENDLY, APPARENTLY USELESS TUTORIAL, RIGHT, SINCE RETROYOURC, UNDERSTAND WHAT IS NOISE AND WHAT IS INFORMATION, THE USER MUST NAVIGATE A LOT, AND THE WAY HE OR SHE INTERFACES WITH THE WORK, FRAGMENTS OF NARRATIVE, APPROACH MUST BE UNDERSTOOD IN THIS CONTEXT, ALL YOUR WORK CAN BE ACCESSED UNDER A HUGE FRAME OF INFORMATION, AM, USER FRIENDSHIP, CODE, ",
+        "tokScore": 0.016194332
+    },
+    "19_7": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005882353,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.03529412
+    },
+    "18_85": {
+        "ners_x": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "5_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Philip Galanter, Set, Watz, ",
+        "tokScore": 0
+    },
+    "18_84": {
+        "ners_x": "FBI, Branch Davidians, Brody Condon, David Koresh, Peter Brinson, 2004, Eddo Stern, American, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045454544,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.027272727
+    },
+    "18_87": {
+        "ners_x": "Britain, Dortmund, Witte, Berlin, Inke Arns, Fluxus, Gabriele Horn, Rotterdam, History Will Repeat Itself, Which To Reenact, Forms of Reenactment, More, Hartware MedienKunstVerein, Sven Lütticken, Arena, Lütticken, See Inke Arns, With, Contemporary Art, Reenactments, Medieval, KW Institute, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.022222223
+    },
+    "18_86": {
+        "ners_x": "Spain, 2003, Centro, Centro Párraga, See Paco Barragan, Seville, Steven Meisel, Audiovisuals Department, 1976, See AAVV, November 1998, Centro Andaluz, No Llames Performance, Space, Call It Performance, Relation, Vogue Italia, Arte Contemporáneo, Easy Pieces, Madrid, Arte Reina Sofía Nacional, Barrio, Murcia, Marina Abramović, New York, USA, Museo, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026666669,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.016
+    },
+    "18_41": {
+        "ners_x": "Jakob Aljaž, Socialist Federal Republic of Yugoslavia, Slovenia, Slavic, Slovenian, 2003, Julian Alps, Triglav, Traditionally, Slovakian, 1991, Mount Triglav, Oj, January 2007, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.023809524
+    },
+    "18_81": {
+        "ners_x": "Janez Janša, Latin, Janša, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.029411765
+    },
+    "18_40": {
+        "ners_x": "Slovenia, Mount Triglav, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005376344,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.032258064
+    },
+    "18_80": {
+        "ners_x": "1945, Nazism, 1933, North East Europe, Borghild Project, Nazi, German, Germany, Nordic, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036231885,
+        "locScore": 0,
+        "target": "12_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.02173913
+    },
+    "18_43": {
+        "ners_x": "Having, Ljubljana, 1970, Milenko Matanović, 1971, Drago Dellabernardina, Slovenian, Mount Triglav, 1969, David Nez, Zvezda Park, 30 December 1968, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049382714,
+        "locScore": 0,
+        "target": "1_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, 1997, ",
+        "tokScore": 0.02962963
+    },
+    "18_83": {
+        "ners_x": "Pierre Huyghe, New York, Naturally, John Woytowiczs, 1975, Sidney Lumet, The Third Memory, Al Pacino, 1999, August 1972, Chase Manhattan Bank, Dog Day Afternoon, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.015625
+    },
+    "18_42": {
+        "ners_x": "Socialist Federal Republic of Yugoslavia, First World War Slovenia, Croats, 2004, Yugoslavia, Second World War, Balkan, Italy, Austro-Hungarian Empire, Ten-Day War, Hungary, European Union, Kingdom of Serbs, Germany, 25 June 1991, Slovenes, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015432099,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.009259259
+    },
+    "18_82": {
+        "ners_x": "2009, Einmal, Re-reporting, Reconstruction, Brescia, D. Quaranta, Re-enactment, English, Jennifer Allen, RE:akt, J. Janša, Croatian, FPEditions, Performing Arts Journal, A. Caronia, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037593984,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.02255639
+    },
+    "10_20": {
+        "ners_x": "April 2007, Second Life, Come Together, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0016666666,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.01
+    },
+    "10_21": {
+        "ners_x": "March 2007, Second Life, Avatar, Francis Bacon, Canvas, Bacon, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038314175,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.022988506
+    },
+    "2_12": {
+        "ners_x": "Jodi, 1997, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.020408163
+    },
+    "2_13": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033333332,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.02
+    },
+    "2_10": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030864198,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.018518519
+    },
+    "2_11": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.027777778
+    },
+    "10_19": {
+        "ners_x": "Second Life, Walt, Perky Pat, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0027548207,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.016528925
+    },
+    "2_19": {
+        "ners_x": "Unfortunately, Casey Reas, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004237288,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.025423728
+    },
+    "2_18": {
+        "ners_x": "Sooner, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.027777778
+    },
+    "2_17": {
+        "ners_x": "Lialina, Art, Cory Arcangel, Net, Seth Price, Paul Chan, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004132231,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.024793388
+    },
+    "2_16": {
+        "ners_x": "Robespierre, French, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038461538,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.023076924
+    },
+    "18_79": {
+        "ners_x": "Nazi, 1941, German, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.029411765
+    },
+    "2_15": {
+        "ners_x": "Net Art, Lialina, 2007, Net, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031152647,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.018691588
+    },
+    "18_78": {
+        "ners_x": "Spanish Clarin, Italian Corriere, 2007, Re:akt, 2005, Janša, German Der Spiegel, Borghild Project Reconstruction, SS-XXX, Sera, Die Frau Helga, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.006451613,
+        "locScore": 0,
+        "target": "24_15",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "CAN YOU TALK ABOUT THAT, WHICH IS CENTERED AROUND THE SIGHTING OF LIGHT GLOBE UFOS DURING A FLIGHT MISSION, In Song, AND WHAT WE COULD CALL THE POLITICS OF VISION, TWO PATHS SEEM TO CROSS THE MAIN NARRATIVE, Prefect Fatal Error, FROM DISNEYLAND TO CHERNOBYL, THIS INTRODUCES ANOTHER ISSUE THAT SEEMS QUITE RELEVANT FOR YOUR WORK, In the Song, SURVEILLANCE, COMING TO THE VIDEO, Iron Bird, AND A CLOSE LOOK AT THE STRANGE HUMANITY ON THE SURFACE, THE VIEWPOINT FROM ABOVE OF HIGHLY RECOGNIZABLE LOCATIONS, COLUMNS MEGA NFO FILE, FROM SATELLITE SURVEILLANCE TO DATAVEILLANCE ADDRESSED IN THE, ",
+        "tokScore": 0.038709678
+    },
+    "2_14": {
+        "ners_x": "Olia Lialina, Exactly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.030303031
+    },
+    "18_77": {
+        "ners_x": "Fiume, Holocaust City, City of Life, Universal Meeting Place, Il, Great Opportunity, Fifth Season, World, Port of Love, Rainbow City, Socialist, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.029411765
+    },
+    "10_12": {
+        "ners_x": "map.COME.TO.HEAVEN, July 2006, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045351475,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.027210884
+    },
+    "18_76": {
+        "ners_x": "Fiume, Il, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043290043,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.025974026
+    },
+    "10_11": {
+        "ners_x": "0100101110101101, November 2006, Gazira, Super Mario, LP, Ars Virtua, Warhol, The Velvet Underground, Caspar David Friedrich, Franco Mattes, Eva, Kaspar Goo, Andy Warhol, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015948963,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.009569378
+    },
+    "18_75": {
+        "ners_x": "Fiume, 1968, Paris, TAZ, 1985, Hakim Bey, T.A.Z., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022222223,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.013333334
+    },
+    "10_14": {
+        "ners_x": "U AreHere, April 2007, Collateral Damage, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0016025641,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.009615385
+    },
+    "18_74": {
+        "ners_x": "Fiume, Janez Janša, 2009, Il, Fascism, 1919, Gabriele, Istrian, Italian, Carnaro, Repubblica, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002849003,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.017094018
+    },
+    "10_13": {
+        "ners_x": "Exploiting, Gazira, Yves Klein, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.016129032
+    },
+    "18_73": {
+        "ners_x": "Bambozzi, Mixing, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.022727273
+    },
+    "10_16": {
+        "ners_x": "Gazira, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.020408163
+    },
+    "18_72": {
+        "ners_x": "São Paulo, PCC, 2009, May 2006, Latin America, Brazilian, Capital, Primeiro Comando, The Day São Paulo Stopped, Lucas Bambozzi, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004115226,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.024691358
+    },
+    "10_15": {
+        "ners_x": "Gazira, Second Life, Perky Pat, Dickian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030864198,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.018518519
+    },
+    "18_71": {
+        "ners_x": "Janez Janša, Ambrus, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037313432,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.02238806
+    },
+    "10_18": {
+        "ners_x": "Buy Gaz, Gazira Babeli, April 2007, Linden Dollar, Linden, Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035460992,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.021276595
+    },
+    "18_70": {
+        "ners_x": "Postojna, Slovenian, Strojans, 28 October 2006, Balkans, Ambrus, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004347826,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.026086956
+    },
+    "10_17": {
+        "ners_x": "Prada, Body, Second Life, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004192872,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.025157232
+    },
+    "10_31": {
+        "ners_x": "Metaverse, Gazira, William Gibson, Carroll, Cyberspace, Christian, Wonderland, 1982, Surreal Real, 1992, Utopia, Second Life, The Tempest, Moore, Neal Stephenson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005050505,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.030303031
+    },
+    "10_32": {
+        "ners_x": "Gaz, 2007, Gazira, Collateral Damage, COME.TO.HEAVEN, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0054901964,
+        "locScore": 0,
+        "target": "13_31",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "MIT List Visual Arts Center, Lev Manovich, Infome Imager Description, Benjamin Weil, Wikipedia, See Marina Abramovic, M. Abramovic, iMAL Center, Vague Terrain, Brussels, Zero Comments, Page Context, October 7, Critical Internet Culture, 11 , September 2008, Net, January 25, Cambridge, MA, Karlsruhe, WWW Art Award, Milan, UBERMORGEN.COM, 30 , 2008, Golo Föllmer, Johannes Goebel, IT, Name of Kernel, March 29 , 1997, ZKM, HolyFire, Peter Weibel, Domenico Quaranta, New York, Luciano Caramel, Lovink, Jeffrey Shaw, May 3, .0100101110101101., Joan Leandre, Media Technology, November 12 , 2006, NY, Lisa Jevbratt, D. Quaranta, Charta, Alexei Shulgin, Patrick Lichty, April 18, 1996, PORT, Moving Image Gallery, TEXT, Anna Rosemary Carruthers, Digital Culture, Italian, Hans-Peter Schwarz, 1999, Desktop IS, Holy Fire, May 31 , 2002, Digital Age, New Media Art, Walter, Yves Bernard, Miniartextil, Refresh, Easy Pieces, Navigating Digital Culture, Geert Lovink, Death of Computer Art, Art, Mark Tribe, Routledge, Olia Lialina, OpeningANDpeople, Germany, Cruijsen, ",
+        "tokScore": 0.032941177
+    },
+    "10_30": {
+        "ners_x": "April 2007, Gazira, Second Life, Nudes Descending, Say Tornado, Don, Staircase, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004597701,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.027586207
+    },
+    "2_21": {
+        "ners_x": "Zycles, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0053333337,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.032
+    },
+    "2_22": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005376344,
+        "locScore": 0,
+        "target": "28_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "tokScore": 0.032258064
+    },
+    "2_23": {
+        "ners_x": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002057613,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.012345679
+    },
+    "2_20": {
+        "ners_x": "2008, Marina Abramovic, Thomas Ruff, Zycles, German, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0054644807,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.032786883
+    },
+    "18_67": {
+        "ners_x": "Marina Abramović, Chris Burden, Gilbert, Franco Mattes, Vito Acconci, Second Life, Synthetic Performances, Eva, Valie Export, George, Joseph Beuys, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003944773,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.02366864
+    },
+    "18_66": {
+        "ners_x": "Vaginal Davis, 2007, VB, 0100101110101101, Franco Mattes, Eva, Synthetic Performances, Vanessa Beecroft, Afro-American, ORG, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022522523,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.013513514
+    },
+    "18_69": {
+        "ners_x": "Janez Janša, Slovenia, 2007, Re:akt, Slovene National Theatre, Winter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021645022,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.012987013
+    },
+    "18_68": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.017857144
+    },
+    "10_25": {
+        "ners_x": "Software Art, 2004, John L. Austin, Inke Arns, Arns, Law, German, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.01923077
+    },
+    "18_63": {
+        "ners_x": "Karl Marx, 2006, Slovakia, 1968, Capital, Jan Palach, Marxism, Soviet, Janez Janša, Western, Czechoslovakia, Czech Republic, Communism, 1993, Prague Spring, Communism Czechoslovakia, Das Kapital, Palach, German, Czechoslovakian, Prague, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028409092,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.017045455
+    },
+    "10_24": {
+        "ners_x": "Marina Abramovic, Net Art, Second Soup, Software Art, Creative Commons, Gazira, Collateral Damage, Vanessa Beecroft, Globally, Pop Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.015625
+    },
+    "18_62": {
+        "ners_x": "Reichstag, Slovenian, Re:akt, SilentCell Network, 2005, Re-enactmentOther, No-one, Ich Lubbe Berlin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032520324,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.019512195
+    },
+    "10_23": {
+        "ners_x": "Second Soup, Campbell, May 2006, Say New Media, Gazira, Second Life, Don, Pop Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0040650405,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.024390243
+    },
+    "18_65": {
+        "ners_x": "Ferrari-like, 2003, 1976, C'était, DVD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023148148,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.013888889
+    },
+    "10_22": {
+        "ners_x": "Second Front, February 11 , 2007, Gazira, Second Life, Surreal, Canvas, Spawn, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014005603,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.008403362
+    },
+    "18_64": {
+        "ners_x": "Drouet, Janez Janša, Quentin Drouet, Golden Greek, Janša, Claude Lelouch, Paris, 1976, C'était, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004716981,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.028301887
+    },
+    "10_29": {
+        "ners_x": "Second Soup, Buy Gaz, U AreHere, Gazira, Linden, Collateral Damage, Canvas, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044563278,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.026737968
+    },
+    "10_28": {
+        "ners_x": "New Media Art, Warhol, Duchamp, Friedrich, Gazira, Second Life, Bacon, Her, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042735045,
+        "locScore": 0,
+        "target": "25_4",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2003, Christopher Poole, Internet, Grossman, ",
+        "tokScore": 0.025641026
+    },
+    "10_27": {
+        "ners_x": "Gazira Babeli, Perky Pat, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014619883,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.00877193
+    },
+    "18_61": {
+        "ners_x": "Janez Janša, Irwin, National Contemporary Art, Triglav, Golden Triglav, Slovenia, Slovenian, Mount Triglav, Monument, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.021052632
+    },
+    "10_26": {
+        "ners_x": "Gazira Babeli, Arns, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.026548672
+    },
+    "18_60": {
+        "ners_x": "Irwin, Janez Janša, Like, OHO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005722461,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.034334764
+    },
+    "13_0": {
+        "ners_x": "Net, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0055096415,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.03305785
+    },
+    "25_19": {
+        "ners_x": "Kenneth Tin-Kin Hung, Web, Bewersdorf, Facebook, Yes Men, Dlugosz, McKay, Endlicher, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003003003,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.018018018
+    },
+    "14_8": {
+        "ners_x": "Seeing Double, Jones, 2004, Carol Stringari, Grahame Weinbren, WHAT'S THE CURRENT STATUS OF THE PROJECT, NEW YORK, 1982, YOU CONCEIVED THE VARIABLE MEDIA INITIATIVE, Alain Depocas, Web, Keith Frank, Rick Rinehart, Langlois Foundation, Roberta Friedman 's Erl King, AS NEW MEDIA CURATOR AT THE GUGGENHEIM MUSEUM, Guggenheim, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035650625,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.021390375
+    },
+    "14_9": {
+        "ners_x": "HOW DID ARTISTS REACT TO THE VMI, Dan Flavin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0053030304,
+        "locScore": 0,
+        "target": "23_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2009, Desert, May 2010, The Symptom, 2002, Weber_etrans.pdf., 2003, Dragan Espenschied, Artpulse, N, The New York Times, Slavoj, Das Netz, Understanding Understanding, Concise Routledge Encyclopedia of Philosophy, Unabomber, Constructing, Merz, See Stefan Weber, Dir, Media, Ivi, Lutz Dammbeck, Heinz Von Foerster, January 15 , 2006, See Maggie Jones, Jean Baudrillard, 1983, Real, New York, Springer-Verlag, See Edward Craig, Digital Folklore, 3 , March, Stuttgart, LSD, Routledge, Mediamanual.at, Olia Lialina, Germany, Reality, Internet, Semiotext, 2000, ",
+        "tokScore": 0.03181818
+    },
+    "25_17": {
+        "ners_x": "Rather, Bewersdorf, Kevin Bewersdorf, Google, Kevin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014880953,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.008928572
+    },
+    "14_6": {
+        "ners_x": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0
+    },
+    "13_3": {
+        "ners_x": "Net Art, Maintaining, Web, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011111111,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.006666667
+    },
+    "21_21": {
+        "ners_x": "USS Dragoon, Karaoke, Whose Child Is This, 2003, Rule, All, Carnivore, One God, Cathedral, Cervantes, Don Quixote, Stern, PC, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002710027,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.016260162
+    },
+    "25_18": {
+        "ners_x": "0100101110101101, Franco Mattes, Second Life, Eva, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003003003,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.018018018
+    },
+    "14_7": {
+        "ners_x": "ASK YOU THE SAME QUESTION, Animateurs, WHAT WOULD IT MEAN TO ADAPT MUSEUM CULTURE TO NET CULTURE, Wright, YOU ASKED YOURSELF A QUESTION, IN AN INTERVIEW YOU HAD WITH LIISA OGBURN IN APRIL, Robbin Murphy, CAN, Hamlet, Commodore, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00243309,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.01459854
+    },
+    "13_4": {
+        "ners_x": "Rarely, New Media Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025641026,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.015384615
+    },
+    "21_20": {
+        "ners_x": "Eye, 2002, Kashmir, Stern, Led Zeppelin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036549708,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.021929825
+    },
+    "25_15": {
+        "ners_x": "Google Streetview, Joe McKay, Mapjack, McKay, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0049283155,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.029569892
+    },
+    "14_4": {
+        "ners_x": "WHAT DO YOU THINK ABOUT ÄDA'WEB, Steve, Force Majeure, way.HOW DID THE UNRELIABLE ARCHIVIST SEE THE LIGHT, European, Benjamin Weil, WHAT ABOUT THE WAY ÄDA'WEB HAS BEEN COLLECTED BY THE WALKER ART CENTER, Janet, OK, Steve Dietz, Keith Frank, Walker 's Digital Study Collection, AOL, Janet Cohen, Variable Media Network, Keith, DOES IT STILL HAVE SOMETHING TO TEACH TO ARTISTS APPROACHING THE INTERNET, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025839794,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.015503876
+    },
+    "13_1": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0057471264,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.03448276
+    },
+    "25_16": {
+        "ners_x": "Matrix, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045351475,
+        "locScore": 0,
+        "target": "7_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "April 27 , 2004, F, 0100101110101101, April 2006, Valentina Tanni, Eva Mattes, Bruce Sterling, MESH, Emma McRae, Maria Rizzo, Modern Painters, September 2006, Anna Rosemary Carruthers, Flash Art, Italian, Australia, Nike Ground, ORG, Regional Perspectives, Power of Fake, UBERMORGEN.COM, American, 1969, Easy Rider, Exibart, Ironically, Domenico Quaranta, PROTOCOL.htm., Peter Fonda, Exploring Net.art, Definition, ",
+        "tokScore": 0.027210884
+    },
+    "14_5": {
+        "ners_x": "Greek, WHY, Ha, DO YOU THINK THERE'S A RELIABLE WAY TO ARCHIVE A PIECE OF NET ART, No, UNRELIABLE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045454544,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.027272727
+    },
+    "13_2": {
+        "ners_x": "Web, Net, Lastly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00486618,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.02919708
+    },
+    "14_2": {
+        "ners_x": "New York, Keith Frank, Janet Cohen, Variable Media Initiative, WAC, Dietz, Guggenheim Museum, Ippolito, Jon Ippolito, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050125313,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.030075189
+    },
+    "13_7": {
+        "ners_x": "Foreignisms, Wikipedia, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005249344,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.031496063
+    },
+    "14_3": {
+        "ners_x": "Noemalab, 2005, 2003, Dietz, Ippolito, Weil, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004761905,
+        "locScore": 0,
+        "target": "18_37",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.028571429
+    },
+    "13_8": {
+        "ners_x": "Net, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003875969,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.023255814
+    },
+    "14_0": {
+        "ners_x": "Net Art, New York, 1998, John Borthwick, 2004, 1994, 2003, Benjamin Weil, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028735632,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.01724138
+    },
+    "13_5": {
+        "ners_x": "New Media Art, Zero Comments, Geert Lovink, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004854369,
+        "locScore": 0,
+        "target": "21_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Dark Game, 2006, Tekken Torture Tournament, Cockfight Arena, 1999, 2001, 2000, ",
+        "tokScore": 0.029126214
+    },
+    "14_1": {
+        "ners_x": "Steve Dietz, American, Walker Art Center, WAC, New Media Initiatives, Minneapolis, Benjamin Weil, Director, Weil, Christie, Jon Ippolito, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0048611113,
+        "locScore": 0,
+        "target": "8_3",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Bob Zmuda, Hans Bernhard, Andy Kaufman, IS IT JUST GOOD PROPAGANDA, GOOD GUYS, THREE GIANT CORPORATIONS WITH A GOOD-LOOKING, FRIENDLY INTERFACE, IN THE EKMRZ TRILOGY, COMMON JOKE ABOUT IBM, WHAT HAS HAPPENED IN THE LAST FEW YEARS, OR ARE THEY REALLY, Google Maps, WE ARE FAR REMOVED FROM THE TIMES WHEN YOU COULD HEAR PEOPLE SAY THAT THE DEVIL WEARS BLUE, Google, YOUR TARGETS ARE THE HEROES OF THE POST-DOT-COM-CRASH RENAISSANCE, ",
+        "tokScore": 0.029166667
+    },
+    "13_6": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022522523,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.013513514
+    },
+    "13_9": {
+        "ners_x": "New Media Art, New Media, Foreignisms, French, Robbin Murphy, Remo Campopiano, Navigating Digital Culture, Net Art, 1996, PORT, 1997, Port, Web, Net, Simon Lamunière, Documenta X, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018939395,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.011363637
+    },
+    "24_12": {
+        "ners_x": "Song, Name of Kernel, Iron Bird, In the Name of Kernel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0010224949,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.006134969
+    },
+    "24_13": {
+        "ners_x": "Herman, RENDER, Robert, COLLECTED DATA, Barcelona, Nanga Parbat, Julie, NO, ALCHEMICAL EVENT, Lamba Pahar, BUT, THE KERNEL PEAK, WELL, IN THE NAME OF KERNEL, CAN YOU HELP US GET INTO THIS METAPHOR, USE TERMS FROM PROGRAMMING CULTURE, CONSPIRACY THEORIES AND HERMETIC TRADITION ALL MIX TOGETHER, FIREWALL, Reinhold, SHRED, COMING TO THE NARRATIVE DIMENSION, TO NAME PLACES AND CHARACTERS, YOU'LL PROBABLY ANSWER, INSTEAD OF USING A CHOCOLATE GRINDER TO TELL OF A MYSTICAL, SYSTRAY, THE GREAT ICE-FIRE WALL, THE GREAT SYSTRAY GLACIER, KERNEL, Kernel Peak, SUCH AS, Juanito, READ IT AS REVERSE ENGINEERING ON DUCHAMP'S GREAT GLASS, YOU USE A MYTHOLOGICAL NARRATIVE AS A METAPHOR FOR A COMPUTATIONAL PROCESS, MR, Sagarmatha, PERSONAL DATA, KUBASIK, AUTOBIOGRAPHY, IS A COMPLEX HYPERTEXT IN WHICH MOUNTAINEERING, WIPE, Kurt, YOU, Beni, IN THE TEXT WRITTEN FOR THE PROJECT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0012820513,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.0076923077
+    },
+    "24_10": {
+        "ners_x": "HAS OFTEN BEEN DESCRIBED AS AN AESTHETIC SUBVERSION, RETROYOU NOSTAL, G, YOU TAKE A GAME, BE IT CAR RACING OR A FLIGHT SIMULATOR, AND YOU TURN IT INTO A FUTURISTIC PAINTING, LIKE RETROYOURC, CAN YOU EXPLAIN THE WORK FROM AN AESTHETIC POINT OF VIEW, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018832391,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.011299435
+    },
+    "21_19": {
+        "ners_x": "Dark Game, 2006, Tekken Torture Tournament, Cockfight Arena, 1999, 2001, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001650165,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.00990099
+    },
+    "24_11": {
+        "ners_x": "G, CAN YOU EXPLAIN WHAT EXACTLY YOU DID WITH THE FLIGHT SIMULATOR FOR THIS PROJECT, COMPLEX, IN A WAY, retroyouRC, YOU SEEM TO GO BEYOND THE FORMAL SUBVERSION OF THE SOFTWARE ENGINE AND USE IT TO CREATE A NARRATIVE, IN IN THE NAME OF KERNEL, THERE IS A SHIFT FROM PREVIOUS PROJECTS, FICTIONAL WORLD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003220612,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.019323671
+    },
+    "21_13": {
+        "ners_x": "Hutchins, Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018518519,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.011111111
+    },
+    "21_14": {
+        "ners_x": "Arcimboldo, BabyInChrist, 2007, Christ, WoW, Squire Rex, Devil, Leegattenby King of Bards, World of Warcraft, Christian, Holy Bible, His Father, Best, Everquest, Level, Stern, Flamewar, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017825313,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.010695187
+    },
+    "21_11": {
+        "ners_x": "Ms. Shirley, The Sims, Landlord Vigilante, 2006, Leslie Shirley, Jessica Z. Hutchins, Angeles, GTA San Andreas, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00456621,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.02739726
+    },
+    "25_22": {
+        "ners_x": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 9.057971E-4,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.0054347827
+    },
+    "21_12": {
+        "ners_x": "Hutchins, Sims, Leslie Shirley, Angeles, Leslie, Stern, GTA San Andreas, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005952381,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.035714287
+    },
+    "25_21": {
+        "ners_x": "Old News, Michael Mandiberg, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037537536,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.022522522
+    },
+    "21_17": {
+        "ners_x": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015723271,
+        "locScore": 0,
+        "target": "4_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "0100101110101101, ORG, ",
+        "tokScore": 0.009433962
+    },
+    "25_20": {
+        "ners_x": "New York City, Dow Chemical, WTO, Yes Men, Iraq, New York Times, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004464286,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.026785715
+    },
+    "21_18": {
+        "ners_x": "Branch Davidians, David Koresh, Koresh, Waco, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.026548672
+    },
+    "21_15": {
+        "ners_x": "Animated MachinesI, Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022675737,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.013605442
+    },
+    "21_16": {
+        "ners_x": "Eddo Stern, World of Warcraft, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004098361,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.024590164
+    },
+    "21_10": {
+        "ners_x": "Mel Gibson, Christ, Deathstar, 2004, The Passion, Osama Bin Laden, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0050251256,
+        "locScore": 0,
+        "target": "9_28",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Sette, 2006, 2007, 17 August 2007, Talking, 5 December 2006, 24 July 2007, Helen Stoilas, The Art Newspaper, Meltemi, 4 July 2007, Gazira Babeli, 11 , December 2007, Odyssey, Second Life, September 2005, Lance Shields, Frank Rose, Rough Type, October, 14 June 2007, Milan, Molleindustria.it, June, Mario Gerosa, Madison Avenue Is Wasting Millions, Fibreculture, August, ExhibitA, Tokyo-based, Paolo Pedercini, November 2007, Hovagimyan, Deserted Second Life, 1992, Tom Boellstroff, Flash Art, Anna Rosemary Carruthers, Italian, 16 April 2007, Truth, Japanese, See Nicholas Carr, Collaboratory, HZ Journal, Gazira, Juria Yoshikawa, SL, Collateral Damage, Snow Crash, DC Spensley, Brazilians, Seconda Vita, Art, 18 August 2007, October 2007, Neal Stephenson, ",
+        "tokScore": 0.030150754
+    },
+    "26_10": {
+        "ners_x": "2009, Thomas Ruff, Groys, Zycles, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043290043,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.025974026
+    },
+    "25_12": {
+        "ners_x": "2009, Facebook Reenactments, Austrian, Facebook, Ursula Endlicher, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051282053,
+        "locScore": 0,
+        "target": "4_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "0100101110101101, Pope, Papacy, Yes Men, ORG, ",
+        "tokScore": 0.03076923
+    },
+    "26_11": {
+        "ners_x": "Unbearable Aura, Can, WebsiteOf, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001650165,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.00990099
+    },
+    "25_11": {
+        "ners_x": "Merry Pranksters, Unabomber, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021786492,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.013071896
+    },
+    "25_14": {
+        "ners_x": "XXI, Poland, Allegro, Best Day Ever Zach Gage, Mikolaj Dlugosz, Dlugosz, Twitter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011737089,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.0070422534
+    },
+    "25_13": {
+        "ners_x": "Looking, Tamas Banovich, Chatroulette, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00243309,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.01459854
+    },
+    "26_14": {
+        "ners_x": "NY, Web, IP, Fifth Avenue New York, Uniform Resource Locator, Solomon R. Guggenheim Museum, Technically, URL, Internet Protocol, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004716981,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.028301887
+    },
+    "26_15": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.021052632
+    },
+    "26_12": {
+        "ners_x": "Apple, URL, Youtube, World Wide Web, Cremaster.mov. But, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002849003,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.017094018
+    },
+    "25_10": {
+        "ners_x": "2008, San Francisco, Andrej Ternovskij, M1k3y, Little Brother, Google, Facebook, Cory Doctorow, New York Times, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.020408163
+    },
+    "26_13": {
+        "ners_x": "Japanese, Web, Can, German, Swedish, Benjamin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025252525,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.015151516
+    },
+    "19_26": {
+        "ners_x": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018570102,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.011142061
+    },
+    "19_25": {
+        "ners_x": "The Art of Games, Art of Games, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0054466235,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.03267974
+    },
+    "19_24": {
+        "ners_x": "Andrew Warhola, Milton Glaser, Game Art, Saul Bass, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.023809524
+    },
+    "19_23": {
+        "ners_x": "Jason Felix, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005249344,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.031496063
+    },
+    "19_22": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "17_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "tokScore": 0.027777778
+    },
+    "19_21": {
+        "ners_x": "1996, Lara Croft, Laurie Taylor, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034965035,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.02097902
+    },
+    "19_20": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004464286,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.026785715
+    },
+    "28_9": {
+        "ners_x": "AUDIENCE, 2006, AND VERY DIFFERENT, Cliparts, BUT ARTISTS WITH A STRONG ONLINE PRESENCE HAVE THE POSSIBILITY TO ADDRESS A BROADER, YouTube, CONTEMPORARY ART IS A LITTLE NICHE, HOW DO YOU DEAL WITH IT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003787879,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.022727273
+    },
+    "19_13": {
+        "ners_x": "Web, Youtube, Wikipedia, Usually, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004237288,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.025423728
+    },
+    "19_12": {
+        "ners_x": "Christopher Brookmyre, 2004, A Big Boy Did It and Ran Away, Skill, Alessandra C, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005592841,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.033557046
+    },
+    "19_15": {
+        "ners_x": "Art, New Media Art, Brody Condon, Eddo Stern, Franco Mattes, Miltos Manetas, Eva, Game Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046948357,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.028169014
+    },
+    "19_14": {
+        "ners_x": "Second Life, Cosplaying, Lastly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046040514,
+        "locScore": 0,
+        "target": "18_86",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Spain, 2003, Centro, Centro Párraga, See Paco Barragan, Seville, Steven Meisel, Audiovisuals Department, 1976, See AAVV, November 1998, Centro Andaluz, No Llames Performance, Space, Call It Performance, Relation, Vogue Italia, Arte Contemporáneo, Easy Pieces, Madrid, Arte Reina Sofía Nacional, Barrio, Murcia, Marina Abramović, New York, USA, Museo, ",
+        "tokScore": 0.027624309
+    },
+    "19_17": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001618123,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.009708738
+    },
+    "19_16": {
+        "ners_x": "Joan Leandre, Jodi, Gazira Babeli, Brody Condon, Eddo Stern, Cory Arcangel, Julian Oliver, Joseph Delappe, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013888889,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.008333334
+    },
+    "19_19": {
+        "ners_x": "Concept Art, BeyondBut, Wikipedia, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0025252525,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.015151516
+    },
+    "19_18": {
+        "ners_x": "March 2009, 2006, Cory Arcangel, Artforum, Playstation, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.017857144
+    },
+    "24_15": {
+        "ners_x": "CAN YOU TALK ABOUT THAT, WHICH IS CENTERED AROUND THE SIGHTING OF LIGHT GLOBE UFOS DURING A FLIGHT MISSION, In Song, AND WHAT WE COULD CALL THE POLITICS OF VISION, TWO PATHS SEEM TO CROSS THE MAIN NARRATIVE, Prefect Fatal Error, FROM DISNEYLAND TO CHERNOBYL, THIS INTRODUCES ANOTHER ISSUE THAT SEEMS QUITE RELEVANT FOR YOUR WORK, In the Song, SURVEILLANCE, COMING TO THE VIDEO, Iron Bird, AND A CLOSE LOOK AT THE STRANGE HUMANITY ON THE SURFACE, THE VIEWPOINT FROM ABOVE OF HIGHLY RECOGNIZABLE LOCATIONS, COLUMNS MEGA NFO FILE, FROM SATELLITE SURVEILLANCE TO DATAVEILLANCE ADDRESSED IN THE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0016722408,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.0100334445
+    },
+    "24_14": {
+        "ners_x": "BUT ALSO THE IMPRESSIVE, Disinformation Age, IN AN AGE WHEN, MALLEABLE VERSION OF THE MODERNIST, Kernel Peak, NFO, AND THE AMAZING ENERGY OF THE HD VIDEO, The Song, IF IN THE NAME OF KERNEL, IS A MONUMENT, Columns MEGA NFO FILE, WHAT IS IT A MONUMENT TO, SEEMS THE KEYWORD, Name of Kernel, OF THE KERNEL PEAK, UNMONUMENTAL, IRON AND CONCRETE SKYSCRAPERS, The, YOU SEEM INTERESTED IN A NEW KIND OF MONUMENTALITY, Columns NFO, FOR EXAMPLE, GO IN THE SAME DIRECTION, AND WHEN, Columns MEGA NFO File, Iron Bird, COLUMNS MEGA NFO FILE A MONUMENT, AN ARTIST LIKE MARK NAPIER IS USING SOFTWARE TO GENERATE A SOFT, YOU CALL YOUR, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032051282,
+        "locScore": 0,
+        "target": "2_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tilman Baumgärtel, Telepolis, 2007, Ways of Seeing, October 18 2008, Switzerland, Galerie, London, Zurich, Mai, Jodi, 1997, John Berger, September 12, British Broadcasting Corporation, Penguin Books, Olia Lialina, ",
+        "tokScore": 0.01923077
+    },
+    "24_16": {
+        "ners_x": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0
+    },
+    "19_11": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021929825,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.013157895
+    },
+    "19_10": {
+        "ners_x": "Romantic, Remediations, Renaissance, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017361111,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.010416667
+    },
+    "21_26": {
+        "ners_x": "Man, Narnia, His Plexiglas, Lotusman, 2007, Tsunami, Stern, Chinese, World of Warcraft, Chuck Norris, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0036075038,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.021645023
+    },
+    "16_17": {
+        "ners_x": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018115942,
+        "locScore": 0,
+        "target": "18_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.010869565
+    },
+    "21_27": {
+        "ners_x": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0
+    },
+    "21_22": {
+        "ners_x": "America, Army, Fort Paladin, 2003, Gothic Elven, Finally, Darkness Bind Them, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046296297,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.027777778
+    },
+    "21_23": {
+        "ners_x": "America, American Army, Army, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.022222223
+    },
+    "21_24": {
+        "ners_x": "United States, America, Army, Fort Paladin, American, Stern, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00456621,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.02739726
+    },
+    "21_25": {
+        "ners_x": "America, Army, Eddo Stern, Stern, World of Warcraft, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0045045046,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.027027028
+    },
+    "22_0": {
+        "ners_x": "Harvey, 2002, Samyn, Web Cinema, Giambattista Basile, Flash, Variously, Belgium, Italian, Net, Auriea Harvey, Tale of Tales, Michael Samyn, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005952381,
+        "locScore": 0,
+        "target": "4_1",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Grand Jubilee, Pope John Paul II, Father, Jesus, Holy Scriptures, ",
+        "tokScore": 0.035714287
+    },
+    "22_1": {
+        "ners_x": "2009, Sleeping Beauty, Little Red Riding Hood, Tale of Tales, January 2007, Path, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.024
+    },
+    "22_2": {
+        "ners_x": "HOW DID, TALE OF TALES, COME ABOUT, WHY DID AN ARTIST DUO FEEL THE NEED TO CREATE AN INDEPENDENT TEAM AND WORK TOGETHER ON A VIDEOGAME, Skinonskinonskin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003888889,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.023333333
+    },
+    "23_6": {
+        "ners_x": "The Matrix, Baudrillard, 1999, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0060506053,
+        "locScore": 0,
+        "target": "12_31",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Paul Slocum, August 2005, Edge of Art, Hard Disk, AltarBoy, Bantam Mass Market Edition, 0100101110101101, Fabio Paris, LABoral Centro, Bruce Sterling, Lev Manovich, Vuk Cosic, Arte, Charles Sandison, Karen A. Verschooren, Brussels, FPEditions, Régine Debatty, Eva, Argos Festival, Cf, Thames, Roman Minaev, Aristarkh Chernyshev, UBERMORGEN.COM, Hudson, Frie Depraetere, New York, Art Responsive, Jemima Rellie, Internet, Joan Leandre, Environment, Creación Industrial, June 30 , 2007, Spain, Inke Arns, Wolf Lieser, Dragan Espenschied, Y. Bernard, Gijon, Tamas Banovich, D. Quaranta, Charlie Gere, Spectra, Alexei Shulgin, London, Patrick Lichty, P., 1996, 1997, Magdalena Sawon, Steve Dietz, Franco Mattes, Joline Blais, TEXT, March 30, Anna Rosemary Carruthers, Italian, Feedback, Curating, Jon Ippolito, Holy Fire, Input, Digital Age, Michele Thursz, Vicente Matallana, Brescia, Anke Buxmann, Christiane Paul, Death of Computer Art, Art, Mark Tribe, Jacob Lillemose, Olia Lialina, 2001, ",
+        "tokScore": 0.036303632
+    },
+    "22_3": {
+        "ners_x": "CAN YOU TELL ME WHAT THE MAIN STAGES OF THE PROCESS ARE, WILL TAKE YEARS TO COMPLETE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033167496,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.019900497
+    },
+    "23_7": {
+        "ners_x": "Matrix, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0017006802,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.010204081
+    },
+    "22_4": {
+        "ners_x": "1995, Wiki, WHAT ROLE DOES IT PLAY, HOW MUCH IS THE INTERNET COMMUNITY INVOLVED IN THIS PROCESS, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014245015,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.008547009
+    },
+    "23_8": {
+        "ners_x": "Japanese, Actually, RealityPicture, Facebook, World of Warcraft, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002283105,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.01369863
+    },
+    "22_5": {
+        "ners_x": "Half Life, WHAT DO YOU THINK ABOUT THE INDIE GAME DESIGN SCENE, IN YOUR OPINION, DO YOU THINK IT WILL MANAGE TO CARVE OUT A NICHE FOR ITSELF ALONGSIDE THE BIG GAME CORPORATIONS, WHERE DOES ITS FUTURE LIE, Usually, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 8.6805556E-4,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.0052083335
+    },
+    "23_9": {
+        "ners_x": "LSD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003968254,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.023809524
+    },
+    "22_6": {
+        "ners_x": "DO YOU THINK THE VIDEOGAME INDUSTRY AND THE WAY WE THINK ABOUT VIDEOGAMES AS CULTURAL OBJECTS ARE CHANGING, Can, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022222223,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.013333334
+    },
+    "23_2": {
+        "ners_x": "Jean Baudrillard, TV, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035971224,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.021582734
+    },
+    "16_16": {
+        "ners_x": "Art, SymbioticA, Science, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043290043,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.025974026
+    },
+    "22_7": {
+        "ners_x": "TO USE A COMPARISON, Especially, DEVELOPING MORE FASCINATING AND ARTICULATED NARRATIVES, T AGREE, MORE OR LESS CONSCIOUS, OF THE IDEA THAT VIDEOGAMES ARE A, BUT THAT THEY ARE GROWING UP AND BECOMING ONE OF THE, Hollywood, AM A VICTIM, FORM OF CULTURE, WE ARE MOVING FROM THE LUMIÉRE BROTHERS, Bogart, OR, S INDIANS, LET'S PUT IT THIS WAY, THINK, GUESS YOU DON, TRAIN TO JOHN FORD, WELL, LOW, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026795284,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.01607717
+    },
+    "23_3": {
+        "ners_x": "Baudrillard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0041551245,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.024930747
+    },
+    "16_15": {
+        "ners_x": "SymbioticA, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0040064105,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.024038462
+    },
+    "22_8": {
+        "ners_x": "IS AN AMBITIOUS PROJECT THAT COMBINES A REFINED NARRATIVE WITH GAMING AND INTERACTION, IS IT ART THAT TRIES TO EMERGE THROUGH VIDEOGAMES OR A VIDEOGAME THAT TRIES TO RISE TO THE LEVEL OF ART, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.016129032
+    },
+    "23_4": {
+        "ners_x": "Desert, Benthamian, Baudrillard, RealSome, Virtual Reality, Slavoj, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.017857144
+    },
+    "16_14": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034246575,
+        "locScore": 0,
+        "target": "12_31",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Paul Slocum, August 2005, Edge of Art, Hard Disk, AltarBoy, Bantam Mass Market Edition, 0100101110101101, Fabio Paris, LABoral Centro, Bruce Sterling, Lev Manovich, Vuk Cosic, Arte, Charles Sandison, Karen A. Verschooren, Brussels, FPEditions, Régine Debatty, Eva, Argos Festival, Cf, Thames, Roman Minaev, Aristarkh Chernyshev, UBERMORGEN.COM, Hudson, Frie Depraetere, New York, Art Responsive, Jemima Rellie, Internet, Joan Leandre, Environment, Creación Industrial, June 30 , 2007, Spain, Inke Arns, Wolf Lieser, Dragan Espenschied, Y. Bernard, Gijon, Tamas Banovich, D. Quaranta, Charlie Gere, Spectra, Alexei Shulgin, London, Patrick Lichty, P., 1996, 1997, Magdalena Sawon, Steve Dietz, Franco Mattes, Joline Blais, TEXT, March 30, Anna Rosemary Carruthers, Italian, Feedback, Curating, Jon Ippolito, Holy Fire, Input, Digital Age, Michele Thursz, Vicente Matallana, Brescia, Anke Buxmann, Christiane Paul, Death of Computer Art, Art, Mark Tribe, Jacob Lillemose, Olia Lialina, 2001, ",
+        "tokScore": 0.020547945
+    },
+    "22_9": {
+        "ners_x": "IS A STRANGE GAME, NO LEVELS, NO SCORES, Islam, NARRATIVE INSPIRED BY SLEEPING BEAUTY FOLKTALES FROM AROUND THE WORLD, George Bush, IS THIS YOUR ANTI-IDEOLOGICAL AND AESTHETIC WAY OF REACTING TO THE AGGRESSIVE AND MILITARISTIC IDEOLOGY OF MAINSTREAM VIDEOGAMES, AN AUTONOMOUS CHARACTER WHO EVOLVES THROUGHOUT THE GAME IN RESPONSE TO THE BEHAVIOR OF THE PLAYER, Counter Strike, Iraq, NO COMPETITION, Belgium, REFINED DESIGN BASED ON ORIENTALIST PAINTING, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.015625
+    },
+    "23_5": {
+        "ners_x": "FOR THE SPECTACULAR EFFECT OF IT, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030864198,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.018518519
+    },
+    "16_13": {
+        "ners_x": "Human Biology, FOR AN ARTIST, Doc, TO WORK WITH A TEAM OF HIGHLY QUALIFIED SCIENTISTS, SymbioticA, WHAT DOES IT MEAN, Anatomy, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004166667,
+        "locScore": 0,
+        "target": "21_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Brody Condon, Peter Brinson, 2004, Eddo Stern, Waco Resurrection, Mark Allen, Jessica Hutchins, Michael Wilson, ",
+        "tokScore": 0.025
+    },
+    "16_12": {
+        "ners_x": "Australian, SymbioticA, Australia Council, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005167959,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.031007752
+    },
+    "16_11": {
+        "ners_x": "Oron Catts, April 2000, April 2001, Dr. Stuart Bunt, SymbioticA Research Group, Boston, Ionat, Adam Zaretsky, Art, Prof. Miranda D. Grounds, SymbioticA, SymbioticA.A, Biology, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034013605,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.020408163
+    },
+    "16_10": {
+        "ners_x": "SymbioticA, Perth, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0047281324,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.028368793
+    },
+    "23_0": {
+        "ners_x": "Western, Reality Construction, Can, Heinz Von Foerster, SimulationThe, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038461538,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.023076924
+    },
+    "23_1": {
+        "ners_x": "Vico, Western, Protagoras, 1973, Kant, Foerster, Reality, Constructing, Heinz, Jean Piaget, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011574074,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0069444445
+    },
+    "25_1": {
+        "ners_x": "2008, Time, Internet, Lev Grossman, Today Chatroulette, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024509805,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.014705882
+    },
+    "24_6": {
+        "ners_x": "G, C, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0013774104,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.008264462
+    },
+    "4_9": {
+        "ners_x": "Disney, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021645022,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.012987013
+    },
+    "25_0": {
+        "ners_x": "Andrej Ternovskij, Web, 1992, Cold War, Ternovskij, April 22 , 1992, Mac OS, Internet, Chatroulette, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018315018,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.010989011
+    },
+    "24_5": {
+        "ners_x": "Demoscene, AV, NFO, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021929825,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.013157895
+    },
+    "4_8": {
+        "ners_x": "0100101110101101, Initially, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019379845,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.011627907
+    },
+    "25_3": {
+        "ners_x": "Guy Fawkes, Anonymous, Project Chanology, Church of Scientology, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003236246,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.019417476
+    },
+    "24_8": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00390625,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.0234375
+    },
+    "4_7": {
+        "ners_x": "Appropriating, 1998, 1999, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004166667,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.025
+    },
+    "25_2": {
+        "ners_x": "Japanese, Google, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029498525,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.017699115
+    },
+    "24_7": {
+        "ners_x": "PUT TOGETHER THE PIECES AND BUILD HIS OR HER OWN NARRATIVE, MEAN, IS USUALLY JUST A WAY TO CONTROL THE USER, WOULD SAY THAT YOUR, USER UNFRIENDLY, APPARENTLY USELESS TUTORIAL, RIGHT, SINCE RETROYOURC, UNDERSTAND WHAT IS NOISE AND WHAT IS INFORMATION, THE USER MUST NAVIGATE A LOT, AND THE WAY HE OR SHE INTERFACES WITH THE WORK, FRAGMENTS OF NARRATIVE, APPROACH MUST BE UNDERSTOOD IN THIS CONTEXT, ALL YOUR WORK CAN BE ACCESSED UNDER A HUGE FRAME OF INFORMATION, AM, USER FRIENDSHIP, CODE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024390244,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.014634146
+    },
+    "4_6": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026178008,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.015706806
+    },
+    "4_5": {
+        "ners_x": "0100101110101101, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.017857144
+    },
+    "24_9": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004385965,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.02631579
+    },
+    "4_4": {
+        "ners_x": "September Jodi.org, Art.Teleportacia, 0100101110101101, Russian, June 1999, Surface, Rhizome, Hell.com, Olia Lialina, February 1999, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037313432,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.02238806
+    },
+    "4_3": {
+        "ners_x": "2002, American, Life_Sharing, 2003, Vopos, Capitoline, Luther Blissett, Balkan, Gauls, Italy, Darko Maver, Vatican, Franco Mattes, Bologna, Eva, Neue Slowenische Kunst, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003508772,
+        "locScore": 0,
+        "target": "28_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "AND ALEKSANDRA DOMANOVIC, GEORG SCHNITZER, WITH CHRISTOPH PRIGLINGER, YOU STARTED VVORK IN, Google, IS A COMMON BACKGROUND STILL SO IMPORTANT IN THE INTERNET AGE, THE UNIVERSITY OF APPLIED ARTS IN VIENNA, YOU ALL ATTENDED THE SAME SCHOOL, ",
+        "tokScore": 0.021052632
+    },
+    "4_2": {
+        "ners_x": "0100101110101101, 1999, 2000, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044247787,
+        "locScore": 0,
+        "target": "6_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jack Burnham, Nicholas Negroponte, Theodor H. Nelson, Les Levine, New York, Hans Haacke, Jewish Museum, John Baldessari, Architecture Machine Group, American, Vito Acconci, Joseph Kosuth, ",
+        "tokScore": 0.026548672
+    },
+    "25_9": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0051020407,
+        "locScore": 0,
+        "target": "18_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HMKV, Dortmund, Phoenix Halle, ",
+        "tokScore": 0.030612245
+    },
+    "4_1": {
+        "ners_x": "Grand Jubilee, Pope John Paul II, Father, Jesus, Holy Scriptures, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0021097048,
+        "locScore": 0,
+        "target": "20_11",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Arcangel, Super Mario Clouds, Super Mario Bros, 2002, ",
+        "tokScore": 0.012658228
+    },
+    "25_8": {
+        "ners_x": "Internet, Abbie Hoffmann, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042462847,
+        "locScore": 0,
+        "target": "7_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "April 27 , 2004, F, 0100101110101101, April 2006, Valentina Tanni, Eva Mattes, Bruce Sterling, MESH, Emma McRae, Maria Rizzo, Modern Painters, September 2006, Anna Rosemary Carruthers, Flash Art, Italian, Australia, Nike Ground, ORG, Regional Perspectives, Power of Fake, UBERMORGEN.COM, American, 1969, Easy Rider, Exibart, Ironically, Domenico Quaranta, PROTOCOL.htm., Peter Fonda, Exploring Net.art, Definition, ",
+        "tokScore": 0.025477707
+    },
+    "4_0": {
+        "ners_x": "2009, 0100101110101101, Franco Mattes, Eva, Italian, ORG, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0022522523,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.013513514
+    },
+    "24_0": {
+        "ners_x": "Joan Leandre, G, 2002, RC, 2003, Leandre, 1999, 2001, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026666669,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.016
+    },
+    "25_5": {
+        "ners_x": "Bruce Sterling, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0044444446,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.026666667
+    },
+    "24_2": {
+        "ners_x": "Abu Ali, FIRST-PERSON SHOOTER, Brody Condon, FPS, WHY, Velvet Strike, YOU MAINTAIN AN INTEREST IN THE INTERSECTION BETWEEN MILITARY RESEARCH AND ENTERTAINMENT, YOU SPENT TEN YEARS HACKING A FLIGHT SIMULATOR, Babylon Archives, SO WHY NOT CHOOSE AN FPS, LIKE MANY OTHER ARTISTS, Anne Marie Schleiner, AS EVIDENCED BY THE BABYLON ARCHIVES CYCLE, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0018832391,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.011299435
+    },
+    "25_4": {
+        "ners_x": "2003, Christopher Poole, Internet, Grossman, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002008032,
+        "locScore": 0,
+        "target": "18_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Re-enactments, ",
+        "tokScore": 0.012048192
+    },
+    "24_1": {
+        "ners_x": "Dr. Strangelove, 2006, Leandre, Name of Kernel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003030303,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.018181818
+    },
+    "25_7": {
+        "ners_x": "Urs Gasser, 2008, John Palfrey, Monoskop, 2005, Web, Born, Dormouse Said, John Markoff, Sixties Counterculture Shaped the Personal Computer Industry, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001633987,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.009803922
+    },
+    "24_4": {
+        "ners_x": "IMAGERY AND TEXT-ONLY DOCUMENTS, RETROYOU NOSTAL, WHAT'S THE CONCEPT BEHIND RETROYOU NOSTAL, G, IN THE NAME OF KERNEL SEEMS TO GROW AT THE INTERSECTION BETWEEN TWO PREVIOUS PROJECTS, 2004, HYPER REALISTIC, 2002, 2003, AND RETROYOU NOSTALG, PUTTING TOGETHER IMPRESSIVE VISUAL OUTPUT AND HARD CODE WRITING, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034246575,
+        "locScore": 0,
+        "target": "21_19",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Dark Game, 2006, Tekken Torture Tournament, Cockfight Arena, 1999, 2001, 2000, ",
+        "tokScore": 0.020547945
+    },
+    "25_6": {
+        "ners_x": "Andrej Ternovskij, Californian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043572984,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.026143791
+    },
+    "24_3": {
+        "ners_x": "Iron Bird, In the Name of Kernel, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031446542,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.018867925
+    },
+    "28_3": {
+        "ners_x": "YOU REVEAL LITTLE ABOUT YOURSELF THROUGH YOUR WORK AND YOUR WEBSITE, Dani Admiss, 2006, IN A WAY, ON THE ONE HAND, ON THE OTHER HAND, The Weather Fifteen Years Ago, THERE IS AN INTERESTING BALANCE BETWEEN TRANSPARENCE AND OPACITY, S STATEMENTS, YouTube, WHAT DO YOU THINK, Momus, HOWEVER, Guthrie Lonergan, Wolf Haas, IN YOUR WORK, VERSIONS IS PROBABLY ONE OF THE MOST STRAIGHTFORWARD ARTIST, HAVE EVER SEEN, IT IS EVEN TOO MUCH, SINCE IT LEAVES LITTLE SPACE FOR INTERPRETATION, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0029761905,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.017857144
+    },
+    "28_4": {
+        "ners_x": "HOW DO YOU DEFINE YOURSELF, BUT, YOU OFTEN ACT NOT ONLY AS AN ARTIST BUT ALSO AS AN ART CRITIC AND CURATOR, AM STILL QUITE CURIOUS ABOUT HOW YOU DEAL WITH IT, MANY ARTISTS WORK IN THE SAME WAY TODAY, VVORK, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004901961,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.029411765
+    },
+    "28_1": {
+        "ners_x": "Oliver Laric, JPG, 2006, Berlin, VVORK, Austrian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004830918,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.028985508
+    },
+    "28_2": {
+        "ners_x": "October, AM ASKED TO GIVE A CV, AND NOW, more.ACCORDING TO MY GOOGLE SEARCHES, YOU WERE BORN IN LEIPZIG AND INNSBRUCK, RECENTLY, VVORK, Frieze Art Fair, USUALLY GIVE FAKE CVS WHEN, AND YOU HAVE SAID, YOU ARE BLACK AND CAUCASIAN, Laric, STARTED GIVING REAL ONES, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028248588,
+        "locScore": 0,
+        "target": "25_4",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2003, Christopher Poole, Internet, Grossman, ",
+        "tokScore": 0.016949153
+    },
+    "28_7": {
+        "ners_x": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0012919897,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.007751938
+    },
+    "28_8": {
+        "ners_x": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "5_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Casey Reas, Ars Electronica, 2003, MicroImage, ",
+        "tokScore": 0
+    },
+    "28_5": {
+        "ners_x": "IS THE ARTIST AS CREATOR A THING OF THE PAST, S JUST ABOUT FINDING IT, DON, Jorge Luis Borges, T SEE ANY NECESSITY IN PRODUCING IMAGES MYSELF, Using, YOU HAVE SAID, EVERYTHING THAT, WOULD NEED EXISTS, Quixote, IT, Pierre Menard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014492753,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.008695652
+    },
+    "28_6": {
+        "ners_x": "FOR YOU AND MANY ARTISTS OF YOUR GENERATION, GOOGLE, FOUND MATERIAL, DEFINITELY CHANGING, USING, Reuters, Flickr, Mannheim, HIGH CULTURE AND POPULAR CULTURE, WAREHOUSE, 4CHAN, YOU CAN FIND IN PLACES SUCH AS YOUTUBE, CV.As VVORK, FLICKR, FOR LACK OF A BETTER TERM, Photo Biennale, MEANS USING THE KIND OF VERNACULAR MATERIAL, IS THE RELATIONSHIP BETWEEN ART AND NON-ART, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0035971224,
+        "locScore": 0,
+        "target": "4_12",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "1998, Vaticano.org, Darko Maver, ",
+        "tokScore": 0.021582734
+    },
+    "29_6": {
+        "ners_x": "Net Art, Netizens, Neen, Post Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0043402775,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.026041666
+    },
+    "29_7": {
+        "ners_x": "PioneersThe, Seventieth Century, West, Mormon, Net, Cory Doctorow, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004201681,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.025210084
+    },
+    "29_4": {
+        "ners_x": "Net Art, 1996, Net ArtThis, Neen, Post Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.006006006,
+        "locScore": 0,
+        "target": "10_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "SL, Second Life, RL, ",
+        "tokScore": 0.036036037
+    },
+    "29_5": {
+        "ners_x": "Manetas, Netizens, Miltos Manetas, Neen, Finally, Post Internet, 2000, Neenstar, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014749262,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.0088495575
+    },
+    "29_2": {
+        "ners_x": "Net Art, Video Art, American Art, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0019379845,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.011627907
+    },
+    "29_3": {
+        "ners_x": "Net Art, Dada, Net, Fluxus, Video Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014619883,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.00877193
+    },
+    "28_0": {
+        "ners_x": "Oliver Laric, Western, PDF, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038461538,
+        "locScore": 0,
+        "target": "3_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Jodi, Olia Lialina, ",
+        "tokScore": 0.023076924
+    },
+    "29_0": {
+        "ners_x": "Jodi.org, 1995, No, Merzbau, World Wide Web, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037313432,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.02238806
+    },
+    "29_1": {
+        "ners_x": "Net Art, Dirk Paesmans, Land Art, Joan Heemskerk, Performance Art, Twentieth Century, Video Art, Dutch-Belgian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004098361,
+        "locScore": 0,
+        "target": "7_9",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "F, Foriginals, ",
+        "tokScore": 0.024590164
+    },
+    "27_7": {
+        "ners_x": "Milan, Petra Cortright, Gloria Maria Gallery, It Takes Strength, Be Gentle, April 2010, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.015625
+    },
+    "27_6": {
+        "ners_x": "New York, Flickr, Petra Cortright, Petra, Facebook, Google, Twitter, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015290519,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.0091743115
+    },
+    "27_5": {
+        "ners_x": "2010, The Infinite Sculpture Garden, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0038095238,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.022857143
+    },
+    "26_2": {
+        "ners_x": "No, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0024509805,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.014705882
+    },
+    "27_4": {
+        "ners_x": "Petra, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.00390625,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.0234375
+    },
+    "26_1": {
+        "ners_x": "0100101110101101, Web, Web Art, OriginalOn July, European, 1999, New York Times, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004950495,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.02970297
+    },
+    "27_3": {
+        "ners_x": "Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002849003,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.017094018
+    },
+    "26_0": {
+        "ners_x": "Groys, Phoenix, Playing, Benjamin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033670033,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.02020202
+    },
+    "27_2": {
+        "ners_x": "II, 2009, Bunny Banana, Kraftwerk, Modell, Petra, Footvball, 2010, Das Hell, Sparkling, Holy Tears, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0042194095,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.025316456
+    },
+    "27_1": {
+        "ners_x": "2009, You Walk Through the Storm, Slowly, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0061162077,
+        "locScore": 0,
+        "target": "21_13",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Hutchins, Stern, ",
+        "tokScore": 0.036697246
+    },
+    "26_6": {
+        "ners_x": "Accordingly, Invisible, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003720238,
+        "locScore": 0,
+        "target": "6_34",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Every Icon Statement, March 23 , 2003, Casey Reas, March 2006, Jewish Museum, 2005, Whitney Museum, Vuk Cosic, Read_me, Nettime, Edward A. Shanken, 5 , January 1969, Arte, Sol LeWitt, Issue, Read_Me, Information Processing, Conceptual Art, Florian Cramer, Mobility Agents, Parachute, December 2005, Italian, June 30 , 1997, Metaphor, House That Jack Built, May 2002, Jack Burnham, Hz Journal, Ivi, Printed Matter, Computational Sketchbook, Tilman Baumgaertel, Leonardo, Inc, 10 , November 1998, Critica, June 2004, English, John F. Simon Jr., AAVV, Art, Information Technology, New York, Jacob Lillemose, Jury Statement, January 9 , 2007, January 1997, Its New Meaning, Re-declaration of Dependence, ",
+        "tokScore": 0.02232143
+    },
+    "27_0": {
+        "ners_x": "Ed Halter, Petra Cortright, Cortright, Photoshop, Youtube, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003816794,
+        "locScore": 0,
+        "target": "25_4",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2003, Christopher Poole, Internet, Grossman, ",
+        "tokScore": 0.022900764
+    },
+    "26_5": {
+        "ners_x": "Art, Groys, Image, Age of Digitalization, Invisible OriginalYet, Boris Groys, Image File, Back, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005,
+        "locScore": 0,
+        "target": "11_14",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Rhizome.org, Leap Into the Void, March 1 , 2007, ",
+        "tokScore": 0.03
+    },
+    "26_4": {
+        "ners_x": "DVD, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0041254126,
+        "locScore": 0,
+        "target": "25_22",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Warsaw, May 2010, Dormouse Said, Christopher Poole, Basic Books, What Relational Aesthetics Can Learn From, July 9 , 2008, 18 , August 2010, 2010, Centrum Sztuki Współczesnej Zamek Ujazdowski, Urs Gasser, Tor Books, 0,8599,1821435,00, March 19 , 2010, Born, Brad Troemel, Domenico Quaranta, New York, Julia Joffe, Paris, John Markoff, Cory Doctorow, Nick Bilton, Lev Grossman, John Palfrey, Artpulse Magazine, M, Cfr, The New York Times, London, Hans Ulrich Obrist, Magdalena Sawon, Time, Not What It Used, Hurricane List of Futures, Sixties Counterculture Shaped the Personal Computer Industry, URL, One, Art Fag City, Future, Roulette Russa, Media Go Beyond Simulation, Master Of Memes, Be, 3 , March, Penguin Books, Wired Italia, September 9 , 2010, Little Brother, ",
+        "tokScore": 0.024752475
+    },
+    "26_3": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0055096415,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.03305785
+    },
+    "26_9": {
+        "ners_x": "Groys, Benjamin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0011574074,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.0069444445
+    },
+    "26_8": {
+        "ners_x": "Walter Benjamin, Topological AuraGroys, Benjamin, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0015873016,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0.00952381
+    },
+    "26_7": {
+        "ners_x": "Invisible, Groys, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002283105,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.01369863
+    },
+    "6_15": {
+        "ners_x": "LeWitt, Art, Lawrence Wiener, Lucy Lippard, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.002688172,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.016129032
+    },
+    "6_14": {
+        "ners_x": "LeWitt, Artport, 2004, Wall Drawings, Whitney Museum, Reas, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.001618123,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.009708738
+    },
+    "6_17": {
+        "ners_x": "LeWitt, Hanne Darboven, Sandra Gering Art Gallery of New York, 1998, Software Art, 2005, John F. Simon, Splotches, Jr. Furthermore, Sol LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031152647,
+        "locScore": 0,
+        "target": "24_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Joan Leandre, May 21 , 2008, Map, Rhizome, Reach the Impossible, ",
+        "tokScore": 0.018691588
+    },
+    "6_16": {
+        "ners_x": "Art, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0031446542,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.018867925
+    },
+    "6_11": {
+        "ners_x": "",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004796163,
+        "locScore": 0,
+        "target": "7_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "April 27 , 2004, F, 0100101110101101, April 2006, Valentina Tanni, Eva Mattes, Bruce Sterling, MESH, Emma McRae, Maria Rizzo, Modern Painters, September 2006, Anna Rosemary Carruthers, Flash Art, Italian, Australia, Nike Ground, ORG, Regional Perspectives, Power of Fake, UBERMORGEN.COM, American, 1969, Easy Rider, Exibart, Ironically, Domenico Quaranta, PROTOCOL.htm., Peter Fonda, Exploring Net.art, Definition, ",
+        "tokScore": 0.02877698
+    },
+    "6_10": {
+        "ners_x": "Information, Software, January 1969, New York, Museum of Modern Art, Kynaston McShine, Conceptual Art, Software Art.A, Burnham, Sol LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0030581038,
+        "locScore": 0,
+        "target": "14_6",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "HOW MUCH OF THE CURATOR JON IPPOLITO CAN WE FIND IN THE UNRELIABLE ARCHIVIST, The Unreliable Archivist, Hopefully, ",
+        "tokScore": 0.018348623
+    },
+    "6_13": {
+        "ners_x": "LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0028011205,
+        "locScore": 0,
+        "target": "11_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Second Front, Great Escape, Moscow, Rhizome, Chicago, Doug Jarvis, Italy, London, Lizsolo Mathilde, Patrick Lichty, San Francisco, Scott Kildall, Gazira Babeli, Brussels, February 2007, Tran Spire, Liz, Victoria, Bibbe Hansen, Berlin, Fau Ferdinand, Angeles, Bibbe Oh, America, Art, New York, ArtForum, Vancouver, Yael Gilks, Man Michinaga, St, ",
+        "tokScore": 0.016806724
+    },
+    "6_12": {
+        "ners_x": "Casey Reas, American, June 2004, LeWitt 's Wall Drawings, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033500837,
+        "locScore": 0,
+        "target": "15_23",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, 2007, Artmix, Feltrinelli, Language of New Media, All the Wrong Places, Lev Manovich, Noah Wardrip-Fruin, A. Broeckmann, Amsterdam, Andreas Broeckmann, FMR Bianca, FPEditions, Régine Debatty, Cf, Cambridge, Franco Maria Ricci, Media Art Net, December 2008, Milan, It Exists After All, Oliver Grau, Originally, Mass, Unpublished, Dieter Daniels, Deep Screen, Y. Bernard, D. Quaranta, 1996, Stedelijk Museum, Brody Condon, Looking, Introduction, Joline Blais, Bologna, TEXT, Digital Culture, Italian, Sylvia Adrian Notini, Jon Ippolito, Holy Fire, Digital Age, Yves Bernard, Nick Monfort, Brescia, Inke Arms, MIT Press, Death of Computer Art, Art, New Media Reader, Media Art Histories, 2001, ",
+        "tokScore": 0.020100502
+    },
+    "29_9": {
+        "ners_x": "Venice Biennale, Net Art, 0100101110101101, Tank System, NeenOf, Net, 2001, Internet, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037313432,
+        "locScore": 0,
+        "target": "14_10",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "BUT PROVED TO WORK WELL WITH OLDER MEDIA AND MORE TRADITIONAL PRACTICES, CAN WE SAY THAT NET ART CAN HAVE AN INVALUABLE ROLE IN UPDATING THE MUSEUM ENGINE, IN THIS SENSE, Absolutely, THE VMI STARTED AS AN ATTEMPT TO PRESERVE NET ART AND DIGITAL MEDIA, ",
+        "tokScore": 0.02238806
+    },
+    "29_8": {
+        "ners_x": "Ubermorgen.com, 0100101110101101, American, Austrian, Teleportacia.org, No, Hell.com. Making, 1996, Holy See, 1997, Cornelia Sollfrank, 1998, Irational.org, Italian, 1999, German, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0033112585,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.01986755
+    },
+    "6_18": {
+        "ners_x": "Splotches, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003236246,
+        "locScore": 0,
+        "target": "3_18",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "22 March, 18 March 1997, Net.art, Skrevet, Per Platou, 2003, Stone, Vuk Cosic, Origin, Nettime, Velvet Pillow, Alexei Shulgin, Museet, 25 May 2003, Dot, Net.art Nostalgia, Josephine Bosma, 29 September 1997, Vuk Cosic Interview, One Artist One Art System, Oslo, 1999, Samtidskunst, ",
+        "tokScore": 0.019417476
+    },
+    "17_11": {
+        "ners_x": "Hopper, Grow Finish Unit, Kansas, Richfield, American, 2038, Oil Stick Work, Sheeler, Sentry, Angelo Martinez, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037037039,
+        "locScore": 0,
+        "target": "3_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Unfortunately, CONNESSIONI LEGGENDARIE, Milan, 0100101110101101, Luca Lampo, 2005, Italian, Marco Deseriis, ",
+        "tokScore": 0.022222223
+    },
+    "6_19": {
+        "ners_x": "January 2003, Software Art, Moscow, Festival, Read_me Festival, IIIn May, Runme.org, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.005192108,
+        "locScore": 0,
+        "target": "24_15",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "CAN YOU TALK ABOUT THAT, WHICH IS CENTERED AROUND THE SIGHTING OF LIGHT GLOBE UFOS DURING A FLIGHT MISSION, In Song, AND WHAT WE COULD CALL THE POLITICS OF VISION, TWO PATHS SEEM TO CROSS THE MAIN NARRATIVE, Prefect Fatal Error, FROM DISNEYLAND TO CHERNOBYL, THIS INTRODUCES ANOTHER ISSUE THAT SEEMS QUITE RELEVANT FOR YOUR WORK, In the Song, SURVEILLANCE, COMING TO THE VIDEO, Iron Bird, AND A CLOSE LOOK AT THE STRANGE HUMANITY ON THE SURFACE, THE VIEWPOINT FROM ABOVE OF HIGHLY RECOGNIZABLE LOCATIONS, COLUMNS MEGA NFO FILE, FROM SATELLITE SURVEILLANCE TO DATAVEILLANCE ADDRESSED IN THE, ",
+        "tokScore": 0.031152649
+    },
+    "17_10": {
+        "ners_x": "2008, Grow Finish Unit, Kansas, John Gerrard, Gerrard, American, Kit Carson, Colorado, Sentry, Elkhart, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003003003,
+        "locScore": 0,
+        "target": "28_7",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "TO CREATE A SPACE FOR SOMETHING THAT IS INTERESTING AGAIN, HOW CAN YOU RECONCILE THIS APPROACH WITH THE RULES STILL FOLLOWED IN THE ART WORLD, YOU HAVE SAID, THINK IT IS NECESSARY TO IGNORE AUTHORSHIP, ",
+        "tokScore": 0.018018018
+    },
+    "17_13": {
+        "ners_x": "Museum of Applied Arts Frankfurt, 2009, Roberta Smith, 2007, February 19 , 2009, 2002, England, Cfr, Jaromil, May 23, London, Artecontexto, Netochka_Nezvanova, Presenting, 2 , 2009, Massachusetts, Preserving New Media, Cambridge, Spanish, Oliver Grau, Myth of Immateriality, Cfr.www.mee.tcd.ie, MIT Press, New York Times, Christiane Paul, John Gerrard, Digitalcraft.org, Media Art Histories, June 23 2002, .0100101110101101., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0014005603,
+        "locScore": 0,
+        "target": "5_5",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "",
+        "tokScore": 0.008403362
+    },
+    "17_12": {
+        "ners_x": "1997, Intangible, Gerrard, Every Icon, American, Simon, Babeli, John F. Simon Jr., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0046948357,
+        "locScore": 0,
+        "target": "21_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Eddo Stern, January 24, Ilana Tenenbaum, Animated Machines, Machine Animation, Haifa Museum of Art, Flamewar, June 20 , 2009, ",
+        "tokScore": 0.028169014
+    },
+    "6_20": {
+        "ners_x": "Software Art, Danish, Jacob Lillemose, Conceptual Art, Florian Cramer, 2003, Software Culturalism, Read_me, Lillemose, Software Formalism, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004310345,
+        "locScore": 0,
+        "target": "16_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Noemalab, 2005, Innovation, Italian, Biotech, Cluster, 4 , 2004, ",
+        "tokScore": 0.02586207
+    },
+    "6_28": {
+        "ners_x": "Vote-Auction, UBERMORGEN.COM, Viennese Actionism, American, Media Aktionism, CNN, Vienna, Swiss, Burden of Proof, 2000, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0037593984,
+        "locScore": 0,
+        "target": "10_27",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Perky Pat, ",
+        "tokScore": 0.02255639
+    },
+    "6_27": {
+        "ners_x": "Software Art, UBERMORGEN.COM, Austrian, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0023474179,
+        "locScore": 0,
+        "target": "15_0",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Gazira Babeli, Régine Debatty, Don, ",
+        "tokScore": 0.014084507
+    },
+    "6_26": {
+        "ners_x": "Dan Graham, Bruce Nauman, Hans Haacke, Matthew Fuller, Victor Burgin, Peter Weibel, Cramer, Art, Chris Burden, Software Art, Contextual Art, 1993, Gordon Matta-Clark, Conceptual Art, Vito Acconci, Software Culturalism, Lillemose, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0026041667,
+        "locScore": 0,
+        "target": "29_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Tempestad, Spanish, Mexican, June 2010, May, ",
+        "tokScore": 0.015625
+    },
+    "6_25": {
+        "ners_x": "Every Icon, Conceptualism, Simon, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0,
+        "locScore": 0,
+        "target": "18_85",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "New Media, Milan, Late, Easy Pieces, Century Art, Charta, London, AAVV, Marina Abramović, Michael Rush, Hudson Ltd, 1999, Thames, ",
+        "tokScore": 0
+    },
+    "6_24": {
+        "ners_x": "2005, Computational Sketchbook, Simon, CD-rom, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.003937008,
+        "locScore": 0,
+        "target": "11_2",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Great Escape, Second Front, Alise Iborg, Wirxli Flimflam, Doug Jarvis, Tanya Skuce, Lizsolo Mathilde, Patrick Lichty, Scott Kildall, Gazira Babeli, November 23 , 2006, Tea Chenille, Jeremy Owen Turner, Man Michinaga, Penny Leong Browne, Tran Spire, Liz Pickard, ",
+        "tokScore": 0.023622047
+    },
+    "6_23": {
+        "ners_x": "Minimalism, Software Art, Piet Mondrian, Whitney Museum of New York, Printed Matter, Mobility Agents, Simon, Inc, Paul Klee, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0034965035,
+        "locScore": 0,
+        "target": "28_16",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "Ancient Copies, IN OCTOBER, THE SHOWS SECTION OF FRIEZE ART FAIR, FRAME, Reformation, WHAT ARE YOU GOING TO SHOW THERE, YOU WILL TAKE PART IN, ",
+        "tokScore": 0.02097902
+    },
+    "6_22": {
+        "ners_x": "1997, Software Art, Every Icon, Grid, Roman Opalka, Rather, American, Simon, Java Applet, LCD, John F. Simon Jr., ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0032258064,
+        "locScore": 0,
+        "target": "28_8",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "PDF, FOR YOU, WHAT IS VERSIONS, ART OR THEORY, ",
+        "tokScore": 0.019354839
+    },
+    "6_21": {
+        "ners_x": "LeWitt, Conceptual Art, Joseph Kosuth, John Cage, Monte Young, Sol LeWitt, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.004950495,
+        "locScore": 0,
+        "target": "3_17",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "NET.ART, Domenico Quaranta, Anna Carruthers, 20 October, CONNESSIONI LEGGENDARIE, Milan, Luca Lampo, 2005, 10 November 2005, Mediateca Santa Teresa, Marco Deseriis, Ready-Made, ",
+        "tokScore": 0.02970297
+    },
+    "6_29": {
+        "ners_x": "UBERMORGEN.COM, Web, American, 2003, Switzerland, Injunction Generator, ",
+        "perScore": 0,
+        "unkScore": 0,
+        "simScore": 0.0057777776,
+        "locScore": 0,
+        "target": "19_26",
+        "nerScore": 0,
+        "dateScore": 0,
+        "ners_target": "2008, Dortmund, 2006, 2007, L'oading, 2002, Tampa, Simulated Realities, Grethe Mitchell, Antoinette LaFarge, Computergames, A. Clarke, Erich Berger, Hans D. Christ, Fan_art, Media Art, Warhol, Understanding New Media, Cf, Intellect Books, Game Plug-ins, Cambridge, Don Fuller, Levi, Milan, Leonard Pearlstein Gallery, Post-Modern Art, Madrid, UK, Marcin Ramocki, GameScapes, University of California, Videogame Structure, Patches, Rosanna Pavoni, Irvine, Andreas Lange, Anne-Marie Schleiner, Richard Grusin, Valentina Tanni, GameWorld, London, 1996, 1997, Kornhausforum Bern, Luca Traini, Mitchell, 1999, Legitimate Art Form, Age of Videogames, Bristol, Concept_art, Johan, Robert Nideffer, Arte Contemporanea, Philadelphia, Viking Press, Tilman Baumgaertel, Networking Power, Turin, BITMAP, Raggedy Andy, USA, Art, Juan Antonio Alvarez Reyes, Edith Russ Site, Homo Ludens Ludens, Videogames, 2001, Iris Dressler, 2000, M. Bittanti, Will Computer Games Ever Be, Andy Clarke, Communication Museum Frankfurt, Shift Control, Arte, Wikipedia, Games Convention, Massachusetts, Clarke, Laurie Taylor, University of South Florida Contemporary Art Museum, Carl Goodman, Andy Warhol, Debora Ferrari, PlayWare, Laing Art Gallery, Scene, MASS MoCA, Art of Games, Gijón, New York, Laura Baigorri, Pong Mithos, Daphne Dragona, Creación Industrial, Art Interaction Technology, Beryl Graham, CrackingtheMaze, GameScenes, Piemonte Share Festival, Chicago, Ernest W. Adams, D. Quaranta, Newcastle, Hartware MedienKunstverein, TraRari TIPI, Try Again, Oldenburg, Laboral Centro, AA.VV., Leipzig, Concept Art, Serious Games, Calvin Tomkins, Vertexlist, Game Show, Barbican Art Gallery, Monza, MIT Press, Cracking the Maze, Siracusa, Jay David Bolter, Galleria Civica, Remediation, Hacker Art, Nuove, G. Mitchell, Aosta, Casa Encendida, MASS, ",
+        "tokScore": 0.034666665
+    }
+}
