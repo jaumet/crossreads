@@ -255,12 +255,33 @@
     var sim = _.keys(sim1)
     // Link quality:
     var linkQuality =  sim1[myIndex];
-    console.log("linkQuality['target']: "+linkQuality['target']);
-    var target = linkQuality["target"];
+//    if (linkQuality["target"].split(', ').length > 1)  {
+//      var target = linkQuality["target"].split(", ")[_.random(linkQuality["target"].split(", ").length-1)];
+//    } else {
+      var target = linkQuality["target"];
+//    }
+    // Kind of Entity:
+    //var Epersons = linkQuality["perScore"];
+    //var Edate = linkQuality["dateScore"];
+    //var Elocation = linkQuality["locScore"];
+    //var Eunknown = linkQuality["unkScore"];
+    var myEntities = "";
+    //if( Epersons > 0) {myEntities += '<img src="images/glyphicons_043_group.png" alt="persons" />';}
+    //if( Edate > 0) {myEntities += '<img src="images/glyphicons_054_clock.png" alt="persons" />';}
+    //if( Elocation > 0) {myEntities += '<img src="images/glyphicons_242_google_maps.png" alt="persons" />';}
+    //if( Eunknown > 0) {myEntities += '<img styleX="background-color:#ffffff;" src="images/glyphicons_194_circle_question_mark.png" alt="persons" />';}
+//console.log("MYINDEX: "+myIndex+" | TARGET = "+target);  
+    myEntities += linkQuality["match"];
     // JAUME
-    $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> <span></span></a>');
+//    if (target.length>0) {
+      //$("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> '+target+'<br />'+myEntities+'<span></span></a>');
+      $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> <span></span></a>');
+//    } else {
+//      $("#bottomright div").html('<i>No similar text</i>');
+//     }
     // Left random segment:
     var leftIndex = sim[_.random(sim.length-1)];
+console.log("LEFT INDEX: "+leftIndex);
     $("#bottomleft div").html('<a href="#" id="'+leftIndex+'" class="arrow"><i>Random text</i><img src="images/dice.png" /></a><span></span>');
 
     // Right and left title boxes
@@ -346,6 +367,7 @@
 
     // Show whole-text
     $("#myleftcolumn").promise().done(function(){
+      
       $("html").on('click', function(e) {
         if (e.target.id == 'close' || (e.target.id != 'showAllText' && e.target.id != '')) {
           $("#allTextWrapper").removeClass("allTextWrapper");
@@ -360,33 +382,38 @@
           $("#allTextWrapper").html('');
         }
       });
+      
     });
 
     // top & bottom arrows checking
     $("#mystore").promise().done(function(){
-      $.getJSON("./data/texts/"+tid+".json", function(json) {
-        var mylen = json.length;
-        if (parseInt(pid) == 0 )  {
-          mypidTop = parseInt(mylen) - 1;
-        } else {
-          mypidTop = parseInt(pid)-1;
-        }
-        myidTop = tid+"_"+mypidTop;
-
-        if ((parseInt(pid) + 1) >= parseInt(mylen))  {
-          mypidBottom = "0";
-        } else {
-          mypidBottom = parseInt(pid) + 1;
-        }
-        var myidBottom = tid+"_"+mypidBottom;
-console.log("myidBottom:"+myidBottom+" | myidTop: "+myidTop);
-        var myArrowsHelp = eval('lang_'+LANGUAGE);
-        $("#myrightcolumn p").first().html('<span id="myarrows">'+myArrowsHelp["myarrows"]+'</span></p><p><a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.svg" /></a><a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.svg" /></a>');
-        
-        $("a.node, a.arrowt, a.arrowb").on('click', function() {
-          myTrick(this.id);
-          return false;
+      var json = $.get('./data/texts/'+tid+'.json');
+      myidLength = tid+"_"+json.length;
+      $("#mystore").html(myidLength);
+      if (parseInt(pid) == 0)  {
+        c = 0;
+        $.getJSON( "data/texts/"+tid+".json", function( data ) {
+          $.each( data, function( key, val ) {
+            c = c + 1;
+          });
         });
+        mypidTop = myidLength;
+      } else {
+        mypidTop = parseInt(pid)-1;
+      }
+      myidTop = tid+"_"+mypidTop;
+/////////////////////////////////////
+      if ((parseInt(pid) + 1) == parseInt($("#mystore").text()))  {
+        mypidBottom = "0";
+      } else {
+        mypidBottom = parseInt(pid) + 1;
+      }
+      var myidBottom = tid+"_"+mypidBottom;
+      var myArrowsHelp = eval('lang_'+LANGUAGE);
+      $("#myrightcolumn p").first().html('<span id="myarrows">'+myArrowsHelp["myarrows"]+'</span></p><p><a href="#" id="'+myidTop+'" class="arrowt"><img src="images/w_top_arrow.svg" /></a><a href="#" id="'+myidBottom+'" class="arrowb"><img src="images/w_bottom_arrow.svg" /></a>');
+      $("a.node, a.arrowt, a.arrowb").on('click', function() {
+        myTrick(this.id);
+        return false;
       });
     });
 
