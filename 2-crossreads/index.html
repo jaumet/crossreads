@@ -174,16 +174,16 @@
   </div>
   <footer>
      <p><a href="." target="_macba"><img src="images/icon.png" width="40px" /></a>&nbsp;&nbsp;&nbsp;Crossreads is published under free licenses:  Software [<a href="http://www.gnu.org/copyleft/gpl.html" target="gpl">GPL</a>] & Texts [<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca" target="creative_commons">CC-BY-NC-ND</a>]. Canberra (AU), 2014.
-     <span id="mytweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="." data-text="Crossreads: a tool for non-linear reading" data-via="jaumetet" data-count="none" data-hashtags="tsio2014">Tweet</a></span>
+     <span id="mytweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="." data-text="Crossreads: a tool for non-linear reading http://research.nualart.cat/crossreads/II/" data-via="jaumetet" data-count="none" data-hashtags="tsio2014">Tweet</a></span>
      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
   </footer>
  </div> <!--wrapper div close-->
   
-  <!-- starts core JavaScript libs -->
+  <!-- start JavaScript libs -->
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/underscore-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
-  <!-- ends JavaScript libs -->
+  <!-- end JavaScript libs -->
 
   <script>
     // Comment or uncomment
@@ -213,6 +213,8 @@
     var alltext ='<p><a id="'+tid+'" href="#" class="all-text" ><span id="allText">Full text view</span></a></p>';
     $.each( METADATA, function( key, val )  {
       if (val.tid == tid)  {
+        //JAUME
+        //meta_title = "<h2>"+val.tid+" - "+val.title+"</h2>";
         meta_title = "<h2>"+val.tid+" - "+val.title+"</h2>";
         // Check for images attached to tid
         if (val.images.length > 0) { // FIXME for more than one image
@@ -272,7 +274,8 @@
     myEntities += linkQuality["match"];
     // JAUME
     if (target.length>0) {
-      $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> '+target+'<br />'+myEntities+'<span></span></a>');
+      //$("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> '+target+'<br />'+myEntities+'<span></span></a>');
+      $("#bottomright div").html('<a href="#" id="'+target+'" class="arrow"><img src="images/w_right_arrow.png" /><i>Similar text</i> <span></span></a>');
     } else {
       $("#bottomright div").html('<i>No similar text</i>');
      }
@@ -304,7 +307,8 @@
       });
       $(mydiv).css({ "opacity": "0" });
       // JAUME
-      $(mydiv).html(myIndex+items[pid]);
+      //$(mydiv).html(myIndex+items[pid]);
+      $(mydiv).html(items[pid]);
       var footNotesHelp = eval('lang_'+LANGUAGE);
       if (footnote[parseInt(pid)] != '')  {
         $("#myfootnotes").html('<span id="footnotes" class="grey">'+footNotesHelp["footnotes"]+'</span><br />'+footnote[parseInt(pid)]);
