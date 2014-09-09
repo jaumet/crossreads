@@ -8,7 +8,7 @@
   <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-<h2>Crossreads :: Feedback form :: [London, DC2014]</h2>
+<h2>Crossreads :: Feedback form :: [London, DL2014]</h2>
 <p>Please send as comments using this form.</p>
 <form name="contactform" method="post" action="send_form_email.php">
 <table width="450px">
