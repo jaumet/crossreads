@@ -1,0 +1,14 @@
+[{"paperid": "509", 
+"issue": "1", 
+"title": ["<h1>Degree of Internet corporate reporting: a research framework</h1>"], 
+"numref": 47, 
+"numrefgrp": "40-50", 
+"citation": "[u'<div><br> \\r\\nPoon, P-L. &amp; Yu, Y.T. (2012). Degree of Internet corporate reporting: a research framework. <em>Information Research</em>, <strong>17</strong>(1) paper 509. [Available at http://InformationR.net/ir/17-1/paper509.html]</div>']", 
+"year": "2012", 
+"volume": "17", 
+"link": "http://informationr.net/ir/17-1/paper509.html", 
+"authors": ["<h4><a href=\"#authors\">Pak-Lok Poon</a><br> \r\nSchool of Accounting and Finance,\r\nThe Hong Kong Polytechnic University, Hung Hom, Hong Kong\r\n<br> \r\n\r\n<a href=\"#authors\">Yuen Tak Yu</a><br> \r\nDepartment of Computer Science,\r\nCity University of Hong Kong,\r\nKowloon Tong, Hong Kong</h4>"], 
+"issueurl": "http://informationr.net/ir/17-1/infres171.html"},
+
+ADD:
+topics
