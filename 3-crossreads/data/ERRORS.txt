@@ -1,0 +1,2 @@
+List of errors:
+['diary:100324: page http://transcripts.sl.nsw.gov.au/api/node/107843.json', 'diary:100324: page http://transcripts.sl.nsw.gov.au/api/node/107843.json', 'diary:100337: page http://transcripts.sl.nsw.gov.au/api/node/106529.json', 'diary:100338: page http://transcripts.sl.nsw.gov.au/api/node/106424.json', 'diary:100339: page http://transcripts.sl.nsw.gov.au/api/node/106394.json']
