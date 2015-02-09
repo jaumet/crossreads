@@ -7,11 +7,9 @@ SCRAP PROCESS:
 
 DONE 0) GET ALL DIARIES URLS & IMAGES. For each Diary canonical URL is, p.e.: http://transcripts.sl.nsw.gov.au/content/arl-wiltshire-diary-12-may-20-july-1917
 DONE 2) GET <link rel="shortlink" href="/node/100309" />
-
-OPTION 1
-     3) GET SOURCE OF http://transcripts.sl.nsw.gov.au/node/100309
-     4) GET JSON WITH API: http://transcripts.sl.nsw.gov.au/api/node/100309.json
-     5) IN JSON: 
+DONE 3) GET HTML-SOURCE OF EACH DIARY, e.g.: http://transcripts.sl.nsw.gov.au/node/100309
+DONE 4) GET JSON WITH API, e.g.: http://transcripts.sl.nsw.gov.au/api/node/100309.json
+DONE 5) IN JSON: 
 
         "field_transcript_pages": {
             "und": [{
@@ -29,21 +27,16 @@ OPTION 1
             }, {
             ETC...  
 
-OPTION 2:
-    3. 4. 5) SCRAPY all pages from each diari
-
------
-     6) TRANSFORM JSON TO A PYTHON LIST OF URL PAGES OF THE DIARY:
+DONE 6) TRANSFORM JSON TO A PYTHON LIST OF URL PAGES OF THE DIARY:
         ["http://transcripts.sl.nsw.gov.au/node/109331".
         "http://transcripts.sl.nsw.gov.au/node/109340".
         "http://transcripts.sl.nsw.gov.au/node/109341".
         "http://transcripts.sl.nsw.gov.au/node/109342".
         ETC...
         ]
-     7) USE THIS LIST IN A SCRAPY SPIDER
-         - GET ALL TRANSCRIPTS
-         - GET ALL IMAGES OF PAGES
+DONE 7) USE THIS LIST to get all the JSONS of each page
 
+DATA READY!!!  [2015-01-28]
 
 
 -------------------------------------------------------

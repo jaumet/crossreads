@@ -31,7 +31,7 @@ var METADATA = [
 		"type": "Revista",
 		"category": "Textos preliminares",
 		"keywords": "",
-		"topic": "ELECTR&oacuteNICAS MISCEL&aacuteNEAS",
+		"topic": "ELECTR&OacuteNICAS MISCEL&AacuteNEAS",
 		"publication": "Star, n&uacutem. 20 y 22. Barcelona, 1975",
     "images": []
 	},
