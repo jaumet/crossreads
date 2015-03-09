@@ -8,3 +8,15 @@ http://acms.sl.nsw.gov.au/_transcript/2014/D25496/a6667.html
 A transcription:
 http://acms.sl.nsw.gov.au/_transcript/2014/D25496/a6667.html
 
+
+EAMPLES OF NETWORK APPS:
+
+- List: D3js: https://github.com/mbostock/d3/wiki/Gallery
+- balls and edges + click and select subnet: http://fatiherikli.github.io/programming-language-network/#language:Python
+- Hive plot: http://bost.ocks.org/mike/hive/
+- d3 process map: http://nylen.tv/d3-process-map/graph.php
+- GraphGL: https://github.com/uskudnik/GraphGL
+
+
+
+

@@ -159,7 +159,7 @@ def getDiaries():
     file.close()
   print "Total DIaries:"
   print c
-  print "TotgetDiaries()al pages"
+  print "Total pages"
   print totalPages
 
 
@@ -178,6 +178,7 @@ def getPages():
   path = "Diaries/"
   urlBase = "http://transcripts.sl.nsw.gov.au/api/node/"
   errorsList = []
+  c = 0
   for diaryUrl in diariesUrls:
     print diaryUrl
     response = urllib2.urlopen(diaryUrl)
@@ -192,12 +193,21 @@ def getPages():
     for page in pagesList:
       print page["nid"]
       mypage = urlBase+page["nid"]+".json"
+      print "-->"+str(c)
+      print mypage
+      c+=1
       try:
         response = urllib2.urlopen(mypage)
         #print response.info()
-        myjson = simplejson.load(response)
-        file = open(directory+"/"+page["nid"]+".json", 'w+')
-        file.write(str(myjson))
+	
+	###################################
+	#from json import dumps
+        #myjson = dumps(response)
+	r = response.read()
+        #myjson = simplejson.loads(r)
+	
+	file = open(directory+"/"+page["nid"]+".json", 'w+')
+        file.write(r)
         file.close()
       except urllib2.HTTPError, e:
         print 'We failed with error code - %s.' % e.code
@@ -209,5 +219,5 @@ def getPages():
   print errorsList
   
 ###getDiaries()
-###getPages()
+getPages()
 
