@@ -129,8 +129,10 @@ covers = ['http://transcripts.sl.nsw.gov.au/sites/all/files/a3380001h.jpg',
 'http://transcripts.sl.nsw.gov.au/sites/all/files/a4390001h.jpg']
 
 import urllib
+c = 0
 for url in covers:
-  #urllib.urlretrieve("http://www.gunnerkrigg.com//comics/00000001.jpg", "00000001.jpg")
-  print url
+  urllib.urlretrieve(url, url[49:])
+  c += 1
+  print str(c)+') '+url
   print url[49:]
    
