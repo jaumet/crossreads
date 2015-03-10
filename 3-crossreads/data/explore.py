@@ -77,7 +77,7 @@ class Explore():
 			print vis
 		elif out == 'd':
 			print details
-		print "- Total found: "+str(totalFound)+" times".
+		print "- Total found: "+str(totalFound)+" times."
 		print "- Found in "+str(totalPages)+" pages."
 
 	def printHelp(self):
