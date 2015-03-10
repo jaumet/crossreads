@@ -18,7 +18,7 @@ class Explore():
 				count += 1
 				self.walkDirectory(self.path, 'report')
 			elif command == 's': # search
-				kindOf = raw_input('Simple search (ss), Visualize (v)? ').strip()
+				kindOf = raw_input('Simple search (ss), Visualize (v), Detail text (d)? ').strip()
 				query = raw_input('your query: ').strip()
 				if kindOf == 'ss':
 					# search through the pages transcripts and print out results
@@ -67,14 +67,17 @@ class Explore():
 				vis += str(len(result))
 				# Details:
 				pos = text.find(query)
-				details += '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'+diaryPage.split('/')[2]+'> ...'+text[:pos]+'\033[1m\033[0;31m'+query+'\033[0m\033[39m'+text[pos+len(query):pos+len(query)+40]
+				# set detail lentgh
+				detail_len = 80
+				details += '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
+				details += diaryPage.split('/')[2]+'> ...'+text[pos-detail_len:pos]+'\033[1m\033[0;31m'+query+'\033[0m\033[39m'+text[pos+len(query):pos+len(query)+detail_len]
 			else:
 				vis += '.'
 		if out == 'v':
 			print vis
 		elif out == 'd':
 			print details
-		print "- Total found "+str(totalFound)
+		print "- Total found: "+str(totalFound)+" times"
 		print "- Found in "+str(totalPages)+" pages"
 
 	def printHelp(self):
@@ -83,9 +86,10 @@ class Explore():
 		print ('\tr : report about the data in ./Diaries directory')
 		print ('\ts : search query in the data, and print out report of results ')
 		print ('\t\tsub-menu search: ')
-		print ('\t\tss: simple output ')
-		print ('\t\tv: visualize output')
-
+		print ('\t\tss: Simple report ')
+		print ('\t\tv: with Visualization')
+		print ('\t\td: with text Detail')
+		
 	def walkDirectory(self, path, output):
 		''' Get the list of direcctories in pathDiaries '''
 		# Number of DIaries
