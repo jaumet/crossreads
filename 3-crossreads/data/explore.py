@@ -18,7 +18,7 @@ class Explore():
 				count += 1
 				self.walkDirectory(self.path, 'report')
 			elif command == 's': # search
-				kindOf = raw_input('Simple search (ss), Visualize (v), Detail text (d)? ').strip()
+				kindOf = raw_input('Simple search (s), Visualize (v), Detail text (d)? ').strip()
 				query = raw_input('your query: ').strip()
 				if kindOf == 'ss':
 					# search through the pages transcripts and print out results
