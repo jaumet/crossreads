@@ -5,9 +5,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
+        <script src="http://d3js.org/d3.v2.js"></script>
     </head>
     <body>
-    <div id="cpntainer">
+    <div id="nav">
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+      </ul>
+    </div>    
+    <div id="container">
       <div id="images">
         <div class="bg"><img src="img/th/a2552001h.jpg" /></div>
         <div class="bg"><img src="img/th/a2738001h.jpg" /></div>
@@ -142,9 +151,18 @@
       <div id="elements">
         <p> this is an example of text in a DIV</p>
       </div>
+      <div id="d3">XXXX
+        <svg id="mySvg" width="80" height="80">
+          <defs id="mdef">
+            <pattern id="image" x="0" y="0" height="40" width="40">
+              <image x="0" y="0" width="40" height="40" xlink:href="http://www.e-pint.com/epint.jpg"></image>
+            </pattern>
+          </defs>
+        </svg>
+      </div>
     </div>
     <hr>
-    <!-- /container -->        
-        <script src="img/th/js/main.js"></script>
+    <!-- /container -->
+        <script src="js/main.js"></script>
     </body>
 </html>
