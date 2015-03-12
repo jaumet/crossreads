@@ -1,0 +1,39 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+#elements {
+  z-index:10;
+  position:absolute;
+  top:300px;
+  left:300px;
+  color:red;
+  border:2px solid red;
+  background-color:white;
+  padding:10px;
+  border-radius:10px;
+}
+
+#images{
+  z-index:1;
+}
+
+.bg {
+  position:relative;
+  float:left;
+  padding:4px;
+}
+
+.bg img {
+ width: 90px;
+ height:118px; 
+ opacity:0.5;
+}
+
+.bg img:hover {
+ opacity:1;
+}

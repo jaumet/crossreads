@@ -1,5 +1,5 @@
 '''
-	explore.py ~ this is a console program that helps to explore the collection of WWI-Diaries
+explore.py ~ this is a console program that helps to explore the collection of WWI-Diaries
 '''
 from os import walk
 
@@ -56,7 +56,7 @@ class Explore():
 			#print diaryPage.split('/')[2]
 			if tmp != diaryPage.split('/')[2]:
 				#print tmp
-				vis += '\n'+diaryPage.split('/')[2]+'> '
+				vis += '\n'+diaryPage[9:]+'> '
 				tmp = diaryPage.split('/')[2]
 			data = simplejson.loads(open(diaryPage).read())
 			text = data["field_transcription"]["und"][0]["safe_value"]
@@ -64,13 +64,13 @@ class Explore():
 			if len(result) > 0:
 				totalPages += 1
 				totalFound += len(result)
-				vis += str(len(result))
+				vis += '<'+str(len(result))+'>'
 				# Details:
 				pos = text.find(query)
 				# set detail lentgh
 				detail_len = 80
 				details += '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
-				details += diaryPage.split('/')[2]+'> ...'+text[pos-detail_len:pos]+'\033[1m\033[0;31m'+query+'\033[0m\033[39m'+text[pos+len(query):pos+len(query)+detail_len]
+				details += diaryPage[9:]+'> ...'+text[pos-detail_len:pos]+'\033[1m\033[0;31m'+query+'\033[0m\033[39m'+text[pos+len(query):pos+len(query)+detail_len]
 			else:
 				vis += '.'
 		if out == 'v':
