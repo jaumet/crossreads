@@ -7,12 +7,12 @@
     </head>
     <body>
 		<div ng-controller="DiariesController as diaries">
-     <div class="b" ng-repeat="diary in diaries.diary">
-			<div XstyleX="background-image:url('img/th/{{diary.cover}}');width:70px;">
+     <div class="bg" ng-repeat="diary in diaries.diary">
+			<div style="background-image:url('img/th/{{diary.cover}}');width:70px;">
 			<h1>{{diary.diary_id}}</h1>
 			<h2>{{diary.title}}</h2>
 			<p>{{diary.date}}</p>
-			<img ng-src="img/th/{{diary.cover}}" width="100px" />
+			<img ng-src="img/th/{{diary.cover}}" border="2px" style="border:2px solid red" />
 		  </div>
 		 </div>
 		</div>
