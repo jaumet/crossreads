@@ -6,6 +6,7 @@
 		this.diary = DATA;
 	});
 
+/*
 	var mydiary = 	
 	[
 	{
@@ -31,7 +32,7 @@
 		"cover":"a3368001h.jpg"
 	}
 	];
-
+*/
 
 
 
