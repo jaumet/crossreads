@@ -19,4 +19,14 @@ EAMPLES OF NETWORK APPS:
 
 
 
+The diaries as a matrix of pages , where each column is a Diary (129)
+1.DOME) prepare dummy data
+2) Prepare html using AngularJS
+3) d3js -> write connections along pages visited in a session(*)
+	(*) Check where to save the user data: HTML5 store, cookie, session?
+
+Parallely to-do: data analysis
+1.DONE) simple explorer of the text of pages (python console program)
+2) 
+
 
