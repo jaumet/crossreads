@@ -8,27 +8,28 @@
     <body>
 
     <div class="jumbotron">
-      <div class="container">
+<!--
         <div id="mysvg" >
           <svg id="mysvg" height="450" width="1120" border="3px">
             <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,131,40);stroke-width:4" />
             <path d="M 100 350 q 150 -300 300 0" stroke="blue" stroke-width="5" fill="none" />
           </svg>
         </div>
-		    <div ng-controller="DiariesController as diaries" ng-init="order='topics'">
-          <ul class="nav nav-pills">
-              <li role="presentation"  class="active"><a href="#by-date" ng-click="order='date'">date (from 194 to 1919)</a></li>
-		          <li role="presentation" ><a href="#by-topic" ng-click="order='topics'">topics (fammily, peace, militar)</a></li>
-          </ul>
-          <p>&nbsp;</p>
-          <div style="clear:both;"></div>
-          <div class="bg" ng-repeat="diary in diaries.diary | orderBy :order">
-			      <div style="background-image:url('data/covers/{{diary.cover}}');">
-			        <img ng-src="img/{{diary.topics}}.png" />
-            </div>
-		     </div>
+-->
+		<div ng-controller="DiariesController as diaries" ng-init="order='topics'">
+        <p>Diaries list:</p>
+		<ul class="nav nav-pills">
+		  <li role="presentation"  class="active"><a href="#by-date" ng-click="order='date'">date (from 194 to 1919)</a></li>
+		  <li role="presentation" ><a href="#by-topic" ng-click="order='topics'">topics (fammily, peace, militar)</a></li>
+		</ul>
+		<p>&nbsp;</p>
+		<div style="clear:both;"></div>
+		  <div class="bg" ng-repeat="diary in diaries.diary | orderBy :order">
+			<div Xstyle="background-image:url('data/covers/{{diary.cover}}');">
+			  <img ng-src="img/{{diary.topics}}.png" />
 		    </div>
 		  </div>
+		</div>
     </div>
     <div id="lines">
     </div>
