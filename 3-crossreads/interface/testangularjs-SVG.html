@@ -13,8 +13,9 @@
 		  <li role="presentation" ><a href="#by-topic" ng-click="order='topics'">topics (fammily, peace, militar)</a></li>
         </ul>
         <p>&nbsp;</p>
-		<svg width="25px" height="25px" ng-repeat="diary in diaries.diary | orderBy :order">
-		  <image ng-href="data/covers/{{diary.cover}}" xlink:href=""  x="10" y="10" height="20px" width="20px" />
+		<svg width="15px" height="1000px" ng-repeat="diary in diaries.diary | orderBy :order"  ng-init="(myarr = []).length = diary.page_no;">
+		  <image ng-href="data/covers/{{diary.cover}}" xlink:href=""  x="0" y="0" height="20px" width="15px" />
+	    <rect ng-repeat="i in myarr track by $index" x="0" y="{{21+5*$index}}" width="10" height="3" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />      
 		</svg>
 	  </div>
 
