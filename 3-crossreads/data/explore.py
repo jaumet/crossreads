@@ -86,7 +86,7 @@ class Explore():
 			# Write and save page json
 			if not os.path.exists(os.path.dirname("Diaries-only-text"+diaryPage[9:])):
 				os.makedirs(os.path.dirname("Diaries-only-text"+diaryPage[9:]))
-			with open("Diaries-only-text"+diaryPage[9:], "w") as f:
+			with open("Diaries-only-text"+diaryPage[9:-4]+"txt", "w") as f:
 				f.write(export.encode('ascii', 'ignore'))
 			
 			export = ''

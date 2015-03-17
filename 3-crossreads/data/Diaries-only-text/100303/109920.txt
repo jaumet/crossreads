@@ -1,0 +1,13 @@
+No. ? Rank ? Name ? Age ? Occupation ? Rel. ? M or S ? Next of Kin
+3915 ? Pte. ? Rutter A.E. ? 18 ? Laborer ? C/E ? S ? (Mother) Mrs. Rutter, 40 Creswick St., Footscray
+3911 ? Pte. ? Reid A.L. ? 22 ? Electrical Engineer ? R.C. ? S ? (Father) Mr. Reid, Gt. Southern, Rutherglen
+2387 ? Pte. ? Sutherland A.E. ? 20 ? Farmer ? C/E ? S ? (Father) E.A. Sutherland, Mernda, Victoria
+3245 ? Pte. ? Schulze H. ? 28 ? Farmer ? C/E ? S ? (Father) F.A. Schulze, Jeparit
+1646 ? Pte. ? Scanlon M. ? 19 ? Brass Moulder ? R.C. ? S ? (Brother) Mr. M. Scanlon, 28 Eades Place, W. Melb.
+3255 ? Pte. ? Smith W.J. ? 21 ? Horse Trainer ? R.C. ? S ? (Father) W?m. Smith, Denny St., Nth. W?bool
+687 ? Pte. ? Simmonds W. ? 26 ? Kitchenman ? R.C. ? S ? (Friend) Miss M. Finlayson, 89 Mason's Av., St. Kilda, Anzac
+2404 ? Pte. ? Smith W.H. ? 23 ? Butcher ? R.C. ? S ? (Mother) Mrs. B. Smith, Byron St., Nth. Melb.
+2393 ? Pte. ? Seccull E.H. ? 19 ? Bricklayer ? C/E ? S ? (Mother) Mrs. M. Seccull, High Berry Sts., Northcote
+2383 ? Pte. ? Smith W. ? 38 ? Seaman ? C/E ? S ? (Sister) Miss F. Smith, 16 Park View, Berchanger, Herts. England
+2378 ? Pte. ? Scott J.D. ? 24 ? Salesman ? C/E ? S ? (Father) Mr. J. Scott, 41 Flower St., Essendon
+2368 ? Pte. ? Simkin J.L. ? 25 ? Driver ? C/E ? S ? (Mother) Mrs. E. Simkin, Earl St., Kew
