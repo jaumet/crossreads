@@ -18,7 +18,7 @@ class Explore():
 				count += 1
 				self.walkDirectory(self.path, 'report')
 			elif command == 's': # search
-				kindOf = raw_input('Simple search (s), Visualize (v), Detail text (d)? ').strip()
+				kindOf = raw_input('Simple search (ss), Visualize (v), Detail text (d)? ').strip()
 				query = raw_input('your query: ').strip()
 				if kindOf == 'ss':
 					# search through the pages transcripts and print out results
@@ -28,6 +28,10 @@ class Explore():
 				elif kindOf == 'd':
 					self.searchSimple(query, 'd')
 				count += 1
+
+			if command == 'e': # 
+				count += 1
+				self.exportSomeData()
 
 			elif command == 'h':
 				self.printHelp()
@@ -39,6 +43,54 @@ class Explore():
 			else:
 				print('Invalid Command. ("h" for help)')
 				count += 1
+
+	def exportSomeData(self):
+		'''
+			Export fields from the pages jsons
+		'''
+		import simplejson, os, re
+		# Get list of diaries
+		diaryPages = self.walkDirectory(self.path, 'allPages')
+		print "Total pages: "+str(len(diaryPages))
+		export = ''		
+		#######################################
+		# Get fields
+		for diaryPage in sorted(diaryPages):	
+			data = simplejson.loads(open(diaryPage).read())
+			######################################
+			## Define which fields to export and put them in a list: myfields
+			# transcription text
+			transcrip = data["field_transcription"]["und"][0]["safe_value"]
+			# Diary title
+			dTitle = data["title"]
+			# Page image
+			pImage = data["field_transcript_image"]["und"][0]["filename"]
+			pImageUrl = "http://transcripts.sl.nsw.gov.au/sites/all/files/"+pImage
+
+			myfields = [transcrip]
+
+			#export += '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
+			#export += diaryPage[9:]+':\n'+myfields[0]
+			export += myfields[0]
+			#print export
+			print "Diaries-only-text"+diaryPage[9:]
+
+			# Cleaning the transcrit:
+			export = re.sub("<.*?>", "", export)
+			export = re.sub("\[Pag.*?\]", "", export)
+			export = re.sub("\&[a-zA-Z0-9]{3,}\;", "", export)
+			export = re.sub("\ \ \ ", " ", export)
+			export = re.sub("\ \ ", " ", export)
+			export = export.strip()
+
+			# Write and save page json
+			if not os.path.exists(os.path.dirname("Diaries-only-text"+diaryPage[9:])):
+				os.makedirs(os.path.dirname("Diaries-only-text"+diaryPage[9:]))
+			with open("Diaries-only-text"+diaryPage[9:], "w") as f:
+				f.write(export.encode('ascii', 'ignore'))
+			
+			export = ''
+			print "... done!"
 
 	def searchSimple(self, query, out):
 		'''
@@ -60,7 +112,7 @@ class Explore():
 				tmp = diaryPage.split('/')[2]
 			data = simplejson.loads(open(diaryPage).read())
 			text = data["field_transcription"]["und"][0]["safe_value"]
-			result =  re.findall(query, text, re.IGNORECASE)
+			result =	re.findall(query, text, re.IGNORECASE)
 			if len(result) > 0:
 				totalPages += 1
 				totalFound += len(result)

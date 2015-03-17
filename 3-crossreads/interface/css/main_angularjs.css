@@ -94,5 +94,8 @@ pagepill {
   margin-bottom:2px;
 }
 
+svg, nopadding {
+	padding:0;
+}
 
 
