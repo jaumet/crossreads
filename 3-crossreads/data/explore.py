@@ -77,16 +77,18 @@ class Explore():
 
 			# Cleaning the transcrit:
 			export = re.sub("<.*?>", "", export)
-			export = re.sub("\[Pag.*?\]", "", export)
+			export = re.sub("\[.*?\]", "", export)
+			export = re.sub("\{P.*?\]", "", export)
+			export = re.sub("\{(\?|\?.*)?\}", "", export)
 			export = re.sub("\&[a-zA-Z0-9]{3,}\;", "", export)
 			export = re.sub("\ \ \ ", " ", export)
 			export = re.sub("\ \ ", " ", export)
 			export = export.strip()
 
 			# Write and save page json
-			if not os.path.exists(os.path.dirname("Diaries-only-text"+diaryPage[9:])):
-				os.makedirs(os.path.dirname("Diaries-only-text"+diaryPage[9:]))
-			with open("Diaries-only-text"+diaryPage[9:-4]+"txt", "w") as f:
+			if not os.path.exists(os.path.dirname("Diaries-superclean-text"+diaryPage[9:])):
+				os.makedirs(os.path.dirname("Diaries-superclean-text"+diaryPage[9:]))
+			with open("Diaries-superclean-text"+diaryPage[9:-4]+"txt", "w") as f:
 				f.write(export.encode('ascii', 'ignore'))
 			
 			export = ''

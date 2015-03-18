@@ -1,0 +1,26 @@
+ready to rotate mgzine. in bkwd. movement. As F.A. moves to rt., left stud depresses it, stop pawl thus releasing pawl from mgzne. allowing it to rotate on next bkwd. movement.
+Stoppages
+1. Empty magazine.
+2. B Space in mgzine.
+3. C Miss-fire.
+4. E Damaged magazine or Broken Pawls.
+5. D Broken Striker.
+6. F Hard Extraction or
+2. A Friction in Bulged Cartridge.
+B Friction in Cylinder
+3. A Fault in Feed arm.
+B Broken Cartridge Guide Spring.
+C Damaged Mgzine.
+D Weak or Broken Return Spring.
+E Broken Extractors.
+F Broken Ejectors.
+Semaphore Signalling
+Abbreviations ?
+P means plus, fire is going 50 yds. too far.
+M minus, fire going 50 yds. too short.
+R Range Correct.
+L Fire has been observed to left of target.
+T Fire observed to right of target.
+C Centre or correct.
+U Fire unobserved.
+Erase or annul, signalling not understood.
