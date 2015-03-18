@@ -18,7 +18,7 @@ class Explore():
 				count += 1
 				self.walkDirectory(self.path, 'report')
 			elif command == 's': # search
-				kindOf = raw_input('Simple search (ss), Visualize (v), Detail text (d)? ').strip()
+				kindOf = raw_input('Simple search (ss)\nVisualize (v)\nDetail text (d)\nExport and write one file per page (e)\nExport and write all text in one file (e1)\n> ').strip()
 				query = raw_input('your query: ').strip()
 				if kindOf == 'ss':
 					# search through the pages transcripts and print out results
@@ -31,7 +31,11 @@ class Explore():
 
 			if command == 'e': # 
 				count += 1
-				self.exportSomeData()
+				self.exportSomeData("file_per_page")
+
+			if command == 'e1': # 
+				count += 1
+				self.exportSomeData("one_file")
 
 			elif command == 'h':
 				self.printHelp()
@@ -44,7 +48,7 @@ class Explore():
 				print('Invalid Command. ("h" for help)')
 				count += 1
 
-	def exportSomeData(self):
+	def exportSomeData(self, out):
 		'''
 			Export fields from the pages jsons
 		'''
@@ -73,26 +77,54 @@ class Explore():
 			#export += diaryPage[9:]+':\n'+myfields[0]
 			export += myfields[0]
 			#print export
-			print "Diaries-only-text"+diaryPage[9:]
+			print "Diaries"+diaryPage[9:]
+			
+			if out=="file_per_page":
+			
+				# Cleaning the transcrit:
+				export = re.sub("a[0-9]{7,}.*\.html", "", export)			
+				export = re.sub("<.*?>", "", export)
+				export = re.sub("\[.*?\]", "", export)
+				export = re.sub("\{P.*?\]", "", export)
+				export = re.sub("\{(\?|\?.*)?\}", "", export)
+				export = re.sub("\&[a-zA-Z0-9]{3,}\;", "", export)
+				export = re.sub("\ \ \ ", " ", export)
+				export = re.sub("\ \ ", " ", export)
+				export = export.strip()
 
+				directory = "Diaries-superclean-text"
+				# Write and save page json
+				if not os.path.exists(os.path.dirname(directory+diaryPage[9:])):
+					os.makedirs(os.path.dirname(directory+diaryPage[9:]))
+				with open(directory+diaryPage[9:-4]+"txt", "w") as f:
+					f.write(export.encode('ascii', 'ignore'))
+			
+				export = ''
+				print "... done!"
+
+		if out=="one_file":
 			# Cleaning the transcrit:
+			export = re.sub("a[0-9]{7,}.*\.html", "", export)			
 			export = re.sub("<.*?>", "", export)
-			export = re.sub("\[.*?\]", "", export)
-			export = re.sub("\{P.*?\]", "", export)
-			export = re.sub("\{(\?|\?.*)?\}", "", export)
+			#export = re.sub("\[.*?\]", "", export)
+			#export = re.sub("\{P.*?\]", "", export)
+			#export = re.sub("\{(\?|\?.*)?\}", "", export)
 			export = re.sub("\&[a-zA-Z0-9]{3,}\;", "", export)
 			export = re.sub("\ \ \ ", " ", export)
 			export = re.sub("\ \ ", " ", export)
 			export = export.strip()
 
+			directory = "Diaries-superclean-text"
 			# Write and save page json
-			if not os.path.exists(os.path.dirname("Diaries-superclean-text"+diaryPage[9:])):
-				os.makedirs(os.path.dirname("Diaries-superclean-text"+diaryPage[9:]))
-			with open("Diaries-superclean-text"+diaryPage[9:-4]+"txt", "w") as f:
+			#if not os.path.exists(os.path.dirname("Diaries-superclean-text"+diaryPage[9:])):
+			#	os.makedirs(os.path.dirname("Diaries-superclean-text"+diaryPage[9:]))
+			with open(directory+"-2015-03-18.txt", "w") as f:
 				f.write(export.encode('ascii', 'ignore'))
-			
+	
 			export = ''
 			print "... done!"
+			
+			
 
 	def searchSimple(self, query, out):
 		'''

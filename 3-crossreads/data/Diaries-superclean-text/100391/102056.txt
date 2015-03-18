@@ -28,7 +28,9 @@ Kesby				k
 Gorsell			w
 Kerbey
 Cauldwell			w
+
  
+
 Base Post address London
 N.C.O in charge
 Re Direction Dept
@@ -71,6 +73,7 @@ Doughton			Morphey
 Jorgenson 5th mobile
 Toman Waller Collison Sutton Askew Weed West Wilson Heard Scott Vercoe Winter Hamilton
  
+
 Pte L C Hicks
 25th Batt
 37 hut Bia4
@@ -108,8 +111,11 @@ anzac civies
 anzac collecting station 
 Banzantine
  
+
+
 Waterloo Bridge
  
+
 30.1.1917
 31 Jan London
 Changing Guard
@@ -123,6 +129,7 @@ Homeservice
 Australian Office
 Victoria St 
 London
+
 9 Cumberland Terrace
 Regents Park]
 Artillery 2 div
