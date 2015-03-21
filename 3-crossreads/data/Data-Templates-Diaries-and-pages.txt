@@ -1,0 +1,94 @@
+DATA FORMAT
+
+1) Diaries
+2) Authors
+3) Pages
+
+
+#################################
+1) Diaries
+ 
+Diaries's URLs
+
+- HTML: Diaries home with list of pages 
+  (2 equivalent URLs)
+  * http://transcripts.sl.nsw.gov.au/node/100309
+  * http://transcripts.sl.nsw.gov.au/content/arl-wiltshire-diary-narrative-27-august-28-september-1915
+- HTML: Diary catalog entry
+  * http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=886629
+
+- JSON: Diary  metadata
+  * http://transcripts.sl.nsw.gov.au/api/node/100309.json
+JSON list of URLs is in "list-of-url.txt" file
+
+---------------------
+
+Status  FIELDS name :: 
+  ORIGIN 
+    - from json ===> ["path to field"]
+    - from analysis, ) ==> 
+  DESCRIPTION
+
+OK		"id":1
+
+OK		"diary_id":"100309", :: from URL of the diaries-json URLs in "list-of-url.txt" file
+
+OK		"title": "A.R.L. Wiltshire diary, 12 May-20 July 1917", :: from json ===> ["title"]
+
+EASY    "kind":"diary", :: From parsing "title"
+
+EASY		"start_date":
+          {
+            "year":1918, "month": 1, "day": 28 
+          },  
+:: From parsing "title"
+
+EASY		"end_date":
+          {
+            "year":1918, "month": 1, "day": 28 
+          },  
+:: From parsing "title"
+
+OK		"no_pages":"122",  ===> from diaries in json ==> lenght of ["field_transcript_pages"]["und"][ ... pages ids list ... ]
+
+EntityRecog		"locations": ["London","Gallipoli"]  ===> List of locations in the diary sort by relevance (number of words?)  
+
+Mallet		"topics":["militar","", "", "", ""]  ===> List of topics sort by relevance (Mallet per page)
+
+		"author":"", ===> 
+
+OK		"cover":"a6565001h.jpg" :: "list-of-url.txt" file and Get-coversjpg-from-urls.py
+
+
+---------------------
+
+DATA =
+[
+	{
+		"id":1,
+		"diary_id":"1",   ===> 
+		"title": "",   ===> ["title"] -->
+		"start_date":"1918/1/28",  ===> 
+		"end_date":"1918/5/13",  ===> 
+		"no_pages":"122",  ===> 
+		"locations": ["London","Gallipoli"]  ===> List of locations in the diary sort by relevance (number of words?)  
+		"topics":["militar","", "", "", ""]  ===> List of topics sort by relevance (Mallet per page)
+		"transcript":"transcript", ===> 
+		"cover":"a6565001h.jpg"
+	},
+	...
+	{
+    ...
+	}
+];
+
+["field_transcript_pages"]["und"]
+
+
+
+
+
+
+######################################################################
+######################################################################
+######################################################################
