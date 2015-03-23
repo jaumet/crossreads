@@ -154,7 +154,7 @@ def getDiaries():
     totalPages += noPages
     c += 1
     
-    file = open("Diaries/"+diaryUrl[42:-5]+".json", 'w+')
+3    file = open("Diaries/"+diaryUrl[42:-5]+".json", 'w+')
     file.write(str(myjson))
     file.close()
   print "Total DIaries:"
@@ -219,5 +219,5 @@ def getPages():
   print errorsList
   
 ###getDiaries()
-getPages()
+#getPages()
 
