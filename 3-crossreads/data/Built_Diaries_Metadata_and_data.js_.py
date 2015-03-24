@@ -1,137 +1,134 @@
 import os, json, requests, urllib2, pprint
 
-diariesUrls = ["Diaries-only-diary_jsons/100307.json",
-"Diaries-only-diary_jsons/100325.json",
-"Diaries-only-diary_jsons/100324.json",
-"Diaries-only-diary_jsons/100312.json",
-"Diaries-only-diary_jsons/100325.json",
-"Diaries-only-diary_jsons/100309.json",
-"Diaries-only-diary_jsons/100307.json",
-"Diaries-only-diary_jsons/100324.json",
-"Diaries-only-diary_jsons/100308.json",
-"Diaries-only-diary_jsons/100318.json",
-"Diaries-only-diary_jsons/100322.json",
-"Diaries-only-diary_jsons/100311.json",
-"Diaries-only-diary_jsons/100302.json",
-"Diaries-only-diary_jsons/100306.json",
-"Diaries-only-diary_jsons/100310.json",
-"Diaries-only-diary_jsons/100313.json",
-"Diaries-only-diary_jsons/100315.json",
-"Diaries-only-diary_jsons/100319.json",
-"Diaries-only-diary_jsons/100321.json",
-"Diaries-only-diary_jsons/100316.json",
-"Diaries-only-diary_jsons/100304.json",
-"Diaries-only-diary_jsons/100327.json",
-"Diaries-only-diary_jsons/100314.json",
-"Diaries-only-diary_jsons/100317.json",
-"Diaries-only-diary_jsons/100326.json",
-"Diaries-only-diary_jsons/100323.json",
-"Diaries-only-diary_jsons/100320.json",
-"Diaries-only-diary_jsons/100303.json",
-"Diaries-only-diary_jsons/100395.json",
-"Diaries-only-diary_jsons/100396.json",
-"Diaries-only-diary_jsons/100382.json",
-"Diaries-only-diary_jsons/100371.json",
-"Diaries-only-diary_jsons/100384.json",
-"Diaries-only-diary_jsons/100383.json",
-"Diaries-only-diary_jsons/100385.json",
-"Diaries-only-diary_jsons/115137.json",
-"Diaries-only-diary_jsons/100301.json",
-"Diaries-only-diary_jsons/100275.json",
-"Diaries-only-diary_jsons/100404.json",
-"Diaries-only-diary_jsons/100280.json",
-"Diaries-only-diary_jsons/100287.json",
-"Diaries-only-diary_jsons/100285.json",
-"Diaries-only-diary_jsons/100282.json",
+diariesUrls = ["Diaries-only-diary_jsons/100275.json",
 "Diaries-only-diary_jsons/100276.json",
 "Diaries-only-diary_jsons/100277.json",
-"Diaries-only-diary_jsons/100411.json",
-"Diaries-only-diary_jsons/100283.json",
 "Diaries-only-diary_jsons/100278.json",
-"Diaries-only-diary_jsons/100360.json",
-"Diaries-only-diary_jsons/100361.json",
 "Diaries-only-diary_jsons/100279.json",
-"Diaries-only-diary_jsons/100359.json",
-"Diaries-only-diary_jsons/182325.json",
-"Diaries-only-diary_jsons/100331.json",
-"Diaries-only-diary_jsons/100334.json",
-"Diaries-only-diary_jsons/100330.json",
-"Diaries-only-diary_jsons/100367.json",
-"Diaries-only-diary_jsons/100332.json",
-"Diaries-only-diary_jsons/100335.json",
-"Diaries-only-diary_jsons/100388.json",
-"Diaries-only-diary_jsons/100292.json",
-"Diaries-only-diary_jsons/100397.json",
-"Diaries-only-diary_jsons/100290.json",
-"Diaries-only-diary_jsons/100366.json",
-"Diaries-only-diary_jsons/100365.json",
-"Diaries-only-diary_jsons/100362.json",
-"Diaries-only-diary_jsons/100291.json",
-"Diaries-only-diary_jsons/100350.json",
-"Diaries-only-diary_jsons/100344.json",
-"Diaries-only-diary_jsons/100358.json",
-"Diaries-only-diary_jsons/100343.json",
-"Diaries-only-diary_jsons/100342.json",
-"Diaries-only-diary_jsons/100341.json",
-"Diaries-only-diary_jsons/100295.json",
-"Diaries-only-diary_jsons/100364.json",
-"Diaries-only-diary_jsons/100363.json",
-"Diaries-only-diary_jsons/100372.json",
-"Diaries-only-diary_jsons/100377.json",
-"Diaries-only-diary_jsons/100380.json",
-"Diaries-only-diary_jsons/100378.json",
-"Diaries-only-diary_jsons/100405.json",
-"Diaries-only-diary_jsons/100379.json",
+"Diaries-only-diary_jsons/100280.json",
+"Diaries-only-diary_jsons/100282.json",
+"Diaries-only-diary_jsons/100283.json",
+"Diaries-only-diary_jsons/100285.json",
+"Diaries-only-diary_jsons/100287.json",
 "Diaries-only-diary_jsons/100288.json",
-"Diaries-only-diary_jsons/100389.json",
+"Diaries-only-diary_jsons/100289.json",
+"Diaries-only-diary_jsons/100290.json",
+"Diaries-only-diary_jsons/100291.json",
+"Diaries-only-diary_jsons/100292.json",
+"Diaries-only-diary_jsons/100295.json",
+"Diaries-only-diary_jsons/100299.json",
+"Diaries-only-diary_jsons/100300.json",
+"Diaries-only-diary_jsons/100301.json",
+"Diaries-only-diary_jsons/100302.json",
+"Diaries-only-diary_jsons/100303.json",
+"Diaries-only-diary_jsons/100304.json",
+"Diaries-only-diary_jsons/100306.json",
+"Diaries-only-diary_jsons/100307.json",
+"Diaries-only-diary_jsons/100308.json",
+"Diaries-only-diary_jsons/100309.json",
+"Diaries-only-diary_jsons/100310.json",
+"Diaries-only-diary_jsons/100311.json",
+"Diaries-only-diary_jsons/100312.json",
+"Diaries-only-diary_jsons/100313.json",
+"Diaries-only-diary_jsons/100314.json",
+"Diaries-only-diary_jsons/100315.json",
+"Diaries-only-diary_jsons/100316.json",
+"Diaries-only-diary_jsons/100317.json",
+"Diaries-only-diary_jsons/100318.json",
+"Diaries-only-diary_jsons/100319.json",
+"Diaries-only-diary_jsons/100320.json",
+"Diaries-only-diary_jsons/100321.json",
+"Diaries-only-diary_jsons/100322.json",
+"Diaries-only-diary_jsons/100323.json",
+"Diaries-only-diary_jsons/100324.json",
+"Diaries-only-diary_jsons/100325.json",
+"Diaries-only-diary_jsons/100326.json",
+"Diaries-only-diary_jsons/100327.json",
+"Diaries-only-diary_jsons/100328.json",
+"Diaries-only-diary_jsons/100329.json",
+"Diaries-only-diary_jsons/100330.json",
+"Diaries-only-diary_jsons/100331.json",
+"Diaries-only-diary_jsons/100332.json",
+"Diaries-only-diary_jsons/100334.json",
+"Diaries-only-diary_jsons/100335.json",
+"Diaries-only-diary_jsons/100336.json",
 "Diaries-only-diary_jsons/100337.json",
 "Diaries-only-diary_jsons/100338.json",
-"Diaries-only-diary_jsons/100390.json",
-"Diaries-only-diary_jsons/100375.json",
-"Diaries-only-diary_jsons/100398.json",
-"Diaries-only-diary_jsons/100289.json",
-"Diaries-only-diary_jsons/100381.json",
-"Diaries-only-diary_jsons/100374.json",
-"Diaries-only-diary_jsons/100376.json",
-"Diaries-only-diary_jsons/100368.json",
-"Diaries-only-diary_jsons/100336.json",
-"Diaries-only-diary_jsons/100373.json",
-"Diaries-only-diary_jsons/100387.json",
+"Diaries-only-diary_jsons/100339.json",
+"Diaries-only-diary_jsons/100340.json",
+"Diaries-only-diary_jsons/100341.json",
+"Diaries-only-diary_jsons/100342.json",
+"Diaries-only-diary_jsons/100343.json",
+"Diaries-only-diary_jsons/100344.json",
+"Diaries-only-diary_jsons/100345.json",
+"Diaries-only-diary_jsons/100346.json",
+"Diaries-only-diary_jsons/100347.json",
+"Diaries-only-diary_jsons/100348.json",
+"Diaries-only-diary_jsons/100349.json",
+"Diaries-only-diary_jsons/100350.json",
 "Diaries-only-diary_jsons/100351.json",
+"Diaries-only-diary_jsons/100352.json",
+"Diaries-only-diary_jsons/100353.json",
+"Diaries-only-diary_jsons/100354.json",
+"Diaries-only-diary_jsons/100355.json",
+"Diaries-only-diary_jsons/100356.json",
+"Diaries-only-diary_jsons/100357.json",
+"Diaries-only-diary_jsons/100358.json",
+"Diaries-only-diary_jsons/100359.json",
+"Diaries-only-diary_jsons/100360.json",
+"Diaries-only-diary_jsons/100361.json",
+"Diaries-only-diary_jsons/100362.json",
+"Diaries-only-diary_jsons/100363.json",
+"Diaries-only-diary_jsons/100364.json",
+"Diaries-only-diary_jsons/100365.json",
+"Diaries-only-diary_jsons/100366.json",
+"Diaries-only-diary_jsons/100367.json",
+"Diaries-only-diary_jsons/100368.json",
+"Diaries-only-diary_jsons/100369.json",
+"Diaries-only-diary_jsons/100370.json",
+"Diaries-only-diary_jsons/100371.json",
+"Diaries-only-diary_jsons/100372.json",
+"Diaries-only-diary_jsons/100373.json",
+"Diaries-only-diary_jsons/100374.json",
+"Diaries-only-diary_jsons/100375.json",
+"Diaries-only-diary_jsons/100376.json",
+"Diaries-only-diary_jsons/100377.json",
+"Diaries-only-diary_jsons/100378.json",
+"Diaries-only-diary_jsons/100379.json",
+"Diaries-only-diary_jsons/100380.json",
+"Diaries-only-diary_jsons/100381.json",
+"Diaries-only-diary_jsons/100382.json",
+"Diaries-only-diary_jsons/100383.json",
+"Diaries-only-diary_jsons/100384.json",
+"Diaries-only-diary_jsons/100385.json",
+"Diaries-only-diary_jsons/100386.json",
+"Diaries-only-diary_jsons/100387.json",
+"Diaries-only-diary_jsons/100388.json",
+"Diaries-only-diary_jsons/100389.json",
+"Diaries-only-diary_jsons/100390.json",
+"Diaries-only-diary_jsons/100391.json",
+"Diaries-only-diary_jsons/100392.json",
+"Diaries-only-diary_jsons/100393.json",
+"Diaries-only-diary_jsons/100394.json",
+"Diaries-only-diary_jsons/100395.json",
+"Diaries-only-diary_jsons/100396.json",
+"Diaries-only-diary_jsons/100397.json",
+"Diaries-only-diary_jsons/100398.json",
+"Diaries-only-diary_jsons/100399.json",
+"Diaries-only-diary_jsons/100400.json",
 "Diaries-only-diary_jsons/100401.json",
 "Diaries-only-diary_jsons/100402.json",
 "Diaries-only-diary_jsons/100403.json",
-"Diaries-only-diary_jsons/100399.json",
-"Diaries-only-diary_jsons/100386.json",
-"Diaries-only-diary_jsons/100400.json",
-"Diaries-only-diary_jsons/100370.json",
-"Diaries-only-diary_jsons/100356.json",
-"Diaries-only-diary_jsons/100369.json",
-"Diaries-only-diary_jsons/100328.json",
-"Diaries-only-diary_jsons/100394.json",
-"Diaries-only-diary_jsons/100357.json",
-"Diaries-only-diary_jsons/100391.json",
-"Diaries-only-diary_jsons/100339.json",
-"Diaries-only-diary_jsons/100392.json",
-"Diaries-only-diary_jsons/100329.json",
-"Diaries-only-diary_jsons/100352.json",
-"Diaries-only-diary_jsons/100353.json",
-"Diaries-only-diary_jsons/100355.json",
-"Diaries-only-diary_jsons/100408.json",
-"Diaries-only-diary_jsons/100354.json",
-"Diaries-only-diary_jsons/100409.json",
-"Diaries-only-diary_jsons/100407.json",
-"Diaries-only-diary_jsons/100393.json",
-"Diaries-only-diary_jsons/100410.json",
-"Diaries-only-diary_jsons/100299.json",
-"Diaries-only-diary_jsons/100300.json",
+"Diaries-only-diary_jsons/100404.json",
+"Diaries-only-diary_jsons/100405.json",
 "Diaries-only-diary_jsons/100406.json",
-"Diaries-only-diary_jsons/100346.json",
-"Diaries-only-diary_jsons/100347.json",
-"Diaries-only-diary_jsons/100345.json",
-"Diaries-only-diary_jsons/100340.json",
-"Diaries-only-diary_jsons/100348.json",
-"Diaries-only-diary_jsons/100349.json"]
+"Diaries-only-diary_jsons/100407.json",
+"Diaries-only-diary_jsons/100408.json",
+"Diaries-only-diary_jsons/100409.json",
+"Diaries-only-diary_jsons/100410.json",
+"Diaries-only-diary_jsons/100411.json",
+"Diaries-only-diary_jsons/115137.json",
+"Diaries-only-diary_jsons/182325.json"]
 
 diariesUrlsX = ["Diaries-only-diary_jsons/100348.json", "Diaries-only-diary_jsons/100349.json"]
 
@@ -162,22 +159,48 @@ def buildDiariesJson():
 
       fromTitles.append(diaryUrl.split("/")[1])
       fromTitles.append(parseTitle(title, diaryUrl))
-    #print fromTitles
-    #print
+
+    #print "dddddddddddddddddd"
+    print fromTitles
     ## Build json
     start_json += "\n\t\tid:"+str(id)+","
     start_json += "\n\t\tdiaty_id:"+str(diary_id)+","
     start_json += "\n\t\ttitle:\""+str(title)+"\","
     if len(fromTitles[1])>=3:
-      start_json += "\n\t\tstart_date:\""+str(fromTitles[1][2])+"\","
+      if len(fromTitles[1][2])==0:
+        fromTitles[1][2].append("XXXXw")
+      if len(fromTitles[1][2])==1:
+        fromTitles[1][2].append("XXXXy")
+      if len(fromTitles[1][2])==2:
+        fromTitles[1][2].append("XXXXz")
+      start_json += "\n\t\tstart_date: [{"
+      start_json += "start_day:\""+str(fromTitles[1][2][0])+"\","
+      start_json += "start_month:\""+str(fromTitles[1][2][1])+"\","
+      start_json += "start_year:\""+str(fromTitles[1][2][2])+"\""      
+      start_json += "}],"
+
     if len(fromTitles[1])==4:
-      start_json += "\n\t\tend_date:\""+str(fromTitles[1][3])+"\","
+      if len(fromTitles[1][3])==0:
+        fromTitles[1][3].append("XXXXz")
+      if len(fromTitles[1][3])==1:
+        fromTitles[1][3].append("XXXXy")
+      if len(fromTitles[1][3])==2:
+        fromTitles[1][3].append("XXXXw")
+      start_json += "\n\t\tend_date: [{"
+      start_json += "end_day:\""+str(fromTitles[1][3][0])+"\","
+      start_json += "end_month:\""+str(fromTitles[1][3][1])+"\","
+      start_json += "end_year:\""+str(fromTitles[1][3][2])+"\""      
+      start_json += "}],"
+
+
     start_json += "\n\t\tno_pages:"+str(noPages)+","
     start_json += "\n\t\tlocation:\"location\","
     start_json += "\n\t\ttopics:\"topics\","
-    start_json += "\n\t\tkind:\""+str(fromTitles[1][0])+"\","
+    if len(fromTitles[1])<2:
+      fromTitles[1].append("XXXX")
+    start_json += "\n\t\tkind:\""+str(fromTitles[1][1])+"\","
     if len(fromTitles[1])>=2:
-      start_json += "\n\t\tauthor:\""+str(fromTitles[1][1])+"\","
+      start_json += "\n\t\tauthor:\""+str(fromTitles[1][0])+"\","
     start_json += "\n\t\tcover:\""+str(thiscover[0])+"\""
 
     fromTitles = []
@@ -188,6 +211,7 @@ def buildDiariesJson():
   text_file.write(start_json)
   text_file.close()
 
+  
 def parseTitle(raw, diaryUrl):
   raw = raw.strip()
   fromTitles = []
@@ -222,26 +246,40 @@ def parseTitle(raw, diaryUrl):
       ## end date
       end_date = tmp2[1].split(" ")
       if len(end_date) == 3:
-        end_year = end_date[0]
+        end_year = end_date[2]
         end_month = end_date[1]
-        end_day = end_date[2]
-        end.append(end_year)
-        end.append(end_month)
+        end_day = end_date[0]
         end.append(end_day)
+        end.append(end_month)
+        end.append(end_year)
       else:
-        end.append(end_date)
+        end.append(tmp2[1])
       ##start date
-      start_date = tmp2[0].split(" ")
-      if len(start_date)==3:
-        start_year = start_date[0]
-        start_month = start_date[1]
-        start_day = start_date[2]
-        start.append(start_year)
-        start.append(start_month)
+      start_date = tmp2[0].strip().split(" ")
+      if len(start_date)>0:
+        if len(start_date)==3:
+          start_year = start_date[2]
+          start_month = start_date[1]
+          start_day = start_date[0]
+        elif len(start_date)==2:
+          if len(end_date)==3:
+            start_year = "YYYY"+end_date[2]
+          else:
+            start_year = "XXXX"
+          start_month = start_date[1]
+          start_day = start_date[0]
+        elif len(start_date)==1:
+          start_year = "XXXX"
+          start_month = "XXXX"
+          start_day = start_date[0]
+
         start.append(start_day)
+        start.append(start_month)
+        start.append(start_year)
       else:
-        start.append(start_date)
-        
+        start.append(tmp2[1])
+
+            
       fromTitles.append(start)
       fromTitles.append(end)
     else:
@@ -249,11 +287,12 @@ def parseTitle(raw, diaryUrl):
       fromTitles.append(my)
       
   else:
-    diff +=  "#### "+diaryUrl.split("/")[1]+" --> "+str(tmp)
+    diff +=  "XXXX "+diaryUrl.split("/")[1]+" --> "+str(tmp)
     diff += " >>>> "+tmp[1][-4:]
-    #print "########## "+diaryUrl+" --> "+str(tmp)
+    #print "XXXX "+diaryUrl+" --> "+str(tmp)
     #print "\t->"+tmp[1][-4:]
     fromTitles.append(diff)
+    print "--------------------------------------" 
   return fromTitles
 
   #kind = "kind"
