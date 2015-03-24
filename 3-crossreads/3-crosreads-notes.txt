@@ -38,7 +38,7 @@ Parallely to-do: data analysis
 
 INTERFACE:	
 
-- Final version can be totally-static. It means that code is not building interface upon json data, but using jsn data to flter, browse and so on.
+- Final version can be totally-static. It means that code is not building interface upon json data, but using jsn data to flter, browse and so on. Maybe backgroung svg image + transparent svg on top  for all interactions
 
 - Similar cases:
 	* 5 Visualizing Lexical Novelty in Literature by Matthew Hurst (2011)
@@ -58,10 +58,18 @@ DATA:
 		* Timaline of all cross-diaries topics: evolution of topics from 1914 to 1919
 		* 
 		
-  ToDo:
+DATA ToDo:
     - Build real data:
-      * Define all possible/desirable attributes for diaries and pages metadata
-      * Define the method to get each attribute
-      * Build real data for data.js and each_page.js
-    -  
+DONE      * Define all possible/desirable attributes for diaries metadata
+DONE      * Define the method to get each attribute
+DONE      * Build a basic data.js with real data
+            > To be implemented in data.js:
+              >> Define all possible/desirable attributes for pages
+              >> TRY diary-page date and location extraction/indexetion
+              >> topics with Mallet
+              >> locations with entity-recognition per PAGE
+              >> GET Diary metadata from State Library NSW
+              >> GET authors info: as json?
+              
+          * Crossreads-data-structure: join pages from each diary (as crossreads-data 1 and 2) page.js
 
