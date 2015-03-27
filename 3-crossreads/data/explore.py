@@ -13,12 +13,12 @@ class Explore():
 		keep_going = True
 		count = 0
 		while keep_going:
-			command = raw_input('I\'m the data: ['+str(count)+']? ').strip()
+			command = raw_input('I\'m the data ['+str(count)+']: ').strip()
 			if command == 'r': # 
 				count += 1
 				self.walkDirectory(self.path, 'report')
 			elif command == 's': # search
-				kindOf = raw_input('Simple search (ss)\nVisualize (v)\nDetail text (d)\nExport and write one file per page (e)\nExport and write all text in one file (e1)\n> ').strip()
+				kindOf = raw_input('Choose option:\n\t> Simple search (ss)\n\t> Visualize (v)\n\t> Detail text (d)\n\t> Export and write one file per page (e)\n\t> Export and write all text in one file (e1)\n> ').strip()
 				query = raw_input('your query: ').strip()
 				if kindOf == 'ss':
 					# search through the pages transcripts and print out results
