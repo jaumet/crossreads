@@ -6,11 +6,11 @@
 			<script src="data/dataDiaries.js"></script>				
 		</head>
 		<body>
-		<div ng-controller="DiariesController as diaries" ng-init="order='topics'">
+		<div ng-controller="DiariesController as diaries" ng-init="order='date'">
 				<p>Diaries in SVG:</p>
 				<ul class="nav nav-pills">
-					<li role="presentation"	class="active"><a href="#by-date" ng-click="order='date'">date (from 194 to 1919)</a></li>
-			<li role="presentation" ><a href="#by-topic" ng-click="order='topics'">topics (fammily, peace, militar)</a></li>
+					<li role="presentation" data-toggle="pill" class="active"><a href="#by-date" ng-click="order='date'">by date (from 194 to 1919)</a></li>
+			    <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
 				</ul>
 				<p>&nbsp;</p>
 		<svg width="15px" height="1000px" ng-repeat="diary in diaries.diary | orderBy :order"	ng-init="(myarr = []).length = diary.page_no;">

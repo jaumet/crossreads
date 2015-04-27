@@ -40,20 +40,16 @@
 
     <div class="jumbotron">
     <div class="container">
-		  <div ng-controller="DiariesController as diaries">
+     <div ng-controller="DiariesController as diaries">
        <div class="bg" ng-repeat="diary in diaries.diary | orderBy :'date'">
-			  <div style="background-image:url('img/th/{{diary.cover}}');">
-			    <img ng-src="img/{{diary.topics}}.png" />
+        <div xstyle="background-image:url('img/th/{{diary.cover}}');">
+         <img ng-src="img/th/{{diary.cover}}" style="height:50px;width:30px"/>
+     	 <p>{{diary.diary_id}} - {{diary.title}}</p>
+	 <p>{{diary.date}}</p>
         </div>
-  <!--
-			  <div Xstyle="background-image:url('img/th/{{diary.cover}}');width:70px;">
-			  <p>{{diary.diary_id}} - {{diary.title}}</p>
-			  <p>{{diary.date}}</p>
-		    </div>
-  -->
-		   </div>
-		  </div>
-		</div>
+       </div>
+      </div>
+     </div>
     </div>
 
 		<script src="js/jquery-1.11.2.min.js"></script>
