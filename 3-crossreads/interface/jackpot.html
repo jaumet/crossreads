@@ -10,24 +10,27 @@
       <div class="myorders">
         <p>Diaries in SVG:</p>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-date" ng-click="order='page_no'">by page_no </a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no </a></li>
           <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
         </ul>
       </div>
       <div class="myorders">
         <p>Highlight pages</p>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-date" ng-click="order='date'">by date (from 194 to 1919)</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no</a></li>
           <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
         </ul>
       </div>
       <div style="clear:both;height:30px;"></div>
-      <svg style="position:relative;top:0;float:left;" height="{{50+5*diary.page_no}}px" width="15px" ng-repeat="diary in diaries.diary | orderBy :order"	ng-init="(myarr = []).length = diary.page_no;">
+      <svg style="position:relative;top:0;float:left;" height="{{50+5*diary.page_no}}px" width="15px" id="{{diary.diary_id}}" ng-repeat="diary in diaries.diary | orderBy :order"	ng-init="(myarr = []).length = diary.page_no;">
         <image ng-href="data/covers/{{diary.cover}}" xlink:href=""	x="0" y="0" height="20px" width="15px" />
         <rect ng-repeat="i in myarr track by $index" x="0" y="{{21+5*$index}}" id="{{diary.diary_id}}-{{$index}}" width="10" height="3" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" kind="{{$index}}" />
         <script>
           $('li').click(function(){
-            $('rect[kind=10]').addClass('toRect');
+            $('rect[kind=10]').css("fill","rgb(50,50,55)").css("stroke-width","0").css("stroke","rgb(50,50,50)");
+            //addClass('toRect');
+            //$('#100276').css("top","40");
+            //$('#100276').animate({top: "+=100"}, 1000);
           });
         </script>		
       </svg>
