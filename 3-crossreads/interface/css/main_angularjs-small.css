@@ -119,3 +119,7 @@ svg, nopadding {
   stroke-width:0;
   stroke:rgb(50,50,50)
 }
+
+#highlights {
+  border:3px solid red;
+}
