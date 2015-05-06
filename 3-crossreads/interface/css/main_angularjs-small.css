@@ -123,3 +123,29 @@ svg, nopadding {
 #highlights {
   border:3px solid red;
 }
+
+#grid {
+  width:80%;
+  height:80%;
+  position:absolute;
+  top:100;
+  left:30;
+  border:2px solid blue;
+}
+
+.pp {
+  background-color:red;
+  border:0;
+  position:absolute;
+  min-width:4px;
+  min-height:6px;
+}
+
+#detail {
+  display:none;
+  position:absolute;
+  background-color:grey;
+  min-width:100px;
+  min-height:100px;
+  z-index:10;
+}

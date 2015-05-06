@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="library">
-		<head>
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-			<link rel="stylesheet" href="css/main_angularjs-small.css">
-			<script src="data/dataDiaries-small.js"></script>
-			<script src="data/topicsDummy.js"></script>
-		</head>
-		<body>
-		<div ng-controller="DiariesController as diaries" ng-init="order='page_no'" class="mywapper">
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main_angularjs-small.css">
+		<script src="data/dataDiaries-small.js"></script>
+		<script src="data/topicsDummy.js"></script>
+	</head>
+	<body>
+	<div ng-controller="DiariesController as diaries" ng-init="order='page_no'" class="mywapper">
       <div class="myorders">
         <p>Diaries in SVG:</p>
         <ul class="nav nav-pills">
@@ -25,32 +25,26 @@
       <div style="clear:both;height:30px;"></div>
       <div id="container">
       </div>
-		</div>
+	</div>
 
-		<!-- Javascript' guest stars: -->
-		<script src="js/jquery-1.11.2.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/d3.v2.js"></script>
-		<script src="js/fisheye.js"></script>
+	<!-- Javascript' guest stars: -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/d3.v2.js"></script>
     <script>
-      // temporary var here:
-      // each line = one diary
-
       function highlight() {
         var svgContainer = d3.select("#container").append("svg")
-          .attr("width", 800)
-          .attr("height", 400)
+          .attr("width", "80%")
+          .attr("height", "80%")
           .attr("style", "position:absolute;top:100;left:30;border:2px solid blue;");
         var c = 0
-        var fisheye = d3.fisheye.circular()
-            .radius(200)
-            .distortion(2);
-            
+                   
         topicMatrix.forEach(function(row, i) {  
           row.forEach(function(column, j) { 
             if (column == 1) {
               var coord = getCoordinates(i, j);
               var myRect = svgContainer.append("rect")
+				        .attr("id", i+"x"+j)
                 .attr("width", 10)
                 .attr("height", 5)
                 .attr("x", coord[0])
@@ -61,21 +55,28 @@
                     .attr("class", "selected")
                     .attr("width", 100)
                     .attr("height", 100)
-                    .attr("x", coord[0])
+                    .attr("x", 15+coord[0])
                     .attr("y", coord[1])
                     .attr("style", "fill:grey");})
-                  //return myRect.attr("width", "100").attr("height", "30").style("fill","blue").style("z-index","10");})
-                //.on("mouseout", function(){return myRect.attr("width", "10").attr("height", "3").style("fill","red");});
-                .on("mousemove", function() {
-                  fisheye.focus(d3.mouse(this));
-                })
                 .on("mouseout", function(){
-                  return svgContainer.selectAll("rect.selected").remove();});
+                  return svgContainer.selectAll("rect.selected").remove();})
+                .on("click", function(){
+                  return svgContainer.append("rect")
+                    .attr("class", "reader")
+                    .attr("id", "reader")
+                    .attr("width", 300)
+                    .attr("height", 300)
+                    .attr("x", 100)
+                    .attr("y", 100)
+                    .attr("style", "fill:blue");});
             }
             c = c +1;
           });
         });
         console.log("counter: "+c);
+        $("rect.reader").click(function () {
+          $("rect.reader").remove();
+        });
       }
 
 highlight('1', topicMatrix);
