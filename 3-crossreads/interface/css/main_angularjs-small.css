@@ -124,6 +124,7 @@ svg, nopadding {
   border:3px solid red;
 }
 
+/* divs based grid */
 #grid {
   width:80%;
   height:80%;
@@ -149,3 +150,15 @@ svg, nopadding {
   min-height:100px;
   z-index:10;
 }
+
+#reader {
+  display:none;
+  position:absolute;
+  top:200px;
+  left:200px;
+  background-color:grey;
+  min-width:300px;
+  min-height:300px;
+  z-index:20;
+}
+

@@ -26,6 +26,7 @@
       <div id="container">
         <div id="grid"></div>
         <div id="detail">www</div>
+        <div id="reader">reader</div>
       </div>
 	</div>
 
@@ -37,28 +38,38 @@
     // Grid builder
     var c = 0;
     $.each(topicMatrix, function(i, row) {
-      //console.log("row: "+row+" | i: "+i);
       $.each(row, function(j, column) { 
         if (column == 1) {
           var coord = getCoordinates(i, j);
           $("#grid").append("<div id='"+i+"x"+j+"' class='pp' style=\"top:"+coord[1]+"px;left:"+coord[0]+"px;\"></div>");
-        //console.log("i: "+i+" | coord[0]: "+coord[0]+" | j: "+j+" | coord[1]: "+coord[1]);
         }
-        //console.log("column: "+column+" | j: "+j);
         c += 1;
       })
     })
+
+    // Detail popup
     $(".pp")
       .mouseover(function() {
         var pos = $(this).position();
-        $("#detail").css("display","block").css("top",pos.top+"px").css("left",pos.left+"px");
+        var offs = $(this).offset();
+        $("#detail").css("display","block").css("top",pos.top+7+"px").css("left",pos.left+106+"px");
+        $(this).css("border","2px solid black");//.css("width","8px").css("height","6px");
+        
       })
       .mouseout(function() {
         $("#detail").css("display","none");
+        $(this).css("border","0");//.css("width","4px").css("height","6px");
+      })
+      // Reader popup
+      .click(function() {
+        $("#reader").css("display","block");
       });
-    
-    //console.log("counter: "+c);
-
+      $("#reader").click(function() {
+        $("#reader").css("display","none");
+      });
+      
+      
+      
     function xx() {
       $(".reader").click(function(){
 					  console.log("XXXXX");
