@@ -1,0 +1,6 @@
+[[0..1) date, [1..4) date]
+[[0..1) date, [1..4) date]
+[[0..1) date, [1..2) date, [3..4) date]
+[[0..1) date, [3..5) date, [7..9) date, [11..13) date, [15..16) date]
+[[0..1) date, [3..4) date, [10..11) date]
+[[0..1) date, [3..4) date]

@@ -1,0 +1,5 @@
+[[1..2) person, [6..7) person]
+[[0..2) person, [3..5) person, [6..10) person]
+[[0..2) person, [3..5) person, [6..7) person]
+[[4..6) person, [11..12) person, [18..19) person]
+[[0..2) person, [3..5) person, [7..9) person]
