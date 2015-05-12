@@ -5,8 +5,6 @@ Tool: Snowball Stemmer
 File extension: .lemma
 
 
-
-
 ################################
 NER folder
 Named Entity Tagging
