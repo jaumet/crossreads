@@ -1,0 +1,91 @@
+Compilation
+===
+
+Use Eclipse, ensure all of the .jar's in lib/ are on the project classpath.
+
+
+Examples
+===
+
+./run nlp.nicta.ner.NamedEntityAnalyser
+./run web.reader.WebPageReader
+./run web.reader.RSSReader
+
+
+Task
+===
+
+A. Named Entity Extraction
+
+(1) Look at files/article1.txt
+(2) Look at NER system: nlp.nicta.ner.NamedEntityAnalyser
+
+    What are named entities?  Why might they be useful in document analysis?
+    You don't need to understand how this works, you just need to know how
+    call the system to convert Strings of text into a collection of named
+    entities.
+
+B. XML Processing for HTML/XHTML
+
+(3) Look at HTML -> XHTML web page parser: web.reader.WebPageReader
+
+    This code converts HTML to XHTML for use with XML tools (e.g., XPath).
+
+(4) Look at util.XMLUtils.PrintNode for printing out XML 
+    (this is most everything you need to know to access XML structure,
+     understand all details of this method).
+     
+    To understand how to query for certain XML nodes with XPath, you'll
+    do this next in part C. 
+
+C. XML RSS Feed Processing via XML / XPath
+
+(5) Look at XML web page reader: web.reader.RSSReader
+(6) Complete methods getLinks() and getNamedEntities() in RSSReader
+
+    The solution is in RSSReader_LabSoln, but please try to complete the
+    lab yourself without referring to the solution.  The lab is not graded,
+    but understanding all of it will help you with the assignment.
+
+D. Querying Twitter
+
+(7) Run the following code
+
+      twitter4j.examples.search.SearchTweets
+      twitter4j.examples.search.ReverseGeoCode    
+
+    Twitter4j is the unofficial library for querying Twitter from Java.
+    Twitter4j has very sparse documentation, but if you understand how a query
+    is constructed directly from the JavaDoc for the Query class
+    
+      http://twitter4j.org/en/javadoc/twitter4j/Query.html
+    
+    and you see a few helpful examples in the twitter4j.examples package
+    included in the lab code as well as these examples
+    
+      http://www.devmanuals.com/tutorials/java/TWITTER4J.html
+    
+    then you should be able to figure things out for the assignment.  It may
+    involve some detective work and Google use on your part -- this is the point 
+    of the assignment questions -- I want students to become adept at using new 
+    Java libraries they have never used before.  You can ask your friend for the
+    answer, but this defeats the purpose.
+    
+    Start the Twitter question on the assignment and ask Scott any questions during
+    the lab.  Ideally, you can finish this assignment question during the lab.
+    
+    ===
+    
+    There are more Twitter4j examples on the Twitter4j website and in the release
+    distribution, but these mostly explore complex authenticated aspects of accessing
+    Twitter, whereas our queries above are simple unauthenticated queries using the
+    Twitter Search API.  You do not need this more complex functionality for the
+    assignment.
+    
+E. Other code needed in NLP lab
+
+(8) There are many other NLP classes in this code distribution that will be used in
+    Hanna's NLP section of the course.  You might want to take a look at the nlp.opennlp
+    package... Hanna will cover what each of these tools does during her section and
+    you will use some of them in her assignment.
+

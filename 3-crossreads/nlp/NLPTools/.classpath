@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/jaws-bin.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/jwnl.jar"/>
+	<classpathentry kind="lib" path="lib/lingpipe-3.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/maxent-2.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/nekohtml-1.9.11.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/opennlp-0.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/opennlp.jar"/>
+	<classpathentry kind="lib" path="lib/openNLPtools.jar"/>
+	<classpathentry kind="lib" path="lib/snowball_stemmer.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-parser-2008-10-26.jar"/>
+	<classpathentry kind="lib" path="lib/trove.jar"/>
+	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jwpl_v05b.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-async-2.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-core-2.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-media-support-2.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-stream-2.2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
