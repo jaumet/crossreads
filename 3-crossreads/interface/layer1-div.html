@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="library">
+<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main_angularjs-small.css">
+		<script src="data/dataDiaries-small.js"></script>
+		<script src="data/topicsDummy.js"></script>
+</head>
+<body>
+	<div ng-controller="DiariesController as diaries" ng-init="order='page_no'" class="mywapper">
+      <div class="myorders">
+        <p>Diaries in SVG:</p>
+        <ul class="nav nav-pills">
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no </a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+        </ul>
+      </div>
+      <div class="myorders">
+        <p>Highlight pages</p>
+        <ul class="nav nav-pills">
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no</a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+        </ul>
+      </div>
+      <div style="clear:both;height:30px;"></div>
+      <div id="container">
+        <div id="grid"></div>
+        <div id="detail">www</div>
+        <div id="reader">reader</div>
+      </div>
+	</div>
+
+	<!-- Javascript' guest stars: -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <script>
+  $(function(){ 
+    // Grid builder
+    var c = 0;
+    $.each(topicMatrix, function(i, row) {
+      $.each(row, function(j, column) { 
+        if (column == 1) {
+          var coord = getCoordinates(i, j);
+          $("#grid").append("<div id='"+i+"x"+j+"' class='pp' style=\"top:"+coord[1]+"px;left:"+coord[0]+"px;\"></div>");
+        }
+        c += 1;
+      })
+    })
+
+    // Detail popup
+    $(".pp")
+      .mouseover(function() {
+        var pos = $(this).position();
+        var offs = $(this).offset();
+        $("#detail").css("display","block").css("top",pos.top+7+"px").css("left",pos.left+106+"px");
+        $(this).css("border","2px solid black");//.css("width","8px").css("height","6px");
+        
+      })
+      .mouseout(function() {
+        $("#detail").css("display","none");
+        $(this).css("border","0");//.css("width","4px").css("height","6px");
+      })
+      // Reader popup
+      .click(function() {
+        $("#reader").css("display","block");
+      });
+      $("#reader").click(function() {
+        $("#reader").css("display","none");
+      });
+      
+      
+      
+    function xx() {
+      $(".reader").click(function(){
+					  console.log("XXXXX");
+					  return d3.selectAll("rect.reader").remove();
+		  });
+		  }
+
+      function getCoordinates(diaryId, pageNo)  {
+        var column = diaryId*5;
+        var row = pageNo*7;
+        return [column,row];
+      }
+  });
+  </script>
+</body>
+</html>
+

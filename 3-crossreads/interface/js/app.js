@@ -4,11 +4,11 @@
 
 	app.controller('DiariesController', function(){
 		this.diary = DATA;
-		mytest(DATA);
   });
 
-	function mytest(xx) {
-		$("#callme").html("Hello from app.js"+xx[0]["date"]);
-	}
+  function randomTopic() {
+    mytopics = ["A", "B", "C"];
+    return mytopics[Math.floor(Math.random()*mytopics.length)];
+  }
 
 }());

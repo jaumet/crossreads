@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="library">
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main_angularjs-small.css">
+		<script src="data/dataDiaries-small.js"></script>
+		<script src="data/topicsDummy.js"></script>
+	</head>
+	<body>
+	<div ng-controller="DiariesController as diaries" ng-init="order='page_no'" class="mywapper">
+      <div class="myorders">
+        <p>Diaries in SVG:</p>
+        <ul class="nav nav-pills">
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no </a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+        </ul>
+      </div>
+      <div class="myorders">
+        <p>Highlight pages</p>
+        <ul class="nav nav-pills">
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no</a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+        </ul>
+      </div>
+      <div style="clear:both;height:30px;"></div>
+      <div id="container">
+      </div>
+	</div>
+
+	<!-- Javascript' guest stars: -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/d3.v2.js"></script>
+    <script>
+      function highlight() {
+        var svgContainer = d3.select("#container").append("svg")
+          .attr("width", "80%")
+          .attr("height", "80%")
+          .attr("style", "position:absolute;top:100;left:30;border:2px solid blue;");
+        var c = 0
+                   
+        topicMatrix.forEach(function(row, i) {  
+          row.forEach(function(column, j) { 
+            if (column == 1) {
+              var coord = getCoordinates(i, j);
+              var myRect = svgContainer.append("rect")
+				        .attr("id", i+"x"+j)
+                .attr("width", 10)
+                .attr("height", 5)
+                .attr("x", coord[0])
+                .attr("y", coord[1])
+                .attr("style", "fill:red")
+                .on("mouseover", function(){
+                  return svgContainer.append("rect")
+                    .attr("class", "selected")
+                    .attr("width", 100)
+                    .attr("height", 100)
+                    .attr("x", 15+coord[0])
+                    .attr("y", coord[1])
+                    .attr("style", "fill:grey");})
+                .on("mouseout", function(){
+                  return svgContainer.selectAll("rect.selected").remove();})
+                .on("click", function(){
+                  return svgContainer.append("rect")
+                    .attr("class", "reader")
+                    .attr("id", "reader")
+                    .attr("width", 300)
+                    .attr("height", 300)
+                    .attr("x", 100)
+                    .attr("y", 100)
+                    .attr("style", "fill:blue");});
+            }
+            c = c +1;
+          });
+        });
+        console.log("counter: "+c);
+        $("rect.reader").click(function () {
+          $("rect.reader").remove();
+        });
+      }
+
+highlight('1', topicMatrix);
+
+  
+
+      function d3each() {
+        topicMatrix.forEach(function(row, i) { 
+          //console.log("index: "+i+" | element: "+row)
+          row.forEach(function(column, i) {
+            console.log("index: "+i+" | element: "+column)
+          })
+        })
+      }
+//d3each();
+
+      function getCoordinates(diaryId, pageNo)  {
+        var column = diaryId*15;
+        var row = 21 + 7*pageNo;
+        return [column,row];
+      }
+
+
+      $('li').click(function(){
+        $('rect[kind=10]').css("fill","rgb(50,50,55)").css("stroke-width","0").css("stroke","rgb(50,50,50)");
+      });
+    </script>		
+
+		</body>
+</html>
