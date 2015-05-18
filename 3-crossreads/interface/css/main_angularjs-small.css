@@ -140,7 +140,7 @@ svg, nopadding {
   position:absolute;
 }
 
-.pp {
+.row div {
   border:0;
   position:absolute;
   min-width:6px;
@@ -166,4 +166,13 @@ svg, nopadding {
   min-height:300px;
   z-index:20;
 }
+
+/*color of pages*/
+.c1  {background-color: #9966cc;}
+.c2  {background-color: #66cccc;}
+.c3  {background-color: #99cc66;}
+.c4  {background-color: #cc6666;}
+.c5  {background-color: white;}
+
+
 

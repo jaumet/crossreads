@@ -4,7 +4,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/main_angularjs-small.css">
 		<script src="data/dataDiaries-small.js"></script>
-		<script src="data/topicsDummyBU.js"></script>
+		<script src="data/topicsDummy.js"></script>
 </head>
 <body>
 	<div class="mywapper">
@@ -42,20 +42,20 @@
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) { 
         var coord = getCoordinates(i, j);
-        //console.log("column : "+column);
-        $("#"+i).append("<div id='"+i+"x"+j+"' class='pp' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;background-color:"+mycolor[column]+";\"></div>");
+        $("#"+i).append("<div id='"+i+"x"+j+"' class='c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
     console.log("TOTAL PAGES= "+c);
+    
     // Detail popup
-    $(".pp")
+    $(".row div")
       .mouseover(function() {
         var pos = $(this).position();
         var offs = $(this).offset();
-        var bgcolor = $(this).css("background-color");
+        var classBgcolor = $(this).attr("class");
         // FIXME create a function to calculate corrections on top and left depending on the position of the mouse and the size of the screen 
-        $("#detail").css("display","block").css("top",pos.top+75+"px").css("left",pos.left+"px").css("background-color",bgcolor);
+        $("#detail").css("display","block").css("top",pos.top+75+"px").css("left",pos.left+"px").addClass(classBgcolor);
         $(this).css("border","2px solid black");
         
       })
@@ -65,8 +65,8 @@
       })
       // Reader popup
       .click(function() {
-        var bgcolor = $(this).css("background-color");
-        $("#reader").css("display","block").css("background-color", bgcolor);
+        var classBgcolor = $(this).attr("class");
+        $("#reader").css("display","block").addClass(classBgcolor);
       });
       $("#reader").click(function() {
         $("#reader").css("display","none");
