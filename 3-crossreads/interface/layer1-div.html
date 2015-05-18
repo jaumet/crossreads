@@ -11,15 +11,18 @@
       <div class="myorders">
         <p>Diaries in SVG:</p>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no">by page_no </a></li>
-          <li role="presentation" data-toggle="pill"><a href="#by-kind">by kind</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no">Show all topics</a></li>
+          <li role="presentation" data-toggle="pill"><a id="hideAllTopics" href="#by-kind">Hide all topics</a></li>
         </ul>
       </div>
       <div class="myorders">
         <p>Highlight pages</p>
-        <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no">by page_no</a></li>
-          <li role="presentation" data-toggle="pill"><a href="#by-kind">by kind</a></li>
+        <ul id="topicsView" class="nav nav-pills">
+          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">topic 1</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">topic 2</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">topic 3</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">topic 4</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">topic 5</a></li>
         </ul>
       </div>
       <div style="clear:both;height:30px;"></div>
@@ -40,9 +43,10 @@
     var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
     $.each(topicMatrix, function(i, row) {
       $("#grid").append("<div id='"+i+"' class='row'></div>");
+      //$("#grid").append("<div id='"+i+"' class='row' style='position:absolute;top:"+i*5+"px;'></div>");
       $.each(row, function(j, column) { 
         var coord = getCoordinates(i, j);
-        $("#"+i).append("<div id='"+i+"x"+j+"' class='c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
+        $("#"+i).append("<div id='"+i+"x"+j+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
@@ -54,32 +58,74 @@
         var pos = $(this).position();
         var offs = $(this).offset();
         var classBgcolor = $(this).attr("class");
-        // FIXME create a function to calculate corrections on top and left depending on the position of the mouse and the size of the screen 
-        $("#detail").css("display","block").css("top",pos.top+75+"px").css("left",pos.left+"px").addClass(classBgcolor);
-        $(this).css("border","2px solid black");
-        
+        // FIXME create a function to calculate corrections on top and left depending on the position 
+        // of the mouse and the size of the screen 
+        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
+          $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+3+"px").css("left",pos.left+32+"px");
+          $(this).css("border","2px solid #000");
+        }
       })
       .mouseout(function() {
-        $("#detail").css("display","none");
-        $(this).css("border","0");//.css("width","4px").css("height","6px");
+        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
+          $("#detail").css("display","none").attr('class', '');
+          $(this).css("border","0");
+        }
       })
       // Reader popup
       .click(function() {
-        var classBgcolor = $(this).attr("class");
-        $("#reader").css("display","block").addClass(classBgcolor);
+        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
+          var classBgcolor = $(this).attr("class");
+          $("#reader").addClass(classBgcolor).css("display","block");
+          console.log("classBgcolor: "+classBgcolor);
+        }
       });
       $("#reader").click(function() {
-        $("#reader").css("display","none");
+        $("#reader").css("display","none").attr('class', '');
       });
       
+      // buttons: show/hide topics
+      $("#showAllTopics").click(function() {
+        topicsView("show");
+      });
+      $("#hideAllTopics").click(function() {
+        topicsView("hide");
+      });
+      $("#topicsView li a").click(function() {
+        var myid = $(this).attr('id');
+        topicsView("hide");
+        topicsView(myid);
+      });
       
-      
-    function xx() {
-      $(".reader").click(function(){
-					  console.log("XXXXX");
-					  return d3.selectAll("rect.reader").remove();
-		  });
-		  }
+      // non-anonymous functions:
+      function topicsView(topic) {
+        switch (topic) { 
+          case 'show': 
+              $(".c").css('background-color','');
+              $("#topicsView li").attr('class', '');
+              break;
+          case 'hide': 
+              $(".c").css('background-color','white');
+              $("#topicsView li").attr('class', '');
+              break;
+          case 'showTopics1': 
+              $(".c1").css('background-color','');
+              break;
+          case 'showTopics2': 
+              $(".c2").css('background-color','');
+              break;
+          case 'showTopics3': 
+              $(".c3").css('background-color','');
+              break;
+          case 'showTopics4': 
+              $(".c4").css('background-color','');
+              break;
+          case 'showTopics5': 
+              $(".c5").css('background-color','');
+              break;
+          default:
+              var a=1;
+        }
+      }
 
       function getCoordinates(diaryId, pageNo)  {
         var column = diaryId*5;
