@@ -25,6 +25,11 @@
           <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">topic 5</a></li>
         </ul>
       </div>
+      <!--
+      FIXME use a class and addClass removeClass to be able to go back to original positions
+      $(".c4").css('z-index','100').css('left','').css('position','relative').css('float','left')
+      $(".c4").css('left','').css('position','relative').css('float','left') 
+     -->
       <div style="clear:both;height:30px;"></div>
       <div id="container">
         <div id="grid"></div>
@@ -62,7 +67,7 @@
         // of the mouse and the size of the screen 
         if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
           $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",pos.left+107+"px");
-          $(this).css("border","2px solid #000");
+          $(this).css("border","3px solid #0310FF");
         }
       })
       .mouseout(function() {

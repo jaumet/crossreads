@@ -157,6 +157,10 @@ svg, nopadding {
   min-width:100px;
   min-height:100px;
   z-index:10;
+  border:2px solid #0310FF;
+  padding:5px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;  
 }
 
 #reader {
@@ -174,7 +178,7 @@ svg, nopadding {
 .c2  {background-color: #66cccc;}
 .c3  {background-color: #99cc66;}
 .c4  {background-color: #cc6666;}
-.c5  {background-color: red;}
+.c5  {background-color: #E78F39;}
 
 
 
