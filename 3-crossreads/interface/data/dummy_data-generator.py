@@ -61,7 +61,20 @@ def generate_diaries_file():
   file.write(mydata)
   file.close
 
+def generate_topicsDummy():
+  mydata = 'var topicMatrix = [\n'
+  for my_diary_id in range(1,130): 
+    tmp = '['
+    for page_no in range(1,randint(70,140)):
+      tmp += str(randint(1,5))+','
+    print tmp
+    mydata += tmp[:-1]+'],\n'
+  mydata += '];'
+  file = open('topicsDummy.js', "w")
+  file.write(mydata)
+  file.close
+  
 ############################
 #generate_pages()
-generate_diaries_file()
-
+#generate_diaries_file()
+generate_topicsDummy()

@@ -126,20 +126,25 @@ svg, nopadding {
 
 /* divs based grid */
 #grid {
-  width:80%;
-  height:80%;
+  width:1000px;
+  height:900px;
   position:absolute;
   top:100;
-  left:30;
+  left:0;
   border:2px solid blue;
 }
 
+.row {
+  border:0;
+  left:10;
+  position:absolute;
+}
+
 .pp {
-  background-color:red;
   border:0;
   position:absolute;
-  min-width:4px;
-  min-height:6px;
+  min-width:6px;
+  min-height:4px;
 }
 
 #detail {

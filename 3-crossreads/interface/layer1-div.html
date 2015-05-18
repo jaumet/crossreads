@@ -4,22 +4,22 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/main_angularjs-small.css">
 		<script src="data/dataDiaries-small.js"></script>
-		<script src="data/topicsDummy.js"></script>
+		<script src="data/topicsDummyBU.js"></script>
 </head>
 <body>
-	<div ng-controller="DiariesController as diaries" ng-init="order='page_no'" class="mywapper">
+	<div class="mywapper">
       <div class="myorders">
         <p>Diaries in SVG:</p>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no </a></li>
-          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no">by page_no </a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind">by kind</a></li>
         </ul>
       </div>
       <div class="myorders">
         <p>Highlight pages</p>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no" ng-click="order='page_no'">by page_no</a></li>
-          <li role="presentation" data-toggle="pill"><a href="#by-kind" ng-click="order='kind'">by kind</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a href="#by-page_no">by page_no</a></li>
+          <li role="presentation" data-toggle="pill"><a href="#by-kind">by kind</a></li>
         </ul>
       </div>
       <div style="clear:both;height:30px;"></div>
@@ -37,23 +37,26 @@
   $(function(){ 
     // Grid builder
     var c = 0;
+    var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
     $.each(topicMatrix, function(i, row) {
+      $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) { 
-        if (column == 1) {
-          var coord = getCoordinates(i, j);
-          $("#grid").append("<div id='"+i+"x"+j+"' class='pp' style=\"top:"+coord[1]+"px;left:"+coord[0]+"px;\"></div>");
-        }
+        var coord = getCoordinates(i, j);
+        //console.log("column : "+column);
+        $("#"+i).append("<div id='"+i+"x"+j+"' class='pp' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;background-color:"+mycolor[column]+";\"></div>");
         c += 1;
       })
     })
-
+    console.log("TOTAL PAGES= "+c);
     // Detail popup
     $(".pp")
       .mouseover(function() {
         var pos = $(this).position();
         var offs = $(this).offset();
-        $("#detail").css("display","block").css("top",pos.top+7+"px").css("left",pos.left+106+"px");
-        $(this).css("border","2px solid black");//.css("width","8px").css("height","6px");
+        var bgcolor = $(this).css("background-color");
+        // FIXME create a function to calculate corrections on top and left depending on the position of the mouse and the size of the screen 
+        $("#detail").css("display","block").css("top",pos.top+75+"px").css("left",pos.left+"px").css("background-color",bgcolor);
+        $(this).css("border","2px solid black");
         
       })
       .mouseout(function() {
@@ -62,7 +65,8 @@
       })
       // Reader popup
       .click(function() {
-        $("#reader").css("display","block");
+        var bgcolor = $(this).css("background-color");
+        $("#reader").css("display","block").css("background-color", bgcolor);
       });
       $("#reader").click(function() {
         $("#reader").css("display","none");
