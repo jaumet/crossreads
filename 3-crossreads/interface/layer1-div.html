@@ -38,7 +38,18 @@
         <div id="grid"></div>
         <div id="detail">www</div>
         <div id="reader-overlay">reader</div>
-        <div id="reader">reader</div>
+        <div id="reader-wrapper">
+          <div id="browser1" class="browser">browser 1</div>
+          <div id="browser2" class="browser">browser 2</div>
+          <div id="browser3" class="browser">browser 3</div>
+          <div id="reader">
+            <div id="reader-close">
+              <img src="img/w_close.png" width="28px"/>
+            </div>
+            <div id="reader-main">
+            </div>
+          </div>
+        </div>
       </div>
 	</div>
 
@@ -85,17 +96,20 @@
       // Reader popup
       .click(function() {
         if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
-          $("#reader").css("display","none").attr('class', '');
+          $("#reader-wrapper").css("display","none").attr('class', '');
           var classBgcolor = $(this).attr("class");
-          $("#reader").addClass(classBgcolor).css("display","block");
+          $("#reader-wrapper").css("display","block");
+          $("#reader").addClass(classBgcolor);
           $("#reader-overlay").css("display","block");
-          console.log("classBgcolor: "+classBgcolor);
+          $(".browser").addClass(classBgcolor);
         }
       });
 
-    $("#reader").click(function() {
-      $("#reader").css("display","none").attr('class', '');
+    $("#reader-close img").click(function() {
+      $("#reader-wrapper").css("display","none");
+      $("#reader").attr('class', '');
       $("#reader-overlay").css("display","none");
+      $(".browser").attr('class', '');
     });
     
     // buttons: show/hide topics

@@ -163,18 +163,49 @@ svg, nopadding {
   -moz-border-radius: 5%;  
 }
 
-#reader {
+#reader-wrapper {
   display:none;
   position:absolute;
   top:30%;
   left:30%;
-  min-width:300px;
-  min-height:300px;
+  min-width:600px;
+  min-height:400px;
   z-index:20;
   border:2px solid #0310FF;
   padding:5px;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%; 
+  float:left;
+}
+
+#reader {
+  display:block;
+  position:relative;
+  width:300px;
+  height:300px;
+  z-index:20;
+  margin:15px;
+  border:2px solid #0310FF;
+  padding:5px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%; 
+}
+
+.browser {
+  display:inline;
+  position:relative;
+  width:80px;
+  height:80px;
+  z-index:20;
+  margin:15px;
+  border:2px solid #0310FF;
+  padding:5px;
+  -webkit-border-radius: 35%;
+  -moz-border-radius: 35%; 
+}
+
+#browser1 {
+
 }
 
 #reader-overlay {
@@ -188,6 +219,24 @@ svg, nopadding {
   opacity:0.5;
 	display: none;
 	z-index: 19;
+}
+
+#reader-close {
+  position:relative;
+  width:100%;
+  height:30px;
+  border:1px solid red;
+}
+
+#reader-close img {
+  position:relative;
+  float:right;
+}
+#reader-main {
+  position:relative;
+  width:100%;
+  height:270px;
+  border:1px solid green;
 }
 
 /*color of topics*/
