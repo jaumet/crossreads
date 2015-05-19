@@ -185,7 +185,7 @@ svg, nopadding {
   height:300px;
   z-index:20;
   margin:15px;
-  border:2px solid #0310FF;
+  border:1px solid #0310FF;
   padding:5px;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%; 
@@ -194,14 +194,14 @@ svg, nopadding {
 .browser {
   display:inline;
   position:relative;
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
   z-index:20;
   margin:15px;
-  border:2px solid #0310FF;
+  border:1px solid #0310FF;
   padding:5px;
-  -webkit-border-radius: 35%;
-  -moz-border-radius: 35%; 
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%; 
 }
 
 #browser1 {
