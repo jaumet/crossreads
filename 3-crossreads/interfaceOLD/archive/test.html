@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="http://d3js.org/d3.v2.js"></script>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            var svg = d3.select("body")
+                .append("svg")
+                .attr("width", 800)
+                .attr("height", 500)
+                .style("border", "1px solid black");
+
+            var text = svg.selectAll("text")
+                .data([0])
+                .enter()
+                .append("text")
+                .text("Testing")
+                .attr("x", "40")
+                .attr("y", "60");
+
+            var imgs = svg.selectAll("image").data([0]);
+                imgs.enter()
+                .append("svg:image")
+                .attr("xlink:href", "img/test-3.svg")
+                //.attr("xlink:href", "file:///home/jnualart/public_html/crossreads/3-crossreads/interface/img/a2737001h.jpg")
+                //.attr("xlink:href", "img/a2737001h.jpg")
+                .attr("x", "0")
+                .attr("y", "0")
+                .attr("width", "20")
+                .attr("height", "80");
+
+        </script>
+    </body>
+</html>

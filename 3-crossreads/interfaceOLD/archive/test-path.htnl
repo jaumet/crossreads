@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+<svg viewBox = "0 0 1100 400" version = "1.1">
+    <g stroke = "navy" stroke-width = "3" fill = "none">
+        <path d = "M 300 50 a 150 50 0 0 0 250 50"/>
+        <path d = "M 300 200 a 150 50 0 0 1 250 50"/>
+        <path d = "M 700 50 a 150 50 0 1 0 250 50"/>
+        <path d = "M 700 200 a 150 50 0 1 1 250 50"/>
+    </g>
+    <g text-anchor = "middle" font-size = "25" font = "sans-serif">
+        <text x = "400" y = "20">
+            large-arc-flag=0
+        </text>
+        <text x = "825" y = "20">
+            large-arc-flag=1
+        </text>
+    </g>
+    <g text-anchor = "end" font-size = "25" font = "sans-serif" rotate = "0">
+        <text x = "230" y = "70">
+            sweep-flag=0
+        </text>
+        <text x = "230" y = "220">
+            sweep-flag=1
+        </text>
+    </g>
+</svg>
