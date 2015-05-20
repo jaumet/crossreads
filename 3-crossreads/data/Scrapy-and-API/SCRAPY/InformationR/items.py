@@ -62,7 +62,7 @@ class WWIDiaries(Item):
 class WWIDiariesToPages(Item):
     pageUrl = Field()
     #pageUrl = Field()
-    #pageImage = Field()
+    diariesDigitalOrderNumber = Field()
     pass
 
 

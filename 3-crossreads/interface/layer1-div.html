@@ -3,7 +3,7 @@
 <head>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
-		<script src="data/dataDiaries-small.js"></script>
+		<script src="data/dataDiaries-don.js"></script>
 		<script src="data/topicsDummy.js"></script>
 </head>
 <body>
@@ -85,6 +85,9 @@
         if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
           $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",pos.left+107+"px");
           $(this).css("border","3px solid #0310FF");
+          var myid = $(this).attr('id').split("x");
+          $("#detail").html(view_detail(myid[0], myid[1], DATA));
+          //console.log(DATA[mydiary]["title"]);
         }
       })
       .mouseout(function() {
@@ -126,6 +129,48 @@
     });
     
     // non-anonymous functions:
+    function view_detail(row, column, DATA)  {
+      var g = DATA[row];
+      /*
+      "id":127,
+      "diary_id":100411,
+      "title":"Armstrong family papers, 1918",
+      "start_date": [{"start_day":"1","start_month":"January","start_year":"1918"}],
+      "end_date": [{"end_day":"31","end_month":"December","end_year":"1918"}],
+      "page_no":72,
+      "location":"location",
+      "topics":"topics",
+      "kind":"family papers",
+      "author":"Armstrong",
+      "cover":"a7172001h.jpg"
+      "don": ""
+      Page Url: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.jpg
+      */
+      var mypageFile = page_file_name(g["don"], column+1);
+      return sprintf('<p>%s <br />by %s</p><p>%s</p>\
+      <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
+      <p class="detail-p"><i>page %s from %s</i><br /><img src="http://transcripts.sl.nsw.gov.au/sites/all/files/%s" width="70px"/></p>', g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+//<p class="detail-p"><i>page %s from %s</i><br />http://transcripts.sl.nsw.gov.au/sites/all/files/%s0columnh.jpg</p>', g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], g["don"], column);
+    }
+    
+    function page_file_name(pre, suf) {
+      var mysuf = '';
+      var s = suf.toString();
+      switch (s.length) {
+        case 1:
+          mysuf = "00"+s;
+          break;
+        case 2:
+          mysuf = "0"+s;
+          break;
+        case 3:
+          mysuf = s;
+          break;
+      }
+      console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
+      return pre+mysuf+"h.jpg";
+    }
+    
     function topicsView(topic) {
       switch (topic) { 
         case 'show': 
@@ -160,6 +205,34 @@
       var column = diaryId*5;
       var row = pageNo*7;
       return [column,row];
+    }
+    
+    function sprintf() {
+      // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 
+      // by Luke Madhanga
+      var args = arguments,
+      string = args[0],
+      i = 1;
+      return string.replace(/%((%)|s|d)/g, function (m) {
+        // m is the matched format, e.g. %s, %d
+        var val = null;
+        if (m[2]) {
+          val = m[2];
+        } else {
+          val = args[i];
+          // A switch statement so that the formatter can be extended. Default is %s
+          switch (m) {
+            case '%d':
+              val = parseFloat(val);
+              if (isNaN(val)) {
+                val = 0;
+              }
+            break;
+          }
+          i++;
+        }
+        return val;
+      });
     }
   });
   </script>

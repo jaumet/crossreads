@@ -1,12 +1,24 @@
 
 
 DATA: WWI soldiers diaries
+Transcripts -> http://transcripts.sl.nsw.gov.au/
+
 http://ww1.sl.nsw.gov.au/content/james-macdonald
 http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=872426
 http://acms.sl.nsw.gov.au/_transcript/2014/D25496/a6667.html
 
 A transcription:
 http://acms.sl.nsw.gov.au/_transcript/2014/D25496/a6667.html
+
+PAGES IMAGES:
+
+
+Diary list of pages (thumbnails): http://transcripts.sl.nsw.gov.au/page/100427/view
+Page 36th thumbnail: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.jpg
+Page 16th view: http://transcripts.sl.nsw.gov.au/page/100427/view
+Page 16th big image: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.jpg
+
+
 
 
 EAMPLES OF NETWORK APPS:
@@ -32,7 +44,7 @@ Parallely to-do: data analysis
 
 
 
-ABOUT ANZAC 100 ANIVERSARIñ
+ABOUT ANZAC 100 ANIVERSARI
 - 18 Powerful Photos Of The Forgotten Indigenous Soldiers Of World War I
 	http://www.buzzfeed.com/jennaguillaume/powerful-photos-of-forgotten-indigenous-soldiers-of-wwi#.vbnbnD9AY
 - 8 Things You May Not Know About the Gallipoli Campaign

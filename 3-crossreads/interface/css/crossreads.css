@@ -158,9 +158,14 @@ svg, nopadding {
   min-height:100px;
   z-index:10;
   border:2px solid #0310FF;
-  padding:5px;
+  padding:10px;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;  
+}
+
+.detail-p {
+  float:left;
+  padding:3px;
 }
 
 #reader-wrapper {
