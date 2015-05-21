@@ -4,7 +4,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
 		<script src="data/dataDiaries-don.js"></script>
-		<script src="data/topicsDummy.js"></script>
+		<script src="data/dummyTopics-real-size.js"></script>
 </head>
 <body>
 	<div class="mywapper">
@@ -35,6 +35,7 @@
       <div style="clear:both;height:10px;"></div>
       <div id="header"></div>
       <div id="container">
+        <div id="left">&nbsp;&nbsp;129<br />Diaries</div>
         <div id="grid"></div>
         <div id="detail">www</div>
         <div id="reader-overlay">reader</div>
@@ -50,6 +51,7 @@
             </div>
           </div>
         </div>
+      	<div style="height:50px;"></div>
       </div>
 	</div>
 
@@ -61,13 +63,13 @@
   $(function(){ 
     // Grid builder
     var c = 0;
-  var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
+    //var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
     $.each(topicMatrix, function(i, row) {
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       //$("#grid").append("<div id='"+i+"' class='row' style='position:absolute;top:"+i*5+"px;'></div>");
       $.each(row, function(j, column) { 
         var coord = getCoordinates(i, j);
-        $("#"+i).append("<div id='"+i+"x"+j+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
+        $("#"+i).append("<div id='"+i+"x"+(Number(j)+1)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
@@ -105,6 +107,9 @@
           $("#reader").addClass(classBgcolor);
           $("#reader-overlay").css("display","block");
           $(".browser").addClass(classBgcolor);
+          $("#detail").css("display","none").attr('class', '');
+          var myid = $(this).attr('id').split("x");
+          $("#reader-main").html(view_reader(myid[0], myid[1], DATA));
         }
       });
 
@@ -146,14 +151,24 @@
       "don": ""
       Page Url: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.jpg
       */
-      var mypageFile = page_file_name(g["don"], column+1);
-      return sprintf('<p>%s <br />by %s</p><p>%s</p>\
+      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
+      return sprintf('<p>[id=%s]  %s <br />by %s</p><p>%s</p>\
       <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
-      <p class="detail-p"><i>page %s from %s</i><br /><img src="http://transcripts.sl.nsw.gov.au/sites/all/files/%s" width="70px"/></p>', g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+      <p class="detail-p"><i>page %s from %s</i><br /><img src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
 //<p class="detail-p"><i>page %s from %s</i><br />http://transcripts.sl.nsw.gov.au/sites/all/files/%s0columnh.jpg</p>', g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], g["don"], column);
     }
+
+    function view_reader(row, column, DATA)  {
+      var g = DATA[row];
+      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
+      return sprintf('<p>[id=%s]  %s <br />by %s</p><p>%s</p>\
+      <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
+      <p class="detail-p"><i>page %s from %s</i><br /><img src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+    }
     
-    function page_file_name(pre, suf) {
+    
+    function page_file_name(pre, suf, cover) {
+      var pre = 'http://transcripts.sl.nsw.gov.au/sites/all/files/'+pre;
       var mysuf = '';
       var s = suf.toString();
       switch (s.length) {
@@ -166,11 +181,30 @@
         case 3:
           mysuf = s;
           break;
+        default:
+          return 'data/covers/'+cover
+          break;
       }
       console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
       return pre+mysuf+"h.jpg";
     }
-    
+
+    function page_file_nameXX(pre, suf) {
+      var mysuf = '';
+      var s = suf.toString();
+      if (s.length<10) {
+        mysuf = "00"+s;
+      }
+      else if (s.length>=10 && s.length<100) {
+        mysuf = "0"+s;
+      }
+      else {
+        mysuf = s;
+      }
+      console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
+      return pre+mysuf+"h.jpg";
+    }
+        
     function topicsView(topic) {
       switch (topic) { 
         case 'show': 

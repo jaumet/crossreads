@@ -24,78 +24,8 @@ body {
   padding:5px;
 }
 
-#elements {
-  position:absolute;
-  top:0px;
-  left:0px;
-  color:red;
-  border:2px solid red;
-  background-color:white;
-  padding:10px;
-  border-radius:10px;
-}
-
-#mysvg {
-  position:absolute;
-  color:red;
-  border:2px solid red;
-  padding:0;
-  border-radius:10px;
-  z-index:100;
-}
-
 .jumbotron{
   padding-top:0px;
-}
-
-/* Diary + pages column:  */
-.column {
-  float:left;
-  min-height:100px;
-  background-color:;
-}
-
-/* Images DIV */
-
-.bg {
-  position:relative;
-  float:left;
-  padding:1px;
-  padding-top:2;
-  padding-bottom:0;
-}
-
-.bg img {
- width: 10px;
- height:15px; 
- opacity:0.5;
-}
-
-.bg img:hover {
- opacity:0;
-}
-
-.bor {
-  border:0px solid black
-}
-
-#lines  {
-  transition: all 6.4s cubic-bezier(0.05, 0.66, 0.05, 0.95);
-}
-
-/* pages pills */
-
-.pagepill {
-  display:block;
-  width:10px;
-  height:4px;
-  background-color:black;
-  padding-bottom:2px;
-  margin-bottom:2px;
-}
-
-svg, nopadding {
-	padding:0;
 }
 
 /**********/
@@ -109,25 +39,24 @@ svg, nopadding {
   margin-left:100px;
 }
 
-.toOrange {
-  background-color:orange;
-}
-
-
-.toRect {
-  fill:rgb(50,50,0);
-  stroke-width:0;
-  stroke:rgb(50,50,50)
-}
-
 #highlights {
   border:3px solid red;
 }
 
 /* divs based grid */
+#left {
+  position:absolute;
+  top:120px;
+  left:30px;
+}
+
+#left, #header {
+  font-weight:bold;  
+}
+
 #grid {
   width:1000px;
-  height:648px;
+  height:647px;
   position:absolute;
   top:100px;
   left:100px;
@@ -138,10 +67,6 @@ svg, nopadding {
   position:absolute;
   border:0px solid red;
   left:15px;
-/*
-  width:1200px;
-  height:5px;
-*/
 }
 
 .row div {
@@ -171,8 +96,7 @@ svg, nopadding {
 #reader-wrapper {
   display:none;
   position:absolute;
-  top:30%;
-  left:30%;
+  margin:auto;
   min-width:600px;
   min-height:400px;
   z-index:20;
@@ -196,23 +120,6 @@ svg, nopadding {
   -moz-border-radius: 5%; 
 }
 
-.browser {
-  display:inline;
-  position:relative;
-  width:100px;
-  height:100px;
-  z-index:20;
-  margin:15px;
-  border:1px solid #0310FF;
-  padding:5px;
-  -webkit-border-radius: 40%;
-  -moz-border-radius: 40%; 
-}
-
-#browser1 {
-
-}
-
 #reader-overlay {
 	position: absolute;
 	top: 0;
@@ -221,7 +128,7 @@ svg, nopadding {
   height:100%;
 	overflow: hidden;
   background-color:grey;
-  opacity:0.5;
+  opacity:0.7;
 	display: none;
 	z-index: 19;
 }
@@ -237,6 +144,7 @@ svg, nopadding {
   position:relative;
   float:right;
 }
+
 #reader-main {
   position:relative;
   width:100%;
@@ -244,7 +152,21 @@ svg, nopadding {
   border:1px solid green;
 }
 
+.browser {
+  display:inline;
+  position:relative;
+  width:100px;
+  height:100px;
+  z-index:20;
+  margin:15px;
+  border:1px solid #0310FF;
+  padding:5px;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%; 
+}
+
 /*color of topics*/
+.c0  {background-color: #000000;height:3px;}
 .c1  {background-color: #9966cc;}
 .c2  {background-color: #66cccc;}
 .c3  {background-color: #99cc66;}
