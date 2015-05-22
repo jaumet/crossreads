@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="library">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
 		<script src="data/dataDiaries-don.js"></script>
-		<script src="data/dummyTopics-real-size.js"></script>
+		<script src="data/dataPages.js"></script>
+		<script src="data/dataTopics.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="mywapper">
@@ -33,29 +36,25 @@
       console.log("selected pages: "+numTopicPages);
      -->
       <div style="clear:both;height:10px;"></div>
-      <div id="header"></div>
+      
       <div id="container">
+        <div id="header"></div>
         <div id="left">&nbsp;&nbsp;129<br />Diaries</div>
         <div id="grid"></div>
-        <div id="detail">www</div>
-        <div id="reader-overlay">reader</div>
-        <div id="reader-wrapper">
-          <div id="browser1" class="browser">br 1</div>
-          <div id="browser2" class="browser">br 2</div>
-          <div id="browser3" class="browser">br 3</div>
+        <div id="detail"></div>
+        <div id="reader-overlay"></div>
           <div id="reader">
             <div id="reader-close">
               <img src="img/w_close.png" width="28px"/>
             </div>
-            <div id="reader-main">
-            </div>
+            <div id="meta"></div>
+            <div id="reader-main"></div>
           </div>
-        </div>
-      	<div style="height:50px;"></div>
       </div>
 	</div>
+	<div id="store"></div>
 
-	<!-- Javascript' guest stars: -->
+	<!-- Javascript guest stars: -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
@@ -66,7 +65,6 @@
     //var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
     $.each(topicMatrix, function(i, row) {
       $("#grid").append("<div id='"+i+"' class='row'></div>");
-      //$("#grid").append("<div id='"+i+"' class='row' style='position:absolute;top:"+i*5+"px;'></div>");
       $.each(row, function(j, column) { 
         var coord = getCoordinates(i, j);
         $("#"+i).append("<div id='"+i+"x"+(Number(j)+1)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
@@ -89,7 +87,6 @@
           $(this).css("border","3px solid #0310FF");
           var myid = $(this).attr('id').split("x");
           $("#detail").html(view_detail(myid[0], myid[1], DATA));
-          //console.log(DATA[mydiary]["title"]);
         }
       })
       .mouseout(function() {
@@ -103,21 +100,27 @@
         if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
           $("#reader-wrapper").css("display","none").attr('class', '');
           var classBgcolor = $(this).attr("class");
-          $("#reader-wrapper").css("display","block");
+          $("#reader").css("display","block");
           $("#reader").addClass(classBgcolor);
           $("#reader-overlay").css("display","block");
           $(".browser").addClass(classBgcolor);
           $("#detail").css("display","none").attr('class', '');
           var myid = $(this).attr('id').split("x");
-          $("#reader-main").html(view_reader(myid[0], myid[1], DATA));
+          $("#reader-main").html($("#store").text(view_reader_text(myid[0], myid[1], DATA)));
+          $("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
+          enlarge();
         }
       });
 
     $("#reader-close img").click(function() {
-      $("#reader-wrapper").css("display","none");
-      $("#reader").attr('class', '');
+      $("#reader").css("display","none");
       $("#reader-overlay").css("display","none");
-      $(".browser").removeClass(classBgcolor);
+    });
+    $(document).on( 'keydown', function ( e ) {
+      if ( e.keyCode === 27 ) { // key ESC
+        $("#reader").css("display","none");
+        $("#reader-overlay").css("display","none");
+      }
     });
     
     // buttons: show/hide topics
@@ -133,39 +136,48 @@
       topicsView(myid);
     });
     
+    function enlarge() {
+    // Enlarge images
+    $("img.enlarge")
+      .mouseover(function() {
+        $(this).addClass("enlarged");
+      })
+      .click(function() {
+        $(this).removeClass("enlarged");
+      })
+    }
+      
     // non-anonymous functions:
     function view_detail(row, column, DATA)  {
       var g = DATA[row];
-      /*
-      "id":127,
-      "diary_id":100411,
-      "title":"Armstrong family papers, 1918",
-      "start_date": [{"start_day":"1","start_month":"January","start_year":"1918"}],
-      "end_date": [{"end_day":"31","end_month":"December","end_year":"1918"}],
-      "page_no":72,
-      "location":"location",
-      "topics":"topics",
-      "kind":"family papers",
-      "author":"Armstrong",
-      "cover":"a7172001h.jpg"
-      "don": ""
-      Page Url: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.jpg
-      */
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
       return sprintf('<p>[id=%s]  %s <br />by %s</p><p>%s</p>\
       <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
-      <p class="detail-p"><i>page %s from %s</i><br /><img src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
-//<p class="detail-p"><i>page %s from %s</i><br />http://transcripts.sl.nsw.gov.au/sites/all/files/%s0columnh.jpg</p>', g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], g["don"], column);
+      <p class="detail-p"><i>page %s from %s</i><br /><img height="60px" width="60px" style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: center bottom;\' src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
     }
 
-    function view_reader(row, column, DATA)  {
+    function view_reader_meta(row, column, DATA)  {
       var g = DATA[row];
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
-      return sprintf('<p>[id=%s]  %s <br />by %s</p><p>%s</p>\
-      <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
-      <p class="detail-p"><i>page %s from %s</i><br /><img src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+      $("#meta").addClass("bgmeta"); //.css('background-image', 'url("data/covers/'+g["cover"]+'")');
+      return sprintf('<small><i>#diary no #%s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>Kind of diary: %s</p>\
+      <p class="detail-p">Cover<br /><img class="enlarge" src="data/covers/%s" width="70px"/></p>\
+      <p class="detail-p"><i>You are seeing page %s from %s</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
     }
-    
+
+    function view_reader_text(row, column, DATA)  {
+      var g = DATA[row]; 
+      console.log("ROW "+row);
+      var text = '';
+      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
+      var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";     
+      $("#store").load(path, function(path, responseTxt, statusTxt, xhr) {
+        if(statusTxt == "success") {text = "XXX"+$("#store").text();}
+        if(statusTxt == "error")  {text = "YYY<a src=\""+path+"\" target=\"xx\">"+path+"</a>";}  
+      });
+      console.log("-------> "+text);
+      return text;
+    }
     
     function page_file_name(pre, suf, cover) {
       var pre = 'http://transcripts.sl.nsw.gov.au/sites/all/files/'+pre;
@@ -188,23 +200,7 @@
       console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
       return pre+mysuf+"h.jpg";
     }
-
-    function page_file_nameXX(pre, suf) {
-      var mysuf = '';
-      var s = suf.toString();
-      if (s.length<10) {
-        mysuf = "00"+s;
-      }
-      else if (s.length>=10 && s.length<100) {
-        mysuf = "0"+s;
-      }
-      else {
-        mysuf = s;
-      }
-      console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
-      return pre+mysuf+"h.jpg";
-    }
-        
+            
     function topicsView(topic) {
       switch (topic) { 
         case 'show': 
