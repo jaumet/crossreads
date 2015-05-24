@@ -62,12 +62,13 @@
   $(function(){ 
     // Grid builder
     var c = 0;
-    //var mycolor = ['#9966cc','#66cccc','#99cc66','#cc6666', 'white'];
     $.each(topicMatrix, function(i, row) {
-      $("#grid").append("<div id='"+i+"' class='row'></div>");
-      $.each(row, function(j, column) { 
+      myi = i +1;
+      $("#grid").append("<div id='"+myi+"' class='row'></div>");
+      $.each(row, function(j, column) {
+        myj = j + 1 
         var coord = getCoordinates(i, j);
-        $("#"+i).append("<div id='"+i+"x"+(Number(j)+1)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
+        $("#"+myi).append("<div id='"+myi+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
@@ -98,7 +99,7 @@
       // Reader popup
       .click(function() {
         if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
-          $("#reader-wrapper").css("display","none").attr('class', '');
+          $("#reader").css("display","none").attr('class', '');
           var classBgcolor = $(this).attr("class");
           $("#reader").css("display","block");
           $("#reader").addClass(classBgcolor);
@@ -115,11 +116,13 @@
     $("#reader-close img").click(function() {
       $("#reader").css("display","none");
       $("#reader-overlay").css("display","none");
+      $("#reader").css("display","none").attr('class', '');
     });
     $(document).on( 'keydown', function ( e ) {
       if ( e.keyCode === 27 ) { // key ESC
         $("#reader").css("display","none");
         $("#reader-overlay").css("display","none");
+        $("#reader").css("display","none").attr('class', '');
       }
     });
     
@@ -159,17 +162,15 @@
     function view_reader_meta(row, column, DATA)  {
       var g = DATA[row];
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
-      $("#meta").addClass("bgmeta"); //.css('background-image', 'url("data/covers/'+g["cover"]+'")');
-      return sprintf('<small><i>#diary no #%s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>Kind of diary: %s</p>\
+      //$("#reader").addClass("bgmeta").css('background-image', 'url("data/covers/'+g["cover"]+'")');
+      return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>%s. <i>This is page %s from %s</i></p>\
       <p class="detail-p">Cover<br /><img class="enlarge" src="data/covers/%s" width="70px"/></p>\
-      <p class="detail-p"><i>You are seeing page %s from %s</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+      <p class="detail-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
     }
 
     function view_reader_text(row, column, DATA)  {
-      var g = DATA[row]; 
-      console.log("ROW "+row);
+      var g = DATA[row];
       var text = '';
-      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
       var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";     
       $("#store").load(path, function(path, responseTxt, statusTxt, xhr) {
         if(statusTxt == "success") {text = "XXX"+$("#store").text();}

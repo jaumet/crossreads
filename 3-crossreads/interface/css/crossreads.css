@@ -153,7 +153,8 @@ body {
 }
 #reader-main {
   width:60%;
-  padding-top:80px;
+  padding-top:30px;
+  height:80%;
 }
 #meta {
   width:30%;
@@ -195,12 +196,14 @@ img.enlarged {
 .c5  {background-color: #E78F39;}
 
 /* Fonts */
-#meta h1, #meta p, #store {
+#meta h1, #meta p, #store, small {
+  /*display: inline;*/
   color:#000000;
   background-color:#ffffff;
+  padding:10px;
 }
 #store {
-  padding:5px;
-  font-size:1.5em;
+  padding:20px;
+  font-size:1.2em;
 }
 
