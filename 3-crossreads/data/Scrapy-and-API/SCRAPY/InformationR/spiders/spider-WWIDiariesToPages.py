@@ -157,6 +157,8 @@ class InformationResearch(BaseSpider):
 	item = WWIDiariesToPages()
 	item['pageUrl'] = str(response)[-7:][:-1]
 	item['diariesDigitalOrderNumber'] = hxs.select('//p/text()').extract()[1]
+	
+	#EXAMPLES:
 	#p = re.compile('(^http\:\/\/informationr\.net\/ir\/(.*)\-(.*)\/).*\.html$')
 	#pp = p.findall(response.url)
 	#myurl = pp[0][0]

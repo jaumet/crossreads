@@ -3,7 +3,7 @@ import simplejson
 import os
 
 
-diariesUrls = ["http://transcripts.sl.nsw.gov.au/api/node/100307.json",
+diariesUrlsiX = ["http://transcripts.sl.nsw.gov.au/api/node/100307.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100325.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100324.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100312.json",
@@ -136,7 +136,7 @@ diariesUrls = ["http://transcripts.sl.nsw.gov.au/api/node/100307.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100348.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100349.json"]
 
-diariesUrlsX = ["http://transcripts.sl.nsw.gov.au/api/node/100348.json", "http://transcripts.sl.nsw.gov.au/api/node/100349.json"]
+diariesUrls = ["http://transcripts.sl.nsw.gov.au/api/node/100300.json"]
 
 def getDiaries():
   ''' 
@@ -154,10 +154,12 @@ def getDiaries():
     totalPages += noPages
     c += 1
     
-3    file = open("Diaries/"+diaryUrl[42:-5]+".json", 'w+')
+    file = open("Diaries/"+diaryUrl[42:-5]+".json", 'w+')
     file.write(str(myjson))
     file.close()
-  print "Total DIaries:"
+    print "page: Diaries/"+diaryUrl[42:-5]+".json"
+  print "------------------"
+  print "Total Diaries:"
   print c
   print "Total pages"
   print totalPages
@@ -218,6 +220,6 @@ def getPages():
   print "List of errors:"
   print errorsList
   
-###getDiaries()
+#getDiaries()
 #getPages()
 

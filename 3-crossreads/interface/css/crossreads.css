@@ -61,7 +61,7 @@ body {
 
 #grid {
   width:1000px;
-  height:647px;
+  height:653px;
   position:absolute;
   top:100px;
   left:100px;
@@ -201,6 +201,9 @@ img.enlarged {
   color:#000000;
   background-color:#ffffff;
   padding:10px;
+}
+#meta h1 {
+  font-size:1.6em;
 }
 #store {
   padding:20px;

@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
-		<script src="data/dataDiaries-don.js"></script>
+		<script src="data/dataDiaries.js"></script>
 		<script src="data/dataPages.js"></script>
 		<script src="data/dataTopics.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
@@ -64,11 +64,11 @@
     var c = 0;
     $.each(topicMatrix, function(i, row) {
       myi = i +1;
-      $("#grid").append("<div id='"+myi+"' class='row'></div>");
+      $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) {
         myj = j + 1 
         var coord = getCoordinates(i, j);
-        $("#"+myi).append("<div id='"+myi+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
+        $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
@@ -107,12 +107,35 @@
           $(".browser").addClass(classBgcolor);
           $("#detail").css("display","none").attr('class', '');
           var myid = $(this).attr('id').split("x");
-          $("#reader-main").html($("#store").text(view_reader_text(myid[0], myid[1], DATA)));
+          var buttons = "<p><a id=\"nav_diary_b\" class=\"back\" id_track=\""+myid[0]+"x"+myid[1]+"\" >BACK</a> - <a id=\"nav_diary_f\" class=\"forward\" id_track=\""+myid[0]+"x"+myid[1]+"\">FORWARD</a></p>";
+          $("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], myid[1], DATA)));
           $("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
           enlarge();
         }
       });
+         
+    function mybuttons(mythis)  {
+    // Buttons
+    $("#nav_diary_b, #nav_diary_f").click(function() {
+      mybuttons(myid[0]+"x"+myid[1]);
+    });
 
+        var myid = mythis.split("x"); //$(mythis).attr("id_track").split("x");
+        alert(myid);
+        var buttons = "<p><a id=\"nav_diary_b\" class=\"back\" id_track=\""+myid[0]+"x"+myid[1]+"\" >BACK</a> - <a id=\"nav_diary_f\" class=\"forward\" id_track=\""+myid[0]+"x"+myid[1]+"\">FORWARD</a></p>";
+        //if ($(mythis).css('background-color') != 'rgb(255, 255, 255)')  {
+          //if ($(mythis).attr('class') == 'back')  {
+            $("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], Number(myid[1])-1, DATA)));
+            $("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
+          //} else if ($(mythis).attr('class') == 'forward')  {
+            //$("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], Number(myid[1])+1, DATA)));
+            //$("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
+          //}
+          enlarge();
+        //}
+    }
+    
+    // Reader close
     $("#reader-close img").click(function() {
       $("#reader").css("display","none");
       $("#reader-overlay").css("display","none");
@@ -155,29 +178,25 @@
       var g = DATA[row];
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
       return sprintf('<p>[id=%s]  %s <br />by %s</p><p>%s</p>\
-      <p class="detail-p">Cover<br /><img src="data/covers/%s" width="70px"/></p>\
-      <p class="detail-p"><i>page %s from %s</i><br /><img height="60px" width="60px" style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: center bottom;\' src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+      <p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" width="70px"/></p>\
+      <p class="detail-p"><i>page %s from %s</i><br /><img height="60px" width="60px" \
+      style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
+      center bottom;\' src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
     }
 
     function view_reader_meta(row, column, DATA)  {
       var g = DATA[row];
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
-      //$("#reader").addClass("bgmeta").css('background-image', 'url("data/covers/'+g["cover"]+'")');
       return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>%s. <i>This is page %s from %s</i></p>\
-      <p class="detail-p">Cover<br /><img class="enlarge" src="data/covers/%s" width="70px"/></p>\
+      <p class="detail-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>\
       <p class="detail-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
     }
 
     function view_reader_text(row, column, DATA)  {
       var g = DATA[row];
-      var text = '';
-      var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";     
-      $("#store").load(path, function(path, responseTxt, statusTxt, xhr) {
-        if(statusTxt == "success") {text = "XXX"+$("#store").text();}
-        if(statusTxt == "error")  {text = "YYY<a src=\""+path+"\" target=\"xx\">"+path+"</a>";}  
-      });
-      console.log("-------> "+text);
-      return text;
+      var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";
+      $("#store").load(path);
+      return;
     }
     
     function page_file_name(pre, suf, cover) {
@@ -195,10 +214,10 @@
           mysuf = s;
           break;
         default:
-          return 'data/covers/'+cover
+          return 'data/diariesCovers/'+cover
           break;
       }
-      console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
+      //console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
       return pre+mysuf+"h.jpg";
     }
             
