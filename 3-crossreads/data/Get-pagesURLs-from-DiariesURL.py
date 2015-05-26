@@ -136,7 +136,7 @@ diariesUrlsiX = ["http://transcripts.sl.nsw.gov.au/api/node/100307.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100348.json",
 "http://transcripts.sl.nsw.gov.au/api/node/100349.json"]
 
-diariesUrls = ["http://transcripts.sl.nsw.gov.au/api/node/100300.json"]
+diariesUrls = ["http://transcripts.sl.nsw.gov.au/api/node/100366.json"]
 
 def getDiaries():
   ''' 
@@ -196,7 +196,7 @@ def getPages():
       print page["nid"]
       mypage = urlBase+page["nid"]+".json"
       print "-->"+str(c)
-      print mypage
+      print directory+"/"+page["nid"]
       c+=1
       try:
         response = urllib2.urlopen(mypage)
@@ -221,5 +221,5 @@ def getPages():
   print errorsList
   
 #getDiaries()
-#getPages()
+getPages()
 

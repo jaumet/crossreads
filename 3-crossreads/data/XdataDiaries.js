@@ -1395,4 +1395,4 @@ var DATA = [
 	"end_date": [{"end_year": "1916", "end_month": "October", "end_day": "28"}],
 	"location": "location", 
 	"page_no": "83"
-}];
+},;

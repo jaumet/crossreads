@@ -196,7 +196,7 @@ img.enlarged {
 .c5  {background-color: #E78F39;}
 
 /* Fonts */
-#meta h1, #meta p, #store, small {
+#meta h1, #meta p, #store, small, #reader-main {
   /*display: inline;*/
   color:#000000;
   background-color:#ffffff;

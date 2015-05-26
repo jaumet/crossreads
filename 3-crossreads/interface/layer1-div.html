@@ -48,17 +48,26 @@
               <img src="img/w_close.png" width="28px"/>
             </div>
             <div id="meta"></div>
-            <div id="reader-main"></div>
+            <div id="reader-main">
+              <div id="reader-buttons"></div>
+              <div id="reader-text"></div>
+            </div>
           </div>
       </div>
 	</div>
+  <div id="reader-text"></div>
 	<div id="store"></div>
+  <div id="x"></div>
 
 	<!-- Javascript guest stars: -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
   <script>
+  // Using localSttorage for the list of visited pages
+  if (localStorage.getItem("journey") === null)  {
+    localStorage.setItem('journey', "");
+  }
   $(function(){ 
     // Grid builder
     var c = 0;
@@ -96,45 +105,9 @@
           $(this).css("border","0");
         }
       })
-      // Reader popup
-      .click(function() {
-        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
-          $("#reader").css("display","none").attr('class', '');
-          var classBgcolor = $(this).attr("class");
-          $("#reader").css("display","block");
-          $("#reader").addClass(classBgcolor);
-          $("#reader-overlay").css("display","block");
-          $(".browser").addClass(classBgcolor);
-          $("#detail").css("display","none").attr('class', '');
-          var myid = $(this).attr('id').split("x");
-          var buttons = "<p><a id=\"nav_diary_b\" class=\"back\" id_track=\""+myid[0]+"x"+myid[1]+"\" >BACK</a> - <a id=\"nav_diary_f\" class=\"forward\" id_track=\""+myid[0]+"x"+myid[1]+"\">FORWARD</a></p>";
-          $("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], myid[1], DATA)));
-          $("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
-          enlarge();
-        }
-      });
-         
-    function mybuttons(mythis)  {
-    // Buttons
-    $("#nav_diary_b, #nav_diary_f").click(function() {
-      mybuttons(myid[0]+"x"+myid[1]);
-    });
+      .click(function() {main(this.id);});
 
-        var myid = mythis.split("x"); //$(mythis).attr("id_track").split("x");
-        alert(myid);
-        var buttons = "<p><a id=\"nav_diary_b\" class=\"back\" id_track=\""+myid[0]+"x"+myid[1]+"\" >BACK</a> - <a id=\"nav_diary_f\" class=\"forward\" id_track=\""+myid[0]+"x"+myid[1]+"\">FORWARD</a></p>";
-        //if ($(mythis).css('background-color') != 'rgb(255, 255, 255)')  {
-          //if ($(mythis).attr('class') == 'back')  {
-            $("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], Number(myid[1])-1, DATA)));
-            $("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
-          //} else if ($(mythis).attr('class') == 'forward')  {
-            //$("#reader-main").html(buttons).append($("#store").text(view_reader_text(myid[0], Number(myid[1])+1, DATA)));
-            //$("#meta").html(view_reader_meta(myid[0], myid[1], DATA));
-          //}
-          enlarge();
-        //}
-    }
-    
+      
     // Reader close
     $("#reader-close img").click(function() {
       $("#reader").css("display","none");
@@ -161,6 +134,63 @@
       topicsView("hide");
       topicsView(myid);
     });
+
+    // non-anonymous functions:
+    function main(myid) {
+      var myids = myid.split("x");
+      var myid = "#"+myid;
+      //alert("main: "+myid);
+      // Reader popup      
+        if ($(myid).css('background-color') != 'rgb(255, 255, 255)')  {
+          // Check pages back & forward:
+          var go = "no";
+          if (Number(myids[1]) > 1 && Number(myids[1]) < DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+          if (go == "yes") {
+            $("#reader").css("display","none").attr('class', '');
+            var classBgcolor = $(myid).attr("class");
+            $("#reader").css("display","block");
+            if (classBgcolor=="") {classBgcolor=myid[2];}
+            $("#reader").addClass(classBgcolor);
+            $("#reader-overlay").css("display","block");
+            $(".browser").addClass(classBgcolor);
+            $("#detail").css("display","none").attr('class', '');
+            
+            // Store visited page in localstore:
+            var journey = localStorage.getItem('journey')+">"+myid;
+            localStorage.setItem('journey',journey);
+            console.log("journey: "+journey);
+  /////////////////////////////////////////////////////////////
+            update_journey(myid, "add"); // Other options to define: remove, get["all", "last", "first"], 
+            
+            var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
+            buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
+            buttons += "[<a id=\"add_to_journey\" onClic=\"update_journey("+myid+", \"remove\");\">remove from visited</a>]</p>";
+            $("#reader-buttons").html(buttons);
+            view_reader_text(myids[0], myids[1], DATA);
+            $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
+            enlarge();
+            //do_buttons();
+            $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id)});
+          }
+        }
+    }
+
+    function update_journey(myid, action) {
+        var x = action;// Other options to define: remove, get["all", "last", "first"], 
+      //return;
+    }
+
+    function do_buttons(classBgcolor, direction) {
+      var myid = $(".nav_diary").parent().attr("id_track").split("x");
+      // Buttons
+      //alert("buttons: "+myid);
+      if (direction == "back") { val = Number(myid[1])-1; } else { val = Number(myid[1])+1; }
+      console.log("direction: "+direction);
+      var buttons = "<p><a id=\"nav_diary\" class=\"back\" id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\" >BACK</a> - <a id=\"nav_diary\" class=\"forward\" id_track=\""+myid[0]+"x"+val+"\">FORWARD</a></p>";  //<p>STORE: "+JSON.parse(localStorage.getItem('fav'))+"</p>";
+      view_reader_text(myid[0], val, DATA);
+      $("#meta").html(view_reader_meta(myid[0], val, DATA));
+      main(myid[0]+"x"+val);
+    }
     
     function enlarge() {
     // Enlarge images
@@ -173,7 +203,6 @@
       })
     }
       
-    // non-anonymous functions:
     function view_detail(row, column, DATA)  {
       var g = DATA[row];
       var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
@@ -195,7 +224,7 @@
     function view_reader_text(row, column, DATA)  {
       var g = DATA[row];
       var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";
-      $("#store").load(path);
+      $("#reader-text").load(path);
       return;
     }
     
@@ -284,6 +313,21 @@
         return val;
       });
     }
+    
+    // Storage functions
+    function storeme(Storage) {
+      if(typeof(Storage) !== "undefined") {
+          //if (localStorage.diarypages) {
+              localStorage.diarypages = Storage;
+          //} else {
+              //localStorage.diarypages = 1;
+          //}
+          document.getElementById("x").innerHTML = "You have clicked the button " + localStorage.diarypages + " time(s).";
+      } else {
+          document.getElementById("reader-main").innerHTML = "Sorry, your browser does not support web storage...";
+      }
+    }
+
   });
   </script>
 </body>
