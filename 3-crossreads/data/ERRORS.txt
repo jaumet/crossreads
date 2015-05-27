@@ -3,3 +3,8 @@ List of errors:
 
 -> This ary has only 4 pages transcribed (1-4), but it says transcription is completed
 http://transcripts.sl.nsw.gov.au/node/100366
+
+-> this JSON has the transcript empty. Lack of json pairs
+JSON: http://transcripts.sl.nsw.gov.au/api/node/100340
+But the page is transcribed correctly: http://transcripts.sl.nsw.gov.au/page/106391/view
+

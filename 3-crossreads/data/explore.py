@@ -29,11 +29,11 @@ class Explore():
 					self.searchSimple(query, 'd')
 				count += 1
 
-			if command == 'e': # 
+			if command == 'export-fxp': # 
 				count += 1
 				self.exportSomeData("file_per_page")
 
-			if command == 'e1': # 
+			if command == 'export-one-file': # 
 				count += 1
 				self.exportSomeData("one_file")
 
@@ -60,18 +60,26 @@ class Explore():
 		#######################################
 		# Get fields
 		for diaryPage in sorted(diaryPages):	
+			print 'processing -> '+diaryPage
 			data = simplejson.loads(open(diaryPage).read())
 			######################################
 			## Define which fields to export and put them in a list: myfields
 			# transcription text
-			transcrip = data["field_transcription"]["und"][0]["safe_value"]
+			# check if transcript exist
+			if (len(data["field_transcription"]) != 0):
+				transcript = data["field_transcription"]["und"][0]["safe_value"]
+			else:
+				transcript = "[empty]"  # no 4th index
+
 			# Diary title
 			dTitle = data["title"]
 			# Page image
 			pImage = data["field_transcript_image"]["und"][0]["filename"]
 			pImageUrl = "http://transcripts.sl.nsw.gov.au/sites/all/files/"+pImage
 
-			myfields = [transcrip]
+
+
+			myfields = [transcript]
 
 			#export += '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
 			#export += diaryPage[9:]+':\n'+myfields[0]
@@ -80,7 +88,7 @@ class Explore():
 			print "Diaries"+diaryPage[9:]
 			
 			if out=="file_per_page":
-			
+				'''Put every page transcript in a pageID.txt file '''
 				# Cleaning the transcrit:
 				export = re.sub("a[0-9]{7,}.*\.html", "", export)			
 				export = re.sub("<.*?>", "", export)
@@ -103,6 +111,7 @@ class Explore():
 				print "... done!"
 
 		if out=="one_file":
+			''' Put all transcripts in one file'''
 			# Cleaning the transcrit:
 			export = re.sub("a[0-9]{7,}.*\.html", "", export)			
 			export = re.sub("<.*?>", "", export)
@@ -118,7 +127,7 @@ class Explore():
 			# Write and save page json
 			#if not os.path.exists(os.path.dirname("Diaries-superclean-text"+diaryPage[9:])):
 			#	os.makedirs(os.path.dirname("Diaries-superclean-text"+diaryPage[9:]))
-			with open(directory+"-2015-03-18.txt", "w") as f:
+			with open(directory+"-2015-05-27.txt", "w") as f:
 				f.write(export.encode('ascii', 'ignore'))
 	
 			export = ''
@@ -175,6 +184,8 @@ class Explore():
 		print ('\t\tss: Simple report ')
 		print ('\t\tv: with Visualization')
 		print ('\t\td: with text Detail')
+		print ('\t\texport-fxp: export all pages in json from '+self.path+' to Diaries-superclean-text/[diaryID]/[pageID]')
+		print ('\t\texport-one-file: export all pages in json from '+self.path+' to on file Diaries-only-text.txt')
 		
 	def walkDirectory(self, path, output):
 		''' Get the list of direcctories in pathDiaries '''
