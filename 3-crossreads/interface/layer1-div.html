@@ -79,7 +79,7 @@
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) {
         myj = j + 1 
-        var coord = getCoordinates(i, j);
+        var coord = getCoordinates(i, j);        
         $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
