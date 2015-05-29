@@ -5,7 +5,9 @@ body {
   top:0;
   font-family: 'Bitter', serif;
 }
-
+pre {
+  font-family: 'Bitter', serif;
+}
 #nav {
   top:-10px;
   left:0px;
@@ -38,8 +40,7 @@ body {
 
 .mywrapper {
   margin-left:100px;
-  width:100%;
-  min-width:900px;
+  min-width:1000px;
 }
 
 #highlights {

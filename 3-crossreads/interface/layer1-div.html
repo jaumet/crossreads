@@ -54,7 +54,7 @@
             <div id="meta"></div>
             <div id="reader-main">
               <div id="reader-buttons"></div>
-              <div id="reader-text"></div>
+              <div id="reader-text"><pre></pre></div>
             </div>
           </div>
       </div>
@@ -78,9 +78,10 @@
     $.each(topicMatrix, function(i, row) {
       myi = i +1;
       $("#grid").append("<div id='"+i+"' class='row'></div>");
+      //row.shift()
       $.each(row, function(j, column) {
-        myj = j + 1 
-        var coord = getCoordinates(i, j);     
+        myj = j + 1
+        var coord = getCoordinates(i, j);
         $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
@@ -96,9 +97,9 @@
         var classBgcolor = $(this).attr("class");
         // FIXME create a function to calculate corrections on top and left depending on the position 
         // of the mouse and the size of the screen 
-        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
+        if ($(this).css('background-image') == "none")  {
           // in case of covers:
-          if ($(this).css('background-color')== 'rgb(0, 0, 0)') {classBgcolor="cC";}
+          if ($(this).css('background-image') == '') {classBgcolor="cC";}
           $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",pos.left+107+"px");
           $(this).css("border","3px solid #0310FF");
           var myid = $(this).attr('id').split("x");
@@ -112,7 +113,12 @@
           $(this).css("border","0");
         }
       })
-      .click(function() {main(this.id);});
+      .click(function() {
+        if ($(this).css('background-image') == "none")  {
+          main(this.id);
+        }
+      });
+        
 
       
     // Reader close
@@ -143,9 +149,7 @@
     });
     $("#showJourney").click(function() {
       var myid = $(this).attr('id');
-      topicsView("show");
       topicsView("journey");
-      //myJourney(0, "showHide");
     });    
     
 
@@ -159,7 +163,7 @@
         if ($(myid).css('background-color') != 'rgb(255, 255, 255)')  {
           // Check pages back & forward:
           var go = "no";
-          if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+          if (Number(myids[1]) >= 1 && Number(myids[1]) < DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
           if (go == "yes") {
             $("#reader").css("display","none").attr('class', '');
             var classBgcolor = $(myid).attr("class");
@@ -180,7 +184,8 @@
             var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
             buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
             buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
-            buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a> )</p>";
+            buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
+            buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> )</p>";
             $("#reader-buttons").html(buttons);
             view_reader_text(myids[0], myids[1], DATA);
             $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
@@ -234,15 +239,16 @@
     function view_reader_meta(row, column, DATA)  {
       var g = DATA[row];
       var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
+      var page_image = '<p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>';
+      if (column == 1) { page_image= "";}
       return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>%s. <i>This is page %s from %s</i></p>\
-        <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>\
-        <p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
+        <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>'+page_image, g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
     }
 
     function view_reader_text(row, column, DATA)  {
       var g = DATA[row];
       var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";
-      $("#reader-text").load(path);
+      $("#reader-text pre").load(path);
       return;
     }
     
@@ -272,13 +278,11 @@
       $("#journey").css('display','none');
       switch (topic) { 
         case 'show': 
-          //$(".c").css('background-color','');
-            $(".c").css("background-image","");
+          $(".c").css("background-image","");
           $("#topicsView li").attr('class', '');
           break;
         case 'hide': 
-          //$(".c").css('background-color','white');
-            $(".c").css("background-image","url('img/white-pill-7x5.png')");
+          $(".c").css("background-image","url('img/white-pill-7x5.png')");
           $("#topicsView li").attr('class', '');
           break;
         case 'showTopics1': 
@@ -302,7 +306,7 @@
           // Hide all pages
           $(".c").css("background-image","url('img/white-pill-7x5.png')");
           // show visited & put them class journey -> z-index:5;
-          $(myjourney).css('background-img','');
+          $(myjourney).css('background-image','');
 /////////////////////////////////////////////////////////////////////
           // Draw arrows --> Check d3js options for this (??)
           //check http://www.w3.org/TR/SVG/paths.html#PathData 

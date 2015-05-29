@@ -8,3 +8,9 @@ http://transcripts.sl.nsw.gov.au/node/100366
 JSON: http://transcripts.sl.nsw.gov.au/api/node/100340
 But the page is transcribed correctly: http://transcripts.sl.nsw.gov.au/page/106391/view
 
+-> This page diariesPages/100313/108966.txt was empty (it is a cover). Here is the text: http://transcripts.sl.nsw.gov.au/page/108965/view
+
+TO REVIEW:
+-> ALL peges empty, except page 0!!
+http://localhost/crossreads/3-crossreads/interface/data/diariesPages/100337/106599.txt  is empty http://transcripts.sl.nsw.gov.au/page/106599/view
+
