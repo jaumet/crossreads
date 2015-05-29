@@ -24,14 +24,15 @@
       <div class="myorders">
         <p>Topics per page</p>
         <ul id="topicsView" class="nav nav-pills">
-          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">topic 1</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">topic 2</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">topic 3</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">topic 4</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">topic 5</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">Family & opinions</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">Cities & nature</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">Travelling</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">War</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">Militar life</a></li>
         </ul>
       </div>
       <!--
+      topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Militar life']
       FIXME use a class and addClass removeClass to go back to original positions
       $(".c4").css('z-index','100').css('left','').css('position','relative').css('float','left')
       $(".c4").css('left','').css('position','relative').css('float','left'); 
@@ -79,7 +80,7 @@
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) {
         myj = j + 1 
-        var coord = getCoordinates(i, j);        
+        var coord = getCoordinates(i, j);     
         $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
@@ -178,7 +179,8 @@
             
             var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
             buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
-            buttons += "[<a id=\"add_to_journey\" onClic=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]</p>";
+            buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
+            buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a> )</p>";
             $("#reader-buttons").html(buttons);
             view_reader_text(myids[0], myids[1], DATA);
             $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
@@ -219,7 +221,7 @@
       
     function view_detail(row, column, DATA)  {
       var g = DATA[row];
-      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
+      var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       var page_image = '<p class="detail-p"><i>page %s of %s</i><br /><img " \
         style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
         center bottom;\' src="%s" /></p>';
@@ -231,7 +233,7 @@
 
     function view_reader_meta(row, column, DATA)  {
       var g = DATA[row];
-      var mypageFile = page_file_name(g["don"], Number(column), g["cover"]);
+      var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>%s. <i>This is page %s from %s</i></p>\
         <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>\
         <p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>', g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
@@ -244,7 +246,7 @@
       return;
     }
     
-    function page_file_name(pre, suf, cover) {
+    function page_img_file_name(pre, suf, cover) {
       var pre = 'http://transcripts.sl.nsw.gov.au/sites/all/files/'+pre;
       var mysuf = '';
       var s = suf.toString();
@@ -270,38 +272,41 @@
       $("#journey").css('display','none');
       switch (topic) { 
         case 'show': 
-          $(".c").css('background-color','');
+          //$(".c").css('background-color','');
+            $(".c").css("background-image","");
           $("#topicsView li").attr('class', '');
           break;
         case 'hide': 
-          $(".c").css('background-color','white');
+          //$(".c").css('background-color','white');
+            $(".c").css("background-image","url('img/white-pill-7x5.png')");
           $("#topicsView li").attr('class', '');
           break;
         case 'showTopics1': 
-          $(".c1").css('background-color','');
+          $(".c1").css('background-image','');
           break;
         case 'showTopics2': 
-          $(".c2").css('background-color','');
+          $(".c2").css('background-image','');
           break;
         case 'showTopics3': 
-          $(".c3").css('background-color','');
+          $(".c3").css('background-image','');
           break;
         case 'showTopics4': 
-          $(".c4").css('background-color','');
+          $(".c4").css('background-image','');
           break;
         case 'showTopics5': 
-          $(".c5").css('background-color','');
+          $(".c5").css('background-image','');
           break;
         case 'journey': 
           // Get visited pages from and transform to string for $ selection
           var myjourney = localStorage.getItem("journey").split(">").splice(1).join();
           // Hide all pages
-          $(".c").css('background-color','white');
+          $(".c").css("background-image","url('img/white-pill-7x5.png')");
           // show visited & put them class journey -> z-index:5;
-          $(myjourney).css('background-color','');
+          $(myjourney).css('background-img','');
+/////////////////////////////////////////////////////////////////////
           // Draw arrows --> Check d3js options for this (??)
           //check http://www.w3.org/TR/SVG/paths.html#PathData 
-          //and rphaeljs: http://raphaeljs.com/reference.html#Paper.path 
+          //and raphaeljs: http://raphaeljs.com/reference.html#Paper.path 
           
           //$("#journey").css('display','block');
           break;

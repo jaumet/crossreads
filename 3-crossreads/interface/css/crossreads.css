@@ -68,7 +68,11 @@ body {
   position:absolute;
   top:100px;
   left:100px;
-  border:1px solid blue;
+/*ruler as top border*/
+  border-image:url('../img/axis-pages.png') 30 30 round;
+  border-bottom:0;
+  border-left:0;
+  border-right:0;
 }
 
 .row {
@@ -220,6 +224,19 @@ img.enlarged {
 .c4  {background-color: #cc6666;}
 .c5  {background-color: #E78F39;}
 .cC  {background-color: #FFF;}
+
+#topicsView li a {
+  color:#6E6767;
+}
+#topicsView li a:hover {
+  color:#605959;
+  font-weight:bold;
+}
+#showTopics1 { background-color: #9966cc;}
+#showTopics2 { background-color: #66cccc;}
+#showTopics3 { background-color: #99cc66;}
+#showTopics4 { background-color: #cc6666;}
+#showTopics5 { background-color: #E78F39;}
 
 /* Fonts */
 #meta h1, #meta p, #store, small, #reader-main {
