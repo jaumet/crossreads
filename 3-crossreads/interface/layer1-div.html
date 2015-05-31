@@ -187,7 +187,7 @@
             buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
             buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> )</p>";
             $("#reader-buttons").html(buttons);
-            view_reader_text(myids[0], myids[1], DATA);
+            view_reader_text(myids[0], myids[1]-1, DATA);
             $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
             enlarge();
             //do_buttons();

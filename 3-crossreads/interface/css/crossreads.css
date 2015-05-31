@@ -169,6 +169,10 @@ pre {
   width:30%;
 }
 
+#reader-main {
+  overflow: auto;
+}
+
 .reader-p {
   min-height:100px;
   float:left;
