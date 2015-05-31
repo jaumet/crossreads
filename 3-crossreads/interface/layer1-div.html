@@ -40,7 +40,6 @@
       console.log("selected pages: "+numTopicPages);
      -->
       <div style="clear:both;height:10px;"></div>
-      
       <div id="container">
         <div id="header"></div>
         <div id="left">&nbsp;&nbsp;129<br />Diaries</div>
@@ -78,7 +77,6 @@
     $.each(topicMatrix, function(i, row) {
       myi = i +1;
       $("#grid").append("<div id='"+i+"' class='row'></div>");
-      //row.shift()
       $.each(row, function(j, column) {
         myj = j + 1
         var coord = getCoordinates(i, j);
@@ -163,7 +161,7 @@
         if ($(myid).css('background-color') != 'rgb(255, 255, 255)')  {
           // Check pages back & forward:
           var go = "no";
-          if (Number(myids[1]) >= 1 && Number(myids[1]) < DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+          if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
           if (go == "yes") {
             $("#reader").css("display","none").attr('class', '');
             var classBgcolor = $(myid).attr("class");
@@ -172,8 +170,7 @@
             $("#reader").addClass(classBgcolor);
             $("#reader-overlay").css("display","block");
             $(".browser").addClass(classBgcolor);
-            $("#detail").css("display","none").attr('class', '');
-            
+            $("#detail").css("display","none").attr('class', '');            
             // Store visited page in localstore:
             var journey = localStorage.getItem('journey')+">"+myid;
             localStorage.setItem('journey',journey);
@@ -192,6 +189,15 @@
             enlarge();
             //do_buttons();
             $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id)});
+/////////////////////// ReCGeCK THIS left right keys
+            $(document).on( 'keydown', function ( e ) {
+              if ( e.keyCode === 37 ) { // key Left
+                do_buttons(classBgcolor, "back")
+              }
+              if ( e.keyCode === 39 ) { // key Right
+                do_buttons(classBgcolor, "forward")
+              }
+            });
           }
         }
     }
@@ -204,13 +210,16 @@
     function do_buttons(classBgcolor, direction) {
       var myid = $(".nav_diary").parent().attr("id_track").split("x");
       // Buttons
+      if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"] && !(direction == "back"&& Number(myid[1]) >= 1))  { go = "yes"; } else { go="no";}          
       //alert("buttons: "+myid);
-      if (direction == "back") { val = Number(myid[1])-1; } else { val = Number(myid[1])+1; }
-      console.log("direction: "+direction);
-      var buttons = "<p><a id=\"nav_diary\" class=\"back\" id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\" >BACK</a> - <a id=\"nav_diary\" class=\"forward\" id_track=\""+myid[0]+"x"+val+"\">FORWARD</a></p>";  //<p>STORE: "+JSON.parse(localStorage.getItem('fav'))+"</p>";
-      view_reader_text(myid[0], val, DATA);
-      $("#meta").html(view_reader_meta(myid[0], val, DATA));
-      main(myid[0]+"x"+val);
+      if (go == "yes") {
+        if (direction == "back") { val = Number(myid[1])-1} else { val = Number(myid[1])+1; }
+        var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
+        buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
+        view_reader_text(myid[0], val, DATA);
+        $("#meta").html(view_reader_meta(myid[0], val, DATA));
+        main(myid[0]+"x"+val);
+      }
     }
     
     function enlarge() {
@@ -320,9 +329,9 @@
     }
 
     function getCoordinates(diaryId, pageNo)  {
-      var column = diaryId*5;
-      var row = pageNo*7;
-      return [column,row];
+      var row = diaryId*5;
+      var column = pageNo*7;
+      return [row, column];
     }
     
     function sprintf() {
