@@ -21,6 +21,23 @@ Page 16th big image: http://transcripts.sl.nsw.gov.au/sites/all/files/a7172016h.
 
 http://transcripts.sl.nsw.gov.au/page/100328/view
 
+AUTHOR PAGES:
+Search:
+http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw-artist&query=Archie+Barwick&type=1&meta_S=&submit-artist=Search
+
+
+DIARIES TO CHECK:
+Empty pages. With on a "*.html" file
+diary-104.txt  diary-110.txt  diary-36.txt  diary-52.txt  diary-54.txt  diary-75.txt  diary-83.txt  diary-88.txt  diary-98.txt
+diary-109.txt  diary-113.txt  diary-45.txt  diary-53.txt  diary-66.txt  diary-81.txt  diary-87.txt  diary-89.txt
+
+* 127 -> Is empty and there is no  link to transcripts:
+         http://transcripts.sl.nsw.gov.au/node/115137
+
+################################################
+################################################
+################################################
+
 
 
 EAMPLES OF NETWORK APPS:

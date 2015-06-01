@@ -203,7 +203,7 @@
           }
         }
     }
-
+    
     function myJourney(myid, action) {
         var x = action;// Other options to define: remove, get["all", "last", "first"], 
       //return;
@@ -213,8 +213,9 @@
       var myid = $(".nav_diary").parent().attr("id_track").split("x");
       // Buttons
       if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"])  { go = "yes"; } else { go="no";}          
-      if (Number(myid[1]-1) > 0 && direction != "back") { go = "yes";}
-      alert("buttons: "+myid+" | direction: "+direction);
+      if (Number(myid[1]-1) == 0 && direction == "back") { go = "no";}
+      if (Number(myid[1]) == DATA[myid[0]]["page_no"] && direction == "back") { go = "yes";}
+      //alert("buttons: "+myid+" | direction: "+direction);
       if (go == "yes") {
         if (direction == "back") { val = Number(myid[1])-1} else { val = Number(myid[1])+1; }
         var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
@@ -253,8 +254,8 @@
       var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       var page_image = '<p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>';
       if (column == 1) { page_image= "";}
-      return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small>[more]</small></h1><p>%s. <i>This is page %s from %s</i></p>\
-        <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>'+page_image, g["id"], g["title"], g["author"], g["kind"], column, g["page_no"], g["cover"], mypageFile);
+      return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small><a href="http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw&form=simple&query=%s&type=1&meta_G_sand=&sort=&submit-search=Search" target="_slnsw">[more]</a></small></h1><p>%s. <i>This is page %s from %s</i></p>\
+        <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>'+page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
     }
 
     function view_reader_text(row, column, DATA)  {
