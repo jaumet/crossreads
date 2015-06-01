@@ -189,7 +189,8 @@
             enlarge();
             //do_buttons();
             $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id)});
-/////////////////////// ReCGeCK THIS left right keys
+/////////////////////// RECHECK THIS left right keys
+/*
             $(document).on( 'keydown', function ( e ) {
               if ( e.keyCode === 37 ) { // key Left
                 do_buttons(classBgcolor, "back")
@@ -198,6 +199,7 @@
                 do_buttons(classBgcolor, "forward")
               }
             });
+*/
           }
         }
     }
@@ -210,8 +212,9 @@
     function do_buttons(classBgcolor, direction) {
       var myid = $(".nav_diary").parent().attr("id_track").split("x");
       // Buttons
-      if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"] && !(direction == "back"&& Number(myid[1]) >= 1))  { go = "yes"; } else { go="no";}          
-      //alert("buttons: "+myid);
+      if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+      if (Number(myid[1]-1) > 0 && direction != "back") { go = "yes";}
+      alert("buttons: "+myid+" | direction: "+direction);
       if (go == "yes") {
         if (direction == "back") { val = Number(myid[1])-1} else { val = Number(myid[1])+1; }
         var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
