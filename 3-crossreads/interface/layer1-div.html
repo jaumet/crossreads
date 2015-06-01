@@ -12,9 +12,9 @@
 <body>
 	<div class="mywrapper">
       <div class="mybuttons">
-        <p>Show diaries pages</p>
+        <h1 class="myheader">World War 1 Diaries</h1>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no">Show pages</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no">Show all</a></li>
 <!--
           <li role="presentation" data-toggle="pill"><a id="hideAllTopics" href="#by-kind">Hide pages</a></li>
 -->
@@ -22,7 +22,7 @@
         </ul>
       </div>
       <div class="myorders">
-        <p>Topics per page</p>
+        <p class="myheader">visualization of the State Library of NSW collection<br /><a href="http://transcripts.sl.nsw.gov.au/project/World%20War%201%20Diaries" target="SLNSW">[SLNSW collection]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="about crossreads">[About]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="feedback">[Feedback]</a></p>
         <ul id="topicsView" class="nav nav-pills">
           <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">Family & opinions</a></li>
           <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">Cities & nature</a></li>
@@ -96,11 +96,12 @@
         // FIXME create a function to calculate corrections on top and left depending on the position 
         // of the mouse and the size of the screen 
         if ($(this).css('background-image') == "none")  {
+          var myid = $(this).attr('id').split("x");
           // in case of covers:
           if ($(this).css('background-image') == '') {classBgcolor="cC";}
-          $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",pos.left+107+"px");
+          if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
+          $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
           $(this).css("border","3px solid #0310FF");
-          var myid = $(this).attr('id').split("x");
           $("#detail").html(view_detail(myid[0], myid[1], DATA));
         }
       })

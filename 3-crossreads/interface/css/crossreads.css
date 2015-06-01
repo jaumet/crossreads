@@ -70,10 +70,21 @@ pre {
   top:100px;
   left:100px;
 /*ruler as top border*/
-  border-image:url('../img/axis-pages.png') 30 30 round;
-  border-bottom:0;
-  border-left:0;
+/*  border-image:url('../img/axis-pages.png') 30 30 round; */
+  border-image:url('../img/rule.png') 30 30 round;
+  border-top:15px;
+  border-left:0px;
   border-right:0;
+  border-bottom:0;
+}
+#left {
+  
+  border-image:url('../img/rulev.png') 30 30 round;
+  border-right:25px;
+  border-left:0;
+  border-bottom:0;
+  border-top:0;
+  height:653px;
 }
 
 .row {
@@ -243,6 +254,16 @@ img.enlarged {
 #showTopics4 { background-color: #cc6666;}
 #showTopics5 { background-color: #E78F39;}
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+  background-color: #424242;
+}
+.nav-pills>li>a {
+  color: #000;
+}
+.nav-pills>li.active>a:hover  {
+  background-color: #9E9E9E;
+}
+
 /* Fonts */
 #meta h1, #meta p, #store, small, #reader-main {
   /*display: inline;*/
@@ -260,3 +281,23 @@ img.enlarged {
 #reader-buttons a, .row div {
   cursor:context-menu;
 }
+h1.myheader {
+  color:#fff;
+  background-color:#424242;
+  margin:0;
+  padding:6px;
+  padding-left:10px;
+  border-bottom:10px solid #fff;
+}
+p.myheader {
+  color:#fff;
+  background-color:#424242  ;
+  margin:0;
+  padding:6px;
+  border-bottom:8px solid #fff;
+}
+.myheader a {
+  color:#fff;
+  background-color:#424242;
+}
+
