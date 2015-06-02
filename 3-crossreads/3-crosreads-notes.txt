@@ -69,6 +69,51 @@ ABOUT ANZAC 100 ANIVERSARI
 - 8 Things You May Not Know About the Gallipoli Campaign
 	http://www.history.com/news/8-things-you-may-not-know-about-the-gallipoli-campaign?cmpid=Social_FBPAGE_HISTORY_20150425_172975093&linkId=13760087
 
+
+
+
+#######################################################################
+#######################################################################
+#######################################################################
+
+TO DO:
+
+FROM kAR wAI lIM:
+- MATH TRICKS TO MINIMEZE TOO BIG tmS
+- TOPICS NAME HIERARCHIES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FROM MITCHELL Meeting:
+notes / suggestions
+
+Authors
+a lot of the interesting variations evident in the display correspond with authors. Many of the diaries are in sets belonging to a single author. Suggest you group the rows by author (add a small space between groups) and label each group with author’s name.
+
+Topics
+Militar Life -> Military Life
+Check correspondence between current topics and labels - sometimes they seem to be a bit “off”
+The current topics are quite opaque - hard to interpret. How can you expose more of the character of a topic, and the complex mixture of topics in the texts? I suggest
+- add topic-related words on topic focus
+- add info on page view showing different topics in that text
+- look again at topic groupings - can you usefully identify and add more specific topics?
+This is related to…
+
+Characterisation, not Classification
+The current interface tends to classify the pages using a “winner takes all” method (according to top topic). This hides a lot of complexity and may be causing confusion with diary text not matching with the nominal topic. I suggest an approach that focuses more on characterising the text rather than classifying it - i.e. showing multiple / complex aspects of the texts, rather than claiming to show what the text truly “is”. I suggest
+- instead of one topic per page, topic focus shows a heat map with the weight of each topic per diary page. This would also enable more topics - there’s no great penalty for adding more, if you aren’t showing them all at once, for example you could add food, hospital / injuries, etc.
+- this relates also to showing more topic detail at page level, including highlighting topic related terms,  showing distribution of topic weights per page.
+
+Hierarchy
+A recent thought… the overall UI faces lots of challenges due to the number of elements and the screen space.
+Maybe the top level could show diaries, not pages - e.g. just a bar graph showing length of diary in pages.
+You could then visualise the topic weights of each diary as a whole… then focus on a diary to expand it into individual pages? This is a big change to the UI and it also breaks the “path” idea, but if the 12000 elements are too painful this might be a solution.
+
+I think that’s all the main things! Happy hacking…
+
+M
+
+
+
 #######################################################################
 #######################################################################
 #######################################################################
