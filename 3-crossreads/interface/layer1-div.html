@@ -93,8 +93,6 @@
         var pos = $(this).position();
         var offs = $(this).offset();
         var classBgcolor = $(this).attr("class");
-        // FIXME create a function to calculate corrections on top and left depending on the position 
-        // of the mouse and the size of the screen 
         if ($(this).css('background-image') == "none")  {
           var myid = $(this).attr('id').split("x");
           // in case of covers:
@@ -117,11 +115,9 @@
           main(this.id);
         }
       });
-        
-
       
     // Reader close
-    $("#reader-close img").click(function() {
+    $("#reader-close img, #reader-overlay").click(function() {
       $("#reader").css("display","none");
       $("#reader-overlay").css("display","none");
       $("#reader").css("display","none").attr('class', '');

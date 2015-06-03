@@ -724,7 +724,7 @@ var DATA = [
 	'start_date': [{'start_month': 'July', 'start_day': '1', 'start_year': '1916'}], 
 	'location': 'location', 
 	'id': 52, 
-	'page_no': 114
+	'page_no': 113
 }, 
 {
 	'kind': 'war diary', 
