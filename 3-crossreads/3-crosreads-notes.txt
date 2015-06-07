@@ -1,4 +1,12 @@
 
+OFFICIAL API:
+http://www.sl.nsw.gov.au/using/search/open_data.html
+
+
+DXLAB
+http://dxlab.sl.nsw.gov.au/meet-the-lab/
+
+
 
 DATA: WWI soldiers diaries
 Transcripts -> http://transcripts.sl.nsw.gov.au/
@@ -78,7 +86,16 @@ ABOUT ANZAC 100 ANIVERSARI
 
 TO DO:
 
-FROM kAR wAI lIM:
+From me:
+- Add media (pictures, maps, to the interface
+- Check for the url of the audio versions of the transcriptions
+- Check more integration with SL-NSW:
+	* jquery plugin
+	* 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FROM KAR WAI LIM:
 - MATH TRICKS TO MINIMEZE TOO BIG tmS
 - TOPICS NAME HIERARCHIES
 

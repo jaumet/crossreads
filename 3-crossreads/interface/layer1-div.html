@@ -7,6 +7,7 @@
 		<script src="data/dataDiaries.js"></script>
 		<script src="data/dataPages.js"></script>
 		<script src="data/dataTopics.js"></script>
+    <script src="data/topics.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -24,11 +25,11 @@
       <div class="myorders">
         <p class="myheader">visualization of the State Library of NSW collection<br /><a href="http://transcripts.sl.nsw.gov.au/project/World%20War%201%20Diaries" target="SLNSW">[SLNSW collection]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="about crossreads">[About]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="feedback">[Feedback]</a></p>
         <ul id="topicsView" class="nav nav-pills">
-          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">Family & opinions</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">Cities & nature</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">Travelling</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">War</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">Military life</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">Personal</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">War</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">Military life</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">Traveling</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">The accidental tourist</a></li>
         </ul>
       </div>
       <!--
@@ -78,9 +79,12 @@
       myi = i +1;
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) {
+        console.log(column)
+        topic = column.split("-")[0]
+        topicSubtopic = topic+"-"+column.split("-")[1];
         myj = j + 1
         var coord = getCoordinates(i, j);
-        $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+column+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
+        $("#"+i).append("<div id='"+i+"x"+Number(myj)+"' class='c c"+topic+"' t='"+topicSubtopic+"' style=\"left:"+coord[1]+"px;top:"+coord[0]+"px;\"></div>");
         c += 1;
       })
     })
@@ -93,6 +97,7 @@
         var pos = $(this).position();
         var offs = $(this).offset();
         var classBgcolor = $(this).attr("class");
+        var topic = $(this).attr("t");
         if ($(this).css('background-image') == "none")  {
           var myid = $(this).attr('id').split("x");
           // in case of covers:
@@ -100,7 +105,7 @@
           if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
           $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
           $(this).css("border","3px solid #0310FF");
-          $("#detail").html(view_detail(myid[0], myid[1], DATA));
+          $("#detail").html(view_detail(myid[0], myid[1], DATA, topic));
         }
       })
       .mouseout(function() {
@@ -162,6 +167,7 @@
           if (go == "yes") {
             $("#reader").css("display","none").attr('class', '');
             var classBgcolor = $(myid).attr("class");
+            var topic = $(myid).attr("t");
             $("#reader").css("display","block");
             if (classBgcolor=="") {classBgcolor=myid[2];}
             $("#reader").addClass(classBgcolor);
@@ -179,13 +185,13 @@
             buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
             buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
             buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
-            buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> )</p>";
+            buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> ) - <b>["+topic+" | "+get_topic_name(topic)+"]</b></p>";
             $("#reader-buttons").html(buttons);
             view_reader_text(myids[0], myids[1]-1, DATA);
             $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
             enlarge();
             //do_buttons();
-            $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id)});
+            $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id, topic)});
 /////////////////////// RECHECK THIS left right keys
 /*
             $(document).on( 'keydown', function ( e ) {
@@ -206,7 +212,7 @@
       //return;
     }
 
-    function do_buttons(classBgcolor, direction) {
+    function do_buttons(classBgcolor, direction, topic) {
       var myid = $(".nav_diary").parent().attr("id_track").split("x");
       // Buttons
       if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"])  { go = "yes"; } else { go="no";}          
@@ -215,14 +221,24 @@
       //alert("buttons: "+myid+" | direction: "+direction);
       if (go == "yes") {
         if (direction == "back") { val = Number(myid[1])-1} else { val = Number(myid[1])+1; }
-        var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-        buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
+        //var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
+        //buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> -";
         view_reader_text(myid[0], val, DATA);
         $("#meta").html(view_reader_meta(myid[0], val, DATA));
         main(myid[0]+"x"+val);
       }
     }
-    
+    function  get_topic_name(code) {
+      topic = "#showTopics"+code.split("-")[0];
+      var out = $(topic).html();
+      $.each(TOPICS, function(i, val) {
+        if (val["code"] == code) { 
+          out += " > "+val["topic"];
+        }
+      });
+      return out;
+    }
+
     function enlarge() {
     // Enlarge images
     $("img.enlarge")
@@ -234,16 +250,16 @@
       })
     }
       
-    function view_detail(row, column, DATA)  {
+    function view_detail(row, column, DATA, topic)  {
       var g = DATA[row];
       var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       var page_image = '<p class="detail-p"><i>page %s of %s</i><br /><img " \
         style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
         center bottom;\' src="%s" /></p>';
       if (column == 1) { page_image= "";}
-      return sprintf('<p>[id=%s]  %s <br />by %s<br /><i>%s</i></p>\
+      return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
         <p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
-        '+page_image, g["id"], g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
+        '+page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
     }
 
     function view_reader_meta(row, column, DATA)  {

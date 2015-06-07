@@ -4,7 +4,7 @@ from pprint import pprint
 import re, random, os
 
 def gen_simple_topics():
-  with open('dataDiaries-don.json') as data_file:    
+  with open('dataDiaries.json') as data_file:    
 	  diaries = json.load(data_file)
 	  #print data[128]
   out = "["
