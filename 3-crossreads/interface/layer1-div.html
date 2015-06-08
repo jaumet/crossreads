@@ -11,6 +11,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <div class="logo"></div>
 	<div class="mywrapper">
       <div class="mybuttons">
         <h1 class="myheader">World War 1 Diaries</h1>
@@ -43,7 +44,7 @@
       <div style="clear:both;height:10px;"></div>
       <div id="container">
         <div id="header"></div>
-        <div id="left">&nbsp;&nbsp;129<br />Diaries</div>
+        <div id="left"></div>
         <div id="grid"></div>
         <div id="detail"></div>
         <div id="reader-overlay"></div>
@@ -73,13 +74,14 @@
     localStorage.setItem('journey', "");
   }
   $(function(){ 
+    // Add authors static html
+    $("#left").html(AUTHORS);
     // Grid builder
     var c = 0;
     $.each(topicMatrix, function(i, row) {
       myi = i +1;
       $("#grid").append("<div id='"+i+"' class='row'></div>");
       $.each(row, function(j, column) {
-        console.log(column)
         topic = column.split("-")[0]
         topicSubtopic = topic+"-"+column.split("-")[1];
         myj = j + 1
@@ -98,22 +100,15 @@
         var offs = $(this).offset();
         var classBgcolor = $(this).attr("class");
         var topic = $(this).attr("t");
-        if ($(this).css('background-image') == "none")  {
-          var myid = $(this).attr('id').split("x");
-          // in case of covers:
-          if ($(this).css('background-image') == '') {classBgcolor="cC";}
-          if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
-          $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
-          $(this).css("border","3px solid #0310FF");
-          $("#detail").html(view_detail(myid[0], myid[1], DATA, topic));
-        }
+        var myid = $(this).attr('id').split("x");
+        if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
+        $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
+        $(this).css("border","3px solid #0310FF");
+        $("#detail").html(view_detail(myid[0], myid[1], DATA, topic));
       })
       .mouseout(function() {
-      //.dblclick(function() {
-        if ($(this).css('background-color') != 'rgb(255, 255, 255)')  {
-          $("#detail").css("display","none").attr('class', '');
-          $(this).css("border","0");
-        }
+        $("#detail").css("display","none").attr('class', '');
+        $(this).css("border","0");
       })
       .click(function() {
         if ($(this).css('background-image') == "none")  {

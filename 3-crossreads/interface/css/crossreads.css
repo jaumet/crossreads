@@ -47,6 +47,15 @@ pre {
   border:3px solid red;
 }
 
+.logo {
+  position:absolute;
+  left:0;
+  top:0;
+  width:90px;
+  height:90px;
+  background-image:url('../img/logo.png');
+  background-repeat:no-repeat;
+}
 #container {
   height:750px;
 	overflow: hidden;
@@ -55,8 +64,32 @@ pre {
 /* divs based grid */
 #left {
   position:absolute;
-  top:120px;
-  left:30px;
+  top:95px;
+  left:5px;
+  /*border-image:url('../img/rulev.png') 30 30 round;*/
+  border-right:5px;
+  border-left:0;
+  border-bottom:0;
+  border-top:0;
+  height:653px;
+  width:100px;
+}
+
+#left span, #left span span {
+  position:absolute;
+  left:2px;
+  font-size:5px;
+  width:90px;
+}
+#left span span {
+  border-top:1px solid grey;
+  text-align:rigt;
+  color:#fff;
+  background-color:#605959;
+}
+#left span span:hover {
+  font-size:9px;
+  z-index:2;
 }
 
 #left, #header {
@@ -74,15 +107,6 @@ pre {
   border-left:0px;
   border-right:0;
   border-bottom:0;
-}
-#left {
-  top:150px;
-  border-image:url('../img/rulev.png') 30 30 round;
-  border-right:25px;
-  border-left:0;
-  border-bottom:0;
-  border-top:0;
-  height:653px;
 }
 
 .row {
@@ -151,7 +175,7 @@ pre {
   position:relative;
   width:50px;
   height:30px;
-  border:1px solid red;
+  border:0px solid red;
   float:right;
 }
 
@@ -237,7 +261,7 @@ img.enlarged {
 .c3  {background-color: #99cc66;}
 .c2  {background-color: #cc6666;}
 .c1  {background-color: #E78F39;}
-.cC, c0  {background-color: #FFF;}
+.cC, .c0  {background-color: #FFF;}
 
 #topicsView li a {
   color:#6E6767;
