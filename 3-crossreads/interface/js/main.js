@@ -3,6 +3,15 @@
     localStorage.setItem('journey', "");
   }
   $(function(){ 
+    // Submenu
+    $('.collapse').on('shown.bs.collapse', function (e) {
+      $('.collapse').not(this).removeClass('in');
+    });
+
+    $('[data-toggle=collapse]').click(function (e) {
+      $('[data-toggle=collapse]').parent('li').removeClass('active');
+      $(this).parent('li').toggleClass('active');
+    });
     // Add authors static html
     $("#left").html(AUTHORS);
     // Grid builder
@@ -19,7 +28,7 @@
         c += 1;
       })
     })
-    console.log("TOTAL PAGES= "+c);
+    //console.log("TOTAL PAGES= "+c);
     $("#header").html("<p>"+c+" pages</p>");
     
     // Detail popup
@@ -32,7 +41,7 @@
         var myid = $(this).attr('id').split("x");
         if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
         $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
-        $(this).css("border","3px solid #0310FF");
+        $(this).css("border","3px solid #424242");
         $("#detail").html(view_detail(myid[0], myid[1], DATA, topic));
       })
       .mouseout(function() {
@@ -74,7 +83,13 @@
     $("#showJourney").click(function() {
       var myid = $(this).attr('id');
       topicsView("journey");
-    });    
+    });
+    $("nav ul li a").click(function() {
+      var mysubtopic = $(this).attr('id');
+      topicsView("hide");
+      //alert(mysubtopic);
+      topicsView("subtopic", mysubtopic); // mysubtopic has len = 3
+    });
     
 
     // non-anonymous functions:
@@ -220,11 +235,10 @@
           return 'data/diariesCovers/'+cover
           break;
       }
-      //console.log("length-> "+suf.toString().length+" | initial suf-> "+s+"  | final-> "+pre+" | "+mysuf+"h.jpg");
       return pre+mysuf+"h.jpg";
     }
     
-    function topicsView(topic) {  // Show/hide pages according to topics, visited,...
+    function topicsView(topic, mysubtopic) {  // Show/hide pages according to topics, visited,...
       $("#journey").css('display','none');
       switch (topic) { 
         case 'show': 
@@ -234,6 +248,7 @@
         case 'hide': 
           $(".c").css("background-image","url('img/white-pill-7x5.png')");
           $("#topicsView li").attr('class', '');
+
           break;
         case 'showTopics1': 
           $(".c1").css('background-image','');
@@ -249,6 +264,13 @@
           break;
         case 'showTopics5': 
           $(".c5").css('background-image','');
+          break;
+        case "subtopic":
+            //alert(mysubtopic);
+            $(".c").css("background-image","url('img/white-pill-7x5.png')");
+            $("[t='"+mysubtopic+"']").css('background-image','');
+            $("#"+mysubtopic).parent().siblings().addClass("bggrey");
+            $("#"+mysubtopic).parent().removeClass("bggrey");
           break;
         case 'journey': 
           // Get visited pages from and transform to string for $ selection

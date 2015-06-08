@@ -7,8 +7,8 @@
 		<script src="data/dataDiaries.js"></script>
 		<script src="data/dataPages.js"></script>
 		<script src="data/dataTopics.js"></script>
-    <script src="data/topics.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <script src="data/topics.js"></script >
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="logo"></div>
@@ -26,12 +26,52 @@
       <div class="myorders">
         <p class="myheader">visualization of the State Library of NSW collection<br /><a href="http://transcripts.sl.nsw.gov.au/project/World%20War%201%20Diaries" target="SLNSW">[SLNSW collection]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="about crossreads">[About]</a>&nbsp;&nbsp;&nbsp;<a href="#" target="feedback">[Feedback]</a></p>
         <ul id="topicsView" class="nav nav-pills">
-          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1">Personal</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2">War</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3">Military life</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4">Traveling</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5">The accidental tourist</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1" data-toggle="collapse" data-target="#one">Personal</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2" data-toggle="collapse" data-target="#two">War</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3" data-toggle="collapse" data-target="#three">Military life</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4" data-toggle="collapse" data-target="#four">Traveling</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5" data-toggle="collapse" data-target="#five">The accidental tourist</a></li>
         </ul>
+        <nav class="navbar navbar-default" role="navigation" id="submenu">
+          <ul class="nav navbar-nav collapse c1" id="one">
+            <li><a href="#" id="1-1">Wheather</a></li>
+            <li><a href="#" id="1-2">Colors of life</a></li>
+            <li><a href="#" id="1-3">Food</a></li>
+            <!--<li><a href="#" id="1-4">Personal care & clothes</a></li>-->
+            <!--<li><a href="#" id="1-5">Letters, family</a></li>-->
+            <li><a href="#" id="1-6">Poetry & spirit</a></li>
+            <li><a href="#" id="1-7">Family & Oz</a></li>
+            <!--<li><a href="#" id="1-8">In French</a></li>-->
+          </ul>
+          <ul class="nav navbar-nav collapse c2" id="two">
+            <li><a href="#" id="2-1">Combat</a></li>
+            <li><a href="#" id="2-2">Front line I</a></li>
+            <!--<li><a href="#" id="2-3">Health I</a></li>-->
+            <!--<li><a href="#" id="2-4">Health II</a></li>-->
+            <li><a href="#" id="2-5">Air</a></li>
+            <li><a href="#" id="2-6">Front line II</a></li>
+            <li><a href="#" id="2-7">Context</a></li>
+          </ul>
+          <ul class="nav navbar-nav collapse c3" id="three">
+            <li><a href="#" id="3-1">Context</a></li>
+            <li><a href="#" id="3-2">Parades & march</a></li>
+            <!--<li><a href="#" id="3-3">Turkey</a></li>-->
+            <li><a href="#" id="3-4">General</a></li>
+            <li><a href="#" id="3-5">Sports</a></li>
+          </ul>
+          <ul class="nav navbar-nav collapse c4" id="four">
+            <!--<li><a href="#" id="4-1">Roads & railways</a></li>-->
+            <li><a href="#" id="4-2">Over the sea</a></li>
+            <!--<li><a href="#" id="4-3">Terrestrial</a></li>-->
+            <!--<li><a href="#" id="4-4">Sea life</a></li>-->
+            <!--<li><a href="#" id="4-5">Middle est</a></li>-->
+          </ul>
+          <ul class="nav navbar-nav collapse c5" id="five">
+            <li><a href="#" id="5-1">City life</a></li>
+            <!--<li><a href="#" id="5-2">Egipt</a></li>-->
+            <!--<li><a href="#" id="5-3">UK</a></li>-->            <li><a href="#" id="5-4">France</a></li>
+          </ul>
+        </nav>
       </div>
       <!--
       topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Military life']
@@ -51,6 +91,7 @@
           <div id="reader">
             <div id="reader-close">
               <img src="img/w_close.png" width="28px"/>
+              <span class="glyphicons glyphicons-show-thumbnails"></span>
             </div>
             <div id="meta"></div>
             <div id="reader-main">
