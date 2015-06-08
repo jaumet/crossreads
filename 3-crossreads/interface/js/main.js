@@ -29,7 +29,7 @@
       })
     })
     //console.log("TOTAL PAGES= "+c);
-    $("#header").html("<p>"+c+" pages</p>");
+    //$("#left").html("<p>"+c+" pages</p>");
     
     // Detail popup
     $(".row div")
@@ -157,11 +157,8 @@
       if (Number(myid[1]) >= 1 && Number(myid[1]) < DATA[myid[0]]["page_no"])  { go = "yes"; } else { go="no";}          
       if (Number(myid[1]-1) == 0 && direction == "back") { go = "no";}
       if (Number(myid[1]) == DATA[myid[0]]["page_no"] && direction == "back") { go = "yes";}
-      //alert("buttons: "+myid+" | direction: "+direction);
       if (go == "yes") {
         if (direction == "back") { val = Number(myid[1])-1} else { val = Number(myid[1])+1; }
-        //var buttons = "<p id_track=\""+myid[0]+"x"+val+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-        //buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> -";
         view_reader_text(myid[0], val, DATA);
         $("#meta").html(view_reader_meta(myid[0], val, DATA));
         main(myid[0]+"x"+val);
@@ -179,14 +176,14 @@
     }
 
     function enlarge() {
-    // Enlarge images
-    $("img.enlarge")
-      .mouseover(function() {
-        $(this).addClass("enlarged");
-      })
-      .click(function() {
-        $(this).removeClass("enlarged");
-      })
+      // Enlarge images
+      $("img.enlarge")
+        .mouseover(function() {
+          $(this).addClass("enlarged");
+        })
+        .click(function() {
+          $(this).removeClass("enlarged");
+        })
     }
       
     function view_detail(row, column, DATA, topic)  {
