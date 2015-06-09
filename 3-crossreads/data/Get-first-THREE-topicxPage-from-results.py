@@ -40,7 +40,8 @@ for row20x in my:
   #print tmp.index(m)
   code = "0-0"
   #print ">>>>>>>>>> "+str(co)
-  if int(tmp.index(m)) >28 or m == 0:
+  notUsedTopics = [17,42,27,26,18,12,8,21,32,31,40,5,39,43,38,24,15,36,10,];
+  if tmp.index(m) in notUsedTopics or m == 0:
     code = "0-0"
     cero += 1
   else:
