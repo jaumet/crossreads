@@ -44,7 +44,7 @@
                   } else {
                       myposleft = pos.left - 60;
                   }
-                  $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 20 + "px").css("left", myposleft + "px");
+                  $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 5 + "px").css("left", myposleft + "px");
                   $(this).css("border", "3px solid #424242");
                   $("#detail").html(view_detail(myid[0], myid[1], topic));
               })
