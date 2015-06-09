@@ -40,18 +40,18 @@
         var topic = $(this).attr("t");
         var myid = $(this).attr('id').split("x");
         if (myid[1] < 100)  { myposleft = pos.left+107;} else { myposleft = pos.left-60;}
-        $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top+"px").css("left",myposleft+"px");
+        $("#detail").css("display","block").addClass(classBgcolor).css("top",pos.top-15+"px").css("left",myposleft+"px");
         $(this).css("border","3px solid #424242");
-        $("#detail").html(view_detail(myid[0], myid[1], DATA, topic));
+        $("#detail").html(view_detail(myid[0], myid[1], topic));
       })
       .mouseout(function() {
         $("#detail").css("display","none").attr('class', '');
         $(this).css("border","0");
       })
       .click(function() {
-        if ($(this).css('background-image') == "none")  {
+        //if ($(this).css('background-image') == "none")  {
           main(this.id);
-        }
+        //}
       });
       
     // Reader close
@@ -99,50 +99,50 @@
       //alert("main: "+myid);
       //alert(Number(myids[1])+" | "+DATA[myids[0]]["page_no"]);
       // Reader popup      
-        if ($(myid).css('background-color') != 'rgb(255, 255, 255)')  {
-          // Check pages back & forward:
-          var go = "no";
-          if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
-          if (go == "yes") {
-            $("#reader").css("display","none").attr('class', '');
-            var classBgcolor = $(myid).attr("class");
-            var topic = $(myid).attr("t");
-            $("#reader").css("display","block");
-            if (classBgcolor=="") {classBgcolor=myid[2];}
-            $("#reader").addClass(classBgcolor);
-            $("#reader-overlay").css("display","block");
-            $(".browser").addClass(classBgcolor);
-            $("#detail").css("display","none").attr('class', '');            
-            // Store visited page in localstore:
-            var journey = localStorage.getItem('journey')+">"+myid;
-            localStorage.setItem('journey',journey);
-            console.log("journey: "+journey);
-  /////////////////////////////////////////////////////////////
-            myJourney(myid, "add"); // Other options to define: remove, get["all", "last", "first"], 
-            
-            var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-            buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
-            buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
-            buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
-            buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> ) - <b>["+topic+" | "+get_topic_name(topic)+"]</b></p>";
-            $("#reader-buttons").html(buttons);
-            view_reader_text(myids[0], myids[1]-1, DATA);
-            $("#meta").html(view_reader_meta(myids[0], myids[1], DATA));
-            enlarge();
-            //do_buttons();
-            $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id, topic)});
+        // Check pages back & forward:
+        var go = "no";
+        if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+        if (go == "yes") {
+          $("#reader").css("display","none").attr('class', '');
+          var classBgcolor = $(myid).attr("class");
+          var topic = $(myid).attr("t");
+          $("#reader").css("display","block");
+          if (classBgcolor=="") {classBgcolor=myid[2];}
+          if (classBgcolor=="c c0") {classBgcolor="c cC";}
+          $("#reader").addClass(classBgcolor);
+          $("#reader-overlay").css("display","block");
+          $(".browser").addClass(classBgcolor);
+          $("#detail").css("display","none").attr('class', '');            
+          // Store visited page in localstore:
+          var journey = localStorage.getItem('journey')+">"+myid;
+          localStorage.setItem('journey',journey);
+          console.log("journey: "+journey);
+/////////////////////////////////////////////////////////////
+          myJourney(myid, "add"); // Other options to define: remove, get["all", "last", "first"], 
+          
+          var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
+          buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
+          buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
+          buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
+          buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> ";
+          buttons += ")</p><p class=\"topic\">"+get_topic_name(topic)+"</p>";
+          $("#reader-buttons").html(buttons);
+          view_reader_text(myids[0], myids[1]-1);
+          $("#meta").html(view_reader_meta(myids[0], myids[1]));
+          enlarge();
+          //do_buttons();
+          $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id, topic)});
 /////////////////////// RECHECK THIS left right keys
 /*
-            $(document).on( 'keydown', function ( e ) {
-              if ( e.keyCode === 37 ) { // key Left
-                do_buttons(classBgcolor, "back")
-              }
-              if ( e.keyCode === 39 ) { // key Right
-                do_buttons(classBgcolor, "forward")
-              }
-            });
+          $(document).on( 'keydown', function ( e ) {
+            if ( e.keyCode === 37 ) { // key Left
+              do_buttons(classBgcolor, "back")
+            }
+            if ( e.keyCode === 39 ) { // key Right
+              do_buttons(classBgcolor, "forward")
+            }
+          });
 */
-          }
         }
     }
     
@@ -165,13 +165,17 @@
       }
     }
     function  get_topic_name(code) {
-      topic = "#showTopics"+code.split("-")[0];
-      var out = $(topic).html();
-      $.each(TOPICS, function(i, val) {
-        if (val["code"] == code) { 
-          out += " > "+val["topic"];
-        }
-      });
+      if (code != "0-0") {
+        topic = "#showTopics"+code.split("-")[0];
+        var out = $(topic).html();
+        $.each(TOPICS, function(i, val) {
+          if (val["code"] == code) { 
+            out += " > "+val["topic"];
+          }
+        });
+      } else {
+        out = "topic  not specificied"
+      }
       return out;
     }
 
@@ -186,19 +190,22 @@
         })
     }
       
-    function view_detail(row, column, DATA, topic)  {
+    function view_detail(row, column, topic)  {
       var g = DATA[row];
       var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       var page_image = '<p class="detail-p"><i>page %s of %s</i><br /><img " \
         style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
         center bottom;\' src="%s" /></p>';
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+      var topicsStats = '<p class="detail-p"></p>';
       if (column == 1) { page_image= "";}
       return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
         <p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
         '+page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
     }
 
-    function view_reader_meta(row, column, DATA)  {
+    function view_reader_meta(row, column)  {
       var g = DATA[row];
       var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
       var page_image = '<p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>';
@@ -207,7 +214,7 @@
         <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>'+page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
     }
 
-    function view_reader_text(row, column, DATA)  {
+    function view_reader_text(row, column)  {
       var g = DATA[row];
       var path = "data/diariesPages/"+g["diary_id"]+"/"+pages[row][column]+".txt";
       $("#reader-text pre").load(path);
