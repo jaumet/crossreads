@@ -87,61 +87,55 @@
     $("nav ul li a").click(function() {
       var mysubtopic = $(this).attr('id');
       topicsView("hide");
-      //alert(mysubtopic);
-      topicsView("subtopic", mysubtopic); // mysubtopic has len = 3
-    });
+      topicsView("subtopic", mysubtopic); 
     
 
     // non-anonymous functions:
     function main(myid) {
       var myids = myid.split("x");
       var myid = "#"+myid;
-      //alert("main: "+myid);
-      //alert(Number(myids[1])+" | "+DATA[myids[0]]["page_no"]);
       // Reader popup      
-        // Check pages back & forward:
-        var go = "no";
-        if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
-        if (go == "yes") {
-          $("#reader").css("display","none").attr('class', '');
-          var classBgcolor = $(myid).attr("class");
-          var topic = $(myid).attr("t");
-          $("#reader").css("display","block");
-          if (classBgcolor=="") {classBgcolor=myid[2];}
-          if (classBgcolor=="c c0") {classBgcolor="c cC";}
-          $("#reader").addClass(classBgcolor);
-          $("#reader-overlay").css("display","block");
-          $(".browser").addClass(classBgcolor);
-          $("#detail").css("display","none").attr('class', '');            
-          // Store visited page in localstore:
-          var journey = localStorage.getItem('journey')+">"+myid;
-          localStorage.setItem('journey',journey);
-          console.log("journey: "+journey);
-/////////////////////////////////////////////////////////////
-          myJourney(myid, "add"); // Other options to define: remove, get["all", "last", "first"], 
-          
-          var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-          buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
-          buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
-          buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
-          buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> ";
-          buttons += ")</p><p class=\"topic\">"+get_topic_name(topic)+"</p>";
-          $("#reader-buttons").html(buttons);
-          view_reader_text(myids[0], myids[1]-1);
-          $("#meta").html(view_reader_meta(myids[0], myids[1]));
-          enlarge();
-          //do_buttons();
-          $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id, topic)});
+      // Check pages back & forward:
+      var go = "no";
+      if (Number(myids[1]) >= 1 && Number(myids[1]) <= DATA[myids[0]]["page_no"])  { go = "yes"; } else { go="no";}          
+      if (go == "yes") {
+        $("#reader").css("display","none").attr('class', '');
+        var classBgcolor = $(myid).attr("class");
+        var topic = $(myid).attr("t");
+        $("#reader").css("display","block");
+        if (classBgcolor=="") {classBgcolor=myid[2];}
+        if (classBgcolor=="c c0") {classBgcolor="c cC";}
+        $("#reader").addClass(classBgcolor);
+        $("#reader-overlay").css("display","block");
+        $(".browser").addClass(classBgcolor);
+        $("#detail").css("display","none").attr('class', '');            
+        // Store visited page in localstore:
+        var journey = localStorage.getItem('journey')+">"+myid;
+        localStorage.setItem('journey',journey);
+        myJourney(myid, "add");
+        
+        var buttons = "<p id_track=\""+myids[0]+"x"+myids[1]+"x"+classBgcolor+"\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
+        buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
+        buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney("+myid+", \"remove\");\">remove from visited</a>]";
+        buttons += " ( <a href=\"data/diariesPages/"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+".txt\" target=\"_page\">"+DATA[myids[0]]["diary_id"]+"/"+pages[myids[0]][myids[1]]+"</a>) ";
+        buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/"+pages[myids[0]][myids[1]]+"\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/"+DATA[myids[0]]["diary_id"]+"\" target=\"_diary\">Diary</a> ";
+        buttons += ")</p><p class=\"topic\">"+get_topic_name(topic)+"</p>";
+        $("#reader-buttons").html(buttons);
+        view_reader_text(myids[0], myids[1]-1);
+        $("#meta").html(view_reader_meta(myids[0], myids[1]));
+        enlarge();
+        //do_buttons();
+        $(".nav_diary").click(function() {do_buttons(classBgcolor, this.id, topic)});
 /////////////////////// RECHECK THIS left right keys
 /*
-          $(document).on( 'keydown', function ( e ) {
-            if ( e.keyCode === 37 ) { // key Left
-              do_buttons(classBgcolor, "back")
-            }
-            if ( e.keyCode === 39 ) { // key Right
-              do_buttons(classBgcolor, "forward")
-            }
-          });
+        $(document).on( 'keydown', function ( e ) {
+          if ( e.keyCode === 37 ) { // key Left
+            do_buttons(classBgcolor, "back")
+          }
+          if ( e.keyCode === 39 ) { // key Right
+            do_buttons(classBgcolor, "forward")
+          }
+        });
 */
         }
     }

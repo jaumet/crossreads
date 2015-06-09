@@ -215,6 +215,10 @@ pre {
   padding-top:30px;
   height:80%;
 }
+#reader-text {
+  padding-top:20px;
+}
+
 #meta {
   width:30%;
 }
