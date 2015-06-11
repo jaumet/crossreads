@@ -1,5 +1,6 @@
 import csv, json
 from pprint import pprint
+import heapq
 
 #topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Militar life']
 ################################################################################
@@ -40,7 +41,26 @@ for row20x in my:
   #print tmp.index(m)
   code = "0-0"
   #print ">>>>>>>>>> "+str(co)
-  notUsedTopics = [17,42,27,26,18,12,8,21,32,31,40,5,39,43,38,24,15,36,10,];
+  notUsedTopics = [17,42,27,26,18,12,8,21,32,31,40,5,39,43,38,24,15,36,10,]
+  
+  
+  r = 0;g="no"
+  #print str(tmp.index(m))+" | "+str(tmp)
+  while tmp.index(m) in notUsedTopics:
+    #### Get the second or third topics if score is > 0.5
+    r+=1
+    m = heapq.nlargest(r+1, tmp)[r]
+    g = "yes"
+
+  if m>0.25 and g == "yes":
+    cero+=1
+    diary = row20x[1].replace('file:/home/jaume/apps/Mallet/diariesPages-noEmptyPages/','')
+    for item in topics:
+      if item["topicNo"] == int(tmp.index(m)):
+        code = item["code"]
+    print str(cero)+") num: "+str(51-r)+" | score: "+str("%.2f" % m)+" >"+diary+" | TM: "+str(code)
+'''
+
   if tmp.index(m) in notUsedTopics or m == 0:
     code = "0-0"
     cero += 1
@@ -98,3 +118,4 @@ print "//lines "+str(lines)
 #print tnul, t0, t1, t2, t3 , t4
 # write it out as pagesTopic.json
 #print "Diaries to delete completely: they are mainly printed books, and they are not transcribed: 100300,  100299 (id=17). 115137 (id=127)"
+'''

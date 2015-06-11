@@ -7,7 +7,7 @@ var TOPICS = [
 	},
 	{
 	"code":"1-1",
-	"topic":"Wheather",
+	"topic":"Weather",
 	"topicNo":1,
 	"words":"cold day night weather rain morning snow heavy wind wet fine sunday warm afternoon today quiet early raining days mud"
 	},
@@ -97,13 +97,13 @@ var TOPICS = [
 	},
 	{
 	"code":"3-1",
-	"topic":"Context",
+	"topic":"Politics & context",
 	"topicNo":28,
 	"words":"men war australian great made british army life troops france general australians soldiers military years australia officers fighting battle death"
 	},
 	{
 	"code":"3-2",
-	"topic":"Parades & march",
+	"topic":"Parades & Marches",
 	"topicNo":20,
 	"words":"parade men general afternoon battalion good morning work marched today day officers band ground march drill company order inspected lunch"
 	},
@@ -115,7 +115,7 @@ var TOPICS = [
 	},
 	{
 	"code":"3-4",
-	"topic":"",
+	"topic":"General",
 	"topicNo":6,
 	"words":"para pte officer orders part coy charge field order battalion col battn a.i.f hours duty sentence absent capt div lieut"
 	},
@@ -139,7 +139,7 @@ var TOPICS = [
 	},
 	{
 	"code":"4-3",
-	"topic":"Railway and more",
+	"topic":"by Land",
 	"topicNo":49,
 	"words":"train arrived large engine trucks boys number line back station made depot run left camp railway time hut started siding"
 	},
@@ -151,7 +151,7 @@ var TOPICS = [
 	},
 	{
 	"code":"4-5",
-	"topic":"Middle est",
+	"topic":"Middle East",
 	"topicNo":34	,
 	"words":"horses miles jerusalem road wadi turks valley hills water jordan left hill great camped turkish village camp moved made brigade"
 	},
@@ -162,8 +162,8 @@ var TOPICS = [
 	"words":"church place fine inside beautiful town round stone cathedral built walls building side places large houses high city small ancient"
 	},
 	{
-	"code":"5-2",
-	"topic":"Egipt",
+	"code":"5-2", 
+	"topic":"Egypt",
 	"topicNo":35,
 	"words":"cairo native natives women city egypt streets round people pyramids egyptian white children street tram soldiers left interesting man large"
 	},

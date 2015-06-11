@@ -97,14 +97,16 @@ From me:
 
 FROM KAR WAI LIM:
 - MATH TRICKS TO MINIMEZE TOO BIG tmS
-- TOPICS NAME HIERARCHIES
+DONE- TOPICS NAME HIERARCHIES
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FROM MITCHELL Meeting:
 notes / suggestions
 
+DONE: DON'T KNOW HOW TO SOLVE THE SIZE. RIGHT NOW MOUSE OVER MAGNIFIES'
 Authors
 a lot of the interesting variations evident in the display correspond with authors. Many of the diaries are in sets belonging to a single author. Suggest you group the rows by author (add a small space between groups) and label each group with author’s name.
+
 
 Topics
 Militar Life -> Military Life

@@ -1,13 +1,14 @@
-
 body {
   padding:0;
   margin:0;
   top:0;
   font-family: 'Bitter', serif;
 }
+
 pre {
   font-family: 'Bitter', serif;
 }
+
 #nav {
   top:-10px;
   left:0px;
@@ -26,26 +27,30 @@ pre {
   float:left;
 }
 .navbar-nav>li>a {
-  padding-top:3px;
-  border-right:2px solid #fff;
-}
+  padding:5px;
+  border-right:4px solid #fff;
 }
 
 .navbar {
   margin-bottom:-1px;
-    border-radius:0;
+  border-radius:0;
+  height:20px;
+}
+
+.nav {
+	margin-top:4px;
+	margin-bottom:4px;
 }
 
 #submenu {
     background-color: #e7e7e7;
-    margin-bottom:5px;
+    margin-bottom: 0px;
+  height:50px;
 }
 
 .collapsing {
   display:none;
 }
-
-/**********/
 
 .mybuttons {
   width:400px;
@@ -53,7 +58,7 @@ pre {
 }
 
 .mywrapper {
-  margin-left:100px;
+  margin-left:130px;
   min-width:1000px;
 }
 
@@ -66,22 +71,29 @@ pre {
   left:0;
   top:0;
   width:90px;
-  height:90px;
+  height:125px;
   padding-left:10px;
   background-image:url('../img/logo.png');
   background-repeat:no-repeat;
-  text-valign:bottom;
 }
+
+.logo p {
+  font-size:12px;
+  margin-top:105px;
+  margin-left:10px;
+}
+
 #container {
   height:750px;
-	overflow: hidden;
-	z-index:0;
+  overflow: hidden;
+  z-index:0;
 }
+
 /* divs based grid */
 #left {
   position:absolute;
-  top:95px;
-  left:5px;
+  top:110px;
+  left:35px;
   /*border-image:url('../img/rulev.png') 30 30 round;*/
   border-right:5px;
   border-left:0;
@@ -97,14 +109,16 @@ pre {
   font-size:5px;
   width:90px;
 }
+
 #left span span {
   border-top:1px solid grey;
   text-align:rigt;
   color:#fff;
   background-color:#605959;
 }
+
 #left span span:hover {
-  font-size:9px;
+  font-size:10px;
   cursor:zoom-in;
   z-index:2;
 }
@@ -117,9 +131,9 @@ pre {
   width:1600px;
   height:653px;
   position:absolute;
-  top:130px;
-  left:100px;
-  border-image:url('../img/rule.png') 30 30 round;
+  top:160px;
+  left:130px;
+/*  border-image:url('../img/rule.png') 30 30 round;*/
   border-top:15px;
   border-left:0px;
   border-right:0;
@@ -173,16 +187,16 @@ pre {
 }
 
 #reader-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width:3000px;
   height:900px;
-	overflow: hidden;
+  overflow: hidden;
   background-color:#fff;
   opacity:0.8;
-	display: none;
-	z-index: 19;
+  display: none;
+  z-index: 19;
 }
 
 #reader-close {
@@ -196,6 +210,7 @@ pre {
 #reader-close img {
   position:relative;
 }
+
 #reader-close img:hover {
   padding:2px;
   border:1px solid #424242;
@@ -211,11 +226,13 @@ pre {
   margin-right: auto; 
   margin-left: auto;
 }
+
 #reader-main {
   width:60%;
   padding-top:30px;
   height:80%;
 }
+
 #reader-text {
   padding-top:20px;
 }
@@ -263,7 +280,7 @@ img.enlarged {
 }
 
 #journey {
-	display: none;
+  display: none;
   position:absolute;
   width:1000px;
   height:653px;
@@ -271,9 +288,9 @@ img.enlarged {
   left:100px;
   background-color:#fff;
   border:1px solid blue;
-	overflow: hidden;
+  overflow: hidden;
   opacity:0.4;
-	z-index: 5;
+  z-index: 5;
 }
 
 .topic {
@@ -295,10 +312,12 @@ img.enlarged {
 #topicsView li a {
   color:#6E6767;
 }
+
 #topicsView li a:hover {
   color:#605959;
   font-weight:bold;
 }
+
 #showTopics4 { background-color: #9966cc;}
 #showTopics5 { background-color: #66cccc;}
 #showTopics3 { background-color: #99cc66;}
@@ -308,9 +327,12 @@ img.enlarged {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus {
   background-color: #424242;
 }
+
 .nav-pills>li>a {
   color: #000;
+  heigth:100px;
 }
+
 .nav-pills>li.active>a:hover  {
   background-color: #9E9E9E;
 }
@@ -326,24 +348,29 @@ img.enlarged {
   background-color:#ffffff;
   padding:10px;
 }
+
 #meta h1 {
   font-size:1.6em;
 }
+
 #store {
   padding:20px;
   font-size:1.2em;
 }
+
 #reader-buttons a, .row div {
   cursor:context-menu;
 }
+
 h1.myheader {
   color:#fff;
   background-color:#424242;
   margin:0;
-  padding:6px;
+  padding:5px;
   padding-left:10px;
   border-bottom:5px solid #fff;
 }
+
 p.myheader {
   color:#fff;
   background-color:#424242  ;
@@ -351,8 +378,8 @@ p.myheader {
   padding:6px;
   border-bottom:5px solid #fff;
 }
+
 .myheader a {
   color:#fff;
   background-color:#424242;
 }
-

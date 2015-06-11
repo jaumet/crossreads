@@ -36,7 +36,11 @@
               .mouseover(function() {
                   var pos = $(this).position();
                   var offs = $(this).offset();
-                  var classBgcolor = $(this).attr("class");
+                  if ($(this).attr("class") != "c c0")  {
+					var classBgcolor = $(this).attr("class");
+				  } else  {
+					var classBgcolor = "c cC";  
+				  }
                   var topic = $(this).attr("t");
                   var myid = $(this).attr('id').split("x");
                   if (myid[1] < 100) {
@@ -47,6 +51,7 @@
                   $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 5 + "px").css("left", myposleft + "px");
                   $(this).css("border", "3px solid #424242");
                   $("#detail").html(view_detail(myid[0], myid[1], topic));
+                  $("#detail").css("background-image", "");
               })
               .mouseout(function() {
                   $("#detail").css("display", "none").attr('class', '');
@@ -130,7 +135,8 @@
                       var buttons = "<p id_track=\"" + myids[0] + "x" + myids[1] + "x" + classBgcolor + "\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
                       buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
                       buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
-                      buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][myids[1]] + ".txt\" target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][myids[1]] + "</a>) ";
+                      buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
+                      buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
                       buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> ";
                       buttons += ")</p><p class=\"topic\">" + get_topic_name(topic) + "</p>";
                       $("#reader-buttons").html(buttons);
@@ -143,15 +149,15 @@
                       });
                       /////////////////////// RECHECK THIS left right keys
                       /*
-        $(document).on( 'keydown', function ( e ) {
-          if ( e.keyCode === 37 ) { // key Left
-            do_buttons(classBgcolor, "back")
-          }
-          if ( e.keyCode === 39 ) { // key Right
-            do_buttons(classBgcolor, "forward")
-          }
-        });
-*/
+						$(document).on( 'keydown', function ( e ) {
+						  if ( e.keyCode === 37 ) { // key Left
+							do_buttons(classBgcolor, "back")
+						  }
+						  if ( e.keyCode === 39 ) { // key Right
+							do_buttons(classBgcolor, "forward")
+						  }
+						});
+					  */
                   }
               }
 
@@ -202,7 +208,7 @@
               }
 
               function enlarge() {
-                  // Enlarge images
+                  // FIXME Too simple images enlarger
                   $("img.enlarge")
                       .mouseover(function() {
                           $(this).addClass("enlarged");
@@ -215,20 +221,29 @@
               function view_detail(row, column, topic) {
                   var g = DATA[row];
                   var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
-                  var page_image = '<p class="detail-p"><i>page %s of %s</i><br /><img " \
-        style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
-        center bottom;\' src="%s" /></p>';
+                  var page_image = '';//'''<p class="detail-p"><i>page %s of %s</i><br /><img " \
+        //style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
+        //center bottom;\' src="%s" /></p>';
                   //////////////////////////////////////////////////
                   //////////////////////////////////////////////////
                   var topicsStats = '<p class="detail-p"></p>';
+                  if (topic != "0-0")  {
+					myScoreValue = Number(topicMatrix[row][column-1].split("-")[2])*100
+					myScoreHtml = "<h4>Topic score:<br />%s%</h4>"
+				  }  else {
+					 myScoreValue = '';
+					 myScoreHtml = "";  
+				  }
+				  
                   if (column == 1) {
                       page_image = "";
                   }
                   return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
         <p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
-        ' + page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile);
-              }
-
+        ' +myScoreHtml+ page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], myScoreValue);
+        //' + page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile, g["page_no"]);              }
+			  }
+			  
               function view_reader_meta(row, column) {
                   var g = DATA[row];
                   var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);

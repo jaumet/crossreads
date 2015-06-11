@@ -11,16 +11,16 @@
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="logo"><br /><br /><br /><b>11944<br />pages<br />126<br />Diaries by:</b></div>
+  <div class="logo"><p>11944 pages<br />126 Diaries by:</p></div>
 	<div class="mywrapper">
       <div class="mybuttons">
         <h1 class="myheader">World War 1 Diaries</h1>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no">Show all</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no" data-toggle="collapse" data-target="#cero">Show all</a></li>
 <!--
           <li role="presentation" data-toggle="pill"><a id="hideAllTopics" href="#by-kind">Hide pages</a></li>
 -->
-          <li role="presentation" data-toggle="pill"><a id="showJourney" href="#journey">My journey</a></li>
+          <li role="presentation" data-toggle="pill"><a id="showJourney" href="#journey" data-toggle="collapse" data-target="#cero">My journey</a></li>
         </ul>
       </div>
       <div class="myorders">
@@ -33,8 +33,10 @@
           <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5" data-toggle="collapse" data-target="#five">The accidental tourist</a></li>
         </ul>
         <nav class="navbar navbar-default" role="navigation" id="submenu">
+          <ul class="nav navbar-nav collapse c1" id="cero">
+          </ul>
           <ul class="nav navbar-nav collapse c1" id="one">
-            <li><a href="#" id="1-1">Wheather</a></li>
+            <li><a href="#" id="1-1">Weather</a></li>
             <li><a href="#" id="1-2">Colors of life</a></li>
             <li><a href="#" id="1-3">Food</a></li>
             <li><a href="#" id="1-4">Personal care & clothes</a></li>
@@ -45,30 +47,30 @@
           </ul>
           <ul class="nav navbar-nav collapse c2" id="two">
             <li><a href="#" id="2-1">Combat</a></li>
-            <li><a href="#" id="2-2">Front line I</a></li>
-            <li><a href="#" id="2-3">Health I</a></li>
-            <li><a href="#" id="2-4">Health II</a></li>
+            <li><a href="#" id="2-2">Front line</a></li>
+            <li><a href="#" id="2-3">Health</a></li>
+            <!--<li><a href="#" id="2-4">Health II</a></li>-->
             <li><a href="#" id="2-5">Air</a></li>
-            <li><a href="#" id="2-6">Front line II</a></li>
+            <!--<li><a href="#" id="2-6">Front line II</a></li>-->
             <li><a href="#" id="2-7">Context</a></li>
           </ul>
           <ul class="nav navbar-nav collapse c3" id="three">
-            <li><a href="#" id="3-1">Context</a></li>
-            <li><a href="#" id="3-2">Parades & march</a></li>
-            <li><a href="#" id="3-3">Turkey</a></li>
             <li><a href="#" id="3-4">General</a></li>
+            <li><a href="#" id="3-1">Politics & context</a></li>
+            <li><a href="#" id="3-2">Parades & Marches</a></li>
+            <li><a href="#" id="3-3">Turkey</a></li>
             <li><a href="#" id="3-5">Sports</a></li>
           </ul>
           <ul class="nav navbar-nav collapse c4" id="four">
             <li><a href="#" id="4-1">Roads & railways</a></li>
             <li><a href="#" id="4-2">Over the sea</a></li>
-            <li><a href="#" id="4-3">Terrestrial</a></li>
-            <li><a href="#" id="4-4">Sea life</a></li>
-            <li><a href="#" id="4-5">Middle est</a></li>
+            <!--<li><a href="#" id="4-3">bt Land</a></li>-->
+            <!--<li><a href="#" id="4-4">Sea life</a></li>-->
+            <li><a href="#" id="4-5">Middle East</a></li>
           </ul>
           <ul class="nav navbar-nav collapse c5" id="five">
             <li><a href="#" id="5-1">City life</a></li>
-            <li><a href="#" id="5-2">Egipt</a></li>
+            <li><a href="#" id="5-2">Egypt</a></li>
             <li><a href="#" id="5-3">UK</a></li>
             <li><a href="#" id="5-4">France</a></li>
           </ul>
