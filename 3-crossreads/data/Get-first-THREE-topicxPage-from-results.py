@@ -43,7 +43,9 @@ for row20x in my:
   #print ">>>>>>>>>> "+str(co)
   notUsedTopics = [17,42,27,26,18,12,8,21,32,31,40,5,39,43,38,24,15,36,10,]
   
-  
+
+
+''' From here '''  
   r = 0;g="no"
   #print str(tmp.index(m))+" | "+str(tmp)
   while tmp.index(m) in notUsedTopics:
