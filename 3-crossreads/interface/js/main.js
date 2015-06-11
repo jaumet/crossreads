@@ -228,7 +228,7 @@
                   //////////////////////////////////////////////////
                   var topicsStats = '<p class="detail-p"></p>';
                   if (topic != "0-0")  {
-					myScoreValue = Number(topicMatrix[row][column-1].split("-")[2])*100
+					myScoreValue = Math.round(Number(topicMatrix[row][column-1].split("-")[2])*100)
 					myScoreHtml = "<h4>Topic score:<br />%s%</h4>"
 				  }  else {
 					 myScoreValue = '';
