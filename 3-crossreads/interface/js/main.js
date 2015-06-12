@@ -337,7 +337,7 @@
               }
 
               function getCoordinates(diaryId, pageNo) {
-                  var row = diaryId * 5;
+                  var row = diaryId * 8;
                   var column = pageNo * 7;
                   return [row, column];
               }

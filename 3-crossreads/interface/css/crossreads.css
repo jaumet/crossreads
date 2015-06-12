@@ -43,8 +43,8 @@ pre {
 }
 
 #submenu {
-    background-color: #e7e7e7;
-    margin-bottom: 0px;
+  background-color: #c3c3c3;
+  margin-bottom: 0px;
   height:50px;
 }
 
@@ -92,7 +92,7 @@ pre {
 /* divs based grid */
 #left {
   position:absolute;
-  top:110px;
+  top:114px;
   left:35px;
   /*border-image:url('../img/rulev.png') 30 30 round;*/
   border-right:5px;
@@ -106,19 +106,19 @@ pre {
 #left span, #left span span {
   position:absolute;
   left:2px;
-  font-size:5px;
+  font-size:6px;
   width:90px;
 }
 
 #left span span {
-  border-top:1px solid grey;
+  border-top:1px solid #fff;
   text-align:rigt;
   color:#fff;
   background-color:#605959;
 }
 
 #left span span:hover {
-  font-size:10px;
+  font-size:9px;
   cursor:zoom-in;
   z-index:2;
 }
@@ -148,7 +148,7 @@ pre {
 .row div {
   position:absolute;
   min-width:7px;
-  min-height:5px;
+  min-height:7px;
 }
 
 #detail {
@@ -328,9 +328,8 @@ img.enlarged {
   background-color: #424242;
 }
 
-.nav-pills>li>a {
+.nav-pills>li>a  {
   color: #000;
-  heigth:100px;
 }
 
 .nav-pills>li.active>a:hover  {
