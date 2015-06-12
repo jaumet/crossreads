@@ -30,7 +30,9 @@ pre {
   padding:5px;
   border-right:4px solid #fff;
 }
-
+.navbar-default .navbar-nav>li>a {
+  color:#000;
+}
 .navbar {
   margin-bottom:-1px;
   border-radius:0;
@@ -310,7 +312,7 @@ img.enlarged {
 .c0  {background-color: #FFF;background-image:url('../img/white-pill-7x5.png');}
 
 #topicsView li a {
-  color:#6E6767;
+  color:#000;
 }
 
 #topicsView li a:hover {
