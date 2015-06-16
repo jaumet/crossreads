@@ -1,65 +1,105 @@
-import csv
+import csv, json
+from pprint import pprint
+import heapq
 
-topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Militar life']
+#topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Militar life']
+################################################################################
+topicGroups=["Personal", "War", "Military life", "Traveling", "The accidental tourist"]
 
-f = open('results/20topics/my_compostion.csv')
-my20 = csv.reader(f)
-t0 = 0;t1=0;t2=0;t3=0;t4=0;co=0
-out='var topicMatrix = [\n['
+with open('topics.json') as json_file:    
+    topics = json.load(json_file)
+
+#pprint(data)
+#print 
+#print topics[46]["topic"]
+
+f = open('50topics/crossreads_compostion-WITH-EMPTY-PAGES.csv')
+###f = open('xxx.csv')
+my = csv.reader(f)
+tnul = 0;t0 = 0;t1=0;t2=0;t3=0;t4=0;co=0
+out='var topicMatrix = [\n'
 # Transform 20 topics to 5
 c = [[],[],[],[],[]]
+numDiaries = 0
 current = ''
-for row20x in my20:
-  co+=1;row5 = [];tmp = []
-  #out += '['
+cero = 0
+tmp = []
+lines = 0
+for row20x in my:
+  co += 1; 
   # in mycsv topics go from column 2 to 22 
-  # out put is 5 columns: (6, 9, 10, 20), (2, 11, 13, 17, 18), (12, 14, 16), (7, 19, 21), (3, 4, 5, 8) NOT included: 15 +float(row20x[15]))
-  row5.append(row20x[1].replace('file:/home/jaume/apps/Mallet/Diaries-superclean-text/',''))
-  tmp.append(float(row20x[6])+float(row20x[9])+float(row20x[10])+float(row20x[20]))
-  tmp.append(float(row20x[2])+float(row20x[11])+float(row20x[13])+float(row20x[17])+float(row20x[18]))
-  tmp.append(float(row20x[12])+float(row20x[14])+float(row20x[16]))
-  tmp.append(float(row20x[7])+float(row20x[19])+float(row20x[21]))
-  tmp.append(float(row20x[3])+float(row20x[4])+float(row20x[5])+float(row20x[8]))
+  # out put is 5 columns: (1,25,14,30,29,19,3,37),(4,7,46,44,13,2,23),(28,20,33,6,11),(47,9,49,45,34  ),(22,35,41,0)
+  i = 2
+  tmp = row20x[2:]
+  dd = 0
+  for t in tmp:
+    tmp[dd]= float(t)
+    dd+=1
+
   m = max(tmp)
-  mymax = [i for i, j in enumerate(tmp) if j == m]
-  #row5.extend(mymax)
-  mymax[0] += 1
-  if str(mymax[0]) != '':
-    diary = row20x[1].replace('file:/home/jaume/apps/Mallet/Diaries-superclean-text/','').split('/')[0]
-    if current == str(diary):
-      out += str(mymax[0])+','
-    else:
-      out = out[:-1]      
-      current = str(diary)
-      out += '], \n[0,'+str(mymax[0])+', ' ##+current
-  
+  #print m
+  #print tmp.index(m)
+  code = "0-0"
+  #print ">>>>>>>>>> "+str(co)
+  #notUsedTopics = [17,42,27,26,18,12,8,21,32,31,40,5,39,43,38,24,15,36,10]
+  notUsedTopics =   [5, 8, 10, 12, 15, 16, 17, 18, 21, 24, 26, 27, 31, 32, 36, 38, 39, 40, 42, 43]
 
 
-  #    print len(row20x)
-  #     print tmp
-  #print row5
+  if tmp.index(m) in notUsedTopics or m == 0:
+    code = "0-0"
+    cero += 1
+  else:
+    # get the code and topic for that max score
+    for item in topics:
+      if item["topicNo"] == int(tmp.index(m)):
+        code = item["code"]
+        #print code
+  codeList = code.split("-")
+
+  #pageInfo = str(code)+"-"+str(m)
+  pageInfo = str(codeList[0])+"-"+str(codeList[1])+"-"+str("%.2f" % m)
+
+  #print ">>> "+str(tmp.index(m))+"\t"+"\tMYvar:"+str(code)+"-"+str(m)
+
   #print
-  #  print mymax[0],
-  #  print tmp[mymax[0]],
+  #print " TOTAL: "+str(co)
+  #print "No topic: "+str(cero)
 
+  diary = row20x[1].replace('file:/home/jaume/apps/Mallet/diariesPages-noEmptyPages/','').split('/')[0]
+  if current == str(diary):
+    out += '"'+str(pageInfo)+'",'
+  else:
+    numDiaries += 1
+    #print "----------- New diary: "+
+    #print str(diary)+"\t",  
+    out = out[:-1]      
+    current = str(diary)
+    out += '], \n["'+str(pageInfo)+'", ' ##+current
+    lines += 1
+  #print len(row20x)
+  
   # result:
-  
-  
-  if int(mymax[0]) == 1:
+  if int(codeList[0]) == 0:
+    tnul += 1
+  if int(codeList[0]) == 1:
     t0 += 1
-  if int(mymax[0]) == 2:
+  if int(codeList[0]) == 2:
     t1 += 1
-  if int(mymax[0]) == 3:
+  if int(codeList[0]) == 3:
     t2 += 1
-  if int(mymax[0]) == 4:
+  if int(codeList[0]) == 4:
     t3 += 1
-  if int(mymax[0]) == 5:
+  if int(codeList[0]) == 5:
     t4 += 1
 out = out[:-1]
 out += ']\n];'
 
-print out
 
-#print t0, t1, t2, t3 , t4
+print out
+print "//lines "+str(lines)
+#print "numDiaries: "+str(numDiaries)
+#print "No of pages: "+str(co)
+#print tnul, t0, t1, t2, t3 , t4
 # write it out as pagesTopic.json
+#print "Diaries to delete completely: they are mainly printed books, and they are not transcribed: 100300,  100299 (id=17). 115137 (id=127)"
 

@@ -20,8 +20,8 @@
               myi = i + 1;
               $("#grid").append("<div id='" + i + "' class='row'></div>");
               $.each(row, function(j, column) {
-                  topic = column.split("-")[0]
-                  topicSubtopic = topic + "-" + column.split("-")[1];
+                  topic = column[0].split("-")[0]
+                  topicSubtopic = topic + "-" + column[0].split("-")[1];
                   myj = j + 1
                   var coord = getCoordinates(i, j);
                   $("#" + i).append("<div id='" + i + "x" + Number(myj) + "' class='c c" + topic + "' t='" + topicSubtopic + "' style=\"left:" + coord[1] + "px;top:" + coord[0] + "px;\"></div>");
@@ -85,6 +85,9 @@
               topicsView("hide");
           });
           $("#topicsView li a").click(function() {
+              $("#reader").css("display", "none");
+              $("#reader-overlay").css("display", "none");
+              $("#reader").css("display", "none").attr('class', '');
               var myid = $(this).attr('id');
               topicsView("hide");
               topicsView(myid);
@@ -115,7 +118,7 @@
                   if (go == "yes") {
                       $("#reader").css("display", "none").attr('class', '');
                       var classBgcolor = $(myid).attr("class");
-                      var topic = $(myid).attr("t");
+                      var code = $(myid).attr("t");
                       $("#reader").css("display", "block");
                       if (classBgcolor == "") {
                           classBgcolor = myid[2];
@@ -138,7 +141,7 @@
                       buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
                       buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
                       buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> ";
-                      buttons += ")</p><p class=\"topic\">" + get_topic_name(topic) + "</p>";
+                      buttons += ")</p><p class=\"topic\">" + get_topic_name(code, TOPICS) + "</p>";
                       $("#reader-buttons").html(buttons);
                       view_reader_text(myids[0], myids[1] - 1);
                       $("#meta").html(view_reader_meta(myids[0], myids[1]));
@@ -192,7 +195,7 @@
                   }
               }
 
-              function get_topic_name(code) {
+              function get_topic_name(code, TOPICS) {
                   if (code != "0-0") {
                       topic = "#showTopics" + code.split("-")[0];
                       var out = $(topic).html();

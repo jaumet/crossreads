@@ -14,7 +14,7 @@ pre {
   left:0px;
   width: 100%;
   height:30px;
-  background-color:grey; 
+  background-color:grey;
   color:white;
 }
 
@@ -26,9 +26,12 @@ pre {
   position:relative;
   float:left;
 }
+.nav {
+  margin-left:5px;
+}
 .navbar-nav>li>a {
   padding:5px;
-  border-right:4px solid #fff;
+  border-right:6px solid #c3c3c3;
 }
 .navbar-default .navbar-nav>li>a {
   color:#000;
@@ -40,12 +43,12 @@ pre {
 }
 
 .nav {
-	margin-top:4px;
-	margin-bottom:4px;
+	margin-top:6px;
+	margin-bottom:7px;
 }
 
 #submenu {
-  background-color: #c3c3c3;
+  background-color: #fff;
   margin-bottom: 0px;
   height:50px;
 }
@@ -126,7 +129,7 @@ pre {
 }
 
 #left, #header {
-  font-weight:bold;  
+  font-weight:bold;
 }
 
 #grid {
@@ -149,8 +152,8 @@ pre {
 
 .row div {
   position:absolute;
-  min-width:7px;
-  min-height:7px;
+  min-width:6px;
+  min-height:6px;
 }
 
 #detail {
@@ -158,11 +161,11 @@ pre {
   position:absolute;
   width:160px;
   min-height:100px;
-  z-index:10;
+  z-index:20;
   border:2px solid #424242;
   padding:5px;
   -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;  
+  -moz-border-radius: 5%;
   font-size:0.6em;
   font-weight:bold;
 }
@@ -173,7 +176,7 @@ pre {
 }
 
 .detail-p img {
-  height:40px; 
+  height:40px;
 }
 
 #reader {
@@ -225,7 +228,7 @@ pre {
   border:0px solid green;
   float:left;
   padding:15px;
-  margin-right: auto; 
+  margin-right: auto;
   margin-left: auto;
 }
 
@@ -270,7 +273,7 @@ pre {
   border:1px solid #0310FF;
   padding:5px;
   -webkit-border-radius: 40%;
-  -moz-border-radius: 40%; 
+  -moz-border-radius: 40%;
 }
 
 img.enlarged {
@@ -278,7 +281,7 @@ img.enlarged {
   top:20%;
   left:0px;
   width:250px;
-  z-index:30;  
+  z-index:30;
 }
 
 #journey {
@@ -309,7 +312,11 @@ img.enlarged {
 .c2  {background-color: #cc6666;}
 .c1  {background-color: #E78F39;}
 .cC {background-color: #FFF;}
-.c0  {background-color: #FFF;background-image:url('../img/white-pill-7x5.png');}
+.c0  {background-color: #FFF;background-image:url('../img/7x7.png');}
+
+#topicsView {
+  z-index:30;
+}
 
 #topicsView li a {
   color:#000;
@@ -325,6 +332,10 @@ img.enlarged {
 #showTopics3 { background-color: #99cc66;}
 #showTopics2 { background-color: #cc6666;}
 #showTopics1 { background-color: #E78F39;}
+
+.nav-pills>li {
+  z-index:20;
+}
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus {
   background-color: #424242;
