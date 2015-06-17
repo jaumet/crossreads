@@ -272,7 +272,7 @@ $(function() {
 
   function topicsChart(pageInfo) {
     var table = "<table><tr>"; var tablec = "</tr></table>";
-    var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
+    var td = "<td><tc />"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
     var myTopic = ""; var mySubTopic = ""; var myScore = "";
     var chart0 = "";var chart1 = "";var chart2 = "";var chart3 = "";var chart4 = "";var chart5 = "";
     // group elements by score percentage
