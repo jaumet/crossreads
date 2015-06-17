@@ -184,7 +184,7 @@ pre {
   position:absolute;
   top:100px;
   width:80%;
-  height:75%;
+  height:85%;
   z-index:20;
   margin:10px;
   border:0px solid #0310FF;
@@ -378,7 +378,7 @@ h1.myheader {
   color:#fff;
   background-color:#424242;
   margin:0;
-  padding:5px;
+  padding:6px;
   padding-left:10px;
   border-bottom:5px solid #fff;
 }
