@@ -78,8 +78,10 @@ pre {
   width:90px;
   height:125px;
   padding-left:10px;
+/*
   background-image:url('../img/logo.png');
   background-repeat:no-repeat;
+*/
 }
 
 .logo p {
@@ -414,9 +416,13 @@ p.myheader {
 table { 
   background-color:#fff;
 }
+tr {
+  border-top:1px solid grey;
+}
 td { 
   padding-left:5px;
   padding-right:5px;
+  height:17px;
 }
 
 tc {
