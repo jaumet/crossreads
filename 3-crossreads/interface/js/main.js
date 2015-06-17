@@ -62,11 +62,11 @@ $(function() {
       var topic = $(this).attr("t");
       var myid = $(this).attr('id').split("x");
       if (myid[1] < 100) {
-        myposleft = pos.left + 107;
+        myposleft = pos.left + 145;
       } else {
-          myposleft = pos.left - 60;
+          myposleft = pos.left - 50;
       }
-      $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 5 + "px").css("left", myposleft + "px");
+      $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 30 + "px").css("left", myposleft + "px");
       $(this).css("border", "3px solid #424242");
       $("#detail").html(view_detail(myid[0], myid[1], topic));
       $("#detail").css("background-image", "");
@@ -248,9 +248,13 @@ $(function() {
     if (column == 1) {
         page_image = "";
     }
-    return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
-    <p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
-    ' +myScoreHtml+ page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], myScoreValue);
+    return sprintf('<p>[id=%s] %s <br />by %s<br /><i>%s</i></p>\
+    <p>%s</p>\
+    ', g["id"], g["title"], g["author"], g["kind"], topicsChart(topicMatrix[row][column-1]));
+
+    //return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
+    //<p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
+    //' +myScoreHtml+ page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], myScoreValue);
     //' + page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile, g["page_no"]);              }
   }
 
