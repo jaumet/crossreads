@@ -3,6 +3,13 @@
       localStorage.setItem('journey', "");
   }
   $(function() {
+          // URL parameters
+          function getParameterByName(name) {
+            return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+          }
+          var myParm = getParameterByName("topics");
+          if (myParm == "" || myParm == undefined) { myParm = "default";}
+  
           // Submenu
           $('.collapse').on('shown.bs.collapse', function(e) {
               $('.collapse').not(this).removeClass('in');
@@ -15,6 +22,14 @@
           // Add authors static html
           $("#left").html(AUTHORS);
           // Grid builder
+          
+          // Parameters:
+          //option 1: show first topic if score(t1) > 20%. Otherwise no-topic (white)
+          
+          // option 2:  
+          
+          
+          
           var c = 0;
           $.each(topicMatrix, function(i, row) {
               myi = i + 1;
@@ -254,8 +269,17 @@
                   if (column == 1) {
                       page_image = "";
                   }
-                  return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small><a href="http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw&form=simple&query=%s&type=1&meta_G_sand=&sort=&submit-search=Search" target="_slnsw">[more]</a></small></h1><p>%s. <i>This is page %s from %s</i></p>\
-        <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
+                  return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small><a href="http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw&form=simple&query=%s&type=1&meta_G_sand=&sort=&submit-search=Search" target="_slnsw">[more]</a></small>\
+                  <h1><span class="topicsDia">Topics distribution:<table><tr><td>100-80%</td><td><tc class="c1" /></td></tr><tr><td>80-60%</td><td><tc class="c4" /><tc class="c3" /></td></tr><tr><td>60-40%</td><td><tc class="c5" /><tc class="c4" /><tc class="c1" /><tc class="c1" /><tc class="c5" /><tc class="c4" /></td></tr><tr><td>40-20%</td><td><tc class="c3" /><tc class="c3" /><tc class="c2" /><tc class="c1" /><tc class="c2" /><tc class="c3" /><tc class="c4" /><tc class="c5" /></td></tr><tr><td><20%</td><td><tc class="c2" /><tc class="c1" /><tc class="c1" /><tc class="c2" /><tc class="c1" /><tc class="c4" /><tc class="c3" /><tc class="c2" /><tc class="c2" /><tc class="c4" /><tc class="c5" /><tc class="c5" /><tc class="c4" /></td></tr></table>'+topicsChart(topicMatrix[row][column])+'</span></h1>\
+                  <p>Kind: %s. <i>This is page %s from %s</i></p>\
+                  <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
+              }
+              
+              function topicsChart(pageInfo) {
+                return (pageInfo);
+              
+              
+//              <table><tr><td>100-80%</td><td><tc class="c1" /></td></tr><tr><td>80-60%</td><td><tc class="c4" /><tc class="c3" /></td></tr><tr><td>60-40%</td><td><tc class="c5" /><tc class="c4" /><tc class="c1" /><tc class="c1" /><tc class="c5" /><tc class="c4" /></td></tr><tr><td>40-20%</td><td><tc class="c3" /><tc class="c3" /><tc class="c2" /><tc class="c1" /><tc class="c2" /><tc class="c3" /><tc class="c4" /><tc class="c5" /></td></tr><tr><td><20%</td><td><tc class="c2" /><tc class="c1" /><tc class="c1" /><tc class="c2" /><tc class="c1" /><tc class="c4" /><tc class="c3" /><tc class="c2" /><tc class="c2" /><tc class="c4" /><tc class="c5" /><tc class="c5" /><tc class="c4" /></td></tr></table>
               }
 
               function view_reader_text(row, column) {

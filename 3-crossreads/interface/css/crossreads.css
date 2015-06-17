@@ -172,7 +172,7 @@ pre {
 
 .detail-p  {
   float:left;
-  padding:10px;
+  padding:5px;
 }
 
 .detail-p img {
@@ -196,7 +196,7 @@ pre {
   top: 0;
   left: 0;
   width:3000px;
-  height:900px;
+  height:1300px;
   overflow: hidden;
   background-color:#fff;
   opacity:0.8;
@@ -243,7 +243,7 @@ pre {
 }
 
 #meta {
-  width:30%;
+  width:350px;
 }
 
 #reader-main {
@@ -394,4 +394,36 @@ p.myheader {
 .myheader a {
   color:#fff;
   background-color:#424242;
+}
+
+.topicsDia {
+  font-size:14px;
+}
+
+.topicsDia table {
+  font-size:10px;
+  margin:15px;
+}
+
+.topicsDia table tr td{
+  padding-right:7px;
+  border-left:0px solid red;
+  font-family:monospace;
+}
+
+tc {
+  /*background-color:orange;*/
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  display:inline-block;
+  margin-top:2px;
+  margin-bottom:2px;
+  /*margin:2px 40% 2px auto;*/
+  width:15px;
+  height:15px;
+  
 }

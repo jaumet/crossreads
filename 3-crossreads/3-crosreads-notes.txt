@@ -109,8 +109,6 @@ a lot of the interesting variations evident in the display correspond with autho
 
 
 Topics
-Militar Life -> Military Life
-Check correspondence between current topics and labels - sometimes they seem to be a bit “off”
 The current topics are quite opaque - hard to interpret. How can you expose more of the character of a topic, and the complex mixture of topics in the texts? I suggest
 - add topic-related words on topic focus
 - add info on page view showing different topics in that text
