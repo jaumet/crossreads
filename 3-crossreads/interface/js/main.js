@@ -7,9 +7,7 @@ $(function() {
   function getParameterByName(name) {
     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
   }
-  var myParm = getParameterByName("topics");
-  if (myParm == "" || myParm == undefined) { myParm = "default";}
-
+  
   // Submenu
   $('.collapse').on('shown.bs.collapse', function(e) {
       $('.collapse').not(this).removeClass('in');
@@ -19,39 +17,38 @@ $(function() {
       $('[data-toggle=collapse]').parent('li').removeClass('active');
       $(this).parent('li').toggleClass('active');
   });
-  // Add authors static html
-  $("#left").html(AUTHORS);
-  // Grid builder
-  
   // Parameters:
   //option 1: show first topic if score(t1) > 20%. Otherwise no-topic (white)
-  
+  var thershold = getParameterByName("th");
+  if (thershold == "" || thershold == undefined) { thershold = 0.20;}
+  //var thershold = 0.20;  
   // option 2:  
           
   var c = 0;
   $.each(topicMatrix, function(i, row) {
-    myi = i + 1;
-    $("#grid").append("<div id='" + i + "' class='row'></div>");
+    myi = i + 1; 
+    var myAuthor = DATA[i]["author"];
+    myAuthorLabel = "<span class=\"author\">"+myAuthor+"</span>";;
+    if (Number(i)>0) {
+      if (DATA[i-1]["author"] == myAuthor) { myAuthorLabel = "";}
+    }
+    $("#grid").append("<div id='" + i + "' class='row'>"+myAuthorLabel+"<div></div></div>");
     $.each(row, function(j, column) {
-        if (parseFloat(column[0].split("-")[2]) < 0.20)  {
-          topic = 0;subTopic=0;
-        } else {
-          topic = column[0].split("-")[0];
-          subTopic = column[0].split("-")[1];
-        }
-        topicSubtopic = topic + "-" + subTopic;
-        myj = j + 1
-        var coord = getCoordinates(i, j);
-        $("#" + i).append("<div id='" + i + "x" + Number(myj) + "' class='c c" + topic + "' t='" + topicSubtopic + "' style=\"left:" + coord[1] + "px;top:" + coord[0] + "px;\"></div>");
-        c += 1;
+      if (parseFloat(column[0].split("-")[2]) < thershold)  {
+        topic = 0; subTopic = 0;
+      } else {
+        topic = column[0].split("-")[0];
+        subTopic = column[0].split("-")[1];
+      }
+      topicSubtopic = topic + "-" + subTopic;
+      myj = j + 1
+      $("#" + i + ">div").append("<div id='" + i + "x" + Number(myj) + "' class='c c" + topic + "' t='" + topicSubtopic + "'></div>");
+      c += 1;
     })
   })
-  //console.log("TOTAL PAGES= "+c);
-  //$("#left").html("<p>"+c+" pages</p>");
-
   // Detail popup
-  $(".row div")
-    .mouseover(function() {
+  $(".row div div")
+    .mouseover(function( event ) {
       var pos = $(this).position();
       var offs = $(this).offset();
       if ($(this).attr("class") != "c c0")  {
@@ -61,19 +58,21 @@ $(function() {
   }
       var topic = $(this).attr("t");
       var myid = $(this).attr('id').split("x");
-      if (myid[1] < 100) {
-        myposleft = pos.left + 145;
+ /////////////////////// FIXME
+ console.log(pos.left);
+      if (pos.left > 0) {
+        correctionLeft = 10;
       } else {
-          myposleft = pos.left - 50;
+        correctionLeft = 10;
       }
-      $("#detail").css("display", "block").addClass(classBgcolor).css("top", pos.top - 30 + "px").css("left", myposleft + "px");
+      $("#detail").css("display", "block").addClass(classBgcolor).css("top", event.pageY + "px").css("left", event.pageX + correctionLeft + "px");
       $(this).css("border", "3px solid #424242");
       $("#detail").html(view_detail(myid[0], myid[1], topic));
       $("#detail").css("background-image", "");
     })
   .mouseout(function() {
     $("#detail").css("display", "none").attr('class', '');
-    $(this).css("border", "0");
+    $(this).css("border", "1px solid #fff");
   })
   .click(function() {
       //if ($(this).css('background-image') == "none")  {
@@ -231,11 +230,7 @@ $(function() {
   function view_detail(row, column, topic) {
     var g = DATA[row];
     var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
-    var page_image = '';//'''<p class="detail-p"><i>page %s of %s</i><br /><img " \
-//style=\'background-image: url("img/Throbber_allbackgrounds_monochrome.gif");background-repeat: no-repeat;background-position: \
-//center bottom;\' src="%s" /></p>';
-    //////////////////////////////////////////////////
-    //////////////////////////////////////////////////
+    var page_image = '';
     var topicsStats = '<p class="detail-p"></p>';
     if (topic != "0-0")  {
       myScoreValue = Math.round(Number(topicMatrix[row][column-1][0].split("-")[2])*100)
@@ -251,11 +246,6 @@ $(function() {
     return sprintf('<p>[id=%s] %s <br />by %s<br /><i>%s</i></p>\
     <p>%s</p>\
     ', g["id"], g["title"], g["author"], g["kind"], topicsChart(topicMatrix[row][column-1]));
-
-    //return sprintf('<p>[id=%s] <b>[%s]</b> %s <br />by %s<br /><i>%s</i></p>\
-    //<p class="detail-p">Cover<br /><img src="data/diariesCovers/%s" /></p>\
-    //' +myScoreHtml+ page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], myScoreValue);
-    //' + page_image, g["id"], topic, g["title"], g["author"], g["kind"], g["cover"], column, g["page_no"], mypageFile, g["page_no"]);              }
   }
 
   function view_reader_meta(row, column) {
@@ -286,20 +276,20 @@ $(function() {
       myTopic = val.split("-")[0];
       code = val.split("-")[0]+"-"+val.split("-")[1]
       if (myScore >= 0.80)  {
-        chart0 += tc+my+tc1+myTopic+tcc; 
+        chart0 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc; 
       } else if (myScore < 0.80 && myScore >= 0.60)  {
-        chart1 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc;
+        chart1 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+"("+myScore+")"+tcc;
       } else if (myScore < 0.60 && myScore >= 0.40)  {
-        chart2 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc;
+        chart2 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
       } else if (myScore < 0.40 && myScore >= 0.20)  {
-        chart3 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc;
-      } else if (myScore < 0.20 && myScore > 0.00)  {
-        chart4 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc;
+        chart3 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else if (myScore < 0.20 && myScore > 9.99)  {
+        chart4 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
       } else {
-        chart5 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc;
+        chart5 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
       }
     })
-    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-1%</td>"+td+chart4+tdc+tablec;
+    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-10%</td>"+td+chart4+tdc+tablec;
   }
 
   function view_reader_text(row, column) {
@@ -338,26 +328,31 @@ $(function() {
         $("#topicsView li").attr('class', '');
         break;
       case 'hide':
-        $(".c").css("background-image", "url('img/white-pill-7x5.png')");
+        $(".c").css("background-image", "url('img/7x7grey.png')");
         $("#topicsView li").attr('class', '');
           break;
       case 'showTopics1':
+        $("ul.navbar-nav li").removeClass("bggrey");
         $(".c1").css('background-image', '');
         break;
       case 'showTopics2':
+        $("ul.navbar-nav li").removeClass("bggrey");
         $(".c2").css('background-image', '');
         break;
       case 'showTopics3':
+        $("ul.navbar-nav li").removeClass("bggrey");
         $(".c3").css('background-image', '');
         break;
       case 'showTopics4':
+        $("ul.navbar-nav li").removeClass("bggrey");
         $(".c4").css('background-image', '');
         break;
       case 'showTopics5':
+        $("ul.navbar-nav li").removeClass("bggrey");
         $(".c5").css('background-image', '');
         break;
       case "subtopic":
-        $(".c").css("background-image", "url('img/white-pill-7x5.png')");
+        $(".c").css("background-image", "url('img/7x7grey.png')");
         $("[t='" + mysubtopic + "']").css('background-image', '');
         $("#" + mysubtopic).parent().siblings().addClass("bggrey");
         $("#" + mysubtopic).parent().removeClass("bggrey");
@@ -366,7 +361,7 @@ $(function() {
         // Get visited pages from and transform to string for $ selection
         var myjourney = localStorage.getItem("journey").split(">").splice(1).join();
         // Hide all pages
-        $(".c").css("background-image", "url('img/white-pill-7x5.png')");
+        $(".c").css("background-image", "url('img/7x7grey.png')");
         // show visited & put them class journey -> z-index:5;
         $(myjourney).css('background-image', '');
         /////////////////////////////////////////////////////////////////////
@@ -381,11 +376,6 @@ $(function() {
     }
   }
 
-  function getCoordinates(diaryId, pageNo) {
-    var row = diaryId * 8;
-    var column = pageNo * 7;
-    return [row, column];
-  }
 
   function sprintf() {
     // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 
@@ -414,19 +404,4 @@ $(function() {
       return val;
     });
   }
-
-  // Storage functions
-  function storeme(Storage) {
-    if (typeof(Storage) !== "undefined") {
-        //if (localStorage.diarypages) {
-        localStorage.diarypages = Storage;
-        //} else {
-        //localStorage.diarypages = 1;
-        //}
-        document.getElementById("x").innerHTML = "You have clicked the button " + localStorage.diarypages + " time(s).";
-    } else {
-        document.getElementById("reader-main").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-  }
-
 })

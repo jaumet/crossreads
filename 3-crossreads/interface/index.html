@@ -2,6 +2,7 @@
 <html lang="en" ng-app="library">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
 		<script src="data/dataDiaries.js"></script>
@@ -11,7 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="logo"><p>11944 pages<br />126 Diaries by:</p></div>
+  <div class="logo"><p>11944 pages<br />126 Diaries<br />49 authors<br />100 years ago</p></div>
 	<div class="mywrapper">
       <div class="mybuttons">
         <h1 class="myheader">World War 1 Diaries</h1>
@@ -34,6 +35,7 @@
         </ul>
         <nav class="navbar navbar-default" role="navigation" id="submenu">
           <ul class="nav navbar-nav collapse c1" id="cero">
+            <li><div class="slider"></div></li>
           </ul>
           <ul class="nav navbar-nav collapse c1" id="one">
             <li><a href="#" id="1-1">Weather</a></li>
@@ -76,19 +78,12 @@
           </ul>
         </nav>
       </div>
-      <!--
-      topics = ['Analysis & family', 'Cities & landscapes', 'Travelling', 'War', 'Military life']
-      FIXME use a class and addClass removeClass to go back to original positions
-      $(".c4").css('z-index','100').css('left','').css('position','relative').css('float','left')
-      $(".c4").css('left','').css('position','relative').css('float','left'); 
-      var numTopicPages = $(".c4").css('left','').css('position','relative').css('float','left').length
-      console.log("selected pages: "+numTopicPages);
-     -->
       <div style="clear:both;height:10px;"></div>
       <div id="container">
         <div id="header"></div>
-        <div id="left"></div>
-        <div id="grid"></div>
+        <div id="main">
+          <div id="grid"></div>
+        </div>
         <div id="detail"></div>
         <div id="reader-overlay"></div>
           <div id="reader">

@@ -39,7 +39,7 @@ Empty pages. With on a "*.html" file
 diary-104.txt  diary-110.txt  diary-36.txt  diary-52.txt  diary-54.txt  diary-75.txt  diary-83.txt  diary-88.txt  diary-98.txt
 diary-109.txt  diary-113.txt  diary-45.txt  diary-53.txt  diary-66.txt  diary-81.txt  diary-87.txt  diary-89.txt
 
-* 127 -> Is empty and there is no  link to transcripts:
+DELETED * 127 -> Is empty and there is no  link to transcripts:
          http://transcripts.sl.nsw.gov.au/node/115137
 
 ################################################
@@ -48,14 +48,13 @@ diary-109.txt  diary-113.txt  diary-45.txt  diary-53.txt  diary-66.txt  diary-81
 
 
 
-EAMPLES OF NETWORK APPS:
+EXAMPLES OF NETWORK APPS:
 
 - List: D3js: https://github.com/mbostock/d3/wiki/Gallery
 - balls and edges + click and select subnet: http://fatiherikli.github.io/programming-language-network/#language:Python
 - Hive plot: http://bost.ocks.org/mike/hive/
 - d3 process map: http://nylen.tv/d3-process-map/graph.php
 - GraphGL: https://github.com/uskudnik/GraphGL
-
 
 
 The diaries as a matrix of pages , where each column is a Diary (129)
