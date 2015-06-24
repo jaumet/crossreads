@@ -28,9 +28,9 @@ $(function() {
   $.each(topicMatrix, function(i, row) {
     myi = i + 1; 
     var myAuthor = DATA[i]["author"];
-    myAuthorLabel = "<span class=\"author\">"+myAuthor+"</span>";;
+    myAuthorLabel = "<span class=\"author authortop\">"+myAuthor+"</span>";
     if (Number(i)>0) {
-      if (DATA[i-1]["author"] == myAuthor) { myAuthorLabel = "";}
+      if (DATA[i-1]["author"] == myAuthor) { myAuthorLabel = "<span class=\"author\">&nbsp;</span>";}
     }
     $("#grid").append("<div id='" + i + "' class='row'>"+myAuthorLabel+"<div></div></div>");
     $.each(row, function(j, column) {
@@ -75,9 +75,7 @@ $(function() {
     $(this).css("border", "1px solid #fff");
   })
   .click(function() {
-      //if ($(this).css('background-image') == "none")  {
       main(this.id);
-      //}
   });
 
   // Reader close
@@ -118,8 +116,6 @@ $(function() {
       topicsView("hide");
       topicsView("subtopic", mysubtopic);
   });
-
-  // non-anonymous functions:
 
   function main(myid) {
     var myids = myid.split("x");
