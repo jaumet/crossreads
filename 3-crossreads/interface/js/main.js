@@ -19,9 +19,13 @@ $(function() {
   });
   // Parameters:
   //option 1: show first topic if score(t1) > 20%. Otherwise no-topic (white)
-  var thershold = getParameterByName("th");
-  if (thershold == "" || thershold == undefined) { thershold = 0.20;}
-  //var thershold = 0.20;  
+  var threshold = parseInt(getParameterByName("th"))/100;
+  if (threshold == "" || threshold == undefined) { threshold = 0.20;}
+  //var threshold = 0.20;  
+  // insert GET var th in input field 
+  $("#th").val(getParameterByName("th")); 
+  //var value = getParameterByName("th"); // Set the value that you want to select
+  //$("#th option[value=" + value + "]")​​.attr("selected","selected")​​;​
   // option 2:  
           
   var c = 0;
@@ -34,7 +38,7 @@ $(function() {
     }
     $("#grid").append("<div id='" + i + "' class='row'>"+myAuthorLabel+"<div></div></div>");
     $.each(row, function(j, column) {
-      if (parseFloat(column[0].split("-")[2]) < thershold)  {
+      if (parseFloat(column[0].split("-")[2]) < threshold)  {
         topic = 0; subTopic = 0;
       } else {
         topic = column[0].split("-")[0];
@@ -58,8 +62,6 @@ $(function() {
   }
       var topic = $(this).attr("t");
       var myid = $(this).attr('id').split("x");
- /////////////////////// FIXME
- console.log(pos.left);
       if (pos.left > 0) {
         correctionLeft = 10;
       } else {
@@ -401,6 +403,12 @@ $(function() {
     }
   }
 
+  $('.nstSlider').nstSlider({
+      "left_grip_selector": ".leftGrip",
+      "value_changed_callback": function(cause, leftValue, rightValue) {
+          $(this).parent().find('.leftLabel').text(leftValue);
+      }
+  });
 
   function sprintf() {
     // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 

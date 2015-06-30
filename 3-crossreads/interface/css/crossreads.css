@@ -7,6 +7,11 @@ body {
 
 pre {
   font-family: 'Bitter', serif;
+  white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+  white-space: -pre-wrap; /* Opera */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+  word-wrap: break-word; /* IE 5.5+ */
 }
 
 #nav {
@@ -50,7 +55,7 @@ pre {
 #submenu {
   background-color: #fff;
   margin-bottom: 0px;
-  height:50px;
+  height:80px;
 }
 
 .collapsing {
@@ -122,7 +127,7 @@ pre {
 }
 
 .row:hover {
-  background: #c3c3c3;
+  background: #EDEDED;
   color:red;
 }
 
@@ -210,8 +215,9 @@ pre {
 
 #reader {
   display:none;
-  position:absolute;
-  top:100px;
+  position: fixed;
+  top: 15%;
+  left: 5%;
   width:80%;
   z-index:20;
   margin:10px;
@@ -220,9 +226,9 @@ pre {
 }
 
 #reader-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
+  top: 5%;
+  left: 5%;
   width:100%;
   height:100%;
   overflow: hidden;
@@ -462,4 +468,6 @@ tc {
   height:15px; 
 }
 
-
+input, output {
+  display:inline-block;
+}
