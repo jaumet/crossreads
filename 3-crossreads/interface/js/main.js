@@ -149,12 +149,12 @@ $(function() {
       myJourney(myid, "add");
 
       var buttons = "<p id_track=\"" + myids[0] + "x" + myids[1] + "x" + classBgcolor + "\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-      buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a> - ";
-      buttons += "[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
-      buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
-      buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
-      buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> ";
-      buttons += ")</p><p class=\"topic\">" + get_topic_name(code, TOPICS) + "</p>";
+      buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a></p>";
+      //buttons += "<p>[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
+      //buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
+      //buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
+      //buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> )</p>";
+      buttons += "<p class=\"topic\">" + get_topic_name(code, TOPICS) + "</p>";
       $("#reader-buttons").html(buttons);
       view_reader_text(myids[0], myids[1] - 1);
       $("#meta").html(view_reader_meta(myids[0], myids[1]));
@@ -261,6 +261,35 @@ $(function() {
   }
 
   function topicsChart(pageInfo) {
+    var table = "<table><tr>"; var tablec = "</tr></table>";
+    var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
+    var myTopic = ""; var mySubTopic = ""; var myScore = "";
+    var chart0 = "";var chart1 = "";var chart2 = "";var chart3 = "";var chart4 = "";var chart5 = "";
+    // group elements by score percentage
+    $.each(pageInfo, function(i, val) {
+      myScore = parseFloat(val.split("-")[2]);
+      mySubTopic = val.split("-")[1];
+      myTopic = val.split("-")[0];
+      code = val.split("-")[0]+"-"+val.split("-")[1]
+      if (myScore >= 0.80)  {
+        chart0 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc; 
+      } else if (myScore < 0.80 && myScore >= 0.60)  {
+        chart1 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+"("+myScore+")"+tcc;
+      } else if (myScore < 0.60 && myScore >= 0.40)  {
+        chart2 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else if (myScore < 0.40 && myScore >= 0.20)  {
+        chart3 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else if (myScore < 0.20 && myScore > 9.99)  {
+        chart4 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else {
+        chart5 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
+      }
+    })
+    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-10%</td>"+td+chart4+tdc+tablec;
+  }
+
+
+  function topicsChartBars(pageInfo) {
     var table = "<table><tr>"; var tablec = "</tr></table>";
     var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
     var myTopic = ""; var mySubTopic = ""; var myScore = "";

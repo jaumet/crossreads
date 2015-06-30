@@ -121,9 +121,14 @@ pre {
   background: #fff;
 }
 
+.row:hover {
+  background: #c3c3c3;
+  color:red;
+}
+
 .row div:hover {
-  border-top:2px solid #424242;
-  border-bottom:2px solid #424242;
+  border-top:1px solid #000;
+  border-bottom:0px solid #000;
 }
 
 .row div {
@@ -131,7 +136,7 @@ pre {
   position:relative;
   height:;20px;
   border-top:1px solid #424242;
-  border-bottom:1px solid #a0a0a0;
+  border-bottom:0px solid #a0a0a0;
 
 }
 
@@ -330,7 +335,7 @@ img.enlarged {
 .c2  {background-color: #cc6666;}
 .c1  {background-color: #E78F39;}
 .cC {background-color: #FFF;}
-.c0  {background-color: #FFF;background-image:url('../img/7x7.png');}
+.c0  {background-color: #FFF;background-image:url('../img/7x7grey.png');}
 
 #topicsView {
   z-index:30;
