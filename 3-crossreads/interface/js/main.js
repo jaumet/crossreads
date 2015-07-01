@@ -5,7 +5,9 @@ if (localStorage.getItem("journey") === null) {
 $(function() {
   // URL parameters
   function getParameterByName(name) {
-    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+    out = decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+    if (out==null) {out="20";}
+    return out;
   }
   
   // Submenu
@@ -17,16 +19,12 @@ $(function() {
       $('[data-toggle=collapse]').parent('li').removeClass('active');
       $(this).parent('li').toggleClass('active');
   });
+  if ($("li a#showAllTopics").css("class", "active")) { $("#cero").removeClass("collapse"); };
+
   // Parameters:
-  //option 1: show first topic if score(t1) > 20%. Otherwise no-topic (white)
   var threshold = parseInt(getParameterByName("th"))/100;
   if (threshold == "" || threshold == undefined) { threshold = 0.20;}
-  //var threshold = 0.20;  
-  // insert GET var th in input field 
   $("#th").val(getParameterByName("th")); 
-  //var value = getParameterByName("th"); // Set the value that you want to select
-  //$("#th option[value=" + value + "]")​​.attr("selected","selected")​​;​
-  // option 2:  
           
   var c = 0;
   $.each(topicMatrix, function(i, row) {
@@ -50,35 +48,43 @@ $(function() {
       c += 1;
     })
   })
+  
+  // Show words for each subtopic
+  $("ul.navbar-nav li a")
+    .mouseover(function() {
+      var pos = $(this).position();
+      var offs = $(this).offset();
+      $("#words").css("top", offs.top + 40 + "px").css("left", offs.left + "px").css("display", "block").html(get_topic_name(this.id, TOPICS, "words"));
+      
+    })
+    .mouseout(function() {
+      $("#words").css("display", "none");
+      //$(this).css("border", "1px solid #fff");
+    })
   // Detail popup
   $(".row div div")
     .mouseover(function( event ) {
       var pos = $(this).position();
       var offs = $(this).offset();
       if ($(this).attr("class") != "c c0")  {
-  var classBgcolor = $(this).attr("class");
-  } else  {
-  var classBgcolor = "c cC";  
-  }
+        var classBgcolor = $(this).attr("class");
+      } else  {
+        var classBgcolor = "c cC";  
+      }
       var topic = $(this).attr("t");
       var myid = $(this).attr('id').split("x");
-      if (pos.left > 0) {
-        correctionLeft = 10;
-      } else {
-        correctionLeft = 10;
-      }
-      $("#detail").css("display", "block").addClass(classBgcolor).css("top", event.pageY + "px").css("left", event.pageX + correctionLeft + "px");
+      $("#detail").css("display", "block").addClass(classBgcolor).css("top", event.pageY + "px").css("left", event.pageX + 10 + "px");
       $(this).css("border", "3px solid #424242");
       $("#detail").html(view_detail(myid[0], myid[1], topic));
       $("#detail").css("background-image", "");
     })
-  .mouseout(function() {
-    $("#detail").css("display", "none").attr('class', '');
-    $(this).css("border", "1px solid #fff");
-  })
-  .click(function() {
-      main(this.id);
-  });
+    .mouseout(function() {
+      $("#detail").css("display", "none").attr('class', '');
+      $(this).css("border", "1px solid #fff");
+    })
+    .click(function() {
+        main(this.id);
+    });
 
   // Reader close
   $("#reader-close img, #reader-overlay").click(function() {
@@ -156,7 +162,7 @@ $(function() {
       //buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
       //buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
       //buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> )</p>";
-      buttons += "<p class=\"topic\">" + get_topic_name(code, TOPICS) + "</p>";
+      buttons += "<p class=\"topic\">" + get_topic_name(code, TOPICS, "name") + "</p>";
       $("#reader-buttons").html(buttons);
       view_reader_text(myids[0], myids[1] - 1);
       $("#meta").html(view_reader_meta(myids[0], myids[1]));
@@ -199,19 +205,25 @@ $(function() {
     }
   }
 
-  function get_topic_name(code, TOPICS) {
+  function get_topic_name(code, TOPICS, what) {
+    var outWords = "";
     if (code != "0-0") {
         topic = "#showTopics" + code.split("-")[0];
-        var out = $(topic).html();
+        var outTopic = $(topic).html();
         $.each(TOPICS, function(i, val) {
             if (val["code"] == code) {
-                out += " > " + val["topic"];
+                outTopic += " > " + val["topic"];
+                outWords = val["words"];
             }
         });
     } else {
-        out = "no relevant topic"
+        outTopic = "no relevant topic"
     }
-    return out;
+    if (what == "name") {
+      return outTopic;
+    } else {
+      return outWords;
+    }
   }
 
   function enlarge() {
@@ -258,66 +270,71 @@ $(function() {
     <p>Kind: %s. <i>This is page %s from %s</i></p>\
     <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
   }
+  
   function type(val){
     return Object.prototype.toString.call(val).replace(/^\[object (.+)\]$/,"$1").toLowerCase();
   }
 
+  function topicsChartBalls(pageInfo) {
+    var table = "<table><tr>"; var tablec = "</tr></table>";
+    var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
+    var myTopic = ""; var mySubTopic = ""; var myScore = "";
+    var chart0 = "";var chart1 = "";var chart2 = "";var chart3 = "";var chart4 = "";var chart5 = "";
+    // group elements by score percentage
+    $.each(pageInfo, function(i, val) {
+      myScore = parseFloat(val.split("-")[2]);
+      mySubTopic = val.split("-")[1];
+      myTopic = val.split("-")[0];
+      code = val.split("-")[0]+"-"+val.split("-")[1]
+      if (myScore >= 0.80)  {
+        chart0 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+tcc; 
+      } else if (myScore < 0.80 && myScore >= 0.60)  {
+        chart1 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+"("+myScore+")"+tcc;
+      } else if (myScore < 0.60 && myScore >= 0.40)  {
+        chart2 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else if (myScore < 0.40 && myScore >= 0.20)  {
+        chart3 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else if (myScore < 0.20 && myScore > 9.99)  {
+        chart4 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+" ("+myScore+")"+tcc;
+      } else {
+        chart5 += tc+get_topic_name(code, TOPICS, "name")+tc1+myTopic+" ("+myScore+")"+tcc;
+      }
+    })
+    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-10%</td>"+td+chart4+tdc+tablec;
+  }
+
+
   function topicsChart(pageInfo) {
-    var table = "<table><tr>"; var tablec = "</tr></table>";
-    var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
-    var myTopic = ""; var mySubTopic = ""; var myScore = "";
-    var chart0 = "";var chart1 = "";var chart2 = "";var chart3 = "";var chart4 = "";var chart5 = "";
-    // group elements by score percentage
-    $.each(pageInfo, function(i, val) {
-      myScore = parseFloat(val.split("-")[2]);
-      mySubTopic = val.split("-")[1];
-      myTopic = val.split("-")[0];
-      code = val.split("-")[0]+"-"+val.split("-")[1]
-      if (myScore >= 0.80)  {
-        chart0 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc; 
-      } else if (myScore < 0.80 && myScore >= 0.60)  {
-        chart1 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+"("+myScore+")"+tcc;
-      } else if (myScore < 0.60 && myScore >= 0.40)  {
-        chart2 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else if (myScore < 0.40 && myScore >= 0.20)  {
-        chart3 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else if (myScore < 0.20 && myScore > 9.99)  {
-        chart4 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else {
-        chart5 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      }
-    })
-    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-10%</td>"+td+chart4+tdc+tablec;
-  }
-
-
-  function topicsChartBars(pageInfo) {
-    var table = "<table><tr>"; var tablec = "</tr></table>";
-    var td = "<td>"; var tdc = "</td>"; var tc = "<tc  title=\""; var tc1 = "\" class=\"c"; var tcc="\"></tc>";
-    var myTopic = ""; var mySubTopic = ""; var myScore = "";
-    var chart0 = "";var chart1 = "";var chart2 = "";var chart3 = "";var chart4 = "";var chart5 = "";
-    // group elements by score percentage
-    $.each(pageInfo, function(i, val) {
-      myScore = parseFloat(val.split("-")[2]);
-      mySubTopic = val.split("-")[1];
-      myTopic = val.split("-")[0];
-      code = val.split("-")[0]+"-"+val.split("-")[1]
-      if (myScore >= 0.80)  {
-        chart0 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+tcc; 
-      } else if (myScore < 0.80 && myScore >= 0.60)  {
-        chart1 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+"("+myScore+")"+tcc;
-      } else if (myScore < 0.60 && myScore >= 0.40)  {
-        chart2 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else if (myScore < 0.40 && myScore >= 0.20)  {
-        chart3 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else if (myScore < 0.20 && myScore > 9.99)  {
-        chart4 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      } else {
-        chart5 += tc+get_topic_name(code, TOPICS)+tc1+myTopic+" ("+myScore+")"+tcc;
-      }
-    })
-    return table+"<td>100-80%</td>"+td+chart0+tdc+"</tr><tr><td>80-60%</td>"+td+chart1+tdc+"</tr><tr><td>60-40%</td>"+td+chart2+tdc+"</tr><tr><td>40-20%</td>"+td+chart3+tdc+"</tr><tr><td>20-10%</td>"+td+chart4+tdc+tablec;
-  }
+    
+    var topicdata = [];
+    // map the array: [1-3-0.23] -> [1,3,0.23]
+    var myarr = pageInfo.map(function(item){return item.split("-")});
+    // group elements by topic
+    for(var i=1; i<6; i++){
+			filtertopics = myarr.filter(function(t){ return t[0] == i; });
+		  filtertopics.forEach(function(f, i){
+		    f.push(get_topic_name(f[0]+"-"+f[1],TOPICS,"name"));// // nb getSubTopic does not need to be on the $scope now	
+		  });
+		  if (filtertopics.length > 0) {
+		    topicdata.push(filtertopics);
+		  }
+		  //console.log("VVV: "+filtertopics);
+		}
+		// Buils html
+		var html = "<div id=\"topicsChart\">";
+		topicdata.forEach(function(topic) {
+  		html += "<div class=\"topicsBar\">";
+		  topic.forEach(function(t) {
+		    if (t[2]>0) {
+		      if (parseFloat(t[2])<0.05) {t[2]=0.05;} 
+  		    html += "<div class=\"c"+t[0]+"\" style=\"width:"+parseFloat(t[2])*100+"px;\" title=\""+t[3]+" | "+t[0]+"-"+t[1]+"\"></div>";
+  		  }
+		  })
+  		html += "</div>";
+		})
+		html += "</div>";
+    return html;
+  }  
 
   function view_reader_text(row, column) {
     var g = DATA[row];
@@ -353,10 +370,12 @@ $(function() {
       case 'show':
         $(".c").css("background-image", "");
         $("#topicsView li").attr('class', '');
+        //$("#cero form").css("display", "block");
         break;
       case 'hide':
         $(".c").css("background-image", "url('img/7x7grey.png')");
         $("#topicsView li").attr('class', '');
+        //$("#cero form").css("display", "none");
           break;
       case 'showTopics1':
         $("ul.navbar-nav li").removeClass("bggrey");
@@ -402,13 +421,6 @@ $(function() {
         var a = 1;
     }
   }
-
-  $('.nstSlider').nstSlider({
-      "left_grip_selector": ".leftGrip",
-      "value_changed_callback": function(cause, leftValue, rightValue) {
-          $(this).parent().find('.leftLabel').text(leftValue);
-      }
-  });
 
   function sprintf() {
     // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 

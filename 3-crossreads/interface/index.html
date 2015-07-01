@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/jquery.nstSlider.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/crossreads.css">
 		<script src="data/dataDiaries.js"></script>
 		<script src="data/dataPages.js"></script>
@@ -18,7 +17,7 @@
       <div class="mybuttons">
         <h1 class="myheader"><a href="./">World War I Diaries</a></h1>
         <ul class="nav nav-pills">
-          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#by-page_no" data-toggle="collapse" data-target="#cero">Show all</a></li>
+          <li role="presentation" data-toggle="pill" class="active"><a id="showAllTopics" href="#allTopics" data-toggle="collapse" data-target="#cero">Show all</a></li>
 <!--
           <li role="presentation" data-toggle="pill"><a id="hideAllTopics" href="#by-kind">Hide pages</a></li>
 -->
@@ -35,15 +34,15 @@
           <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5" data-toggle="collapse" data-target="#five">The accidental tourist</a></li>
         </ul>
         <nav class="navbar navbar-default" role="navigation" id="submenu">
-          <ul class="nav navbar-nav c0" id="cero">
-              <form action="">
+          <ul class="nav navbar-nav collapse" id="cero">
+              <li><form action="">
               Topic threshold                
                 <select name="th" id="th">
                   <option value="0">0</option>
                   <option value="5">5</option>
                   <option value="10">10</option>
                   <option value="15">15</option>
-                  <option value="20" selected="selected">20</option>
+                  <option value="20" selected>20</option>
                   <option value="25">25</option>
                   <option value="30">30</option>
                   <option value="35">35</option>
@@ -62,7 +61,7 @@
                   <option value="100">100</option>
                 </select> %
                 <input type="submit" value=">">
-              </form>
+              </form></li>
           </ul>
           <ul class="nav navbar-nav collapse c1" id="one">
             <li><a href="#" id="1-1">Weather</a></li>
@@ -129,11 +128,11 @@
   <div id="reader-text"></div>
 	<div id="store"></div>
   <div id="journey">My journey</div>
+  <div id="words">XXX</div>
 
 	<!-- Javascript guest stars: -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.nstSlider.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

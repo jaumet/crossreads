@@ -190,7 +190,7 @@ pre {
   border:1px solid #fff;
 }
 
-#detail {
+#detail, #words {
   display:none;
   position:absolute;
   width:160px;
@@ -202,6 +202,25 @@ pre {
   -moz-border-radius: 5%;
   font-size:0.6em;
   font-weight:bold;
+}
+#words {
+  background-color:#c3c3c3;
+  font-size: 1em;
+}
+
+#topicsChart {
+  position:relative;
+  min-height:60px;
+  background-color:#fff;
+}
+.topicsBar {
+  display:block;
+  clear:both;
+}
+.topicsBar div{
+  float:left;
+  height:15px;
+  border:1px solid #fff;
 }
 
 .detail-p  {
@@ -228,7 +247,7 @@ pre {
 #reader-overlay {
   position: fixed;
   top: 5%;
-  left: 5%;
+  left: 0%;
   width:100%;
   height:100%;
   overflow: hidden;
