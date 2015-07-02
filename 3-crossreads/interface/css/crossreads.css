@@ -487,6 +487,7 @@ tc {
   height:15px; 
 }
 
-input, output {
-  display:inline-block;
+input {
+  display:inline;
+  width:43px;
 }
