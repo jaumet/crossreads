@@ -1,0 +1,1 @@
+scp index.html    jaume@nualart.cat:/home/www/webspace/research.nualart.cat/crossreads/III/ && scp js/main.js   jaume@nualart.cat:/home/www/webspace/research.nualart.cat/crossreads/III/js/ && scp css/crossreads.css   jaume@nualart.cat:/home/www/webspace/research.nualart.cat/crossreads/III/css/
