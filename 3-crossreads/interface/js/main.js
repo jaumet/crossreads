@@ -1,4 +1,5 @@
- // Using localSttorage for the list of visited pages
+
+// Using localStorage for the list of visited pages
 if (localStorage.getItem("journey") === null) {
   localStorage.setItem('journey', "");
 }
@@ -9,6 +10,13 @@ $(function() {
     if (out==null) {out="20";}
     return out;
   }
+  
+  // About Over div. It fucntions as the home page
+  $("#about, #about-overlay").toggleClass("showabout");
+  $("#myabout").click(function() {
+    $(".mywrapper").toggleClass("fixed");
+    $("#about, #about-overlay").toggleClass("showabout");
+  });
   
   // Submenu
   $('.collapse').on('shown.bs.collapse', function(e) {
@@ -95,6 +103,8 @@ $(function() {
   $(document).on('keydown', function(e) {
     if (e.keyCode === 27) { // key ESC
         $("#reader").css("display", "none");
+        $("#about, #about-overlay").attr('class','showabout');
+        $(".mywrapper").css('position','relative');
         $("#reader-overlay").css("display", "none");
         $("#reader").css("display", "none").attr('class', '');
     }
@@ -158,16 +168,17 @@ $(function() {
 
       var buttons = "<p id_track=\"" + myids[0] + "x" + myids[1] + "x" + classBgcolor + "\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
       buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a></p>";
-      //buttons += "<p>[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
-      //buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
-      //buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
-      //buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/node/" + DATA[myids[0]]["diary_id"] + "\" target=\"_diary\">Diary</a> )</p>";
+      
+      buttons += "<p>[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
+      buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
+      buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
+      buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/sites/all/files/" + pages[myids[0]][""] + "\" target=\"_diary\">See the page</a> )</p>";
+      
       buttons += "<p class=\"topic\">" + get_topic_name(code, TOPICS, "name") + "</p>";
       $("#reader-buttons").html(buttons);
       view_reader_text(myids[0], myids[1] - 1);
       $("#meta").html(view_reader_meta(myids[0], myids[1]));
-      enlarge();
-      //do_buttons();
+     // enlarge();
       $(".nav_diary").click(function() {
         do_buttons(classBgcolor, this.id, topic)
       });
@@ -226,17 +237,6 @@ $(function() {
     }
   }
 
-  function enlarge() {
-    // FIXME Too simple images enlarger
-    $("img.enlarge")
-      .mouseover(function() {
-         $(this).addClass("enlarged");
-     })
-       .click(function() {
-         $(this).removeClass("enlarged");
-     })
-  }
-
   function view_detail(row, column, topic) {
     var g = DATA[row];
     var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
@@ -261,14 +261,14 @@ $(function() {
   function view_reader_meta(row, column) {
     var g = DATA[row];
     var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
-    var page_image = '<p class="reader-p"><i>this page</i><br /><img class="enlarge" src="%s" width="70px"/></p>';
+    var page_image = '<p class="reader-p"><i>this page</i><br /><a href="%s" target="see_transcript"><img class="enlarge" src="%s" width="70px"/></a></p>';
     if (column == 1) {
         page_image = "";
     }
     return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small><a href="http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw&form=simple&query=%s&type=1&meta_G_sand=&sort=&submit-search=Search" target="_slnsw">[more]</a></small>\
     <h1><span class="topicsDia">Topics distribution:'+topicsChart(topicMatrix[row][column-1])+'</span></h1>\
     <p>Kind: %s. <i>This is page %s from %s</i></p>\
-    <p class="reader-p">Cover<br /><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], mypageFile);
+    <p class="reader-p">Cover<br /><a href="data/diariesCovers/%s" target="see_cover"><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></a></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], g["cover"], mypageFile, mypageFile);
   }
   
   function type(val){
@@ -305,7 +305,6 @@ $(function() {
 
 
   function topicsChart(pageInfo) {
-    
     var topicdata = [];
     // map the array: [1-3-0.23] -> [1,3,0.23]
     var myarr = pageInfo.map(function(item){return item.split("-")});
@@ -322,15 +321,15 @@ $(function() {
 		}
 		// Buils html
 		var html = "<div id=\"topicsChart\">";
-		topicdata.forEach(function(topic) {
+		topicdata.forEach(function(topic, index) {
   		html += "<div class=\"topicsBar\">";
 		  topic.forEach(function(t) {
 		    if (t[2]>0) {
 		      if (parseFloat(t[2])<0.05) {t[2]=0.05;} 
-  		    html += "<div class=\"c"+t[0]+"\" style=\"width:"+parseFloat(t[2])*100+"px;\" title=\""+t[3]+" | "+t[0]+"-"+t[1]+"\"></div>";
+  		    html += "<div class=\"c"+t[0]+"\" style=\"width:"+parseFloat(t[2])*100+"px;\" title=\""+t[3]+"\"></div>&nbsp;";
   		  }
 		  })
-  		html += "</div>";
+  		html += "<span>"+TOPICNAMES[index]+"</span></div>";
 		})
 		html += "</div>";
     return html;

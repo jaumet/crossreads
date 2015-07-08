@@ -1,3 +1,5 @@
+var TOPICNAMES = ["Personal", "War", "Military life", "Traveling", "The accidental tourist"];
+
 var TOPICS = [
 	{
 	"code":"0-0",
