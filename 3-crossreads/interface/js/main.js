@@ -81,7 +81,7 @@ $(function() {
       }
       var topic = $(this).attr("t");
       var myid = $(this).attr('id').split("x");
-      $("#detail").css("display", "block").addClass(classBgcolor).css("top", event.pageY + "px").css("left", event.pageX + 10 + "px");
+      $("#detail").css("display", "block").addClass(classBgcolor).css("top", event.pageY + "px").css("left", (Number(event.pageX) - 110) + "px");
       $(this).css("border", "3px solid #424242");
       $("#detail").html(view_detail(myid[0], myid[1], topic));
       $("#detail").css("background-image", "");
@@ -135,6 +135,19 @@ $(function() {
       topicsView("subtopic", mysubtopic);
   });
 
+
+  // left right keys to move along pages
+  $(document).on( 'keydown', function ( e ) {
+    if ( e.keyCode === 37 ) { // key Left
+      var myBgcolor = $("#reader-buttons p").attr('id_track').split("x")[2];
+      do_buttons(myBgcolor, "back", topic)
+    }
+    if ( e.keyCode === 39 ) { // key Right
+      var myBgcolor = $("#reader-buttons p").attr('id_track').split("x")[2];
+      do_buttons(myBgcolor, "forward", topic)
+    }
+  });
+
   function main(myid) {
     var myids = myid.split("x");
     var myid = "#" + myid;
@@ -167,18 +180,17 @@ $(function() {
       myJourney(myid, "add");
 
       var buttons = "<p id_track=\"" + myids[0] + "x" + myids[1] + "x" + classBgcolor + "\"><a class=\"nav_diary\" id=\"back\">BACK</a> -";
-      buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a></p>";
+      buttons += "<a class=\"nav_diary\" id=\"forward\">FORWARD</a><span class=\"help_note2\">(use <img src=\"img/arrow_left.png\" width=\"20px\" /> and <img src=\"img/arrow_right.png\" width=\"20px\" /> to move through pages)</span></p>";
       
-      buttons += "<p>[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
-      buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
-      buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
-      buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/sites/all/files/" + pages[myids[0]][""] + "\" target=\"_diary\">See the page</a> )</p>";
+      //buttons += "<p>[<a id=\"add_to_journey\" onClick=\"myJourney(" + myid + ", \"remove\");\">remove from visited</a>]";
+      //buttons += " ( <a href=\"data/diariesPages/" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + ".txt\"";
+      //buttons += " target=\"_page\">" + DATA[myids[0]]["diary_id"] + "/" + pages[myids[0]][Number(myids[1])-1] + "</a>) ";
+      //buttons += " (<a href=\"http://transcripts.sl.nsw.gov.au/api/node/" + pages[myids[0]][myids[1]] + "\" target=\"_api\">API</a>) (<a href=\"http://transcripts.sl.nsw.gov.au/sites/all/files/" + pages[myids[0]][""] + "\" target=\"_diary\">See the page</a> )</p>";
       
       buttons += "<p class=\"topic\">" + get_topic_name(code, TOPICS, "name") + "</p>";
       $("#reader-buttons").html(buttons);
       view_reader_text(myids[0], myids[1] - 1);
       $("#meta").html(view_reader_meta(myids[0], myids[1]));
-     // enlarge();
       $(".nav_diary").click(function() {
         do_buttons(classBgcolor, this.id, topic)
       });
@@ -213,7 +225,9 @@ $(function() {
       view_reader_text(myid[0], val, DATA);
       $("#meta").html(view_reader_meta(myid[0], val, DATA));
       main(myid[0] + "x" + val);
+      console.log("go: "+go+" | val: "+val);
     }
+
   }
 
   function get_topic_name(code, TOPICS, what) {
@@ -322,7 +336,7 @@ $(function() {
 		// Buils html
 		var html = "<div id=\"topicsChart\">";
 		topicdata.forEach(function(topic, index) {
-  		html += "<div class=\"topicsBar\">";
+  		html += "<div class=\"topicsBar\"><div class=\"c0\" style=\"width:5px;\" ></div>";
 		  topic.forEach(function(t) {
 		    if (t[2]>0) {
 		      if (parseFloat(t[2])<0.05) {t[2]=0.05;} 
@@ -420,19 +434,6 @@ $(function() {
         var a = 1;
     }
   }
-
-
-  /////////////////////// RECHECK THIS left right keys
-                      /*
-	$(document).on( 'keydown', function ( e ) {
-	  if ( e.keyCode === 37 ) { // key Left
-		do_buttons(classBgcolor, "back")
-	  }
-	  if ( e.keyCode === 39 ) { // key Right
-		do_buttons(classBgcolor, "forward")
-	  }
-	});
-				  */
 
   function sprintf() {
     // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 
