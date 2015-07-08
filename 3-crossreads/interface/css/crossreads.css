@@ -326,8 +326,7 @@ pre {
   margin:7px;
   border:0px solid red;
   padding:15px;
-  overflow: scroll;
-  border:1px solid red;
+  border:0px solid red;
 }
 
 #about-overlay {
@@ -530,5 +529,13 @@ input {
 .about {
   color:#fff;
   background-color:#424242;
+  font-size:1.3em;
+}
+
+.help_note  {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  color:#424242;
   font-size:1.3em;
 }

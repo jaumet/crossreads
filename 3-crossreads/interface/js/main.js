@@ -421,6 +421,19 @@ $(function() {
     }
   }
 
+
+  /////////////////////// RECHECK THIS left right keys
+                      /*
+	$(document).on( 'keydown', function ( e ) {
+	  if ( e.keyCode === 37 ) { // key Left
+		do_buttons(classBgcolor, "back")
+	  }
+	  if ( e.keyCode === 39 ) { // key Right
+		do_buttons(classBgcolor, "forward")
+	  }
+	});
+				  */
+
   function sprintf() {
     // from http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format 
     // by Luke Madhanga
