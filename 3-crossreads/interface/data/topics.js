@@ -25,12 +25,14 @@ var TOPICS = [
 	"topicNo":10,
 	"words":"tea bread dinner biscuits breakfast good coffee butter eggs food rations jam beef plenty issued meal bully canteen tin beer"
 	},
+/*
 	{
 	"code":"1-3",
 	"topic":"Food",
 	"topicNo":28,
 	"words":"tea bread dinner biscuits breakfast good coffee butter eggs food rations jam beef plenty issued meal bully canteen tin beer"
 	},
+*/
 	{
 	"code":"1-4",
 	"topic":"Personal care & clothes",

@@ -232,15 +232,17 @@ $(function() {
 
   function get_topic_name(code, TOPICS, what) {
     var outWords = "";
+    var outSubTopic = "";
     if (code != "0-0") {
         topic = "#showTopics" + code.split("-")[0];
         var outTopic = $(topic).html();
         $.each(TOPICS, function(i, val) {
             if (val["code"] == code) {
-                outTopic += " > " + val["topic"];
+                outSubTopic = " > " + val["topic"];
                 outWords = val["words"];
             }
         });
+        outTopic += outSubTopic;
     } else {
         outTopic = "no relevant topic"
     }
