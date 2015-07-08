@@ -432,6 +432,10 @@ pre {
   background-color: #9E9E9E;
 }
 
+.myactive  {
+  background-color: #c3c3c3;
+}
+
 .bggrey {
   background-color: #e7e7e7;
 }
