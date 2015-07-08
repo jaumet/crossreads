@@ -354,7 +354,11 @@ $(function() {
   function view_reader_text(row, column) {
     var g = DATA[row];
     var path = "data/diariesPages/" + g["diary_id"] + "/" + pages[row][column] + ".txt";
-    $("#reader-text pre").load(path);
+    var mytext = "";
+    $.get(path, function (data) {
+      mytext = data.replace(/(?:\r\n|\r|\n)/g, '<br />');
+      $("#reader-text p").html(mytext);
+    });
     return;
   }
 
