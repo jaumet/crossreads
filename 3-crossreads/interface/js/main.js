@@ -255,8 +255,6 @@ $(function() {
 
   function view_detail(row, column, topic) {
     var g = DATA[row];
-    var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
-    var page_image = '';
     var topicsStats = '<p class="detail-p"></p>';
     if (topic != "0-0")  {
       myScoreValue = Math.round(Number(topicMatrix[row][column-1][0].split("-")[2])*100)
@@ -277,14 +275,16 @@ $(function() {
   function view_reader_meta(row, column) {
     var g = DATA[row];
     var mypageFile = page_img_file_name(g["don"], Number(column), g["cover"]);
-    var page_image = '<p class="reader-p"><i>this page</i><br /><a href="%s" target="see_transcript"><img class="enlarge" src="%s" width="70px"/></a></p>';
+    // page_image deactivated because there is no way to get the images of pages URLs, they look quite randomly sufixed: *h.jpg, *h_0.jpg, *h_1.jpg,...
+    var page_image = '';// '<p class="reader-p"><i>this page</i><br /><a href="%s" target="see_transcript"><img class="enlarge" src="%s" width="70px"/></a></p>';
     if (column == 1) {
         page_image = "";
     }
     return sprintf('<small><i>no. %s</i></small><h1>%s <br />by %s <small><a href="http://www.acmssearch.sl.nsw.gov.au/s/search.html?collection=slnsw&form=simple&query=%s&type=1&meta_G_sand=&sort=&submit-search=Search" target="_slnsw">[more]</a></small>\
     <h1><span class="topicsDia">Topics distribution:'+topicsChart(topicMatrix[row][column-1])+'</span></h1>\
     <p>Kind: %s. <i>This is page %s from %s</i></p>\
-    <p class="reader-p">Cover<br /><a href="data/diariesCovers/%s" target="see_cover"><img class="enlarge" src="data/diariesCovers/%s" width="70px"/></a></p>' + page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], g["cover"], mypageFile, mypageFile);
+    <p class="reader-p">Cover<br /><a href="data/diariesCovers/%s" target="see_cover"><img class="enlarge" src="data/diariesCovers/%s" width="70px"/>\
+    </a></p>'+ page_image, g["id"], g["title"], g["author"], g["author"].replace(" ", "+"), g["kind"], column, g["page_no"], g["cover"], g["cover"]); // Deactivated -> , mypageFile, mypageFile);
   }
   
   function type(val){
