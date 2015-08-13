@@ -3,21 +3,22 @@
 if (localStorage.getItem("journey") === null) {
   localStorage.setItem('journey', "");
 }
+
 $(function() {
   // URL parameters
   function getParameterByName(name) {
     out = decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
-    if (out==null) {out="20";}
     return out;
   }
-  
+
   // About Over div. It fucntions as the home page
-  $("#about, #about-overlay").toggleClass("showabout");
+  if (getParameterByName("th") == null) {
+    $("#about, #about-overlay").toggleClass("showabout"); 
+  }
   $("#myabout").click(function() {
-    $(".mywrapper").toggleClass("fixed");
-    $("#about, #about-overlay").toggleClass("showabout");
-  });
-  
+      $(".mywrapper").toggleClass("fixed");
+      $("#about, #about-overlay").toggleClass("showabout");
+  }); 
   // Submenu
   $('.collapse').on('shown.bs.collapse', function(e) {
       $('.collapse').not(this).removeClass('in');
@@ -30,9 +31,11 @@ $(function() {
   if ($("li a#showAllTopics").css("class", "active")) { $("#cero").removeClass("collapse"); };
 
   // Parameters:
-  var threshold = parseInt(getParameterByName("th"))/100;
+  var myth;
+  if (getParameterByName("th")==null) {myth="20";} else {myth = getParameterByName("th");}
+  var threshold = parseInt(myth)/100;
   if (threshold == "" || threshold == undefined) { threshold = 0.20;}
-  $("#th").val(getParameterByName("th")); 
+  $("#th").val(myth); 
           
   var c = 0;
   $.each(topicMatrix, function(i, row) {
