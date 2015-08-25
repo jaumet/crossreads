@@ -327,26 +327,26 @@ pre {
 
 #about {
   position: absolute;
-  top: 60px;
-  left: 110px;
+  top: 0;
+  left: 10px;
   width:80%;
-  z-index:31;
-  margin:7px;
+  z-index:41;
+  margin:0;
   border:0px solid red;
-  padding:15px;
+  padding-left:20px;
   border:0px solid red;
 }
 
 #about-overlay {
   position: fixed;
-  top: 60px;
+  top: 0;
   left: 0%;
   width:100%;
   height:100%;
   overflow: hidden;
   background-color:#fff;
   opacity:1;
-  z-index: 30;
+  z-index: 40;
 }
 .showabout {
     display:none;
@@ -545,11 +545,13 @@ input {
 }
 
 .help_note  {
+  font-family: monospace;
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding: 0;
+  padding-top:20px;
   color:#424242;
-  font-size:1.3em;
+  font-size:1.0em;
 }
 
 .help_note2 {
