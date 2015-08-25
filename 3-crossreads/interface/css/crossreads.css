@@ -262,6 +262,7 @@ pre {
   margin:10px;
   border:0px solid #0310FF;
   padding:15px;
+  border:1px solid #000000;
 }
 
 #reader-overlay {

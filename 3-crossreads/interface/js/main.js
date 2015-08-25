@@ -393,6 +393,7 @@ $(function() {
         $(".c").css("background-image", "");
         $("#topicsView li").attr('class', '');
         //$("#cero form").css("display", "block");
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
         break;
       case 'hide':
         $(".c").css("background-image", "url('img/7x7grey.png')");
@@ -401,23 +402,33 @@ $(function() {
           break;
       case 'showTopics1':
         $("ul.navbar-nav li").removeClass("bggrey");
-        $(".c1").css('background-image', '');
+        $(".c1").css('background-image', '');        
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
+        $("#one").removeClass("collapse");
         break;
       case 'showTopics2':
         $("ul.navbar-nav li").removeClass("bggrey");
         $(".c2").css('background-image', '');
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
+        $("#two").removeClass("collapse");
         break;
       case 'showTopics3':
         $("ul.navbar-nav li").removeClass("bggrey");
         $(".c3").css('background-image', '');
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
+        $("#three").removeClass("collapse");
         break;
       case 'showTopics4':
         $("ul.navbar-nav li").removeClass("bggrey");
         $(".c4").css('background-image', '');
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
+        $("#four").removeClass("collapse");
         break;
       case 'showTopics5':
         $("ul.navbar-nav li").removeClass("bggrey");
         $(".c5").css('background-image', '');
+        $("#submenu ul").addClass("collapse").removeAttr('aria-expanded');
+        $("#five").removeClass("collapse");
         break;
       case "subtopic":
         $(".c").css("background-image", "url('img/7x7grey.png')");

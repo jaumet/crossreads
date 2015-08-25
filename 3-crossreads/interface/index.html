@@ -27,18 +27,18 @@
       <div class="myorders">
         <p class="myheader">visualization of the State Library of NSW collection <a href="http://transcripts.sl.nsw.gov.au/project/World%20War%201%20Diaries" target="SLNSW">[SLNSW collection]</a><br /> - by Jaume Nualart,PhD Candidate Univ. of Canberra [<a href="https://twitter.com/jaumetet" target="jaumetet_twitter">@jaumetet</a>]</p>
         <ul id="topicsView" class="nav nav-pills">
-          <li role="presentation" data-toggle="pill"><a id="showTopics1" href="#topic1" data-toggle="collapse" data-target="#one">Personal</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics2" href="#topic2" data-toggle="collapse" data-target="#two">War</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics3" href="#topic3" data-toggle="collapse" data-target="#three">Military life</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics4" href="#topic4" data-toggle="collapse" data-target="#four">Traveling</a></li>
-          <li role="presentation" data-toggle="pill"><a id="showTopics5" href="#topic5" data-toggle="collapse" data-target="#five">The accidental tourist</a></li>
+          <li role="presentation" ><a id="showTopics1" href="#topic1"  data-target="#one">Personal</a></li>
+          <li role="presentation" ><a id="showTopics2" href="#topic2"  data-target="#two">War</a></li>
+          <li role="presentation" ><a id="showTopics3" href="#topic3" data-target="#three">Military life</a></li>
+          <li role="presentation" ><a id="showTopics4" href="#topic4" data-target="#four">Traveling</a></li>
+          <li role="presentation" ><a id="showTopics5" href="#topic5" data-target="#five">The accidental tourist</a></li>
         </ul>
         <nav class="navbar navbar-default" role="navigation" id="submenu">
+          <form class="nav navbar-nav" action="">
+            Topic threshold <input name="th" id="th" type="number" min="0" max="100" step="5">        
+            <input type="submit" value=">">
+          </form>
           <ul class="nav navbar-nav collapse" id="cero">
-              <li><form action="">
-                Topic threshold <input name="th" id="th" type="number" min="0" max="100" step="5">        
-                <input type="submit" value=">">
-              </form></li>
           </ul>
           <ul class="nav navbar-nav collapse c1" id="one">
             <li><a href="#" id="1-1">Weather</a></li>
