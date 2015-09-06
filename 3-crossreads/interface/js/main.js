@@ -15,7 +15,7 @@ $(function() {
   if (getParameterByName("th") == null) {
     $("#about, #about-overlay").toggleClass("showabout"); 
   }
-  $("#myabout, .myabout").click(function() {
+  $("#myabout, .myabout ").click(function() {
       $(".mywrapper").toggleClass("fixed");
       $("#about, #about-overlay").toggleClass("showabout");
   }); 

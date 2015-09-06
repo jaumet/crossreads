@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class WwidSpider(scrapy.Spider):
+    name = "wwid"
+    allowed_domains = ["transcripts.sl.nsw.gov.au"]
+    start_urls = (
+        'http://www.transcripts.sl.nsw.gov.au/',
+    )
+
+    def parse(self, response):
+        hxs = HtmlXPathSelector(response)
+        mypageUrl = ''   
+        items = []
+
+    

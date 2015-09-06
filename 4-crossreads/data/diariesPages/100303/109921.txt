@@ -1,0 +1,13 @@
+No. ? Rank ? Name ? Age ? Occupation ? Rel. ? M or S ? Next of Kin
+2402 ? Pte. ? Smyth G.McD. ? 38 ? Salesman ? R.C. ? M ? (Wife) Mrs. G.McB. Smyth, 6 James St., Glenferrie
+1012 ? Pte. ? Spendlove W.H. ? 41 ? Hairdresser ? C/E ? M ? (Wife) Mrs. Spendlove, 62 Harris St., Nth. Melb. ? Anzac
+2409 ? Pte. ? Sparks H.T. ? 25 ? Laborer ? C/E ? S ? (Mother) Mrs. R. Sparks, 121 Eastwood St., Kensington
+2372 ? Pte. ? Silver L.G. ? 30 ? Baker ? C/E ? S ? (Father) Mr. J. Silver, 100 Melbourne Rd., W'town
+2400 ? Pte. ? Sawyer C.H. ? 35 ? Cigar-Maker ? C/E ? S ? (Father) A. Sawyer, 5 Hampden Rd., Kensington
+2385 ? Pte. ? Simons A.H. ? 19 ? Laborer ? Pres. ? S ? (Mother) Mrs. L. Simons, 3 Bourke St., Sth. Kensington
+2387 ? Pte. ? Scriven J. ? 31 ? Fireman ? Meth. ? S ? (Father) A. Scriven, 15 Horne St., Newport
+2386 ? Pte. ? Stuckey E.N. ? 37 ? Miner ? C/E ? M ? (Wife) Mrs. E.V. Stuckey, 232 Hall St., Newport
+2411 ? Pte. ? Sellwood L.J. ? 21 ? Laborer ? C/E ? S ? (Mother) Mrs. M. Davies, 25 Macquarie St., Prahran
+2413 ? Pte. ? Sullivan A.W. ? 18 ? Laborer ? C/E ? S ? (Father) W.H. Sullivan, Sharp St., Northcote
+690 ? Pte. ? Speechley W.G. ? 23 ? Laborer ? C/E ? M ? (Wife) Mrs. E. Speechley, Holdsworth Rd., Bendigo ? Anzac
+2388 ? Pte. ? Schwab C.H. ? 18 ? Laborer ? Cong. ? S ? (Father) Mr. G. Schwab, 24 Bellet St., Camberwell
