@@ -1,0 +1,31 @@
+
+Passive Visualization:
+
+- This ia about exhibition interface
+
+- Ussualy I work in active and interactive interfaces that proposes exploration, enquery, discover. At this point I'd like to introduze de idea of passive and interpassive interfaces. 
+Face of the collection, instead if interfaces. 
+- The idea could be seen as back-to-TV, or an slideshow. Yes, but highly configurable. Probablyis more accurate define the idea as a rich, dynamic, multidimensional, and configurable playlist.
+- Configuration parameters:
+
+  MODEL
+  * DATA ANALYSIS PROCESS
+  * Data structure (JSONs)
+  * Metadata (JSONs)
+  * Define OBJECTS to access data
+  
+  CONTROLER
+  * How long? non-ending, limited (in time, in amount of contents)
+  * what format? VITA selector
+  * what contents? Configure catagories or topics to see. With preset options (one f each topic, all from one topic, ...)
+  * Audio? y/n | TTS? Music? Others? (multiselect)
+  * Modes: random, configurable contents, featured contents.
+  VIEW
+  * Templates: based on contents config
+  
+  PLAYER
+  * configuretion form
+  * SCREEN:
+    > 
+    > 
+
