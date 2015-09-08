@@ -7,3 +7,15 @@ http://www.sl.nsw.gov.au/using/search/open_data.html
 http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=0&pagesize=500&sort=percentage_unlocked&direction=ASC
 
 http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title&parameters[collection]=4&parameters[type]=transcipt_document&page=1&pagesize=100&sort=title&direction=ASC
+
+2- Getting list pages of a Diary. Using "nid";
+p.e. "nid": "100288"
+
+
+http://transcripts.sl.nsw.gov.au/api/entity_node/100288/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+
+Page + transcription:
+http://transcripts.sl.nsw.gov.au/api/entity_node/103636/?fields=nid,title,status,transcript_image,transcription
+
+
+

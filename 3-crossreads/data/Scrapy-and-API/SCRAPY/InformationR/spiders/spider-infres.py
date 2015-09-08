@@ -2,7 +2,7 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 import re
 
-from InformationR.items import InformationrIssue
+from InformationR.items import WWWIDiaries
 
 class InformationResearch(BaseSpider):
     '''
