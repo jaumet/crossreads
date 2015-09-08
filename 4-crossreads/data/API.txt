@@ -1,0 +1,9 @@
+
+LNSW API: 
+http://www.sl.nsw.gov.au/using/search/open_data.html
+
+1- Getting diaries
+
+http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=0&pagesize=500&sort=percentage_unlocked&direction=ASC
+
+http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title&parameters[collection]=4&parameters[type]=transcipt_document&page=1&pagesize=100&sort=title&direction=ASC
