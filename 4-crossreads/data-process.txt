@@ -1,0 +1,10 @@
+
+1) Get the list of diaries 100% transcribed 
+-> for XXX from 0 to 8:
+-> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
+-> Merge these 8 files in 1. In JSON format.
+-> new file: XML-diaries-list.xml
+
+2) 
+
+
