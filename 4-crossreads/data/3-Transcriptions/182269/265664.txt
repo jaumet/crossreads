@@ -1,0 +1,228 @@
+<p>[Page 3]&nbsp;</p>
+<p>STATEMENT OF LINE SERVICE OF NINTH INFANTRY BRIGADE A.I.F.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Inclusive Dates</td>
+<td colspan="4" rowspan="1">Number of days in :-</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Front Line</td>
+<td>Support Line</td>
+<td>Reserve Line</td>
+<td>Rest</td>
+</tr>
+<tr>
+<td>26.11.16 to 25.12.16</td>
+<td>30</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>26.12.16 to 19.1.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>25</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>21.1.17 to 7.4.17</td>
+<td>78</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>8.4.17 to &nbsp;28.4.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>21</td>
+</tr>
+<tr>
+<td>29.4.17 to 23.5.17</td>
+<td>25</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>24.5.17 to 2.6.17</td>
+<td>10</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3.6.17 to 6.6.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7.6.17 to 13.6.17</td>
+<td>7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>14.6.17 to 20.6.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>7</td>
+</tr>
+<tr>
+<td>21.6.17 to 11.7.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>21</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>12.7.17 to 29.7.17</td>
+<td>18</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>30.7.17 to 28.9.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>61</td>
+</tr>
+<tr>
+<td>29.9.17 to 4.10.17</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>5.10.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>6.10.17 to 10.10 17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>5</td>
+</tr>
+<tr>
+<td>11.10.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>12.10.17</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>13.10.17 to 15.10.17</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>16.10.17 to 18.10.17</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>19.10.17 to 12.11.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>24</td>
+</tr>
+<tr>
+<td>13.11.17 to 15.12.17</td>
+<td>33</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>16.12.17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>17.12.17 to 1.1.18</td>
+<td>16</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2.1.18 to 24.2.18</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>54</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>25.2.18 to 7.3.18</td>
+<td>11</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>8.3.18 to 20.3.18</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>13</td>
+</tr>
+<tr>
+<td>21.3.18 to 26.3.18</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>27.3.18 to 14.4 18</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2.4.18 to 6.4.18</td>
+<td>5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7.4.18 to 9.4.18</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

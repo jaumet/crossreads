@@ -26,8 +26,8 @@ OUTPUT transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_nid].tx
     -> Empty diaries detected: 115204.json 100411.json 115243.json 365805.json 100394.json 115202.json 338054.json 100393.json 100407.json 115213.json 115109.json 318442.json 115164.json 115175.json 100365.json 115212.json 281689.json 115162.json 318465.json 115245.json. 308755.json 100350.json 100403.json 325204.json  
     -> I remove all those entries
     -> Diaries now: 780
-    -> API inconsitency qith this file: http://transcripts.sl.nsw.gov.au/api/entity_node/272772
-
+    -> API inconsitency inthis this file: http://transcripts.sl.nsw.gov.au/api/entity_node/272772
+    
 
 
 

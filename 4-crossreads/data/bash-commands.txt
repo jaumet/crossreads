@@ -1,0 +1,6 @@
+
+# Rename file extenssion recusrively
+find . -name "*.json" -exec bash -c 'mv "$1" "$(sed "s/\.json$/.txt/" <<< "$1")"' - '{}' \;
+
+watch total number of files in a directory recursively
+watch -e 'find . -type f | wc -l'

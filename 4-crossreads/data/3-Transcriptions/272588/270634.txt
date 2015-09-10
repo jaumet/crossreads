@@ -1,0 +1,2 @@
+<p class="page" id="a6400001">[Page 1]</p>
+<p>Front cover.</p>

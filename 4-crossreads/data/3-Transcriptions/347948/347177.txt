@@ -1,0 +1,6 @@
+<p class="page" id="a2718146">[Page 146]</p>
+<p>Key Signatures</p>
+<p>Key Sign in Flats<br/>F  Bb  Eb  Ab  Db  Gb  Cb</p>
+<p>Corresponding Positions on Staff<br/>B  E  A  D  G  C  F</p>
+<p>Key Sign in Sharps<br/>G  D  A  E  B  F#  C#</p>
+<p>Corresponding positions on Staff<br/>F  C  G  D  A  E  B</p>

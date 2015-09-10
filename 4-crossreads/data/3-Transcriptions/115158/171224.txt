@@ -1,0 +1,190 @@
+<p>H.M.A.S. &quot;AUSTRALIA&quot; - Programme of Movements - distances</p>
+<p>run - and amounts of coal taken in.</p>
+<hr />
+<table align="left" border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<thead>
+<tr>
+<th scope="col">Arrive</th>
+<th scope="col">Place</th>
+<th scope="col">
+<p>Distance from</p>
+<p>last port.</p>
+</th>
+<th scope="col">Coal</th>
+<th scope="col">Depart</th>
+<th scope="col">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Commissioned at sea.</td>
+<td>-</td>
+<td>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>3.0 a.m.</p>
+<p>21.6.13</p>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>21.6.13</td>
+<td>
+<p>Portsmouth.</p>
+</td>
+<td>90</td>
+<td>3001</td>
+<td>22.7.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>22.7.13</td>
+<td>
+<p>Glengariff.</p>
+<p>(Bantry)</p>
+</td>
+<td>401</td>
+<td>&nbsp;</td>
+<td>25.7.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>25.7.13</td>
+<td>Queenstown.</td>
+<td>99</td>
+<td>&nbsp;</td>
+<td>25.7.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>1.8.13</td>
+<td>St. Vincent, C.V.</td>
+<td>2237</td>
+<td>2222</td>
+<td>4.8.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>18.8.13</td>
+<td>Cape Town.</td>
+<td>3980</td>
+<td>&nbsp;</td>
+<td>26.8.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>26.8.13</td>
+<td>Simonstown.</td>
+<td>65</td>
+<td>2749</td>
+<td>29.8.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>31.8.13</td>
+<td>Durban</td>
+<td>773</td>
+<td>722</td>
+<td>6.9.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>19.9.13</td>
+<td>Albany.</td>
+<td>4393</td>
+<td>2800</td>
+<td>27.9.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2.10.13</td>
+<td>Jervis Bay, N.S.W.</td>
+<td>1739</td>
+<td>&nbsp;</td>
+<td>2.10.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3.10.13</td>
+<td>Sydney</td>
+<td>168</td>
+<td>2710</td>
+<td>13.11.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>17.11.13</td>
+<td>
+<p>Port Lincoln, S.A.&nbsp;</p>
+</td>
+<td>1053</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>G. and T&nbsp;</p>
+<p>exercises</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>at Port Lincoln.</td>
+<td>432</td>
+<td>1600</td>
+<td>17.12.13</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>20.12.13</td>
+<td>Hobart.</td>
+<td>851</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>G. and T</p>
+<p>exercises</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>at Hobart</td>
+<td>630</td>
+<td>
+<p>1870</p>
+<p>1700</p>
+</td>
+<td>13.2.14</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>16.2.14</td>
+<td>Glenelg, S.A.</td>
+<td>766</td>
+<td>&nbsp;</td>
+<td>23.2.14</td>
+<td>Total distance run for 1913 - 16281</td>
+</tr>
+<tr>
+<td>25.2.14</td>
+<td>Melbourne</td>
+<td>498</td>
+<td>&nbsp;</td>
+<td>5.3.14</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7.3.14</td>
+<td>Sydney</td>
+<td>583</td>
+<td>
+<p>198</p>
+<p>1368</p>
+<p>1924</p>
+</td>
+<td>16.6.14</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

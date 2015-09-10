@@ -1,0 +1,49 @@
+<p>a5763222.html</p>
+<p>181&nbsp;&nbsp;&nbsp;&nbsp; <em>[page is in landscape orientation]</em></p>
+<p><em>[hand drawn diagrams]</em></p>
+<p><u>KEY</u>.</p>
+<p>&ne;&nbsp;&nbsp;&nbsp;&nbsp; Scout.</p>
+<p>&Ograve;&nbsp;&nbsp;&nbsp;&nbsp; Leader.</p>
+<p>X&nbsp;&nbsp;&nbsp;&nbsp; Flank Men.</p>
+<p>&Oslash;&nbsp;&nbsp;&nbsp;&nbsp; Rear Man.</p>
+<p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Others.</p>
+<p>&nbsp;</p>
+<p>All formations are reversible.</p>
+<p>&nbsp;</p>
+<p>========</p>
+<p>Line and file explain</p>
+<p>themselves but every man</p>
+<p>must be given his protective</p>
+<p>duty in the patrol and <u>must</u></p>
+<p><u>maintain touch with others</u>.</p>
+<p>&nbsp;</p>
+<p><u>FIVE-MAN</u>.</p>
+<p>&ne;&nbsp;&nbsp;&nbsp;&nbsp; &Ograve;&nbsp;&nbsp;&nbsp;&nbsp; &ne;</p>
+<p>&nbsp;&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Oslash;</p>
+<p>&nbsp;</p>
+<p><u>SEMI-CIRCULAR SWEEP</u>.</p>
+<p>&ne;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne;</p>
+<p>&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; /</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Oslash; &Ograve; &ne;</p>
+<p>&nbsp;</p>
+<p><u>DIAMOND</u>.</p>
+<p>&nbsp;&nbsp; &ne;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne;</p>
+<p>X&nbsp;&nbsp;&nbsp;&nbsp; &Ograve;&nbsp;&nbsp;&nbsp;&nbsp; X</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Oslash;</p>
+<p>&nbsp;</p>
+<p><u>.Y.</u></p>
+<p>&ne;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne;</p>
+<p>&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; X</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; /</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Ograve;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Oslash;</p>
+<p>&nbsp;</p>
+<p><u>.V.</u></p>
+<p>&ne;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne;</p>
+<p>&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; X</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; /</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Ograve;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &Oslash;</p>

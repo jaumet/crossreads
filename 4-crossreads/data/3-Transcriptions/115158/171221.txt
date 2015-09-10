@@ -1,0 +1,196 @@
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u>SHIPS IN PACIFIC OCEAN</u></p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Nationality</u></td>
+<td><u>Ships</u></td>
+<td>&nbsp;<u>Guns</u>&nbsp;</td>
+<td>
+<p><u>Torpedo</u></p>
+<p><u>Tubes</u></p>
+</td>
+<td><u>Speed</u></td>
+</tr>
+<tr>
+<td>British</td>
+<td>
+<p>&quot;Minotaur&quot;</p>
+</td>
+<td>
+<p>(4-9.2 inch</p>
+<p>(10-7.5&quot;&nbsp;&nbsp;</p>
+</td>
+<td>&nbsp; &nbsp; 5</td>
+<td>&nbsp; &nbsp;23</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&quot;Triumph&quot;</td>
+<td>
+<p>(4-10&quot;</p>
+<p>(14-7.5&quot;</p>
+</td>
+<td>&nbsp; &nbsp; &nbsp;4</td>
+<td>&nbsp; &nbsp;19</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&quot;Hampshire&quot;</td>
+<td>
+<p>(4-7.5&quot;</p>
+<p>(6-6&quot;</p>
+</td>
+<td>&nbsp; &nbsp; 2</td>
+<td>&nbsp; &nbsp;22</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&quot;Yarmouth&quot;</td>
+<td>8-6&quot;</td>
+<td>&nbsp; &nbsp; 2&nbsp;</td>
+<td>&nbsp; &nbsp;25</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p>&quot;Newcastle&quot;</p>
+<p>8 T.B.D&#39;s</p>
+<p>3 Submarines</p>
+<p>Gunboats &amp; Sloops</p>
+</td>
+<td>
+<p>(2-6&quot;</p>
+<p>(10-4&quot;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp; 2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp;25</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&quot;Australia&quot;</td>
+<td>
+<p>(8-12&quot;</p>
+<p>(16-4&quot;</p>
+</td>
+<td>&nbsp; &nbsp; 2</td>
+<td>&nbsp; 27&frac12;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p>&quot;Sydney&quot;</p>
+<p>&quot;Melbourne&quot;</p>
+</td>
+<td>8-6&quot;</td>
+<td>&nbsp; &nbsp; 2</td>
+<td>&nbsp; &nbsp;25</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p>&quot;Encounter&quot;</p>
+<p>3 T.B.D&#39;s</p>
+<p>2 Submarines</p>
+<p>Gunboats &amp; Sloops</p>
+</td>
+<td>
+<p>11-6&quot;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp; 2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; 20</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p>&quot;Psyche&quot;</p>
+<p>&quot;Pyramus&quot;</p>
+</td>
+<td>8-4&quot;</td>
+<td>&nbsp; &nbsp; 2</td>
+<td>&nbsp; &nbsp;18</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&quot;Philomel&quot;</td>
+<td>8-4.7&quot;</td>
+<td>&nbsp;</td>
+<td>&nbsp; &nbsp;18</td>
+</tr>
+<tr>
+<td>
+<hr />
+<p>French</p>
+</td>
+<td>
+<hr />
+<p>&quot;Montcalm&quot;</p>
+</td>
+<td>
+<hr />
+<p>(2-7.6 inch</p>
+<p>(8-6.5</p>
+</td>
+<td>
+<hr />
+<p>&nbsp; &nbsp; 2</p>
+</td>
+<td>
+<hr />
+<p>&nbsp; &nbsp;21</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p>&quot;Duplix&quot;</p>
+<p>3 T.B.D&#39;s</p>
+<p>Small Gunboats &nbsp;&amp; Sloops</p>
+</td>
+<td>
+<p>8-4.7</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp; 2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp;21 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 30</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="line-height: 1.6;"><u>NOTE</u>: Above is a list of warships in Pacific </span><span style="line-height: 1.6;">Ocean on outbreak of war on Aug. 4th 1914. Later Japan declared war, which increased the preponderance of Allied ships</span></p>
+<p>Enemy nations are underlined in <u>Black</u>.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;(OVER</p>

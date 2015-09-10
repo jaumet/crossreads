@@ -1,0 +1,117 @@
+<p>[Page 40]</p>
+<p>LIST OF GERMANS WHO HAVE TAKEN OATH OF NEUTRALITY:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Weber Gustav</td>
+<td>Judge - Rabaul</td>
+<td>Will act temporarily in present position and at present salary in an advisory capacity only for a period of 3 months.</td>
+</tr>
+<tr>
+<td>Grundler Eugen</td>
+<td>Treasurer - Rabaul</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Bredemann Dr.</td>
+<td>Curator Botanical Gardens - Rabaul</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Hoheisel Otto</td>
+<td>Post-master Herb&#39;hohe</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Weller Karl</td>
+<td>Post-master Rabaul.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Schulz Anton</td>
+<td>Customs Officer</td>
+<td>Will act temporarily in present position and at present salary in an advisory capacity only for a period of 3 months.</td>
+</tr>
+<tr>
+<td>Geisler Hubert</td>
+<td>Manager New Guinea Coy. Herbertsh&ouml;he</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kaiser Hermann</td>
+<td>Planter Gire Gire.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Von Zersen</td>
+<td>Storekeeper.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kockritz Robert H.</td>
+<td>Planter - Herbertsh&ouml;he</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Stelljes August</td>
+<td>Shipping clerk N.D.L.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Richter Max</td>
+<td>Asst. Manager New Guinea Coy.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Albrecht Franz</td>
+<td>Engineer New. G. Coy.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Domner Otto</td>
+<td>Planter - Herbertsh&ouml;he</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Puder Hermann</td>
+<td>ditto</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Schipmann Hans</td>
+<td>dito</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Wiemer Paul</td>
+<td>Employed Hernsheim &amp; Coy&#39;s Store - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Horst Arthur</td>
+<td>Engineer Wireless Stn. Kaba Kaul (Will look for another occupation)</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Ullrich Ferdinand</td>
+<td>ditto</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Muller Heinrich</td>
+<td>Merchant, Hamburgh Coy.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Wuchert Hans Waldemar</td>
+<td>Planter, Pondo (Captain Army Reserves).</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

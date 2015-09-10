@@ -1,0 +1,47 @@
+<p>[Page 41]</p>
+<p>LIST OF PRISONERS ON PAROLE</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Katzer Martin</td>
+<td>Planter, South Coast New Britain. Army Reserve Officer.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Von Blumenthal Robt.</td>
+<td>Planter, North Coast. 16 miles from Rabaul. Army 2nd. Reserve Officer.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Von Massenhausen Wilhelm</td>
+<td>Legal Advisor of Govt. acting Chief Judge Rabaul. Army Reserve Officer.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Fiebig Ernst</td>
+<td>Legal Advisor of Govt. Mining Dept. Rabaul. Army Reserve Officer.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Baumert Carl</td>
+<td>Chief Official of Govt. Bank (Treasury) Rabaul.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Lichtenstein Curt</td>
+<td>Chief Official in charge Lands &amp; Survey Dept. Herbertsh&ouml;he</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Lange Arnold</td>
+<td>Chief Clerk of Govt. Office, Rabaul.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

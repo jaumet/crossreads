@@ -1,0 +1,113 @@
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sheet 2.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u>SHIPS IN PACIFIC OCEAN.</u></p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="line-height:20.7999992370605px;width:309px;">
+<tbody>
+<tr>
+<td>Nationality</td>
+<td>Ships</td>
+<td>&nbsp;Guns.&nbsp;</td>
+<td>
+<p>Torpedo</p>
+<p>Tubes</p>
+</td>
+<td>Speed.</td>
+</tr>
+<tr>
+<td><u>Russian</u></td>
+<td>
+<p>&quot;Askold&quot;</p>
+<p>&quot;Zhemchug&quot;</p>
+<p>20 T.B.D&#39;s</p>
+<p>8 submarines</p>
+<p>5 Minlayers</p>
+<p>&quot;</p>
+</td>
+<td>
+<p>12 - 6 inch</p>
+<p>8 - 4.7</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp; 2</p>
+<p>&nbsp; &nbsp; 2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp;23</p>
+<p>&nbsp; 24</p>
+<p>26 - 29</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td><u>German</u></td>
+<td>
+<p>&quot;Scharnhorst.</p>
+<p>&quot;Gneisnau&quot;</p>
+<p>&quot;Leipzic&quot;</p>
+<p>&quot;Baden&quot;</p>
+<p>&quot;Nurnberg&quot;</p>
+<p>&quot;Geier&quot;</p>
+<p>&quot;Cormoran&quot;</p>
+<p>&quot;Komet&quot;</p>
+<p>2 old T.B.D&#39;s</p>
+<p>Small Gunboats.</p>
+</td>
+<td>
+<p>8 - 8.2 inch</p>
+<p>6 - 5.9 &quot;</p>
+<p>10 - 4.1 &quot;</p>
+<p>8 - 4.1 &quot;</p>
+<p>1 small gun.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp; &nbsp;4</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp; &nbsp;21</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>22 - 24</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>16</p>
+<p>25 - 30.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;<u>Austrian</u></td>
+<td>Kaiserin Elizabeth.</td>
+<td>8 - 5.9.</td>
+<td>&nbsp; &nbsp;3</td>
+<td>&nbsp;19</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><u>NOTE</u>: Above is a list of warships in Pacific&nbsp;Ocean on outbreak of war on Aug. 4th 1914. Later Japan declared war, which increased the preponderance of Allied ships.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Enemy nations are underlined in&nbsp;<u>Black</u>.</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>

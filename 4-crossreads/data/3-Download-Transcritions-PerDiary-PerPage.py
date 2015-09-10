@@ -13,7 +13,7 @@ for d in diaries:
     raw = '2-PagesList-forEachDiary/'+d
     # Open a Diary with Page List 
     print raw
-    if not os.path.exists('3-Transcriptions/'+str(d[:-5])):
+    if not (os.path.exists('3-Transcriptions/'+str(d[:-5])) or str(d[:-5])== "115225"):
         with open(raw) as data_file:
             diary = json.load(data_file)
             #print diary[0]['transcript_pages']
@@ -45,11 +45,12 @@ for d in diaries:
                     #check if directory exists and create it
                     newdir = '3-Transcriptions/'+str(d[:-5])
                     if not os.path.exists(newdir): os.makedirs(newdir)
-                    if not os.path.exists(newdir+'/'+myjson['nid']+'.json'):
+                    if not os.path.exists(newdir+'/'+myjson['nid']+'.txt'):
                         file = open(newdir+'/'+myjson['nid']+'.txt', "w")
+                        transcription = transcription.encode('utf-8').strip()
                         file.write(transcription)
                         file.close()
-                        print "Created --> "+newdir+'/'+myjson['nid']+'.json'
+                        print "Created --> "+newdir+'/'+myjson['nid']+'.txt'
                 print "------------"
                 ## Idemfor the image-file:
                 ##image = myjson['transcript_image']['file']['uri']

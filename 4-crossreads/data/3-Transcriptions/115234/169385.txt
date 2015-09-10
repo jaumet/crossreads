@@ -1,0 +1,43 @@
+<p>a6490166.html</p>
+<p>Pte Hyland 459</p>
+<p>14th Battalion</p>
+<p>12 Sergeants Mess</p>
+<p>Sandhills Camp OTB</p>
+<p>_____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _____</p>
+<p>Mr. W. Hirst</p>
+<p>25 George St</p>
+<p>Warminster</p>
+<p>&nbsp;</p>
+<p>Esther Ducros. Desvres</p>
+<p>Hermione. Sauty [Dur?eq]</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Louise}</td>
+<td rowspan="6" style="vertical-align: top;">
+<p>Tres Bon</p>
+<p>Mademoiselles</p>
+<p>at &#39;Desvres&#39;</p>
+<p>near Boulogne</p>
+<p>France</p>
+</td>
+</tr>
+<tr>
+<td>Elise}</td>
+</tr>
+<tr>
+<td>Marie <u>Louise</u></td>
+</tr>
+<tr>
+<td>Julienne</td>
+</tr>
+<tr>
+<td>Blanche</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
