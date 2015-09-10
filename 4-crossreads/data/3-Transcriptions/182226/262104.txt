@@ -1,0 +1,44 @@
+<p>[Page 109]</p>
+<p>Tuesday 23 March, 1915</p>
+<p>Enlisted in A.I.F. for Service abroad.</p>
+<p>Left Barracks at 1.45 pm.</p>
+<p>Entrained for Liverpool at 3 pm and detrained for at 4.15 pm.</p>
+<p>Transferred to 19 Batt.</p>
+<p>Hours</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Reveille</td>
+<td>6 am</td>
+</tr>
+<tr>
+<td>Parade</td>
+<td>6.30 am</td>
+</tr>
+<tr>
+<td>Breakfast</td>
+<td>8 am</td>
+</tr>
+<tr>
+<td>Parade</td>
+<td>9.15 am</td>
+</tr>
+<tr>
+<td>Dinner</td>
+<td>12.45 pm</td>
+</tr>
+<tr>
+<td>Parade</td>
+<td>2.15 pm</td>
+</tr>
+<tr>
+<td>Parade dismissed</td>
+<td>4.15 pm</td>
+</tr>
+<tr>
+<td>Tea</td>
+<td>5 pm</td>
+</tr>
+</tbody>
+</table>
+<p>Vaccinated at Barracks</p>

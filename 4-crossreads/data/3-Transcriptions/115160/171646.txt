@@ -1,0 +1,66 @@
+<p>Page 131</p>
+<p>Section 1</p>
+<p>British &amp; Dominion Troops in Army and Cavalry Corps Areas</p>
+<p>(a) Normal Ration</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Fresh or Frozen meat</td>
+<td>16 oz</td>
+</tr>
+<tr>
+<td>or Preserved meat</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
+<p>Daily made up normally by</p>
+<p>60% Fresh meat</p>
+<p>25% Presd</p>
+<p>15% Meat &amp; vegetables (3 days out of 7)</p>
+<p>15% Pork Beans (4 days out of 7)</p>
+</td>
+<td>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>Bread</td>
+<td>16 oz</td>
+</tr>
+<tr>
+<td>Biscuits</td>
+<td>10 oz</td>
+</tr>
+<tr>
+<td>
+<p>Normal daily ration</p>
+<p>75% Bread</p>
+<p>25% Biscuit</p>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Rice</td>
+<td>1oz</td>
+</tr>
+<tr>
+<td>Bacon</td>
+<td>4 oz</td>
+</tr>
+<tr>
+<td>Butter or Margarine (twice weekly)</td>
+<td>2 oz</td>
+</tr>
+<tr>
+<td>Cheese</td>
+<td>2 oz</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

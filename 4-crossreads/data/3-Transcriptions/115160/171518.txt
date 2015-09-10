@@ -1,0 +1,25 @@
+<p>Page 3</p>
+<p>CONTENTS</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Pages</td>
+</tr>
+<tr>
+<td>
+<p>Correspondence written while R. J. Drummond was stationed in France (28 Sep.- 20 Dec. 1918)</p>
+</td>
+<td>1-109</td>
+</tr>
+<tr>
+<td>Undated and incomplete correspondence</td>
+<td>135-193</td>
+</tr>
+<tr>
+<td>Miscellaneous papers, 1916-1918, including printed material relating to the war.</td>
+<td>195-307</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

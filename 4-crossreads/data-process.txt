@@ -1,10 +1,45 @@
 
 1) Get the list of diaries 100% transcribed 
--> for XXX from 0 to 8:
--> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
--> Merge these 8 files in 1. In JSON format.
--> new file: XML-diaries-list.xml
+INPUT -> 8 URL from the API of SLNSW
+    -> for XXX from 0 to 8:
+    -> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
+    -> Merge these 8 files in 1. In JSON format.
+OUTPUT -> new file: XML-diaries-list.xml
 
-2) 
+2) Get pages for each diary
+INPUT XML-diaries-list.xml
+    -> DOwnload all the diary details
+    -> save each one in XML-diaries-list.xml/ as .json file
+OUTPUT files in XML-diaries-list.xml/*.json
 
+3) Download Transcription
+INPUT files in XML-diaries-list.xml/*.json
+    -> for each file: download page info and text transcription
+    -> save it .txt
+OUTPUT transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_nid].txt
+
+4) I found API inconsistencies: 
+    file        2-PagesList-forEachDiary/325182.json (an 93 other files)
+    and file    2-PagesList-forEachDiary/182219.json (and 668 other files)
+    have different JSON structure (!)
+    -> added an "elif" for the two cases and empt diary detection
+    -> Empty diaries detected: 115204.json 100411.json 115243.json 365805.json 100394.json 115202.json 338054.json 100393.json 100407.json 115213.json 115109.json 318442.json 115164.json 115175.json 100365.json 115212.json 281689.json 115162.json 318465.json 115245.json. 308755.json 100350.json 100403.json 325204.json  
+    -> I remove all those entries
+    -> Diaries now: 780
+    -> API inconsitency qith this file: http://transcripts.sl.nsw.gov.au/api/entity_node/272772
+
+
+
+
+
+
+
+-------------------------------
+These documents are in the collection but are not related to WWI-Diaries. I'm not including them in the visualization:
+
+http://transcripts.sl.nsw.gov.au/api/entity_node/369991/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369992/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369993/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369994/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369995/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
 
