@@ -4,3 +4,9 @@ find . -name "*.json" -exec bash -c 'mv "$1" "$(sed "s/\.json$/.txt/" <<< "$1")"
 
 watch total number of files in a directory recursively
 watch -e 'find . -type f | wc -l'
+
+watch total number of files .jpg in a directory recursively
+3-Download-image-PerDiary-PerPage.py
+
+# remove files *.jpg recursively
+find . \( -name '*.jpg'  \) -delete
