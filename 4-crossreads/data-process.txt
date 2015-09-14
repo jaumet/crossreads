@@ -1,3 +1,7 @@
+Diary of the research actions:
+
+
+<Started: 2015-09-07>
 
 1) Get the list of diaries 100% transcribed 
 INPUT -> 8 URL from the API of SLNSW
@@ -62,11 +66,16 @@ OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
 
 ############################################################
 
+> > > > IN-PROGRESS
+
+<2015-09-14>
+6) - Improve data: 
+    * Parse diaries.json titles and extract: author name, startdate and enddate
+    * Save the new fields in diaries.json
+
+############################################################
 TODO:
-- Improve data:
-    * Reparse data-diaries-list.json to add field "title" to diaries.json
-    * Parse diaries tiles and extract: author name, startdate and enddate
-    * Save the fields in diaries
+
 - Topic Models:
     * Make a clean version good for analysis.
     * Run Mallet (50 topics)
@@ -74,6 +83,6 @@ TODO:
 - Build data-model, like the one in angularJS version
 - Code the app!
 
-
+- 
 
 
