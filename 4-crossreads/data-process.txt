@@ -74,13 +74,25 @@ OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
     * Save the new fields in diaries.json
 
 ############################################################
-TODO:
 
 - Topic Models:
     * Make a clean version good for analysis.
     * Run Mallet (50 topics)
+
+    INPUT: 3-TranscriptionsCLEAN/*
+        -> 
+    OUTPUT: Mallet-results/topics50/
+
+
+############################################################
+TODO:
+
+- Topic Models:
+
     * Check topics and compare with diggersdiaries.org v1
+
 - Build data-model, like the one in angularJS version
+
 - Code the app!
 
 - 
