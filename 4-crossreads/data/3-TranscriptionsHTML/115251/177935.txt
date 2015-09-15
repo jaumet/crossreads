@@ -1,0 +1,52 @@
+<p>[Page 44]</p>
+<p>(2)</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Tolke Ewin</td>
+<td>Chief of Administration Burgomeister.</td>
+<td>On parole in Rabaul</td>
+</tr>
+<tr>
+<td>Kempf E.K.</td>
+<td>Forester (Lieut. in Army Reserve)</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Jahn Bruno</td>
+<td>Police Master Rabaul.</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Scherer Otto</td>
+<td>Govt. Surveyor at Herbertsh&ouml;he.</td>
+<td>On parole in Herbertsh&ouml;he</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td><u>On Board &quot;Berrima&quot;</u></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Mayer Geo. Alfred</td>
+<td>O.C. Native Police (Lieut. Army Reserves)</td>
+<td>On parole on &quot;Berrima&quot;</td>
+</tr>
+<tr>
+<td>Rauschell Ewald</td>
+<td>Sailor on German Warship &quot;Planet&quot;</td>
+<td>Under arrest on board &quot;Berima&quot;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

@@ -1,0 +1,92 @@
+<p>[Page 42]</p>
+<p>LIST OF GERMANS WHO HAVE TAKEN OATH OF NEUTRALITY:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Hornung Hermann</td>
+<td>Planter - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Annacker Fritz</td>
+<td>Merchant - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Metzger Adolph</td>
+<td>Planter - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Paatzsch Ernest</td>
+<td>Merchant - Matupi</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Timm Gotthold</td>
+<td>Planter - Kabanga</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Koster Paul</td>
+<td>Planter - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kempf Alfred</td>
+<td>Planter - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Ruf Willy</td>
+<td>Photographer - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kleinhanns - Georg</td>
+<td>Merchant - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Richter Rudolph</td>
+<td>ditto</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Phillipps Otto</td>
+<td>Planter - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Beierling Willy</td>
+<td>Merchant - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Janke Georg</td>
+<td>Planter - Baining</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Zielske Reinhold</td>
+<td>Merchant - Rabaul</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Schemberg Hellmuth</td>
+<td>ditto</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Heer Bernhard</td>
+<td>Engineer - Herbertsh&ouml;he</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

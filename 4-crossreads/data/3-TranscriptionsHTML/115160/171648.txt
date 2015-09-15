@@ -1,0 +1,93 @@
+<p>Page 3</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Bread - 1 lb =</td>
+<td>Biscuit&nbsp;</td>
+<td>10 ozs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Flour or Rice or Oatmeal</td>
+<td>10 ozs</td>
+</tr>
+<tr>
+<td>Bacon -&nbsp;4 oz =</td>
+<td>&nbsp;</td>
+<td>&frac14; tin M&amp;V</td>
+</tr>
+<tr>
+<td>Jam -&nbsp;3 oz =&nbsp;</td>
+<td>Dried Fruit</td>
+<td>3 ozs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Syrup</td>
+<td>3 ozs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Honey</td>
+<td>1&frac12; ozs</td>
+</tr>
+<tr>
+<td>Fresh Vegetables 2 oz =</td>
+<td>Dried Veg</td>
+<td>2 oz</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Dried Fruit</td>
+<td>
+<p>2 oz</p>
+</td>
+</tr>
+<tr>
+<td>(c) Substitutes</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Frozen meat 1 lb =</td>
+<td>Rabbits</td>
+<td>1 1/9 lbs (10% allce for skins)</td>
+</tr>
+<tr>
+<td>Pres Meat 9 oz =</td>
+<td>Sardines</td>
+<td>9 oz</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Herrings in sauce</td>
+<td>18 oz</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>or Veal Loaf</td>
+<td>9 oz</td>
+</tr>
+<tr>
+<td>Condensed Milk =</td>
+<td>2/5oz Dried Milk</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Cheese 1 oz =</td>
+<td>Veal Loaf</td>
+<td>1 oz</td>
+</tr>
+<tr>
+<td>Fresh Vegetables 1&frac12; oz =</td>
+<td>One orange</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Pickles 1 -z =&nbsp;</td>
+<td>1/3rd fluid oz of sauce or chutney&nbsp;</td>
+<td>1 oz</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

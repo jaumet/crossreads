@@ -1,0 +1,128 @@
+<p>[Page 51]</p>
+<p>[See page 50]</p>
+<p>LIST OF PRISONERS:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Weber Gustav</td>
+<td>Judge (White &amp; Japanese)</td>
+<td>Declines to carry on Judgeship.</td>
+</tr>
+<tr>
+<td>Grundler Eugen</td>
+<td>Secretary to Govt. Accountant&#39;s Dept.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Heysik Edward</td>
+<td>Bureau Assistant.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Shuppert Gustav</td>
+<td>Native Court Secty.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kleffling Paul</td>
+<td>Assistant Native Court.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Schultz Antm</td>
+<td>Treasury Assistant.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Gottschalck Kurt</td>
+<td>Bureau Assistant.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Schmidt Jacob</td>
+<td>Secretary Bureau.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Mahler John</td>
+<td>Govt. Store-keeper.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Hamnner Joseph</td>
+<td>Builder Govt.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Tolke Ewin</td>
+<td>Chief of Administration Burgomeister.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Weller Karl</td>
+<td>Post Secretary.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Grumbach Franz</td>
+<td>Secty. Judge&#39;s Court.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Berghausen Ernst</td>
+<td>Government Resident Administrator.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Muller Heinrich</td>
+<td>Merchant.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Bredemann Gustav</td>
+<td>Curator Botanical Gardens.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kerler August</td>
+<td>Secretary to Govt.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Jahn Bruno</td>
+<td>Police Master.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Kleppek Akois</td>
+<td>Telegraph Operator.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Blumenstengler Karl</td>
+<td>Carpenter.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Broedner Albert</td>
+<td>Land Surveyor.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Scale Rudolph</td>
+<td>Police Master.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Frank Otto</td>
+<td>Bureau Assistant.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>WH<br />14 9 4</p>

@@ -1,0 +1,27 @@
+<table border="1" cellpadding="2" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;"><u>WOUNDED</u></td>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;">&nbsp;</td>
+<td style="text-align: left; vertical-align: top;">September 26th 1917 at battle of Polygon Wood, in front of and to the left of Ypres.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;"><u>SAILED FOR AUSTRALIA</u></td>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;">&nbsp;</td>
+<td style="text-align: left; vertical-align: top;">About 11th April 1918.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;"><u>ARRIVED AUSTRALIA</u></td>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;">&nbsp;</td>
+<td style="text-align: left; vertical-align: top;">8th June 1918.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;"><u>DISCHARGED</u></td>
+<td style="text-align: left; vertical-align: top; white-space: nowrap;">&nbsp;</td>
+<td style="text-align: left; vertical-align: top;">4th August 1918.</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: center; vertical-align: middle; white-space: nowrap;">-----------------</td>
+</tr>
+</tbody>
+</table>

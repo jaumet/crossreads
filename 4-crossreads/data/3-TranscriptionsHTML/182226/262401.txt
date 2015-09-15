@@ -1,0 +1,140 @@
+<p>[Page 406]</p>
+<p>G&#39;burn boys I have met</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>George Wilson</td>
+<td>Heliopolis</td>
+<td>9/8/15</td>
+</tr>
+<tr>
+<td>Lindsay Waugh</td>
+<td>Gezeirch Hospital</td>
+<td>7/8/15</td>
+</tr>
+<tr>
+<td>Cecil Watts</td>
+<td>Mena Hospital</td>
+<td>8/8/15</td>
+</tr>
+<tr>
+<td>Nurse Chisholm</td>
+<td>Gezeirch Hospital</td>
+<td>7/8/15</td>
+</tr>
+<tr>
+<td>Les Payhen</td>
+<td>Courtneys Post</td>
+<td>29/8/15</td>
+</tr>
+<tr>
+<td>Nev Hodgins</td>
+<td>Gaba Tepe</td>
+<td>31/8/15</td>
+</tr>
+<tr>
+<td>Bill Evans</td>
+<td>Reserve Gully</td>
+<td>21/8/15</td>
+</tr>
+<tr>
+<td>Paddy Mathews</td>
+<td>Hell Spit</td>
+<td>13/9/15</td>
+</tr>
+<tr>
+<td>- Gregson</td>
+<td>Reserve Gully</td>
+<td>21/8/15</td>
+</tr>
+<tr>
+<td>Bunny Abbot</td>
+<td>Courtnerys Post</td>
+<td>3/9/15</td>
+</tr>
+<tr>
+<td>Alf Taylor</td>
+<td>Shrapnel Gully</td>
+<td>3/9/15</td>
+</tr>
+<tr>
+<td>Norm Matthews</td>
+<td>St Georges Hospital</td>
+<td>11/9/15</td>
+</tr>
+<tr>
+<td>George Canser</td>
+<td>All Saints</td>
+<td>23/12/15</td>
+</tr>
+<tr>
+<td>V Steele</td>
+<td>Malta</td>
+<td>10/10/15</td>
+</tr>
+<tr>
+<td>H Baxter</td>
+<td>Tel-El-Keba</td>
+<td>13/1/16</td>
+</tr>
+<tr>
+<td>T Issac</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>L Newman</td>
+<td>Tel-El-Keba</td>
+<td>15/1/16</td>
+</tr>
+<tr>
+<td>T Brennock</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>C Heley</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>R Harris</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>D Ross</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>D Shephenson</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>G Shephenson</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>T &amp; W Weedon</td>
+<td>Tel-El-Keba</td>
+<td>16/1/16</td>
+</tr>
+<tr>
+<td>H Glover</td>
+<td>Ishmailia</td>
+<td>13/2/16</td>
+</tr>
+<tr>
+<td>G Maconald</td>
+<td>Ferry Post</td>
+<td>24/1/16</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;</p>
+</p>

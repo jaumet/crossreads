@@ -1,0 +1,166 @@
+<p>[Page 4]</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<thead>
+<tr>
+<th scope="row">
+<p><u>Killed</u></p>
+<p>Lane</p>
+<p>Harcus</p>
+<p>C Manning</p>
+<p>G Manning</p>
+<p>Kirke</p>
+<p>Mcpherson</p>
+<p>Sampson</p>
+<p>Chambers</p>
+<p>Heritage</p>
+<p>Porbley</p>
+<p>Donaldson</p>
+<p>Sherbon</p>
+</th>
+<th scope="col">
+<p><u>Wounded</u></p>
+<p>Travers</p>
+<p>Holmes</p>
+<p>McLaughlin</p>
+<p>Sadler</p>
+<p>Beardsmore</p>
+<p>Maughan</p>
+<p>House</p>
+<p>[<s>Hadden</s>?]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</th>
+<th scope="col">
+<p>[<u>CMG?</u>]</p>
+<p>Brig Gen Holmes</p>
+<p><u>CB</u></p>
+<p>Watson</p>
+<p>Paton</p>
+<p>Howse</p>
+<p><u>DSO</u></p>
+<p>Beardsmore</p>
+<p>Travers</p>
+<p>Maughan</p>
+<p>Marsden</p>
+<p><u>MC</u></p>
+<p>Sadler</p>
+<p>Heritage</p>
+<p>Bruce</p>
+<p><u>C de G</u> Goodsell</p>
+</th>
+<th scope="col">
+<p>Abbott</p>
+<p>Milne</p>
+<p>Penley</p>
+<p>Johnson</p>
+<p>Blackett</p>
+<p>Henderson</p>
+<p>Henley</p>
+<p>Sandford (RFC)</p>
+<p>Ronald</p>
+<p>Waklate</p>
+<p>Hobbs.</p>
+<p>Marshal</p>
+<p>Goodman</p>
+<p>Ross.</p>
+<p>Allen</p>
+<p>Lane.</p>
+<p>Stewart</p>
+<p>Inglis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+<p>Henderson</p>
+<p>Henley</p>
+<p>Allen</p>
+<p>Magill</p>
+<p>Brewster</p>
+<p>Garwick</p>
+<p><s>Lane</s></p>
+<p>&nbsp;</p>
+</th>
+<td>
+<p>Colyer</p>
+<p>Shepherd</p>
+<p>Nunn</p>
+<p>Linklater</p>
+<p>Blanchard</p>
+<p>Lane</p>
+<p>Hobbs</p>
+<p>Guard</p>
+<p>Flack</p>
+<p>Axtens</p>
+<p>Walklate</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p><u>DSO</u> Marshal.</p>
+<p><u>MC</u> Hobbs</p>
+<p>Healey.</p>
+<p>Ramsay</p>
+<p>Flack</p>
+<p>Barwick</p>
+<p>Lane</p>
+<p>Walklate</p>
+<p>[The following names may belong in the neighbouring table]</p>
+<p>Treloar Webb</p>
+<p>Crampton</p>
+<p>Tennant</p>
+<p>Flack</p>
+<p>Day</p>
+<p>Portman</p>
+<p>Guard</p>
+<p>Jenkins</p>
+<p>Ramsay</p>
+<p>Axtens</p>
+<p>White</p>
+<p>Bourke</p>
+<p>Mason</p>
+</td>
+<td>
+<p>Wilkinson</p>
+<p>Lemahr</p>
+<p>Small</p>
+<p>Magill</p>
+<p>Blanchard</p>
+<p>Brewster</p>
+<p>Hayes (14<sup>th</sup>)</p>
+<p>Collins</p>
+<p>Black (D.7.</p>
+<p>Gawick</p>
+<p>Niven</p>
+<p>Graham</p>
+<p>Blake</p>
+<p>Anderson</p>
+<p>Linklater</p>
+<p>Nunn</p>
+<p>Shepherd</p>
+<p>Moore</p>
+<p>Colyer</p>
+<p>[Hewson?]</p>
+<p>Healey</p>
+<p>Elliott</p>
+<p>Either.</p>
+<p>Ellis.</p>
+</td>
+</tr>
+<tr>
+<th scope="row">&nbsp;</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">&nbsp;</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

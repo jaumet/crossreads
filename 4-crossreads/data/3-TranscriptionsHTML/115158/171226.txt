@@ -1,0 +1,206 @@
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<thead>
+<tr>
+<th scope="col">Arrive</th>
+<th scope="col">Place.</th>
+<th scope="col">
+<p>Distance from</p>
+<p>last port.</p>
+</th>
+<th scope="col">Coal</th>
+<th scope="col">Depart</th>
+<th scope="col">Remarks.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10.12.14</td>
+<td>
+<p>Pinas Bay, Colombia to Panama &amp; back.</p>
+</td>
+<td>
+<p>1156</p>
+<p>242</p>
+</td>
+<td>
+<p>1496</p>
+</td>
+<td>10.12.14</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>11.12.14</td>
+<td>Pinas Bay.</td>
+<td>&nbsp;</td>
+<td>1350</td>
+<td>14.12.14</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>18.12.14</td>
+<td>Callao, Peru.</td>
+<td>1349</td>
+<td>&nbsp;</td>
+<td>19.12.14</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>26.12.14</td>
+<td>Valparaiso.</td>
+<td>1999</td>
+<td>2309</td>
+<td>27.12.14</td>
+<td colspan="1" rowspan="2">
+<p>Called at San Felix</p>
+<p>en route</td>
+</tr>
+<tr>
+<td>31.12.14</td>
+<td>Magellan Straits.</td>
+<td>1532</td>
+<td>&nbsp;</td>
+<td>1. 1.15</td>
+</tr>
+<tr>
+<td>3. 1.15</td>
+<td>
+<p>Port Stanley.</p>
+<p>Falkland Islands.</p>
+</td>
+<td>542</td>
+<td>
+<p>1900</p>
+</td>
+<td>5. 1.15</td>
+<td colspan="1" rowspan="2">
+<p>Total distance run for 1914 - 35999</p>
+</td>
+</tr>
+<tr>
+<td>11. 1.15</td>
+<td>Abrollos Rocks</td>
+<td>2258</td>
+<td>1426</td>
+<td>12. 1.15</td>
+</tr>
+<tr>
+<td>19. 1.15</td>
+<td>St. Vincent, C.V.</td>
+<td>2284</td>
+<td>
+<p>1497</p>
+<p>(54241)</p>
+</td>
+<td>20. 1.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>28. 1.15</td>
+<td>Plymouth</td>
+<td>
+<p>2250</p>
+<p>(59614)</p>
+</td>
+<td>2211</td>
+<td>12. 2.15</td>
+<td colspan="1" rowspan="3">
+<p>Total distance for war 1914 - 30746. Docked.</p>
+</td>
+</tr>
+<tr>
+<td>17. 2.15</td>
+<td>Rosyth, Queensferry.</td>
+<td>1617</td>
+<td>
+<p>1578</p>
+<p>248</p>
+</td>
+<td>&nbsp;7. 3.15</td>
+</tr>
+<tr>
+<td>10. 3.15</td>
+<td>
+<p>North Sea for Exercise</p>
+</td>
+<td>838</td>
+<td>
+<p>1230</p>
+<p>272</p>
+</td>
+<td>29. 3.15</td>
+</tr>
+<tr>
+<td>9. 3.15</td>
+<td>
+<p>North Sea for firing</p>
+</td>
+<td>1138</td>
+<td>1210</td>
+<td>11. 4.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>30. 3.15</td>
+<td>
+<p>North Sea for enemy search.</p>
+</td>
+<td>187</td>
+<td>370</td>
+<td>&nbsp;5. 4.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>14. 4.15</td>
+<td>
+<p>North Sea for Patrol.</p>
+</td>
+<td>1091</td>
+<td>920</td>
+<td>17. 4.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>20. 4.15</td>
+<td>
+<p>North Sea for enemy search.</p>
+</td>
+<td>816</td>
+<td>910</td>
+<td>21. 4.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>23. 4.15</td>
+<td>Rosyth-North Sea-R.</td>
+<td>853</td>
+<td>290</td>
+<td>17. 5.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>18. 5.15</td>
+<td>Rosyth-North Sea-R.</td>
+<td>470</td>
+<td>577</td>
+<td>29. 5.15</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>31.5.15.</td>
+<td>Rosyth-North Sea-R.</td>
+<td>484</td>
+<td>730.</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="7">&nbsp;</td>
+<td colspan="1" rowspan="7">&nbsp;</td>
+<td colspan="1" rowspan="7">&nbsp;</td>
+<td colspan="1" rowspan="7">&nbsp;</td>
+<td colspan="1" rowspan="7">&nbsp;</td>
+<td colspan="1" rowspan="7">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

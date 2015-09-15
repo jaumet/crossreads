@@ -1,0 +1,7 @@
+
+Head = 9 lbs.Body = 9 lbs. + 1/2 tailTail = 1/2 Body
+Let x lbs. = tail9 lbs. + 1/2 x lbs. body9 lbs. head
+2 x = 9 + 1/2 x
+2 x - 1/2 x = 9
+11/2 x = 9x = 6
+tail = 6body = 12head = 9  = 27

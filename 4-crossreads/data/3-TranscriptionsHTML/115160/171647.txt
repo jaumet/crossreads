@@ -1,0 +1,83 @@
+<p>Page 132</p>
+<p>2</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>Fresh vegetables (when obtainable)</td>
+<td>8 ozs</td>
+</tr>
+<tr>
+<td>or Dried vegetables</td>
+<td>2 &quot;</td>
+</tr>
+<tr>
+<td>Jam - now 2 oz</td>
+<td><s>3 &quot;</s></td>
+</tr>
+<tr>
+<td>Tea</td>
+<td>&frac12; &quot;</td>
+</tr>
+<tr>
+<td>Sugar</td>
+<td>3 &quot;</td>
+</tr>
+<tr>
+<td>or Sugar (when Sweetened Cond milk issued)</td>
+<td>2&frac12; &quot;</td>
+</tr>
+<tr>
+<td>Condensed milk</td>
+<td>1 &quot;</td>
+</tr>
+<tr>
+<td>Salt</td>
+<td>&frac14; &quot;</td>
+</tr>
+<tr>
+<td>Pepper</td>
+<td>1/100 &quot;</td>
+</tr>
+<tr>
+<td>Mustard</td>
+<td>1/100 &quot;</td>
+</tr>
+<tr>
+<td>Pickles (thrice weekly)</td>
+<td>1 &quot;</td>
+</tr>
+<tr>
+<td>Tobacco or Cigarettes (once a week)</td>
+<td>2 OZS</td>
+</tr>
+<tr>
+<td>Matches (thrice fortnightly)</td>
+<td>1 box</td>
+</tr>
+<tr>
+<td>Lime Juice (when authorised)</td>
+<td>1/160 gall</td>
+</tr>
+<tr>
+<td>Rum (when authorised)</td>
+<td>1/64 &quot;</td>
+</tr>
+<tr>
+<td>(b) Equivalents:</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Frozen Meat 1 lb = P Meat &nbsp;</td>
+<td>9 ozs</td>
+</tr>
+<tr>
+<td>which includes Veg Rn or M &amp; V</td>
+<td>1 tin</td>
+</tr>
+<tr>
+<td>or P &amp; B</td>
+<td>2 2/9 tins</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

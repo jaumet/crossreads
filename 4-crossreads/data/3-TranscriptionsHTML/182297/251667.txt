@@ -1,0 +1,33 @@
+<p>[Page 36]</p>
+<p>Train will be ready for loading at Abou-el-a Station at 5.30 pm and must leave at 7 pm.</p>
+<p>Train arrives Ismallia midnight.</p>
+<p>Composition of Train</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>1</td>
+<td>1st Class</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2nd Class</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3rd Class</td>
+</tr>
+<tr>
+<td>18</td>
+<td>horse trucks</td>
+</tr>
+<tr>
+<td>2</td>
+<td>box trucks</td>
+</tr>
+<tr>
+<td>6&nbsp;</td>
+<td>flat trucks</td>
+</tr>
+</tbody>
+</table>
+<p>Please note some horses for Camel Transport Corps go by same train.</p>

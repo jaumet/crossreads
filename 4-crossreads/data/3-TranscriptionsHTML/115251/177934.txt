@@ -1,0 +1,142 @@
+<p>[Page 43]</p>
+<p>LIST OF PRISONERS ON PAROLE, AND PRISONERS ON BOARD H.M.A.S.BERRIMA:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Ammon G.</td>
+<td>2nd. Engr. captured on &#39;Sumatra&#39;</td>
+<td>On parole in Rabaul</td>
+</tr>
+<tr>
+<td>Forster Karl</td>
+<td>Planter - captured on &#39;Sumatra&#39;</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Schmerling Franz</td>
+<td>Police-master, Rabaul &amp; Herbertsh&ouml;he.</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Hamner Hos.</td>
+<td>Govt. Architect</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Kleppek Alois</td>
+<td>Telegraph Operator</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Blumenstengler K.</td>
+<td>Carpenter</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Scale R.</td>
+<td>Police Master</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Wahlmanne</td>
+<td>Driver Motor Cutter</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Mauderer</td>
+<td>Police Master</td>
+<td>In Hospital on &quot;Berima&quot;</td>
+</tr>
+<tr>
+<td>Frank Otto</td>
+<td>Bureau Assistant</td>
+<td>On parole in Rabaul</td>
+</tr>
+<tr>
+<td>Kerler August</td>
+<td>Secty. of Treasury - under Grundler E.</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Schuppert Gustav</td>
+<td>Secty. Native Court</td>
+<td>On parole in Rabaul (Will decide on Tuesday, 22/9/14, whether he will take oath of neutrality)</td>
+</tr>
+<tr>
+<td>Kleffling Paul</td>
+<td>Native Court Asst.</td>
+<td>On parole in Rabaul</td>
+</tr>
+<tr>
+<td>Heysig Edward</td>
+<td>Employed under Dr. Tolke.</td>
+<td>On parole in Rabaul.</td>
+</tr>
+<tr>
+<td>Gottschalck Kurt</td>
+<td>Clerk in Bureau.</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Schmidt Jacob</td>
+<td>Secretary of Bureau.</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Grumbach Franz</td>
+<td>Secty. to Judge Weber</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Muike Emile</td>
+<td>Govt. Rooad Maker.</td>
+<td>On parole Herbertsh&ouml;he and Bita Paka</td>
+</tr>
+<tr>
+<td>Duus Heinrich</td>
+<td>Police Master</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Becke Georg</td>
+<td>Govt. Surveyor</td>
+<td>On parole Herbertsh&ouml;he.</td>
+</tr>
+<tr>
+<td>Broedner Albert</td>
+<td>Govt. Surveyor (Herbertsh&ouml;he)</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Behr Jos.</td>
+<td>ditto</td>
+<td>On parole Herbertsh&ouml;he and Bita Paka</td>
+</tr>
+<tr>
+<td>Kohler Kuno</td>
+<td>Govt. Surveyor Captured &#39;Madang&#39;</td>
+<td>On parole in Rabaul</td>
+</tr>
+<tr>
+<td>Von Sigritz</td>
+<td>Civil Servant</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Mahler John</td>
+<td>Govt. Storekeeper</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Berghausen Ernst</td>
+<td>Govt. Resident Administrator Rabaul</td>
+<td>ditto</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

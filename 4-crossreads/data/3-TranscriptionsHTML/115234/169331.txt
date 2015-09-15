@@ -1,0 +1,51 @@
+<p>a6490112.html</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="text-align: center;">Garcons &amp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Andr&eacute;</td>
+<td>&radic;</td>
+<td style="text-align: center;">Belle</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Julienne</td>
+<td>&radic;</td>
+<td style="text-align: center;">Filles</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Philomen</td>
+<td>&radic;</td>
+<td style="text-align: center;">of</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Albert</td>
+<td>&radic;&nbsp; x</td>
+<td style="text-align: center;">Devres</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Alexandre</td>
+<td>&radic;</td>
+<td style="text-align: center;">Dec.1917</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Madeliene . Louise</td>
+<td>&radic;</td>
+<td style="text-align: center;">_____&nbsp; &quot;&nbsp; _____</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Fernand Hanquez</p>
+<p>___&nbsp; Desvres&nbsp; ___</p>
+<p>The above chap was a little crippled chemist of Devres.&nbsp; He was a volatile little chap &amp; was daily a most interested spectator of my training operations.&nbsp; He was a quaint &amp; lovable personality &amp; a great friend of mine.</p>

@@ -1,0 +1,6 @@
+
+# It creates crossreads.mallet
+./bin/mallet import-dir --input Diaries-superclean-text --output crossreads.mallet --keep-sequence --remove-stopwords
+
+# It creates topic models output:
+./bin/mallet train-topics --input crossreads.mallet --num-topics 30 --optimize-interval 10 --output-state results/30topics/crossreads-topic-state.gz --output-topic-keys results/30topics/crossreads_keys.txt --output-doc-topics results/30topics/crossreads_compostion.txt

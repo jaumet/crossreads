@@ -1,0 +1,8 @@
+
+Names & RankUnit & service
+Date & port of embarcationName of ship
+Taken on strength
+Date of joining Army serviceDate & place of promotion
+Date & port of disembarkation
+Where trained & any special training
+Innoculation & vaccination

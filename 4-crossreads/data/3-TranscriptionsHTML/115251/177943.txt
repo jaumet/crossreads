@@ -1,0 +1,73 @@
+<p>[Page 52]</p>
+<p>[See page 50]</p>
+<p>LIST OF PRISONERS:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation or Rank</u>.</td>
+<td><u>Remarks</u></td>
+</tr>
+<tr>
+<td>Wuchert Hans Waldemar</td>
+<td>Army Captain.</td>
+<td>Army Reserve Field Artillery.&nbsp; A Planter at Pondo, captured 11th Sept. 14.</td>
+</tr>
+<tr>
+<td>Mayer George Alfred</td>
+<td>1st Lieutenant</td>
+<td>Regular Bavarian Army, O.C. Native Police, captured near wireless station 11th Sep. 14 with Capt. Wuchert</td>
+</tr>
+<tr>
+<td>Kempf Emile</td>
+<td>Lieut. - Army.</td>
+<td>Army Reserve Infantry.&nbsp; In charge Forest Dept.&nbsp; Surrendered 11th Sep. 14. with his command at wireless.</td>
+</tr>
+<tr>
+<td>Duus</td>
+<td>N.C.O. in charge Native Police.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Mauderer.</td>
+<td>N.C.O. Native Police.</td>
+<td>Captured wounded.</td>
+</tr>
+<tr>
+<td>Kaiser Hermann</td>
+<td>Planter</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Von Zerssen</td>
+<td>Corporal Infy.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Wahlmanne</td>
+<td>Driver Motor Cutter.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Paudor</td>
+<td>Corporal Infy.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Von Sigritz</td>
+<td>2nd Line Reserve</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Mucke</td>
+<td>Road Contractor to Government.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Behr</td>
+<td>Land Surveyor Govt.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

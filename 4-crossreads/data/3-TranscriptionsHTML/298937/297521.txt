@@ -1,0 +1,7 @@
+<p class="page" id="a2895016">[Page 16]</p>
+<p>Head = 9 lbs.<br/>Body = 9 lbs. + &frac12; tail<br/>Tail = &frac12; Body</p>
+<p>Let x lbs. = tail<br/>9 lbs. + &frac12; x lbs. body<br/>9 lbs. head</p>
+<p>2 x = 9 + &frac12; x</p>
+<p>2 x - &frac12; x = 9</p>
+<p>1&frac12; x = 9<br/>x = 6</p>
+<p>tail = 6<br/>body = 12<br/>head = 9  = 27</p>

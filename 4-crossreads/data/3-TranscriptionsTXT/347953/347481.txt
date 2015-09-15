@@ -1,0 +1,8 @@
+
+Theory of Grenades
+All encased explosives thrown by hand are to be called grenades. Two kinds of grenades
+[A] Shrapnell Burst
+[B] Fragmental Burst
+Heavy grenades weigh about 2 lbs. Light grenades weigh about 1 lb
+Affected area of light grenades is roughly 6 yds in diameter while a heavy grenade is dangerous at a diameter of 30 yds.
+There are two types of   grenades fuses [A] Percussion & [B] [Fuse].All dummy grenades have a yellow band around the outside.  Live grenades have a red band painted on the outside

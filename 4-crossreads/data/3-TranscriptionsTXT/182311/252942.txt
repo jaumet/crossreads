@@ -1,0 +1,49 @@
+a5763222.html
+181     [page is in landscape orientation]
+[hand drawn diagrams]
+KEY.
+&ne;     Scout.
+&Ograve;     Leader.
+X     Flank Men.
+&Oslash;     Rear Man.
+|      Others.
+ 
+All formations are reversible.
+ 
+========
+Line and file explain
+themselves but every man
+must be given his protective
+duty in the patrol and must
+maintain touch with others.
+ 
+FIVE-MAN.
+&ne;     &Ograve;     &ne;
+    X      &Oslash;
+ 
+SEMI-CIRCULAR SWEEP.
+&ne;                      &ne;
+  X                  X
+      \              /
+          &Oslash; &Ograve; &ne;
+ 
+DIAMOND.
+   &ne;      &ne;
+X     &Ograve;     X
+        &Oslash;
+ 
+.Y.
+&ne;                     &ne;
+   X               X
+        \         /
+             &Ograve;
+              |
+              |
+             &Oslash;
+ 
+.V.
+&ne;                     &ne;
+   X               X
+        \         /
+             &Ograve;
+             &Oslash;

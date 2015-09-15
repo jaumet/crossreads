@@ -1,0 +1,21 @@
+<p>1 254&nbsp;&mdash; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20&nbsp;&mdash;</p>
+<p>2 315 - 569 &nbsp; &nbsp; 21 &mdash;</p>
+<p>3 317 - 886 &nbsp; &nbsp; 22 &mdash;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23 &mdash;</p>
+<p>4 330 - 1216 &nbsp; 24 300 - 62 &nbsp; 42</p>
+<p>5 348 - 1564 &nbsp; 25 307 - 65 &nbsp;49</p>
+<p>6 345 - 1909 &nbsp; 26 323 - 6872</p>
+<p>7 349 - 2258 &nbsp; 27 316 - 7188</p>
+<p>8 347 - 2605 &nbsp;&nbsp;28 315 - 7503</p>
+<p>9 336 - 2941 &nbsp; 29 332 - 7835 &nbsp; &nbsp; 40 &nbsp;316 - 11295</p>
+<p>10 337 - 3278 &nbsp; 30 315&nbsp;- 8150 &nbsp;&nbsp; 41 324 - 11619</p>
+<p>11 329 - 3607 &nbsp; 31 321 - 8471 &nbsp;&nbsp; 42 149 - 11768</p>
+<p>12 325 - 3932 &nbsp; 32 325 - 8796 &nbsp;&nbsp; 43 259 - 12027</p>
+<p>13 335 - 4267 &nbsp; 33 316 - 9112 &nbsp;&nbsp; 44 204 - 12031</p>
+<p>14 333 - 4600 &nbsp; 34 322 - 9434&nbsp;&nbsp;&nbsp; 45 316 - 12547</p>
+<p>15 330 - 4930 &nbsp; 35 323 - 9757 &nbsp; &nbsp; 46 214 - 12761</p>
+<p>16 316 - 5246 &nbsp; 36 334 - 10091 &nbsp; 47</p>
+<p>17 276 - 5522 &nbsp; 37 334 - 10425</p>
+<p>18 310 - 5832 &nbsp; 38 325 - 10750</p>
+<p>19 110 - 5942 &nbsp; 39 229 - 10979</p>
+<p>&nbsp;</p>

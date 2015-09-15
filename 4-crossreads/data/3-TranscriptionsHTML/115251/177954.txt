@@ -1,0 +1,79 @@
+<p>[Page 63]</p>
+<p>Fredrick Wilhelmshafen&nbsp; 24th Sept 14</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td><u>Name</u></td>
+<td><u>Occupation</u></td>
+</tr>
+<tr>
+<td>Kumbert Schlutze</td>
+<td>Government Secretary</td>
+</tr>
+<tr>
+<td>Rudolf Hoek</td>
+<td>Sanitary Inspector</td>
+</tr>
+<tr>
+<td>Otto Paulish</td>
+<td>Civil Servant</td>
+</tr>
+<tr>
+<td>Gustav Irmer</td>
+<td>Govt Surveyor</td>
+</tr>
+<tr>
+<td>Fredrick Hoyerman</td>
+<td>Storeman</td>
+</tr>
+<tr>
+<td>Franz Hildebrand</td>
+<td>Planter</td>
+</tr>
+<tr>
+<td>Paul Weiss</td>
+<td>Sawmill at Jaimis&nbsp; 45 miles South</td>
+</tr>
+<tr>
+<td>Erlich Fehrmann</td>
+<td>New Guinea Store</td>
+</tr>
+<tr>
+<td>Theodore Bindel</td>
+<td>Administrator N.G.Coy</td>
+</tr>
+<tr>
+<td>Paul Ahr</td>
+<td>Manager Bumer Store Coy</td>
+</tr>
+<tr>
+<td>Joseph Kaufmann</td>
+<td>Storekeeper N G Coy</td>
+</tr>
+<tr>
+<td>Otto Schneider</td>
+<td>Salesman N.G.Coy</td>
+</tr>
+<tr>
+<td>Joseph Rosenbaum</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Franz Mader</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>Peter Niminghoff</td>
+<td>ditto</td>
+</tr>
+<tr>
+<td>John Elmes</td>
+<td>Planter Maerr&nbsp; 5 kilometres West</td>
+</tr>
+<tr>
+<td>Father William Ricken</td>
+<td>Missionary</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

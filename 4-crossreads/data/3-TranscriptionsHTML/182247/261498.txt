@@ -1,0 +1,42 @@
+<p>a6692021.html</p>
+<table border="1" cellpadding="2" cellspacing="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="text-align: left; vertical-align: top;"><u>1917</u></td>
+<td style="text-align: right; vertical-align: top;">17</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 15</td>
+<td style="text-align: left; vertical-align: top;">Very cold morning.&nbsp; Route march in morning.&nbsp; Dental parade in afternoon.&nbsp; Wrote letters home at night.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 16</td>
+<td style="text-align: left; vertical-align: top;">Frosty morning.&nbsp; Route march of about 5 miles in morning.&nbsp; Returned lame and with the most damnable pair of frost-bitten feet that one could imagine.&nbsp; All I could do to get back to the hut.&nbsp; Dinner.&nbsp; Another route march. Returned after going a few hundred yards, damned near dead.&nbsp; Stayed in at night and wrote letters.&nbsp; Intensely cold at night.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 17</td>
+<td style="text-align: left; vertical-align: top;">Again cold and bitter.&nbsp; Route march again.&nbsp; Oh, these wicked marches.&nbsp; Returned sore footed again.&nbsp; After-noon, Engineers put on draft for Brightlingsea.&nbsp; Got pay.&nbsp; Spent afternoon in hut wondering what sort of place we are going to.&nbsp; Consoled in the fact that it cannot be colder or a worse picture of misery than Perham Downs.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 18</td>
+<td style="text-align: left; vertical-align: top;">Cold and dull as usual.&nbsp; Names taken for draft.&nbsp; Spent all day at this.&nbsp; Told we were to leave by train next morning.&nbsp; Aeroplane came down in the camp last night.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 19</td>
+<td style="text-align: left; vertical-align: top;">Reveille 5.30.&nbsp; Breakfast at 6.&nbsp; Fell in 7.&nbsp; in full gear.&nbsp; Stood half an hour on parade ground and nearly froze.&nbsp; Marched off at 7.15.&nbsp; Inspected by Colonel and others.&nbsp; Reached Tidworth at 8.30.&nbsp; Entrained at 9.30, Lt. Gray and Lt. Dumas coming with us in charge.&nbsp; Dull and cold day and find it very cold travelling.&nbsp; Reached outskirts of London about 2.&nbsp; Thought we were going there but turned off in another direction.&nbsp; Rest of day spent in journey.&nbsp; Nothing of event happened except we changed trains three times on the journey of 160 miles or so.&nbsp; Arrived at Brightlingsea at 7.30.&nbsp; Proceeded to square in middle of town, formed up, checked, rationed and then taken to billets at 48 Silcock Street with a Mrs. Minter.&nbsp; Missed being put in with Norman Walker as he went away with the first batch, I having been in the second.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 20</td>
+<td style="text-align: left; vertical-align: top;">Spent all morning on Clothing board.&nbsp; Had gear checked by Q.M. and then returned to billet.&nbsp; Mrs Minter having taken ill, we found it compulsory to find a new billet.&nbsp; Got re-billetted at 122 Sydney Street and found two of the old Moore Park &quot;B&quot; Co boys there in the person of Frank Ward and Jim Johnson.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 21</td>
+<td style="text-align: left; vertical-align: top;">Sunday.&nbsp; Rose 8.&nbsp; Breakfast.&nbsp; Church parade 9.30.&nbsp; Church out at 10.15.&nbsp; Dismissed.&nbsp; Spent rest of day sewing and writing letters.</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top;">Jan 22</td>
+<td style="text-align: left; vertical-align: top;">First day of training in England.&nbsp; Lecture on trench construction in the hall till 10.30.&nbsp; Marched from there out to training paddock and spent day wiring for revet-ments.&nbsp; Marched back at 4 and went for mail.&nbsp; None.&nbsp; After tea, went to pictures.&nbsp; Got first letters from home dated 22/11/1916.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

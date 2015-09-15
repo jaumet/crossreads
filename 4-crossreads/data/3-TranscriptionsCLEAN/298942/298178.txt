@@ -1,0 +1,3 @@
+
+14 May 18.
+Experiments on telepathyAgent OL.S. Holt            -                   Percipient V. Hall1) 3 objects Spec case, pay book,  pocket book  -   Spec case  -   success                     2) 6 objects         -                         black pocket case - success3. 6 objects         -                         chain mail          -      failure4. 2 objects           -                          dixie               -          failure5 2 objects           -                           pot of jam         -       failure6. 4 objects          -                          black handled knife      -  failure7 3 objects          -                          box of matches   -       failure

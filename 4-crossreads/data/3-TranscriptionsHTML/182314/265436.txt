@@ -1,0 +1,27 @@
+<p>[Page 1]</p>
+<p>[Menu]</p>
+<p>Government House</p>
+<p>Rabaul</p>
+<p>Jan 6<sup>th</sup> &#39;15</p>
+<p>Hors d&#39;oeuvres</p>
+<p>Soup</p>
+<p>Tomato.</p>
+<p>Entree</p>
+<p>Lamb Cutlets, Green Peas</p>
+<p>Mince Sauce</p>
+<p>Joint</p>
+<p>Boiled leg mutton.</p>
+<p>Asparagus</p>
+<p>Sweet</p>
+<p>Plum Pudding</p>
+<p>Brandy Sauce</p>
+<p>Savoury</p>
+<p>Devilled Sardines</p>
+<p>Dessert</p>
+<p>Coffee</p>
+<p>Liquers</p>
+<p>&nbsp;</p>
+<p>[Signatures written across the Menu]</p>
+<p>&nbsp;</p>
+<p>Henkell Trocken</p>
+<p>&nbsp;</p>
