@@ -1,6 +1,5 @@
 Diary of the research actions:
 
-
 <Started: 2015-09-07>
 
 1) Get the list of diaries 100% transcribed 
@@ -76,20 +75,20 @@ OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
 ############################################################
 
 - Topic Models:
-    * Make a clean version good for analysis.
-    * Run Mallet (50 topics)
+DONE    * Make a clean version good for analysis.
+DONE    * Run Mallet (50 topics)
+DONE    * Run Mallet (100 topics)
 
     INPUT: 3-TranscriptionsCLEAN/*
-        -> 
+        -> mallet
     OUTPUT: Mallet-results/topics50/
 
+Labelling:
+        * Check topics and compare with diggersdiaries.org v1    
+    OUTPUT: crossreads_keys.txt
 
 ############################################################
 TODO:
-
-- Topic Models:
-
-    * Check topics and compare with diggersdiaries.org v1
 
 - Build data-model, like the one in angularJS version
 
