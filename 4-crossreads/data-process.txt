@@ -1,33 +1,16 @@
-Diary of the research actions:
-
-<Started: 2015-09-07>
 
 1) Get the list of diaries 100% transcribed 
-INPUT -> 8 URL from the API of SLNSW
+INPUT -> 8 pages from the API of SLNSW
     -> for XXX from 0 to 8:
     -> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
     -> Merge these 8 files in 1. In JSON format.
-OUTPUT -> new file: data-diaries-list.json
-
-############################################################
-
-1.1) These documents are in the collection but are not related to WWI-Diaries. I'm not including them in the visualization:
-
-http://transcripts.sl.nsw.gov.au/api/entity_node/369991/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
-http://transcripts.sl.nsw.gov.au/api/entity_node/369992/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
-http://transcripts.sl.nsw.gov.au/api/entity_node/369993/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
-http://transcripts.sl.nsw.gov.au/api/entity_node/369994/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
-http://transcripts.sl.nsw.gov.au/api/entity_node/369995/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
-
-############################################################
+OUTPUT -> new file: data-diaries-list.jsonS
 
 2) Get pages for each diary
 INPUT XML-diaries-list.xml
-    -> DOwnload all the diary details
+    -> Download all the diary details
     -> save each one in XML-diaries-list.xml/ as .json file
 OUTPUT files in 2-PagesList-forEachDiary/*.json
-
-############################################################
 
 3) Download Transcription
 INPUT files in 2-PagesList-forEachDiary/*.json
@@ -35,17 +18,7 @@ INPUT files in 2-PagesList-forEachDiary/*.json
     -> save it .txt
 OUTPUT 80772 transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_nid].txt
 
-############################################################
-
-4) CLEANING TRANSCRIPTIONS:  In this version of the json files, transcriptions are in HTML. A version .TXT has been created
-    (3-transcriptionsHTML is a copy of 3-transcriptions)
-INPUT 3-transcriptionsHTML/[diary_nid]/[page_nid].txt
-    -> 4-html2txt.py
-OUTPUT 3-transcriptionsTXT/[diary_nid]/[page_nid].txt
-
-############################################################
-
-4.1) I found API inconsistencies: 
+4) I found API inconsistencies: 
     file        2-PagesList-forEachDiary/325182.json (an 93 other files)
     and file    2-PagesList-forEachDiary/182219.json (and 668 other files)
     have different JSON structure (!)
@@ -54,46 +27,38 @@ OUTPUT 3-transcriptionsTXT/[diary_nid]/[page_nid].txt
     -> I remove all those entries
     -> Diaries now: 780
     -> API inconsitency inthis this file: http://transcripts.sl.nsw.gov.au/api/entity_node/272772
-
-############################################################
     
 5) Download all images for each page
 INPUT: 2-PagesList-forEachDiary/[Diary-id].json
     -> run  python  3-Download-image-PerDiary-PerPage.py
-    -> if page was not found: check for deafault page "img/parts-of-the-leg.jpg"
+    -> if page was not found: check for the default image, initialy set to "img/parts-of-the-leg.jpg"
 OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
 
-############################################################
+6) Topic model analysis with Mallet
+INPUT: all pages 3-TranscriptionsCLEAN/*
+    > run mallet: check Mallet-commands.txt
+    > Analysis done: 30, 50 and 100 topics. 
+    > Human labelling has been tested for 30, 50 and 100 topics. 100 topics includes more and more specific topics. 
 
-> > > > IN-PROGRESS
+7)  Browser for topic models pages. Get n pages from topic model i, sort descendint or ascending.
+INPUT: '6-Mallet-results/topics50/crossreads_compostion.cvs'
+    -> run 7-TopicMode-CSVbrowser.py [TM id] [Num pages] [desc/asc]
+OUTPUT (in console) text of [num pages] sorted by [TM id]. [desc/asc]/ This output is thrown to a files for each TM, in version desc and asc. These will be precalculated files offered later in the interface. 
 
-<2015-09-14>
-6) - Improve data: 
-    * Parse diaries.json titles and extract: author name, startdate and enddate
-    * Save the new fields in diaries.json
+8) Check empty pages, and decide what to do 
 
-############################################################
+9) Review labelling using:
+    * Mallet-results/topics100/crossreads_*  AND  7-TopicMode-CSVbrowser.py [TM id] [Num pages] [desc/asc] 
+    * Group topics by: topics to delete, topics to join
+OUTPUT: final topic list and labels, 
 
-- Topic Models:
-DONE    * Make a clean version good for analysis.
-DONE    * Run Mallet (50 topics)
-DONE    * Run Mallet (100 topics)
 
-    INPUT: 3-TranscriptionsCLEAN/*
-        -> mallet
-    OUTPUT: Mallet-results/topics50/
+-------------------------------
+These documents are in the collection but are not related to WWI-Diaries. I'm not including them in the visualization:
 
-Labelling:
-        * Check topics and compare with diggersdiaries.org v1    
-    OUTPUT: crossreads_keys.txt
-
-############################################################
-TODO:
-
-- Build data-model, like the one in angularJS version
-
-- Code the app!
-
-- 
-
+http://transcripts.sl.nsw.gov.au/api/entity_node/369991/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369992/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369993/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369994/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
+http://transcripts.sl.nsw.gov.au/api/entity_node/369995/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
 
