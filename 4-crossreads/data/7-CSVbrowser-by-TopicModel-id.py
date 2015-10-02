@@ -14,9 +14,7 @@ def sortFilterPrint(id, num, order):
 
     # Get every page path/filename
     for item in sortedlist[:int(num)]:
-        #print item
         new = item[1].replace('file:/var/www/crossreads/4-crossreads/data/3-TranscriptionsCLEAN/', '3-TranscriptionsCLEAN/')
-        #print item
         print new+"\t"+item[0]+"\t"+item[int(id)+2]
         page = open(new, 'r')
         print page.read()
