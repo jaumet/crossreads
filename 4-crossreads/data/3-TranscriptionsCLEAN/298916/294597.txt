@@ -1,9 +1,9 @@
-
-oscillation transformer as it is termed denotes the selectivity of signals.
-Only single or two phase current is available in the primary of transformer.
-For those who follow this:-
-[explanatory diagram]
-It will be seen that the transmitting station is actually an open circuit radiator.So it is, and the circuit is completed through the distant ariel, instruments & earth return thus:
-[explanatory diagram]
-Supposed complete circuit is shown by arrows.
-The wave length of a station is explained thus
+  
+ oscillation transformer as it is termed denotes the selectivity of signals. 
+ Only single or two phase current is available in the primary of transformer. 
+ For those who follow this:- 
+ [explanatory diagram] 
+ It will be seen that the transmitting station is actually an open circuit radiator. So it is, and the circuit is completed through the distant ariel, instruments & earth return thus: 
+ [explanatory diagram] 
+ Supposed complete circuit is shown by arrows. 
+ The wave length of a station is explained thus 

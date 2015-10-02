@@ -1,10 +1,10 @@
-
-Daily State    Oct. 11th 1915
-Brig. H.Qrs.   Effective Stgh. - Off. 5; Ors 14; Total  19Killed - Off. nil; OR  nilWounded - Off. 1; OR. 1Sick - Off. 1; OR  22Misg. - nilTrans - nilTotal - 25
-Signal Troop.   Effective Stgh. - Off. nil; Ors 15; Total  15Killed - Off. nil; OR  nilWounded - Off. 1; OR. nilSick - Off. nil; OR  20Misg. - nilTrans - nilTotal - 21
-8th L.H. Regt..   Effective Stgh. - Off. 8; Ors 124; Total  132Killed - Off. 16; OR  187Wounded - Off. 4; OR. 128Sick - Off. 11; OR  250Misg. - nilTrans - 5Total - 601
-9th L.H. Regt.   Effective Stgh. - Off. 15; Ors 302; Total  317Killed - Off. 6; OR  54Wounded - Off. 3; OR. 150Sick - Off. 13; OR  330Misg. - 17Trans - 6Total - 579
-10th L.H. Regt.   Effective Stgh. - Off. 11; Ors 203; Total  214Killed - Off. 12; OR  101Wounded - Off. 13; OR. 162Sick - Off. 9; OR  259Misg. - 12Trans - 8Total - 576
-Total.   Effective Stgh. - Off. 39; Ors 658; Total  697Killed - Off. 34; OR  342Wounded - Off. 22; OR. 441Sick - Off. 34; OR  881Misg. - 29Trans - 19Total - 1802
-Total landed to date (including Re-inforcements)  2501Killed, wounded, sick, missing, etc.  1804effective Strength  697[Total]  1804
-Summary:-Killed  376, Wounded  463 (now absent), Sick  915 (now absent), Missing    29 (Probably Killed), Transferred 19, On Duty Command 2, [Total]  1804
+  
+ Daily State    Oct. 11th 1915 
+ Brig. H.Qrs.   Effective Stgh. - Off. 5; Ors 14; Total  19 Killed - Off. nil; OR  nil Wounded - Off. 1; OR. 1 Sick - Off. 1; OR  22 Misg. - nil Trans - nil Total - 25 
+ Signal Troop.   Effective Stgh. - Off. nil; Ors 15; Total  15 Killed - Off. nil; OR  nil Wounded - Off. 1; OR. nil Sick - Off. nil; OR  20 Misg. - nil Trans - nil Total - 21 
+ 8th L.H. Regt..   Effective Stgh. - Off. 8; Ors 124; Total  132 Killed - Off. 16; OR  187 Wounded - Off. 4; OR. 128 Sick - Off. 11; OR  250 Misg. - nil Trans - 5 Total - 601 
+ 9th L.H. Regt.   Effective Stgh. - Off. 15; Ors 302; Total  317 Killed - Off. 6; OR  54 Wounded - Off. 3; OR. 150 Sick - Off. 13; OR  330 Misg. - 17 Trans - 6 Total - 579 
+ 10th L.H. Regt.   Effective Stgh. - Off. 11; Ors 203; Total  214 Killed - Off. 12; OR  101 Wounded - Off. 13; OR. 162 Sick - Off. 9; OR  259 Misg. - 12 Trans - 8 Total - 576 
+ Total.   Effective Stgh. - Off. 39; Ors 658; Total  697 Killed - Off. 34; OR  342 Wounded - Off. 22; OR. 441 Sick - Off. 34; OR  881 Misg. - 29 Trans - 19 Total - 1802 
+ Total landed to date (including Re-inforcements)  2501 Killed, wounded, sick, missing, etc.  1804 effective Strength  697 [Total]  1804 
+ Summary:- Killed  376, Wounded  463 (now absent), Sick  915 (now absent), Missing    29 (Probably Killed), Transferred 19, On Duty Command 2, [Total]  1804 

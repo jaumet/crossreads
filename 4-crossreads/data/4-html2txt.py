@@ -10,7 +10,7 @@ for path, dirs, files in os.walk(os.path.abspath(directory)):
         myfile = open(filepath, "r")
         html = myfile.read()
         print html
-        txt = re.sub("<.*?>", "", html)
+        txt = re.sub("<.*?>", " ", html)
         print "## ## ## ## ## ## ## ## ##"
         print txt
         filepath1 = filepath.replace("3-TranscriptionsHTML","3-TranscriptionsTXT")

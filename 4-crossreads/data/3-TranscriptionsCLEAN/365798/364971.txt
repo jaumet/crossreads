@@ -1,13 +1,13 @@
-
-No 1340 13 BattalionPrivate "Q" CompanyLiverpool 11/12/14
-A/Sergeant "Q" CompanyLiverpool 20/12/14
-Private 2/13Liverpool 2/1/15
-A/Corporal 9/2Liverpool 5/9/15
-Private 10/13Liverpool 21/9/15
-a/Pay Corporal 10/13Zeitoun 2/12/15
-a/O.R. Sergeant "A" Coy 45. BnZeitoun 25/2/16
-T/Sergeant 13th BattalionTel-el-Kebir 4/3/16
-Private 13th BattalionTel-el-Kebir 20/3/16
-Lance Corporal 13th BattalionSerapeum 4/5/16
-A/Provost Corporal Bac St MaurJesus Farm, France4th Bgde Transport. 24/6/16
-Lance Corporal [indecipherable]Naours, France 17/7/16B Coy 13 Battln
+  
+ No 1340 13 Battalion Private "Q" Company Liverpool 11/12/14 
+ A/Sergeant "Q" Company Liverpool 20/12/14 
+ Private 2/13 Liverpool 2/1/15 
+ A/Corporal 9/2 Liverpool 5/9/15 
+ Private 10/13 Liverpool 21/9/15 
+ a/Pay Corporal 10/13 Zeitoun 2/12/15 
+ a/O.R. Sergeant "A" Coy 45. Bn Zeitoun 25/2/16 
+ T/Sergeant 13th Battalion Tel-el-Kebir 4/3/16 
+ Private 13th Battalion Tel-el-Kebir 20/3/16 
+ Lance Corporal 13th Battalion Serapeum 4/5/16 
+ A/Provost Corporal Bac St Maur Jesus Farm, France 4th Bgde Transport. 24/6/16 
+ Lance Corporal [indecipherable] Naours, France 17/7/16 B Coy 13 Battln 

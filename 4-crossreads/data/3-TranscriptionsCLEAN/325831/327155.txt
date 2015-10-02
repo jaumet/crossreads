@@ -1,2 +1,2 @@
-[Envelope]Mr Justice FergusonSupreme Court HouseKing StSydneyN.S.W.
-[Across top left hand corner] E M Brissenden
+ [Envelope] Mr Justice Ferguson Supreme Court House King St Sydney N.S.W. 
+ [Across top left hand corner] E M Brissenden 

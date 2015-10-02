@@ -1,7 +1,7 @@
-
-W.T.Signal
-Receiving Ship -  Encounter
-Transmitting Ship - Flag
-Date - 13/9/14
-Time of Despatch or Receipt - 11.0 pm
-Your 2120 Consider this unnecessary unless specially asked for (stop)  Encounter is to remain off Herbertshohe tomorrow ready for covering the garrison and render assistance if necessary 2230
+  
+ W.T.Signal 
+ Receiving Ship -  Encounter 
+ Transmitting Ship - Flag 
+ Date - 13/9/14 
+ Time of Despatch or Receipt - 11.0 pm 
+ Your 2120 Consider this unnecessary unless specially asked for (stop)  Encounter is to remain off Herbertshohe tomorrow ready for covering the garrison and render assistance if necessary 2230 

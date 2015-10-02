@@ -1,7 +1,7 @@
-
-Naval Signal
-From - Brigadier
-To - Comdr Beresford Herbertshohe
-Date - 20 9 14
-Time - 9 45 PM
-Instruct Armourer Johnson to rejoin Encounter
+  
+ Naval Signal 
+ From - Brigadier 
+ To - Comdr Beresford Herbertshohe 
+ Date - 20 9 14 
+ Time - 9 45 PM 
+ Instruct Armourer Johnson to rejoin Encounter 

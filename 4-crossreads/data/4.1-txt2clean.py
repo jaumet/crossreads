@@ -1,8 +1,8 @@
 import os, fnmatch
 import re
 
-#directory = "/home/jaume/crossreads/crossreads/4-crossreads/data/3-TranscriptionsTXT"
-directory = "/home/jnualart/public_html/crossreads/4-crossreads/data/3-TranscriptionsTXT"
+directory = "/home/jaume/crossreads/crossreads/4-crossreads/data/3-TranscriptionsTXT"
+#directory = "/home/jnualart/public_html/crossreads/4-crossreads/data/3-TranscriptionsTXT"
 
 for path, dirs, files in os.walk(os.path.abspath(directory)):
     print path

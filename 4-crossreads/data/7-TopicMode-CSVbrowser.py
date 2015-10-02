@@ -4,17 +4,19 @@ import operator
 
 # Open csv file and sorted it
 def sortFilterPrint(id, num, order):
-    mycsv = '6-Mallet-results/crossreads_compostion.txt'
-    #mycsv = '6-Mallet-results/TM-test.csv'
-    mycsv = csv.reader(open(mycsv),delimiter=',')
-    print "len of mycsv: "
+    file = '6-Mallet-results/crossreads_compostion.txt'
+    #file = '6-Mallet-results/test.csv'
+    mycsv = csv.reader(open(file),delimiter=',')
+    print "###"
+    print type(mycsv)
     setOrder = {"desc":1,"asc":0}
-    sortedlist = sorted(mycsv, key=operator.itemgetter(int(id)+2), reverse=setOrder[order]) 
+    sortedlist = sorted(mycsv, key=lambda row: float(row[int(id)+2]), reverse=setOrder[order]) 
 
     # Get every page path/filename
     for item in sortedlist[:int(num)]:
         #print item
-        new = item[1].replace('file:/var/www/crossreads/4-crossreads/data/3-TranscriptionsCLEAN/', '3-TranscriptionsTXT/')
+        new = item[1].replace('file:/var/www/crossreads/4-crossreads/data/3-TranscriptionsCLEAN/', '3-TranscriptionsCLEAN/')
+        #print item
         print new+"\t"+item[0]+"\t"+item[int(id)+2]
         page = open(new, 'r')
         print page.read()

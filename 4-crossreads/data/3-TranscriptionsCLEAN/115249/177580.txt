@@ -1,8 +1,8 @@
-
-W.T Signal
-Receiving Ship: Berrima
-Transmitting Ship: Encounter
-Date: 14 Sep
-Time of Despatch or Receipt: 6.34p
-PMO to Brigadier
-I did not inform Surgeon MacKenzie that he was to return to Flagship
+  
+ W.T Signal 
+ Receiving Ship: Berrima 
+ Transmitting Ship: Encounter 
+ Date: 14 Sep 
+ Time of Despatch or Receipt: 6.34p 
+ PMO to Brigadier 
+ I did not inform Surgeon MacKenzie that he was to return to Flagship 

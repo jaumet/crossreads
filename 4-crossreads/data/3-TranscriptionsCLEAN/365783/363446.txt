@@ -1,2 +1,3 @@
-
-Envelope which contained the telegram included on previous page.]
+  
+ Envelope which contained the telegram included on previous page.] 
+ 

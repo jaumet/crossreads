@@ -1,5 +1,5 @@
-
-[10 Sun]Holiday
-[11 Mon]Grooming and cleaning harness.
-[12 Tues][Diarist has indicated ditto marks:]Grooming and cleaning harness.
-[13 Wed]Half holiday
+  
+ [10 Sun] Holiday 
+ [11 Mon] Grooming and cleaning harness. 
+ [12 Tues] [Diarist has indicated ditto marks:] Grooming and cleaning harness. 
+ [13 Wed] Half holiday 

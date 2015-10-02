@@ -1,8 +1,8 @@
-
-Naval Signal
-From - Military base
-To - Brigadier
-Date - 11-9-14
-Time - 9-0
-For Watson forwarded report by Lieut Finlayson.  Send instructions concerning six prisoners.
-Col Watson
+  
+ Naval Signal 
+ From - Military base 
+ To - Brigadier 
+ Date - 11-9-14 
+ Time - 9-0 
+ For Watson forwarded report by Lieut Finlayson.  Send instructions concerning six prisoners. 
+ Col Watson 

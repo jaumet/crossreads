@@ -1,8 +1,8 @@
-
-Naval Signal
-From - RAC
-To - Brigadier
-Date - 12 9 4
-Time - 5 40
-I see no object in holding the WT station unless you have any reasons for doing so as it is now out of action please let me know your proposals
-0540 
+  
+ Naval Signal 
+ From - RAC 
+ To - Brigadier 
+ Date - 12 9 4 
+ Time - 5 40 
+ I see no object in holding the WT station unless you have any reasons for doing so as it is now out of action please let me know your proposals 
+ 0540  

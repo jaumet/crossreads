@@ -1,8 +1,8 @@
-
-Naval Signal
-From - Flag
-To - Berrima
-Date - 11 9 14
-Time - 12 30
-What orders did you give landing party
-Reply sent - to reinforce & carry out orders which were given to Advance party.
+  
+ Naval Signal 
+ From - Flag 
+ To - Berrima 
+ Date - 11 9 14 
+ Time - 12 30 
+ What orders did you give landing party 
+ Reply sent - to reinforce & carry out orders which were given to Advance party. 

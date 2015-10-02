@@ -1,3 +1,3 @@
-
-[Cover]
-Australian Imperial Force.
+  
+ [Cover] 
+ Australian Imperial Force. 

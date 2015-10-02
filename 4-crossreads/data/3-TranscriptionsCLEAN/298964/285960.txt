@@ -1,2 +1,2 @@
-
-[Reg.No. - Date of Joining - Rank - Name - Address]434 - 17 Sept 14 - Tpr - M Minahan - Galong702 - July 15 - Tpr - G. Stratton - HayTpr - J. Penny - New ZealandTpr - W Smith - Melbourne
+  
+ [Reg.No. - Date of Joining - Rank - Name - Address] 434 - 17 Sept 14 - Tpr - M Minahan - Galong 702 - July 15 - Tpr - G. Stratton - Hay Tpr - J. Penny - New Zealand Tpr - W Smith - Melbourne 

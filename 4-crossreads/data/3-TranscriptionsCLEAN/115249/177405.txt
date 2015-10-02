@@ -1,7 +1,7 @@
-
-Naval Signal
-From - R.A
-To - Brigadier
-Date - 13 9 4
-Time - 7.35
-I have report report result of operations and details except as stated in my last signal to you (0736)
+  
+ Naval Signal 
+ From - R.A 
+ To - Brigadier 
+ Date - 13 9 4 
+ Time - 7.35 
+ I have  report  report result of operations and details except as stated in my last signal to you (0736) 

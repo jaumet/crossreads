@@ -1,7 +1,7 @@
-
-July 1917
-F 13 Arrived Durban 6 PM
-M 16 Left Durban 12.30 PM
-Th 19 Arrived Capetown about 5 PM
-S 21 Arrived Capetown LandedS 22 LandedM 23 LandedTu 24 Landed
-F 27 Left Capetown 1 PM
+  
+ July 1917 
+ F 13 Arrived Durban 6 PM 
+ M 16 Left Durban 12.30 PM 
+ Th 19 Arrived Capetown about 5 PM 
+ S 21  Arrived Capetown  Landed S 22 Landed M 23 Landed Tu 24 Landed 
+ F 27 Left Capetown 1 PM 

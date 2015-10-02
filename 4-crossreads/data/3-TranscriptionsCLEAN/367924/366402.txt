@@ -1,2 +1,3 @@
-
-[Reverse of card]
+  
+ [Reverse of card] 
+ 

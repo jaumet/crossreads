@@ -1,7 +1,7 @@
-
-Water Tank B.266.
-Draught Problem:-Put 8 men on the board so that they will not be in line in any direction. use white and black squares.Solution.  No. 1 White13 Black. 24B. 30W. 35W. 47B. 50B. 60W.
-Another Draught Problem.Black one man who can move in any direction but cannot jump a man or be taken.  White 4 men who can only move forward.  The problem is for
-Spring CartNo.Dray No B268Cart Maltese VI/1916
-Kitchen Travelling LimberRegd. No. E125718Front Limber B.276Hind Limber B.278
-Kitchen Travelling LimberRegd No E125532Front Limber B279.Hind Limber B277.JD Wilson  Feb. 1917
+  
+ Water Tank B.266. 
+ Draught Problem:- Put 8 men on the board so that they will not be in line in any direction. use white and black squares. Solution.  No. 1 White 13 Black. 24B. 30W. 35W. 47B. 50B. 60W. 
+ Another Draught Problem. Black one man who can move in any direction but cannot jump a man or be taken.  White 4 men who can only move forward.  The problem is for 
+ Spring Cart No. Dray No B268 Cart Maltese VI/1916 
+ Kitchen Travelling Limber Regd. No. E125718 Front Limber B.276 Hind Limber B.278 
+ Kitchen Travelling Limber Regd No E125532 Front Limber B279. Hind Limber B277. JD Wilson  Feb. 1917 

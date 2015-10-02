@@ -1,8 +1,8 @@
-
-W.T.Signal
-Receiving Ship: Encounter
-Transmitting Ship: Flag
-Date: 14 Sep
-Time of Despatch or Receipt: 7.40 am
-In view of message from Colonel Watson your action in shelling is fully approved.
-If required your maxim may be left on shore tonight. I may require Encounter this evening or tomorrow morning
+  
+ W.T.Signal 
+ Receiving Ship: Encounter 
+ Transmitting Ship: Flag 
+ Date: 14 Sep 
+ Time of Despatch or Receipt: 7.40 am 
+ In view of message from Colonel Watson your action in shelling is fully approved. 
+ If required your maxim may be left on shore tonight. I may require Encounter this evening or tomorrow morning 

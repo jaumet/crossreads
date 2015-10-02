@@ -1,5 +1,6 @@
-
-Draper  5 - 7Foster   "  "Brennan  7 - 9Elder      " - "Golmour  9 - 11Podmore  " - "Coyne  11 - 1Magnay  11 - 1Bousfield  1 - 3Jones  " - "
-Coyne 9 - 10 amMagnay  10 - 11Bousfield  11 - 12Jones  12 - 1Draper  1 - 2Foster  2 - 3Brennan  3 - 4Gilmour  4 - 5Bodmore  5 - 6Dawe  6 - 7Coyne  7 - 8
-[in margin] 3 - 5" - 55 - 728801
-
+  
+ Draper  5 - 7 Foster   "  " Brennan  7 - 9 Elder      " - " Golmour  9 - 11 Podmore  " - " Coyne  11 - 1 Magnay  11 - 1 Bousfield  1 - 3 Jones  " - " 
+ Coyne  9 - 10 am  Magnay  10 - 11 Bousfield  11 - 12 Jones  12 - 1 Draper  1 - 2 Foster  2 - 3 Brennan  3 - 4 Gilmour  4 - 5 Bodmore  5 - 6 Dawe  6 - 7 Coyne  7 - 8 
+ [in margin] 3 - 5 " - 5 5 - 7 28801 
+  
+ 

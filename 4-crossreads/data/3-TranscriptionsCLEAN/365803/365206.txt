@@ -1,4 +1,4 @@
-
-Typed card with several phrases to cross out or tick according to what one wishes to say.   If anything else is added to card it will be destroyed
-I have received letter from you lately.
-Signature:  C R LucasDate:  17-7-16
+  
+ Typed card with several phrases to cross out or tick according to what one wishes to say.    If anything else is added to card it will be destroyed  
+ I have received letter from you lately. 
+ Signature:  C R Lucas Date:  17-7-16 

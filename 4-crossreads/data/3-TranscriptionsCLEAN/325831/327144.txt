@@ -1,2 +1,2 @@
-[Envelope]Hotel WindsorVictoria Street, S.W.
-The HonorableMr Justice FergusonSupreme CourtKing StreetSydneyN.S.W.Australia
+ [Envelope] Hotel Windsor Victoria Street, S.W. 
+ The Honorable Mr Justice Ferguson Supreme Court King Street Sydney N.S.W. Australia 

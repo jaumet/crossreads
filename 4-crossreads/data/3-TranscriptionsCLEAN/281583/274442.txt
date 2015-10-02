@@ -1,7 +1,7 @@
-
-Days4 France-Hospital -23/11/16 to 26/11/16  -Grove Town14    - Hospital  -27/11/16 to  10/12/16  -Rouen No.5
-51   -       Hospital-11/12/16  to 31/1/17-Oxford No.3 Cowley Sect. S.G.H.
-164-EnglandHospital-2/2/17 t0 14/1/17  -Dartford No 3. A.A.H
-61    -      Hospital-15/7/17 to 14/7/17  - A.H.ship Kanowa
-39   -      Hospital- 15/9/17 to  24/10/17 - Randwick
-Total  333 days
+  
+ Days 4 France-Hospital -23/11/16 to 26/11/16  -Grove Town 14    - Hospital  -27/11/16 to  10/12/16  -Rouen No.5 
+ 51   -       Hospital-11/12/16  to 31/1/17-Oxford No.3 Cowley Sect. S.G.H. 
+ 164-EnglandHospital-2/2/17 t0 14/1/17  -Dartford No 3. A.A.H 
+ 61    -      Hospital-15/7/17 to 14/7/17  - A.H.ship Kanowa 
+ 39   -      Hospital- 15/9/17 to  24/10/17 - Randwick 
+ Total  333 days 

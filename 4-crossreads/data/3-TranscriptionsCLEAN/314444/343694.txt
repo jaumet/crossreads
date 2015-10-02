@@ -1,3 +1,3 @@
-
-[Envelope]Mrs C Hill"Euterpe"Kurraba RdNeutral BayN. SydneyNSWAustralia
-[Signed] T. H. Hill.
+  
+ [Envelope] Mrs C Hill "Euterpe" Kurraba Rd Neutral Bay N. Sydney NSW Australia 
+ [Signed] T. H. Hill. 

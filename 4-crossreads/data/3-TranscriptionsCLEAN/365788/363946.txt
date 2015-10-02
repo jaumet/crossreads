@@ -1,4 +1,4 @@
-
-[Envelope]
-Mrs W.H. Read,"The Wurley"Cleveland St'WahroongaSydneyNew South WalesAustralia
-[Red rubber Stamp]PASSED FIELD CENSOR 2918
+  
+ [Envelope] 
+ Mrs W.H. Read, "The Wurley" Cleveland St' Wahroonga Sydney New South Wales Australia 
+ [Red rubber Stamp] PASSED FIELD CENSOR 2918 

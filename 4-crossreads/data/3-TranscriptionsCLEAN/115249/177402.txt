@@ -1,7 +1,7 @@
-
-Naval Signal
-From - Brigadier
-To - Flag
-Date 13.9.14
-Time - 6.35
-Have you any prisoners on board men-of-war.  If so can you supply total, and will you transfer to me.  I have eleven Germans & 16 natives.
+  
+ Naval Signal 
+ From - Brigadier 
+ To - Flag 
+ Date 13.9.14 
+ Time - 6.35 
+ Have you any prisoners on board men-of-war.  If so can you supply total, and will you transfer to me.  I have eleven Germans & 16 natives. 

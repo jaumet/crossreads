@@ -1,10 +1,10 @@
-
-[Messages and Signals Form]
-Recd at 7.45 pm
-Date 26/4/15
-From Minnewaski
-By TNP
-To Mashobra
-The enemy are retreating on our left flank.
-From Minnewaski
-Time 7.45 pm
+  
+ [Messages and Signals Form] 
+ Recd at 7.45 pm 
+ Date 26/4/15 
+ From Minnewaski 
+ By TNP 
+ To Mashobra 
+ The enemy are retreating on our left flank. 
+ From Minnewaski 
+ Time 7.45 pm 

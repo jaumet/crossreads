@@ -1,5 +1,5 @@
-
-War Boats escorting us from Australia to Colombo
-Australian Cruiser = Melbourne[Australian Cruiser]  = SydneyEnglish [Cruiser] " MinotorJapanese [Cruiser] " Taru-Maru
-From Colombo to Egypt
-English Cruiser = Yarmouth[English Cruiser] = Hampshire[English Cruiser]Russian [Cruiser]Japanese [Cruiser] Taru-Maru
+  
+ War Boats escorting us from Australia to Colombo 
+ Australian Cruiser = Melbourne [Australian Cruiser]  = Sydney English [Cruiser] " Minotor Japanese [Cruiser] " Taru-Maru 
+ From Colombo to Egypt 
+ English Cruiser = Yarmouth [English Cruiser] = Hampshire [English Cruiser] Russian [Cruiser] Japanese [Cruiser] Taru-Maru 

@@ -1,7 +1,7 @@
-
-Naval Signal
-Date - 12 9 14
-Time received or sent - 9.20am
-To - Brigadier
-Shall I leave twelve pounder for Beresford or return it to Sydney.
-Reply sent - Return Field Gun to Sydney
+  
+ Naval Signal 
+ Date - 12 9 14 
+ Time received or sent - 9.20am 
+ To - Brigadier 
+ Shall I leave twelve pounder for Beresford or return it to Sydney. 
+ Reply sent - Return Field Gun to Sydney 

@@ -1,7 +1,7 @@
-
-12 9 4
-5.50
-From Brigadier to OC Infantry Herbertshohe
-Send two companies to reinf support Beresford.
-Your four companies will for the present garrison Herbertshohe - and Beresford remain in possession of wireless
-5.50
+  
+ 12 9 4 
+ 5.50 
+ From Brigadier to OC Infantry Herbertshohe 
+ Send two companies to  reinf  support Beresford. 
+ You r four companies  will for the present garrison Herbertshohe - and Beresford remain in possession of wireless 
+ 5.50 

@@ -1,3 +1,3 @@
-
-Rank - Name -------- Locality ------- date ------- K or W
-Lt Col. Milne J. - Hangard rt. of Villers Bretonneux- 12/4/18 - K.Maj. McDowell - Hangard rt. of Villers Bretonneux- 12/4/18 - WCapt. McNee  - Hangard rt. of Villers Bretonneux- 12/4/18 - KLt Watson  - Hangard rt. of Villers Bretonneux- 12/4/18 - WLt. Collier  - Hangard rt. of Villers Bretonneux- 12/4/18 - KLt. Judd  - Hangard rt. of Villers Bretonneux- 18/4/18 - W.GasLt Brandreth - Hangard rt. of Villers Bretonneux-18/4/18-W.GasLt Perkins - Hangard rt. of Villers Bretonneux- 18/4/18 -W.Gas
+  
+ Rank - Name -------- Locality ------- date ------- K or W 
+ Lt Col. Milne J. - Hangard rt. of Villers Bretonneux- 12/4/18 - K. Maj. McDowell - Hangard rt. of Villers Bretonneux- 12/4/18 - W Capt. McNee  - Hangard rt. of Villers Bretonneux- 12/4/18 - K Lt Watson  - Hangard rt. of Villers Bretonneux- 12/4/18 - W Lt. Collier  - Hangard rt. of Villers Bretonneux- 12/4/18 - K Lt. Judd  - Hangard rt. of Villers Bretonneux- 18/4/18 - W.Gas Lt Brandreth - Hangard rt. of Villers Bretonneux-18/4/18-W.Gas Lt Perkins - Hangard rt. of Villers Bretonneux- 18/4/18 -W.Gas 

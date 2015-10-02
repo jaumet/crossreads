@@ -1,4 +1,4 @@
-
-ready to rotate mgzine. in bkwd. [backward] movement.  As F.A. moves to rt., left stud depresses it, stop pawl thus releasing pawl from mgzne. & allowing it to rotate on next bkwd. movement.
-Stoppages1.  Empty magazine.2. B Space in mgzine.3. C Miss-fire.4. E Damaged magazine or Broken Pawls.5. D Broken Striker.6. F Hard Extraction or2. A Friction in Bulged Cartridge.B  Friction in Cylinder3. A Fault in Feed arm.B  Broken Cartridge Guide Spring.C  Damaged Mgzine.D  Weak or Broken Return Spring.E  Broken Extractors.F  Broken Ejectors.
-Semaphore Signalling
+  
+ ready to rotate mgzine. in bkwd. [backward] movement.  As F.A. moves to rt., left stud depresses it, stop pawl thus releasing pawl from mgzne. & allowing it to rotate on next bkwd. movement. 
+ Stoppages 1.  Empty magazine. 2. B Space in mgzine. 3. C Miss-fire. 4. E Damaged magazine or Broken Pawls. 5. D Broken Striker. 6. F Hard Extraction or 2. A  Friction in  Bulged Cartridge. B  Friction in Cylinder 3. A Fault in Feed arm. B  Broken Cartridge Guide Spring. C  Damaged Mgzine. D  Weak or Broken Return Spring. E  Broken Extractors. F  Broken Ejectors. 
+ Semaphore Signalling 

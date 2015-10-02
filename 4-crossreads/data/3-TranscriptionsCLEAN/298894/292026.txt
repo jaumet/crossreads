@@ -1,9 +1,9 @@
-
-B1 IndianaB2 CalidonianB4 City of EdinburghB3 AusoniaB5 MercianB6 AtlantaB7 Arrojan Royal PktB8 AndamaB9 AluniaB10B11 Vaterland (Prize)B12 ManatouB13 MarjuaretteB14 Melville AB15 Kingstoneian
-B19 Knight of the Garter
-B21 SaturniaB22 Scotian
-XSeang ChoonGloucester Castle
-RewaDevanhaXIchad FrenchNeuralia
-E(E2) Euphoria S25E8 Unsinga
-H1 Arcadia AAH2 Braemar castle 2.N7 Alwyn CastleAN5 AyshireN3 Cawdon castleN1 InoskiN2 Braemar CastleN10 Royal GeorgeN8 MinnetonkaN6 Franconia AA S29 Onangi Branch
-S30 Lakling AS1 Edenmore LondonAS2 ComedianS 3 TrewellaraS4 EddystoneS5 Dunluce CastleS6 SantarenS24 Gilurnum AHospital ShipsNo.1 Souden, No2 RohillaSiciliaE1280 Guilford CastleACanada marseilles AAGascon,No.3 Dongala, No4 Plassy Delta, Goorkha
+  
+ B1 Indiana B2 Calidonian B4 City of Edinburgh B3 Ausonia B5 Mercian B6 Atlanta B7 Arrojan Royal Pkt B8 Andama B9 Alunia B10 B11 Vaterland (Prize) B12 Manatou B13 Marjuarette B14 Melville A B15 Kingstoneian 
+ B19 Knight of the Garter 
+ B21 Saturnia B22 Scotian 
+ XSeang Choon Gloucester Castle 
+ Rewa Devanha XIchad French Neuralia 
+ E (E2) Euphoria S25 E8 Unsinga 
+ H1 Arcadia AA  H2 Braemar castle 2.  N7 Alwyn CastleA N5 Ayshire N3 Cawdon castle N1 Inoski N2 Braemar Castle N10 Royal George N8 Minnetonka  N6 Franconia AA   S29 Onangi Branch 
+ S30 Lakling A S1 Edenmore LondonA S2 Comedian S 3 Trewellara S4 Eddystone S5 Dunluce Castle S6 Santaren S24 Gilurnum A  Hospital Ships  No.1 Souden, No2 Rohilla Sicilia E1280 Guilford CastleA Canada marseilles AA Gascon, No.3 Dongala, No4 Plassy Delta, Goorkha 

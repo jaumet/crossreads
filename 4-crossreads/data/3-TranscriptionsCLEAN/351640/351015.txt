@@ -1,5 +1,5 @@
-
-[Envelope]
-[Majestic Hotel, Alexandrie (Egypte)]
-The Misses Nash219 Macquarie StreetSydneyNew South WalesAustralia
-FrankedJ B. Nash L. ColAlexandria6-10-15
+  
+ [Envelope] 
+ [Majestic Hotel, Alexandrie (Egypte)] 
+ The Misses Nash 219 Macquarie Street Sydney New South Wales Australia 
+ Franked J B. Nash L. Col Alexandria 6-10-15 

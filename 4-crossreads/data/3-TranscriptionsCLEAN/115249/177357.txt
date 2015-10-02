@@ -1,7 +1,7 @@
-
-Naval Signal
-From - Flag
-To - Berrima
-Date - 11 9 14
-Time - 10.55
-If you cannot anchor, land your men at once
+  
+ Naval Signal 
+ From - Flag 
+ To - Berrima 
+ Date - 11 9 14 
+ Time - 10.55 
+ If you cannot anchor, land your men at once 

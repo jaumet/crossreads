@@ -1,6 +1,6 @@
-
-Key Signatures
-Key Sign in FlatsF  Bb  Eb  Ab  Db  Gb  Cb
-Corresponding Positions on StaffB  E  A  D  G  C  F
-Key Sign in SharpsG  D  A  E  B  F#  C#
-Corresponding positions on StaffF  C  G  D  A  E  B
+  
+ Key Signatures 
+ Key Sign in Flats F  Bb  Eb  Ab  Db  Gb  Cb 
+ Corresponding Positions on Staff B  E  A  D  G  C  F 
+ Key Sign in Sharps G  D  A  E  B  F#  C# 
+ Corresponding positions on Staff F  C  G  D  A  E  B 
