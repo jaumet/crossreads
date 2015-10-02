@@ -4,19 +4,28 @@ INPUT -> 8 pages from the API of SLNSW
     -> for XXX from 0 to 8:
     -> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
     -> Merge these 8 files in 1. In JSON format.
-OUTPUT -> new file: data-diaries-list.jsonS
+OUTPUT -> new file: data-diaries-list.json
 
 2) Get pages for each diary
-INPUT XML-diaries-list.xml
+INPUT data-diaries-list.json
+    run 2-getPagesList-forEachDiary.py
     -> Download all the diary details
     -> save each one in XML-diaries-list.xml/ as .json file
 OUTPUT files in 2-PagesList-forEachDiary/*.json
+
+????) from data-diaries-list.json to diaries.json
 
 3) Download Transcription
 INPUT files in 2-PagesList-forEachDiary/*.json
     -> for each file: download page info and text transcription
     -> save it .txt
 OUTPUT 80772 transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_nid].txt
+
+3bis) Download all images for each page
+INPUT: 2-PagesList-forEachDiary/[Diary-id].json
+    -> run  python  3-Download-image-PerDiary-PerPage.py
+    -> if page was not found: check for the default image, initialy set to "img/parts-of-the-leg.jpg"
+OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
 
 4) I found API inconsistencies: 
     file        2-PagesList-forEachDiary/325182.json (an 93 other files)
@@ -27,12 +36,13 @@ OUTPUT 80772 transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_n
     -> I remove all those entries
     -> Diaries now: 780
     -> API inconsitency inthis this file: http://transcripts.sl.nsw.gov.au/api/entity_node/272772
-    
-5) Download all images for each page
-INPUT: 2-PagesList-forEachDiary/[Diary-id].json
-    -> run  python  3-Download-image-PerDiary-PerPage.py
-    -> if page was not found: check for the default image, initialy set to "img/parts-of-the-leg.jpg"
-OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
+
+5) Parse diaries list and extend  diary metadata
+INPUT: "diaries-simple.json"
+    run 5-diaries-title-parser.py > diaries.json
+    Added fields: author', 'date_end', 'date_start', 'kind', 'nid', 'title', 'url'.
+    PENDING of a manual review
+OUTPUT diaries.json
 
 6) Topic model analysis with Mallet
 INPUT: all pages 3-TranscriptionsCLEAN/*
@@ -54,7 +64,7 @@ OUTPUT: final topic list and labels,
 
 
 -------------------------------
-These documents are in the collection but are not related to WWI-Diaries. I'm not including them in the visualization:
+NOTE: These documents are in the collection but are not related to WWI-Diaries. These are not included in the visualization:
 
 http://transcripts.sl.nsw.gov.au/api/entity_node/369991/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
 http://transcripts.sl.nsw.gov.au/api/entity_node/369992/?fields=nid,title,record_number,percentage_unlocked,transcript_pages
