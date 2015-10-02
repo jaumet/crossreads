@@ -1,6 +1,6 @@
-
-Naval Signal
-From - Flag
-To - General
-Time - 7.10
-Proceed 10 knots
+ [Page 47] 
+ Naval Signal 
+  From - Flag  
+  To - General  
+  Time - 7.10  
+  Proceed 10 knots  

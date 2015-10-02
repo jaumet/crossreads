@@ -1,23 +1,23 @@
-[Page 12]
-DATE &ndash; TIME &ndash; PLACE - REMARKS
-28 &ndash; Congratulations from Army Corps and Divisional Commanders.
-March 1 &ndash; Dernancourt &ndash; Bn. moved from Bernefay Wood to Dernancourt.
-8 &ndash; Shelter Wood &ndash; Bn. moved to shelter wood Camp.
-23 &ndash; Bresle &ndash; Bn. moved to Bresle.
-24/31 &ndash; Bresle &ndash; Training.
-29 &ndash; Bresle &ndash; Platoon competition.
-April 4 &ndash; Montauban &ndash; March to Montab Montauban.
-5 &ndash; Fremincourt &ndash; Marched to Fremincourt (Relieved 29th Batt. Corps Reserve).
-7 &ndash; Line &ndash; Louverval, marched to line.  Louverval releived 12th Batt. 2 Coys.
-9 &amp; 10 &ndash; Line &ndash; Line advanced.
-11/12 &ndash; Line &ndash; Releived by 11th Battalion.
-12 &ndash; Bgde. Support
-15 &ndash; Lagnicourt &ndash; Heavy enemy attack on front line.
-16/17 &ndash; Lagnicourt &ndash; Releived by 7th Battalion.
-17 &ndash; Le Bucquier &ndash; Moved to Le Bucquier.
-24 &ndash; Moved to Bancourt (billets).
-27 &ndash; Col. Jacobs proceeded on leave.  Maj. Steele temp. command.
-29 &ndash; Voting.
-May 1/4 - Fatigues and salvage.
-4 &ndash; Bn. moved via Fremincourt to Trenches.
-5/9 &ndash; Bullecourt &ndash; Releived 8/9 by 59 Division 53 Battalion (English).
+ [Page 12] 
+ DATE &ndash; TIME &ndash; PLACE - REMARKS 
+ 28 &ndash; Congratulations from Army Corps and Divisional Commanders. 
+ March 1 &ndash; Dernancourt &ndash; Bn. moved from Bernefay Wood to Dernancourt. 
+ 8 &ndash; Shelter Wood &ndash; Bn. moved to shelter wood Camp. 
+ 23 &ndash; Bresle &ndash; Bn. moved to Bresle. 
+ 24/31 &ndash; Bresle &ndash; Training. 
+ 29 &ndash; Bresle &ndash; Platoon competition. 
+ April 4 &ndash; Montauban &ndash; March to  Montab  Montauban. 
+ 5 &ndash; Fremincourt &ndash; Marched to Fremincourt (Relieved 29th Batt. Corps Reserve). 
+ 7 &ndash; Line &ndash; Louverval, marched to line.  Louverval releived 12th Batt. 2 Coys. 
+ 9 &amp; 10 &ndash; Line &ndash; Line advanced. 
+ 11/12 &ndash; Line &ndash; Releived by 11th Battalion. 
+ 12 &ndash; Bgde. Support 
+ 15 &ndash; Lagnicourt &ndash; Heavy enemy attack on front line. 
+ 16/17 &ndash; Lagnicourt &ndash; Releived by 7th Battalion. 
+ 17 &ndash; Le Bucquier &ndash; Moved to Le Bucquier. 
+ 24 &ndash; Moved to Bancourt (billets). 
+ 27 &ndash; Col. Jacobs proceeded on leave.  Maj. Steele temp. command. 
+ 29 &ndash; Voting. 
+ May 1/4 - Fatigues and salvage. 
+ 4 &ndash; Bn. moved via Fremincourt to Trenches. 
+ 5/9 &ndash; Bullecourt &ndash; Releived 8/9 by  59 Division  53 Battalion (English). 

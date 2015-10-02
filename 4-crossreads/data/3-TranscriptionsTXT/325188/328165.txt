@@ -1,4 +1,4 @@
-
-"R" SquadronNo 1 Sub-SectionNo 1 Outpost
-20th November 1915Inventory "R" SquadronRifles firing mark II - 73"with magnifying sight - 0"with silencer - 1Rockets - 12Pistols, Verey - 1Ignition sticks - 12Standard rifle, Wallaby - 1Loop Holes, iron - 0Picks - 18Shovels - 19 Slachers- 3Wire cutters - 2Barb wire - 0Sand Bags (on hand) - 250Torches Hand Flares - 6Gas Helmet - 74Respirators - 0
-BombsPitcher - 1Cricket Balls - 82Jam Tins - 89Strikers - 17Flares - 6Ball Grenades - 70Pairs Gum Boots - 2Gas Spray - 1Capes
+ [Page 57] 
+ "R" Squadron No 1 Sub-Section No 1 Outpost 
+ 20th November 1915 Inventory "R" Squadron Rifles firing mark II &ndash; 73 "with magnifying sight &ndash; 0 "with silencer &ndash; 1 Rockets &ndash; 12 Pistols, Verey &ndash; 1 Ignition sticks - 12 Standard rifle, Wallaby &ndash; 1 Loop Holes, iron &ndash; 0 Picks &ndash; 18 Shovels &ndash; 19  Slachers&ndash; 3 Wire cutters &ndash; 2 Barb wire &ndash; 0 Sand Bags (on hand) &ndash; 250  Torches  Hand Flares &ndash; 6 Gas Helmet &ndash; 74 Respirators &ndash; 0 
+  Bombs  Pitcher &ndash; 1 Cricket Balls &ndash;  8 2 Jam Tins &ndash; 89 Strikers &ndash; 17  Flares  &ndash;  6  Ball Grenades &ndash; 70 Pairs Gum Boots &ndash; 2 Gas Spray &ndash; 1 Capes 

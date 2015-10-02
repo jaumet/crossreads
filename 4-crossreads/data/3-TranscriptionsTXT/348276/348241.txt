@@ -1,12 +1,12 @@
-[Page 42]
-War Diary
-Daily State &ndash; 26th October.
-B. H.Qrs.  Effective Strength  &ndash; Offs. 5; O.R. 15; Total  20Killed &ndash; Offs. nil; O.R.  nilWounded &ndash; Offs. 2; Or. 1Sick &ndash; Offs. 1; O.R.  20Mssg. &ndash; nilTrans. -- 1Total &ndash; 24
-Signal Troop.  Effective Strength &ndash; Offs. nil; O.R. 22  Total  22Killed &ndash; Offs. nil; O.R. nilWounded &ndash; Offs. 1; Or. nilSick &ndash; Offs. nil; O.R.  27Mssg. &ndash; nilTrans - nilTotal &ndash; 28
-8th L.H. Regt.  Effective Strength &ndash; Offs. 12; O.R. 174; Total  186Killed &ndash; Offs. 16; O.R.  187Wounded &ndash; Offs. 3; Or. 121Sick &ndash; Offs. 10; O.R.  244Mssg. &ndash; nilTrans. &ndash; 5Total - 586
-9th L.H. Regt.   Effective Strength &ndash; Offs. 18; O.R. 387; Total  405Killed &ndash; Offs. 6; O.R.  54Wounded &ndash; Offs. 3; Or. 148Sick &ndash; Offs. 13; O.R.  303Mssg. &ndash; 17Trans. &ndash; 6Total - 550
-10th L.H. Regt.  Effective Strength &ndash; Offs. 12; O.R. 273; Total  285Killed &ndash; Offs. 12; O.R. 102Wounded &ndash; Offs. 12; Or. 157Sick &ndash; Offs. 10; O.R.  257Mssg. &ndash; 12Trans. &ndash; 8Total &ndash; 570
-Total   Effective Strength &ndash; Offs.47; O.R. 871; Total  918Killed &ndash; Offs. 34; O.R. 343Wounded &ndash; Offs. 20; Or. 427Sick &ndash; Offs. 34; O.R. 851Missing &ndash; 29Trans. &ndash; 20Total - 1758
-Total landed to 25/10/15 - 2508Re-enforcements to 25/10/15 &ndash; 170[Total]  2678
-Effective strength - 918[Total] 1760
-Summary:-Killed 377, Wounded  447, Sick 885 (away 1332), Missing  29, Transferred. 20,  On command 2[Total] 1760
+ [Page 42] 
+ War Diary 
+ Daily State &ndash; 26th October. 
+ B. H.Qrs.  Effective Strength  &ndash; Offs. 5; O.R. 15; Total  20 Killed &ndash; Offs. nil; O.R.  nil Wounded &ndash; Offs. 2; Or. 1 Sick &ndash; Offs. 1; O.R.  20 Mssg. &ndash; nil Trans. -- 1 Total &ndash; 24 
+ Signal Troop.  Effective Strength &ndash; Offs. nil; O.R. 22  Total  22 Killed &ndash; Offs. nil; O.R. nil Wounded &ndash; Offs. 1; Or. nil Sick &ndash; Offs. nil; O.R.  27 Mssg. &ndash; nil Trans - nil Total &ndash; 28 
+ 8th L.H. Regt.  Effective Strength &ndash; Offs. 12; O.R. 174; Total  186 Killed &ndash; Offs. 16; O.R.  187 Wounded &ndash; Offs. 3; Or. 121 Sick &ndash; Offs. 10; O.R.  244 Mssg. &ndash; nil Trans. &ndash; 5 Total - 586 
+ 9th L.H. Regt.   Effective Strength &ndash; Offs. 18; O.R. 387; Total  405 Killed &ndash; Offs. 6; O.R.  54 Wounded &ndash; Offs. 3; Or. 148 Sick &ndash; Offs. 13; O.R.  303 Mssg. &ndash; 17 Trans. &ndash; 6 Total - 550 
+ 10th L.H. Regt.  Effective Strength &ndash; Offs. 12; O.R. 273; Total  285 Killed &ndash; Offs. 12; O.R. 102 Wounded &ndash; Offs. 12; Or. 157 Sick &ndash; Offs. 10; O.R.  257 Mssg. &ndash; 12 Trans. &ndash; 8 Total &ndash; 570 
+ Total   Effective Strength &ndash; Offs.47; O.R. 871; Total  918 Killed &ndash; Offs. 34; O.R. 343 Wounded &ndash; Offs. 20; Or. 427 Sick &ndash; Offs. 34; O.R. 851 Missing &ndash; 29 Trans. &ndash; 20 Total - 1758 
+ Total landed to 25/10/15 - 2508 Re-enforcements to 25/10/15 &ndash; 170 [Total]  2678 
+ Effective strength - 918 [Total] 1760 
+ Summary:- Killed 377, Wounded  447, Sick 885 (away 1332), Missing  29, Transferred. 20,  On command 2 [Total] 1760 

@@ -1,11 +1,11 @@
-
-BattleshipsH.M.S. Queen ElizabethQueen (Flagship)LondonPrince of WalesTriumph xMajestic xAgamennonImplacableOcean xLord NelsonVengeanceAlbionGoliath xSwiftsureCornwallis CanopusPrince GeorgeIrrisistable x4AAAA Cruisers 1st ClassB AschanteEuryalus
-Battle CruiserInflexible
- Cruise 3rd ClassBlenheimAdamant
-Country Class Cruiser
-DartmouthDublin
-Protected Cruiser 3rd
-TalbotDorisMinervaSapphireAmethyst
-GunboatsHussar
-Torpedo Boat Destroyr
-BeagleBullDofColneChelmerFozhoundRibbleScourgeUsk
+ [Page 161] 
+  Battleships  H.M.S. Queen Elizabeth Queen (Flagship) London Prince of Wales Triumph x Majestic x Agamennon Implacable Ocean x Lord Nelson Vengeance Albion Goliath x Swiftsure Cornwallis  Canopus Prince George Irrisistable x  4AAAA Cruisers 1st Class  B Aschante Euryalus 
+  Battle Cruiser  Inflexible 
+   Cruise 3rd Class  Blenheim Adamant 
+  Country Class Cruiser  
+ Dartmouth Dublin 
+  Protected Cruiser 3rd  
+ Talbot Doris Minerva Sapphire Amethyst 
+  Gunboats  Hussar 
+  Torpedo Boat Destroyr  
+ Beagle BullDof Colne Chelmer Fozhound Ribble Scourge Usk 

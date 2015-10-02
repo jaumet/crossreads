@@ -1,4 +1,4 @@
-
-Nominal Roll No. 2 Platoon
-No. - Rank - Name - Remks.
-3033 - Pt. - Garvin, W.J. - Q.M. Stores5344 - Pt. - Brewer, B.V. - C.Q.M. Stores2558 - Pt. - Ahrenfeld, R. - C.Q.M. Stores2556 - Pt. - Euring, J. - P.3381 - Pt. - Kornfeld, R.L. - P.1624 - Pt. - Bundy, A.A. - P.461 - Pt. - Duncanson, N. - E.1893, Pt. Currie, R.J., In Hospital1451 - Pt. - Lincoln, C. - G.959 - Cpl. - Bolton, J.1100 - Cpl. - Cheers, J.H. - G.1917 - Cpl. - Fitzpatrick - E.778 - L/C - Westward, H.J. - Sanitry Fat.18699 - Pt. - MacKenzie, R. - E.18646 - Pte. - Corbett, T.J. - Y.M.C.A.1570 - Pte. - Middlemass, F. - Sanitary Fat.
+ [Page 43] 
+ Nominal Roll No. 2 Platoon 
+ No. &ndash; Rank &ndash; Name &ndash; Remks. 
+ 3033 &ndash; Pt. &ndash; Garvin, W.J. &ndash; Q.M. Stores 5344 &ndash; Pt. &ndash; Brewer, B.V. &ndash; C.Q.M. Stores 2558 &ndash; Pt. - Ahrenfeld, R. &ndash; C.Q.M. Stores 2556 &ndash; Pt. - Euring, J. &ndash; P. 3381 &ndash; Pt. - Kornfeld, R.L. &ndash; P. 1624 &ndash; Pt. &ndash; Bundy, A.A. &ndash; P. 461 &ndash; Pt. &ndash; Duncanson, N. &ndash; E.  1893, Pt. Currie, R.J., In Hospital  1451 &ndash; Pt. &ndash; Lincoln, C. &ndash; G. 959 &ndash; Cpl. &ndash; Bolton, J. 1100 &ndash; Cpl. &ndash; Cheers, J.H. &ndash; G. 1917 &ndash; Cpl. &ndash; Fitzpatrick &ndash; E. 778 &ndash; L/C &ndash; Westward, H.J. &ndash; Sanitry Fat. 18699 &ndash; Pt. &ndash; MacKenzie, R. &ndash; E. 18646 &ndash; Pte. &ndash; Corbett, T.J. &ndash; Y.M.C.A. 1570 &ndash; Pte. &ndash; Middlemass, F. &ndash; Sanitary Fat. 

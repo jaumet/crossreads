@@ -1,3 +1,3 @@
-
-Abbreviations -P means plus, fire is going 50 yds. too far.M minus, fire going 50 yds. too short.R Range Correct.L Fire has been observed to left of target.T  Fire observed to right of target.C  Centre or correct.U  Fire unobserved.Erase or annul, signalling not understood.
-[See image for drawings of above Semaphore Signals.]
+ [Page 71] 
+ Abbreviations &ndash; P means plus, fire is going 50 yds. too far. M minus, fire going 50 yds. too short. R Range Correct. L Fire has been observed to left of target. T  Fire observed to right of target. C  Centre or correct. U  Fire unobserved. Erase or annul, signalling not understood. 
+ [See image for drawings of above Semaphore Signals.] 

@@ -1,7 +1,7 @@
-
-From - Flag
-To - Administrator
-Date - 23/9/14
-Time - 9.0
-VA does not wish you to wear sword.
-0855
+ [Page 188] 
+ From - Flag 
+ To - Administrator 
+ Date - 23/9/14 
+ Time - 9.0 
+ VA does not wish you to wear sword. 
+ 0855 

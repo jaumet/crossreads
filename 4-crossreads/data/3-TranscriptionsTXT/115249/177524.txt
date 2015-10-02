@@ -1,8 +1,8 @@
-
-Naval Signal
-From - Shore
-To - Brigadier
-Naval & Mil Exp
-Date - 12/9/14
-Time - 1.57
-Assistant Doctor Steaneke requires pass to visit front to attend to wounded.  Can I allow him to proceed.
+ [Page 227] 
+ Naval Signal 
+ From - Shore 
+ To - Brigadier 
+ Naval &amp; Mil Exp 
+ Date - 12/9/14 
+ Time - 1.57 
+ Assistant Doctor Steaneke&nbsp;requires pass to visit front to attend to wounded. &nbsp;Can I allow him to proceed. 

@@ -1,8 +1,8 @@
-
-Naval Signal
-From - Encounter
-To - Berrima
-Date - 14 9 4
-Time - 
-has Brigadier returned yet Please
-1715
+ [Page 316] 
+ Naval Signal 
+ From - Encounter 
+ To - Berrima 
+ Date - 14&nbsp;9&nbsp;4 
+ Time -&nbsp; 
+ has Brigadier returned yet Please 
+ 1715 

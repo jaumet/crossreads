@@ -1,7 +1,7 @@
-
-Naval Signal
-From - Flag
-To - General
-Date - 13 9 4
-Time - 7.40 20
-Report at once number of prisoners of war on board (0745)
+ [Page 109] 
+ Naval Signal 
+ From - Flag 
+ To - General 
+ Date - 13 9 4 
+ Time - 7. 40 &nbsp;20 
+ Report at once number of prisoners of war on board (0745) 

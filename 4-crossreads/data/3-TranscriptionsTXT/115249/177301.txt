@@ -1,8 +1,8 @@
-
- 
-Naval Signal
-From - Shore
-To - Col Howse
-Date - 11 9 4
-Time - 352
-Have made all necessary arrangements.
+ [Page 4] 
+ &nbsp; 
+ Naval Signal 
+ From - Shore 
+ To - Col Howse 
+ Date - 11 9 4 
+ Time - 352 
+ Have made all necessary arrangements. 

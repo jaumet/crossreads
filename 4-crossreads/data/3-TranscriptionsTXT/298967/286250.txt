@@ -1,21 +1,21 @@
-[Page 2]
-DATE &ndash; TIME &ndash; PLACE &ndash; REMARKS
-9 - 11.15 a.m. &ndash; At Sea - Message "Emden beached and done for".
-15 &ndash; 12.00 &ndash; Colombo - Arrived Colombo.  Left on 17th and collision with "Shropshire".
-25 &ndash; 12.00 &ndash; Aden &ndash; Arrived Aden.
-26 &ndash; 12.00 &ndash; Aden &ndash; Left Aden.
-30 &ndash; 12.00 &ndash; Suez &ndash; Arrived Suez.
-DEC. 1 &ndash; 12.00 &ndash; Suez &ndash; Left Suez.
-2 &ndash; 12.00 &ndash; Pt. Said &ndash; Arrived Pt. Said.
-4 &ndash; 12.00 &ndash; Pt. Said &ndash; Left Pt. Said.
-5 &ndash; 7 P.M. &ndash; Alexandria &ndash; Arrived Alexandria.
-6 &ndash; 4 P.M. &ndash; Alexandria &ndash; Reached wharf.
-7 &ndash; 4 P.M. &ndash; Mena &ndash; Disembarked and entrained to "Cairo" Mena Camp.
-1915
-Feb. 7/28 - Alexandria &ndash; Left Mena, marched to Cairo entrained to Alexandria.
-4 P.M. &ndash; Ionian &ndash; Embarked with 9th Battalion.
-March 1 &ndash; 8 A.M. &ndash; Ionian &ndash; Left Alexandria.
-2 &ndash; At Sea
-4 &ndash; 7 P.M. - Lemnos &ndash; Arrived Lemnos (about 2,000 troops transport in separate ship).
-6 &ndash; 7 A.M. &ndash; Lemnos &ndash; 9th Batt. disembarked 10th remained on IONIAN 7 weeks.
-23 &ndash; Lemnos &ndash; Training practising landings &amp; ect.
+ [Page 2] 
+ DATE &ndash; TIME &ndash; PLACE &ndash; REMARKS 
+ 9 - 11.15 a.m. &ndash; At Sea - Message "Emden beached and done for". 
+ 15 &ndash; 12.00 &ndash; Colombo - Arrived Colombo.  Left on 17th and collision with "Shropshire". 
+ 25 &ndash; 12.00 &ndash; Aden &ndash; Arrived Aden. 
+ 26 &ndash; 12.00 &ndash; Aden &ndash; Left Aden. 
+ 30 &ndash; 12.00 &ndash; Suez &ndash; Arrived Suez. 
+ DEC. 1 &ndash; 12.00 &ndash; Suez &ndash; Left Suez. 
+ 2 &ndash; 12.00 &ndash; Pt. Said &ndash; Arrived Pt. Said. 
+ 4 &ndash; 12.00 &ndash; Pt. Said &ndash; Left Pt. Said. 
+ 5 &ndash; 7 P.M. &ndash; Alexandria &ndash; Arrived Alexandria. 
+ 6 &ndash; 4 P.M. &ndash; Alexandria &ndash; Reached wharf. 
+ 7 &ndash; 4 P.M. &ndash; Mena &ndash; Disembarked and entrained to "Cairo" Mena Camp. 
+  1915  
+ Feb. 7/28 - Alexandria &ndash; Left Mena, marched to Cairo entrained to Alexandria. 
+ 4 P.M. &ndash; Ionian &ndash; Embarked with 9th Battalion. 
+ March 1 &ndash; 8 A.M. &ndash; Ionian &ndash; Left Alexandria. 
+ 2 &ndash; At Sea 
+ 4 &ndash; 7 P.M. - Lemnos &ndash; Arrived Lemnos (about 2,000 troops transport in separate ship). 
+ 6 &ndash; 7 A.M. &ndash; Lemnos &ndash; 9th Batt. disembarked 10th remained on IONIAN 7 weeks. 
+ 23 &ndash; Lemnos &ndash; Training practising landings &amp; ect. 

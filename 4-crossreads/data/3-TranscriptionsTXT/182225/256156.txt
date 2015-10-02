@@ -1,6 +1,6 @@
-a6575020.html
-MAY 1916
- 
-TH  25  Father
-F  26  Dad.
-S  27  Linda
+ a6575020.html 
+ MAY 1916 
+ &nbsp; 
+ TH &nbsp;25 &nbsp;Father 
+ F &nbsp;26 &nbsp;Dad. 
+ S &nbsp;27 &nbsp;Linda 

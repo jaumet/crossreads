@@ -1,18 +1,18 @@
-
-STATISTICS
-1.7.1918 to 31.10.1918
-Number of Hours flown - July: 727 - August: 512 - September: 8661/2 - October: 757 - Total: 28621/2.
-Number of Strategical Reconaissances - July: 37 - August: 31 - September: 53 - October: 36 - Total: 157.
-Number of Photographic Reconaissances - July: 24 - August: 39 - September: 8 - October: 6 - Total: 77.
-Number of Special Reconaissances - July: 0 - August: 0 - September: 2 - October: 1 - Total: 3.
-Number of Plates Exposed - July: 524 - August: 959 - September: 387 - October: 33 - Total: 1903.
-Number of Prints produced - July: 7028 - August: 7068 - September: 6233 - October: 1250 - Total: 21581.
-Number of Aspect Exposures - July: 43 - August: 0 - September: 104 - October: 20 - Total: 167.
-Number of Machine Gun attacks on ground targets - July: 31 - August: 24 - September - 136 - October: 9 - Total: 200.
-Number of Aerial Combats - July: 14 - August: 15 - September: 8 - October: 3 - Total: 40.
-Number of Rounds fired - July: 49835 - August: 43504 - September: 116684 - October: 32000 - Total: 241023.
-Number of Bomb Raids - July: 1 - August: 1 - September: 140 - October: 8 - Total: 150.
-Weight of Bombs dropped - Lbs. - July: 250 -August: 1080 - September: 41618 - October: 4000 - Total 46948.
-Number of Escorts to bomb raids - July: 31 - August: [Page 15 - September: 5 - October: 0 - Total: 51.
-Area photographed - July: 156 - August: 384 - September: 64 - October: 0 - Total: 604.
-Number of Enemy Air-craft patrols - July: 140 - August: 74 - September: 59 - October:  0 - Total: 273.
+ [Page 61] 
+ STATISTICS 
+ 1.7.1918 to 31.10.1918 
+ Number of Hours flown - July: 727 - August: 512 - September: 866&frac12; - October: 757 - Total: 2862&frac12;. 
+ Number of Strategical Reconaissances &ndash; July: 37 - August: 31 &ndash; September: 53 &ndash; October: 36 &ndash; Total: 157. 
+ Number of Photographic Reconaissances &ndash; July: 24 &ndash; August: 39 &ndash; September: 8 &ndash; October: 6 &ndash; Total: 77. 
+ Number of Special Reconaissances &ndash; July: 0 &ndash; August: 0 &ndash; September: 2 &ndash; October: 1 &ndash; Total: 3. 
+ Number of Plates Exposed - July: 524 &ndash; August: 959 &ndash; September: 387 &ndash; October: 33 &ndash; Total: 1903. 
+ Number of Prints produced &ndash; July: 7028 &ndash; August: 7068 - September: 6233 &ndash; October: 1250 &ndash; Total: 21581. 
+ Number of Aspect Exposures &ndash; July: 43 &ndash; August: 0 &ndash; September: 104 &ndash; October: 20 &ndash; Total: 167. 
+ Number of Machine Gun attacks on ground targets &ndash; July: 31 &ndash; August: 24 &ndash; September &ndash; 136 &ndash; October: 9 &ndash; Total: 200. 
+ Number of Aerial Combats &ndash; July: 14 &ndash; August: 15 &ndash; September: 8 &ndash; October: 3 &ndash; Total: 40. 
+ Number of Rounds fired &ndash; July: 49835 &ndash; August: 43504 &ndash; September: 116684 &ndash; October: 32000 &ndash; Total: 241023. 
+ Number of Bomb Raids &ndash; July: 1 &ndash; August: 1 &ndash; September: 140 &ndash; October: 8 &ndash; Total: 150. 
+ Weight of Bombs dropped &ndash; Lbs. &ndash; July: 250 &ndash;August: 1080 &ndash; September: 41618 &ndash; October: 4000 &ndash; Total 46948. 
+ Number of Escorts to bomb raids &ndash; July: 31 &ndash; August: [Page 15 &ndash; September: 5 &ndash; October: 0 &ndash; Total: 51. 
+ Area photographed &ndash; July: 156 &ndash; August: 384 &ndash; September: 64 &ndash; October: 0 &ndash; Total: 604. 
+ Number of Enemy Air-craft patrols &ndash; July: 140 &ndash; August: 74 &ndash; September: 59 &ndash; October:  0 &ndash; Total: 273. 

@@ -1,206 +1,206 @@
-
-
-
-Arrive
-Place.
-
-Distance from
-last port.
-
-Coal
-Depart
-Remarks.
-
-
-
-
-10.12.14
-
-Pinas Bay, Colombia to Panama & back.
-
-
-1156
-242
-
-
-1496
-
-10.12.14
- 
-
-
-11.12.14
-Pinas Bay.
- 
-1350
-14.12.14
- 
-
-
-18.12.14
-Callao, Peru.
-1349
- 
-19.12.14
- 
-
-
-26.12.14
-Valparaiso.
-1999
-2309
-27.12.14
-
-Called at San Felix
-en route
-
-
-31.12.14
-Magellan Straits.
-1532
- 
-1. 1.15
-
-
-3. 1.15
-
-Port Stanley.
-Falkland Islands.
-
-542
-
-1900
-
-5. 1.15
-
-Total distance run for 1914 - 35999
-
-
-
-11. 1.15
-Abrollos Rocks
-2258
-1426
-12. 1.15
-
-
-19. 1.15
-St. Vincent, C.V.
-2284
-
-1497
-(54241)
-
-20. 1.15
- 
-
-
-28. 1.15
-Plymouth
-
-2250
-(59614)
-
-2211
-12. 2.15
-
-Total distance for war 1914 - 30746. Docked.
-
-
-
-17. 2.15
-Rosyth, Queensferry.
-1617
-
-1578
-248
-
- 7. 3.15
-
-
-10. 3.15
-
-North Sea for Exercise
-
-838
-
-1230
-272
-
-29. 3.15
-
-
-9. 3.15
-
-North Sea for firing
-
-1138
-1210
-11. 4.15
- 
-
-
-30. 3.15
-
-North Sea for enemy search.
-
-187
-370
- 5. 4.15
- 
-
-
-14. 4.15
-
-North Sea for Patrol.
-
-1091
-920
-17. 4.15
- 
-
-
-20. 4.15
-
-North Sea for enemy search.
-
-816
-910
-21. 4.15
- 
-
-
-23. 4.15
-Rosyth-North Sea-R.
-853
-290
-17. 5.15
- 
-
-
-18. 5.15
-Rosyth-North Sea-R.
-470
-577
-29. 5.15
- 
-
-
-31.5.15.
-Rosyth-North Sea-R.
-484
-730.
  
  
-
-
+ 
+ Arrive 
+ Place. 
+ 
+ Distance from 
+ last port. 
+ 
+ Coal 
+ Depart 
+ Remarks. 
  
  
  
  
+ 10.12.14 
+ 
+ Pinas Bay, Colombia to Panama &amp; back. 
  
  
-
-
-
+ 1156 
+ 242 
  
+ 
+ 1496 
+ 
+ 10.12.14 
+ &nbsp; 
+ 
+ 
+ 11.12.14 
+ Pinas Bay. 
+ &nbsp; 
+ 1350 
+ 14.12.14 
+ &nbsp; 
+ 
+ 
+ 18.12.14 
+ Callao, Peru. 
+ 1349 
+ &nbsp; 
+ 19.12.14 
+ &nbsp; 
+ 
+ 
+ 26.12.14 
+ Valparaiso. 
+ 1999 
+ 2309 
+ 27.12.14 
+ 
+ Called at San Felix 
+ en route 
+ 
+ 
+ 31.12.14 
+ Magellan Straits. 
+ 1532 
+ &nbsp; 
+ 1. 1.15 
+ 
+ 
+ 3. 1.15 
+ 
+ Port Stanley. 
+ Falkland Islands. 
+ 
+ 542 
+ 
+ 1900 
+ 
+ 5. 1.15 
+ 
+ Total distance run for 1914 - 35999 
+ 
+ 
+ 
+ 11. 1.15 
+ Abrollos Rocks 
+ 2258 
+ 1426 
+ 12. 1.15 
+ 
+ 
+ 19. 1.15 
+ St. Vincent, C.V. 
+ 2284 
+ 
+ 1497 
+ (54241) 
+ 
+ 20. 1.15 
+ &nbsp; 
+ 
+ 
+ 28. 1.15 
+ Plymouth 
+ 
+ 2250 
+ (59614) 
+ 
+ 2211 
+ 12. 2.15 
+ 
+ Total distance for war 1914 - 30746. Docked. 
+ 
+ 
+ 
+ 17. 2.15 
+ Rosyth, Queensferry. 
+ 1617 
+ 
+ 1578 
+ 248 
+ 
+ &nbsp;7. 3.15 
+ 
+ 
+ 10. 3.15 
+ 
+ North Sea for Exercise 
+ 
+ 838 
+ 
+ 1230 
+ 272 
+ 
+ 29. 3.15 
+ 
+ 
+ 9. 3.15 
+ 
+ North Sea for firing 
+ 
+ 1138 
+ 1210 
+ 11. 4.15 
+ &nbsp; 
+ 
+ 
+ 30. 3.15 
+ 
+ North Sea for enemy search. 
+ 
+ 187 
+ 370 
+ &nbsp;5. 4.15 
+ &nbsp; 
+ 
+ 
+ 14. 4.15 
+ 
+ North Sea for Patrol. 
+ 
+ 1091 
+ 920 
+ 17. 4.15 
+ &nbsp; 
+ 
+ 
+ 20. 4.15 
+ 
+ North Sea for enemy search. 
+ 
+ 816 
+ 910 
+ 21. 4.15 
+ &nbsp; 
+ 
+ 
+ 23. 4.15 
+ Rosyth-North Sea-R. 
+ 853 
+ 290 
+ 17. 5.15 
+ &nbsp; 
+ 
+ 
+ 18. 5.15 
+ Rosyth-North Sea-R. 
+ 470 
+ 577 
+ 29. 5.15 
+ &nbsp; 
+ 
+ 
+ 31.5.15. 
+ Rosyth-North Sea-R. 
+ 484 
+ 730. 
+ &nbsp; 
+ &nbsp; 
+ 
+ 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ 
+ 
+ 
+ &nbsp; 
