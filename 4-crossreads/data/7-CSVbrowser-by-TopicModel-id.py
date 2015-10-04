@@ -4,7 +4,7 @@ import operator
 
 # Open csv file and sorted it
 def sortFilterPrint(id, num, order):
-    file = '6-Mallet-results/crossreads_compostion.txt'
+    file = '6-Mallet-results/crossreads4_compostion.txt'
     #file = '6-Mallet-results/test.csv'
     mycsv = csv.reader(open(file),delimiter=',')
     print "###"
@@ -14,7 +14,7 @@ def sortFilterPrint(id, num, order):
 
     # Get every page path/filename
     for item in sortedlist[:int(num)]:
-        new = item[1].replace('file:/var/www/crossreads/4-crossreads/data/3-TranscriptionsCLEAN/', '3-TranscriptionsCLEAN/')
+        new = item[1].replace('file:/home/jaume/apps/Mallet/TranscriptionsCLEAN/', '3-Transcriptions/')
         print new+"\t"+item[0]+"\t"+item[int(id)+2]
         page = open(new, 'r')
         print page.read()

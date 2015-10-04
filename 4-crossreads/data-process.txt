@@ -1,12 +1,12 @@
 
-1) Get the list of diaries 100% transcribed 
+1) DONE Get the list of diaries 100% transcribed 
 INPUT -> 8 pages from the API of SLNSW
     -> for XXX from 0 to 8:
     -> get: http://transcripts.sl.nsw.gov.au/api/entity_node/?fields=nid,title,url,percentage_unlocked,record_number&parameters[collection]=4&parameters[type]=transcipt_document&page=XXX&pagesize=500&sort=percentage_unlocked&direction=ASC
     -> Merge these 8 files in 1. In JSON format.
 OUTPUT -> new file: data-diaries-list.json
 
-2) Get pages for each diary
+2) DONE Get pages for each diary
 INPUT data-diaries-list.json
     run 2-getPagesList-forEachDiary.py
     -> Download all the diary details
@@ -15,19 +15,19 @@ OUTPUT files in 2-PagesList-forEachDiary/*.json
 
 ????) from data-diaries-list.json to diaries.json
 
-3) Download Transcription
+3) DONE Download Transcription
 INPUT files in 2-PagesList-forEachDiary/*.json
     -> for each file: download page info and text transcription
     -> save it .txt
 OUTPUT 80772 transcriptions as txt files in 3-transcriptions/[diary_nid]/[page_nid].txt
 
-3bis) Download all images for each page
+3bis) DONE Download all images for each page
 INPUT: 2-PagesList-forEachDiary/[Diary-id].json
     -> run  python  3-Download-image-PerDiary-PerPage.py
     -> if page was not found: check for the default image, initialy set to "img/parts-of-the-leg.jpg"
 OUTPUT jpg files one per each page in 3-Transcriptions/[Diary-id]/[page-id].jpg
 
-4) I found API inconsistencies: 
+4) DONE I found API inconsistencies: 
     file        2-PagesList-forEachDiary/325182.json (an 93 other files)
     and file    2-PagesList-forEachDiary/182219.json (and 668 other files)
     have different JSON structure (!)
@@ -43,24 +43,40 @@ INPUT: "diaries-simple.json"
     Added fields: author', 'date_end', 'date_start', 'kind', 'nid', 'title', 'url'.
     PENDING of a manual review
 OUTPUT diaries.json
+    -> manual edition of diaries.json. Tasks done:
+        * Correct not well parsed data
+        * As a first approach (later can be easily converted to general categories), I did chosse broad names for the propierty 'kind'.  For example: "letters from Gallipolli", instead of just "letters"
+        * Format has been converted to correct JSON.
+        * Notes on using the data:
+            > if date_start is "":
+                if date_end is [only a year]:
+                    date_start = date_end #put a year long diary 
 
-6) Topic model analysis with Mallet
+6) DONE Topic model analysis with Mallet
 INPUT: all pages 3-TranscriptionsCLEAN/*
     > run mallet: check Mallet-commands.txt
     > Analysis done: 30, 50 and 100 topics. 
     > Human labelling has been tested for 30, 50 and 100 topics. 100 topics includes more and more specific topics. 
 
-7)  Browser for topic models pages. Get n pages from topic model i, sort descendint or ascending.
-INPUT: '6-Mallet-results/topics50/crossreads_compostion.cvs'
+7) DONE Browser for topic models pages. Get n pages from topic model i, sort descendint or ascending.
+INPUT: 6-Mallet-results/topics50/crossreads_compostion.cvs'
     -> run 7-TopicMode-CSVbrowser.py [TM id] [Num pages] [desc/asc]
 OUTPUT (in console) text of [num pages] sorted by [TM id]. [desc/asc]/ This output is thrown to a files for each TM, in version desc and asc. These will be precalculated files offered later in the interface. 
 
 8) Check empty pages, and decide what to do 
 
-9) Review labelling using:
+9) DONE Review labelling using:
     * Mallet-results/topics100/crossreads_*  AND  7-TopicMode-CSVbrowser.py [TM id] [Num pages] [desc/asc] 
     * Group topics by: topics to delete, topics to join
 OUTPUT: final topic list and labels, 
+
+
+10) Topic models (TM) stats:
+    - Number of pages with first TM / TM
+    - Score average of first TM
+    - Gauss (campana) for first TM score
+    - 
+
 
 
 -------------------------------
