@@ -72,7 +72,7 @@
         * first labelling draft, supported by TopicMode-CSVbrowser
     OUTPUT: 6-Mallet-results/crossreads4_keys.cvs
 
-9.1) Topic to keep/ to delete list:
+9.1) Topic to keep / to delete list:
     INPUT 6-Mallet-results/crossreads4_keys.cvs
         * Classify TMs in "to keep / to delete", supported by TopicMode-CSVbrowser
     OUTPUT: 6-Mallet-results/crossreads4_keys-classification.cvs
@@ -91,9 +91,34 @@
 
 10) Topic models (TM) stats:
     - Number of pages with first TM / TM
-    - Score average of first TM
+    DONE - Score average of first TM
     - Gauss (campana) for first TM score
     - 
+
+R-studio:
+
+> Imported crossreads4_composition.csv as cc
+> # from http://stackoverflow.com/questions/12864867/row-based-summary-calculations
+> Stats <- function(x){
+    #Mean <- sapply(x, mean, na.rm=TRUE)
+    SD <- sd(x, na.rm=TRUE)
+    Min <- min(x, na.rm=TRUE)
+    Max <- max(x, na.rm=TRUE)
+    return(c(SD=SD, Min=Min, Max=Max))
+  }
+> newcc <- cc[,sapply(cc, is.numeric)]
+> onlycc <- newcc[,-1]
+> myStats <- cbind(onlycc, t(apply(onlycc,1, Stats))) # table with TM score + 
+> onlyStats <- myStats[, c("SD", "Min","Max")]
+> sapply(onlyStats["Max"], mean)
+      Max 
+> 0.3403345 #Score average of first TM
+
+PLOT
+> y <- exp(-x^2/2)/sqrt(2*pi)
+> x <- onlyStats[, c("Max")]
+> plot(x,y,type="l", col="blue", main="Max TM score distribution")
+
 
 
 11) Generate final files for each diary with pageID:[TM scores descending]
