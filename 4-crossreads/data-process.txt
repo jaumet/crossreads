@@ -115,9 +115,17 @@ R-studio:
 > 0.3403345 #Score average of first TM
 
 PLOT
-> y <- exp(-x^2/2)/sqrt(2*pi)
+> y <- 1/sqrt(2*pi)*exp(-x^2/2)
 > x <- onlyStats[, c("Max")]
 > plot(x,y,type="l", col="blue", main="Max TM score distribution")
+
+HISTOGRAM
+> g <- onlyStats[,3]
+> h<-hist(g, breaks=50, density=10, col="blue", xlab="Accuracy", main="Overall") 
+> xfit<-seq(min(g),max(g),length=40) 
+> yfit<-dnorm(xfit,mean=mean(g),sd=sd(g)) 
+> yfit <- yfit*diff(h$mids[1:2])*length(g) 
+> lines(xfit, yfit, col="black", lwd=2)
 
 
 
