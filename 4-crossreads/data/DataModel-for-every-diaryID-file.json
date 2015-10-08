@@ -1,0 +1,31 @@
+[
+  {
+  "id": 1, ### From diaries.json)
+  "diary_id": 100275, ### From diaries.json)
+  "page_no": 172,  ### precacounted number of pages
+  "topics_line": "12534251434234435514332144243213424314321234124231" ### IDEA one number (Topic group ID) per page -> this allow to draw a topic line in 5 colors. This is also, simply precalculated.
+  "pages": [
+      {
+          "id": "114534",
+          "topics": [  ### sort by score, So first element has max score
+              [
+                  304, #### Topic ID
+                  0.67 #### score
+              ],
+              [
+                  201,
+                  0.45
+              ],
+              [
+                  101,
+                  0.33
+              ],
+              [
+                  502,
+                  0.17
+              ]
+          ]
+      }
+  ]
+ }
+]
