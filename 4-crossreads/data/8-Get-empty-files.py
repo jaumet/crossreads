@@ -4,17 +4,18 @@ def listEmptyFilesrecursively(remove):
   path = './3-Transcriptions/'
   diaries = os.listdir(path)
   diaries.sort()
-  emptyDiaries = [];p = 0
+  emptyDiaries = [];p = 0;p_=0;
   #print "["
   counter = 0
   for diary in diaries:
     pages = os.listdir(path+diary)
+    p_=0;ne = 0
     for page in pages:
       #print path+diary+"/"+page
       size = os.path.getsize(path+diary+"/"+page)
       #### For empty pages:
       if size < 10:
-        p +=1
+        p_ +=1
         if diary not in emptyDiaries:
           emptyDiaries.append(diary)
         #print "\""+path+diary+"/"+page+"\",", #+"\t"+str(size)
@@ -22,12 +23,17 @@ def listEmptyFilesrecursively(remove):
         counter += 1
         mypath = path#'file:/home/jaume/apps/Mallet/diariesPages-noEmptyPages/'
         mypage = diary+"/"+page
-        print str(counter)+"\t["+str(size)+"]\t"+mypath+mypage
+        ##print str(counter)+"\t["+str(size)+"]\t"+mypath+mypage
 
         #if remove == "removeEmptyPages":
 	    #################### remove?!
         #  os.remove(path+diary+"/"+page) 
-    print  "------------------"
+      else:
+	ne +=1
+    if p_>0:
+	print "diary: "+diary+": empty="+str(p_)+" | non empty="+str(ne)
+	#print  "------------------"
+    p += p_
   #print "]"
   print   
   print "Total:"
