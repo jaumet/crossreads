@@ -17,7 +17,7 @@ for i,item in enumerate(data):
         else:
             print "Repeated: "+str(item["nid"])
     else:
-        print "BAD: "+str(item["nid"])
+        print item["nid"],
 print "TOTAL:"
 print c
 print len(good_diaries)
