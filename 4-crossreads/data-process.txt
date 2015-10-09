@@ -88,39 +88,38 @@
     - Number of pages with first TM / TM
     DONE - Score average of first TM
     - Gauss (campana) for first TM score
-    - 
 
-R-studio:
+        R-studio:
 
-> Imported crossreads4_composition.csv as cc
-> # from http://stackoverflow.com/questions/12864867/row-based-summary-calculations
-> Stats <- function(x){
-    #Mean <- sapply(x, mean, na.rm=TRUE)
-    SD <- sd(x, na.rm=TRUE)
-    Min <- min(x, na.rm=TRUE)
-    Max <- max(x, na.rm=TRUE)
-    return(c(SD=SD, Min=Min, Max=Max))
-  }
-> newcc <- cc[,sapply(cc, is.numeric)]
-> onlycc <- newcc[,-1]
-> myStats <- cbind(onlycc, t(apply(onlycc,1, Stats))) # table with TM score + 
-> onlyStats <- myStats[, c("SD", "Min","Max")]
-> sapply(onlyStats["Max"], mean)
-      Max 
-> 0.3403345 #Score average of first TM
+        > Imported crossreads4_composition.csv as cc
+        > # from http://stackoverflow.com/questions/12864867/row-based-summary-calculations
+        > Stats <- function(x){
+            #Mean <- sapply(x, mean, na.rm=TRUE)
+            SD <- sd(x, na.rm=TRUE)
+            Min <- min(x, na.rm=TRUE)
+            Max <- max(x, na.rm=TRUE)
+            return(c(SD=SD, Min=Min, Max=Max))
+          }
+        > newcc <- cc[,sapply(cc, is.numeric)]
+        > onlycc <- newcc[,-1]
+        > myStats <- cbind(onlycc, t(apply(onlycc,1, Stats))) # table with TM score + 
+        > onlyStats <- myStats[, c("SD", "Min","Max")]
+        > sapply(onlyStats["Max"], mean)
+              Max 
+        > 0.3403345 #Score average of first TM
 
-PLOT
-> y <- 1/sqrt(2*pi)*exp(-x^2/2)
-> x <- onlyStats[, c("Max")]
-> plot(x,y,type="l", col="blue", main="Max TM score distribution")
+        PLOT
+        > y <- 1/sqrt(2*pi)*exp(-x^2/2)
+        > x <- onlyStats[, c("Max")]
+        > plot(x,y,type="l", col="blue", main="Max TM score distribution")
 
-HISTOGRAM
-> g <- onlyStats[,3]
-> h<-hist(g, breaks=50, density=10, col="blue", xlab="Accuracy", main="Overall") 
-> xfit<-seq(min(g),max(g),length=40) 
-> yfit<-dnorm(xfit,mean=mean(g),sd=sd(g)) 
-> yfit <- yfit*diff(h$mids[1:2])*length(g) 
-> lines(xfit, yfit, col="black", lwd=2)
+        HISTOGRAM
+        > g <- onlyStats[,3]
+        > h<-hist(g, breaks=50, density=10, col="blue", xlab="Accuracy", main="Overall") 
+        > xfit<-seq(min(g),max(g),length=40) 
+        > yfit<-dnorm(xfit,mean=mean(g),sd=sd(g)) 
+        > yfit <- yfit*diff(h$mids[1:2])*length(g) 
+        > lines(xfit, yfit, col="black", lwd=2)
 
 
 
@@ -136,24 +135,22 @@ Diaries.json:
 DONE    > clear it up with diaries in ls 3-Transciption
     > (Optional) Add topic_line: [TMis]:[score], ...
 DONE    > transfor "data" in three subfields: "day", "Month", "year"
+    
+DONE Topics: topics.json
+    DONE > decide topic groups (and TGids), and topics for each group (using Mallet TMids)    
 
-Topics
-    > Mallet
-    > 
+DONE terms.json <- converted from crossreads4_keys.csv
+
 
 [diaryID].json
+    > build each file reading crossreads4_composition.txt
     > 
-    > 
-    
-Topis.json
-    > decide topic groups (and TGids), and topics for each group (using Mallet TMids)
-    >    
+
         
 Subsets: 
     > define format for subsets of pages. Probably use [diaryID].json format
     > Generate topics for 
     > 
-
 
 
 ###############################################################################
