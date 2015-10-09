@@ -6,6 +6,7 @@ import re
 
 #to_delete2 = [100365,100394,100407,115164,115213,115245]
 
+'''3 remaping date fields'''
 new_diaries=[]
 with open('diaries.json') as data_file:
     data = json.load(data_file)
@@ -34,7 +35,7 @@ for i,item in enumerate(data):
     del item["date_start"]
     del item["date_end"]
 
-'''' checking anormalities in dates:
+''''2 checking anormalities in dates:
 for i,item in enumerate(data):
     if len(item["date_start"].split()) == 0:
         print " No date_start! for id="+str(item["id"])
@@ -52,10 +53,12 @@ for i,item in enumerate(data):
 
 '''
 
-#    item["id"]=i
-#    if item["nid"] in to_delete2:
-#        data.remove(item)
-
+'''1 reindexing id's
+for i,item in enumerate(data):
+    item["id"]=i
+    if item["nid"] in to_delete2:
+        data.remove(item)
+'''
 
 print len(data)
 #for i,item in enumerate(data):

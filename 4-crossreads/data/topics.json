@@ -1,0 +1,153 @@
+[
+  {
+    "groups": ["Personal", "War", "Military life", "Travelling", "The accidental tourist"],
+    "label":"Christmas",
+    "tid": 11,
+    "mallet_ids_inluded":[57]
+  },
+  {
+    "label":"Education",
+    "tid": 12,
+    "mallet_ids_inluded":[89]
+  },
+  {
+    "label":"Food",
+    "tid": 13,
+    "mallet_ids_inluded":[17]
+  },
+  {
+    "label":"Letters & family",
+    "tid": 14,
+    "mallet_ids_inluded":[46, 66, 75, 83, 93]
+  },
+  {
+    "label":"Money & shopping",
+    "tid": 15,
+    "mallet_ids_inluded":[15]
+  },
+  {
+    "label":"Music and party",
+    "tid": 16,
+    "mallet_ids_inluded":[3]
+  },
+  {
+    "label":"Personal care & clothes",
+    "tid": 17,
+    "mallet_ids_inluded":[18, 96]
+  },
+  {
+    "label":"Poetry & spirit",
+    "tid": 18,
+    "mallet_ids_inluded":[60, 87]
+  },
+  {
+    "label":"Weather",
+    "tid": 19,
+    "mallet_ids_inluded":[94, 45, 78]
+  },
+  {
+    "label":"Women",
+    "tid": 110,
+    "mallet_ids_inluded":[77]
+  },
+  {
+    "label":"Air",
+    "tid": 21,
+    "mallet_ids_inluded":[27]
+  },
+  {
+    "label":"Combat",
+    "tid": 22,
+    "mallet_ids_inluded":[70, 71, 97, 7, 69, 62]
+  },
+  {
+    "label":"Context",
+    "tid": 23,
+    "mallet_ids_inluded":[5]
+  },
+  {
+    "label":"Front line",
+    "tid": 24,
+    "mallet_ids_inluded":[24, 50]
+  },
+  {
+    "label":"Health",
+    "tid": 25,
+    "mallet_ids_inluded":[72, 34]
+  },
+  {
+    "label":"Camping",
+    "tid": 31,
+    "mallet_ids_inluded":[85]
+  },
+  {
+    "label":"General",
+    "tid": 32,
+    "mallet_ids_inluded":[37, 40, 12, 39, 38]
+  },
+  {
+    "label":"Horses",
+    "tid": 33,
+    "mallet_ids_inluded":[49]
+  },
+  {
+    "label":"Lists & reports",
+    "tid": 34,
+    "mallet_ids_inluded":[59, 58, 74, 79, 90]
+  },
+  {
+    "label":"POW",
+    "tid": 35,
+    "mallet_ids_inluded":[6]
+  },
+  {
+    "label":"Sports",
+    "tid": 36,
+    "mallet_ids_inluded":[80]
+  },
+  {
+    "label":"Technical",
+    "tid": 37,
+    "mallet_ids_inluded":[33, 95]
+  },
+  {
+    "label":"Middle East",
+    "tid": 41,
+    "mallet_ids_inluded":[14, 19]
+  },
+  {
+    "label":"Over the sea",
+    "tid": 42,
+    "mallet_ids_inluded":[25, 68, 61, 1, 36, 23]
+  },
+  {
+    "label":"Roads & railways",
+    "tid": 43,
+    "mallet_ids_inluded":[84, 63, 8]
+  },
+  {
+    "label":"City life",
+    "tid": 51,
+    "mallet_ids_inluded":[26, 65]
+  },
+  {
+    "label":"Countryside",
+    "tid": 52,
+    "mallet_ids_inluded":[20]
+  },
+  {
+    "label":"Egipt",
+    "tid": 53,
+    "mallet_ids_inluded":[42]
+  },
+  {
+    "label":"France",
+    "tid": 54,
+    "mallet_ids_inluded":[35]
+  },
+  {
+    "label":"UK",
+    "tid": 55,
+    "mallet_ids_inluded":[53, 9]
+  }
+]

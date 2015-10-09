@@ -1,0 +1,17 @@
+
+
+DONE diaries.json
+    - optional: topic_line
+
+DONE topics.json
+    keys file: labeled and not-labelet
+
+DONE terms.json <- converted from crossreads4_keys.csv
+
+    
+[diaryIC].json
+
+    composition file
+
+
+

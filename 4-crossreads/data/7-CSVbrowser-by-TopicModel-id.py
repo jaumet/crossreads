@@ -4,11 +4,11 @@ import operator
 
 # Open csv file and sorted it
 def sortFilterPrint(id, num, order):
-    file = '6-Mallet-results/crossreads4_compostion.txt'
+    file = '6-Mallet-results/crossreads4_compostion.csv'
     #file = '6-Mallet-results/test.csv'
     mycsv = csv.reader(open(file),delimiter=',')
     setOrder = {"desc":1,"asc":0}
-    sortedlist = sorted(mycsv, key=lambda row: float(row[int(id)+2]), reverse=setOrder[order]) 
+    sortedlist = sorted(mycsv, key=lambda row: float(row[int(id)+2]), reverse=setOrder[order])
     print
 
     # Get every page path/filename
@@ -38,7 +38,3 @@ else:
     if len(arrArg) == 3:
         arrArg.append("desc") # default value
     sortFilterPrint(arrArg[1], arrArg[2], arrArg[3])
-
-
-
-
