@@ -72,22 +72,17 @@
         * first labelling draft, supported by TopicMode-CSVbrowser
     OUTPUT: 6-Mallet-results/crossreads4_keys.cvs
 
-9.1) Topic to keep / to delete list:
+9.1) Topic labels:
     INPUT 6-Mallet-results/crossreads4_keys.cvs
-        * Classify TMs in "to keep / to delete", supported by TopicMode-CSVbrowser
-    OUTPUT: 6-Mallet-results/crossreads4_keys-classification.cvs
+        * Label/sublabel TMs, supported by TopicMode-CSVbrowser
+    OUTPUT: 6-Mallet-results/crossreads4_keys-LABELS.cvs
 
-9.2) 5 topic groups w/ topics TO join list 
-    INPUT: 6-Mallet-results/crossreads4_keys-2classification.cvs
-        * Join topics list 
-    OUTPUT: 6-Mallet-results/crossreads4_keys-3groups.cvs
 
 9.3) 
-    INPUT: join list of topics TO final labels.json
-        - Join same-label TMs. And decide:
-            * how to join scores
-            * how to list top pages for each new TM
-    OUTPUT: Create final topic models json file: labels.json
+    INPUT: 6-Mallet-results/crossreads4_keys-LABELS.cvs
+        - Group same-label TMs. And decide
+        - Add TopicGroups IDs
+    OUTPUT: Create final topic models json file: topics.json
 
 10) Topic models (TM) stats:
     - Number of pages with first TM / TM
@@ -130,7 +125,38 @@ HISTOGRAM
 
 
 11) Generate final files for each diary with pageID:[TM scores descending]
-    9OR all together in one file for all diaries, as in crossreads version3?? I don't think so) 
+    (OR all together in one file for all diaries, as in crossreads version3?? I don't think so) 
+
+
+##############################################################################
+
+Data ToDo:
+
+Diaries.json:
+DONE    > clear it up with diaries in ls 3-Transciption
+    > (Optional) Add topic_line: [TMis]:[score], ...
+DONE    > transfor "data" in three subfields: "day", "Month", "year"
+
+Topics
+    > Mallet
+    > 
+
+[diaryID].json
+    > 
+    > 
+    
+Topis.json
+    > decide topic groups (and TGids), and topics for each group (using Mallet TMids)
+    >    
+        
+Subsets: 
+    > define format for subsets of pages. Probably use [diaryID].json format
+    > Generate topics for 
+    > 
+
+
+
+###############################################################################
 
 
 
