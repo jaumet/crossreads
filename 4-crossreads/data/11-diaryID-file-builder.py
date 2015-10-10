@@ -22,12 +22,13 @@ for d in glob.glob(path+'*'):
 
 # Get every page path/filename
 countedDiaries = [];
-c =0;cc=0;l=0
+c =0;cc=0
 ###Slide per diaty:
 for diary in diariesList:
     myjson = json.loads(json_base)
     myDiary = dict()
     myTopics = dict()
+    l=0
     c+=1
     mycsv = csv.reader(open(file),delimiter=',')
     print "----> "+diary

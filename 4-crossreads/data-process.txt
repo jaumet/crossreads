@@ -142,11 +142,13 @@ DONE Topics: topics.json
 DONE terms.json <- converted from crossreads4_keys.csv
 
 
-[diaryID].json
-    > build each file reading crossreads4_composition.txt
-    > 
+DONE [diaryID].json
+    > build each file reading crossreads4_composition.txt 
 
-        
+Check diaries.json, an reindex deleting the diaries not present in crossreads4_composition.txt. They are listed in 11-diaryID-file-builder.py.OUTPUT 
+
+Clean 11-diaryID-file-builder.py.OUTPUT of empty e;ements OR edit the script and rerun it
+
 Subsets: 
     > define format for subsets of pages. Probably use [diaryID].json format
     > Generate topics for 
