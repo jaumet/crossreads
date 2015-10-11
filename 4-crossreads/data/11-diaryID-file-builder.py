@@ -18,12 +18,9 @@ json_base ='[{"page_no": 0,"pages": [{"id": "","topics": []}]}]'
 diariesList = []
 for d in glob.glob(path+'*'):
     diariesList.append(d.replace(path, ''))
-#print diariesList
 
-# Get every page path/filename
 countedDiaries = [];
 c =0;cc=0
-###Slide per diaty:
 for diary in diariesList:
     myjson = json.loads(json_base)
     myDiary = dict()
@@ -34,51 +31,30 @@ for diary in diariesList:
     print "----> "+diary
     for line in mycsv:
         cc+=1
-        #print line
-        #print type(line[1].split("/")[0]), type(diary)
         if line[1].split("/")[0] == diary:
             scores = line[2:]
             for s in scores:
                 myTopics[scores.index(s)] = s
-            #print "---> "+diary
-            #print "... line: "+str(line[1].split("/"))
             ## filter myTopics dict by silentTopics
             for k, v in myTopics.items():
                 if k in silentTopics:
                     del myTopics[k]
             # Sort tpoics by scoresand add them to myjson
             sortedScores =  sorted(myTopics.items(), key=lambda x: float(x[1]), reverse=True)
-            # add new page. Set id and define topics
+            # Add new page. Set id and define topics
             myjson[0]["pages"].append({"id": line[1].split("/")[1].replace(".txt", ""),"topics": []})
             myjson[0]["pages"][-1]["topics"].extend(sortedScores[:10])
-
             if diary not in countedDiaries:
                 countedDiaries.append(diary)
             l+=1 # number of lines for this diary
     if len(myjson[0]["pages"][-1]["topics"])>0:
         print "      Myjson: "+str(len(myjson[0]["pages"][-1]["topics"]))
-        # Set pages_no in myjson:
+        # Set nunmber of pages for this diary:
         myjson[0]["page_no"] = l
-        # wrtie the file
         f = open("11-diaryID-jsons/"+diary+".json","w")
         f.write(json.dumps(myjson))
 
-
-
-print "#############"
 print "countedDiaries = "+str(len(countedDiaries))
 print "lines l= "+str(l)
 print "diariesList cycles c= "+str(c)
 print "mycsv cycles c= "+str(cc)
-'''
-
-'''
-
-#    if scores.index(m)   in silentTopics:
-#        print myTopics[m]
-#        print "##########"
-
-#    mytuple = enumerate(scores)
-#    scoresSorted = sorted(mytuple, key=lambda score: score[1], reverse=True)
-#    print scoresSorted
-#    print len(scoresSorted)

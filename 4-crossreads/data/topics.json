@@ -1,6 +1,6 @@
 [
   {
-    "groups": ["Personal", "War", "Military life", "Travelling", "The accidental tourist"],
+    "Comment": "'tid' is composed by: [first figure] = group of topics. And [rest 1 or 2 firures] = topic id"
     "label":"Christmas",
     "tid": 11,
     "mallet_ids_inluded":[57]
