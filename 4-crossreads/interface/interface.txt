@@ -1,0 +1,6 @@
+
+
+
+Interesting JS libs & tools:
+- Plunker for testing
+- Read json  https://github.com/cognitect/transit-js

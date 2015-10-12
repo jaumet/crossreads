@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+		<style>
+		  #canvas {width:1200px;height:2000px;;border:1px solid red;}
+      #square {position:relative;width:5px;height:5px;background-color:red;}
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="loupe.js"></script>
+    <script>
+    $(document).ready(function (e) {
+      topicColours = ["#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"];
+      function checkCoord(x, y) {
+        x_norm = ((x/6) - parseInt(x/6))*6;
+        y_norm = ((y/6) - parseInt(y/6))*6;
+        if ((x_norm < 1 || x_norm  > 5) || ((y_norm < 1 || y_norm  > 5))) {
+          output = "("+parseInt(x/6)+","+parseInt(y/6)+") Page clicked!";
+          // Show div on top
+          $("#square").css("left",parseInt(3*((x/6)+1))).css("top",parseInt(3*((y/6)+1)));
+
+        } else {
+          output =   "("+parseInt(x/6)+","+parseInt(y/6)+") Not square clicked"
+        }
+        return output;
+      }
+      $('#canvas').click(function (e) { //Offset mouse Position
+          var posX = $(this).offset().left,
+              posY = $(this).offset().top;
+          x = (e.pageX - posX);
+          y = (e.pageY - posY);
+          console.log(checkCoord(x, y));
+      });
+    });
+    </script>
+  </head>
+
+  <body>
+    <h1>Hello</h1>
+    <div id="canvas"><div id="square"></div>
+    <img id="" onload="loupe.add(this);" src="..." width="356" height="205" alt="...">
+</div>
+  </body>
+
+</html>

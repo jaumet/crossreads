@@ -147,12 +147,16 @@ DONE [diaryID].json
 
 DONE Check diaries.json, an reindex deleting the diaries not present in crossreads4_composition.txt. They are listed in 11-diaryID-file-builder.py.OUTPUT 
 
-Subsets: 
-    > define format for subsets of pages. Probably use [diaryID].json format
-    > Generate topics for 
+READY TO GENERATE Subsets: 
+    DONE > define format for subsets of pages. Probably use [diaryID].json format
+    > Decide what to Visualizations? 
 
+generate of Diaries:
+    > topicGroup-line
+    > bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
 
-
+Visualization of all pages!
+    > try thr fake way!
 
 ###############################################################################
 

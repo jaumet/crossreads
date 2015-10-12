@@ -1,0 +1,31 @@
+[
+  {"topic_groups":
+    [
+      {
+        "id":1,
+        "label":"Personal",
+        "color": "#E78F39"
+      },
+      {
+        "id":2,
+        "label":"War",
+        "color":"#cc6666"
+      },
+      {
+        "id":3,
+        "label":"Military life",
+        "color":"#99cc66"
+      },
+      {
+        "id":4,
+        "label":"Travelling",
+        "color":"#9966cc"
+      },
+      {
+        "id":5,
+        "label":"The accidental tourist",
+        "color":"#66cccc"
+      }
+    ]
+  }
+]
