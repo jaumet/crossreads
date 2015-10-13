@@ -125,6 +125,13 @@
 
 11) Generate final files for each diary with pageID:[TM scores descending]
     (OR all together in one file for all diaries, as in crossreads version3?? I don't think so) 
+    INPUT 6-Mallet-results/crossreads4_keys.cvs
+        run 12-diary-chart-to-diariesjson-builder.py
+    OUTPUT add json charts to diaries.json
+    
+12) generate of Diaries:
+
+    > bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
 
 
 ##############################################################################
