@@ -117,21 +117,29 @@
         > g <- onlyStats[,3]
         > h<-hist(g, breaks=50, density=10, col="blue", xlab="Accuracy", main="Overall") 
         > xfit<-seq(min(g),max(g),length=40) 
-        > yfit<-dnorm(xfit,mean=mean(g),sd=sd(g)) 
+        > yfit <- dnorm(xfit,mean=mean(g),sd=sd(g)) 
         > yfit <- yfit*diff(h$mids[1:2])*length(g) 
         > lines(xfit, yfit, col="black", lwd=2)
 
+    In R: for all diaries, do chart-example.ods
 
 
-11) Generate final files for each diary with pageID:[TM scores descending]
+11) DONE Generate final files for each diary with pageID:[TM scores descending]
     (OR all together in one file for all diaries, as in crossreads version3?? I don't think so) 
     INPUT 6-Mallet-results/crossreads4_keys.cvs
-        run 12-diary-chart-to-diariesjson-builder.py
+        > run 12-diary-chart-to-diariesjson-builder.py
     OUTPUT add json charts to diaries.json
     
-12) generate of Diaries:
+12) DONE generate of Diaries bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
+    INPUT 11-diaryID-jsons/[diariesID].json
+        > run 12-diary-chart-to-diariesjson-builder.py
+        > degerates image-magik-command.sh
+    OUTPUT 11-diaryID-jsons/[diariesID].json
 
-    > bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
+13) Generation of background image for the fake-grid
+    INPUT  number of pages per diaries. From diaries.json
+        > run ImageMagik long command
+    OUTPUT 
 
 
 ##############################################################################
@@ -148,7 +156,6 @@ DONE Topics: topics.json
 
 DONE terms.json <- converted from crossreads4_keys.csv
 
-
 DONE [diaryID].json
     > build each file reading crossreads4_composition.txt 
 
@@ -160,10 +167,11 @@ READY TO GENERATE Subsets:
 
 generate of Diaries:
     > topicGroup-line
-    > bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
+    DONE > data for bar chart for topic groups (and topics) -> precalculate this for each diary and add to diaries.json 
+    > Sum topics and list them as topics_groups
 
 Visualization of all pages!
-    > try thr fake way!
+    > try the fake way!
 
 ###############################################################################
 
