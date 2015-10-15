@@ -57,5 +57,5 @@ print len(data)
 new = json.dumps(data)
 
 f = open('diaries_final.json','w+')
-f.write(new)
+## f.write(new)
 f.close()

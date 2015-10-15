@@ -10,7 +10,6 @@ diariesjson = json.loads(file.read())
 file.close()
 
 ## List of silent (not used) topics. Mallet ids are given
-#silentTopics = [0, 2, 4, 10, 11, 13, 16, 21, 22, 28, 29, 30, 31, 32, 41, 43, 44, 47, 48, 51, 52, 54, 55, 56, 64, 67, 73, 76, 81, 82, 86, 88, 91, 92, 98, 99]
 path = "11-diaryID-jsons/"
 
 ## List of available diaries:
@@ -36,16 +35,16 @@ for d in glob.glob(path+'*'):
     print max(myscore.iteritems(), key=operator.itemgetter(1))
     chart_json = json.dumps(myscore_sorted)
     for _diary in  diariesjson:
-        #print "--> "+str(_diary["nid"]), d.split("/")[1][:-5]
         if int(_diary["nid"]) == int(d.split("/")[1][:-5]):
             print "********************************> "+str(diary["id"])
             ## Add the scores in this loop to [mydiaryID].json
             _diary["chart"] = myscore_sorted
-            #print diary
 
 #f = open("11-diaryID-jsons-charts/"+d.split("/")[1],"w")
-f = open("diaries_final.json","w")
 #f.write(json.dumps(diary))
+
+f = open("diaries_final.json","w")
 f.write(json.dumps(diariesjson))
+
 f.close()
 print "######################"

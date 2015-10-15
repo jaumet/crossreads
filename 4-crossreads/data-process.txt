@@ -134,13 +134,15 @@
     INPUT 11-diaryID-jsons/[diariesID].json
         > run 12-diary-chart-to-diariesjson-builder.py
         > degerates image-magik-command.sh
-    OUTPUT 11-diaryID-jsons/[diariesID].json
+    OUTPUT1 11-diaryID-jsons-with-diary-charts/[diariesID].json
+    OUTPUT2 diaries.json with each chart in each diary
 
-13) Generation of background image for the fake-grid
-    INPUT  number of pages per diaries. From diaries.json
-        > run ImageMagik long command
-    OUTPUT 
+13) DONE Generation of background image for the fake-grid
+    INPUT  diaries.json + topics.json
+        > 13-ImageMagik-command-for-fake-grid.py
+    OUTPUT img/topicGroups-* 
 
+        
 
 ##############################################################################
 

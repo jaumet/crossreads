@@ -11,6 +11,12 @@ montage square.gif square.gif square.gif square.gif square.gif square.gif square
 .c3  {background-color: #99cc66;}
 .c2  {background-color: #cc6666;}
 .c1  {background-color: #E78F39;}
+
+How to run this cript and generate the images:
+$: python 13-ImageMagik-command-for-fake-grid.py>ImageMagick-0.20-1Personal.im
+$: mkdir topicGroup-0.2-all # example
+$: cat ImageMagick-0.20-all.im |bash
+
 '''
 
 import random
@@ -24,10 +30,20 @@ diariesjson = json.loads(f.read())
 g = open("topics.json", "r")
 topicsjson = json.loads(g.read())
 
+# Set vars:
+IMAGES_PER_ROW = "120" # image width = IMAGES_PER_ROW x 10px
+#TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-1Personal/"
+#TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-2War/"
+#TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-3Mil/"
+TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-5Tourist/"
+
+TGid = "5"
+
 start = "montage "
-end = " -geometry +0+0 -tile 120x img/"
+end = " -geometry +0+0 -tile "+IMAGES_PER_ROW+"x "+TARGET_DIRECTORY_PATH
 imgs = " "
 path = "img/"
+
 path0 = "11-diaryID-jsons/"
 
 # ramdon set
@@ -35,6 +51,7 @@ path0 = "11-diaryID-jsons/"
 #    imgs += path+str(random.randrange(1, 5))+".gif " 
 
 ## List of available diaries:
+output = ""
 for d in glob.glob(path0+'*'):
     #print d
     f = open(d, "r")
@@ -51,7 +68,7 @@ for d in glob.glob(path0+'*'):
         for  topic in topicsjson:
             if mallet_id in  topic["mallet_ids_inluded"]:
                 #print "--> "+ str(diary["topics"][0][1])
-                if float(diary["topics"][0][1]) > 0.20:
+                if float(diary["topics"][0][1]) > 0.20 and str(topic["tid"])[0] == TGid:
                     #print "This page is TG = "+str(topic["tid"])[0]
                     imgs += path+str(topic["tid"])[0]+".gif " 
                 else:
@@ -59,5 +76,6 @@ for d in glob.glob(path0+'*'):
                     #print "this is 0.gif"
                     
 
-    print start+imgs+end+d.split("/")[1][:-5]+'.gif &&'
+    output += start+imgs+end+d.split("/")[1][:-5]+'.gif &&'
 
+print output[:-2]
