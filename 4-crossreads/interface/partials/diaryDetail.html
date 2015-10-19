@@ -1,0 +1,5 @@
+<p>{{focusDiary.nid}}. No. of pages: {{focusDiary.pages[0].page_no}}</p>
+<p ng-bind="getTopicLabel(focusDiary.chart[0][0])"></p>
+<p>Do the chart here! {{focusDiary.chart[0]}}<br />
+<img ng-src="./data/img/topicGroup-0.02-all/{{focusDiary.nid}}.gif"  ng-click="addOnClick($event, focusDiary.pages[0].page_no, focusDiary.nid)" />
+</p>
