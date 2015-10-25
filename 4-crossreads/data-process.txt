@@ -177,7 +177,17 @@ Visualization of all pages!
 
 ###############################################################################
 
+INTERFACE:
 
+- Context can be added to the diaries through Trove: 
+http://trove.nla.gov.au/newspaper/result?q=&exactPhrase=&anyWords=anzac+soldier&notWords=&requestHandler=%2FtextSearch&dateFrom=1915-01-13&dateTo=1916-08-13&l-advstate=National&l-advstate=ACT&l-advstate=New+South+Wales&l-advstate=Northern+Territory&l-advstate=Queensland&l-advstate=South+Australia&l-advstate=Tasmania&l-advstate=Victoria&l-advstate=Western+Australia&l-advcategory=Article&l-word=*ignore*%7C*ignore*&l-illustrated=*ignore*%7C*ignore*&sortby=dateAsc
+
+
+- Frist zoom: One article in its context
+http://trove.nla.gov.au/ndp/del/article/15558649?searchTerm=(anzac%20OR%20soldier)&searchLimits=exactPhrase|||anyWords=anzac+soldier|||notWords|||requestHandler=%2FtextSearch|||dateFrom=1915-01-13|||dateTo=1916-08-13|||l-advstate=National|||l-advstate=ACT|||l-advstate=New+South+Wales|||l-advstate=Northern+Territory|||l-advstate=Queensland|||l-advstate=South+Australia|||l-advstate=Tasmania|||l-advstate=Victoria|||l-advstate=Western+Australia|||l-advcategory=Article|||l-word=*ignore*%7C*ignore*|||l-illustrated=*ignore*%7C*ignore*|||sortby=dateAsc
+
+- A newspaper article image ! 
+http://trove.nla.gov.au/ndp/del/printArticleJpg/15558649/3?print=n
 
 
 -------------------------------

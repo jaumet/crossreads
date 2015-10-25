@@ -1,0 +1,76 @@
+
+ToDo:
+
+1) JS:
+
+DONE  - Add the same fake-grid image functionality in oages.html to index.html
+
+- Reader
+DONE  * Reader separated in partials/reader.html
+      Add page metadata:  
+DONE  > page index/total
+DONE  > diary metadata (title, author, date)
+      > page chart 
+
+      
+      * CHECK page images: check empty diaries. Try downloading lacking images.
+      * Add mouse-over div-border to page-square
+      Functionality for the rest of buttons
+DONE  > Add button to close the reader
+      > same topic 
+      > same topic group
+      > same author
+      > similar date
+      > just random page
+
+      Random subsets: 
+      ----> Design and effect  (spinning rullette idea) when jumping to a page: 
+          IDEA, simply move the div-border div from the page we are to the page we go, quite slowly & smoothly. Give a colid color to the backgroung div-border.
+
+    * OPTION Context with same date-newspaper articles from Trove! (check notes on data=[rpcess.txt file
+    * CSS-animate popup/hide reader in index and pages
+
+- Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
+
+- Timeline view -> add it to the dropdown. Probably needs a timeline.html file
+
+- Save visited pages w/ HTML5 storage (as in crossreads III)
+
+- subsets/ for top pages by topic/topicGroup ...
+  > May be it needs a top.html
+
+- Create three fake-grid images sizes, for fake-responsivity
+
+------------------
+2) HTML & CSS:
+  
+- STYLES
+  * fonts
+  * CSS
+  * colors
+
+
+- Header: with partials: 
+  * Links
+  * title(diggersdiaries)
+  * feedback
+  * Legend/sublegend for topics -> as buttons like in vIII? Then what happens onclick?? 
+
+- Welcome page:
+
+
+
+#########################################################
+BONE 2015-10-21
+
+js/Controller.js
+DONE  - Get pageID from diaryID and page-number
+
+index.html & pages.html  
+DONE  - When click page in Image. Go to
+
+reader.html
+DONE  - Wouldn't be better if reader is not a new page? SO when open and close the reader the user stays where she was.
+  - Functionality for the buttons
+DONE    * Back/Forward: get next page and the page before
+

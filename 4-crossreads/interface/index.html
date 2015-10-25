@@ -1,20 +1,16 @@
 <!doctype html>
 <html lang="en" ng-App="">
   <head>
-      <title>Diaries Demo</title>
+    <title>Diaries Demo</title>
   	<meta charset="utf-8" />
-
   	<script src="lib/angular.min.js"></script>
-
     <script type="text/javascript" src="js/controller.js"></script>
-
     <style type="text/css">
+      body{
 
-    body{
-
-      font-family: Helvetica, Arial, sans-serif;
-      background-color: #eee;
-    }
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: #eee;
+      }
 
       .diary-tile{
         display: inline-block;
@@ -28,30 +24,64 @@
         width:100%;
       }
 
+      .bar{
+        height:15px;
+        margin: 0 0 5px 0;
+        background-color: red;
+        float:left;
+      }
 
+      .label{
+        float:left;
+        width:60px;
+      }
+
+      .barcontainer{
+        clear:both;
+      }
+      /* Reader */
+      .detail {
+        width:90%;
+        border:1px solid #ccc;
+      }
+      .detail div {
+        width:90%;
+      }
     </style>
-
   </head>
+
   <body ng-controller="listControl">
-
-  <div>  <h3>Order by: <select ng-model="orderField">
-    <option value="author">Author</option>
-    <option value="start_date[0].start_year">Date</option>
-    <option value="chart[0]">Topic</option>
-   </select></h3>
-
- </div>
-
+    <div>  
+      <h3>Order by: 
+        <select ng-model="orderField">
+          <option value="author">Author</option>
+          <option value="start_date[0].start_year">Date</option>
+          <option value="chart[0]">Topic</option>
+        </select>
+      </h3>
+    </div>
+    
     <div class="diary-tile" ng-class="{'expand':d.expand}" ng-repeat="d in diaries | orderBy:orderField">
-      <button ng-click="d.expand = !d.expand; setDiaryFocus(d)">expand / collapse</button>
+      <button ng-click="d.expand = !d.expand; pageExpand = false; focusDiary = d">expand / collapse</button>
       <h3>{{d.title}}</h3>
       <h4>{{d.author}}</h4>
       <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
-
-      <div ng-if="d.expand" ng-include="'partials/diaryDetail.html'"></div>
+      <div ng-if="d.expand">
+        <p>{{focusDiary.nid}}. No. of pages: {{focusDiary.pages[0].page_no}}</p>
+        <p ng-bind="getTopicLabel(focusDiary.chart[0][0])"></p>
+        <div class="diaryChart">
+          <div  class="barcontainer" ng-repeat = "c in focusDiary.chart | limitTo:5">
+          <p class="label">Topic: {{getTopicLabel(c[0])}}</p>
+          <div class="bar" ng-style="{'width': c[1]*5 + 'px'}">  </div>
+        </div>
+      </div>
+      <div class="pages">
+        <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif" ng-click="d.expand;pageExpand=true;addOnClick($event, focusDiary.pages[0].page_no, d)" />
+      </div>
+      <div ng-if="pageExpand">
+      	<div ng-include="'partials/reader.html'"></div>
+      </div>
     </div>
-
-
 
   </body>
 </html>
