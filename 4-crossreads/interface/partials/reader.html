@@ -1,13 +1,24 @@
 
 <div id="reader">
   <div id="pagemetadata">
-    <img class="thumb" src="img/nopage.jpg" /> <!-- FIXME Add dinamyc page src and nopage if no image found-->>
-    <p>{{d.title}}</p>
-    <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
-    <p>{{d.focusPageIndex+1}} of the {{d.page_no}}</p>
-    <p>Page chart:</p>
+    <div id="image_chart">
+      <div class="left">
+        <img class="thumb left" src="img/nopage.jpg"/>
+      </div>
+          <div class="barcontainer" ng-repeat = "c in d.pages[d.focusPageIndex+1].topics | limitTo:5">
+          <div class="label left">{{getTopic(c[0], 0)}}</div>
+          <div class="bar left" ng-style="{'width': c[1]*200 + 'px','background-color': '{{getTopic(c[0],1)}}'}"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div>
+      <p>{{d.title}}</p>
+      <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
+      <p>{{d.focusPageIndex+1}} of the {{d.page_no}}</p>
+    </div>
   </div>
   <div class="buttons">
+<!--
     <p> - 
     Jump to: 
       <button>same topicGroup</button> 
@@ -16,7 +27,8 @@
       <button>similar date</button> 
       <button>random page</button>
     </p>
-    <p>this diary: 
+-->
+    <p> 
     	<button ng-click="setFocusPage(d,d.focusPageIndex-1)">Prev</button>
       <button ng-click="d.expand = false;">Close</button>
     	<button ng-click="setFocusPage(d,d.focusPageIndex+1)">Next</button>

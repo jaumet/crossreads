@@ -31,7 +31,8 @@ g = open("topics.json", "r")
 topicsjson = json.loads(g.read())
 
 # Set vars:
-IMAGES_PER_ROW = "120" # image width = IMAGES_PER_ROW x 10px
+IMAGES_PER_ROW = "120" 
+# image width = IMAGES_PER_ROW x 10px
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-1Personal/"
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-2War/"
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-3Mil/"
@@ -68,7 +69,8 @@ for d in glob.glob(path0+'*'):
         for  topic in topicsjson:
             if mallet_id in  topic["mallet_ids_inluded"]:
                 #print "--> "+ str(diary["topics"][0][1])
-                if float(diary["topics"][0][1]) > 0.20 and str(topic["tid"])[0] == TGid:
+                ## if float(diary["topics"][0][1]) > 0.20 and topic["tid"] == Tid: ## for Topics 
+                if float(diary["topics"][0][1]) > 0.20 and str(topic["tid"])[0] == TGid: # for Topic Groups
                     #print "This page is TG = "+str(topic["tid"])[0]
                     imgs += path+str(topic["tid"])[0]+".gif " 
                 else:

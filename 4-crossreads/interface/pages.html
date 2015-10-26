@@ -3,73 +3,14 @@
   <head>
     <title>Diaries Demo</title>
   	<meta charset="utf-8" />
+   	<link rel="stylesheet" href="css/style.css">
   	<script src="lib/angular.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
-    <style type="text/css">
-      body{
-        font-family: Helvetica, Arial, sans-serif;
-        background-color: #eee;
-      }
-	
-	    .diary {
-	      width:1500px;
-	      float:left;
-	      margin:0;
-	      padding:0;
-	    }
-	
-       .meta{
-	      background-color:white;
-	      width:200px;
-	      float:left;
-	      font-size:0.5em;
-	      border-top:1px solid #000;
-	    }
-
-	    .pages {
-	      display: flex;  /* CSS3 */
-	      width:1200px;
-	      float:left;
-	      border-top:1px solid #000;
-	      background-color:transparent;
-	    }
-	
-	    .pages img {
-	      vertical-align: text-top;
-	    }
-
-      .diary-tile.expand{
-      width:100%;
-      }
-
-      .popover {
-        position: absolute;
-        z-index: 100;
-      }
-      /* Reader */
-      .detail {
-        width:90%;
-        border:1px solid #ccc;
-      }
-      .detail div {
-        width:80%;
-      }
-      #pagemetadata {
-        width:19%;
-        border-right:1px dashed #333;
-      }
-      .thumb {
-        width:80px;
-      }
-      #reader div {
-        float:left;
-      }
-    </style>
   </head>
   <body ng-controller="listControl">
 
   <div>  
-	<h3>Order by: 
+	<h3>Order diaries by: 
 	  <select ng-model="orderField">
 		<option value="author">Author</option>
 		<option value="start_date[0].start_year">Date</option>
@@ -83,11 +24,13 @@
 		  <span>{{d.title}}</span> <!-- - {{d.author}} - {{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p> -->
 	  </div>
 	  <div class="pages">
-      <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif" ng-click="d.expand;addOnClick($event, focusDiary.pages[0].page_no, d)" />
+      <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
+      <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
     </div>
     <div class="detail" ng-if="d.expand">
 	    <div ng-include="'partials/reader.html'"></div>
     </div>
+  </div>
 
   </body>
 </html>

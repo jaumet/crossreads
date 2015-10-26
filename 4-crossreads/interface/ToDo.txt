@@ -8,27 +8,39 @@ DONE  - Add the same fake-grid image functionality in oages.html to index.html
 - Reader
 DONE  * Reader separated in partials/reader.html
       Add page metadata:  
-DONE  > page index/total
-DONE  > diary metadata (title, author, date)
-      > page chart 
+DONE  * page index/total
+DONE  * diary metadata (title, author, date)
+DONE  * page chart 
 
-      
-      * CHECK page images: check empty diaries. Try downloading lacking images.
-      * Add mouse-over div-border to page-square
+DONE  * CHECK page images: check empty diaries. Try downloading lacking images.
+
+HALF done???      * Add mouse-over div-border to page-square
+
       Functionality for the rest of buttons
-DONE  > Add button to close the reader
-      > same topic 
-      > same topic group
-      > same author
-      > similar date
-      > just random page
+DONE  * Add button to close the reader
 
-      Random subsets: 
-      ----> Design and effect  (spinning rullette idea) when jumping to a page: 
-          IDEA, simply move the div-border div from the page we are to the page we go, quite slowly & smoothly. Give a colid color to the backgroung div-border.
+NO      * same topic 
+NO      * same topic group
+NO      * same author
+NO      * similar date
+NO      * just random page
+-----> the buttons go to header menu. As in vIII: click topic groups and topics 
+       => generate diaty-grid images for: 
+          5 GT + 30 topics = 35
+          35 x 3 widths = 105
+          105 x 3 thersholds = 315
+          x 5.4M
+
+       => Add JS check screen size of user device -> index and pages in line: <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif"
+
+NO      Random subsets: 
+NO      ----> Design and effect  (spinning rullette idea) when jumping to a page: 
+NO          IDEA, simply move the div-border div from the page we are to the page we go, quite slowly & smoothly. Give a colid color to the backgroung div-border.
 
     * OPTION Context with same date-newspaper articles from Trove! (check notes on data=[rpcess.txt file
-    * CSS-animate popup/hide reader in index and pages
+    * CSS-animate popup/hide reader in index and pages -> check angular-animate
+
+- When click the page-image thumb, call lightbox-like 
 
 - Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
 
@@ -58,7 +70,12 @@ DONE  > Add button to close the reader
 
 - Welcome page:
 
-
+- Reader:
+  * full screen
+  With buttons to move
+  * previous, Next
+  * Close, exit full screen
+  * Color-circles to jump to a topic group page
 
 #########################################################
 BONE 2015-10-21
