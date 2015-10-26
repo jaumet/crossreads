@@ -14,7 +14,7 @@ montage square.gif square.gif square.gif square.gif square.gif square.gif square
 
 How to run this cript and generate the images:
 $: python 13-ImageMagik-command-for-fake-grid.py>ImageMagick-0.20-1Personal.im
-$: mkdir topicGroup-0.2-all # example
+$: mkdir img/topicGroup-0.2-all # example
 $: cat ImageMagick-0.20-all.im |bash
 
 '''
@@ -31,12 +31,18 @@ g = open("topics.json", "r")
 topicsjson = json.loads(g.read())
 
 # Set vars:
+TOPIC_THERSHOLD = 0.3;
 IMAGES_PER_ROW = "120" 
 # image width = IMAGES_PER_ROW x 10px
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-1Personal/"
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-2War/"
 #TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-3Mil/"
-TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-5Tourist/"
+#TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-4Travelling/"
+#TARGET_DIRECTORY_PATH = "img/topicGroup-0.02-5Tourist/"
+
+TARGET_DIRECTORY_PATH = "img/topicGroup-0.3-all/"
+
+## create or use directories of 
 
 TGid = "5"
 
@@ -69,8 +75,9 @@ for d in glob.glob(path0+'*'):
         for  topic in topicsjson:
             if mallet_id in  topic["mallet_ids_inluded"]:
                 #print "--> "+ str(diary["topics"][0][1])
-                ## if float(diary["topics"][0][1]) > 0.20 and topic["tid"] == Tid: ## for Topics 
-                if float(diary["topics"][0][1]) > 0.20 and str(topic["tid"])[0] == TGid: # for Topic Groups
+                ## if float(diary["topics"][0][1]) > TOPIC_THERSHOLD and topic["tid"] == Tid: ## for Topics 
+#                if float(diary["topics"][0][1]) > TOPIC_THERSHOLD and str(topic["tid"])[0] == TGid: # for Topic Groups
+                if float(diary["topics"][0][1]) > TOPIC_THERSHOLD:
                     #print "This page is TG = "+str(topic["tid"])[0]
                     imgs += path+str(topic["tid"])[0]+".gif " 
                 else:

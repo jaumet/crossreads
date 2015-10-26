@@ -8,23 +8,13 @@
     <script type="text/javascript" src="js/controller.js"></script>
   </head>
   <body ng-controller="listControl">
-
-  <div>  
-	<h3>Order diaries by: 
-	  <select ng-model="orderField">
-		<option value="author">Author</option>
-		<option value="start_date[0].start_year">Date</option>
-		<option value="chart[0]">Topic</option>
-      </select>
-    </h3>
-  </div>
-  
+  <div ng-include="'partials/header.html'"></div>  
   <div class="diary" ng-repeat="d in diaries | orderBy:orderField">
 	  <div class="meta" ng-class="{'expand':d.expand}" >
 		  <span>{{d.title}}</span> <!-- - {{d.author}} - {{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p> -->
 	  </div>
-	  <div class="pages">
-      <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
+	  <div class="pages"">
+      <img ng-bind="mypath=getPath();" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d);"/>
       <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
     </div>
     <div class="detail" ng-if="d.expand">

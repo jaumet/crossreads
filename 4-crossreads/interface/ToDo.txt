@@ -26,12 +26,15 @@ NO      * similar date
 NO      * just random page
 -----> the buttons go to header menu. As in vIII: click topic groups and topics 
        => generate diaty-grid images for: 
-          5 GT + 30 topics = 35
-          35 x 3 widths = 105
+DONE          5 GT 
+          + 30 topics = 35 ==> WORKING in 4-crossreads/data/13-ImageMagik-command-for-fake-grid.py
+          35 x 3 widths = 105 -> Create three fake-grid images sizes, for fake-responsivity
+             => Add JS check screen size of user device -> index and pages in line: <img ng-src="
+                ./data/img/topicGroup-0.02-all/{{d.nid}}.gif"
           105 x 3 thersholds = 315
           x 5.4M
+DONE   => read URL path and load respective image 
 
-       => Add JS check screen size of user device -> index and pages in line: <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif"
 
 NO      Random subsets: 
 NO      ----> Design and effect  (spinning rullette idea) when jumping to a page: 
@@ -40,18 +43,20 @@ NO          IDEA, simply move the div-border div from the page we are to the pag
     * OPTION Context with same date-newspaper articles from Trove! (check notes on data=[rpcess.txt file
     * CSS-animate popup/hide reader in index and pages -> check angular-animate
 
+!- Clean scores (=0) for empty or almost emty (no characters < XXX) pages
+
 - When click the page-image thumb, call lightbox-like 
 
 - Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
 
 - Timeline view -> add it to the dropdown. Probably needs a timeline.html file
 
-- Save visited pages w/ HTML5 storage (as in crossreads III)
+- Store configuration in HTML5 permanent store
+  * needs a form with config values. Submit stores/updates the config settings in HTML5 store. 
+  * Save visited pages w/ HTML5 storage (as in crossreads III)
 
 - subsets/ for top pages by topic/topicGroup ...
   > May be it needs a top.html
-
-- Create three fake-grid images sizes, for fake-responsivity
 
 ------------------
 2) HTML & CSS:
@@ -67,6 +72,9 @@ NO          IDEA, simply move the div-border div from the page we are to the pag
   * title(diggersdiaries)
   * feedback
   * Legend/sublegend for topics -> as buttons like in vIII? Then what happens onclick?? 
+  ** MENU: the five TG
+  ** Above the MENU: TagCloud (font sixe proportional to topic score [terms.json]) with topics with TG color
+
 
 - Welcome page:
 
@@ -76,6 +84,8 @@ NO          IDEA, simply move the div-border div from the page we are to the pag
   * previous, Next
   * Close, exit full screen
   * Color-circles to jump to a topic group page
+
+  
 
 #########################################################
 BONE 2015-10-21
