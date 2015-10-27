@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-App="">
+  <head>
+    <title>Diaries Demo</title>
+  	<meta charset="utf-8" />
+  	<link rel="stylesheet" href="css/style.css">
+  	<script src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+
+  </head>
+
+  <body ng-controller="listControl"> 
+    <div ng-include="'partials/header.html'"></div>
+    <div>
+      <h3>Order diaries by: 
+        <select ng-model="orderField">
+          <option value="author">Author</option>
+          <option value="start_date[0].start_year">Date</option>
+          <option value="chart[0]">Topic</option>
+        </select>
+      </h3>
+    <div ng-class="{'expand':d.expand}" ng-repeat="d in diaries | orderBy:orderField">
+      <p class="meta_line"><button ng-click="d.expand = !d.expand; pageExpand = false; focusDiary = d; mypath=getPath();">></button> <b>{{d.author}}</b> - {{d.start_date[0].start_year}}-{{d.start_date[0].start_month}}-{{d.start_date[0].start_day}} -> {{d.end_date[0].end_year}}-{{d.end_date[0].end_month}}-{{d.end_date[0].end_day}}<br />
+      <span class="line" style="display: inline-block; background-color: {{getTopic(d.chart[0][0],1)}}; left:{{50+(12*5*(d.start_date[0].start_year-1911))}}px; width: {{5+(5*dateDiff(d.start_date[0].start_year, d.start_date[0].start_month, d.start_date[0].start_day, d.end_date[0].end_year,d.end_date[0].end_month, d.end_date[0].end_day))}}px;}"></span>
+      </p>
+
+      <div class="clear"></div>
+      <div ng-if="d.expand">
+        <p>{{focusDiary.nid}}. No. of pages: {{focusDiary.pages[0].page_no}}</p>
+        <p ng-bind="getTopic(focusDiary.chart[0][0], 0)"></p>
+        <div class="chart">
+          <div  class="barcontainer clear" ng-repeat = "t in focusDiary.chart | limitTo:5">
+          <div class="label left">{{getTopic(t[0],0)}}</div>
+          <div class="bar left" ng-style="{'width': t[1]*5 + 'px','background-color': '{{getTopic(t[0],1)}}'}">  </div>
+        </div>
+      </div>
+      <div class="clear"></div>      
+      <div class="pages">
+        <img tabindex="0" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
+        <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
+      </div>
+      <div class="detail" ng-if="pageExpand">
+      	<div ng-include="'partials/reader.html'"></div>
+      	<div class="clear"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

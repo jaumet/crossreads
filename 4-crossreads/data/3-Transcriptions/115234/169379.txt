@@ -1,4 +1,4 @@
-<p>a6490160.html</p>
+
 <p>Louis [Peiffer ?]</p>
 <p>[Salle ?] de Janos pour Boxer.</p>
 <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">

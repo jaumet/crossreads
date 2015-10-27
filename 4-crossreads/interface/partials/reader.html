@@ -1,16 +1,18 @@
-
+<div class="clear"></div>
 <div id="reader">
   <div id="pagemetadata">
     <div id="image_chart">
       <div class="left">
-        <img class="thumb left" src="img/nopage.jpg"/>
+        <img tabindex="0" class="thumb left" src="img/nopage.jpg"/>
       </div>
-          <div class="barcontainer" ng-repeat = "c in d.pages[d.focusPageIndex].topics | limitTo:5">
+      <div class="barcontainer"> 
+        <div ng-repeat = "c in d.pages[d.focusPageIndex].topics | limitTo:5">
           <div class="label left">{{getTopic(c[0], 0)}}</div>
           <div class="bar left" ng-style="{'width': c[1]*200 + 'px','background-color': '{{getTopic(c[0],1)}}'}"></div>
+        </div>
       </div>
     </div>
-    <div class="clear"></div>
+
     <div>
       <p>{{d.title}}</p>
       <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
@@ -18,22 +20,12 @@
     </div>
   </div>
   <div class="buttons">
-<!--
-    <p> - 
-    Jump to: 
-      <button>same topicGroup</button> 
-      <button>same topic name</button> 
-      <button>same author</button> 
-      <button>similar date</button> 
-      <button>random page</button>
-    </p>
--->
+      <p>&nbsp;</p>
     <p> 
     	<button ng-click="setFocusPage(d,d.focusPageIndex-1)">Prev</button>
       <button ng-click="d.expand = false;">Close</button>
     	<button ng-click="setFocusPage(d,d.focusPageIndex+1)">Next</button>
     </p> 
   </div>
-  <div class="page" ng-include="'data/3-Transcriptions/'+d.nid+'/'+d.pages[d.focusPageIndex].id+'.txt'">	
-  </div>
+  <div class="page" ng-include="'data/transcriptions/'+d.nid+'/'+d.pages[d.focusPageIndex].id+'.txt'">	
 </div>  

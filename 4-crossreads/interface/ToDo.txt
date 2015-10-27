@@ -43,19 +43,19 @@ NO          IDEA, simply move the div-border div from the page we are to the pag
     * OPTION Context with same date-newspaper articles from Trove! (check notes on data=[rpcess.txt file
     * CSS-animate popup/hide reader in index and pages -> check angular-animate
 
-!- Clean scores (=0) for empty or almost emty (no characters < XXX) pages
+???CHECK THIS- Clean scores (=0) for empty or almost empty (no characters < XXX) pages
 
-- When click the page-image thumb, call lightbox-like 
+DONE- When click the page-image thumb, call lightbox-like 
 
-- Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
+DONE- Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
 
-- Timeline view -> add it to the dropdown. Probably needs a timeline.html file
+DONE- Timeline view -> add it to the dropdown. Probably needs a timeline.html file
 
-- Store configuration in HTML5 permanent store
+- [OPTIONAL] Store configuration in HTML5 permanent store
   * needs a form with config values. Submit stores/updates the config settings in HTML5 store. 
   * Save visited pages w/ HTML5 storage (as in crossreads III)
 
-- subsets/ for top pages by topic/topicGroup ...
+NO- subsets/ for top pages by topic/topicGroup ...
   > May be it needs a top.html
 
 ------------------

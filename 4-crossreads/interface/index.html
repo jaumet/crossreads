@@ -11,6 +11,15 @@
 
   <body ng-controller="listControl"> 
     <div ng-include="'partials/header.html'"></div>
+    <div>
+      <h3>Order diaries by: 
+        <select ng-model="orderField">
+          <option value="author">Author</option>
+          <option value="start_date[0].start_year">Date</option>
+          <option value="chart[0]">Topic</option>
+        </select>
+      </h3>
+    </div>
     <div class="diary-tile" ng-class="{'expand':d.expand}" ng-repeat="d in diaries | orderBy:orderField">
       <button ng-click="d.expand = !d.expand; pageExpand = false; focusDiary = d; mypath=getPath();">expand / collapse</button>
       <h3>{{d.title}}</h3>
@@ -27,7 +36,7 @@
       </div>
       <div class="clear"></div>      
       <div class="pages">
-        <img ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
+        <img tabindex="0" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
         <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
       </div>
       <div class="detail" ng-if="pageExpand">

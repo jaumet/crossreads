@@ -5890,7 +5890,7 @@
     ],
     "title": "General William Holmes Papers regarding capitulation, September-October 1914",
     "url": "item-03-general-william-holmes-papers-regarding-capitulation-september-october-1914",
-    "author": "General William Holmes Papers",
+    "author": "William Holmes",
     "chart": [
       [
         79,
@@ -6128,8 +6128,8 @@
     "nid": 115251,
     "start_date": [
       {
-        "start_month": "",
-        "start_year": "September",
+        "start_month": "September",
+        "start_year": "1914",
         "start_day": ""
       }
     ],
@@ -23364,9 +23364,9 @@
     "nid": 281515,
     "start_date": [
       {
-        "start_month": "12",
-        "start_year": "August1914",
-        "start_day": ""
+        "start_month": "August",
+        "start_year": "1914",
+        "start_day": "12"
       }
     ],
     "id": 100
@@ -36556,9 +36556,9 @@
     "nid": 281581,
     "start_date": [
       {
-        "start_month": "24",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1918",
+        "start_day": "24"
       }
     ],
     "id": 151
@@ -43236,9 +43236,9 @@
     "nid": 298884,
     "start_date": [
       {
-        "start_month": "21",
-        "start_year": "February",
-        "start_day": ""
+        "start_month": "February",
+        "start_year": "1919",
+        "start_day": "21"
       }
     ],
     "id": 179
@@ -45113,8 +45113,8 @@
     "start_date": [
       {
         "start_month": "November",
-        "start_year": "23",
-        "start_day": ""
+        "start_year": "1917",
+        "start_day": "23"
       }
     ],
     "id": 186
@@ -54224,9 +54224,9 @@
     "nid": 298929,
     "start_date": [
       {
-        "start_month": "2",
-        "start_year": "February",
-        "start_day": ""
+        "start_month": "February",
+        "start_year": "1918",
+        "start_day": "2"
       }
     ],
     "id": 220
@@ -61668,9 +61668,9 @@
     "nid": 298970,
     "start_date": [
       {
-        "start_month": "2",
-        "start_year": "July",
-        "start_day": ""
+        "start_month": "July",
+        "start_year": "1916",
+        "start_day": "2"
       }
     ],
     "id": 250
@@ -66400,9 +66400,9 @@
     "nid": 298991,
     "start_date": [
       {
-        "start_month": "1",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1917",
+        "start_day": "1"
       }
     ],
     "id": 268
@@ -78752,9 +78752,9 @@
     "nid": 306023,
     "start_date": [
       {
-        "start_month": "24",
-        "start_year": "November",
-        "start_day": ""
+        "start_month": "November",
+        "start_year": "1916",
+        "start_day": "24"
       }
     ],
     "id": 316
@@ -83784,9 +83784,9 @@
     "nid": 314353,
     "start_date": [
       {
-        "start_month": "29",
-        "start_year": "September1917",
-        "start_day": ""
+        "start_month": "September",
+        "start_year": "1917",
+        "start_day": "29"
       }
     ],
     "id": 339
@@ -88496,9 +88496,9 @@
     "nid": 314379,
     "start_date": [
       {
-        "start_month": "31",
-        "start_year": "October",
-        "start_day": ""
+        "start_month": "October",
+        "start_year": "1918",
+        "start_day": "31"
       }
     ],
     "id": 357
@@ -90296,9 +90296,9 @@
     "nid": 314388,
     "start_date": [
       {
-        "start_month": "6",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1919",
+        "start_day": "6"
       }
     ],
     "id": 364
@@ -93328,9 +93328,9 @@
     "nid": 314421,
     "start_date": [
       {
-        "start_month": "19",
-        "start_year": "September",
-        "start_day": ""
+        "start_month": "September",
+        "start_year": "1917",
+        "start_day": "19"
       }
     ],
     "id": 376
@@ -94540,9 +94540,9 @@
     "nid": 314426,
     "start_date": [
       {
-        "start_month": "11",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1919",
+        "start_day": "11"
       }
     ],
     "id": 381
@@ -94804,9 +94804,9 @@
     "nid": 314427,
     "start_date": [
       {
-        "start_month": "18",
-        "start_year": "February",
-        "start_day": ""
+        "start_month": "February",
+        "start_year": "1919",
+        "start_day": "18"
       }
     ],
     "id": 382
@@ -97732,9 +97732,9 @@
     "nid": 318449,
     "start_date": [
       {
-        "start_month": "10",
-        "start_year": "July",
-        "start_day": ""
+        "start_month": "July",
+        "start_year": "1916",
+        "start_day": "10"
       }
     ],
     "id": 398
@@ -101060,9 +101060,9 @@
     "nid": 318469,
     "start_date": [
       {
-        "start_month": "8",
-        "start_year": "April",
-        "start_day": ""
+        "start_month": "April",
+        "start_year": "1915",
+        "start_day": "8"
       }
     ],
     "id": 412
@@ -105852,9 +105852,9 @@
     "nid": 325190,
     "start_date": [
       {
-        "start_month": "26",
-        "start_year": "September",
-        "start_day": ""
+        "start_month": "September",
+        "start_year": "1917",
+        "start_day": "26"
       }
     ],
     "id": 432
@@ -154704,9 +154704,9 @@
     "nid": 362605,
     "start_date": [
       {
-        "start_month": "4",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1919",
+        "start_day": "4"
       }
     ],
     "id": 638
@@ -155172,9 +155172,9 @@
     "nid": 362608,
     "start_date": [
       {
-        "start_month": "3",
-        "start_year": "January",
-        "start_day": ""
+        "start_month": "January",
+        "start_year": "1919",
+        "start_day": "3"
       }
     ],
     "id": 640
@@ -156996,9 +156996,9 @@
     "nid": 365776,
     "start_date": [
       {
-        "start_month": "28",
-        "start_year": "June",
-        "start_day": ""
+        "start_month": "June",
+        "start_year": "1917",
+        "start_day": "28"
       }
     ],
     "id": 648
@@ -168599,7 +168599,7 @@
     "kind": "memories",
     "end_date": [
       {
-        "end_year": "1918",
+        "end_year": "1960",
         "end_day": "",
         "end_month": ""
       }
@@ -168817,7 +168817,7 @@
     "start_date": [
       {
         "start_month": "",
-        "start_year": "1960",
+        "start_year": "1918",
         "start_day": ""
       }
     ],

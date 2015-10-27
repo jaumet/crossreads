@@ -1,4 +1,4 @@
-<p>a6680127.html</p>
+
 <table border="1" cellpadding="1" cellspacing="1" height="118" width="248">
 <tbody>
 <tr>

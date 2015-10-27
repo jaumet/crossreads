@@ -10,3 +10,9 @@ watch total number of files .jpg in a directory recursively
 
 # remove files *.jpg recursively
 find . \( -name '*.jpg'  \) -delete
+
+# rgrep with RE
+rgrep '^<p>a.*\.html</p>' *
+
+# Find & replace recursively in *.txt files
+perl -p -i -e 's/^\<p\>a.*\.html\<\/p\>//g;' `find ./ -name *.txt`

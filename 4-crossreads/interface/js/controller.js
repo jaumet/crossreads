@@ -14,7 +14,7 @@ function listControl($scope,$http, $location){
 		$scope.vars = data;
 	});
 
-	$scope.getTopic = function (mallet_id, what) {  
+	$scope.getTopic = function (mallet_id, what) {
 	    label = "unknown";color = "red";
 	    $scope.topics.forEach(function(el){
 		    if (el.mallet_ids_inluded.indexOf(mallet_id) != -1) {
@@ -118,4 +118,36 @@ function listControl($scope,$http, $location){
 	    }
       return mypath;
   }
+
+  $scope.dateDiff = function (y0,m0,d0,y1,m1,d1) {
+
+    if (!y1 && !m1 && !d1) return 0; // = diay duration is 1 day (letter)
+    
+    if (!y1) y1 = y0
+    if (!m1) m1 = "January"
+    if (!d1) d1 = 1
+    if (!m0) m0 = "January"
+    if (!d0) d0 = 1
+    var months = [ "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December" ];
+    // month of difference:
+    return Math.ceil((y1-y0)*12) + months.indexOf(m1)-months.indexOf(m0);
+  }
+
+  function toggleExpand() {
+      var expanded = true;
+      $('img').each(function() {
+          if (!$(this).hasClass('expanded')) {
+              expanded = false;
+              return false;
+          }
+      });
+      $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]').children('img').each(function() {
+          if (expanded)
+              $(this).removeClass('expanded');
+          else
+              $(this).addClass('expanded');
+      });
+  }
+ 
 }
