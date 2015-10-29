@@ -16,3 +16,6 @@ rgrep '^<p>a.*\.html</p>' *
 
 # Find & replace recursively in *.txt files
 perl -p -i -e 's/^\<p\>a.*\.html\<\/p\>//g;' `find ./ -name *.txt`
+
+	-NOTE: for a ' to " replacement (in data/13-tops) I had to do:
+	 perl -p -i -e s/\'/\"/g *.json
