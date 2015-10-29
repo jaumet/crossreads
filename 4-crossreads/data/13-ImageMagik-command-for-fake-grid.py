@@ -1,22 +1,25 @@
 
+
 ''' 
 building a command to generate image-grid for each diary
 
 convert -size 200x200 xc:skyblue -fill '#ffffbf' -stroke '#ffffbf' -draw "rectangle 20,10 30,30" -fill '#d7191c' -stroke '#d7191c' -draw "rectangle 50,50 70,70"  draw_rect.gif
 
+IMAGE MAGIK command
 montage square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif square.gif -geometry +2+2   montage_geom.jpg
 
+COLORS
 .c4  {background-color: #9966cc;}
 .c5  {background-color: #66cccc;}
 .c3  {background-color: #99cc66;}
 .c2  {background-color: #cc6666;}
 .c1  {background-color: #E78F39;}
 
-How to run this cript and generate the images:
+USAGE
+How to run this script and generate the images:
 $: python 13-ImageMagik-command-for-fake-grid.py>ImageMagick-0.20-1Personal.im
 $: mkdir img/topicGroup-0.2-all # example
 $: cat ImageMagick-0.20-all.im |bash
-
 '''
 
 import random

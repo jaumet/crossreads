@@ -142,7 +142,13 @@
         > 13-ImageMagik-command-for-fake-grid.py
     OUTPUT img/topicGroups-* 
 
-        
+14) subsets/ for top pages by topic/topicGroup ...
+  INPUT 11-diaryID-jsons/*
+      > run 1: 14-top-TG-jsons.py 
+  OUTPUT 1: tops/[a file for each TG]
+      > run 2: 14-top-Topics-jsons.py 
+  OUTPUT 2: tops/[files for all malled_ids].json
+
 
 ##############################################################################
 
