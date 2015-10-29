@@ -142,12 +142,17 @@
         > 13-ImageMagik-command-for-fake-grid.py
     OUTPUT img/topicGroups-* 
 
-14) subsets/ for top pages by topic/topicGroup ...
+14) DONE subsets/ for top pages by topic/topicGroup ...
   INPUT 11-diaryID-jsons/*
-      > run 1: 14-top-TG-jsons.py 
-  OUTPUT 1: tops/[a file for each TG]
+      > run 1: 14-top-TG-[1-5]jsons.py 
+  OUTPUT 1: tops/[a file for each of 30 TG]
       > run 2: 14-top-Topics-jsons.py 
   OUTPUT 2: tops/[files for all malled_ids].json
+
+ToDo: 
+At the end: publishing the data
+- Publish open data following standard: http://www.ausgoal.gov.au/open-formats 
+- Add info about the licences CC for tha data used from SLNSW. Add publish the code and data accordingly.
 
 
 ##############################################################################
