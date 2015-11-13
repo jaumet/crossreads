@@ -1,31 +1,34 @@
 <div class="clear"></div>
-<div id="reader">
-  <div id="pagemetadata">
-    <div id="image_chart">
-      <div class="left">
-        <img tabindex="0" class="thumb left" src="img/nopage.jpg"/>
-      </div>
-      <div class="barcontainer"> 
-        <div ng-repeat = "c in d.pages[d.focusPageIndex].topics | limitTo:5">
-          <div class="label left">{{getTopic(c[0], 0)}}</div>
-          <div class="bar left" ng-style="{'width': c[1]*200 + 'px','background-color': '{{getTopic(c[0],1)}}'}"></div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <p>{{d.title}}</p>
-      <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
-      <p>{{d.focusPageIndex+1}} of the {{d.page_no}}</p>
-    </div>
-  </div>
-  <div class="buttons">
+<div class="container">  
+<!--row 2: -->
+  <div class="row row-image-grid">
+<!--column 2-->
+    <div class="col-md-8">
       <p>&nbsp;</p>
-    <p> 
-    	<button ng-click="setFocusPage(d,d.focusPageIndex-1)">Prev</button>
-      <button ng-click="d.expand = false;">Close</button>
-    	<button ng-click="setFocusPage(d,d.focusPageIndex+1)">Next</button>
-    </p> 
+      <pre><a href="reader.html#/{{d.nid}}/{{d.focusPageIndex+1}}"><img alt="Permanent URL" class="right link" src="img/glyphicons-51-link.png" /></a><span ng-click="setFocusPage(d,d.focusPageIndex-1)"><img class="img-arrow" src="img/glyphicons-225-chevron-left.png" /></span>&nbsp;<small>page {{d.focusPageIndex_norm}} of {{d.page_no}}</small>&nbsp;<span ng-click="setFocusPage(d,d.focusPageIndex+1)"><img class="img-arrow" src="img/glyphicons-224-chevron-right.png" /></span></p>
+        <div class="page" ng-include="'data/transcriptions/'+d.nid+'/'+d.pages[d.focusPageIndex].id+'.txt'">
+        </div>
+      </pre> 
+      <p>&nbsp;</p>
+    </div>
+     
+  <!--column 3-->
+
+    <div id="col-md-2">
+      <div class="page-meta">
+        <h2><img alt="Close reader" class="right link" src="img/glyphicons-208-remove-2.png" ng-click="d.expand = false;" />by <b>{{d.author}}</b>&nbsp;<a href="http://discoveringanzacs.naa.gov.au/Search/General?query={{d.author}}" target="_{{d.author}}" class="btn-xs">bio >></a></h2>
+        <img tabindex=0 class="thumb left" src="img/nopage.jpg"/>
+        <p>title: <b>{{d.title}}</b></p>
+        <p>dates: <b>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</b></p>
+        <p>&nbsp;</p>
+      </div> 
+      <div class="clear"></div>
+      <!--<div ng-repeat = "c in d.pages[d.focusPageIndex].topics | limitTo:5">-->
+      <div ng-repeat = "c in d.filteredTopics | limitTo:5">
+        <div class="label left">{{getTopic(c[0], 0)}}</div>
+        <div class="bar left" ng-style="{'width': c[1]*200 + 'px','background-color': '{{getTopic(c[0],1)}}'}"></div>
+        <p>&nbsp;</p>
+      </div>
+    </div>
   </div>
-  <div class="page" ng-include="'data/transcriptions/'+d.nid+'/'+d.pages[d.focusPageIndex].id+'.txt'">	
-</div>  
+</div>

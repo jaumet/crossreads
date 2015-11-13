@@ -1,48 +1,266 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" ng-App="">
   <head>
-    <title>Diaries Demo</title>
-  	<meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>diggersdiaries.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
   	<link rel="stylesheet" href="css/style.css">
+  	
   	<script src="lib/angular.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
-
   </head>
+<!-- NAVBAR
+================================================== -->
+  <body id="top" ng-controller="readerControl">  
+  <div ng-include="'partials/header.html'">
+  </div>
+    <!-- Carousel
+    ================================================== -->
 
-  <body ng-controller="listControl"> 
-    <div ng-include="'partials/header.html'"></div>
-    <div>
-      <h3>Order diaries by: 
-        <select ng-model="orderField">
-          <option value="author">Author</option>
-          <option value="start_date[0].start_year">Date</option>
-          <option value="chart[0]">Topic</option>
-        </select>
-      </h3>
-    </div>
-    <div class="diary-tile" ng-class="{'expand':d.expand}" ng-repeat="d in diaries | orderBy:orderField">
-      <button ng-click="d.expand = !d.expand; pageExpand = false; focusDiary = d; mypath=getPath();">expand / collapse</button>
-      <h3>{{d.title}}</h3>
-      <h4>{{d.author}}</h4>
-      <p>{{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p>
-      <div ng-if="d.expand">
-        <p>{{focusDiary.nid}}. No. of pages: {{focusDiary.pages[0].page_no}}</p>
-        <p ng-bind="getTopic(focusDiary.chart[0][0], 0)"></p>
-        <div class="chart">
-          <div  class="barcontainer clear" ng-repeat = "t in focusDiary.chart | limitTo:5">
-          <div class="label left">{{getTopic(t[0],0)}}</div>
-          <div class="bar left" ng-style="{'width': t[1]*5 + 'px','background-color': '{{getTopic(t[0],1)}}'}">  </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" ng-repeat="i in carousel['featured']" data-slide-to="{{$index}}"></li>
+      </ol>
+
+<!--------------------->
+      <!-- Indicators -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item" ng-class="{active:!$index}" ng-repeat="c in carousel['featured']" my="/{{c.diaryID}}/{{c.pageIndex}}" >
+          <img class="first-slide" ng-src="data/pages-images/{{c.diaryID}}/{{c.pageID}}.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <div ng-include="'data/transcriptions/'+c.diaryID+'/'+c.pageID+'.txt'"></div>
+              <p><a class="btn btn-xs btn-default" href="reader.html#/{{c.diaryID}}/{{c.pageIndex}}" role="button">read it &raquo;</a></p>
+            </div>
+          </div>
         </div>
+
       </div>
-      <div class="clear"></div>      
-      <div class="pages">
-        <img tabindex="0" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d)" />
-        <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
-      </div>
-      <div class="detail" ng-if="pageExpand">
-      	<div ng-include="'partials/reader.html'"></div>
-      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+<!-- collection: welcome and total numbers -->  
+  <div class="container">
+    <h2>Welcome</h2>
+    <h4>Welcome to the visualization of the "WWI Diaries" SLNSW collection <br /> by Jaume Nualart, PhD Candidate University of Canberra</h4>
+    <p>We present part of the collection "Word War I Diaries" from the State Library of New South Wales (Australia). This site is an interface to that collection developed as part of a research project called <a href=http://research.nualart.cat/?p=43"" target="_corssreads">Crossreads</a> by Jaume Nualart (PhD Candidate at University of Canberra, Faculty of Arts and Design. 2015).</p>
+
+    <p>This project proposes a way of exploring and reading the collection based on grouping pages according to the topics they talk about. The analysis has been done with <a href="https://en.wikipedia.org/wiki/Topic_model" target="_topic_models">topic models</a>. We are preparing a publication where the process will be explained in detail.</p>
+    <h2>Overview of the collection</h2>
+	  <h3>Basic metadata of the collection:</h3>
+	  <ul class="nav nav-pills">
+      <li class="myactive"><a><b>337 authors</b><br /> all Anzac, <br />aussie soldiers</a></li>
+      <li class="myactive"><a><b>688 Diaries</b><br /> from letters<br /> to military reports</a></li>	 
+      <li class="myactive"><a><b>81763 pages</b><br /> crowd-transcribed to text <br />by users of SLNSW</a></li>
+      <li class="myactive"><a><b>100 years ago</b><br />dated from  1914 <br />to 1920</a></li>
+    </ul></p>
+	  <h3>Topics are presented in 5 groups:</h3>
+	  <p class="size2">[bigger means more pages have this topic]</p>
+	  <ul class="nav nav-pills">
+      <li class="topic-pill c1"><h3>Personal</h3>
+        <ul>
+           <li class="size0">Christmas</li>
+           <li class="size10">Education</li> 
+           <li class="size2">Food</li>
+           <li class="size8">Letters & family</li>
+           <li class="size1">Money & shopping</li>
+           <li class="size1">Music and party</li>
+           <li class="size2">Personal care & clothes</li>
+           <li class="size4">Poetry & spirit</li>
+           <li class="size5">Weather</li>
+           <li class="size0">Women</li>
+        </ul>
+      </li>
+      <li class="topic-pill c2"><h3>War</h3>
+        <ul>
+          <li class="size0">Air</li>
+          <li class="size13">Combat</li>
+          <li class="size1">Context</li>
+          <li class="size3">Health</li>
+          <li class="size2">Front line</li>
+        </ul>
+      </li>
+      <li class="topic-pill c3"><h3>Military life</h3>
+        <ul>
+          <li class="size3">Camping</li>
+          <li class="size8">General</li>
+          <li class="size1">Horses</li>
+          <li class="size5">Lists & reports</li>
+          <li class="size0">POW</li>
+          <li class="size1">Sports</li>
+          <li class="size0">Technical</li>
+        </ul>
+      </li>
+      <li class="topic-pill c4"><h3>Travelling</h3>
+        <ul>
+          <li class="size3">Middle East</li>
+          <li class="size8">Over the sea</li>
+          <li class="size5">Roads & railways</li>
+        </ul>
+      </li>
+      <li class="topic-pill c5"><h3>The accidental tourist</h3>
+        <ul>
+          <li class="c5 size3">City life</li>
+          <li class="c5 size1">Egipt</li>
+          <li class="c5 size2">Countryside</li>
+          <li class="c5 size0">France</li>
+          <li class="c5 size2">UK</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+    <hr />
+    
+  <div class="container">
+    <h3 id="explore-collection">Explore the collection<h3>
+  </div>
+
+  <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-3">
+        <a href="reader.html"><img class="img-circle" src="img/button-reader.png" alt="Generic placeholder image" width="140" height="140"></a>
+        <h2>Reader</h2>
+        <p>The reader allows you to read the pages of the diaries in, at least two ways:</p>
+        <p><a class="btn btn-default" href="reader.html" role="button">Try it &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+      <div class="col-lg-3">
+        <a href="pages.html"><img class="img-circle" src="img/button-pages.png" alt="Generic placeholder image" width="140" height="140"></a>
+        <h2>Explore by pages</h2>
+        <p>Visualize more over 80.000 thousend pages from the diaries, order and read them</p>
+        <p><a class="btn btn-default" href="pages.html" role="button">Try it &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+      <div class="col-lg-3">
+        <img class="img-circle" src="img/button-diaries.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>Explore by authors & diaries</h2>
+        <p>See the list of diaries and their authors. See main topic of each diary and read them.</p>
+        <p><a class="btn btn-default" href="diaries.html" role="button">Try it &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+      <div class="col-lg-3">
+        <a href="timeline.html"><img class="img-circle" src="img/button-timeline.png" alt="Generic placeholder image" width="140" height="140"></a>
+        <h2>Explore by time</h2>
+        <p>See diaries ordered by date and read them too</p>
+        <p><a class="btn btn-default" href="timeline.html" role="button">Try it &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+    </div><!-- /.row -->
+
+
+    <!-- about the data -->
+
+    <hr />
+
+    <div class="container">
+      <h3 id="about">About the data</h3>
+    </div>
+    <div class="container">
+        <div class="col-lg-5">
+          <h5>Most common topics by group</h5>
+          <p><img src="img/chart-tgs.png" width="320" /></p>
+         </div>
+        <div class="col-lg-4">
+          <h5>Maximum topic model score per pages:</h5>
+          <p><img src="img/Rplot-Histogram-MaxTMscores.png"  /></p>
+        </div>
+      <h5>Most common topics</h5>
+      <p><img src="img/chart-topics.png"  /></p>
+
+      <h5>Open data</h5>
+      <p>This project uses data from the collection World War I Diaries, owned by the State Library of New South Walles (Australia).</p>
+      <p>All the code created to gather, transform and represent the said collection is available online at a <a href="https://github.com/jaumet/crossreads" target="_crossreads-github">Github account under the last version available of the licence that the SLNSW recommends in its <a href="http://transcripts.sl.nsw.gov.au/content/terms-and-conditions" target="_SLNSW_terms-of-use">Terms of Use</a>.</a>. This is <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/au/" target="_creative_commons-license-by-nc-sa-3,0">Creative Commons attribution, non-commercial, share alike 3.0 Australia</a></p>
+      <p>The data from the collection is accessible through the <a href="http://www.sl.nsw.gov.au/using/search/open_data.html" target="_SLNSW_open-data-api">SLNSW API</a>. The transformation of the data from the collection is also available in the format generated for this project.</p> 
+      <p>Follow the instructions to get the data: </p>
+      <ul>
+        <li><a href="data/diaries.json" target="_diggersdiaries_diaries">diaries.json</a>: list of diaries () and metadata (author, title, dates, kind, SLNSW URL, topics score, library ID))</li>
+        <li><a href="data/diaryDetail/" target="_diggersdiaries_detail">Diary detail</a>: each page of the diary (page ID, topic score)</li>
+        <li><a href="data/transcriptions/" target="_diggersdiaries_transcriptions">Transcriptions</a>: every page in html format is accessible through <i>data/transcriptions/[diaryID]/[pageID].txt</i></li>
+        <li><a href="data/img/" target="_diggersdiaries_img-grids">Diary topic images</a>: images generated for each diary showing first topic group of each page are directly accessible.</li>
+        <li><a href="data/tops/" target="_diggersdiaries_top-topics">Top topic pages</a>: top scores are accessible too</li>
+        <li><a href="data/topics.json" target="_diggersdiaries_topics">topics.json</a> and <a href="data/terms.json" target="_diggersdiaries_terms">terms.json</a>: json files for topics and terms list.</li>
     </div>
 
+    <!-- END about the data -->
+
+    <!-- credits -->
+    <hr />
+
+    <div class="container">
+      <h3 id="credits">Credits</h3>
+      <p>This is part of a creative-arts PhD by Jaume Nualart Vilaplana at the Faculty od Arts and Design (University of Canberra)</p>
+      <p>- Research & development: PhD Candidate Jaume Nualart Vilaplana<br />
+      - Mentoring and supervising: Dr Mitchell Whitelaw, Ass. Prof. Digital Design & Media Arts, Faculty od Arts and Design (University of Canberra)<br >
+      - Natural Language Processing adviser: Dr Gabriela Ferraro, Text Analytics Researcher at DATA61, CSIRO (Australia). Adjunct Research Fellow at the College of Engineering and Computer Science, Australian National University (ANU).
+      </p>
+      <p>This project is free software and it uses several external librariess and resources:<br />
+      - Javascript: AngularJS, Jquery<br />
+      - Data process: Python, shell, R,  ImageMagick, Java<br />
+      - Interface: bootstrap 2, Glyphicons<br />
+      - <br />
+      - <br />
+      - <br />
+      - <br />
+      - <br />
+      </p>
+    </div>
+    <!-- END credits -->
+
+    <!-- Contact -->
+    <hr />
+
+    <div class="container">
+      <h3 id="contact">Contact</h3>
+      <p>- email: Jaume at nualart.cat</p>
+      <p>- twitter: <a href="https://twitter.com/jaumetet" target="@jaumetet at twitter">@jaumetet</a></p>
+    </div>
+    <!-- END  -->
+
+
+    <!-- FOOTER -->
+    <div ng-include="'partials/footer.html'">
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <!--<script src="../../assets/js/vendor/holder.min.js"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
   </body>
 </html>
+

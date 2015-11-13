@@ -1,49 +1,176 @@
 
+
+Questions Mitchell 2015-11-05
+
+Angular question:
+- controller.js: How to getPageID(c.diaryID, c.pageIndex)
+DONE- controller.js: how to call filtertopics also from partials/reader.html
+
+- image-grid not working when visit a page 
+  > How to call it on load reader and partials/reader?
+  > Get top, Left from page url: getPosition(c.diaryID, c.pageIndex)
+
+DONE- how to set default orderby in dropdowns?
+
+
+JAUME:
+- Create favorits explorer: favs.html -> list favs by ( ----> NEEDS function getPageID(c.diaryID, c.pageIndex))
+
+- Add external dynamic links to resources in diaries: SLNSW diary link + Trove news for that date + ANZAC Images (trove or where?) + 
+
+- automatic player for exhibition (passive visualization, data auto-player). It'd need a player.html
+  -> adapt the slide in the index.html for full screen and continuous playing
+
+
+###################################################
+###################################################
+
+
+To Do: 2015-10-31
+
+--------
+0) 
+DONE  a] page bar chart -> sum topics of the same label before draw the chart
+  
+  b] image-grid not working when visit a page a page -> implement this functionality
+  
+DONE  c) Reader: define default (when no page is call) -> create transcriptions/0/0.txt?
+
+DONE  d) add share button (fb, twitter etc... "sharethis"
+
+  e) add accessibitiy: -A +A and inverse
+
+DONE  f) timeline.html and listControl pages: nav bar bug in Explore dropdown in nav bar
+
+  g) add external dynamic links to resources in diaries: SLNSW diary link + Trove news for that date + ANZAC Images (trove or where?) + 
+
+--------
+1)
+PAGE ELEMENTS
+
+- Header: with partials: 
+DONE  * Header needs to be fix (it stays on top when scrolling.)
+DONE  * Links: anchors in this page
+DONE  * title(diggersdiaries)
+  * feedback
+
+
+DONE  * Legend/sublegend for topics -> as buttons like in vIII? Then what happens onclick?? 
+DONE  ** MENU: the five TG
+DONE  ** Above the MENU: TagCloud (font size proportional to topic score [terms.json]) with topics with TG color
+
+- Welcome page:
+  PRESENTATION -> take it most from first version of WWI-Diaries
+  * Read
+    > give options to start reader with random options
+  * Explore:
+    > Per diary
+    > Per pages
+    > Per time
+  * Show numbers for, access to, and delete option:
+    > fav pages
+    (Interaction: show div when click with the list of pages for both cases)
+
+  ABOUT THE DATA
+  * R plots
+  * Add total top pages with topic score > 10% from data/tops/top-totals.json
+
+---------
+2)
+DONE- Save favorits w/ HTML5 storage (as in crossreads III)
+DONE  * everywhere: show "add fav", 
+      * "favorited" (in case it is)
+
+- Create favorits explorer: favs.html -> list favs by 
+
+
+---------
+3) Image-grid
+DONE     AllTGs + 5 TG = 6
+         + 30 topics = 35 ==> WORKING in 4-crossreads/data/13-ImageMagik-command-for-fake-grid.py
+         35 x 3 widths = 105 -> Create three fake-grid images sizes, for fake-responsivity 
+         => Add JS check screen size of user device -> index and pages in line: 
+              <img ng-src="./data/img/topicGroup-0.02-all/{{d.nid}}.gif"
+          105 x 3 thersholds = 315
+          x ~5.4M/(group of diaries) = ~1.7GB
+====> RESPONSIVE: 
+        > check device width
+        > get the right path for image-grids 
+
+---------
+4)
+- Link page images to 3-Images directory and put 3-Images in server spac. 
+  * This is around 52GB
+  * Probably is worth to reduze images size and quelity, to make it more suitable/installable/mobible
+
+---------
+5)
+- automatic player for exhibition (passive visualization, data auto-player). It'd need a player.html
+  -> adapt the slide in the index.html for full screen and continuous playing
+
+---------
+
+OPTIONAL:
+
+6)
+- OPTION Context with same date-newspaper articles from Trove! (check notes on data-process.txt file
+
+
+############################################################
+############################################################
+############################################################
+
 ToDo:
 
 1) JS:
 
 DONE  - Add the same fake-grid image functionality in oages.html to index.html
 
-- Reader
-DONE  * Reader separated in partials/reader.html
-      Add page metadata:  
-DONE  * page index/total
-DONE  * diary metadata (title, author, date)
-DONE  * page chart 
+  DONE  * Reader separated in partials/reader.html
+        Add page metadata:  
+  DONE  * page index/total
+  DONE  * diary metadata (title, author, date)
+  DONE  * page chart 
 
-DONE  * CHECK page images: check empty diaries. Try downloading lacking images.
+  DONE  * CHECK page images: check empty diaries. Try downloading lacking images.
 
-HALF done???      * Add mouse-over div-border to page-square
+IMAGE-GRID ng-click:
+
+DONE !! MITCHELL?      * div-border not changing after first click 
+
+!  MITCHELL?  * Add mouse-over to page-grid and show div-border
+
+--------------------
+READER.HTML
+
+DONE !! MITCHELL?: * how to call onload (instead of ng-click?
+
+DONE !! MITCHELL?  * previous, next buttons NOT WORKING
 
       Functionality for the rest of buttons
-DONE  * Add button to close the reader
+  DONE  * Add button to close the reader
+        JSONS for each TG and each Topic are in data/tops/*
+  DONE * same topic group
+  DONE * same topic 
+!  * same author
+!  * similar date
+!  * just random page
+!  MITCHELL OPINION: * What else? What less? Color-circles to jump to a topic group page: how? ramdom jump 
 
-NO      * same topic 
-NO      * same topic group
-NO      * same author
-NO      * similar date
-NO      * just random page
------> the buttons go to header menu. As in vIII: click topic groups and topics 
-       => generate diaty-grid images for: 
-DONE          5 GT 
-          + 30 topics = 35 ==> WORKING in 4-crossreads/data/13-ImageMagik-command-for-fake-grid.py
-          35 x 3 widths = 105 -> Create three fake-grid images sizes, for fake-responsivity
-             => Add JS check screen size of user device -> index and pages in line: <img ng-src="
-                ./data/img/topicGroup-0.02-all/{{d.nid}}.gif"
-          105 x 3 thersholds = 315
-          x 5.4M
-DONE   => read URL path and load respective image 
+         => generate diaty-grid images for each diary = 685: 
+!  MITCHELL OPINION: decide which ones to create. I'd do all of the listed below:
+  
+  DONE   => read URL path and load respective image 
 
 
-NO      Random subsets: 
-NO      ----> Design and effect  (spinning rullette idea) when jumping to a page: 
-NO          IDEA, simply move the div-border div from the page we are to the page we go, quite slowly & smoothly. Give a colid color to the backgroung div-border.
+-------------------
 
-    * OPTION Context with same date-newspaper articles from Trove! (check notes on data=[rpcess.txt file
-    * CSS-animate popup/hide reader in index and pages -> check angular-animate
 
-???CHECK THIS- Clean scores (=0) for empty or almost empty (no characters < XXX) pages
+  NO    * CSS-animate popup/hide reader in index and pages -> check angular-animate
+
+  DONE * Permanent URL calling reader.html
+
+!  MITCHELL OPINION  * It is also one more object for the thesis basket, according to how define the aims and goals
 
 DONE- When click the page-image thumb, call lightbox-like 
 
@@ -51,12 +178,26 @@ DONE- Clean 3-Transciption pages that have. e.g. "a6602036.html" in the top.
 
 DONE- Timeline view -> add it to the dropdown. Probably needs a timeline.html file
 
-- [OPTIONAL] Store configuration in HTML5 permanent store
-  * needs a form with config values. Submit stores/updates the config settings in HTML5 store. 
-  * Save visited pages w/ HTML5 storage (as in crossreads III)
+!  MITCHELL OPINION: * How to arrange graphically the lines, and metadata + button?
 
-NO- subsets/ for top pages by topic/topicGroup ...
-  > May be it needs a top.html
+
+MITCHELL OPINION- Decide if I clean the urls with: 
+  /index.html
+  /pages/index.html
+  /timeline/index.html
+  /reader/index.html
+  
+  Now (2015-10-29) the URLs are:
+  /index.html
+  /index.html#/topicGroup-0.02-2War (e.g.) 
+  /pages.html#/topicGroup-0.02-2War (e.g.)
+  /timeline.html
+  /reader.html#/[diaryID]/[page_index]
+
+  So in case I implement it, It'd be cleaner:
+  /#/topicGroup-0.02-2War (e.g.) 
+  /pages/#/topicGroup-0.02-2War (e.g.)
+  /reader/#/[diaryID]/[page_index]
 
 ------------------
 2) HTML & CSS:
@@ -66,29 +207,13 @@ NO- subsets/ for top pages by topic/topicGroup ...
   * CSS
   * colors
 
-
-- Header: with partials: 
-  * Links
-  * title(diggersdiaries)
-  * feedback
-  * Legend/sublegend for topics -> as buttons like in vIII? Then what happens onclick?? 
-  ** MENU: the five TG
-  ** Above the MENU: TagCloud (font sixe proportional to topic score [terms.json]) with topics with TG color
+MITCHELL OPINION ---> use bootstrap?
 
 
-- Welcome page:
+##################################################################################################################
+##################################################################################################################
 
-- Reader:
-  * full screen
-  With buttons to move
-  * previous, Next
-  * Close, exit full screen
-  * Color-circles to jump to a topic group page
-
-  
-
-#########################################################
-BONE 2015-10-21
+DONE 2015-10-21
 
 js/Controller.js
 DONE  - Get pageID from diaryID and page-number

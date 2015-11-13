@@ -1,34 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" ng-App="">
   <head>
-    <title>Diaries Demo</title>
-  	<meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Explore and read the  collection of WWI diaries from Australian soldiers">
+    <meta name="jaume at nualart.cat (2015)" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>diggersdiaries.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <!--link href="css/carousel.css" rel="stylesheet">-->
    	<link rel="stylesheet" href="css/style.css">
+
   	<script src="lib/angular.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
   </head>
+
+
   <body ng-controller="listControl">
-  <div ng-include="'partials/header.html'"></div>  
-    <div>
-      <h3>Order diaries by: 
-        <select ng-model="orderField">
-          <option value="author">Author</option>
-          <option value="start_date[0].start_year">Date</option>
-          <option value="chart[0]">Topic</option>
-        </select>
-      </h3> 
-  <div class="diary" ng-repeat="d in diaries | orderBy:orderField">
-	  <div class="meta" ng-class="{'expand':d.expand}" >
-		  <span>{{d.title}}</span> <!-- - {{d.author}} - {{d.start_date[0].start_year}}-{{d.end_date[0].end_year}}</p> -->
-	  </div>
-	  <div class="pages"">
-      <img ng-bind="mypath=getPath();" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; addOnClick($event, focusDiary.pages[0].page_no, d);"/>
-      <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left':'{{focusDiary.left}}px','top':'{{focusDiary.top}}px'}"></div>
+  <div ng-include="'partials/header.html'">
+  </div>  
+  <div id="pagespanel" class="container topcontainer navbar-fixed-top">
+    <p>&nbsp;</p>
+    <p>Order diaries by: 
+      <select ng-init="orderField='start_date[0].start_year'" ng-model="orderField">
+        <option value="author">Author</option>
+        <option value="start_date[0].start_year">Date</option>
+        <option value="chart[0]">Topic</option>
+      </select>
+    &nbsp;&nbsp;&nbsp;&nbsp;Hide/Show titles
+    <button id="titles-button" type="button" class="btn-group btn-group-xs mybtn" ng-click="showTitles=!showTitles">Hide/Show titles &nbsp;&nbsp;<img src="img/glyphicons-602-chevron-down.png" /></button>
+    </p>
+    
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-all"><img class="img-circle" src="img/20percent.jpg" alt="20% Topic thershold" width="70" height="70" /></a>
+    <h5>Show all</h5>
     </div>
-    <div class="detail" ng-if="d.expand">
-	    <div ng-include="'partials/reader.html'"></div>
+<!--
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.3-all"><img class="img-circle" src="img/30percent.jpg" alt="30% Topic thershold" width="70" height="70" /></a>
+    <h5>All 30%</h5>
+    </div>
+-->
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-1Personal"><img class="img-circle" src="img/personal.jpg" alt="The accidental tourist" width="70" height="70" /></a>
+    <h5>Personal</h5>
+    </div>
+
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-2War"><img class="img-circle" src="img/war.jpg" alt="The accidental tourist" width="70" height="70" /></a>
+    <h5>War</h5>
+    </div>
+
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-3Mil"><img class="img-circle" src="img/military.jpg" alt="The accidental tourist" width="70" height="70" /></a>
+    <h5>Militar life</h5>
+    </div>
+
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-4Travelling"><img class="img-circle" src="img/travelling.jpg" alt="The accidental tourist" width="70" height="70" /></a>
+    <h5>Travelling</h5>
+    </div>
+
+    <div class="left mycircle">
+      <a href="#/topicGroup-0.02-5Tourist"><img class="img-circle" src="img/tourist.jpg" alt="The accidental tourist" width="70" height="70" /></a>
+    <h5>The accidental tourist</h5>
+    </div>
+
+  </div>
+  <div class="topcontainerdouble"><p>&nbsp;</p></div>
+  <div class="container">
+    <div class="diary" ng-repeat="d in diaries | orderBy:orderField">
+	    <div class="meta titles" ng-class="{'expand':d.expand,'showTitles':showTitles}"  ng-show="showTitles" >
+		    <span class="titles">{{d.title}}</span>
+	    </div>
+	    <div class="image-grid">
+        <img class="img-pg" ng-bind="mypath=getPath();" ng-src="./data/img/{{mypath}}/{{d.nid}}.gif" ng-click="d.expand; pageExpand=true; imageGridClick($event, d.page_no, d);"/>
+        <div id="flyingdiv" ng-if="pageExpand" ng-style="{'left': focusDiary.left + 'px','top': focusDiary.top + 'px'}"></div>
+      </div>
+      <div class="detail" ng-if="d.expand">
+	      <div ng-include="'partials/reader.html'"></div>
+      </div>
     </div>
   </div>
+  
+  <div class="container">
+    <!-- FOOTER -->
+    <div ng-include="'partials/footer.html'">
+    </div>
+    <!-- END FOOTER -->
+  </div>
 
+  <!--end of row 2-->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
   </body>
 </html>

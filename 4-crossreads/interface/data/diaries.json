@@ -780,7 +780,7 @@
         "end_month": "January"
       }
     ],
-    "title": "Robert James Drummond correspondence and miscellaneous papers, 28 September 1918-9 January 1919",
+    "title": "R. J. Drummond correspondence and miscellaneous papers, 1918-1919",
     "url": "item-03-robert-james-drummond-correspondence-and-miscellaneous-papers-28-september-1918-9",
     "author": "Robert James Drummond",
     "chart": [
@@ -3938,7 +3938,7 @@
     ],
     "title": "Sir David Gilbert Ferguson reminiscences, 1937",
     "url": "series-01-part-06-sir-david-gilbert-ferguson-reminiscences-1937",
-    "author": "Series 01 Part 06. Sir David Gilbert Ferguson",
+    "author": "Sir David Gilbert Ferguson",
     "chart": [
       [
         60,
@@ -22547,9 +22547,9 @@
     "kind": "diary",
     "end_date": [
       {
-        "end_year": "",
-        "end_day": "",
-        "end_month": ""
+        "end_year": "1916",
+        "end_day": "30",
+        "end_month": "December"
       }
     ],
     "title": "Charles Monaghan diary, 1916",
@@ -22816,9 +22816,9 @@
     "nid": 281509,
     "start_date": [
       {
-        "start_month": "",
+        "start_month": "January",
         "start_year": "1916",
-        "start_day": ""
+        "start_day": "1"
       }
     ],
     "id": 98
@@ -112704,7 +112704,7 @@
         "end_month": "July"
       }
     ],
-    "title": "Series 01. Anne Donnell circular letters, 25 May 1915 - 8 July 1918",
+    "title": "Anne Donnell circular letters, 25 May 1915 - 8 July 1918",
     "url": "series-01-anne-donnell-circular-letters-25-may-1915-8-july-1918",
     "author": "Anne Donnell",
     "chart": [

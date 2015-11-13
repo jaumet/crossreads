@@ -1,46 +1,243 @@
-<!doctype html>
-<html lang="en" ng-App="">
+ƒ<!DOCTYPE html>
+<html lang="en"  ng-App="">
   <head>
-      <title>Diaries Demo</title>
-  	<meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Explore and read the  collection of WWI diaries from Australian soldiers">
+    <meta name="jaume at nualart.cat (2015)" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>diggersdiaries.org</title>
+
+    <!-- google font -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+   	<link rel="stylesheet" href="css/style.css">
+
 
   	<script src="lib/angular.min.js"></script>
-    <script src="lib/angular-route.min.js"></script>
-
     <script type="text/javascript" src="js/controller.js"></script>
-
-    <style type="text/css">
-
-    body{
-
-      font-family: Helvetica, Arial, sans-serif;
-      background-color: #eee;
-    }
-
-      .diary-tile{
-        display: inline-block;
-        background-color:white;
-        width:240px;
-        margin:5px;
-        padding:5px;
-      }
-
-      .diary-tile.expand{
-        width:100%;
-      }
-
-
-    </style>
-
   </head>
-  <body ng-controller="listControl">
+  
+<!--BODY
+======================================================-->  
+  
+  <body ng-controller="readerControl">
+<!--navbar-->
+
+  <div ng-include="'partials/header.html'"></div>
+    
+<!--row 0: topics menu-->
+
+  <div class="container topcontainerreader">
+    <p><button type="button" class="btn-group btn-group-xs mybtn" data-toggle="collapse" data-target=".mysubmenu ">Show/hide all topics&nbsp;&nbsp;<img src="img/glyphicons-602-chevron-down.png" \></button>
+    </p>
+  </div>
+
+<!---->
+
+  <div class="container">
+  <div class="col-md-2">
+    <div id="menu1" class="dropdown">
+      <img ng-click="getTop('TG-1-per.json','random')" class="img-circle" src="img/personal.jpg" alt="personal" width="70" height="70" />&nbsp;
+      <span class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" data-target="menu1" aria-haspopup="true" aria-expanded="true" />
+        <img src="img/personal-arrow.jpg" />
+      </span>
+      <ul class="dropdown-menu mysubmenu" aria-labelledby="dropdownMenu1">
+         <li><a ng-click="getTop('Topic-1-per--11-Christmas.json','random')" class="c1 size0">Christmas</a></li>
+         <li><a ng-click="getTop('Topic-1-per--12-Education.json','random')" class="c1 size10">Education</a></li> 
+         <li><a ng-click="getTop('Topic-1-per--13-Food.json','random')" class="c1 size2">Food</a></li>
+         <li><a ng-click="getTop('Topic-1-per--14-Letters_&_family.json','random')" class="c1 size8">Letters & family</a></li>
+         <li><a ng-click="getTop('Topic-1-per--15-Money_&_shopping.json','random')" class="c1 size1">Money & shopping</a></li>
+         <li><a ng-click="getTop('Topic-1-per--16-Music_and_party.json','random')" class="c1 size1">Music and party</a></li>
+         <li><a ng-click="getTop('Topic-1-per--17-Personal_care_&_clothes.json','random')" class="c1 size2">Personal care & clothes</a></li>
+         <li><a ng-click="getTop('Topic-1-per--18-Poetry_&_spirit.json','random')" class="c1 size4">Poetry & spirit</a></li>
+         <li><a ng-click="getTop('Topic-1-per--19-Weather.json','random')" class="c1 size5">Weather</a></li>
+         <li><a ng-click="getTop('Topic-1-per--110-Women.json','random')" class="c1 size0">Women</a></li>
+      </ul>
+    </div>          
+    <h4>Personal</h4>
+  </div>
+
+<!---->
+
+  <div class="col-md-2">
+    <div class="dropdown">
+    <img ng-click="getTop('TG-2-war.json','random')" class="img-circle" src="img/war.jpg" alt="war" width="70" height="70" />&nbsp;
+    <span class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" />
+    <img src="img/war-arrow.jpg" />
+    </span>
+      <ul class="dropdown-menu mysubmenu" aria-labelledby="dropdownMenu1">
+        <li><a ng-click="getTop('Topic-2-war--21-Air.json','random')" class="c2 size0">Air</a></li>
+        <li><a ng-click="getTop('Topic-2-war--22-Combat.json','random')" class="c2 size13">Combat</a></li>
+        <li><a ng-click="getTop('Topic-2-war--23-Context.json','random')" class="c2 size1">Context</a></li>
+        <li><a ng-click="getTop('Topic-2-war--25-Health.json','random')" class="c2 size3">Health</a></li>
+        <li><a ng-click="getTop('Topic-2-war--24-Front_line.json','random')" class="c2 size2">Front line</a></li>
+      </ul>
+    </div>
+    <h4>War</h4>
+  </div>
+
+<!---->
+
+  <div class="col-md-2">
+    <div class="dropdown">
+    <img ng-click="getTop('TG-3-mil.json','random')" class="img-circle" src="img/military.jpg" alt="Militar life" width="70" height="70" />&nbsp;
+    <span class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" />
+    <img src="img/military-arrow.jpg" />
+    </span>
+      <ul class="dropdown-menu mysubmenu" aria-labelledby="dropdownMenu1">
+        <li><a ng-click="getTop('Topic-3-mil--31-Camping.json','random')" class="c3 size3">Camping</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--32-General.json','random')" class="c3 size8">General</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--33-Horses.json','random')" class="c3 size1">Horses</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--34-Lists_&_reports.json','random')" class="c3 size5">Lists & reports</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--35-POW.json','random')" class="c3 size0">POW</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--36-Sports.json','random')" class="c3 size1">Sports</a></li>
+        <li><a ng-click="getTop('Topic-3-mil--37-Technical.json','random')" class="c3 size0">Technical</a></li>
+      </ul>
+    </div>
+    <h4>Militar life</h4>
+  </div>
+
+<!---->
+
+  <div class="col-md-2">           
+    <div class="dropdown">
+      <img ng-click="getTop('TG-4-tra.json','random')" class="img-circle" src="img/travelling.jpg" alt="Travelling" width="70" height="70" />&nbsp;
+      <span class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" />
+        <img src="img/travelling-arrow.jpg" />
+      </span>
+      <ul class="dropdown-menu mysubmenu" aria-labelledby="dropdownMenu1">
+        <li><a ng-click="getTop('Topic-4-tra--41-Middle_East.json','random')" class="c4 size3">Middle East</a></li>
+        <li><a ng-click="getTop('Topic-4-tra--42-Over_the_sea.json','random')" class="c4 size8">Over the sea</a></li>
+        <li><a ng-click="getTop('Topic-4-tra--43-Roads_&_railways.json','random')" class="c4 size5">Roads & railways</a></li>
+      </ul>
+    </div>
+    <h4>Travelling</h4>
+  </div>
+
+<!---->
+
+  <div class="col-md-2">          
+    <div class="dropdown">
+      <img ng-click="getTop('TG-5-tou.json','random')" class="img-circle" src="img/tourist.jpg" alt="The accidental tourist" width="70" height="70" />&nbsp;
+      <span class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" />
+      <img src="img/tourist-arrow.jpg" />
+      </span>
+        <ul class="dropdown-menu mysubmenu" aria-labelledby="dropdownMenu1">
+          <li><a ng-click="getTop('Topic-5-tou--51-City_life.json','random')" class="c5 size3">City life</a></li>
+          <li><a ng-click="getTop('Topic-5-tou--53-Egipt.json','random')" class="c5 size1">Egipt</a></li>
+          <li><a ng-click="getTop('Topic-5-tou--52-Countryside.json','random')" class="c5 size2">Countryside</a></li>
+          <li><a ng-click="getTop('Topic-5-tou--54-France.json','random')" class="c5 size0">France</a></li>
+          <li><a ng-click="getTop('Topic-5-tou--55-UK.json','random')" class="c5 size2">UK</a></li>
+        </ul>
+      </div>
+      <h4>The accidental tourist</h4>
+    </div>
+  </div>
+
+
+  
+<!--row 1: diary grid-image
+================================== -->
+
+  <!-- Show Reader default if diaryID and pageiD not set -->
+  <div class="container" ng-if="!checkPath()">
+    <h2>Welcome to diggers diaries reader</h2>
+    <h3>The reader invites you to divw into the diaries, at least, in two ways:</h3>
+    <p>Start by selecting a topic group (circles) or a topic (arrows) above. Then:</p>
+    <ul>
+      <li>Crossreading:  read pages jumping page by page according to their topics.</li>
+      <li>Normal reading: read  a diary normally, page by page</li>
+    </ul>
+  </div>
+
+  <!-- Show Reader if diaryID and pageID are set  (1 of 2) -->
+  <div class="container" ng-if="checkPath()">
+    <p>Diary pages [clickable]
+    <div class="image-grid">
+      <img ng-bind="mypath=getPath('page');" ng-src="./data/img/topicGroup-0.02-all/{{d.meta.nid}}.gif" ng-click="pageExpand=true; imageGridClick($event, d.page_no, d);"/>
+      <div id="flyingdiv" ng-style="{'left': d.left + 'px','top': d.top  + 'px'}"></div>
+    </div>
+    </p>
+  </div>
+  
+  <!-- Show Reader if diaryID and pageID are set   (2 of 2)-->
+  <div class="container" ng-if="checkPath()">  
+
+<!--row 2: -->
+    <div class="row row-image-grid">
+<!--column 2.1-->
+
+      <div class="col-md-8">
+        <pre><span ng-click="prevPage()"><img class="img-arrow" src="img/glyphicons-225-chevron-left.png" /></span>&nbsp;<small>page {{d.page_index_norm}} of {{d.page_no}}</small>&nbsp;<span ng-click="nextPage()"><img class="img-arrow" src="img/glyphicons-224-chevron-right.png" /></span><a href="reader.html#/{{d.nid}}/{{d.focusPageIndex+1}}"><img alt="Permanent URL" class="right link" src="img/glyphicons-51-link.png" /></a></p>
+          <div ng-include="'data/transcriptions/'+d.meta.nid+'/'+currentPage.id+'.txt'">
+          </div>
+          </pre>
+          <!-- AddToAny BEGIN -->
+          <div class="a2a_kit a2a_default_style">
+          <a class="a2a_dd" href="https://www.addtoany.com/share?linkurl=diggersdiaries.org&amp;linkname=diggersdiaries.org">Share</a>
+          <span class="a2a_divider"></span>
+          <a class="a2a_button_twitter"></a>
+          <a class="a2a_button_facebook"></a>
+          </div>
+          <script type="text/javascript">
+          var a2a_config = a2a_config || {};
+          a2a_config.linkname = "diggersdiaries.org: read ANZAC's' WWI diaries";
+          a2a_config.onclick = 1;
+          a2a_config.num_services = 10;
+          </script>
+          <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+          <!-- AddToAny END -->          
+      </div>
+       
+<!--column 2.2-->
+
+      <div id="col-md-2">
+        <div class="page-meta">
+          <h2>by <b>{{d.meta.author}}</b>&nbsp;<a href="http://discoveringanzacs.naa.gov.au/Search/General?query={{d.meta.author}}" target="_{{d.author}}" class="btn-xs">bio >></a></h2>
+          <img tabindex=0 class="thumb left" src="img/nopage.jpg"/>
+          <p>title: <b>{{d .meta.title}}</b></p>
+          <p>dates: <b>{{d.meta.start_date[0].start_year}}-{{d.meta.end_date[0].end_year}}</b></p>
+          <p>&nbsp;</p>
+        </div> 
+        <div class="clear"></div>        
+        <div class="barchart" ng-repeat = "c in currentPage.filteredTopics | limitTo:5">
+          <div class="label left">{{getTopic(c[0], 0)}}</div>
+          <div class="bar left" ng-style="{'width': c[1]*200+5 + 'px','background-color': '{{getTopic(c[0],1)}}'}"></div>
+          <br />
+        </div>
+      </div>
+
+    </div>
+    <!--end of row 2-->
+  </div>
 
     <div class="container">
-      <p>hello</p>
-      <div ng-include="'data/3-Transcriptions/308751/353284.txt'"></div>
+      <!-- FOOTER -->
+      <div ng-include="'partials/footer.html'">
+      </div>
+      <!-- END FOOTER -->
     </div>
 
-
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
   </body>
 </html>
